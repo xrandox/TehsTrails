@@ -1,8 +1,8 @@
 <OverlayData>
 	<MarkerCategory name="tt" DisplayName="Teh's Trails">
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<!--------------------------------------------------------------------------------------------- Marker Organization ---------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                        Marker Organization                                                                        ==-->
+		<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="wc" DisplayName="World Completion">	
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
@@ -55,12 +55,12 @@
 
 			</MarkerCategory>
 			
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->	
-		<!---------------------------------------------------------------------------------------------- MAIN TRAILS ----------------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!--=======================================================================================================================================================================-->	
+		<!--==                                                                              MAIN TRAILS                                                                          ==-->
+		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="mt" DisplayName="Main Trails">
 				
-				<!---- Main Trail Categories ---->
+				<!-- Main Trail Categories -->
 				<MarkerCategory name="mapt" DisplayName="Map Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/WorldCompletion/General/Trail.png" trailScale="1" miniMapVisibility="0">
 					<MarkerCategory name="a" DisplayName="Ascalon">
 						<MarkerCategory name="fireheartrise" DisplayName="Fireheart Rise"/>
@@ -128,7 +128,7 @@
 					</MarkerCategory>
 				</MarkerCategory>
 				
-				<!---- Skyscale Trail Categories ---->
+				<!-- Skyscale Trail Categories -->
 				<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/WorldCompletion/General/SkyscaleTrail.png" trailScale="1" miniMapVisibility="0">
 					<MarkerCategory name="a" DisplayName="Ascalon">
 						<MarkerCategory name="ironmarches" DisplayName="Iron Marches"/>
@@ -143,12 +143,12 @@
 				</MarkerCategory>
 				
 			</MarkerCategory>
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------- HEARTS ---------------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->	
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                               HEARTS                                                                              ==-->
+		<!--=======================================================================================================================================================================-->	
 			<MarkerCategory name="h" DisplayName="Hearts">
 			
-				<!---- Heart Trail Categories ---->
+				<!-- Heart Trail Categories -->
 				<MarkerCategory name="ht" DisplayName="Heart Trails" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/WorldCompletion/General/HeartTrail.png" trailScale="1" miniMapVisibility="0">
 					<MarkerCategory name="a" DisplayName="Ascalon">
 						<MarkerCategory name="fireheartrise" DisplayName="Fireheart Rise"/>
@@ -184,7 +184,7 @@
 					</MarkerCategory>
 				</MarkerCategory>
 				
-				<!---- Heart Zone Categories ---->
+				<!-- Heart Zone Categories -->
 				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/WorldCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0">
 					<MarkerCategory name="a" DisplayName="Ascalon">
 						<MarkerCategory name="fireheartrise" DisplayName="Fireheart Rise"/>
@@ -220,7 +220,7 @@
 					</MarkerCategory>
 				</MarkerCategory>
 				
-				<!---- Common Heart Markers ---->
+				<!-- Common Heart Markers -->
 				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
 					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/WorldCompletion/General/Renown_Heart_empty.png"/>
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/WorldCompletion/General/Renown_Heart.png"/>
@@ -234,7 +234,7 @@
 					<MarkerCategory name="tradingpost" DisplayName="Trading Post Heart" iconFile="Data/WorldCompletion/General/Trading_Post.png" iconSize="0.5"/>
 				</MarkerCategory>
 				
-				<!---- Heart Specific Markers ---->
+				<!-- Heart Specific Markers -->
 				<MarkerCategory name="hsm" DisplayName="Heart-Specific Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
 					<MarkerCategory name="lattice1" DisplayName="Lattice 1" iconFile="Data/WorldCompletion/General/heartspecific/lattice1.png" iconSize="1"/>
 					<MarkerCategory name="lattice2" DisplayName="Lattice 2" iconFile="Data/WorldCompletion/General/heartspecific/lattice2.png"/>
@@ -265,12 +265,12 @@
 				</MarkerCategory>
 			
 			</MarkerCategory>
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<!-------------------------------------------------------------------------------------------------- HERO POINTS ------------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                            HERO POINTS                                                                            ==-->
+		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
 			
-				<!---- HP Trail Categories ---->
+				<!-- HP Trail Categories -->
 				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/WorldCompletion/General/HPTrail.png" trailScale="1" miniMapVisibility="0">
 					<MarkerCategory name="a" DisplayName="Ascalon">
 						<MarkerCategory name="fireheartrise" DisplayName="Fireheart Rise"/>
@@ -323,9 +323,9 @@
 
 			
 			</MarkerCategory>
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------- CREDITS --------------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                               CREDITS                                                                             ==-->
+		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="credits" DisplayName="Credits">
 			
 				<MarkerCategory name="createdby" DisplayName="Created By">
@@ -371,12 +371,12 @@
 	</MarkerCategory>
 	
 	<POIs>	
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-	<!--------------------------------------------------------------------------------------------------- CITIES ----------------------------------------------------------------------------------------------------->
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                                  CITIES                                                                           ==-->
+	<!--=======================================================================================================================================================================-->
 		
-		
-		<!----------------------------------------------- BLACK CITADEL MARKERS ------------------------------------------------>
+
+		<!--============================================= BLACK CITADEL MARKERS =============================================-->
 		<POI MapID="218" xpos="0.265073" ypos="199.391" zpos="216.658" type="tt.wc.cm.rm.waypoints" GUID="mgctLWu0/UmlwxW7sM1FgA=="/>
 		<POI MapID="218" xpos="0.531669" ypos="199.988" zpos="213.54" type="tt.wc.cm.wm.wpx" GUID="FBOVRx4ZBU61A+UgzrssyA=="/>
 		<POI MapID="218" xpos="0.601186" ypos="214.091" zpos="203.292" type="tt.wc.cm.wm.x" GUID="dYUVS3RmhkOtFLABuISsBg=="/>
@@ -445,22 +445,22 @@
 		<POI MapID="218" xpos="-286.102" ypos="43.7872" zpos="98.4246" type="tt.wc.cm.rm.vistas" GUID="SL5dXAW4RU+R09eKyC7UKA=="/>
 		<POI MapID="218" xpos="-311.41" ypos="13.6012" zpos="-248.649" type="tt.wc.cm.wm.wpheart" GUID="/qEmg5uNK0W7hwW1V7VTlw=="/>
 		<POI MapID="218" xpos="-311.485" ypos="13.8052" zpos="-250.125" type="tt.wc.cm.rm.points_of_interest" GUID="ri+qe+6ZeUu4GrTE8AnALA=="/>
-			<!--------------------------------------- ASH TRIBUNE QUARTERS MARKERS ---------------------------------------->
+			<!--===================================== ASH TRIBUNE QUARTERS MARKERS =====================================-->
 		<POI MapID="833" xpos="-21.1978" ypos="228.554" zpos="291.629" type="tt.wc.cm.rm.points_of_interest" GUID="7YkXBgmejUOC0LOPd82flg=="/>
 		<POI MapID="833" xpos="-23.9215" ypos="228.935" zpos="290.412" type="tt.wc.cm.rm.finish" GUID="38kDIGZGGU+Zrkknra70Rw=="/>
-			<!--------------------------------------- BLOOD TRIBUNE QUARTERS MARKERS ---------------------------------------->
+			<!--===================================== BLOOD TRIBUNE QUARTERS MARKERS =====================================-->
 		<POI MapID="372" xpos="-5.00455" ypos="217.373" zpos="174.322" type="tt.wc.cm.rm.points_of_interest" GUID="yG6kASEaZ0GONCM+abJj4Q=="/>
 		<POI MapID="372" xpos="-7.83405" ypos="217.57" zpos="174.723" type="tt.wc.cm.rm.exit_instance" GUID="CVNxvcS+BEeiVrP6QA2GSw=="/>
-			<!--------------------------------------- CITADEL STOCKADE MARKERS ---------------------------------------->
+			<!--===================================== CITADEL STOCKADE MARKERS =====================================-->
 		<POI MapID="460" xpos="64.5319" ypos="159.747" zpos="231.502" type="tt.wc.cm.rm.exit_instance" GUID="wcR+ojP6q0G8FUVj/ruT1Q=="/>
 		<POI MapID="460" xpos="65.2165" ypos="159.941" zpos="234.127" type="tt.wc.cm.rm.points_of_interest" GUID="HMqPy7SB30Gp3ImWmMCt2Q=="/>
-			<!--------------------------------------- THE COMMAND CORE MARKERS ---------------------------------------->
+			<!--===================================== THE COMMAND CORE MARKERS =====================================-->
 		<POI MapID="373" xpos="10.1422" ypos="245.178" zpos="183.007" type="tt.wc.cm.rm.exit_instance" GUID="pgrQD4rKOEuB70t3NrI31A=="/>
 		<POI MapID="373" xpos="12.2152" ypos="245.019" zpos="183.063" type="tt.wc.cm.rm.points_of_interest" GUID="g8rXeao4AU+87DqP2bWwmQ=="/>
 		<POI MapID="373" xpos="26.1331" ypos="245.5" zpos="224.415" type="tt.wc.cm.rm.points_of_interest" GUID="57augUiBHkC3kf5c7wGCJA=="/>
 		
 		
-		<!----------------------------------------------- DIVINITY'S REACH MARKERS ------------------------------------------------>
+		<!--============================================= DIVINITY'S REACH MARKERS =============================================-->
 		<POI MapID="18" xpos="1.86795" ypos="79.6364" zpos="-268.647" type="tt.wc.cm.rm.waypoints" GUID="owhMGFrEzU2V9//cI3PtMg=="/>
 		<POI MapID="18" xpos="24.4765" ypos="133.836" zpos="7.815" type="tt.wc.cm.rm.points_of_interest" GUID="vIGAcRufVkC0oL1/HMqsNQ=="/>
 		<POI MapID="18" xpos="33.7406" ypos="61.224" zpos="282.034" type="tt.wc.cm.mm.jackal" GUID="c1dPH1zd9kWLPvjKBntFbw=="/>
@@ -533,13 +533,13 @@
 		<POI MapID="18" xpos="-284.097" ypos="75.063" zpos="-165.132" type="tt.wc.cm.rm.vistas" GUID="o64BnyC2fUusi9JmOUV2UA=="/>
 		<POI MapID="18" xpos="-299.894" ypos="99.1392" zpos="169.616" type="tt.wc.cm.rm.waypoints" GUID="cFBFSAPzF0CDF/qLPGuA5g=="/>
 		<POI MapID="18" xpos="-317.36" ypos="100.481" zpos="-265.537" type="tt.wc.cm.rm.waypoints" GUID="1VDlK8N/d0+vJmanq0Xh8Q=="/>
-			<!--------------------------------------- QUEEN'S THRONE ROOM MARKERS ---------------------------------------->
+			<!--===================================== QUEEN'S THRONE ROOM MARKERS =====================================-->
 		<POI MapID="378" xpos="66.625" ypos="136.424" zpos="17.5791" type="tt.wc.cm.rm.exit_instance" GUID="Y8qBjLDnKEm8CSpMz1tQkg=="/>
-			<!--------------------------------------- SERAPH HEADQUARTERS MARKERS ---------------------------------------->
+			<!--===================================== SERAPH HEADQUARTERS MARKERS =====================================-->
 		<POI MapID="330" xpos="105.5" ypos="134.954" zpos="2.69227" type="tt.wc.cm.rm.exit_instance" GUID="MOdB39h1Uk2TGLMPs/tnuw=="/>
 		
 		
-		<!----------------------------------------------- HOELBRAK MARKERS ------------------------------------------------>
+		<!--============================================= HOELBRAK MARKERS =============================================-->
 		<POI MapID="326" xpos="10.299" ypos="292.302" zpos="-359.239" type="tt.wc.cm.rm.exit_instance" GUID="uVJ1ncP6G0OBnGqpU3dxhw=="/>
 		<POI MapID="326" xpos="37.9522" ypos="292.319" zpos="-318.597" type="tt.wc.cm.rm.points_of_interest" GUID="KopNoQBlGk2etT9iy1+Wqg=="/>
 		<POI MapID="326" xpos="53.6127" ypos="248.736" zpos="132.251" type="tt.wc.cm.rm.waypoints" GUID="LgwhoerJKUGr2YdJHp5Bzw=="/>
@@ -601,17 +601,17 @@
 		<POI MapID="326" xpos="-288.834" ypos="279.924" zpos="110.499" type="tt.wc.cm.rm.points_of_interest" GUID="LYCiXkgTvEOa9thDWOkzBA=="/>
 		<POI MapID="326" xpos="-406.247" ypos="294.101" zpos="40.7764" type="tt.wc.cm.rm.vistas" GUID="tGHqPWnRJUOF+RhxR1F5dQ=="/>
 		<POI MapID="326" xpos="-408.371" ypos="294.655" zpos="39.2576" type="tt.wc.cm.wm.wpswirl" GUID="vCYKLbdmYU6tcAe26q6hsg=="/>
-			<!--------------------------------------- HUNTER'S HEART MARKERS ---------------------------------------->
+			<!--===================================== HUNTER'S HEART MARKERS =====================================-->
 		<POI MapID="375" xpos="80.7506" ypos="341.973" zpos="-325.688" type="tt.wc.cm.rm.exit_instance" GUID="pcJBZJeaUU2TxBEII5Bh1g=="/>
 		<POI MapID="375" xpos="82.3971" ypos="341.972" zpos="-322.971" type="tt.wc.cm.rm.points_of_interest" GUID="ecIcXdmaNUOHOgYTfBcUkQ=="/>
-			<!--------------------------------------- KNUT WHITEBEAR'S LOFT MARKERS ---------------------------------------->
+			<!--===================================== KNUT WHITEBEAR'S LOFT MARKERS =====================================-->
 		<POI MapID="374" xpos="15.0729" ypos="394.168" zpos="-348.052" type="tt.wc.cm.wm.wparrow" GUID="IcCfKVDxG0+4M4YGP7vWOQ=="/>
-			<!--------------------------------------- STONEWRIGHT'S STEADING MARKERS ---------------------------------------->
+			<!--===================================== STONEWRIGHT'S STEADING MARKERS =====================================-->
 		<POI MapID="376" xpos="397.826" ypos="337.19" zpos="-335.023" type="tt.wc.cm.rm.finish" GUID="jXRzvvhSyEyGA+5Or3I0Kw=="/>
 		<POI MapID="376" xpos="400.516" ypos="337.118" zpos="-332.493" type="tt.wc.cm.rm.points_of_interest" GUID="Al+jzdo8TUmwQH7mE+JTjQ=="/>
 		
 		
-		<!----------------------------------------------- LION'S ARCH MARKERS ------------------------------------------------>
+		<!--============================================= LION'S ARCH MARKERS =============================================-->
 		<POI MapID="50" xpos="69.3641" ypos="24.5885" zpos="315.652" type="tt.wc.cm.rm.points_of_interest" GUID="9g8Llai4Ikih4ZaHIPADDQ=="/>
 		<POI MapID="50" xpos="91.9232" ypos="23.9449" zpos="146.449" type="tt.wc.cm.rm.waypoints" GUID="H5GjaPFTNUu4odKEHS5Qmw=="/>
 		<POI MapID="50" xpos="95.7767" ypos="29.0314" zpos="161.663" type="tt.wc.cm.wm.arrow" GUID="OTTaP42T30qoTFe7da921Q=="/>
@@ -732,7 +732,7 @@
 		<POI MapID="50" xpos="-5471" ypos="100.209" zpos="-2996.07" type="tt.wc.cm.rm.start" GUID="8OLtmAJqL06a9FkmleQ90g=="/>
 		
 		
-		<!----------------------------------------------- MISTLOCK SANCTUARY MARKERS ------------------------------------------------>
+		<!--============================================= MISTLOCK SANCTUARY MARKERS =============================================-->
 		<POI MapID="1206" xpos="742" ypos="100.209" zpos="3668" type="tt.wc.cm.rm.start" GUID="swBX4FRbS0G5MOuFE38SVw=="/>
 		<POI MapID="1206" xpos="850.715" ypos="100.209" zpos="2485.07" type="tt.wc.cm.rm.start" GUID="YTgntnhJdEmlIelRwv6NCg=="/>
 		<POI MapID="1206" xpos="1368" ypos="100.209" zpos="1338" type="tt.wc.cm.rm.start" GUID="FcK8Ztf6EEKqiyDA2YOOZQ=="/>
@@ -760,7 +760,7 @@
 		<POI MapID="1206" xpos="-4331.72" ypos="100.209" zpos="-1127.07" type="tt.wc.cm.rm.start" GUID="QFRuPkwfHk6H76umhyBlVA=="/>
 		
 		
-		<!----------------------------------------------- RATA SUM MARKERS ------------------------------------------------>
+		<!--============================================= RATA SUM MARKERS =============================================-->
 		<POI MapID="139" xpos="14.8492" ypos="108.919" zpos="-356.496" type="tt.wc.cm.rm.waypoints" GUID="TLWE+NGAg0O2+sSVTlGcVw=="/>
 		<POI MapID="139" xpos="20.3257" ypos="339.556" zpos="37.192" type="tt.wc.cm.rm.points_of_interest" GUID="jbQbQwaKu02cPFKfrhJorA=="/>
 		<POI MapID="139" xpos="24.9355" ypos="385.825" zpos="71.1351" type="tt.wc.cm.rm.dismount" GUID="sMZ54KgSHkiKsVsMJ58Axg=="/>
@@ -808,18 +808,18 @@
 		<POI MapID="139" xpos="-325.28" ypos="35.9496" zpos="-521.527" type="tt.wc.cm.rm.waypoints" GUID="0F6T4WL1Nk6Rpf8WMOR/5Q=="/>
 		<POI MapID="139" xpos="-325.961" ypos="35.6203" zpos="-537.38" type="tt.wc.cm.mm.griffon" GUID="zaP04k5FWEuu6A0HURK5Hg=="/>
 		<POI MapID="139" xpos="-364.596" ypos="4.97966" zpos="-547.35" type="tt.wc.cm.rm.exit_instance" GUID="6vfIh54o1UqEBGOGzQO4LA=="/>
-			<!--------------------------------------- APPLIED DEVELOPMENT LAB MARKERS ---------------------------------------->
+			<!--===================================== APPLIED DEVELOPMENT LAB MARKERS =====================================-->
 		<POI MapID="650" xpos="-534.681" ypos="327.799" zpos="632.007" type="tt.wc.cm.rm.points_of_interest" GUID="ZAOVbUmZdE2IMrkDoRPJpw=="/>
 		<POI MapID="650" xpos="-538.059" ypos="327.799" zpos="630.836" type="tt.wc.cm.rm.exit_instance" GUID="SSvtN5TbmEKGuD+spIsM4w=="/>
-			<!--------------------------------------- COUNCIL LEVEL MARKERS ---------------------------------------->
+			<!--===================================== COUNCIL LEVEL MARKERS =====================================-->
 		<POI MapID="651" xpos="47.5005" ypos="488.13" zpos="158.965" type="tt.wc.cm.rm.exit_instance" GUID="lhO5fSUOyEarWoN25KImJQ=="/>
 		<POI MapID="651" xpos="49.4929" ypos="488.137" zpos="157.645" type="tt.wc.cm.rm.points_of_interest" GUID="rmLFZFSm5UqlukOsgy5biQ=="/>
-			<!--------------------------------------- SNAFF MEMORIAL LAB MARKERS ---------------------------------------->
+			<!--===================================== SNAFF MEMORIAL LAB MARKERS =====================================-->
 		<POI MapID="649" xpos="-292.924" ypos="79.1691" zpos="41.0427" type="tt.wc.cm.rm.exit_instance" GUID="lClD9mmWF0a6N5PgYlNOJQ=="/>
 		<POI MapID="649" xpos="-293.442" ypos="79.1691" zpos="43.9845" type="tt.wc.cm.rm.points_of_interest" GUID="2Bv8aHOWf0WUNFS9wn2Wgw=="/>
 		
 		
-		<!----------------------------------------------- THE GROVE MARKERS ------------------------------------------------>
+		<!--============================================= THE GROVE MARKERS =============================================-->
 		<POI MapID="91" xpos="4.02379" ypos="0.780512" zpos="8.40138" type="tt.wc.cm.mm.springer" GUID="NeJiCTxmu0qpgPrVhckTnQ=="/>
 		<POI MapID="91" xpos="11.325" ypos="24.2476" zpos="3.33159" type="tt.wc.cm.rm.vistas" GUID="+1Jfv3dUYkStQvy4PBvOhw=="/>
 		<POI MapID="91" xpos="12.8943" ypos="25.9136" zpos="3.31687" type="tt.wc.cm.rm.finish" GUID="moAiwEW8eE6BUnCpGZXCGA=="/>
@@ -866,7 +866,7 @@
 		<POI MapID="91" xpos="-89.7966" ypos="48.6947" zpos="88.8936" type="tt.wc.cm.rm.points_of_interest" GUID="5WNmA+Wdek60qqXr3nz9Ew=="/>
 		<POI MapID="91" xpos="-91.3093" ypos="23.6716" zpos="174.399" type="tt.wc.cm.rm.points_of_interest" GUID="b3lwdZFcyEGcnMuCjXRR+g=="/>
 		<POI MapID="91" xpos="-94.2584" ypos="-0.191603" zpos="22.4208" type="tt.wc.cm.rm.points_of_interest" GUID="dVGwKeDfZU6g2OeGqROZwg=="/>
-			<!--------------------------------------- THE OMPHALOS CHAMBER MARKERS ---------------------------------------->
+			<!--===================================== THE OMPHALOS CHAMBER MARKERS =====================================-->
 		<POI MapID="648" xpos="29.4478" ypos="102.976" zpos="56.797" type="tt.wc.cm.rm.points_of_interest" GUID="wDjyFQ5rSkCNg8l+PiGzlg=="/>
 		<POI MapID="648" xpos="31.9083" ypos="100.543" zpos="21.4545" type="tt.wc.cm.rm.points_of_interest" GUID="SKmazg/ho0mshgS8ohnm7A=="/>
 		<POI MapID="648" xpos="32.0436" ypos="100.867" zpos="19.3943" type="tt.wc.cm.rm.exit_instance" GUID="rHEG9Eg3Vk2SmBMgx8P3rQ=="/>
@@ -875,15 +875,15 @@
 		
 		
 		
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-	<!--------------------------------------------------------------------------------------------------- ASCALON ---------------------------------------------------------------------------------------------------->
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                            ASCALON                                                                                ==-->
+	<!--=======================================================================================================================================================================-->
 		
 		
 		
 		
 		
-		<!----------------------------------------------- BLAZERIDGE STEPPES ------------------------------------------------>
+		<!--============================================= BLAZERIDGE STEPPES =============================================-->
 		<POI MapID="20" xpos="6.89477" ypos="49.1205" zpos="-82.9824" type="tt.wc.h.chm.talk" GUID="U1a4+xvoJkWn15iVj+rokA=="/>
 		<POI MapID="20" xpos="15.213" ypos="52.2276" zpos="-111.07" type="tt.wc.h.chm.start_heart" GUID="0UWI7NsEskihFNLKlhrAlQ=="/>
 		<POI MapID="20" xpos="43.5303" ypos="-0.682394" zpos="-1141.21" type="tt.wc.h.chm.interact" GUID="Wu6zVJz1gkqw300VpM5OsQ=="/>
@@ -993,7 +993,7 @@
 		<POI MapID="20" xpos="-548.315" ypos="36.368" zpos="-415.9" type="tt.wc.cm.rm.start" GUID="rRYkajyqZ0+ReSl5mBhE+w=="/>
 		
 		
-		<!----------------------------------------------- DIESSA PLATEAU MARKERS ------------------------------------------------>
+		<!--============================================= DIESSA PLATEAU MARKERS =============================================-->
 		<POI MapID="32" xpos="59.3148" ypos="33.1865" zpos="338.777" type="tt.wc.h.chm.start_heart" GUID="5fOJFCHxI0i9wn3+rQs/zQ=="/>
 		<POI MapID="32" xpos="59.5342" ypos="32.1865" zpos="336.383" type="tt.wc.cm.rm.waypoints" GUID="9kGGBhr/y0mojGnzqkorOg=="/>
 		<POI MapID="32" xpos="80.0389" ypos="-22.5709" zpos="219.289" type="tt.wc.h.chm.interact" GUID="Eg7h7fQWzU+4uL95ks7/cg=="/>
@@ -1215,7 +1215,7 @@
 		<POI MapID="32" xpos="-1003.88" ypos="69.8556" zpos="-550.965" type="tt.wc.cm.rm.points_of_interest" GUID="8U7lJ8L4iUWazux0QuRnpg=="/>
 		
 		
-		<!----------------------------------------------- FIELDS OF RUIN MARKERS ------------------------------------------------>
+		<!--============================================= FIELDS OF RUIN MARKERS =============================================-->
 		<POI MapID="21" xpos="27.0052" ypos="18.0163" zpos="-23.6474" type="tt.wc.h.chm.interact" GUID="fFEvtHR1VU+OUSiIOLRnAQ=="/>
 		<POI MapID="21" xpos="27.1187" ypos="22.0728" zpos="745.287" type="tt.wc.h.chm.start_heart" GUID="5bl3XS3kjU+AbPaV4zNoIw=="/>
 		<POI MapID="21" xpos="30.3192" ypos="19.2523" zpos="-189.905" type="tt.wc.cm.rm.points_of_interest" GUID="Vz5+cuEaZk6jzuzf5uZtAQ=="/>
@@ -1391,7 +1391,7 @@
 		<POI MapID="21" xpos="-821.677" ypos="60.6851" zpos="-570.188" type="tt.wc.h.chm.interact" GUID="hrpt9d9vE0eH8DFtKvK+1g=="/>
 		
 		
-		<!----------------------------------------------- FIREHEART RISE MARKERS ------------------------------------------------>
+		<!--============================================= FIREHEART RISE MARKERS =============================================-->
 		<POI MapID="22" xpos="21.8556" ypos="16.5211" zpos="-331.843" type="tt.wc.h.chm.interact" GUID="MHW6OGOLFEy+5FT6HpwrZw=="/>
 		<POI MapID="22" xpos="28.3593" ypos="40.9984" zpos="210.779" type="tt.wc.cm.rm.waypoints" GUID="xD+e7kIZjUSeJK3Wf1gpFg=="/>
 		<POI MapID="22" xpos="45.0969" ypos="22.2492" zpos="-375.089" type="tt.wc.h.chm.interact" GUID="zL3RpsFLAkuiLmIdnSmQqg=="/>
@@ -1530,7 +1530,7 @@
 		<POI MapID="22" xpos="-885.715" ypos="60.7043" zpos="-631.603" type="tt.wc.h.chm.finish_heart" GUID="Y7ocRBdtNk6m4MkjwPLvEw=="/>
 	
 	
-		<!----------------------------------------------- IRON MARCHES MARKERS ------------------------------------------------>
+		<!--============================================= IRON MARCHES MARKERS =============================================-->
 		<POI MapID="25" xpos="0.961946" ypos="58.5988" zpos="1041.05" type="tt.wc.h.chm.finish_heart" GUID="tSNJ1KQ7/EyJFoKdASNfAw=="/>
 		<POI MapID="25" xpos="4.12865" ypos="23.5545" zpos="-1162.24" type="tt.wc.cm.rm.waypoints" GUID="PjiggShULE6HmCDp90tzvA=="/>
 		<POI MapID="25" xpos="13.7826" ypos="17.096" zpos="-1024.34" type="tt.wc.cm.rm.points_of_interest" GUID="YxwSpI9kjkq7yM/wnekhZg=="/>
@@ -1639,7 +1639,7 @@
 		<POI MapID="25" xpos="-549.408" ypos="51.5341" zpos="-373.898" type="tt.wc.h.chm.talk" GUID="pJWWCe4xpk2ouecHqMlx0w=="/>
 		
 		
-		<!----------------------------------------------- PLAINS OF ASHFORD MARKERS ------------------------------------------------>
+		<!--============================================= PLAINS OF ASHFORD MARKERS =============================================-->
 		<POI MapID="19" xpos="16.579" ypos="31.932" zpos="-28.4926" type="tt.wc.cm.wm.wpx" GUID="8/PT0ZWIL0y/IVIkxoVpcA=="/>
 		<POI MapID="19" xpos="17.0029" ypos="31.8872" zpos="-30.3562" type="tt.wc.h.chm.finish_heart" GUID="TPuY/nKHQUSFewuIFXB//Q=="/>
 		<POI MapID="19" xpos="37.4956" ypos="29.6198" zpos="-138.21" type="tt.wc.cm.wm.wpx" GUID="9/5uo9HWoUigMOtpjp7rkw=="/>
@@ -1813,12 +1813,12 @@
 		
 		
 		
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-	<!---------------------------------------------------------------------------------------------------- KRYTA ----------------------------------------------------------------------------------------------------->
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                                  KRYTA                                                                            ==-->
+	<!--=======================================================================================================================================================================-->
 		
 		
-		<!----------------------------------------------- GENDARRAN FIELDS MARKERS ------------------------------------------------>
+		<!--============================================= GENDARRAN FIELDS MARKERS =============================================-->
 		<POI MapID="24" xpos="17.968" ypos="-17.4974" zpos="27.9249" type="tt.wc.cm.rm.points_of_interest" GUID="97peq6hHEUqzsv51uywH2w=="/>
 		<POI MapID="24" xpos="110.941" ypos="19.123" zpos="80.0425" type="tt.wc.cm.mm.skimmer" GUID="vGpILQWqIk+B3+OHjoZCLw=="/>
 		<POI MapID="24" xpos="115.5" ypos="22.2925" zpos="83.5526" type="tt.wc.cm.rm.vistas" GUID="XCBSnGYKS0qBRa8GqpXozw=="/>
@@ -1952,7 +1952,7 @@
 		<POI MapID="24" xpos="-1203.86" ypos="18.0611" zpos="-312.073" type="tt.wc.cm.mm.griffon" GUID="mT5rTiegdUaU964fl+4iCg=="/>
 		
 	
-		<!----------------------------------------------- HARATHI HINTERLANDS MARKERS ------------------------------------------------>
+		<!--============================================= HARATHI HINTERLANDS MARKERS =============================================-->
 		<POI MapID="17" xpos="4.93963" ypos="57.8226" zpos="541.464" type="tt.wc.h.chm.start_heart" GUID="Fc0FfnPT+EmA0Uzfg65YpQ=="/>
 		<POI MapID="17" xpos="15.5802" ypos="57.9174" zpos="522.212" type="tt.wc.h.chm.interact" GUID="kyIshv6vj0uUnDQCLKv22Q=="/>
 		<POI MapID="17" xpos="15.9176" ypos="44.4106" zpos="273.534" type="tt.wc.cm.rm.waypoints" GUID="z460295ElkOcoM/q9sC1+Q=="/>
@@ -2093,7 +2093,7 @@
 		<POI MapID="17" xpos="-897.057" ypos="119.778" zpos="-169.067" type="tt.wc.cm.rm.points_of_interest" GUID="pt4ComhakkuV6oEV0+J3jA=="/>
 		
 		
-		<!----------------------------------------------- KESSEX HILLS MARKERS ------------------------------------------------>
+		<!--============================================= KESSEX HILLS MARKERS =============================================-->
 		<POI MapID="23" xpos="10.2014" ypos="46.6438" zpos="515.714" type="tt.wc.cm.rm.points_of_interest" GUID="zyc6k6b2SE+w4WIQyjk2vQ=="/>
 		<POI MapID="23" xpos="20.5139" ypos="-23.1351" zpos="-142.425" type="tt.wc.h.chm.interact" GUID="a3UJzBhoTUilQI/Hw1PWZg=="/>
 		<POI MapID="23" xpos="26.5519" ypos="-21.3324" zpos="-143.892" type="tt.wc.h.chm.interact" GUID="2yD2t8MHpUCvOLdLD6JpEw=="/>
@@ -2285,7 +2285,7 @@
 		<POI MapID="23" xpos="-1125.76" ypos="73.9864" zpos="283.039" type="tt.wc.cm.rm.waypoints" GUID="y65wy+/vw0yfEl5AbtIODg=="/>
 		
 		
-		<!----------------------------------------------- QUEENSDALE MARKERS ------------------------------------------------>
+		<!--============================================= QUEENSDALE MARKERS =============================================-->
 		<POI MapID="15" xpos="12.5934" ypos="59.4888" zpos="162.094" type="tt.wc.cm.mm.griffon" GUID="CndTv7bNbkGbcnjm939LBg=="/>
 		<POI MapID="15" xpos="36.8924" ypos="49.3772" zpos="147.525" type="tt.wc.cm.mm.springer" GUID="Q3tcnGzokUq7pZsCyICjgA=="/>
 		<POI MapID="15" xpos="75.8512" ypos="28.0374" zpos="-294.463" type="tt.wc.cm.rm.waypoints" GUID="RRBf5dP6Sk+vmk3z85HRfg=="/>
@@ -2494,12 +2494,12 @@
 		<POI MapID="15" xpos="-984.82" ypos="14.8803" zpos="539.149" type="tt.wc.h.chm.interact" GUID="rh4Ezlm6VEirFNtfi1PJsw=="/>
 		<POI MapID="15" xpos="-995.067" ypos="14.8443" zpos="534.045" type="tt.wc.h.chm.interact" GUID="3LCNPolQdU+6mXPfWnhVAQ=="/>
 		
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-	<!------------------------------------------------------------------------------------------------ MAGUUMA JUNGLE ------------------------------------------------------------------------------------------------>
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->	
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                           MAGUUMA JUNGLE                                                                          ==-->
+	<!--=======================================================================================================================================================================-->	
 		
 		
-		<!----------------------------------------------- BRISBAN WILDLANDS MARKERS ------------------------------------------------>
+		<!--============================================= BRISBAN WILDLANDS MARKERS =============================================-->
 		<POI MapID="54" xpos="-1.30271" ypos="62.3095" zpos="220.966" type="tt.wc.cm.rm.points_of_interest" GUID="LUa4u4mxrk+Gd6krncBn2A=="/>
 		<POI MapID="54" xpos="-100.395" ypos="52.613" zpos="240.985" type="tt.wc.cm.rm.waypoints" GUID="DeHoGzy1+Umdun8sWTyxXg=="/>
 		<POI MapID="54" xpos="-117.311" ypos="2.04616" zpos="610.874" type="tt.wc.h.chm.talk" GUID="ysjbLuHgl0mYK5EuurZXDQ=="/>
@@ -2666,7 +2666,7 @@
 		<POI MapID="54" xpos="986.591" ypos="83.4485" zpos="-442.13" type="tt.wc.cm.rm.points_of_interest" GUID="dVkaXnWvpUGYFMbn3oWftw=="/>
 		
 		
-		<!----------------------------------------------- CALEDON FOREST MARKERS ------------------------------------------------>
+		<!--============================================= CALEDON FOREST MARKERS =============================================-->
 		<POI MapID="34" xpos="16.2232" ypos="17.8722" zpos="-660.16" type="tt.wc.cm.wm.wparrow" GUID="AQMp60so+UKS134IusX4lQ=="/>
 		<POI MapID="34" xpos="16.3672" ypos="17.7231" zpos="-662.207" type="tt.wc.cm.rm.waypoints" GUID="zeH1DLMmrEWUSAW8zewhBQ=="/>
 		<POI MapID="34" xpos="19.4261" ypos="17.5805" zpos="-661.47" type="tt.wc.h.chm.finish_heart" GUID="5wYkcOMcdUuRG5Re6+kmRA=="/>
@@ -2871,7 +2871,7 @@
 		<POI MapID="34" xpos="-479.224" ypos="14.5566" zpos="-530.059" type="tt.wc.cm.rm.points_of_interest" GUID="pe8PD2IN9kCHAUt7ifdk1Q=="/>
 		
 		
-		<!----------------------------------------------- METRICA PROVINCE MARKERS ------------------------------------------------>
+		<!--============================================= METRICA PROVINCE MARKERS =============================================-->
 		<POI MapID="35" xpos="11.8502" ypos="36.7094" zpos="-901.431" type="tt.wc.h.chm.start_heart" GUID="NrgTRmsRt0aSIYDJVnLrEA=="/>
 		<POI MapID="35" xpos="29.7317" ypos="8.08339" zpos="542.212" type="tt.wc.cm.rm.waypoints" GUID="ILpIrF1g1EmFivooaNgDGg=="/>
 		<POI MapID="35" xpos="39.7934" ypos="31.9149" zpos="-890.803" type="tt.wc.h.chm.kill" GUID="Roe8AdpaUUexoVAu3Ow5Dw=="/>
@@ -3080,14 +3080,14 @@
 		<POI MapID="35" xpos="-559.285" ypos="21.8456" zpos="-340.843" type="tt.wc.cm.wm.wparrow" GUID="PY5KR5jQ0kyaBmVmsu+jCg=="/>
 		
 		
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->	
-	<!------------------------------------------------------------------------------------------------ RUINS OF ORR -------------------------------------------------------------------------------------------------->
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!--=======================================================================================================================================================================-->	
+	<!--==                                                                                RUINS OF ORR                                                                       ==-->
+	<!--=======================================================================================================================================================================-->
 	
 	
 	
 	
-		<!----------------------------------------------- CURSED SHORE MARKERS ------------------------------------------------>
+		<!--============================================= CURSED SHORE MARKERS =============================================-->
 		<POI MapID="62" xpos="9.07095" ypos="30.3402" zpos="-897.156" type="tt.wc.cm.mm.griffon" GUID="vfBxW+8s6UOh7zKL+s+wnA=="/>
 		<POI MapID="62" xpos="12.8149" ypos="46.4624" zpos="-950.24" type="tt.wc.cm.rm.vistas" GUID="b3Y9e9kSLU2g1qS3GAx1dQ=="/>
 		<POI MapID="62" xpos="33.4455" ypos="1.70305" zpos="294.698" type="tt.wc.cm.rm.waypoints" GUID="Yg3rcxpn/0+uoVwG7EE3Jw=="/>
@@ -3169,7 +3169,7 @@
 		<POI MapID="62" xpos="-478.227" ypos="-79.0969" zpos="49.1273" type="tt.wc.cm.rm.points_of_interest" GUID="/mBFPNYNZ0CJ/QbhUTxKNQ=="/>
 		
 		
-		<!----------------------------------------------- MALCHOR'S LEAP MARKERS ------------------------------------------------>
+		<!--============================================= MALCHOR'S LEAP MARKERS =============================================-->
 		<POI MapID="65" xpos="14.0776" ypos="33.9564" zpos="105.183" type="tt.wc.cm.rm.points_of_interest" GUID="uICmLOL5pU6P6wgMHJj2fQ=="/>
 		<POI MapID="65" xpos="17.9314" ypos="28.4073" zpos="-47.7697" type="tt.wc.cm.rm.dismount" GUID="oNdVS1QYOk+gSvKOvmZ51A=="/>
 		<POI MapID="65" xpos="46.3584" ypos="29.2611" zpos="72.1277" type="tt.wc.cm.mm.raptor" GUID="L8GgMF4ljke0ql75ISD/Sw=="/>
@@ -3274,7 +3274,7 @@
 		<POI MapID="65" xpos="-1079.96" ypos="33.6683" zpos="-280.038" type="tt.wc.cm.rm.vistas" GUID="NZiPtdlEcUq1nGK4C5aZjQ=="/>
 		
 		
-		<!----------------------------------------------- STRAITS OF DEVASTATION MARKERS ------------------------------------------------>
+		<!--============================================= STRAITS OF DEVASTATION MARKERS =============================================-->
 		<POI MapID="51" xpos="19.5672" ypos="-1.05641" zpos="92.7415" type="tt.wc.cm.mm.skimmer" GUID="ktnNrqJGm0iZS6AragzvvA=="/>
 		<POI MapID="51" xpos="30.6503" ypos="-36.2227" zpos="76.045" type="tt.wc.cm.rm.points_of_interest" GUID="2VxUk/ThOU217aEwYfw57A=="/>
 		<POI MapID="51" xpos="31.6269" ypos="1.78984" zpos="-310.204" type="tt.wc.cm.rm.waypoints" GUID="H0wEAHkqF02/dg1ooBxCPg=="/>
@@ -3370,21 +3370,21 @@
 		<POI MapID="51" xpos="-901.49" ypos="53.1516" zpos="-250.808" type="tt.wc.cm.rm.points_of_interest" GUID="3jFoirHhMEKPFQIW8vdovw=="/>
 		<POI MapID="51" xpos="-923.569" ypos="48.9555" zpos="-429.083" type="tt.wc.cm.rm.points_of_interest" GUID="yveyp8ggskStaUL3KvgpKw=="/>
 		<POI MapID="51" xpos="-928.343" ypos="23.3747" zpos="127.629" type="tt.wc.cm.rm.points_of_interest" GUID="iDPcTKfjZkmcfMO7Fptebg=="/>
-			<!--------------------------------------- CAER AVAL MARKERS ---------------------------------------->
+			<!--===================================== CAER AVAL MARKERS =====================================-->
 		<POI MapID="827" xpos="621.638" ypos="28.9362" zpos="51.0384" type="tt.wc.cm.rm.exit_instance" GUID="gJZb5FLU106H/hT4XARerg=="/>
 	
 	
 	
 	
 	
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-	<!------------------------------------------------------------------------------------------------- SHIVERPEAKS -------------------------------------------------------------------------------------------------->
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                              SHIVERPEAKS                                                                          ==-->
+	<!--=======================================================================================================================================================================-->
 	
 	
 	
 	
-		<!----------------------------------------------- DREDGEHAUNT CLIFFS MARKERS ------------------------------------------------>
+		<!--============================================= DREDGEHAUNT CLIFFS MARKERS =============================================-->
 		<POI MapID="26" xpos="4.17821" ypos="123.545" zpos="-170.327" type="tt.wc.cm.rm.points_of_interest" GUID="+4RZ21hphkKtNQ6I2FGLgw=="/>
 		<POI MapID="26" xpos="11.3943" ypos="123.607" zpos="-185.511" type="tt.wc.h.chm.start_heart" GUID="XGrEpRArLU6Ho5C/Z/tfRg=="/>
 		<POI MapID="26" xpos="13.6701" ypos="110.739" zpos="446.717" type="tt.wc.cm.mm.griffon" GUID="8FbwYdipLUq60Aw4gAIy4Q=="/>
@@ -3536,7 +3536,7 @@
 		<POI MapID="26" xpos="-628.552" ypos="94.6874" zpos="-379.938" type="tt.wc.cm.wm.wpheart" GUID="X+q38J0doEmDGKoCW0HgZQ=="/>
 		
 		
-		<!----------------------------------------------- FROSTGORGE SOUND MARKERS ------------------------------------------------>
+		<!--============================================= FROSTGORGE SOUND MARKERS =============================================-->
 		<POI MapID="30" xpos="0.986842" ypos="81.9709" zpos="-698.563" type="tt.wc.cm.rm.points_of_interest" GUID="Z5c+WtaY8UKQsFUvr8DrsA=="/>
 		<POI MapID="30" xpos="9.20522" ypos="83.9864" zpos="-685.861" type="tt.wc.h.chm.finish_heart" GUID="B9Nmw+QWwEyJxikdGYUGxA=="/>
 		<POI MapID="30" xpos="48.7703" ypos="70.3409" zpos="-777.681" type="tt.wc.cm.rm.points_of_interest" GUID="l02mFP0qokW8wSBzq5xiUQ=="/>
@@ -3687,7 +3687,7 @@
 		<POI MapID="30" xpos="-887.931" ypos="13.3741" zpos="877.648" type="tt.wc.cm.rm.waypoints" GUID="0shXfoOk20SPdNO0CriI8g=="/>
 		
 		
-		<!----------------------------------------------- LORNAR'S PASS MARKERS ------------------------------------------------>
+		<!--============================================= LORNAR'S PASS MARKERS =============================================-->
 		<POI MapID="27" xpos="1.26657" ypos="137.007" zpos="-651.508" type="tt.wc.cm.rm.vistas" GUID="EjbGGE5DWEqvhICW6ML+eQ=="/>
 		<POI MapID="27" xpos="3.59839" ypos="131.151" zpos="429.17" type="tt.wc.cm.mm.raptor" GUID="BBEk7Hd/90C43aBynioNsg=="/>
 		<POI MapID="27" xpos="14.749" ypos="87.8228" zpos="-594.182" type="tt.wc.cm.mm.griffon" GUID="gA+q23j9h0a19rYFm9B2/A=="/>
@@ -3968,7 +3968,7 @@
 		<POI MapID="27" xpos="-512.97" ypos="82.4673" zpos="543.385" type="tt.wc.cm.wm.wpx" GUID="YtLWVYBX+EuZ72/8lw9Mhw=="/>
 		
 		
-		<!----------------------------------------------- SNOWDEN DRIFTS MARKERS ------------------------------------------------>
+		<!--============================================= SNOWDEN DRIFTS MARKERS =============================================-->
 		<POI MapID="31" xpos="80.0799" ypos="-8.11541" zpos="-367.477" type="tt.wc.h.chm.interact" GUID="ZXXAABm6UUuoW7NUnLnSxw=="/>
 		<POI MapID="31" xpos="82.4007" ypos="-1.05169" zpos="-414.846" type="tt.wc.h.chm.finish_heart" GUID="y5GEGwZhXE+RutMHDZrw2g=="/>
 		<POI MapID="31" xpos="87.9781" ypos="-11.4942" zpos="-385.722" type="tt.wc.h.chm.interact" GUID="cL2ouL3kXUa8UTgChDL1Og=="/>
@@ -4103,7 +4103,7 @@
 		<POI MapID="31" xpos="-1153.39" ypos="39.899" zpos="-260.689" type="tt.wc.cm.rm.finish" GUID="piAoTKDtCkWJE3hb57NXbA=="/>
 		
 		
-		<!----------------------------------------------- WAYFARER FOOTHILLS MARKERS ------------------------------------------------>
+		<!--============================================= WAYFARER FOOTHILLS MARKERS =============================================-->
 		<POI MapID="28" xpos="14.4624" ypos="79.4585" zpos="122.652" type="tt.wc.cm.wm.swirl" GUID="OyD9cy/0lkOSE1lu9KwrYw=="/>
 		<POI MapID="28" xpos="22.2201" ypos="76.4205" zpos="117.626" type="tt.wc.cm.rm.waypoints" GUID="Tm0ApJ/oskuyKh8x0qNLqg=="/>
 		<POI MapID="28" xpos="22.2262" ypos="188.226" zpos="1182.88" type="tt.wc.cm.rm.points_of_interest" GUID="2DPO8rsqx0uWUuxLODcgVg=="/>
@@ -4243,14 +4243,14 @@
 		
 		
 	
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-	<!--------------------------------------------------------------------------------------------- STEAMSPUR MOUNTAINS ---------------------------------------------------------------------------------------------->
-	<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                           STEAMSPUR MOUNTAINS                                                                     ==-->
+	<!--=======================================================================================================================================================================-->
 		
 		
 		
 		
-		<!----------------------------------------------- BLOODTIDE COAST MARKERS ------------------------------------------------>
+		<!--============================================= BLOODTIDE COAST MARKERS =============================================-->
 		<POI MapID="73" xpos="42.2595" ypos="35.7706" zpos="-337.242" type="tt.wc.cm.rm.points_of_interest" GUID="l13Cq3ndP0O3dZvFfOC+8g=="/>
 		<POI MapID="73" xpos="46.4542" ypos="35.6873" zpos="517.117" type="tt.wc.cm.rm.waypoints" GUID="U2FwMQfIgEGuDI+L5Yi/RA=="/>
 		<POI MapID="73" xpos="63.6879" ypos="0.433911" zpos="148.49" type="tt.wc.cm.mm.raptor" GUID="pqLC7aCkAkOKwkWLKNtBUw=="/>
@@ -4397,7 +4397,7 @@
 		<POI MapID="73" xpos="-533.543" ypos="44.8726" zpos="-519.634" type="tt.wc.cm.rm.points_of_interest" GUID="Vk/dXWq6sUmITRNd/WYyRQ=="/>
 		
 		
-		<!----------------------------------------------- MOUNT MAELSTROM MARKERS ------------------------------------------------>
+		<!--============================================= MOUNT MAELSTROM MARKERS =============================================-->
 		<POI MapID="39" xpos="18.5529" ypos="89.8142" zpos="-341.041" type="tt.wc.cm.mm.griffon" GUID="ByntihTMq02tLwjtTojwmg=="/>
 		<POI MapID="39" xpos="192.294" ypos="1.37639" zpos="13.0197" type="tt.wc.cm.rm.waypoints" GUID="81uxNOfzHkKt5Md8pZ4hrw=="/>
 		<POI MapID="39" xpos="222.728" ypos="-40.1492" zpos="-350.063" type="tt.wc.cm.wm.wpstar" GUID="kutcb8o10Uq4Q5U+7U5noQ=="/>
@@ -4535,7 +4535,7 @@
 		<POI MapID="39" xpos="-1097.47" ypos="37.8353" zpos="553.395" type="tt.wc.cm.rm.start" GUID="h79hJmpvM0a47EvrC63uUQ=="/>
 		
 		
-		<!----------------------------------------------- SPARKFLY FEN MARKERS ------------------------------------------------>
+		<!--============================================= SPARKFLY FEN MARKERS =============================================-->
 		<POI MapID="53" xpos="2.14597" ypos="23.8986" zpos="285.522" type="tt.wc.h.chm.interact" GUID="KSkyIFjUjEayGBN5fMtuxg=="/>
 		<POI MapID="53" xpos="7.11673" ypos="21.4717" zpos="270.901" type="tt.wc.h.chm.interact" GUID="7QX4woEg4US3mLIyFBSO+A=="/>
 		<POI MapID="53" xpos="11.2131" ypos="23.31" zpos="272.491" type="tt.wc.h.chm.interact" GUID="klDI6uacpkWUwvoPzvdp6A=="/>
@@ -4689,7 +4689,7 @@
 		<POI MapID="53" xpos="-675.652" ypos="23.7202" zpos="-548.523" type="tt.wc.cm.rm.vistas" GUID="0m4a48RLskW/pMACTICayQ=="/>
 		
 		
-		<!----------------------------------------------- TIMBERLINE FALLS MARKERS ------------------------------------------------>
+		<!--============================================= TIMBERLINE FALLS MARKERS =============================================-->
 		<POI MapID="29" xpos="1.15101" ypos="43.8144" zpos="-1.27697" type="tt.wc.cm.rm.waypoints" GUID="BtIiagRw60q9zZFfKcfVfQ=="/>
 		<POI MapID="29" xpos="5.09407" ypos="36.8227" zpos="-25.2165" type="tt.wc.h.chm.interact" GUID="+KKMJ6+EFkGMS2pkrhwTjQ=="/>
 		<POI MapID="29" xpos="20.1833" ypos="41.4688" zpos="-46.352" type="tt.wc.h.chm.interact" GUID="WboPGUHtU0mhzJoYKWeX0Q=="/>
@@ -4877,7 +4877,7 @@
 
 	
 	
-				<!-- Hero Point Markers -->
+		<!--============================================= Hero Point Markers =============================================-->
 		<POI MapID="15" xpos="-139.154" ypos="32.5289" zpos="162.334" type="tt.wc.hp.hpm" GUID="p7qBiGShEE2PQdIHrkrQUw=="/>
 		<POI MapID="15" xpos="-145.725" ypos="32.8925" zpos="165.166" type="tt.wc.hp.hpm" GUID="/uVB8IRoaEm7NtrAQUosbw=="/>
 		<POI MapID="15" xpos="-628.704" ypos="-0.433745" zpos="-201.406" type="tt.wc.hp.hpm" GUID="BGDnzL9Nm0+XTbLnllui/w=="/>
@@ -5067,9 +5067,9 @@
 		
 		
 		
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<!-------------------------------------------------------------------------------------------------- TRAIL DATA -------------------------------------------------------------------------------------------------->
-		<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                              TRAIL DATA                                                                           ==-->
+		<!--=======================================================================================================================================================================-->
 		
 		
 		<!-- MAIN TRAILS -->
