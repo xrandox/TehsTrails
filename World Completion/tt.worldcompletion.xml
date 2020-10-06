@@ -10,7 +10,6 @@
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/WorldCompletion/General/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/WorldCompletion/General/Vista.png" iconSize="0.5"/>
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/WorldCompletion/General/Waypoint.png" iconSize="0.75"/>
-					<MarkerCategory name="teleport" DisplayName="Teleport Markers" iconFile="Data/WorldCompletion/General/Teleport.png"/>
 					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/WorldCompletion/General/Finish.png" iconSize="0.75"/>
 					<MarkerCategory name="exit_instance" DisplayName="Exit Instance" iconFile="Data/WorldCompletion/General/exit_instance.png" iconSize="0.75"/>
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/WorldCompletion/General/Dismount.png" iconSize="0.4"/>
