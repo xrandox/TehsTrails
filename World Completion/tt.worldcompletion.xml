@@ -132,6 +132,7 @@
 					<MarkerCategory name="a" DisplayName="Ascalon">
 						<MarkerCategory name="ironmarches" DisplayName="Iron Marches"/>
 						<MarkerCategory name="fieldsofruin" DisplayName="Fields of Ruin"/>
+						<MarkerCategory name="plainsofashford" DisplayName="Plains of Ashford"/>
 					</MarkerCategory>					
 					<MarkerCategory name="roo" DisplayName="Ruins of Orr">
 						<MarkerCategory name="straitsofdevastation" DisplayName="Straits of Devastation"/>
@@ -358,8 +359,7 @@
 					<MarkerCategory name="kind" DisplayName="Even just kind words are nice to receive :)"/>
 				</MarkerCategory>
 				
-				<MarkerCategory name="buyingworldcomp" DisplayName="Have a Gift of Exploration to Sell?">
-					<MarkerCategory name="contact" DisplayName="Contact me on:"/>
+				<MarkerCategory name="contact" DisplayName="Contact me:">
 					<MarkerCategory name="discord" DisplayName="Discord: null#7146"/>
 					<MarkerCategory name="in-game" DisplayName="In-game: xTeh.7146"/>
 				</MarkerCategory>
@@ -1727,6 +1727,8 @@
 		<POI MapID="19" xpos="-318.198" ypos="43.3161" zpos="86.1267" type="tt.wc.cm.mm.springer" GUID="/GF0krYmNEKPLE4fo1qzMA=="/>
 		<POI MapID="19" xpos="-329.018" ypos="9.4207" zpos="-301.665" type="tt.wc.cm.rm.waypoints" GUID="gxUJlQtz00+/Is3IMVq54g=="/>
 		<POI MapID="19" xpos="-329.301" ypos="49.9993" zpos="337.198" type="tt.wc.h.chm.interact" GUID="O2VMY3l50EWtTqW30JdwhQ=="/>
+		<POI MapID="19" xpos="-332.942" ypos="24.3751" zpos="-560.448" type="tt.wc.cm.mm.griffon" GUID="SYalB+CsaEeebGWkKXpYQg=="/>
+		<POI MapID="19" xpos="-357.474" ypos="25.9648" zpos="-554.685" type="tt.wc.cm.mm.skyscale" GUID="ToY9nnp5I0GJKMt7wFVFZw=="/>
 		<POI MapID="19" xpos="-334.416" ypos="51.173" zpos="407.023" type="tt.wc.h.chm.finish_heart" GUID="J+DMY/c340WHmJehMFNceg=="/>
 		<POI MapID="19" xpos="-344.532" ypos="43.6515" zpos="291.586" type="tt.wc.h.chm.interact" GUID="cNzL/dysiUe9NndfCkKVVQ=="/>
 		<POI MapID="19" xpos="-352.172" ypos="51.8551" zpos="-58.2126" type="tt.wc.cm.rm.points_of_interest" GUID="PFsbG3zv/kKWxoMiL9tE/g=="/>
@@ -5188,5 +5190,6 @@
 		<Trail type="tt.wc.mt.sst.a.ironmarches" trailData="Data/WorldCompletion/Trails/skyscaletrails/IronMarchesSkyscale.trl"/>
 		<Trail type="tt.wc.mt.sst.c.blackcitadel" trailData="Data/WorldCompletion/Trails/skyscaletrails/BlackCitadelSkyscale.trl"/>
 		<Trail type="tt.wc.mt.sst.roo.straitsofdevastation" trailData="Data/WorldCompletion/Trails/skyscaletrails/StraitsofDevastationSkyscale.trl"/>
+		<Trail type="tt.wc.mt.sst.a.plainsofashford" trailData="Data/WorldCompletion/Trails/skyscaletrails/PlainsofAshfordSkyscale.trl"/>
 	</POIs>
 </OverlayData>
