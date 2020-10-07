@@ -18,4 +18,4 @@ Latest Pack Download Link: [TehsTrainTrails.taco](https://github.com/xrandox/Teh
 
 ***
 
-### Check out the [wiki](https://github.com/xrandox/TehsTrails/wiki) for more info!
+### There's a ton more information over on the [wiki](https://github.com/xrandox/TehsTrails/wiki), be sure to check it out!
