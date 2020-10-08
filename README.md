@@ -19,3 +19,7 @@ Latest Pack Download Link: [tt.hptraintrails.taco](https://github.com/xrandox/Te
 ***
 
 ### There's a ton more information over on the [wiki](https://github.com/xrandox/TehsTrails/wiki), be sure to check it out!
+
+***
+
+### You can also join the discord! https://discord.gg/bJV6VXT
