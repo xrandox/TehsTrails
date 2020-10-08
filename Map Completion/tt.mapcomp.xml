@@ -755,6 +755,7 @@
 				</MarkerCategory>
 				
 				<MarkerCategory name="joindiscord" DisplayName="Join us on discord!">
+					<MarkerCategory name="ttinvitelink" DisplayName="Teh's Trails - https://discord.gg/bJV6VXT"/>
 					<MarkerCategory name="overflowinvitelink" DisplayName="Overflow Discord - https://discord.gg/3qXmrqe"/>
 					<MarkerCategory name="bhudinvitelink" DisplayName="Blish HUD Discord - https://discord.gg/FYKN3qh"/>
 				</MarkerCategory>

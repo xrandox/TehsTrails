@@ -73,8 +73,26 @@
 				<MarkerCategory name="createdby" DisplayName="Created By">
 					<MarkerCategory name="creator" DisplayName="xTeh.7146"/>
 				</MarkerCategory>
+
 				<MarkerCategory name="asssetsfrom" DisplayName="Assets From">
 					<MarkerCategory name="assets" DisplayName="Arenanet"/>
+				</MarkerCategory>
+
+				<MarkerCategory name="joindiscord" DisplayName="Join us on discord!">
+					<MarkerCategory name="ttinvitelink" DisplayName="Teh's Trails - https://discord.gg/bJV6VXT"/>
+					<MarkerCategory name="overflowinvitelink" DisplayName="Overflow - https://discord.gg/3qXmrqe"/>
+					<MarkerCategory name="bhudinvitelink" DisplayName="Blish HUD - https://discord.gg/FYKN3qh"/>
+				</MarkerCategory>
+
+				<MarkerCategory name="donations" DisplayName="Feeling generous?">
+					<MarkerCategory name="mail" DisplayName="Feel free to send a mail to xTeh.7146"/>
+					<MarkerCategory name="donation" DisplayName="Every donation is appreciated!"/>
+					<MarkerCategory name="kind" DisplayName="Even just kind words are nice to receive :)"/>
+				</MarkerCategory>
+
+				<MarkerCategory name="contact" DisplayName="Contact me:">
+					<MarkerCategory name="discord" DisplayName="Discord: null#7146"/>
+					<MarkerCategory name="in-game" DisplayName="In-game: xTeh.7146"/>
 				</MarkerCategory>
 			</MarkerCategory>
 		</MarkerCategory>
