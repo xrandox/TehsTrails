@@ -2227,6 +2227,7 @@
 		
 		
 		<!--============================================= GENDARRAN FIELDS MARKERS =============================================-->
+		<POI MapID="24" xpos="-365.044" ypos="51.4358" zpos="72.3688" type="tt.mc.cm.rm.vistas" GUID="aAxULlMPEUKf/1anXarsHQ=="/>
 		<POI MapID="24" xpos="17.968" ypos="-17.4974" zpos="27.9249" type="tt.mc.cm.rm.points_of_interest" GUID="97peq6hHEUqzsv51uywH2w=="/>
 		<POI MapID="24" xpos="110.941" ypos="19.123" zpos="80.0425" type="tt.mc.cm.mm.skimmer" GUID="vGpILQWqIk+B3+OHjoZCLw=="/>
 		<POI MapID="24" xpos="115.5" ypos="22.2925" zpos="83.5526" type="tt.mc.cm.rm.vistas" GUID="XCBSnGYKS0qBRa8GqpXozw=="/>
