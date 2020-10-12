@@ -408,6 +408,73 @@
 						</MarkerCategory>
 					</MarkerCategory>
 				</MarkerCategory>
+				<!-- DARK BLUE -->
+				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0">
+					<MarkerCategory name="a" DisplayName="Ascalon">
+						<MarkerCategory name="fireheartrise" DisplayName="Fireheart Rise"/>
+						<MarkerCategory name="diessaplateau" DisplayName="Diessa Plateau"/>
+						<MarkerCategory name="ironmarches" DisplayName="Iron Marches"/>
+						<MarkerCategory name="blazeridgesteppes" DisplayName="Blazeridge Steppes"/>
+						<MarkerCategory name="plainsofashford" DisplayName="Plains of Ashford"/>
+						<MarkerCategory name="fieldsofruin" DisplayName="Fields of Ruin"/>
+					</MarkerCategory>
+					<MarkerCategory name="k" DisplayName="Kryta">
+						<MarkerCategory name="kessexhills" DisplayName="Kessex Hills"/>
+						<MarkerCategory name="queensdale" DisplayName="Queensdale"/>
+						<MarkerCategory name="harathihinterlands" DisplayName="Harathi Hinterlands"/>
+						<MarkerCategory name="gendarranfields" DisplayName="Gendarran Fields"/>
+					</MarkerCategory>
+					<MarkerCategory name="mj" DisplayName="Maguuma Jungle">
+						<MarkerCategory name="brisbanwildlands" DisplayName="Brisban Wildlands"/>
+						<MarkerCategory name="caledonforest" DisplayName="Caledon Forest"/>
+						<MarkerCategory name="metricaprovince" DisplayName="Metrica Province"/>
+					</MarkerCategory>
+					<MarkerCategory name="roo" DisplayName="Ruins of Orr">
+						<MarkerCategory name="straitsofdevastation" DisplayName="Straits of Devastation"/>
+						<MarkerCategory name="cursedshore" DisplayName="Cursed Shore"/>
+						<MarkerCategory name="malchorsleap" DisplayName="Malchor's Leap"/>
+					</MarkerCategory>
+					<MarkerCategory name="spm" DisplayName="Shiverpeak Mountains">
+						<MarkerCategory name="frostgorgesound" DisplayName="Frostgorge Sound"/>
+						<MarkerCategory name="snowdendrifts" DisplayName="Snowden Drifts"/>
+						<MarkerCategory name="wayfarerfoothills" DisplayName="Wayfarer Foothills"/>
+						<MarkerCategory name="lornarspass" DisplayName="Lornar's Pass"/>
+						<MarkerCategory name="dredgehauntcliffs" DisplayName="Dredgehaunt Cliffs"/>
+					</MarkerCategory>
+					<MarkerCategory name="ssm" DisplayName="Steamspur Mountains">
+						<MarkerCategory name="sparkflyfen" DisplayName="Sparkfly Fen"/>
+						<MarkerCategory name="bloodtidecoast" DisplayName="Bloodtide Coast"/>
+						<MarkerCategory name="timberlinefalls" DisplayName="Timberline Falls"/>
+						<MarkerCategory name="mountmaelstrom" DisplayName="Mount Maelstrom"/>
+					</MarkerCategory>
+					<MarkerCategory name="c" DisplayName="Cities">
+						<MarkerCategory name="divinitysreach" DisplayName="Divinitys Reach"/>
+						<MarkerCategory name="lionsarch" DisplayName="Lions Arch"/>
+						<MarkerCategory name="allratasum" DisplayName="Rata Sum">
+							<MarkerCategory name="ratasum" DisplayName="Rata Sum"/>
+							<MarkerCategory name="ratasuminstance1" DisplayName="Rata Sum Instance 1"/>
+							<MarkerCategory name="ratasuminstance2" DisplayName="Rata Sum Instance 2"/>
+							<MarkerCategory name="ratasuminstance3" DisplayName="Rata Sum Instance 3"/>
+						</MarkerCategory>
+						<MarkerCategory name="allthegrove" DisplayName="The Grove">
+							<MarkerCategory name="thegrove" DisplayName="The Grove"/>
+							<MarkerCategory name="thegroveinstance1" DisplayName="The Grove Instance 1"/>
+						</MarkerCategory>
+						<MarkerCategory name="allblackcitadel" DisplayName="Black Citadel">
+							<MarkerCategory name="blackcitadel" DisplayName="Black Citadel"/>
+							<MarkerCategory name="blackcitadelinstance1" DisplayName="Black Citadel Instance 1"/>
+							<MarkerCategory name="blackcitadelinstance2" DisplayName="Black Citadel Instance 2"/>
+							<MarkerCategory name="blackcitadelinstance3" DisplayName="Black Citadel Instance 3"/>
+							<MarkerCategory name="blackcitadelinstance4" DisplayName="Black Citadel Instance 4"/>
+						</MarkerCategory>
+						<MarkerCategory name="allhoelbrak" DisplayName="Hoelbrak">
+							<MarkerCategory name="hoelbrak" DisplayName="Hoelbrak"/>
+							<MarkerCategory name="hoelbrakinstance1" DisplayName="Hoelbrak Instance 1"/>
+							<MarkerCategory name="hoelbrakinstance2" DisplayName="Hoelbrak Instance 2"/>
+							<MarkerCategory name="hoelbrakinstance3" DisplayName="Hoelbrak Instance 3"/>
+						</MarkerCategory>
+					</MarkerCategory>
+				</MarkerCategory>
 				<!-- BLUE (PRIORITY) -->
 				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/Trail.png" trailScale="1" miniMapVisibility="0">
 					<MarkerCategory name="a" DisplayName="Ascalon">
@@ -650,6 +717,8 @@
 					<MarkerCategory name="number2" DisplayName="Number 2" iconFile="Data/MapCompletion/General/heartspecific/number2.png" iconSize="0.4"/>
 					<MarkerCategory name="number3" DisplayName="Number 3" iconFile="Data/MapCompletion/General/heartspecific/number3.png" iconSize="0.4"/>
 					<MarkerCategory name="fullinventory" DisplayName="Full Inventory" iconFile="Data/MapCompletion/General/heartspecific/Full_Inventory.png" iconSize="0.35"/>
+					<MarkerCategory name="meat" DisplayName="Meat" iconFile="Data/MapCompletion/General/heartspecific/Meat.png"/>
+					<MarkerCategory name="drink" DisplayName="Drink" iconFile="Data/MapCompletion/General/heartspecific/Drink.png"/>
 				</MarkerCategory>
 			
 			</MarkerCategory>
@@ -2136,7 +2205,7 @@
 		<POI MapID="19" xpos="-329.301" ypos="49.9993" zpos="337.198" type="tt.mc.h.chm.interact" GUID="O2VMY3l50EWtTqW30JdwhQ=="/>
 		<POI MapID="19" xpos="-332.942" ypos="24.3751" zpos="-560.448" type="tt.mc.cm.mm.griffon" GUID="SYalB+CsaEeebGWkKXpYQg=="/>
 		<POI MapID="19" xpos="-357.474" ypos="25.9648" zpos="-554.685" type="tt.mc.cm.mm.skyscale" GUID="ToY9nnp5I0GJKMt7wFVFZw=="/>
-		<POI MapID="19" xpos="-334.416" ypos="51.173" zpos="407.023" type="tt.mc.h.chm.finish_heart" GUID="J+DMY/c340WHmJehMFNceg=="/>
+		<POI MapID="19" xpos="-231.184" ypos="58.6239" zpos="455.33" type="tt.mc.h.chm.finish_heart" GUID="J+DMY/c340WHmJehMFNceg=="/>
 		<POI MapID="19" xpos="-344.532" ypos="43.6515" zpos="291.586" type="tt.mc.h.chm.interact" GUID="cNzL/dysiUe9NndfCkKVVQ=="/>
 		<POI MapID="19" xpos="-352.172" ypos="51.8551" zpos="-58.2126" type="tt.mc.cm.rm.points_of_interest" GUID="PFsbG3zv/kKWxoMiL9tE/g=="/>
 		<POI MapID="19" xpos="-355.007" ypos="56.9205" zpos="365.579" type="tt.mc.h.chm.interact" GUID="prAbmDiQx0e9giQwycYOiA=="/>
@@ -2721,7 +2790,7 @@
 		<POI MapID="15" xpos="391.267" ypos="38.3277" zpos="218.405" type="tt.mc.cm.rm.points_of_interest" GUID="6/YSUJRU0kqLfyG8DcbNSw=="/>
 		<POI MapID="15" xpos="405.387" ypos="0.513618" zpos="-245.03" type="tt.mc.h.chm.kill" GUID="j6JbRT9Tr0m6CopJuZ/Apg=="/>
 		<POI MapID="15" xpos="411.933" ypos="-0.560549" zpos="-382.972" type="tt.mc.h.chm.kill" GUID="nNo/go6+2USWHxo7YtMSZw=="/>
-		<POI MapID="15" xpos="428.199" ypos="22.4559" zpos="443.117" type="tt.mc.h.chm.start_heart" GUID="kbH5tjKnO0+/eOug58Q5eA=="/>
+		<POI MapID="15" xpos="552.942" ypos="39.9221" zpos="425.848" type="tt.mc.h.chm.start_heart" GUID="kbH5tjKnO0+/eOug58Q5eA=="/>
 		<POI MapID="15" xpos="433.463" ypos="34.8207" zpos="129.468" type="tt.mc.cm.rm.waypoints" GUID="TmvhjufqmE6AZLRusvG4Eg=="/>
 		<POI MapID="15" xpos="436.499" ypos="36.2235" zpos="57.6995" type="tt.mc.h.chm.finish_heart" GUID="u5KJ9hVwPEuwjDzwQznPgA=="/>
 		<POI MapID="15" xpos="448.507" ypos="36.4884" zpos="12.6322" type="tt.mc.h.chm.interact" GUID="XcrNJDdRVUmtW2lWhqF0mg=="/>
@@ -2736,7 +2805,7 @@
 		<POI MapID="15" xpos="523.288" ypos="2.01054" zpos="-269.815" type="tt.mc.cm.rm.waypoints" GUID="0a0TaZHT/UefmoaSqW6/GQ=="/>
 		<POI MapID="15" xpos="528.345" ypos="37.9295" zpos="456.163" type="tt.mc.cm.rm.points_of_interest" GUID="9LK2KfDEdk6xMlf4l9SVFA=="/>
 		<POI MapID="15" xpos="536.473" ypos="0.242804" zpos="-446.494" type="tt.mc.h.chm.kill" GUID="AIMXdbVtFUuBEIhoEQCr1Q=="/>
-		<POI MapID="15" xpos="601.051" ypos="63.9336" zpos="400.972" type="tt.mc.h.chm.finish_heart" GUID="1NniZ4bNmUioaW0QYjHWJw=="/>
+		<POI MapID="15" xpos="701.706" ypos="57.9875" zpos="356.505" type="tt.mc.h.chm.finish_heart" GUID="1NniZ4bNmUioaW0QYjHWJw=="/>
 		<POI MapID="15" xpos="662.104" ypos="-5.31643" zpos="624.589" type="tt.mc.h.chm.interact" GUID="6EWAtJ9eVEafawL0kj89Hw=="/>
 		<POI MapID="15" xpos="684.1" ypos="-9.17503" zpos="638.463" type="tt.mc.h.chm.interact" GUID="pk8+NlwWWkCMolRKT5g6sg=="/>
 		<POI MapID="15" xpos="690.405" ypos="45.8113" zpos="14.0636" type="tt.mc.cm.rm.points_of_interest" GUID="dPWYG3oZkk+5IomGj9uYwg=="/>
@@ -5655,7 +5724,50 @@
 		<Trail type="tt.mc.ct.mapP.ssm.mountmaelstrom" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
 		<Trail type="tt.mc.ct.mapP.ssm.sparkflyfen" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
 		<Trail type="tt.mc.ct.mapP.ssm.timberlinefalls" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
-		<!-- RED TRAILS -->
+		<!-- DARK BLUE TRAILS -->
+		<Trail type="tt.mc.ct.mapDB.a.blazeridgesteppes" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
+		<Trail type="tt.mc.ct.mapDB.a.diessaplateau" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
+		<Trail type="tt.mc.ct.mapDB.a.fieldsofruin" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
+		<Trail type="tt.mc.ct.mapDB.a.fireheartrise" trailData="Data/MapCompletion/Trails/completiontrails/FireheartRise.trl"/>
+		<Trail type="tt.mc.ct.mapDB.a.ironmarches" trailData="Data/MapCompletion/Trails/completiontrails/IronMarches.trl"/>
+		<Trail type="tt.mc.ct.mapDB.a.plainsofashford" trailData="Data/MapCompletion/Trails/completiontrails/PlainsofAshford.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allblackcitadel.blackcitadel" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadel.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allblackcitadel.blackcitadelinstance1" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allblackcitadel.blackcitadelinstance2" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allblackcitadel.blackcitadelinstance3" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allblackcitadel.blackcitadelinstance4" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance4.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allhoelbrak.hoelbrak" trailData="Data/MapCompletion/Trails/completiontrails/Hoelbrak.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allhoelbrak.hoelbrakinstance1" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allhoelbrak.hoelbrakinstance2" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allhoelbrak.hoelbrakinstance3" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allratasum.ratasum" trailData="Data/MapCompletion/Trails/completiontrails/RataSum.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allratasum.ratasuminstance1" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allratasum.ratasuminstance2" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allratasum.ratasuminstance3" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allthegrove.thegrove" trailData="Data/MapCompletion/Trails/completiontrails/TheGrove.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.allthegrove.thegroveinstance1" trailData="Data/MapCompletion/Trails/completiontrails/TheGroveInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.divinitysreach" trailData="Data/MapCompletion/Trails/completiontrails/DivinitysReach.trl"/>
+		<Trail type="tt.mc.ct.mapDB.c.lionsarch" trailData="Data/MapCompletion/Trails/completiontrails/LionsArch.trl"/>
+		<Trail type="tt.mc.ct.mapDB.k.gendarranfields" trailData="Data/MapCompletion/Trails/completiontrails/GendarranFields.trl"/>
+		<Trail type="tt.mc.ct.mapDB.k.harathihinterlands" trailData="Data/MapCompletion/Trails/completiontrails/HarathiHinterlands.trl"/>
+		<Trail type="tt.mc.ct.mapDB.k.kessexhills" trailData="Data/MapCompletion/Trails/completiontrails/KessexHills.trl"/>
+		<Trail type="tt.mc.ct.mapDB.k.queensdale" trailData="Data/MapCompletion/Trails/completiontrails/Queensdale.trl"/>
+		<Trail type="tt.mc.ct.mapDB.mj.brisbanwildlands" trailData="Data/MapCompletion/Trails/completiontrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.ct.mapDB.mj.caledonforest" trailData="Data/MapCompletion/Trails/completiontrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.ct.mapDB.mj.metricaprovince" trailData="Data/MapCompletion/Trails/completiontrails/MetricaProvince.trl"/>
+		<Trail type="tt.mc.ct.mapDB.roo.cursedshore" trailData="Data/MapCompletion/Trails/completiontrails/CursedShore.trl"/>
+		<Trail type="tt.mc.ct.mapDB.roo.malchorsleap" trailData="Data/MapCompletion/Trails/completiontrails/MalchorsLeap.trl"/>
+		<Trail type="tt.mc.ct.mapDB.roo.straitsofdevastation" trailData="Data/MapCompletion/Trails/completiontrails/StraitsofDevastation.trl"/>
+		<Trail type="tt.mc.ct.mapDB.spm.dredgehauntcliffs" trailData="Data/MapCompletion/Trails/completiontrails/DredgehauntCliffs.trl"/>
+		<Trail type="tt.mc.ct.mapDB.spm.frostgorgesound" trailData="Data/MapCompletion/Trails/completiontrails/FrostgorgeSound.trl"/>
+		<Trail type="tt.mc.ct.mapDB.spm.lornarspass" trailData="Data/MapCompletion/Trails/completiontrails/LornarsPass.trl"/>
+		<Trail type="tt.mc.ct.mapDB.spm.snowdendrifts" trailData="Data/MapCompletion/Trails/completiontrails/SnowdenDrifts.trl"/>
+		<Trail type="tt.mc.ct.mapDB.spm.wayfarerfoothills" trailData="Data/MapCompletion/Trails/completiontrails/WayfarerFoothills.trl"/>
+		<Trail type="tt.mc.ct.mapDB.ssm.bloodtidecoast" trailData="Data/MapCompletion/Trails/completiontrails/BloodtideCoast.trl"/>
+		<Trail type="tt.mc.ct.mapDB.ssm.mountmaelstrom" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
+		<Trail type="tt.mc.ct.mapDB.ssm.sparkflyfen" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
+		<Trail type="tt.mc.ct.mapDB.ssm.timberlinefalls" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
+				<!-- RED TRAILS -->
 		<Trail type="tt.mc.ct.mapR.a.blazeridgesteppes" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
 		<Trail type="tt.mc.ct.mapR.a.diessaplateau" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
 		<Trail type="tt.mc.ct.mapR.a.fieldsofruin" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
@@ -5699,91 +5811,91 @@
 		<Trail type="tt.mc.ct.mapR.ssm.sparkflyfen" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
 		<Trail type="tt.mc.ct.mapR.ssm.timberlinefalls" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
 		<!-- DARK PURPLE TRAILS -->
-		<Trail type="tt.mc.ct.mapDP.a.blazeridgesteppes" GUID="tnMFA2DqjUSaMgKLN/bAPg==" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapDP.a.diessaplateau" GUID="+XwmcYnQAUiyoFEOaVZwjA==" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapDP.a.fieldsofruin" GUID="5ogskaDnN0+7x6qvHog/9g==" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapDP.a.fireheartrise" GUID="28VvmX9b20eN+uCtDjMhgg==" trailData="Data/MapCompletion/Trails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapDP.a.ironmarches" GUID="NZOTvPunFUyen7m1klCP+Q==" trailData="Data/MapCompletion/Trails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapDP.a.plainsofashford" GUID="V/k6wsP9OUuqSCqBncJF9w==" trailData="Data/MapCompletion/Trails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadel" GUID="vDapmjZWR0GABcPjetEZQA==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance1" GUID="WM3F0CMR/0C6dOzEWjlhyw==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance2" GUID="vegxDamw7kykBE6JM5QacA==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance3" GUID="pFLFqlkAzUyyZ+lkhEwpXA==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance4" GUID="pxKOz1QKv0SI8e6vHrS/1g==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrak" GUID="8MoRXkeMSUWFrSnOQGjPDg==" trailData="Data/MapCompletion/Trails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrakinstance1" GUID="oQRAErS7oUahApk+0/F5hg==" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrakinstance2" GUID="U3U/bgOckE2dfcLm5CFaSQ==" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrakinstance3" GUID="D0s70v1XBEeFUIdlNplNbg==" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasum" GUID="St43ConT+k2m+neyEm0nmw==" trailData="Data/MapCompletion/Trails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasuminstance1" GUID="6qJWHXr7akOUFIgDJw4+BA==" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasuminstance2" GUID="GldKD23I+0iQOUJr8yKHEw==" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasuminstance3" GUID="ixRJXFqKjkGiQoXrsru9NA==" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allthegrove.thegrove" GUID="HDJRaPCj3ESSrTZlwBFt6A==" trailData="Data/MapCompletion/Trails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.allthegrove.thegroveinstance1" GUID="YPYqL0Wqx0q8KzL/RIqP7g==" trailData="Data/MapCompletion/Trails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.divinitysreach" GUID="BfikB1vtaEWFyJjaHqa+Ng==" trailData="Data/MapCompletion/Trails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapDP.c.lionsarch" GUID="MX1IGw77s0q70gNl02YqEw==" trailData="Data/MapCompletion/Trails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapDP.k.gendarranfields" GUID="C9aFqNam8EG/wherGJnwEg==" trailData="Data/MapCompletion/Trails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapDP.k.harathihinterlands" GUID="8cSYQmd/H0uMWq0jOqZwrw==" trailData="Data/MapCompletion/Trails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapDP.k.kessexhills" GUID="TNI1F7gvDUeDK0RxnTXQOQ==" trailData="Data/MapCompletion/Trails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapDP.k.queensdale" GUID="P5876r65PkaJ7nlcP6/dqw==" trailData="Data/MapCompletion/Trails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapDP.mj.brisbanwildlands" GUID="tXAmA5HBL02VtU4srwnF1w==" trailData="Data/MapCompletion/Trails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapDP.mj.caledonforest" GUID="gha43R2F7kObLukV6gsP9w==" trailData="Data/MapCompletion/Trails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapDP.mj.metricaprovince" GUID="i+kKNCLSvEKXi/heYUElXg==" trailData="Data/MapCompletion/Trails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapDP.roo.cursedshore" GUID="cpIToFPgz06dHKZk7H62Vw==" trailData="Data/MapCompletion/Trails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapDP.roo.malchorsleap" GUID="u7lvH2o2vU2WgtcY1TQmxA==" trailData="Data/MapCompletion/Trails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapDP.roo.straitsofdevastation" GUID="ARxnrTunUkS5P2aVtx0gUA==" trailData="Data/MapCompletion/Trails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapDP.spm.dredgehauntcliffs" GUID="A/bkt5FUmkqcvyILhGi0tQ==" trailData="Data/MapCompletion/Trails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapDP.spm.frostgorgesound" GUID="Ekm9C9CtuEi0sgMS9RXZjQ==" trailData="Data/MapCompletion/Trails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapDP.spm.lornarspass" GUID="rDIsZE1b/k22WmhBvOPcoA==" trailData="Data/MapCompletion/Trails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapDP.spm.snowdendrifts" GUID="6gpBBWqGfE6fJ7P7eMLwQg==" trailData="Data/MapCompletion/Trails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapDP.spm.wayfarerfoothills" GUID="PIzFSOj1NkiLW0aUcySDZw==" trailData="Data/MapCompletion/Trails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapDP.ssm.bloodtidecoast" GUID="vGzwZ3tP9US4s4xiwXRV4A==" trailData="Data/MapCompletion/Trails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapDP.ssm.mountmaelstrom" GUID="hf9i3WKMk0meRFEzeU9MXg==" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapDP.ssm.sparkflyfen" GUID="rlf/3snsk0mlQPXhIhT6ow==" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapDP.ssm.timberlinefalls" GUID="UFH1hD/85k+w2vMssSCJww==" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
-		<!-- BLUE TRAILS -->
-		<Trail type="tt.mc.ct.mapB.a.blazeridgesteppes" GUID="tnMFA2DqjUSaMgKLN/bAPg==" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapB.a.diessaplateau" GUID="+XwmcYnQAUiyoFEOaVZwjA==" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapB.a.fieldsofruin" GUID="5ogskaDnN0+7x6qvHog/9g==" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapB.a.fireheartrise" GUID="28VvmX9b20eN+uCtDjMhgg==" trailData="Data/MapCompletion/Trails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapB.a.ironmarches" GUID="NZOTvPunFUyen7m1klCP+Q==" trailData="Data/MapCompletion/Trails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapB.a.plainsofashford" GUID="V/k6wsP9OUuqSCqBncJF9w==" trailData="Data/MapCompletion/Trails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadel" GUID="vDapmjZWR0GABcPjetEZQA==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance1" GUID="WM3F0CMR/0C6dOzEWjlhyw==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance2" GUID="vegxDamw7kykBE6JM5QacA==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance3" GUID="pFLFqlkAzUyyZ+lkhEwpXA==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance4" GUID="pxKOz1QKv0SI8e6vHrS/1g==" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrak" GUID="8MoRXkeMSUWFrSnOQGjPDg==" trailData="Data/MapCompletion/Trails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrakinstance1" GUID="oQRAErS7oUahApk+0/F5hg==" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrakinstance2" GUID="U3U/bgOckE2dfcLm5CFaSQ==" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrakinstance3" GUID="D0s70v1XBEeFUIdlNplNbg==" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasum" GUID="St43ConT+k2m+neyEm0nmw==" trailData="Data/MapCompletion/Trails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasuminstance1" GUID="6qJWHXr7akOUFIgDJw4+BA==" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasuminstance2" GUID="GldKD23I+0iQOUJr8yKHEw==" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasuminstance3" GUID="ixRJXFqKjkGiQoXrsru9NA==" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allthegrove.thegrove" GUID="HDJRaPCj3ESSrTZlwBFt6A==" trailData="Data/MapCompletion/Trails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.allthegrove.thegroveinstance1" GUID="YPYqL0Wqx0q8KzL/RIqP7g==" trailData="Data/MapCompletion/Trails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.divinitysreach" GUID="BfikB1vtaEWFyJjaHqa+Ng==" trailData="Data/MapCompletion/Trails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapB.c.lionsarch" GUID="MX1IGw77s0q70gNl02YqEw==" trailData="Data/MapCompletion/Trails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapB.k.gendarranfields" GUID="C9aFqNam8EG/wherGJnwEg==" trailData="Data/MapCompletion/Trails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapB.k.harathihinterlands" GUID="8cSYQmd/H0uMWq0jOqZwrw==" trailData="Data/MapCompletion/Trails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapB.k.kessexhills" GUID="TNI1F7gvDUeDK0RxnTXQOQ==" trailData="Data/MapCompletion/Trails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapB.k.queensdale" GUID="P5876r65PkaJ7nlcP6/dqw==" trailData="Data/MapCompletion/Trails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapB.mj.brisbanwildlands" GUID="tXAmA5HBL02VtU4srwnF1w==" trailData="Data/MapCompletion/Trails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapB.mj.caledonforest" GUID="gha43R2F7kObLukV6gsP9w==" trailData="Data/MapCompletion/Trails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapB.mj.metricaprovince" GUID="i+kKNCLSvEKXi/heYUElXg==" trailData="Data/MapCompletion/Trails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapB.roo.cursedshore" GUID="cpIToFPgz06dHKZk7H62Vw==" trailData="Data/MapCompletion/Trails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapB.roo.malchorsleap" GUID="u7lvH2o2vU2WgtcY1TQmxA==" trailData="Data/MapCompletion/Trails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapB.roo.straitsofdevastation" GUID="ARxnrTunUkS5P2aVtx0gUA==" trailData="Data/MapCompletion/Trails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapB.spm.dredgehauntcliffs" GUID="A/bkt5FUmkqcvyILhGi0tQ==" trailData="Data/MapCompletion/Trails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapB.spm.frostgorgesound" GUID="Ekm9C9CtuEi0sgMS9RXZjQ==" trailData="Data/MapCompletion/Trails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapB.spm.lornarspass" GUID="rDIsZE1b/k22WmhBvOPcoA==" trailData="Data/MapCompletion/Trails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapB.spm.snowdendrifts" GUID="6gpBBWqGfE6fJ7P7eMLwQg==" trailData="Data/MapCompletion/Trails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapB.spm.wayfarerfoothills" GUID="PIzFSOj1NkiLW0aUcySDZw==" trailData="Data/MapCompletion/Trails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapB.ssm.bloodtidecoast" GUID="vGzwZ3tP9US4s4xiwXRV4A==" trailData="Data/MapCompletion/Trails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapB.ssm.mountmaelstrom" GUID="hf9i3WKMk0meRFEzeU9MXg==" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapB.ssm.sparkflyfen" GUID="rlf/3snsk0mlQPXhIhT6ow==" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapB.ssm.timberlinefalls" GUID="UFH1hD/85k+w2vMssSCJww==" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
+		<Trail type="tt.mc.ct.mapDP.a.blazeridgesteppes" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
+		<Trail type="tt.mc.ct.mapDP.a.diessaplateau" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
+		<Trail type="tt.mc.ct.mapDP.a.fieldsofruin" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
+		<Trail type="tt.mc.ct.mapDP.a.fireheartrise" trailData="Data/MapCompletion/Trails/completiontrails/FireheartRise.trl"/>
+		<Trail type="tt.mc.ct.mapDP.a.ironmarches" trailData="Data/MapCompletion/Trails/completiontrails/IronMarches.trl"/>
+		<Trail type="tt.mc.ct.mapDP.a.plainsofashford" trailData="Data/MapCompletion/Trails/completiontrails/PlainsofAshford.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadel" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadel.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance1" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance2" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance3" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allblackcitadel.blackcitadelinstance4" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance4.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrak" trailData="Data/MapCompletion/Trails/completiontrails/Hoelbrak.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrakinstance1" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrakinstance2" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allhoelbrak.hoelbrakinstance3" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasum" trailData="Data/MapCompletion/Trails/completiontrails/RataSum.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasuminstance1" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasuminstance2" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allratasum.ratasuminstance3" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allthegrove.thegrove" trailData="Data/MapCompletion/Trails/completiontrails/TheGrove.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.allthegrove.thegroveinstance1" trailData="Data/MapCompletion/Trails/completiontrails/TheGroveInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.divinitysreach" trailData="Data/MapCompletion/Trails/completiontrails/DivinitysReach.trl"/>
+		<Trail type="tt.mc.ct.mapDP.c.lionsarch" trailData="Data/MapCompletion/Trails/completiontrails/LionsArch.trl"/>
+		<Trail type="tt.mc.ct.mapDP.k.gendarranfields" trailData="Data/MapCompletion/Trails/completiontrails/GendarranFields.trl"/>
+		<Trail type="tt.mc.ct.mapDP.k.harathihinterlands" trailData="Data/MapCompletion/Trails/completiontrails/HarathiHinterlands.trl"/>
+		<Trail type="tt.mc.ct.mapDP.k.kessexhills" trailData="Data/MapCompletion/Trails/completiontrails/KessexHills.trl"/>
+		<Trail type="tt.mc.ct.mapDP.k.queensdale" trailData="Data/MapCompletion/Trails/completiontrails/Queensdale.trl"/>
+		<Trail type="tt.mc.ct.mapDP.mj.brisbanwildlands" trailData="Data/MapCompletion/Trails/completiontrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.ct.mapDP.mj.caledonforest" trailData="Data/MapCompletion/Trails/completiontrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.ct.mapDP.mj.metricaprovince" trailData="Data/MapCompletion/Trails/completiontrails/MetricaProvince.trl"/>
+		<Trail type="tt.mc.ct.mapDP.roo.cursedshore" trailData="Data/MapCompletion/Trails/completiontrails/CursedShore.trl"/>
+		<Trail type="tt.mc.ct.mapDP.roo.malchorsleap" trailData="Data/MapCompletion/Trails/completiontrails/MalchorsLeap.trl"/>
+		<Trail type="tt.mc.ct.mapDP.roo.straitsofdevastation" trailData="Data/MapCompletion/Trails/completiontrails/StraitsofDevastation.trl"/>
+		<Trail type="tt.mc.ct.mapDP.spm.dredgehauntcliffs" trailData="Data/MapCompletion/Trails/completiontrails/DredgehauntCliffs.trl"/>
+		<Trail type="tt.mc.ct.mapDP.spm.frostgorgesound" trailData="Data/MapCompletion/Trails/completiontrails/FrostgorgeSound.trl"/>
+		<Trail type="tt.mc.ct.mapDP.spm.lornarspass" trailData="Data/MapCompletion/Trails/completiontrails/LornarsPass.trl"/>
+		<Trail type="tt.mc.ct.mapDP.spm.snowdendrifts" trailData="Data/MapCompletion/Trails/completiontrails/SnowdenDrifts.trl"/>
+		<Trail type="tt.mc.ct.mapDP.spm.wayfarerfoothills" trailData="Data/MapCompletion/Trails/completiontrails/WayfarerFoothills.trl"/>
+		<Trail type="tt.mc.ct.mapDP.ssm.bloodtidecoast" trailData="Data/MapCompletion/Trails/completiontrails/BloodtideCoast.trl"/>
+		<Trail type="tt.mc.ct.mapDP.ssm.mountmaelstrom" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
+		<Trail type="tt.mc.ct.mapDP.ssm.sparkflyfen" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
+		<Trail type="tt.mc.ct.mapDP.ssm.timberlinefalls" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
+		<!-- BLUE TRAILS (PRIORITY) -->
+		<Trail type="tt.mc.ct.mapB.a.blazeridgesteppes" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
+		<Trail type="tt.mc.ct.mapB.a.diessaplateau" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
+		<Trail type="tt.mc.ct.mapB.a.fieldsofruin" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
+		<Trail type="tt.mc.ct.mapB.a.fireheartrise" trailData="Data/MapCompletion/Trails/completiontrails/FireheartRise.trl"/>
+		<Trail type="tt.mc.ct.mapB.a.ironmarches" trailData="Data/MapCompletion/Trails/completiontrails/IronMarches.trl"/>
+		<Trail type="tt.mc.ct.mapB.a.plainsofashford" trailData="Data/MapCompletion/Trails/completiontrails/PlainsofAshford.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadel" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadel.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance1" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance2" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance3" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allblackcitadel.blackcitadelinstance4" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance4.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrak" trailData="Data/MapCompletion/Trails/completiontrails/Hoelbrak.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrakinstance1" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrakinstance2" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allhoelbrak.hoelbrakinstance3" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasum" trailData="Data/MapCompletion/Trails/completiontrails/RataSum.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasuminstance1" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasuminstance2" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allratasum.ratasuminstance3" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allthegrove.thegrove" trailData="Data/MapCompletion/Trails/completiontrails/TheGrove.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.allthegrove.thegroveinstance1" trailData="Data/MapCompletion/Trails/completiontrails/TheGroveInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.divinitysreach" trailData="Data/MapCompletion/Trails/completiontrails/DivinitysReach.trl"/>
+		<Trail type="tt.mc.ct.mapB.c.lionsarch" trailData="Data/MapCompletion/Trails/completiontrails/LionsArch.trl"/>
+		<Trail type="tt.mc.ct.mapB.k.gendarranfields" trailData="Data/MapCompletion/Trails/completiontrails/GendarranFields.trl"/>
+		<Trail type="tt.mc.ct.mapB.k.harathihinterlands" trailData="Data/MapCompletion/Trails/completiontrails/HarathiHinterlands.trl"/>
+		<Trail type="tt.mc.ct.mapB.k.kessexhills" trailData="Data/MapCompletion/Trails/completiontrails/KessexHills.trl"/>
+		<Trail type="tt.mc.ct.mapB.k.queensdale" trailData="Data/MapCompletion/Trails/completiontrails/Queensdale.trl"/>
+		<Trail type="tt.mc.ct.mapB.mj.brisbanwildlands" trailData="Data/MapCompletion/Trails/completiontrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.ct.mapB.mj.caledonforest" trailData="Data/MapCompletion/Trails/completiontrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.ct.mapB.mj.metricaprovince" trailData="Data/MapCompletion/Trails/completiontrails/MetricaProvince.trl"/>
+		<Trail type="tt.mc.ct.mapB.roo.cursedshore" trailData="Data/MapCompletion/Trails/completiontrails/CursedShore.trl"/>
+		<Trail type="tt.mc.ct.mapB.roo.malchorsleap" trailData="Data/MapCompletion/Trails/completiontrails/MalchorsLeap.trl"/>
+		<Trail type="tt.mc.ct.mapB.roo.straitsofdevastation" trailData="Data/MapCompletion/Trails/completiontrails/StraitsofDevastation.trl"/>
+		<Trail type="tt.mc.ct.mapB.spm.dredgehauntcliffs" trailData="Data/MapCompletion/Trails/completiontrails/DredgehauntCliffs.trl"/>
+		<Trail type="tt.mc.ct.mapB.spm.frostgorgesound" trailData="Data/MapCompletion/Trails/completiontrails/FrostgorgeSound.trl"/>
+		<Trail type="tt.mc.ct.mapB.spm.lornarspass" trailData="Data/MapCompletion/Trails/completiontrails/LornarsPass.trl"/>
+		<Trail type="tt.mc.ct.mapB.spm.snowdendrifts" trailData="Data/MapCompletion/Trails/completiontrails/SnowdenDrifts.trl"/>
+		<Trail type="tt.mc.ct.mapB.spm.wayfarerfoothills" trailData="Data/MapCompletion/Trails/completiontrails/WayfarerFoothills.trl"/>
+		<Trail type="tt.mc.ct.mapB.ssm.bloodtidecoast" trailData="Data/MapCompletion/Trails/completiontrails/BloodtideCoast.trl"/>
+		<Trail type="tt.mc.ct.mapB.ssm.mountmaelstrom" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
+		<Trail type="tt.mc.ct.mapB.ssm.sparkflyfen" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
+		<Trail type="tt.mc.ct.mapB.ssm.timberlinefalls" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
 
 		<!-- HP TRAILS -->
 		<Trail type="tt.mc.hp.hpt.a.blazeridgesteppes" GUID="aSCNRwmjUEK0DZ0OkUIIjA==" trailData="Data/MapCompletion/Trails/hptrails/BlazeridgeSteppes.trl"/>
