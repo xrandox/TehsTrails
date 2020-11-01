@@ -12,7 +12,8 @@ Latest Pack Download Link: [tt.worldcompletion.taco](https://github.com/xrandox/
 
 ***
 ### Hero Point Train Trails
-Warning! This pack is still very rough, I haven't had a chance to give it much attention since I created it almost two years ago.
+*Warning! This pack is still very rough, I haven't had a chance to give it much attention since I created it almost two years ago.*
+
 A collection of trails for the routes I used to use for my Hero Point Trains in HoT and PoF maps. Path of Fire can easily be used to quickly get an elite spec solo (~1-2 hours). It's recommend to bring some friends if you intend to do the Heart of Thorns HP's, as some can be difficult to solo. 
 
 Latest Pack Download Link: [tt.hptraintrails.taco](https://github.com/xrandox/TehsTrails/raw/main/HP%20Train%20Trails/tt.hptraintrails.taco)
