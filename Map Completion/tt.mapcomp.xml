@@ -2447,6 +2447,10 @@
 		
 	
 		<!--============================================= HARATHI HINTERLANDS MARKERS =============================================-->
+		<POI MapID="17" xpos="-685.332" ypos="3.53294" zpos="396.337" type="tt.mc.h.chm.interact" GUID="G3KexbUeY0SalQK9fJqadw=="/>
+		<POI MapID="17" xpos="-688.802" ypos="5.09927" zpos="381.807" type="tt.mc.h.hsm.pourwater" GUID="TkRQt6zgOkitp9eRpVAdxQ=="/>
+		<POI MapID="17" xpos="-686.238" ypos="5.26958" zpos="378.972" type="tt.mc.h.hsm.pourwater" GUID="d1Jm6/dKzkGTshoLpIyZQA=="/>
+		<POI MapID="17" xpos="-681.373" ypos="5.33997" zpos="374.728" type="tt.mc.h.hsm.pourwater" GUID="Ya3F4mPn0kuPPJSBm/iHcw=="/>
 		<POI MapID="17" xpos="4.93963" ypos="57.8226" zpos="541.464" type="tt.mc.h.chm.start_heart" info="" infoRange="20.0" GUID="Fc0FfnPT+EmA0Uzfg65YpQ=="/>
 		<POI MapID="17" xpos="15.5802" ypos="57.9174" zpos="522.212" type="tt.mc.h.chm.interact" GUID="kyIshv6vj0uUnDQCLKv22Q=="/>
 		<POI MapID="17" xpos="15.9176" ypos="44.4106" zpos="273.534" type="tt.mc.cm.rm.waypoints" GUID="z460295ElkOcoM/q9sC1+Q=="/>
