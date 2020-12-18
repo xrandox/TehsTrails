@@ -15,6 +15,12 @@
 				<MarkerCategory name="pofstart" DisplayName="PoF Start" iconFile="Data/HPTrainTrails/Markers/PoFStart.png"/>
 				<MarkerCategory name="hotstart" DisplayName="HoT Start" iconFile="Data/HPTrainTrails/Markers/HoTStart.png"/>
 				<MarkerCategory name="p" DisplayName="Portal Marker" iconFile="Data/HPTrainTrails/Markers/Portal_Entre.png"/>
+				<MarkerCategory name="arrow" DisplayName="Arrow Waypoint Marker" iconFile="Data/HPTrainTrails/Markers/arrow.png"/>
+				<MarkerCategory name="circle" DisplayName="Circle Waypoint Marker" iconFile="Data/HPTrainTrails/Markers/circle.png"/>
+				<MarkerCategory name="heart" DisplayName="Heart Waypoint Marker" iconFile="Data/HPTrainTrails/Markers/heart.png"/>
+				<MarkerCategory name="wparrow" DisplayName="Arrow WP Target" iconFile="Data/HPTrainTrails/Markers/WPArrow.png"/>
+				<MarkerCategory name="wpcircle" DisplayName="Circle WP Target" iconFile="Data/HPTrainTrails/Markers/WPCircle.png"/>
+				<MarkerCategory name="wpheart" DisplayName="Heart WP Target" iconFile="Data/HPTrainTrails/Markers/WPheart.png"/>
 			</MarkerCategory>
 
 			<MarkerCategory name="t" DisplayName="Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25">
@@ -47,8 +53,8 @@
 						<MarkerCategory name="td" DisplayName="Tangled Depths"/>
 					</MarkerCategory>
 					<MarkerCategory name="g" DisplayName="Griffon Trails">
-						<MarkerCategory name="vb" DisplayName="Verdant Brink Speed Trail"/>
-						<MarkerCategory name="ab" DisplayName="Auric Basin Speed Trail"/>
+						<MarkerCategory name="vb" DisplayName="Verdant Brink Griffon Trail"/>
+						<MarkerCategory name="ab" DisplayName="Auric Basin Griffon Trail"/>
 					</MarkerCategory>
 				</MarkerCategory>
 
@@ -131,6 +137,12 @@
 		<POI MapID="1043" xpos="522.723" ypos="302.112" zpos="-264.645" type="tt.hptt.m.p" GUID="UECPYOI3okeD4yBoTa5EKQ=="/>
 		<POI MapID="1043" xpos="55.2259" ypos="331.628" zpos="474.842" type="tt.hptt.m.a" GUID="VpZCow2qVE+zTBERJbn9BA=="/>
 		<POI MapID="1043" xpos="550.667" ypos="287.343" zpos="-248.433" type="tt.hptt.m.p" GUID="ndDDYvMNBEipdlCFY2HYHw=="/>
+		<POI MapID="1043" xpos="-544.189" ypos="211.242" zpos="-303.319" type="tt.hptt.m.wparrow" GUID="ONj/q2iKIUeq6IwTDq1vFA=="/>
+		<POI MapID="1043" xpos="-316.676" ypos="278.213" zpos="-769.451" type="tt.hptt.m.wpheart" GUID="JxUJschB3kWTpxp7zG5ovQ=="/>
+		<POI MapID="1043" xpos="341.401" ypos="235.705" zpos="-673.621" type="tt.hptt.m.heart" GUID="XuWRrxcizk2Y4JQbJ/UzRQ=="/>
+		<POI MapID="1043" xpos="60.0202" ypos="332.12" zpos="473.307" type="tt.hptt.m.circle" GUID="y7OUxDsgA0CvcnxRahE91w=="/>
+		<POI MapID="1043" xpos="-10.0047" ypos="20.8018" zpos="122.299" type="tt.hptt.m.wpcircle" GUID="iOMWssjTc0WvCH4/x92gsg=="/>
+		<POI MapID="1043" xpos="-385.01" ypos="475.261" zpos="670.246" type="tt.hptt.m.arrow" GUID="rllE7nEC5UuCP433w8JHjg=="/>
 		<!--TANGLED DEPTHS MARKERS-->
 		<POI MapID="1045" xpos="-426.598" ypos="15.0214" zpos="-374.591" type="tt.hptt.m.a" GUID="goPshDzt20aMdizrJxvVjQ=="/>
 		<POI MapID="1045" xpos="-497.392" ypos="322.144" zpos="-59.3565" type="tt.hptt.m.p" GUID="3Dv9dbFCpkiknVGkmyG6cA=="/>
@@ -151,6 +163,11 @@
 		<POI MapID="1045" xpos="496.29" ypos="19.3583" zpos="36.6578" type="tt.hptt.m.p" GUID="wTYvI2om7U249P0WN2ZciQ=="/>
 		<POI MapID="1045" xpos="533.551" ypos="31.1538" zpos="430.09" type="tt.hptt.m.p" GUID="hhl9bJUcGUOLkDqC2o/cTg=="/>
 		<POI MapID="1045" xpos="85.8919" ypos="188.041" zpos="86.462" type="tt.hptt.m.p" GUID="ewChE+PIfEqf2lpsIl56WA=="/>
+		<POI MapID="1045" xpos="-710.699" ypos="241.622" zpos="206.291" type="tt.hptt.m.arrow" GUID="JjYAY6yINkCzJSdV9O9pLQ=="/>
+		<POI MapID="1045" xpos="441.845" ypos="0.859565" zpos="142.758" type="tt.hptt.m.circle" GUID="iaE/ci/bBEqQiCbXynWd6w=="/>
+		<POI MapID="1045" xpos="303.063" ypos="14.364" zpos="-78.4297" type="tt.hptt.m.wpcircle" GUID="zqSkwUHYc0yTcdGuhNd+ZA=="/>
+		<POI MapID="1045" xpos="414.662" ypos="20.1485" zpos="449.212" type="tt.hptt.m.wparrow" GUID="Mr+/Vb1zaUGH/Avd6XOA5g=="/>
+		<POI MapID="1045" xpos="-712.363" ypos="77.9374" zpos="-48.9848" type="tt.hptt.m.wparrow" GUID="iQGUrW9/REClXqZHI63pOQ=="/>
 		<!--VERDANT BRINK MARKERS-->
 		<POI MapID="1052" xpos="-323.754" ypos="571.918" zpos="-286.909" type="tt.hptt.m.p" GUID="zrrnAPIFiEeitKm6OSwEzA=="/>
 		<POI MapID="1052" xpos="-333.627" ypos="568.882" zpos="-251.628" type="tt.hptt.m.p" GUID="eZzCMJbEc0eT1cM1BxGSRQ=="/>
@@ -180,9 +197,18 @@
 		<POI MapID="1052" xpos="864.857" ypos="431.331" zpos="51.0418" type="tt.hptt.m.hotstart" GUID="hnCnDzhTxkSnVntPjVxrZg=="/>
 		<POI MapID="1052" xpos="887.476" ypos="427.024" zpos="46.0726" type="tt.hptt.m.a" GUID="D8EGSwH+bkmaFXGsgwVJfA=="/>
 		<POI MapID="1052" xpos="908.12" ypos="422.917" zpos="70.4933" type="tt.hptt.m.a" GUID="E20S7cTHpEuqSwbb30kexQ=="/>
-		<POI MapID="1052" xpos="931.685" ypos="418.984" zpos="49.4322" type="tt.hptt.m.3" GUID="BzlYhzJF1UKx3+186k4Skw=="/>
-		<POI MapID="1052" xpos="932.406" ypos="418.939" zpos="51.125" type="tt.hptt.m.2" GUID="k8dbBke5p0yl0zNBYpR33Q=="/>
+		<POI MapID="1052" xpos="930.641" ypos="419.242" zpos="50.5937" type="tt.hptt.m.3" GUID="BzlYhzJF1UKx3+186k4Skw=="/>
+		<POI MapID="1052" xpos="931.37" ypos="419.066" zpos="53.9848" type="tt.hptt.m.2" GUID="k8dbBke5p0yl0zNBYpR33Q=="/>
 		<POI MapID="1052" xpos="95.1589" ypos="688.147" zpos="19.8617" type="tt.hptt.m.p" GUID="hKJpqr2L50G9wqI49NZUXg=="/>
+		<POI MapID="1052" xpos="580.971" ypos="11.2427" zpos="-33.1407" type="tt.hptt.m.wparrow" GUID="V007x7BjEUCWONpdoTl0Iw=="/>
+		<POI MapID="1052" xpos="353.511" ypos="164.532" zpos="140.141" type="tt.hptt.m.wparrow" GUID="4d32/naSbkmHmk8H7FYmkg=="/>
+		<POI MapID="1052" xpos="-595.497" ypos="443.885" zpos="186.474" type="tt.hptt.m.wpcircle" GUID="vMZfhf0ZB0euK2tZ5iZ20w=="/>
+		<POI MapID="1052" xpos="936.244" ypos="418.129" zpos="50.8373" type="tt.hptt.m.arrow" GUID="3RTZCfDjHEGNzJ0eqHP2nQ=="/>
+		<POI MapID="1052" xpos="-524.787" ypos="513.685" zpos="-278.64" type="tt.hptt.m.circle" GUID="lTGj1/biUkumQ1hx0GOM4w=="/>
+		<POI MapID="1052" xpos="-72.4939" ypos="26.7284" zpos="-134.121" type="tt.hptt.m.wpcircle" GUID="t+M7wwPOw0GJ9TniBS85rw=="/>
+		<POI MapID="1052" xpos="-398.365" ypos="148.158" zpos="-113.678" type="tt.hptt.m.wpcircle" GUID="V1X/j192lUaC2jf7iDE+BA=="/>
+		<POI MapID="1052" xpos="-769.718" ypos="377.791" zpos="-397.872" type="tt.hptt.m.heart" GUID="xPIFP47mi0+kdrOUbDfv1w=="/>
+		<POI MapID="1052" xpos="-702.482" ypos="361.758" zpos="-350.456" type="tt.hptt.m.heart" GUID="dCusxFmmfkO0C5mdLmuM1A=="/>
 
 
 	<!--PATH OF FIRE HERO POINT MARKERS-->
@@ -259,9 +285,9 @@
 
 		<!--HEART OF THORNS TRAILS-->
 		<Trail type="tt.hptt.t.hot.m.vb" trailData="Data/HPTrainTrails/HoT/VerdantBrink.trl" texture="Data/HPTrainTrails/Markers/Trail.png"/>
-		<Trail type="tt.hptt.t.hot.g.vb" trailData="Data/HPTrainTrails/HoT/VerdantBrinkGriffTrail.trl" texture="Data/HPTrainTrails/Markers/Trail.png"/>
+		<Trail type="tt.hptt.t.hot.g.vb" trailData="Data/HPTrainTrails/HoT/VerdantBrinkGriffTrail.trl" texture="Data/HPTrainTrails/Markers/griffTrail.png"/>
 		<Trail type="tt.hptt.t.hot.m.ab" trailData="Data/HPTrainTrails/HoT/AuricBasin.trl" texture="Data/HPTrainTrails/Markers/Trail.png"/>
-		<Trail type="tt.hptt.t.hot.g.ab" trailData="Data/HPTrainTrails/HoT/AuricBasinGriffTrail.trl" texture="Data/HPTrainTrails/Markers/Trail.png"/>
+		<Trail type="tt.hptt.t.hot.g.ab" trailData="Data/HPTrainTrails/HoT/AuricBasinGriffTrail.trl" texture="Data/HPTrainTrails/Markers/griffTrail.png"/>
 		<Trail type="tt.hptt.t.hot.m.td" trailData="Data/HPTrainTrails/HoT/TangledDepths.trl" texture="Data/HPTrainTrails/Markers/Trail.png"/>
 		<!--PATH OF FIRE TRAILS-->
 		<Trail type="tt.hptt.t.pof.m.co" trailData="Data/HPTrainTrails/PoF/CrystalOasis.trl" texture="Data/HPTrainTrails/Markers/Trail.png"/>
