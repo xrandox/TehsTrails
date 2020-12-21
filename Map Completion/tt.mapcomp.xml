@@ -576,6 +576,7 @@
 				  <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/MapCompletion/General/Beetle.png"/>
 				  <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/MapCompletion/General/Jackal.png"/>
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/MapCompletion/General/Skyscale.png"/>
+				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/MapCompletion/General/BunnyToGriff.png" iconSize="1.5"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000">	
@@ -805,8 +806,57 @@
 					<MarkerCategory name="blackcitadel" DisplayName="BlackCitadel"/>
 				</MarkerCategory>
 			</MarkerCategory>
-
-
+		
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
+		<!--=======================================================================================================================================================================-->
+			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/TrailOfShame.png" trailScale="1" miniMapVisibility="0">
+				<MarkerCategory name="a" DisplayName="Ascalon">
+					<MarkerCategory name="fireheartrise" DisplayName="Fireheart Rise"/>
+					<MarkerCategory name="diessaplateau" DisplayName="Diessa Plateau"/>
+					<MarkerCategory name="ironmarches" DisplayName="Iron Marches"/>
+					<MarkerCategory name="blazeridgesteppes" DisplayName="Blazeridge Steppes"/>
+					<MarkerCategory name="plainsofashford" DisplayName="Plains of Ashford"/>
+					<MarkerCategory name="fieldsofruin" DisplayName="Fields of Ruin"/>
+				</MarkerCategory>					
+				<MarkerCategory name="k" DisplayName="Kryta">
+					<MarkerCategory name="kessexhills" DisplayName="Kessex Hills"/>
+					<MarkerCategory name="queensdale" DisplayName="Queensdale"/>
+					<MarkerCategory name="harathihinterlands" DisplayName="Harathi Hinterlands"/>
+					<MarkerCategory name="gendarranfields" DisplayName="Gendarran Fields"/>
+				</MarkerCategory>
+				<MarkerCategory name="mj" DisplayName="Maguuma Jungle">
+					<MarkerCategory name="brisbanwildlands" DisplayName="Brisban Wildlands"/>
+					<MarkerCategory name="caledonforest" DisplayName="Caledon Forest"/>
+					<MarkerCategory name="metricaprovince" DisplayName="Metrica Province"/>
+				</MarkerCategory>
+				<MarkerCategory name="roo" DisplayName="Ruins of Orr">
+					<MarkerCategory name="straitsofdevastation" DisplayName="Straits of Devastation"/>
+					<MarkerCategory name="cursedshore" DisplayName="Cursed Shore"/>
+					<MarkerCategory name="malchorsleap" DisplayName="Malchor's Leap"/>
+				</MarkerCategory>					
+				<MarkerCategory name="spm" DisplayName="Shiverpeak Mountains">
+					<MarkerCategory name="frostgorgesound" DisplayName="Frostgorge Sound"/>
+					<MarkerCategory name="snowdendrifts" DisplayName="Snowden Drifts"/>
+					<MarkerCategory name="wayfarerfoothills" DisplayName="Wayfarer Foothills"/>
+					<MarkerCategory name="lornarspass" DisplayName="Lornar's Pass"/>
+					<MarkerCategory name="dredgehauntcliffs" DisplayName="Dredgehaunt Cliffs"/>
+				</MarkerCategory>
+				<MarkerCategory name="ssm" DisplayName="Steamspur Mountains">
+					<MarkerCategory name="sparkflyfen" DisplayName="Sparkfly Fen"/>
+					<MarkerCategory name="bloodtidecoast" DisplayName="Bloodtide Coast"/>
+					<MarkerCategory name="timberlinefalls" DisplayName="Timberline Falls"/>
+					<MarkerCategory name="mountmaelstrom" DisplayName="Mount Maelstrom"/>
+				</MarkerCategory>
+				<MarkerCategory name="c" DisplayName="Cities">
+					<MarkerCategory name="divinitysreach" DisplayName="Divinitys Reach"/>
+					<MarkerCategory name="lionsarch" DisplayName="Lions Arch"/>
+					<MarkerCategory name="ratasum" DisplayName="Rata Sum"/>
+					<MarkerCategory name="thegrove" DisplayName="The Grove"/>
+					<MarkerCategory name="blackcitadel" DisplayName="Black Citadel"/>
+					<MarkerCategory name="hoelbrak" DisplayName="Hoelbrak"/>
+				</MarkerCategory>
+			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                               CREDITS                                                                             ==-->
 		<!--=======================================================================================================================================================================-->
@@ -2320,7 +2370,7 @@
 		<!--============================================= GENDARRAN FIELDS MARKERS =============================================-->
 		<POI MapID="24" xpos="248.318" ypos="2.89918" zpos="-457.997" type="tt.mc.cm.mm.beetle" GUID="ta47ikRDWUmvcvGs+bDcjg=="/>
 		<POI MapID="24" xpos="276.029" ypos="5.12977" zpos="-164.726" type="tt.mc.cm.mm.beetle" GUID="ELXa+e9dTE6fVFcVB9vMzw=="/>
-		<POI MapID="24" xpos="670.869" ypos="53.4572" zpos="-139.883" type="mounts.shoppinglist" GUID="7OCPN2Cx90mcoSWKWo5Y7w=="/>
+		<POI MapID="24" xpos="670.869" ypos="53.4572" zpos="-139.883" type="tt.mc.cm.mm.springertogriff" GUID="7OCPN2Cx90mcoSWKWo5Y7w=="/>
 		<POI MapID="24" xpos="1161.41" ypos="74.2183" zpos="-313.812" type="tt.mc.cm.mm.beetle" GUID="k1Jop4LlDEqkzNEhAtIZ4A=="/>
 		<POI MapID="24" xpos="1121.56" ypos="49.2264" zpos="91.1591" type="tt.mc.cm.mm.beetle" GUID="hjZY/jwdsU6KFTyHsxG/lQ=="/>
 		<POI MapID="24" xpos="-460.639" ypos="11.3573" zpos="-276.814" type="tt.mc.cm.mm.beetle" GUID="C1JGNiIZZEK5TWnbcezr3A=="/>
@@ -2329,8 +2379,7 @@
 		<POI MapID="24" xpos="-485.99" ypos="29.4557" zpos="441.229" type="tt.mc.cm.mm.beetle" GUID="6kgsr85SCE+VDpGxsfbUEA=="/>
 		<POI MapID="24" xpos="-715.801" ypos="24.5005" zpos="-1.04336" type="tt.mc.cm.mm.beetle" GUID="mslLDEReWUeEbYKHAPB6hA=="/>
 		<POI MapID="24" xpos="-345.088" ypos="5.21393" zpos="2.74699" type="tt.mc.cm.mm.griffon" GUID="adv2kfuNv0yASZ41MPfITQ=="/>
-		<POI MapID="24" xpos="-410.029" ypos="1.81496" zpos="-51.2246" type="tt.mc.cm.mm.beetle" GUID="Bz4RIMbgcUqKili9N9r9VA=="/>
-		<POI MapID="24" xpos="-344.64" ypos="55.217" zpos="72.4929" type="mounts.shoppinglist" GUID="jbkRwL1sa0WIXLhKGkk+2Q=="/>
+		<POI MapID="24" xpos="-344.64" ypos="55.217" zpos="72.4929" type="tt.mc.cm.mm.springertogriff" GUID="jbkRwL1sa0WIXLhKGkk+2Q=="/>
 		<POI MapID="24" xpos="-365.044" ypos="51.4358" zpos="72.3688" type="tt.mc.cm.rm.vistas" GUID="aAxULlMPEUKf/1anXarsHQ=="/>
 		<POI MapID="24" xpos="17.968" ypos="-17.4974" zpos="27.9249" type="tt.mc.cm.rm.points_of_interest" GUID="97peq6hHEUqzsv51uywH2w=="/>
 		<POI MapID="24" xpos="110.941" ypos="19.123" zpos="80.0425" type="tt.mc.cm.mm.skimmer" GUID="vGpILQWqIk+B3+OHjoZCLw=="/>
@@ -2760,7 +2809,7 @@
 		<POI MapID="23" xpos="-693.073" ypos="26.6132" zpos="-546.522" type="tt.mc.cm.rm.vistas" GUID="3A+bjmFNf0aYhwZxO63DFw=="/>
 		<POI MapID="23" xpos="-702.571" ypos="5.43605" zpos="-548.296" type="tt.mc.cm.mm.springer" GUID="9kn03fKcqUqZmVO7g67t2w=="/>
 		<POI MapID="23" xpos="-721.397" ypos="58.6259" zpos="146.327" type="tt.mc.cm.mm.griffon" GUID="ziLdOFg3PUGwsCCwA1fO+w=="/>
-		<POI MapID="23" xpos="-728.237" ypos="58.8397" zpos="151.041" type="tt.mc.h.chm.start_heart" info="Turn in Crab Meat" infoRange="20.0" GUID="GWTNDNWPxUuMmBRdsHr20g=="/>
+		<POI MapID="23" xpos="-551.94" ypos="-50.4601" zpos="134.596" type="tt.mc.h.chm.start_heart" info="Turn in Crab Meat" infoRange="20.0" GUID="GWTNDNWPxUuMmBRdsHr20g=="/>
 		<POI MapID="23" xpos="-748.294" ypos="60.9837" zpos="164.688" type="tt.mc.cm.rm.points_of_interest" GUID="Dcijij9pJkOxgT1C2kKowQ=="/>
 		<POI MapID="23" xpos="-757.273" ypos="2.52443" zpos="-525.279" type="tt.mc.h.chm.finish_heart" GUID="MPjHRH1WzkW0LLP1rGvXzA=="/>
 		<POI MapID="23" xpos="-802.514" ypos="-0.403425" zpos="-506.906" type="tt.mc.cm.rm.waypoints" GUID="lVxDm4jAfUumupPzCrlNTA=="/>
@@ -3427,6 +3476,7 @@
 		
 		
 		<!--============================================= METRICA PROVINCE MARKERS =============================================-->
+		<POI MapID="35" xpos="489.833" ypos="15.5899" zpos="-397.046" type="tt.mc.cm.mm.beetle" GUID="WAOe2jmREkiP45YSnQkNqQ=="/>
 		<POI MapID="35" xpos="-476.619" ypos="47.2911" zpos="-729.725" type="tt.mc.cm.mm.raptor" GUID="qcqGE+/w+UadTbx4kOGrWw=="/>
 		<POI MapID="35" xpos="100.881" ypos="2.91052" zpos="-572.419" type="tt.mc.cm.mm.beetle" GUID="TUiKFj6GtkOPJ5iUCSpvVg=="/>
 		<POI MapID="35" xpos="1.02365" ypos="23.7466" zpos="-148.915" type="tt.mc.cm.mm.beetle" GUID="ZJF1QcJBxU6UKIT9og0qeg=="/>
@@ -5567,8 +5617,8 @@
 		<POI MapID="35" xpos="-81.7155" ypos="26.4984" zpos="888.151" type="tt.mc.hp.hpm" GUID="k2ZjaixAE0OY+C8dDioFVQ=="/>
 		<POI MapID="35" xpos="138.454" ypos="0.358395" zpos="-650.319" type="tt.mc.hp.hpm" GUID="scMv15O97UKF4Zub9/wnkg=="/>
 		<POI MapID="35" xpos="382.136" ypos="21.445" zpos="529.976" type="tt.mc.hp.hpm" GUID="meIHaKjvC0usGZvQ1KNxMQ=="/>
-		<POI MapID="35" xpos="402.569" ypos="46.2835" zpos="757.789" type="tt.mc.hp.hpm" GUID="s4gcputfaECrWfJJHgIvlA=="/>
-		<POI MapID="35" xpos="572.138" ypos="25.4364" zpos="38.1472" type="tt.mc.hp.hpm" GUID="MdHMzzbKEEadvwpHImyVyw=="/>
+		<POI MapID="35" xpos="403.304" ypos="46.4358" zpos="784.828" type="tt.mc.hp.hpm" GUID="s4gcputfaECrWfJJHgIvlA=="/>
+		<POI MapID="35" xpos="397.76" ypos="2.66265" zpos="125.787" type="tt.mc.hp.hpm" GUID="MdHMzzbKEEadvwpHImyVyw=="/>
 		<POI MapID="35" xpos="604.287" ypos="24.0671" zpos="-158.457" type="tt.mc.hp.hpm" GUID="0yPAJGNAEkKTMroziimbgQ=="/>
 		<POI MapID="39" xpos="-1083.96" ypos="20.1316" zpos="-473.357" type="tt.mc.hp.hpm" GUID="4ZKMA8okaEG6GbaMIQqYvw=="/>
 		<POI MapID="39" xpos="-354.193" ypos="232.092" zpos="-126.163" type="tt.mc.hp.hpm" GUID="0zezihaf+kWMgobavNTwAQ=="/>
@@ -5594,12 +5644,12 @@
 		<POI MapID="53" xpos="-517.477" ypos="42.3807" zpos="644.87" type="tt.mc.hp.hpm" GUID="IuQWQ7OFaUGhN8hJDVpUrg=="/>
 		<POI MapID="53" xpos="13.4871" ypos="0.514463" zpos="-90.2571" type="tt.mc.hp.hpm" GUID="wpDg5lHjXUu/aFWWdbpFaA=="/>
 		<POI MapID="53" xpos="465.714" ypos="38.7364" zpos="533.888" type="tt.mc.hp.hpm" GUID="ibhK8sc65UCoMBHe9Sv11w=="/>
-		<POI MapID="54" xpos="-422.557" ypos="24.982" zpos="-721.868" type="tt.mc.hp.hpm" GUID="6FbL2zTFA0eAzfu0aiB2+g=="/>
+		<POI MapID="54" xpos="-429.616" ypos="46.6831" zpos="-723.679" type="tt.mc.hp.hpm" GUID="6FbL2zTFA0eAzfu0aiB2+g=="/>
 		<POI MapID="54" xpos="-629.183" ypos="27.3858" zpos="-300.137" type="tt.mc.hp.hpm" GUID="yjQfeilGAEW4u+qNTV0HHA=="/>
 		<POI MapID="54" xpos="-773.124" ypos="9.77429" zpos="-475.05" type="tt.mc.hp.hpm" GUID="jdUseNhGVEiLYjMEvTki7Q=="/>
 		<POI MapID="54" xpos="213.178" ypos="101.382" zpos="315.719" type="tt.mc.hp.hpm" GUID="arB25dhs+k6DuhcqR/819Q=="/>
 		<POI MapID="54" xpos="27.3363" ypos="68.0072" zpos="-432.287" type="tt.mc.hp.hpm" GUID="EgAKvIiEB0SxdNiqPNFOOw=="/>
-		<POI MapID="54" xpos="28.6025" ypos="18.0849" zpos="667.68" type="tt.mc.hp.hpm" GUID="PR0k/KWH90+sQiYXGLDnzw=="/>
+		<POI MapID="54" xpos="8.77054" ypos="4.7073" zpos="685.199" type="tt.mc.hp.hpm" GUID="PR0k/KWH90+sQiYXGLDnzw=="/>
 		<POI MapID="54" xpos="584.072" ypos="56.089" zpos="159.178" type="tt.mc.hp.hpm" GUID="FQQS1ET4HUqym10eQ48puQ=="/>
 		<POI MapID="62" xpos="-16.5461" ypos="29.6912" zpos="-80.0388" type="tt.mc.hp.hpm" GUID="dDJsjpNHC0uHSxitbIsyRQ=="/>
 		<POI MapID="62" xpos="-202.612" ypos="21.5818" zpos="1032" type="tt.mc.hp.hpm" GUID="qr0MvHbTSUKPKo3sXJ58qg=="/>
@@ -6071,5 +6121,9 @@
 		<Trail type="tt.mc.sst.roo.straitsofdevastation" trailData="Data/MapCompletion/Trails/skyscaletrails/StraitsofDevastationSkyscale.trl"/>
 		<Trail type="tt.mc.sst.roo.cursedshore" trailData="Data/MapCompletion/Trails/skyscaletrails/CursedShoreSkyscale.trl"/>
 		<Trail type="tt.mc.sst.a.plainsofashford" trailData="Data/MapCompletion/Trails/skyscaletrails/PlainsofAshfordSkyscale.trl"/>
+
+		<!-- TRAILS OF SHAME -->
+		<Trail type="tt.mc.tos.k.gendarranfields" trailData="Data/MapCompletion/Trails/trailsofshame/GendarranFieldsTrailOfShame.trl"/>
+
 	</POIs>
 </OverlayData>
