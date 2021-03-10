@@ -810,51 +810,16 @@
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/TrailOfShame.png" trailScale="1" miniMapVisibility="0">
-				<MarkerCategory name="a" DisplayName="Ascalon">
-					<MarkerCategory name="fireheartrise" DisplayName="Fireheart Rise"/>
-					<MarkerCategory name="diessaplateau" DisplayName="Diessa Plateau"/>
-					<MarkerCategory name="ironmarches" DisplayName="Iron Marches"/>
-					<MarkerCategory name="blazeridgesteppes" DisplayName="Blazeridge Steppes"/>
-					<MarkerCategory name="plainsofashford" DisplayName="Plains of Ashford"/>
-					<MarkerCategory name="fieldsofruin" DisplayName="Fields of Ruin"/>
-				</MarkerCategory>					
+			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/TrailOfShame.png" trailScale="1" miniMapVisibility="0">				
 				<MarkerCategory name="k" DisplayName="Kryta">
-					<MarkerCategory name="kessexhills" DisplayName="Kessex Hills"/>
-					<MarkerCategory name="queensdale" DisplayName="Queensdale"/>
-					<MarkerCategory name="harathihinterlands" DisplayName="Harathi Hinterlands"/>
 					<MarkerCategory name="gendarranfields" DisplayName="Gendarran Fields"/>
-				</MarkerCategory>
-				<MarkerCategory name="mj" DisplayName="Maguuma Jungle">
-					<MarkerCategory name="brisbanwildlands" DisplayName="Brisban Wildlands"/>
-					<MarkerCategory name="caledonforest" DisplayName="Caledon Forest"/>
-					<MarkerCategory name="metricaprovince" DisplayName="Metrica Province"/>
 				</MarkerCategory>
 				<MarkerCategory name="roo" DisplayName="Ruins of Orr">
 					<MarkerCategory name="straitsofdevastation" DisplayName="Straits of Devastation"/>
-					<MarkerCategory name="cursedshore" DisplayName="Cursed Shore"/>
-					<MarkerCategory name="malchorsleap" DisplayName="Malchor's Leap"/>
 				</MarkerCategory>					
 				<MarkerCategory name="spm" DisplayName="Shiverpeak Mountains">
 					<MarkerCategory name="frostgorgesound" DisplayName="Frostgorge Sound"/>
-					<MarkerCategory name="snowdendrifts" DisplayName="Snowden Drifts"/>
-					<MarkerCategory name="wayfarerfoothills" DisplayName="Wayfarer Foothills"/>
 					<MarkerCategory name="lornarspass" DisplayName="Lornar's Pass"/>
-					<MarkerCategory name="dredgehauntcliffs" DisplayName="Dredgehaunt Cliffs"/>
-				</MarkerCategory>
-				<MarkerCategory name="ssm" DisplayName="Steamspur Mountains">
-					<MarkerCategory name="sparkflyfen" DisplayName="Sparkfly Fen"/>
-					<MarkerCategory name="bloodtidecoast" DisplayName="Bloodtide Coast"/>
-					<MarkerCategory name="timberlinefalls" DisplayName="Timberline Falls"/>
-					<MarkerCategory name="mountmaelstrom" DisplayName="Mount Maelstrom"/>
-				</MarkerCategory>
-				<MarkerCategory name="c" DisplayName="Cities">
-					<MarkerCategory name="divinitysreach" DisplayName="Divinitys Reach"/>
-					<MarkerCategory name="lionsarch" DisplayName="Lions Arch"/>
-					<MarkerCategory name="ratasum" DisplayName="Rata Sum"/>
-					<MarkerCategory name="thegrove" DisplayName="The Grove"/>
-					<MarkerCategory name="blackcitadel" DisplayName="Black Citadel"/>
-					<MarkerCategory name="hoelbrak" DisplayName="Hoelbrak"/>
 				</MarkerCategory>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
@@ -3762,6 +3727,12 @@
 	
 	
 		<!--============================================= CURSED SHORE MARKERS =============================================-->
+		<POI MapID="62" xpos="-157.371" ypos="2.83828" zpos="790.072" type="tt.mc.cm.mm.beetle" GUID="LKsnWEEp10aq+k1lDlKwzQ=="/>
+		<POI MapID="62" xpos="-308.776" ypos="37.7625" zpos="524.567" type="tt.mc.cm.mm.raptor" GUID="W1JSfIvfp0Sfi3ZT9fq8vg=="/>
+		<POI MapID="62" xpos="-150.536" ypos="1.34196" zpos="812.901" type="tt.mc.cm.mm.beetle" GUID="Jd0PWzecq0exqXdUBW3pkw=="/>
+		<POI MapID="62" xpos="142.684" ypos="37.8912" zpos="881.315" type="tt.mc.cm.mm.beetle" GUID="GNrT3NCoi06vIfOwOs0nGw=="/>
+		<POI MapID="62" xpos="-94.4435" ypos="19.3465" zpos="-385.077" type="tt.mc.cm.mm.beetle" GUID="VqT7ywSLQ0uWe2Hp8uOW3Q=="/>
+		<POI MapID="62" xpos="-309.074" ypos="50.1152" zpos="-782.144" type="tt.mc.cm.mm.beetle" GUID="aBlcTPUPuU6yc5t+1n9MHw=="/>
 		<POI MapID="62" xpos="-42.8766" ypos="17.6818" zpos="-303.016" type="tt.mc.cm.mm.skyscale" GUID="L6y5EcPCcE+B/eO2TzyEwg=="/>
 		<POI MapID="62" xpos="9.07095" ypos="30.3402" zpos="-897.156" type="tt.mc.cm.mm.griffon" GUID="vfBxW+8s6UOh7zKL+s+wnA=="/>
 		<POI MapID="62" xpos="12.8149" ypos="46.4624" zpos="-950.24" type="tt.mc.cm.rm.vistas" GUID="b3Y9e9kSLU2g1qS3GAx1dQ=="/>
@@ -3781,11 +3752,10 @@
 		<POI MapID="62" xpos="112.961" ypos="53.8285" zpos="-92.2932" type="tt.mc.cm.rm.vistas" GUID="NW0US3WF40SilSBuQ3rGvA=="/>
 		<POI MapID="62" xpos="118.203" ypos="33.5199" zpos="913.413" type="tt.mc.cm.rm.2" GUID="L9nWIuUn6E2K75T5Nci/8A=="/>
 		<POI MapID="62" xpos="121.554" ypos="36.9437" zpos="906.289" type="tt.mc.cm.rm.points_of_interest" GUID="c7O42IPkfEqbY/BqA1gchw=="/>
-		<POI MapID="62" xpos="126.69" ypos="38.3571" zpos="895.841" type="tt.mc.cm.mm.raptor" GUID="ZCGNIzRP90W+XCEwnXqoLQ=="/>
 		<POI MapID="62" xpos="130.27" ypos="82.9023" zpos="1112.95" type="tt.mc.cm.rm.points_of_interest" GUID="vWSVcvj6tkyGNfJ8b/IzzA=="/>
 		<POI MapID="62" xpos="145.32" ypos="31.6423" zpos="665.583" type="tt.mc.cm.rm.points_of_interest" GUID="94te1FY3jUK3G9GTIXOc5A=="/>
 		<POI MapID="62" xpos="146.36" ypos="2.76972" zpos="-677.475" type="tt.mc.cm.rm.points_of_interest" GUID="xKW9VVi710qngpvj/uzXjQ=="/>
-		<POI MapID="62" xpos="178.26" ypos="53.2691" zpos="-386.62" type="tt.mc.cm.mm.raptor" GUID="WEdl66HaB0OmlveXggUDxg=="/>
+		<POI MapID="62" xpos="178.26" ypos="53.2691" zpos="-386.62" type="tt.mc.cm.mm.jackal" GUID="WEdl66HaB0OmlveXggUDxg=="/>
 		<POI MapID="62" xpos="195.858" ypos="41.8409" zpos="644.377" type="tt.mc.cm.rm.waypoints" GUID="Cbn+bk0b90eUR0WT/FY2bg=="/>
 		<POI MapID="62" xpos="249.865" ypos="30.5728" zpos="155.754" type="tt.mc.cm.rm.points_of_interest" GUID="K7/YkmRtwEOQdLAwQeepCw=="/>
 		<POI MapID="62" xpos="250.197" ypos="30.7429" zpos="150.274" type="tt.mc.cm.rm.waypoints" GUID="PDQM1hFW402cJlcHlhNgsA=="/>
@@ -3816,11 +3786,9 @@
 		<POI MapID="62" xpos="-63.5544" ypos="17.8065" zpos="-308.999" type="tt.mc.cm.mm.griffon" GUID="nvplY5u1Yke6s66LSTBqbw=="/>
 		<POI MapID="62" xpos="-68.8945" ypos="17.198" zpos="99.7744" type="tt.mc.cm.rm.points_of_interest" GUID="W4aSweVX9UOR17PaLlNsWA=="/>
 		<POI MapID="62" xpos="-69.9589" ypos="62.2287" zpos="-374.282" type="tt.mc.cm.rm.vistas" GUID="BbOc7iOXy06AAiA6e2ZccQ=="/>
-		<POI MapID="62" xpos="-72.2664" ypos="20.8085" zpos="-381.603" type="tt.mc.cm.mm.raptor" GUID="HP1cR1lEn0OYOxrXdYtR1Q=="/>
 		<POI MapID="62" xpos="-73.4732" ypos="32.5656" zpos="-380.88" type="tt.mc.cm.rm.points_of_interest" GUID="G1bnvFird06vyNJxQOd9gQ=="/>
 		<POI MapID="62" xpos="-80.6242" ypos="21.4856" zpos="-384.138" type="tt.mc.cm.rm.waypoints" GUID="PJbIwdC6DU2dOUtjCh+k3A=="/>
 		<POI MapID="62" xpos="-99.3466" ypos="19.0822" zpos="-383.222" type="tt.mc.cm.wm.square" GUID="bAIHb1Pua0+LhAU8JfrRpg=="/>
-		<POI MapID="62" xpos="-162.273" ypos="3.13144" zpos="794.155" type="tt.mc.cm.mm.raptor" GUID="a0XXC6+kHUG1qRBDN/unLw=="/>
 		<POI MapID="62" xpos="-162.399" ypos="3.2857" zpos="790.384" type="tt.mc.cm.rm.points_of_interest" GUID="YxeZatBmUk+1f40ZjYoOiA=="/>
 		<POI MapID="62" xpos="-162.989" ypos="3.97501" zpos="784.503" type="tt.mc.cm.rm.waypoints" GUID="3nsen8lx1E+fcmgobLSlvw=="/>
 		<POI MapID="62" xpos="-165.966" ypos="4.22454" zpos="765.803" type="tt.mc.cm.wm.circle" GUID="l9NRhtGLx0aBL6m3qZo18g=="/>
@@ -3845,8 +3813,13 @@
 		
 		
 		<!--============================================= MALCHOR'S LEAP MARKERS =============================================-->
+		<POI MapID="65" xpos="730.294" ypos="45.2599" zpos="-116.83" type="tt.mc.cm.mm.springer" GUID="VZongvICjUebzcfbXwjvXg=="/>
+		<POI MapID="65" xpos="727.628" ypos="70.3288" zpos="-105.359" type="tt.mc.cm.mm.griffon" GUID="zTPFi9/QnUiFAYVbjY0wzw=="/>
+		<POI MapID="65" xpos="-502.493" ypos="25.7823" zpos="-316.535" type="tt.mc.cm.mm.springer" GUID="kIpgR43L00qYB3iyn7Eh0Q=="/>
+		<POI MapID="65" xpos="-524.046" ypos="51.5827" zpos="-310.223" type="tt.mc.cm.mm.griffon" GUID="nrWk6si6fU+VYEQ0zF9JxQ=="/>
+		<POI MapID="65" xpos="-472.137" ypos="31.2469" zpos="-328.255" type="tt.mc.hp.hpm" GUID="VSR0OinZkUaw5+acv0hmaA=="/>
+		<POI MapID="65" xpos="7.90696" ypos="41.9963" zpos="23.392" type="tt.mc.cm.rm.dismount" GUID="cEJj3qYs6U+UWjndHYJqlw=="/>
 		<POI MapID="65" xpos="14.0776" ypos="33.9564" zpos="105.183" type="tt.mc.cm.rm.points_of_interest" GUID="uICmLOL5pU6P6wgMHJj2fQ=="/>
-		<POI MapID="65" xpos="17.9314" ypos="28.4073" zpos="-47.7697" type="tt.mc.cm.rm.dismount" GUID="oNdVS1QYOk+gSvKOvmZ51A=="/>
 		<POI MapID="65" xpos="46.3584" ypos="29.2611" zpos="72.1277" type="tt.mc.cm.mm.raptor" GUID="L8GgMF4ljke0ql75ISD/Sw=="/>
 		<POI MapID="65" xpos="58.7456" ypos="63.4633" zpos="-414.168" type="tt.mc.cm.mm.griffon" GUID="tEf3rr/g6UCaGxUCIwpLhw=="/>
 		<POI MapID="65" xpos="89.5526" ypos="84.4425" zpos="-2.7894" type="tt.mc.cm.rm.vistas" GUID="ZqIEur9cMkWYnyJ0VDng9A=="/>
@@ -3858,7 +3831,7 @@
 		<POI MapID="65" xpos="261.777" ypos="39.4311" zpos="-415.435" type="tt.mc.cm.wm.wpsquare" GUID="x42lAKCCVEuPJQceHt7cXg=="/>
 		<POI MapID="65" xpos="263.353" ypos="39.4104" zpos="-414.148" type="tt.mc.cm.rm.points_of_interest" GUID="wo7+6qGFqUulJ8OWr2QVXA=="/>
 		<POI MapID="65" xpos="328.551" ypos="1.78546" zpos="166.788" type="tt.mc.cm.rm.points_of_interest" GUID="aEsfneRCikaDqG685mHVIw=="/>
-		<POI MapID="65" xpos="337.912" ypos="1.38505" zpos="178.43" type="tt.mc.cm.mm.raptor" GUID="dvQ2fDtvWkmeKmLRMK1WnA=="/>
+		<POI MapID="65" xpos="337.912" ypos="1.38505" zpos="178.43" type="tt.mc.cm.mm.jackal" GUID="dvQ2fDtvWkmeKmLRMK1WnA=="/>
 		<POI MapID="65" xpos="456.236" ypos="-1.98133" zpos="315.36" type="tt.mc.cm.rm.points_of_interest" GUID="EeeaRhqF00mcyw+l2xvUHA=="/>
 		<POI MapID="65" xpos="460.214" ypos="1.31174" zpos="313.209" type="tt.mc.cm.mm.skimmer" GUID="j7nQyhkaI0+9jhyrkvxsOw=="/>
 		<POI MapID="65" xpos="465.96" ypos="95.9195" zpos="150.935" type="tt.mc.cm.rm.waypoints" GUID="HTSIfuYqKEmpR/+gzFUlBw=="/>
@@ -3873,7 +3846,6 @@
 		<POI MapID="65" xpos="687.327" ypos="-1.0525" zpos="-501.609" type="tt.mc.cm.wm.wparrow" GUID="VGIPnpx01Uyx3e2tKWWFwA=="/>
 		<POI MapID="65" xpos="689.29" ypos="-3.08305" zpos="-503.807" type="tt.mc.cm.rm.points_of_interest" GUID="acimgSDUJ0yNaGV3ORjBQA=="/>
 		<POI MapID="65" xpos="694.449" ypos="24.8365" zpos="139.817" type="tt.mc.cm.rm.points_of_interest" GUID="CYaH1XBBWkyrv51+JhkE7A=="/>
-		<POI MapID="65" xpos="726.223" ypos="46.0724" zpos="-99.5302" type="tt.mc.cm.mm.griffon" GUID="EkOh2HNl6k6kEDlroUt51A=="/>
 		<POI MapID="65" xpos="744.549" ypos="43.3554" zpos="-134.581" type="tt.mc.cm.rm.waypoints" GUID="P/zXUnaezEiCuu/On1Hohw=="/>
 		<POI MapID="65" xpos="763.966" ypos="44.7377" zpos="-119.377" type="tt.mc.cm.rm.points_of_interest" GUID="MU1fWmqIck2k5zyvjfuFdA=="/>
 		<POI MapID="65" xpos="844.722" ypos="54.7672" zpos="-327.547" type="tt.mc.cm.mm.raptor" GUID="gMRl4atPfkWpOjTrFdpzCQ=="/>
@@ -3893,8 +3865,8 @@
 		<POI MapID="65" xpos="1030.65" ypos="7.51599" zpos="70.0066" type="tt.mc.cm.wm.circle" GUID="O+kQSHiGYUitpPXZsNFA1w=="/>
 		<POI MapID="65" xpos="1032.54" ypos="7.62198" zpos="66.3736" type="tt.mc.cm.mm.skyscale" GUID="UpnRqDnY+k6rOIqtH53WDg=="/>
 		<POI MapID="65" xpos="1034.48" ypos="7.27065" zpos="71.1879" type="tt.mc.cm.rm.waypoints" GUID="/aDdBT/VD0m0PxP7nbdEWA=="/>
-		<POI MapID="65" xpos="1037.03" ypos="30.2685" zpos="-370.597" type="tt.mc.cm.mm.raptor" GUID="gORKIaVb9kayF9oJS/b+Mw=="/>
-		<POI MapID="65" xpos="1154.3" ypos="53.3632" zpos="-266.077" type="tt.mc.cm.mm.raptor" GUID="mJbMJyo3wESi6TY4w/v1ug=="/>
+		<POI MapID="65" xpos="1037.03" ypos="30.2685" zpos="-370.597" type="tt.mc.cm.mm.beetle" GUID="gORKIaVb9kayF9oJS/b+Mw=="/>
+		<POI MapID="65" xpos="1154.3" ypos="53.3632" zpos="-266.077" type="tt.mc.cm.mm.beetle" GUID="mJbMJyo3wESi6TY4w/v1ug=="/>
 		<POI MapID="65" xpos="1166.56" ypos="54.1744" zpos="-259.296" type="tt.mc.cm.rm.start" GUID="T6zGIgRZOkOcCKaI72OGNw=="/>
 		<POI MapID="65" xpos="1167.37" ypos="45.8428" zpos="-96.0647" type="tt.mc.cm.rm.points_of_interest" GUID="SPr4DOmAW06JxVBfCYG43g=="/>
 		<POI MapID="65" xpos="-13.4629" ypos="29.4117" zpos="22.724" type="tt.mc.cm.rm.waypoints" GUID="VHETOdhQTUK801kwVzrrWA=="/>
@@ -3922,15 +3894,14 @@
 		<POI MapID="65" xpos="-405.016" ypos="25.7618" zpos="-445.167" type="tt.mc.cm.rm.points_of_interest" GUID="gEa2m0hneUmADfHb6ZW1Qg=="/>
 		<POI MapID="65" xpos="-407.549" ypos="22.4067" zpos="-457.868" type="tt.mc.cm.rm.dismount" GUID="X7ehKKV6LU6BtKMmhlBRaA=="/>
 		<POI MapID="65" xpos="-415.123" ypos="13.2078" zpos="-491.831" type="tt.mc.cm.mm.griffon" GUID="Lt4ci4b8GkqQ3MejFYytAQ=="/>
-		<POI MapID="65" xpos="-417.337" ypos="6.49149" zpos="-166.456" type="tt.mc.cm.mm.raptor" GUID="0zP/IJNsZ065d1+36j1Crg=="/>
+		<POI MapID="65" xpos="-417.337" ypos="6.49149" zpos="-166.456" type="tt.mc.cm.mm.jackal" GUID="0zP/IJNsZ065d1+36j1Crg=="/>
 		<POI MapID="65" xpos="-418.95" ypos="7.91447" zpos="-162.278" type="tt.mc.cm.rm.2" GUID="bRAxfd1MZkmaBrbx9Hzc2A=="/>
-		<POI MapID="65" xpos="-422.124" ypos="5.37841" zpos="-167.232" type="tt.mc.cm.mm.raptor" GUID="Tmp1Md5h20GUn3KkAvYsxQ=="/>
+		<POI MapID="65" xpos="-422.124" ypos="5.37841" zpos="-167.232" type="tt.mc.cm.mm.jackal" GUID="Tmp1Md5h20GUn3KkAvYsxQ=="/>
 		<POI MapID="65" xpos="-423.535" ypos="5.89923" zpos="-151.926" type="tt.mc.cm.wm.square" GUID="wOqxkOuZp0alwilz91UIng=="/>
 		<POI MapID="65" xpos="-423.885" ypos="6.48515" zpos="-161.012" type="tt.mc.cm.rm.1" GUID="RNSmfsAWUUyakFdVVE4VwA=="/>
 		<POI MapID="65" xpos="-429.107" ypos="4.92289" zpos="-158.133" type="tt.mc.cm.rm.waypoints" GUID="dLog3JFOKEu2+72P323cxQ=="/>
 		<POI MapID="65" xpos="-469.42" ypos="30.7674" zpos="-325.437" type="tt.mc.cm.rm.points_of_interest" GUID="ZEIFqN3QqUa3dZ60DzE4OA=="/>
 		<POI MapID="65" xpos="-476.696" ypos="32.4491" zpos="-254.417" type="tt.mc.cm.mm.raptor" GUID="cLCE+vj9uU6w/PSlUjtYiA=="/>
-		<POI MapID="65" xpos="-500.727" ypos="29.9749" zpos="-346.847" type="tt.mc.cm.mm.griffon" GUID="V4ckd+uYi0Ob9Hz6NcatFQ=="/>
 		<POI MapID="65" xpos="-529.319" ypos="-40.3446" zpos="294.268" type="tt.mc.cm.rm.points_of_interest" GUID="nv4Mj8rSGkOI0yASqCNc1A=="/>
 		<POI MapID="65" xpos="-531.468" ypos="-40.1125" zpos="293.217" type="tt.mc.cm.wm.wpheart" GUID="RuyA8xioB0y+gHOlJogpvQ=="/>
 		<POI MapID="65" xpos="-549.984" ypos="-14.1785" zpos="75.0517" type="tt.mc.cm.rm.points_of_interest" GUID="Z0VzPkSdPkqoFdo3RWpgmw=="/>
@@ -3938,18 +3909,32 @@
 		<POI MapID="65" xpos="-632.653" ypos="1.37639" zpos="-203.675" type="tt.mc.cm.mm.skimmer" GUID="hE+yu0sPYEOJBOfxgCdHPg=="/>
 		<POI MapID="65" xpos="-666.09" ypos="-53.0704" zpos="-211.22" type="tt.mc.cm.rm.points_of_interest" GUID="XaOnuyrYpUedUUOP9In1FA=="/>
 		<POI MapID="65" xpos="-666.903" ypos="-0.138391" zpos="-398.004" type="tt.mc.cm.mm.skimmer" GUID="2erAMR36jUa770ODIZAFjw=="/>
-		<POI MapID="65" xpos="-681.993" ypos="1.37834" zpos="-343.663" type="tt.mc.cm.mm.skimmer" GUID="8MFF0+CVnEyhu9aTHZCHmA=="/>
 		<POI MapID="65" xpos="-768.477" ypos="-34.5646" zpos="402.046" type="tt.mc.cm.rm.waypoints" GUID="/TtXMbbPpU6GD+ea4MnRcQ=="/>
 		<POI MapID="65" xpos="-770.006" ypos="-33.7806" zpos="401.729" type="tt.mc.cm.wm.wpsquare" GUID="wEaqIlkbRUGqtlKb4GEtsw=="/>
 		<POI MapID="65" xpos="-842.201" ypos="1.37639" zpos="305.446" type="tt.mc.cm.mm.skimmer" GUID="kdfuuYslpk+F7pBjckKqww=="/>
 		<POI MapID="65" xpos="-847.623" ypos="-8.47491" zpos="289.341" type="tt.mc.cm.rm.points_of_interest" GUID="YVVacooDlU2k9ldzzSKQ6Q=="/>
 		<POI MapID="65" xpos="-1018.33" ypos="1.37639" zpos="-7.71935" type="tt.mc.cm.mm.skimmer" GUID="VgB6chhk1U+0qYMllzQt6g=="/>
 		<POI MapID="65" xpos="-1032.93" ypos="-38.0716" zpos="-39.2215" type="tt.mc.cm.rm.points_of_interest" GUID="49Fa89D8EkS5fi0ampp0og=="/>
-		<POI MapID="65" xpos="-1071.38" ypos="4.513" zpos="-329.008" type="tt.mc.cm.mm.griffon" GUID="5TY+Ifj6ZUSI7GNIDDLM2A=="/>
 		<POI MapID="65" xpos="-1079.96" ypos="33.6683" zpos="-280.038" type="tt.mc.cm.rm.vistas" GUID="NZiPtdlEcUq1nGK4C5aZjQ=="/>
 		
 		
 		<!--============================================= STRAITS OF DEVASTATION MARKERS =============================================-->
+		<POI MapID="51" xpos="302.483" ypos="9.22595" zpos="711.323" type="tt.mc.cm.mm.beetle" GUID="ixa1nbEBcEi4dZGUUBxLEg=="/>
+		<POI MapID="51" xpos="507.65" ypos="72.6658" zpos="725.352" type="tt.mc.cm.mm.springer" GUID="3+XUzT7P8UCetEkZheK0NQ=="/>
+		<POI MapID="51" xpos="510.209" ypos="84.6994" zpos="724.229" type="tt.mc.cm.mm.springertogriff" GUID="kDbBBM7pX0KmvZvtfPCc5g=="/>
+		<POI MapID="51" xpos="708.287" ypos="19.5584" zpos="113.417" type="tt.mc.cm.rm.waypoints" GUID="9LMMi9d14kqPHpGmPnBpCA=="/>
+		<POI MapID="51" xpos="743.215" ypos="29.1086" zpos="114.429" type="tt.mc.cm.rm.points_of_interest" GUID="mDQp7Jnf5USYyGPIFMboHw=="/>
+		<POI MapID="51" xpos="519.768" ypos="24.0326" zpos="555.986" type="tt.mc.cm.rm.waypoints" GUID="K08amHuqxEWSdtbX6yiPag=="/>
+		<POI MapID="51" xpos="860.6" ypos="24.2854" zpos="124.327" type="tt.mc.cm.mm.springer" GUID="AiH73aHW6kyHZ5OkrDFzfw=="/>
+		<POI MapID="51" xpos="634.605" ypos="3.39805" zpos="198.092" type="tt.mc.cm.wm.wpsquare" GUID="DHceInOciUaNGPkdzQw0Jg=="/>
+		<POI MapID="51" xpos="710.343" ypos="19.5584" zpos="114.558" type="tt.mc.cm.wm.square" GUID="EgJa0JEs40aRae9+l9myiA=="/>
+		<POI MapID="51" xpos="703.564" ypos="19.5044" zpos="108.674" type="tt.mc.hp.hpm" GUID="R5JltmC1x02A9fBhfJS3Qw=="/>
+		<POI MapID="51" xpos="715.925" ypos="19.4396" zpos="107.179" type="tt.mc.cm.mm.beetle" GUID="1qHuiG5VSkyRVEAQq0ipaQ=="/>
+		<POI MapID="51" xpos="641.892" ypos="1.97078" zpos="-250.808" type="tt.mc.cm.mm.beetle" GUID="hlVv5N0qo0qo9SA65RmvUg=="/>
+		<POI MapID="51" xpos="-786.847" ypos="12.0098" zpos="269.15" type="tt.mc.cm.mm.beetle" GUID="zDFNI6NsD0u3WFI2jBwhxg=="/>
+		<POI MapID="51" xpos="-888.471" ypos="50.4178" zpos="-253.429" type="tt.mc.cm.mm.beetle" GUID="BLHM+QwXAEe+ZsgM0xCOrg=="/>
+		<POI MapID="51" xpos="-505.413" ypos="38.9924" zpos="-138.436" type="tt.mc.cm.mm.beetle" GUID="8U9ti0RKq0SuZNqOl4QDXg=="/>
+		<POI MapID="51" xpos="-936.221" ypos="52.2359" zpos="-441.318" type="tt.mc.cm.rm.finish" GUID="ApzmHFZTg0CpuzcpSrLmvA=="/>
 		<POI MapID="51" xpos="19.5672" ypos="-1.05641" zpos="92.7415" type="tt.mc.cm.mm.skimmer" GUID="ktnNrqJGm0iZS6AragzvvA=="/>
 		<POI MapID="51" xpos="30.6503" ypos="-36.2227" zpos="76.045" type="tt.mc.cm.rm.points_of_interest" GUID="2VxUk/ThOU217aEwYfw57A=="/>
 		<POI MapID="51" xpos="31.6269" ypos="1.78984" zpos="-310.204" type="tt.mc.cm.rm.waypoints" GUID="H0wEAHkqF02/dg1ooBxCPg=="/>
@@ -3979,9 +3964,7 @@
 		<POI MapID="51" xpos="492.231" ypos="37.1381" zpos="119.487" type="tt.mc.cm.rm.vistas" GUID="y0k6PW71p0O6SDyTFW8RRQ=="/>
 		<POI MapID="51" xpos="492.981" ypos="38.7286" zpos="122.177" type="tt.mc.cm.mm.griffon" GUID="bZvOmwQT7Ei5gVRe9WyRNQ=="/>
 		<POI MapID="51" xpos="509.031" ypos="72.0457" zpos="727.404" type="tt.mc.cm.wm.arrow" GUID="CkZjqFa3wkCixNStoYsxOQ=="/>
-		<POI MapID="51" xpos="513.764" ypos="71.227" zpos="720.194" type="tt.mc.cm.mm.griffon" GUID="MObRTiM+/0WRlrwprFDgrg=="/>
 		<POI MapID="51" xpos="515.487" ypos="72.8672" zpos="746.562" type="tt.mc.cm.mm.raptor" GUID="cJxA16wU3UeLbVhFqNvTBA=="/>
-		<POI MapID="51" xpos="515.953" ypos="17.3" zpos="560.655" type="tt.mc.cm.rm.waypoints" GUID="yRbLHg3UDEO8PqVE2tA4wg=="/>
 		<POI MapID="51" xpos="516.374" ypos="73.7972" zpos="751.291" type="tt.mc.cm.rm.start" GUID="/eP9CDpCVkSGWpw3AHvXuw=="/>
 		<POI MapID="51" xpos="590.591" ypos="11.4192" zpos="200.454" type="tt.mc.cm.rm.points_of_interest" GUID="qM84wVoByEWfIFdsx+Cs8Q=="/>
 		<POI MapID="51" xpos="599.344" ypos="7.04184" zpos="-271.907" type="tt.mc.cm.rm.points_of_interest" GUID="h/BJG7R7yUq0z+3EkF0MOQ=="/>
@@ -3992,9 +3975,7 @@
 		<POI MapID="51" xpos="675.657" ypos="19.3156" zpos="194.379" type="tt.mc.cm.mm.raptor" GUID="r5shudcplUiAiP+6J7Vv/A=="/>
 		<POI MapID="51" xpos="711.166" ypos="5.65718" zpos="542.628" type="tt.mc.cm.rm.waypoints" GUID="3G7eINDRekie1ej82s9C6A=="/>
 		<POI MapID="51" xpos="724.776" ypos="11.0221" zpos="526.197" type="tt.mc.cm.mm.raptor" GUID="ipc72gpLLECT+gdp7tuAeQ=="/>
-		<POI MapID="51" xpos="742.259" ypos="19.5321" zpos="115.702" type="tt.mc.cm.rm.points_of_interest" GUID="FmvNwAtoiECEd90KFsndeQ=="/>
 		<POI MapID="51" xpos="800.217" ypos="14.6147" zpos="450.806" type="tt.mc.cm.rm.points_of_interest" GUID="SJbsaLeopUGq2/6IhwYOfQ=="/>
-		<POI MapID="51" xpos="847.628" ypos="46.4225" zpos="-69.6289" type="tt.mc.cm.rm.dismount" GUID="gUGOu7MS1UOiBfGJrRMvqQ=="/>
 		<POI MapID="51" xpos="852.375" ypos="2.56563" zpos="-321.588" type="tt.mc.cm.mm.skimmer" GUID="pmi640Vk7kCnvfHXVcoSSw=="/>
 		<POI MapID="51" xpos="852.589" ypos="2.6123" zpos="-309.345" type="tt.mc.cm.rm.points_of_interest" GUID="QTazQpfrIEqfVWxPPnYQxg=="/>
 		<POI MapID="51" xpos="864.807" ypos="50.0425" zpos="-136.358" type="tt.mc.cm.mm.skyscale" GUID="G1n42i9k10S8QD/IpNAWSQ=="/>
@@ -4041,7 +4022,6 @@
 		<POI MapID="51" xpos="-786.071" ypos="32.6943" zpos="-46.2794" type="tt.mc.cm.rm.waypoints" GUID="65ahiaTnvUKlTMGD3oKwiw=="/>
 		<POI MapID="51" xpos="-868.413" ypos="13.8876" zpos="-54.944" type="tt.mc.cm.mm.springer" GUID="pLHSsJevrUG4Woz8xyPhvQ=="/>
 		<POI MapID="51" xpos="-893.167" ypos="39.6518" zpos="-386.564" type="tt.mc.cm.rm.waypoints" GUID="HwM34tNm0kKMZZtyc+Mdeg=="/>
-		<POI MapID="51" xpos="-893.751" ypos="39.0445" zpos="-383.366" type="tt.mc.cm.rm.finish" GUID="hXuNpefS9kqQdjeOFrIjHQ=="/>
 		<POI MapID="51" xpos="-901.49" ypos="53.1516" zpos="-250.808" type="tt.mc.cm.rm.points_of_interest" GUID="3jFoirHhMEKPFQIW8vdovw=="/>
 		<POI MapID="51" xpos="-923.569" ypos="48.9555" zpos="-429.083" type="tt.mc.cm.rm.points_of_interest" GUID="yveyp8ggskStaUL3KvgpKw=="/>
 		<POI MapID="51" xpos="-928.343" ypos="23.3747" zpos="127.629" type="tt.mc.cm.rm.points_of_interest" GUID="iDPcTKfjZkmcfMO7Fptebg=="/>
@@ -5793,7 +5773,6 @@
 		<POI MapID="51" xpos="-820.874" ypos="32.1639" zpos="-58.8031" type="tt.mc.hp.hpm" GUID="RiQa2i54lU6KaThu5XtELw=="/>
 		<POI MapID="51" xpos="172.387" ypos="76.8774" zpos="-289.879" type="tt.mc.hp.hpm" GUID="6mPR22i6FUuJgJy4gzujhQ=="/>
 		<POI MapID="51" xpos="185.603" ypos="77.1914" zpos="-297.848" type="tt.mc.hp.hpm" GUID="XhsrAv58wEeBuyl+GabX5A=="/>
-		<POI MapID="51" xpos="740.723" ypos="19.3267" zpos="78.9809" type="tt.mc.hp.hpm" GUID="MjI66WVKrE+rZdUmryU2qg=="/>
 		<POI MapID="53" xpos="-213.481" ypos="-1.29527" zpos="105.72" type="tt.mc.hp.hpm" GUID="CEurAAY19UitXNfdRSOZCA=="/>
 		<POI MapID="53" xpos="-27.3729" ypos="14.7859" zpos="-453.306" type="tt.mc.hp.hpm" GUID="qojGa271kUS5ogXXIJUvIQ=="/>
 		<POI MapID="53" xpos="-517.477" ypos="42.3807" zpos="644.87" type="tt.mc.hp.hpm" GUID="IuQWQ7OFaUGhN8hJDVpUrg=="/>
@@ -5827,7 +5806,6 @@
 		<POI MapID="65" xpos="-366.189" ypos="18.6398" zpos="-331.366" type="tt.mc.hp.hpm" GUID="jyFA1LvQcEKKo2CVy7Gvyw=="/>
 		<POI MapID="65" xpos="-371.486" ypos="150.972" zpos="13.2013" type="tt.mc.hp.hpm" GUID="JLrcdxunN0aXNocRgfTDZg=="/>
 		<POI MapID="65" xpos="-415.48" ypos="1.37639" zpos="202.944" type="tt.mc.hp.hpm" GUID="1Kc8XQAxIk6v/KuTyMwgGA=="/>
-		<POI MapID="65" xpos="-544.745" ypos="28.9006" zpos="-364.916" type="tt.mc.hp.hpm" GUID="bJ09p/t2lEKf5Zk4rYeKtw=="/>
 		<POI MapID="65" xpos="-631.747" ypos="1.7877" zpos="-403.272" type="tt.mc.hp.hpm" GUID="QU86/44T4k+HyqvaRtWTiw=="/>
 		<POI MapID="65" xpos="224.394" ypos="101.319" zpos="325.964" type="tt.mc.hp.hpm" GUID="ZuplYzC8i0eHKZmCDESjaw=="/>
 		<POI MapID="65" xpos="25.6392" ypos="34.9955" zpos="89.1663" type="tt.mc.hp.hpm" GUID="qKlnx8b2LUqybw1og+huEQ=="/>
@@ -6281,6 +6259,7 @@
 		<Trail type="tt.mc.tos.k.gendarranfields" trailData="Data/MapCompletion/Trails/trailsofshame/GendarranFieldsTrailOfShame.trl"/>
 		<Trail type="tt.mc.tos.spm.frostgorgesound" trailData="Data/MapCompletion/Trails/trailsofshame/FrostgorgeSoundTrailOfShame.trl"/>
 		<Trail type="tt.mc.tos.spm.lornarspass" trailData="Data/MapCompletion/Trails/trailsofshame/LornarsPassTrailOfShame.trl"/>
+		<Trail type="tt.mc.tos.roo.straitsofdevastation" trailData="Data/MapCompletion/Trails/trailsofshame/StraitsofDevastationTrailOfShame.trl"/>
 
 	</POIs>
 </OverlayData>
