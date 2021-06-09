@@ -831,7 +831,7 @@
 		<POI MapID="20" xpos="320.192" ypos="18.9953" zpos="897.947" type="tt.mc.cm.rm.waypoints" GUID="0GNNJ/nhfEGndQkEB1e8Kw=="/>
 		<POI MapID="20" xpos="324.045" ypos="25.5604" zpos="254.597" type="tt.mc.cm.rm.waypoints" GUID="P++uEcWGKEiV6aP4Ad8QOQ=="/>
 		<POI MapID="20" xpos="445.329" ypos="46.2113" zpos="750.404" type="tt.mc.h.chm.start_heart" info="Portal to end | Speed runes - Stack Swiftness - Stealth interact flags" infoRange="40.0" GUID="r7mSL7JAuEG7T966H9xytQ=="/>
-		<POI MapID="20" xpos="474.391" ypos="52.9909" zpos="798.405" type = "tt.mc.cm.rm.portal" GUID="InXk9nZzZ0m7AVjDOy83Bw=="/>
+		<POI MapID="20" xpos="474.391" ypos="52.9909" zpos="798.405" type="tt.mc.cm.rm.portal" GUID="InXk9nZzZ0m7AVjDOy83Bw=="/>
 		<POI MapID="20" xpos="330.292" ypos="25.1842" zpos="253.306" type="tt.mc.cm.wm.circle" GUID="4czQqcPokUKHewFYxmogYw=="/>
 		<POI MapID="20" xpos="341.133" ypos="72.9801" zpos="-114.734" type="tt.mc.cm.rm.waypoints" GUID="1iHaoa8PcUiX0JXL/L9ptg=="/>
 		<POI MapID="20" xpos="360.541" ypos="38.6256" zpos="1043.93" type="tt.mc.cm.wm.wparrow" GUID="EJIpdgzMe0y0RXVkxPkMPw=="/>
@@ -890,7 +890,7 @@
 		<POI MapID="20" xpos="-306.742" ypos="11.5145" zpos="-611.34" type="tt.mc.h.chm.start_heart" info="Use flamethrower" infoRange="40.0" GUID="4x0LPzYdHEGjSrEFMGHjVA=="/>
 		<POI MapID="20" xpos="-311.383" ypos="3.2803" zpos="838.269" type="tt.mc.h.chm.kill" GUID="bRcRjz3r9kOhY4dNrdmsuQ=="/>
 		<POI MapID="20" xpos="-321.199" ypos="1.75072" zpos="875.955" type="tt.mc.h.chm.kill" GUID="lw6UFKr0OkiyDaQTcPBVOA=="/>
-		<POI MapID="20" xpos="-403.621" ypos="10.1213" zpos="-852.031" type="tt.mc.h.chm.start_heart" info="Kill all | Throw shards/weapons at ghosts/branded -> kill them" infoRange="40.0" GUID="BQLpyxPf+UyEOvCI7V9kQg=="/>
+		<POI MapID="20" xpos="-403.621" ypos="10.1213" zpos="-852.031" type="tt.mc.h.chm.start_heart" info="Throw shards/weapons at ghosts/branded -> kill them" infoRange="40.0" GUID="BQLpyxPf+UyEOvCI7V9kQg=="/>
 		<POI MapID="20" xpos="-344.424" ypos="1.53315" zpos="261.734" type="tt.mc.cm.mm.springer" GUID="UY0jsJiJ5kqzXPc5itK9Vg=="/>
 		<POI MapID="20" xpos="-358.17" ypos="41.5489" zpos="-30.0334" type="tt.mc.cm.rm.waypoints" GUID="Bd/FCdTqgEqy4+KNKN1nlw=="/>
 		<POI MapID="20" xpos="-378.006" ypos="34.1757" zpos="655.435" type="tt.mc.cm.rm.vistas" GUID="wwcv7+nCjkOBt1VFZf/zYw=="/>
