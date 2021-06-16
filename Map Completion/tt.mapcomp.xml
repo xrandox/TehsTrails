@@ -1689,7 +1689,6 @@
 		<POI MapID="19" xpos="-50.4871" ypos="43.9751" zpos="-262.729" type="tt.mc.cm.wm.x" info="If the arena wasn't working, follow green trail and capture minotaurs to finish heart. Then WP back." infoRange="40.0" GUID="iarYtpkkEESLUuWK9MFntw=="/>
 		<POI MapID="19" xpos="21.4604" ypos="31.5817" zpos="-29.4406" type="tt.mc.h.chm.start_heart" info="Kill ghosts" infoRange="40.0" GUID="ssOZEIv6t0yMl+z5bMLlMg=="/>
 		<POI MapID="19" xpos=" -54.0497" ypos="43.6899" zpos="-263.195" type="tt.mc.cm.rm.waypoints" GUID="nrTgPIqKEkOWLj54XtTtCQ=="/>
-		<POI MapID="19" xpos="-131.775" ypos="10.8901" zpos="-382.823" type="tt.mc.cm.mm.raptor" GUID="fEjBcLkJu0GZJdtSuxqsWw=="/>
 		<POI MapID="19" xpos="-200.019" ypos="58.5173" zpos="-129.347" type="tt.mc.h.chm.kill" GUID="8ndwZx3aeUapxpmhc644NQ=="/>
 		<POI MapID="19" xpos="-217.548" ypos="58.5038" zpos="459.232" type="tt.mc.cm.rm.waypoints" GUID="pmIM6zjJiUG3+2ohaDhUXw=="/>
 		<POI MapID="19" xpos="-272.574" ypos="36.3925" zpos="-509.827" type="tt.mc.cm.mm.griffon" GUID="pm273DEj8UiMdGmIUXX+Pg=="/>
