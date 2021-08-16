@@ -38,8 +38,8 @@
 					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/MapCompletion/General/Finish.png" iconSize="0.75"/>
 					<MarkerCategory name="exit_instance" DisplayName="Exit Instance" iconFile="Data/MapCompletion/General/exit_instance.png" iconSize="0.75"/>
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/MapCompletion/General/Dismount.png" iconSize="0.4"/>
-					<MarkerCategory name="ppr-m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/MapCompletion/General/PPR-Mark.png" iconSize="0.5"/>
-					<MarkerCategory name="ppr-r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/MapCompletion/General/PPR-Rewind.png" iconSize="0.5"/>
+					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/MapCompletion/General/PPR-Mark.png" iconSize="0.5"/>
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/MapCompletion/General/PPR-Rewind.png" iconSize="0.5"/>
 					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/MapCompletion/General/Portal.png" iconSize="0.5"/>
 					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/MapCompletion/General/WeaponSwap.png" iconSize="0.5"/>
 					<MarkerCategory name="1" DisplayName="One" iconFile="Data/MapCompletion/General/1.png" iconSize="0.8"/>
