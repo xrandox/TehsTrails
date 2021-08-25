@@ -1686,7 +1686,7 @@
 		<POI MapID="19" xpos="-22.2507" ypos="48.0359" zpos="150.974" type="tt.mc.cm.rm.waypoints" GUID="HoKpshOYFEGLF1yrVxR9/Q=="/>
 		<POI MapID="19" xpos="-39.2909" ypos="36.269" zpos="404" type="tt.mc.cm.rm.points_of_interest" GUID="ptKuEZZuwUakr6inDhRD1Q=="/>
 		<POI MapID="19" xpos="21.4604" ypos="31.5817" zpos="-29.4406" type="tt.mc.h.chm.start_heart" info="Kill ghosts" infoRange="40.0" GUID="ssOZEIv6t0yMl+z5bMLlMg=="/>
-		<POI MapID="19" xpos=" -54.0497" ypos="43.6899" zpos="-263.195" type="tt.mc.cm.rm.waypoints" GUID="nrTgPIqKEkOWLj54XtTtCQ=="/>
+		<POI MapID="19" xpos="-54.0497" ypos="43.6899" zpos="-263.195" type="tt.mc.cm.rm.waypoints" GUID="nrTgPIqKEkOWLj54XtTtCQ=="/>
 		<POI MapID="19" xpos="-200.019" ypos="58.5173" zpos="-129.347" type="tt.mc.h.chm.kill" GUID="8ndwZx3aeUapxpmhc644NQ=="/>
 		<POI MapID="19" xpos="-217.548" ypos="58.5038" zpos="459.232" type="tt.mc.cm.rm.waypoints" GUID="pmIM6zjJiUG3+2ohaDhUXw=="/>
 		<POI MapID="19" xpos="-272.574" ypos="36.3925" zpos="-509.827" type="tt.mc.cm.mm.griffon" GUID="pm273DEj8UiMdGmIUXX+Pg=="/>
