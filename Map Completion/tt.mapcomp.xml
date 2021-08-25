@@ -199,6 +199,11 @@
 						<MarkerCategory name="radd" DisplayName="Who helped keep me organized:"/>
 						<MarkerCategory name="radd0" DisplayName="Orange Turtle.3546"/>
 					</MarkerCategory>
+					<MarkerCategory name="zot" DisplayName="The Fastest Tyrian">
+						<MarkerCategory name="zot" DisplayName="Who helped provide improvements"/>
+						<MarkerCategory name="zot0" DisplayName="to various things in the pack:"/>
+						<MarkerCategory name="zot1" DisplayName="zotmer"/>
+					</MarkerCategory>
 					<MarkerCategory name="orig" DisplayName="The Original Pioneers">
 						<MarkerCategory name="orig" DisplayName="Who developed the base routing that I"/>
 						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:"/>
@@ -206,7 +211,7 @@
 						<MarkerCategory name="orig1" DisplayName="Lulleh.6714 - [LAW]"/>
 						<MarkerCategory name="orig2" DisplayName="ideka's AugTyr"/>
 					</MarkerCategory>
-					<MarkerCategory name="maptesters" DisplayName="The Map Testers">
+					<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors">
 						<MarkerCategory name="maptester0" DisplayName="Alatar.7364"/>
 						<MarkerCategory name="maptester1" DisplayName="Ank.9537"/>
 						<MarkerCategory name="maptester2" DisplayName="Blood.5607"/>
@@ -230,6 +235,7 @@
 						<MarkerCategory name="maptester20" DisplayName="Xanky.6475"/>
 						<MarkerCategory name="maptester21" DisplayName="xeronil.6930"/>
 						<MarkerCategory name="maptester22" DisplayName="xhellkellx.4853"/>
+						<MarkerCategory name="contributor" DisplayName="TarEnethil"/>
 					</MarkerCategory>
 				</MarkerCategory>
 				
