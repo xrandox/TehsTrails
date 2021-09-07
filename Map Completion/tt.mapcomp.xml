@@ -1051,12 +1051,12 @@
 		<POI MapID="32" xpos="-363.866" ypos="42.9254" zpos="-171.91" type="tt.mc.cm.rm.waypoints" GUID="qdnk5Vmupkq1EkJktDsXsQ=="/>
 		<POI MapID="32" xpos="-366.438" ypos="43.4047" zpos="-173.982" type="tt.mc.h.chm.start_heart" info="Sit, bow, threaten, cheer, wash, catch bugs" infoRange="40.0" GUID="AlOXwVIrsUe72cpr/0APeQ=="/>
 		<POI MapID="32" xpos="-369.207" ypos="42.618" zpos="-181.389" type="tt.mc.cm.wm.square" GUID="HEB8pJFkckOFPT14pq0KrQ=="/>
-		<POI MapID="32" xpos="-395.656" ypos="34.8797" zpos="-217.098" type="tt.mc.h.hsm.sit" GUID="j6YIOttVeEKkfqwWMvqzfQ=="/>
-		<POI MapID="32" xpos="-399.369" ypos="35.522" zpos="-221.958" type="tt.mc.h.hsm.bow" GUID="Bskgx1W38kqGvrosk0aDOA=="/>
+		<POI MapID="32" xpos="-395.656" ypos="34.8797" zpos="-217.098" type="tt.mc.h.hsm.sit" autotrigger="true" triggerrange="3" copy="/sit" GUID="j6YIOttVeEKkfqwWMvqzfQ=="/>
+		<POI MapID="32" xpos="-399.369" ypos="35.522" zpos="-221.958" type="tt.mc.h.hsm.bow" autotrigger="true" triggerrange="3" copy="/bow" GUID="Bskgx1W38kqGvrosk0aDOA=="/>
 		<POI MapID="32" xpos="-401.647" ypos="49.1414" zpos="-596.195" type="tt.mc.cm.rm.points_of_interest" GUID="IzAebvcaSkWfNmGZHa1dvA=="/>
-		<POI MapID="32" xpos="-403.719" ypos="35.9644" zpos="-225.592" type="tt.mc.h.hsm.threaten" GUID="g4BPUbgiNkW4ZISM9C3Heg=="/>
+		<POI MapID="32" xpos="-403.719" ypos="35.9644" zpos="-225.592" type="tt.mc.h.hsm.threaten" autotrigger="true" triggerrange="3" copy="/threaten" GUID="g4BPUbgiNkW4ZISM9C3Heg=="/>
 		<POI MapID="32" xpos="-404.77" ypos="94.5991" zpos="491.252" type="tt.mc.cm.mm.griffon" GUID="782XnvarsEiN9XOddFiXAg=="/>
-		<POI MapID="32" xpos="-409.436" ypos="36.4009" zpos="-228.606" type="tt.mc.h.hsm.cheer" GUID="sL92hRHwxEieOTzvp+JFbw=="/>
+		<POI MapID="32" xpos="-409.436" ypos="36.4009" zpos="-228.606" type="tt.mc.h.hsm.cheer" autotrigger="true" triggerrange="3" copy="/cheer" GUID="sL92hRHwxEieOTzvp+JFbw=="/>
 		<POI MapID="32" xpos="-413.751" ypos="67.8953" zpos="435.093" type="tt.mc.cm.wm.x" GUID="LMNL4QQAgUKHIG2R8zzHNg=="/>
 		<POI MapID="32" xpos="-414.432" ypos="66.7038" zpos="429.01" type="tt.mc.cm.rm.waypoints" GUID="PTLOkSUCsUqCKicEPTc9hg=="/>
 		<POI MapID="32" xpos="-421.836" ypos="42.4352" zpos="-550.18" type="tt.mc.h.chm.finish_heart" GUID="yDAYenNYFEiFJOW0I9JK2Q=="/>
