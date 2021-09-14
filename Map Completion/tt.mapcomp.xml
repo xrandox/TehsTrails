@@ -1315,7 +1315,7 @@
 		<POI MapID="21" xpos="-727.361" ypos="60.4045" zpos="-661.888" type="tt.mc.cm.wm.square" GUID="3CuNgX7BRkmsQEEXmEGpaw=="/>
 		<POI MapID="21" xpos="-728.414" ypos="28.0287" zpos="589.223" type="tt.mc.h.chm.interact" GUID="lxvrDjUKq0+SeqZC4TFibg=="/>
 		<POI MapID="21" xpos="-729.971" ypos="74.0718" zpos="-867.637" type="tt.mc.cm.mm.griffon" GUID="/WSuX4DMnU2vlK7JqvaaBA=="/>
-		<POI MapID="21" xpos="-736.857" ypos="59.6635" zpos="-673.782" type="tt.mc.h.chm.start_heart" info="Duel trainees, repair turrets, kill skritt" infoRange="40.0" GUID="k61y8fPaKU+joc0vqFdFbg=="/>
+		<POI MapID="21" xpos="-736.857" ypos="59.6635" zpos="-673.782" type="tt.mc.h.chm.start_heart" info="Duel trainees (stack conditions), repair turrets, kill skritt" infoRange="40.0" GUID="k61y8fPaKU+joc0vqFdFbg=="/>
 		<POI MapID="21" xpos="-749.478" ypos="26.2327" zpos="556.322" type="tt.mc.h.chm.interact" GUID="n08Fu5ahHE2SCoJ/+pbYTA=="/>
 		<POI MapID="21" xpos="-754.026" ypos="19.4581" zpos="301.085" type="tt.mc.cm.rm.waypoints" GUID="paTSIfne606YxAw4xjc9tQ=="/>
 		<POI MapID="21" xpos="-783.482" ypos="60.2938" zpos="-638.7" type="tt.mc.h.chm.interact" GUID="7e9vNm3f9kGWdIWUky99bg=="/>
