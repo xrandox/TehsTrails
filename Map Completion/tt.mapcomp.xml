@@ -991,7 +991,11 @@
 		<POI MapID="32" xpos="623.701" ypos="25.5712" zpos="70.9219" type="tt.mc.h.chm.interact" GUID="Oy30QXI1qECfkHcKRORa+g=="/>
 		<POI MapID="32" xpos="628.285" ypos="24.1419" zpos="118.36" type="tt.mc.h.chm.interact" GUID="Z8zlHH+GcESO0HHEHuZkyg=="/>
 		<POI MapID="32" xpos="629.501" ypos="21.9495" zpos="143.006" type="tt.mc.h.chm.interact" GUID="QKyvLFzpy0Ssy006Nrcang=="/>
-		<POI MapID="32" xpos="631.883" ypos="50.132" zpos="-263.614" type="tt.mc.h.chm.start_heart" info="Train friendly skelk, kill hostile skelk" infoRange="40.0" GUID="W3GcJ5FLl0KGRW7EzEUxUQ=="/>
+		<POI MapID="32" xpos="751.85" ypos="18.977" zpos="-287.012" type="tt.mc.h.chm.interact" GUID="/ofVHyE6zU6xVXrC+zBpjg=="/>
+		<POI MapID="32" xpos="785.225" ypos="19.7709" zpos="-340.709" type="tt.mc.h.chm.interact" GUID="7z17YXLhIEWrNUrkGj3hHQ=="/>
+		<POI MapID="32" xpos="753.083" ypos="16.5473" zpos="-363.7" type="tt.mc.h.chm.interact" GUID="AkhLGEvI+EaZp7nnd5iENg=="/>
+		<POI MapID="32" xpos="702.911" ypos="20.3259" zpos="-279.898" type="tt.mc.h.chm.interact" GUID="15hSzR+WCUaMPE1URDXk3w=="/>
+		<POI MapID="32" xpos="631.883" ypos="50.132" zpos="-263.614" type="tt.mc.h.chm.start_heart" info="Event -> Kill skelk&#xA;&#xA;Take training plank -> hit practice dummy with skill 1 repeatedly" infoRange="40.0" GUID="W3GcJ5FLl0KGRW7EzEUxUQ=="/>
 		<POI MapID="32" xpos="639.115" ypos="26.0138" zpos="82.8189" type="tt.mc.h.chm.deposit" GUID="cjQMeCLMw0S6dO014+MS5w=="/>
 		<POI MapID="32" xpos="643.579" ypos="23.3169" zpos="103.909" type="tt.mc.h.chm.interact" GUID="j+BrP20M0Uy+qRDXmX2R+Q=="/>
 		<POI MapID="32" xpos="701.967" ypos="30.0326" zpos="-321.178" type="tt.mc.cm.rm.points_of_interest" GUID="XtAGxS9gHEGXKmhoZVsR/A=="/>
