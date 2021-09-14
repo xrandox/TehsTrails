@@ -1710,15 +1710,17 @@
 		<POI MapID="19" xpos="-344.532" ypos="43.6515" zpos="291.586" type="tt.mc.h.chm.interact" GUID="cNzL/dysiUe9NndfCkKVVQ=="/>
 		<POI MapID="19" xpos="-352.172" ypos="51.8551" zpos="-58.2126" type="tt.mc.cm.rm.points_of_interest" GUID="PFsbG3zv/kKWxoMiL9tE/g=="/>
 		<POI MapID="19" xpos="-355.007" ypos="56.9205" zpos="365.579" type="tt.mc.h.chm.interact" GUID="prAbmDiQx0e9giQwycYOiA=="/>
-		<POI MapID="19" xpos="-423.998" ypos="54.2558" zpos="102.367" type="tt.mc.h.chm.talk" GUID="M13G3TSQQECyRm7xIZoLtA=="/>
+		<POI MapID="19" xpos="-423.998" ypos="54.2558" zpos="102.367" type="tt.mc.h.chm.kill" GUID="M13G3TSQQECyRm7xIZoLtA=="/>
 		<POI MapID="19" xpos="-431.585" ypos="54.2558" zpos="108.077" type="tt.mc.h.chm.talk" GUID="wXzEYkFicUWGlbxJLlA+Kg=="/>
-		<POI MapID="19" xpos="-446.863" ypos="54.3343" zpos="54.2846" type="tt.mc.h.chm.talk" GUID="A7flSwzaHES7f81fXAN5NQ=="/>
+		<POI MapID="19" xpos="-446.863" ypos="54.3343" zpos="54.2846" type="tt.mc.h.chm.kill" GUID="A7flSwzaHES7f81fXAN5NQ=="/>
 		<POI MapID="19" xpos="-449.691" ypos="54.6932" zpos="340.541" type="tt.mc.cm.rm.points_of_interest" GUID="aNzAqhK8REC8HHht3g2QUA=="/>
 		<POI MapID="19" xpos="-451.162" ypos="51.4103" zpos="14.2688" type="tt.mc.cm.rm.waypoints" GUID="kIwbcJLmvkGFPgKOoCL9MQ=="/>
-		<POI MapID="19" xpos="-453.834" ypos="51.3437" zpos="13.2097" type="tt.mc.h.chm.start_heart" info="Do NPCs on the way | Finish by squishing sacs and killing spiders" infoRange="40.0" GUID="zXuAAE/t7E+jI0ZaxSFypw=="/>
-		<POI MapID="19" xpos="-454.662" ypos="54.2698" zpos="118.541" type="tt.mc.h.chm.talk" GUID="Iaz+58O7mkqZtLZCgwpBWA=="/>
+		<POI MapID="19" xpos="-453.834" ypos="51.3437" zpos="13.2097" type="tt.mc.h.chm.start_heart" info="Talk to Loafers, duel Braggarts (stack conditions)&#xA;&#xA;Squish sacs and kill spiders (after vista)" infoRange="40.0" GUID="zXuAAE/t7E+jI0ZaxSFypw=="/>
+		<POI MapID="19" xpos="-454.662" ypos="54.2698" zpos="118.541" type="tt.mc.h.chm.kill" GUID="Iaz+58O7mkqZtLZCgwpBWA=="/>
 		<POI MapID="19" xpos="-454.679" ypos="54.2581" zpos="96.8779" type="tt.mc.h.chm.talk" GUID="vKJM34B/V0quprJd5/eKoA=="/>
 		<POI MapID="19" xpos="-471.94" ypos="54.3724" zpos="64.4383" type="tt.mc.h.chm.talk" GUID="SPYuhOBdrECFE7ngvi5+Sg=="/>
+		<POI MapID="19" xpos="-470.562" ypos="54.3698" zpos="92.211" type="tt.mc.h.chm.kill" GUID="Jaz+58O7mkqZtLZCgwpBWA=="/>
+		<POI MapID="19" xpos="-501.451" ypos="54.3698" zpos="97.021" type="tt.mc.h.chm.kill" GUID="Kaz+58O7mkqZtLZCgwpBWA=="/>
 		<POI MapID="19" xpos="-500.64" ypos="26.9224" zpos="457.488" type="tt.mc.h.chm.interact" GUID="A02ieLrm9UeA1dzq4boPaw=="/>
 		<POI MapID="19" xpos="-502.029" ypos="31.6882" zpos="-474.219" type="tt.mc.h.chm.finish_heart" GUID="abCx2rpQG06gM5HD1Bv5kQ=="/>
 		<POI MapID="19" xpos="-505.863" ypos="53.7536" zpos="-399.859" type="tt.mc.cm.rm.points_of_interest" GUID="ZsnnI4fCnEa1vbcv+Ubslg=="/>
