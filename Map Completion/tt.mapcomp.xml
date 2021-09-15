@@ -4750,7 +4750,7 @@
 		<POI MapID="53" xpos="218.316" ypos="2.05096" zpos="700.165" type="tt.mc.cm.rm.waypoints" GUID="FrtDRFxwDk27Mf4/ArvwQw=="/>
 		<POI MapID="53" xpos="223.607" ypos="-0.450996" zpos="983.97" type="tt.mc.cm.wm.wpx" copy="[&BLQDAAA=]" GUID="7NGMxwki9Eq5IlN0BHJZmQ=="/>
 		<POI MapID="53" xpos="232.517" ypos="4.60153" zpos="693.033" type="tt.mc.h.chm.kill" GUID="BVScJEKDMEaJ6yMf5MaAIA=="/>
-		<POI MapID="53" xpos="269.223" ypos="11.0416" zpos="-323.658" type="tt.mc.h.chm.start_heart" info="Kill risen, skale, trolls, fix hylek region markers, duel wardens" infoRange="40.0" GUID="PKKuPc7BA0q1cvAOLFLS2w=="/>
+		<POI MapID="53" xpos="269.223" ypos="11.0416" zpos="-323.658" type="tt.mc.h.chm.start_heart" info="Duel wardens (stack conditions)&#xA;&#xA;Kill risen, skale, trolls, fix hylek region markers" infoRange="40.0" GUID="PKKuPc7BA0q1cvAOLFLS2w=="/>
 		<POI MapID="53" xpos="272.6" ypos="10.4803" zpos="-343.792" type="tt.mc.h.chm.kill" GUID="9wE1C3F0dkCzcuowZmkTVQ=="/>
 		<POI MapID="53" xpos="282.874" ypos="13.4351" zpos="-332.297" type="tt.mc.h.chm.kill" GUID="9H4xoH+VFkWgDdgGcslG3g=="/>
 		<POI MapID="53" xpos="288.778" ypos="12.1366" zpos="-355.953" type="tt.mc.h.chm.kill" GUID="eFZpgY5UKE6gagAgg3DgnQ=="/>
