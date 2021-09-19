@@ -148,6 +148,7 @@
 					<MarkerCategory name="meat" DisplayName="Meat" iconFile="Data/MapCompletion/General/heartspecific/Meat.png"/>
 					<MarkerCategory name="drink" DisplayName="Drink" iconFile="Data/MapCompletion/General/heartspecific/Drink.png"/>
 					<MarkerCategory name="inspire" DisplayName="Inspire" iconFile="Data/MapCompletion/General/heartspecific/Inspire.png"/>
+					<MarkerCategory name="spreadpollen" DisplayName="Spread Pollen" iconFile="Data/MapCompletion/General/heartspecific/Spread_Pollen.png" iconSize="0.75"/>
 				</MarkerCategory>
 			
 			</MarkerCategory>
@@ -2908,7 +2909,11 @@
 		<POI MapID="34" xpos="-428.113" ypos="28.0797" zpos="64.6492" type="tt.mc.h.chm.interact" GUID="MmFnuNCj/UiRm1XkjfJeTA=="/>
 		<POI MapID="34" xpos="-429.471" ypos="28.6977" zpos="81.6555" type="tt.mc.h.chm.interact" GUID="nCCfKekhcUW3z4DSfSlUAw=="/>
 		<POI MapID="34" xpos="-432.975" ypos="28.5618" zpos="72.3128" type="tt.mc.h.chm.interact" GUID="vGw9iBFK1EOuJ9CqdoGplA=="/>
-		<POI MapID="34" xpos="-459.799" ypos="31.5889" zpos="-891.147" type="tt.mc.h.chm.start_heart" info="Interactables along left wall | Spread pollen" infoRange="40.0" GUID="Ro/w0DcxQkm2H/32p0Rccw=="/>
+		<POI MapID="34" xpos="-459.799" ypos="31.5889" zpos="-891.147" type="tt.mc.h.chm.start_heart" info="Talk to heart -> Spread pollen at marks, Interact with everything&#xA;&#xA;Use bundle to move faster and to weaponswap animations" infoRange="40.0" GUID="Ro/w0DcxQkm2H/32p0Rccw=="/>
+		<POI MapID="34" xpos="-440.574" ypos="26.0636" zpos="-933.389" type="tt.mc.h.hsm.spreadpollen" GUID="ny9p8cuoAUiGoIA0aDyT9g=="/>
+		<POI MapID="34" xpos="-441.574" ypos="29.0636" zpos="-997.389" type="tt.mc.h.hsm.spreadpollen" GUID="naNpXAytP0q4shifUe6yKw=="/>
+		<POI MapID="34" xpos="-494.174" ypos="26.0636" zpos="-943.789" type="tt.mc.h.hsm.spreadpollen" GUID="UntL9ypPQkisv3yYLYzkRA=="/>
+		<POI MapID="34" xpos="-358.574" ypos="23.7636" zpos="-946.789" type="tt.mc.h.hsm.spreadpollen" GUID="lUpmnghj1kubHVSizH2rog=="/>
 		<POI MapID="34" xpos="-454.448" ypos="31.3984" zpos="-895.759" type="tt.mc.h.chm.finish_heart" GUID="Vdk6I5bNQ0mzEO/Dif71og=="/>
 		<POI MapID="34" xpos="-346.055" ypos="0.14534" zpos="1087.98" type="tt.mc.h.chm.start_heart" info="Interact with larvae and kill mosquitoes" infoRange="40.0" GUID="ART6/Pklp0GxLTTJSbqLhg=="/>
 		<POI MapID="34" xpos="-455.523" ypos="32.5846" zpos="-890.009" type="tt.mc.h.chm.talk" GUID="cP3cjKnIw0eCvFr1hZi1OQ=="/>
