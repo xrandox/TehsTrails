@@ -1080,7 +1080,7 @@
 		<POI MapID="32" xpos="-586.411" ypos="34.971" zpos="-459.082" type="tt.mc.h.chm.finish_heart" GUID="qEVPIzUdu0O57Q+JmMxQdQ=="/>
 		<POI MapID="32" xpos="-595.872" ypos="32.2316" zpos="-442.033" type="tt.mc.cm.rm.points_of_interest" GUID="l9ws8lf9Ck6kQB4CLAZtMA=="/>
 		<POI MapID="32" xpos="-604.175" ypos="33.6143" zpos="-447.963" type="tt.mc.h.chm.start_heart" info="Pick up mines, turn in scrap metal, kill Separatists" infoRange="40.0" GUID="2eNmxGQneEyEn2R9xq4k/Q=="/>
-		<POI MapID="32" xpos="-748.241" ypos="93.3705" zpos="377.515" type="tt.mc.h.chm.start_heart" info="Kill Dredge" infoRange="40.0" GUID="1Pcwf2sB3UqQu+Et/NYf3Q=="/>
+		<POI MapID="32" xpos="-748.241" ypos="93.3705" zpos="377.515" type="tt.mc.h.chm.start_heart" info="Event -> Kill walls&#xA;&#xA;Kill Dredge (not veterans) and machinery" infoRange="40.0" GUID="1Pcwf2sB3UqQu+Et/NYf3Q=="/>
 		<POI MapID="32" xpos="-620.776" ypos="62.0296" zpos="276.006" type="tt.mc.cm.wm.heart" GUID="3t8tywKEdEOy/EczsIQjEg=="/>
 		<POI MapID="32" xpos="-662.846" ypos="67.134" zpos="226.248" type="tt.mc.h.chm.finish_heart" GUID="4SgyMQbj5Uqu2JcJr3NqCg=="/>
 		<POI MapID="32" xpos="-668.07" ypos="68.5416" zpos="230.531" type="tt.mc.h.chm.interact" GUID="5sjjpIOdOUmihUWEHRfkRg=="/>
