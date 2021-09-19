@@ -5070,7 +5070,8 @@
 		<POI MapID="29" xpos="-452.324" ypos="9.60166" zpos="-158.67" type="tt.mc.h.chm.finish_heart" GUID="pWuaYNrn30eBqTukmQo2uw=="/>
 		<POI MapID="29" xpos="-415.892" ypos="35.4566" zpos="-293.934" type="tt.mc.cm.mm.griffon" GUID="jq2TAF2St0qJ2mxZMPJ0Qg=="/>
 		<POI MapID="29" xpos="-420.899" ypos="19.9361" zpos="-540.689" type="tt.mc.h.chm.finish_heart" GUID="jZhAxBJwu0+QjRu2Bhk0UQ=="/>
-		<POI MapID="29" xpos="-424.64" ypos="11.2701" zpos="134.075" type="tt.mc.h.chm.start_heart" info="Get gun from Naff, kill spider eggs and spiders" infoRange="40.0" GUID="++lSaP0uq0qX8pdCycGOKA=="/>
+		<POI MapID="29" xpos="-424.64" ypos="11.2701" zpos="134.075" type="tt.mc.h.chm.start_heart" info="Get gun from Naff -> kill spider eggs and spiders" infoRange="40.0" GUID="++lSaP0uq0qX8pdCycGOKA=="/>
+		<POI MapID="29" xpos="-467.858" ypos="3.0415" zpos="172.601" type="tt.mc.h.chm.kill" info="Event -> Kill enhanced ettin" infoRange="20.0" GUID="5SfWOLQ4h0qRErXVJmA0LQ=="/>
 		<POI MapID="29" xpos="-425.825" ypos="50.2299" zpos="122.849" type="tt.mc.cm.rm.vistas" GUID="VLOI+Kw1L0qrssOIb8PtOA=="/>
 		<POI MapID="29" xpos="-427.109" ypos="48.4069" zpos="697.511" type="tt.mc.h.chm.finish_heart" GUID="GpdFoJi230iu43T9tfLrnQ=="/>
 		<POI MapID="29" xpos="-427.762" ypos="9.12076" zpos="167.568" type="tt.mc.cm.wm.arrow" GUID="gH0kc0sB+UGxZFwdkIvj0A=="/>
