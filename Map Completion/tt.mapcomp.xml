@@ -113,7 +113,6 @@
 				
 				<!-- Heart Specific Markers -->
 				<MarkerCategory name="hsm" DisplayName="Heart-Specific Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
-					<MarkerCategory name="cleanoil" DisplayName="Clean Oil" iconFile="Data/MapCompletion/General/heartspecific/CleanOil.png"/>
 					<MarkerCategory name="lattice1" DisplayName="Lattice 1" iconFile="Data/MapCompletion/General/heartspecific/lattice1.png" iconSize="2"/>
 					<MarkerCategory name="lattice2" DisplayName="Lattice 2" iconFile="Data/MapCompletion/General/heartspecific/lattice2.png"/>
 					<MarkerCategory name="lattice3" DisplayName="Lattice 3" iconFile="Data/MapCompletion/General/heartspecific/lattice3.png"/>
@@ -1349,8 +1348,6 @@
 		<POI MapID="22" xpos="-651.652" ypos="43.835" zpos="-463.961" type="tt.mc.cm.mm.beetle" GUID="gvaEMlaq8Ee1a6av6kEYZQ=="/>
 		<POI MapID="22" xpos="-249.224" ypos="58.3172" zpos="-541.473" type="tt.mc.cm.mm.springertogriff" GUID="EVmt2JAWikipFeJwe2dZEQ=="/>
 		<POI MapID="22" xpos="695.477" ypos="1.37639" zpos="-538.248" type="tt.mc.h.chm.finish_heart" GUID="gbji3kntzkCJwl2oiyti/A=="/>
-		<POI MapID="22" xpos="697.282" ypos="1.91538" zpos="-379.763" type="tt.mc.h.hsm.cleanoil" GUID="cCeW5lTtz0aqzFuCiD5uFA=="/>
-		<POI MapID="22" xpos="694.541" ypos="-14.3255" zpos="-477.154" type="tt.mc.h.hsm.cleanoil" GUID="2tGhmdbn1EekpzzrHivGvg=="/>
 		<POI MapID="22" xpos="21.8556" ypos="16.5211" zpos="-331.843" type="tt.mc.h.chm.interact" GUID="MHW6OGOLFEy+5FT6HpwrZw=="/>
 		<POI MapID="22" xpos="28.3593" ypos="40.9984" zpos="210.779" type="tt.mc.cm.rm.waypoints" GUID="xD+e7kIZjUSeJK3Wf1gpFg=="/>
 		<POI MapID="22" xpos="45.0969" ypos="22.2492" zpos="-375.089" type="tt.mc.h.chm.interact" GUID="zL3RpsFLAkuiLmIdnSmQqg=="/>
@@ -1383,7 +1380,20 @@
 		<POI MapID="22" xpos="481.335" ypos="57.7057" zpos="518.68" type="tt.mc.cm.rm.vistas" GUID="g1e89LzWmEK6BMUxzlaiAw=="/>
 		<POI MapID="22" xpos="550.466" ypos="27.9705" zpos="512.358" type="tt.mc.h.chm.start_heart" info="Kill Flame Legion, turrets, emblems" infoRange="40.0" GUID="+R/8FkLF1k2BmGrXAFpp+Q=="/>
 		<POI MapID="22" xpos="593.08" ypos="13.6221" zpos="66.695" type="tt.mc.cm.rm.points_of_interest" GUID="ZOnSMkvvqk24DLu8tUjYKg=="/>
-		<POI MapID="22" xpos="611.115" ypos="0.651886" zpos="-415.726" type="tt.mc.h.chm.start_heart" info="Grab tar cleaner and clean mobs and concentrated tar" infoRange="40.0" GUID="ksyTfaEsTk2zMvG6YV8Exg=="/>
+		<POI MapID="22" xpos="611.115" ypos="0.651886" zpos="-415.726" type="tt.mc.h.chm.start_heart" info="Interact with concentrated tar along the path" infoRange="40.0" GUID="ksyTfaEsTk2zMvG6YV8Exg=="/>
+		<POI MapID="22" xpos="654.894" ypos="-1.20064" zpos="-441.804" type="tt.mc.h.chm.interact" GUID="WnUZSJ+SfUy+GWLc3yGqnA=="/>
+		<POI MapID="22" xpos="653.009" ypos="-1.05664" zpos="-462.558" type="tt.mc.h.chm.interact" GUID="kKCFZZod0k+mpUewweqNWQ=="/>
+		<POI MapID="22" xpos="672.178" ypos="-1.05664" zpos="-487.649" type="tt.mc.h.chm.interact" GUID="Q9H5zyJ6YUaoor5O/G3Lmg=="/>
+		<POI MapID="22" xpos="686.694" ypos="-1.05664" zpos="-478.896" type="tt.mc.h.chm.interact" GUID="Ejj/0p2idkG+mUYHAP0xlw=="/>
+		<POI MapID="22" xpos="694.17" ypos="-1.05664" zpos="-454.113" type="tt.mc.h.chm.interact" GUID="Brr7WwixOECtEz5wmZgypg=="/>
+		<POI MapID="22" xpos="730.087" ypos="-1.12362" zpos="-405.492" type="tt.mc.h.chm.interact" GUID="tGOiKykEw0yzgcsh8btJVw=="/>
+		<POI MapID="22" xpos="729.79" ypos="-1.12143" zpos="-379.4" type="tt.mc.h.chm.interact" GUID="5bNBwSW1sUaNax52sG1eMw=="/>
+		<POI MapID="22" xpos="740.65" ypos="-1.15118" zpos="-401.632" type="tt.mc.h.chm.interact" GUID="xt3jfZHTgkyBViuKuy7RFg=="/>
+		<POI MapID="22" xpos="756.178" ypos="-1.15118" zpos="-418.572" type="tt.mc.h.chm.interact" GUID="BtlbxJp+5UmrElswVXRY3g=="/>
+		<POI MapID="22" xpos="796.98" ypos="-1.05664" zpos="-437.687" type="tt.mc.h.chm.interact" GUID="aExhxuN85kaZlkHnI8vRng=="/>
+		<POI MapID="22" xpos="789.339" ypos="-1.05664" zpos="-485.154" type="tt.mc.h.chm.interact" GUID="vhNemMMpLkyUSFta0a/OoQ=="/>
+		<POI MapID="22" xpos="764.811" ypos="-1.05665" zpos="-501.85" type="tt.mc.h.chm.interact" GUID="giJRu1UOkECpq0hnsUj1Dw=="/>
+		<POI MapID="22" xpos="789.053" ypos="-1.16876" zpos="-519.484" type="tt.mc.h.chm.interact" GUID="LwKZuhkJF0y9q4TRh1tLTg=="/>
 		<POI MapID="22" xpos="631.486" ypos="1.72435" zpos="-432.879" type="tt.mc.cm.mm.skimmer" GUID="wMwnastd0kiWfrz0LRltyQ=="/>
 		<POI MapID="22" xpos="647.389" ypos="41.8889" zpos="535.849" type="tt.mc.cm.rm.points_of_interest" GUID="NzjBa7qacEKm3/MFIRRmWQ=="/>
 		<POI MapID="22" xpos="675.457" ypos="46.2916" zpos="549.397" type="tt.mc.h.chm.finish_heart" GUID="77tV3plWP0mlda8VmAu2rg=="/>
