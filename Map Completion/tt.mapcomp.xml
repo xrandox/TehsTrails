@@ -1404,7 +1404,15 @@
 		<POI MapID="22" xpos="764.544" ypos="1.60788" zpos="-625.168" type="tt.mc.h.chm.talk" GUID="rTWgSQNMC0ajjPo4+5GVSQ=="/>
 		<POI MapID="22" xpos="765.439" ypos="4.34847" zpos="-686.946" type="tt.mc.h.chm.talk" GUID="J8cgAh7AkkuNEP9m2+rhsA=="/>
 		<POI MapID="22" xpos="772.472" ypos="5.81749" zpos="-740.109" type="tt.mc.h.chm.talk" GUID="stUOENjWaE+eFxXACvbaWA=="/>
-		<POI MapID="22" xpos="782.865" ypos="33.7763" zpos="-675.121" type="tt.mc.h.chm.start_heart" info="Duel soldiers, kill flame legion | Condi stacking works on these mobs" infoRange="40.0" GUID="8sJlp8Tg+kWw4uEtSiX8fw=="/>
+		<POI MapID="22" xpos="782.865" ypos="33.7763" zpos="-675.121" type="tt.mc.h.chm.start_heart" info="Event -> Kill embers + flame legion&#xA;&#xA;Interact tar bubbles -> kill flame legion + tar elementals, duel soldiers" infoRange="40.0" GUID="8sJlp8Tg+kWw4uEtSiX8fw=="/>
+		<POI MapID="22" xpos="869.578" ypos="4.62134" zpos="-591.344" type="tt.mc.h.chm.interact" GUID="bv9KIex+G0eFHSBQYvI1xg=="/>
+		<POI MapID="22" xpos="855.719" ypos="0.697213" zpos="-578.06" type="tt.mc.h.chm.interact" GUID="xJv9X9cxeUCcoJlYT9mcSA=="/>
+		<POI MapID="22" xpos="839.988" ypos="1.27245" zpos="-583.863" type="tt.mc.h.chm.interact" GUID="cetVdpCjPEC0k7Ug3SCwIg=="/>
+		<POI MapID="22" xpos="848.552" ypos="4.94377" zpos="-600.722" type="tt.mc.h.chm.interact" GUID="meU+yf6Cd0GLoxsZbLoxCA=="/>
+		<POI MapID="22" xpos="813.896" ypos="2.85167" zpos="-597.314" type="tt.mc.h.chm.interact" GUID="Gpza5c4pE064isP13pvFAw=="/>
+		<POI MapID="22" xpos="806.415" ypos="1.77347" zpos="-588.157" type="tt.mc.h.chm.interact" GUID="TIq9bEXcFE+QdHwCRABJyg=="/>
+		<POI MapID="22" xpos="778.919" ypos="1.06352" zpos="-582.358" type="tt.mc.h.chm.interact" GUID="jABHSizrjkqqENRPa2tUyw=="/>
+		<POI MapID="22" xpos="771.496" ypos="0.718652" zpos="-591.884" type="tt.mc.h.chm.interact" GUID="IiV9N+Ejvku1XDA37GC+SA=="/>
 		<POI MapID="22" xpos="788.568" ypos="3.50587" zpos="-669.673" type="tt.mc.h.chm.talk" GUID="ZarxOhdujE6t5i+j/5v+ZA=="/>
 		<POI MapID="22" xpos="801.299" ypos="15.9086" zpos="30.0916" type="tt.mc.cm.rm.waypoints" GUID="NmPqVGxoN02p9gt/0pFHWA=="/>
 		<POI MapID="22" xpos="802.92" ypos="3.45874" zpos="-637.903" type="tt.mc.h.chm.talk" GUID="i8G7r+wpL0eW5NcN3OpHQg=="/>
