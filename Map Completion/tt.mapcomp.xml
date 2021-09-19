@@ -4024,7 +4024,7 @@
 		<POI MapID="27" xpos="-284.077" ypos="149.912" zpos="1067.45" type="tt.mc.cm.rm.vistas" GUID="L4KzoPeJgkm6cjcSZIh89g=="/>
 		<POI MapID="27" xpos="-288.643" ypos="61.7682" zpos="-1329.43" type="tt.mc.h.chm.interact" GUID="ZBLmlz2TRUipc3MbxBxjXQ=="/>
 		<POI MapID="27" xpos="-288.825" ypos="59.0832" zpos="158.096" type="tt.mc.h.chm.start_heart" info="Feed dolyaks, herd them, kill wurms" infoRange="40.0" GUID="RahdJp7iFUGWGEEZpOt2Xg=="/>
-		<POI MapID="27" xpos="-291.305" ypos="25.7066" zpos="-640.228" type="tt.mc.h.chm.start_heart" info="Kill pirates, loot their loot, destroy turrets" infoRange="40.0" GUID="vd6hESBLcUSF0dN3H8bW1g=="/>
+		<POI MapID="27" xpos="-234.305" ypos="25.7066" zpos="-662.228" type="tt.mc.h.chm.start_heart" info="Kill pirates, destroy turrets&#xA;&#xA;Pirates friendly -> Follow the trail for loot (90% of heart)" infoRange="80.0" GUID="vd6hESBLcUSF0dN3H8bW1g=="/>
 		<POI MapID="27" xpos="-299.3" ypos="121.154" zpos="936.702" type="tt.mc.cm.rm.points_of_interest" GUID="KZqFntLc8UStgwLC9yZgkQ=="/>
 		<POI MapID="27" xpos="-308.664" ypos="59.0963" zpos="180.198" type="tt.mc.h.chm.interact" GUID="HEA78ALCLEuCNrI5kS+nmA=="/>
 		<POI MapID="27" xpos="-309.889" ypos="56.2932" zpos="158.195" type="tt.mc.h.chm.finish_heart" GUID="fOXPFxzUhUO+9SxupTAkfg=="/>
@@ -5716,6 +5716,7 @@
 		<Trail type="tt.mc.hp.hpt" GUID="E/QC5x6McUOpcZDqMk2Vzw==" trailData="Data/MapCompletion/Trails/hptrails/TimberlineFalls.trl"/>
 		
 		<!-- HEART TRAILS -->
+		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/PirateLootHeart.trl"/>
 		
 		<!-- HEART ZONES -->
 		<Trail type="tt.mc.h.hz" trailData="Data/MapCompletion/Trails/heartzones/BlazeridgeSteppesHeartZones.trl"/>
