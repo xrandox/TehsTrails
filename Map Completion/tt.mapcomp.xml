@@ -1087,7 +1087,13 @@
 		<POI MapID="32" xpos="-671.148" ypos="68.5508" zpos="228.732" type="tt.mc.h.chm.interact" GUID="7IdbqnAUuUaiwUL61A4MSg=="/>
 		<POI MapID="32" xpos="-675.254" ypos="69.0068" zpos="228.378" type="tt.mc.h.chm.talk" GUID="tu2yaJsmW0C1Q3AxMc4etw=="/>
 		<POI MapID="32" xpos="-693.477" ypos="64.6912" zpos="205.68" type="tt.mc.h.chm.interact" GUID="G8LRwkh5z0y9Zs7+DdiYvQ=="/>
-		<POI MapID="32" xpos="-696.05" ypos="64.8046" zpos="212.329" type="tt.mc.h.chm.start_heart" info="Be a waiter" infoRange="40.0" GUID="T7CBzFjnB0umK8k1I5Ll9A=="/>
+		<POI MapID="32" xpos="-696.05" ypos="64.8046" zpos="212.329" type="tt.mc.h.chm.start_heart" info="Event -> Kill bandits, dredge&#xA;&#xA;Kill Azalus, Kill Inebriated soldiers (stack conditions), Be a waiter" infoRange="40.0" GUID="T7CBzFjnB0umK8k1I5Ll9A=="/>
+		<POI MapID="32" xpos="-645.809" ypos="54.7668" zpos="154.154" type="tt.mc.h.chm.kill" GUID="SL2DcUKl30yjSpzLZ6wkzQ=="/>
+		<POI MapID="32" xpos="-651.809" ypos="53.3668" zpos="149.854" type="tt.mc.h.chm.kill" GUID="mfzkXzbhfU2V7H3Tzo3RIg=="/>
+		<POI MapID="32" xpos="-650.009" ypos="52.0668" zpos="139.754" type="tt.mc.h.chm.kill" GUID="J4YujHnWkUq/It8Jt4SehA=="/>
+		<POI MapID="32" xpos="-641.209" ypos="51.0668" zpos="139.754" type="tt.mc.h.chm.kill" GUID="PV1PqMg+CEazuhCl108+8w=="/>
+		<POI MapID="32" xpos="-634.609" ypos="51.3668" zpos="141.554" type="tt.mc.h.chm.kill" GUID="4lGYxECYGUurvqJz77ZpAg=="/>
+		<POI MapID="32" xpos="-636.309" ypos="53.4668" zpos="151.054" type="tt.mc.h.chm.kill" GUID="uUCpywNUD0qTqgubUEWFig=="/>
 		<POI MapID="32" xpos="-696.62" ypos="56.8642" zpos="172.372" type="tt.mc.h.chm.interact" GUID="J9PfeMvAKUOipOLr5BwkGQ=="/>
 		<POI MapID="32" xpos="-696.892" ypos="58.1934" zpos="175.923" type="tt.mc.h.chm.interact" GUID="noKSJOzZTEK6jKOLnoSJLA=="/>
 		<POI MapID="32" xpos="-699.826" ypos="65.9324" zpos="218.667" type="tt.mc.h.chm.talk" GUID="8at6aP6fJ0u/XNOfxZD3Bg=="/>
