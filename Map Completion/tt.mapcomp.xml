@@ -2143,7 +2143,7 @@
 		<POI MapID="23" xpos="148.794" ypos="9.8635" zpos="-155.277" type="tt.mc.cm.rm.points_of_interest" GUID="psxxRrrYKE6gaT4jMSJuIQ=="/>
 		<POI MapID="23" xpos="150.402" ypos="-17.3526" zpos="-337.173" type="tt.mc.cm.rm.points_of_interest" GUID="S7d8NW5QaE6ny3DMY1H2VA=="/>
 		<POI MapID="23" xpos="151.492" ypos="-3.85063" zpos="-196.642" type="tt.mc.h.chm.interact" GUID="LI2Ue/IzUkum7HcHWggulA=="/>
-		<POI MapID="23" xpos="155.689" ypos="-1.03856" zpos="-227.006" type="tt.mc.h.chm.start_heart" info="Kill underwater life, check traps, cleanse poison" infoRange="40.0" GUID="d/zByFXEnUm947Wo0zYl6A=="/>
+		<POI MapID="23" xpos="156.689" ypos="-15.03856" zpos="-338.006" type="tt.mc.h.chm.start_heart" info="Kill hostile underwater life, check traps, cleanse poison" infoRange="40.0" GUID="d/zByFXEnUm947Wo0zYl6A=="/>
 		<POI MapID="23" xpos="155.737" ypos="1.37917" zpos="-312.848" type="tt.mc.cm.mm.skimmer" GUID="1Y6XhQlVtEy1HggAHUz5ZA=="/>
 		<POI MapID="23" xpos="166.448" ypos="10.3529" zpos="-131.52" type="tt.mc.h.chm.finish_heart" GUID="KgtqVdxEykqeknxRsk7Ndg=="/>
 		<POI MapID="23" xpos="168.306" ypos="67.0236" zpos="162.256" type="tt.mc.h.chm.finish_heart" GUID="9bb3rouGKEW5sY3lf70xAQ=="/>
