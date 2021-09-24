@@ -4237,7 +4237,7 @@
 		<POI MapID="31" xpos="-782.58" ypos="81.8148" zpos="356.898" type="tt.mc.h.chm.finish_heart" GUID="RE/BIrqEmky5KAZI/lZ5xQ=="/>
 		<POI MapID="31" xpos="-811.817" ypos="61.1792" zpos="-513.876" type="tt.mc.h.chm.start_heart" info="Kill Dredge" infoRange="40.0" GUID="A3WtS/eOzkWALtP9L4YHTQ=="/>
 		<POI MapID="31" xpos="-872.012" ypos="83.7923" zpos="421.696" type="tt.mc.cm.mm.springer" GUID="kwr860oHBUqb9NSJI933Mg=="/>
-		<POI MapID="31" xpos="-1012.13" ypos="70.3264" zpos="103.633" type="tt.mc.h.chm.start_heart" info="Repeatedly talk to one Wounded Seraph | Kill Modniir and Sons of Svanir" infoRange="40.0" GUID="eP3TNABgm0+/ogasHutD5g=="/>
+		<POI MapID="31" xpos="-1012.13" ypos="70.3264" zpos="103.633" type="tt.mc.h.chm.start_heart" info="Repeatedly talk to one Wounded Seraph&#xA;&#xA;No wounded Seraph -> Kill Modniir and Sons of Svanir" infoRange="40.0" GUID="eP3TNABgm0+/ogasHutD5g=="/>
 		<POI MapID="31" xpos="-1048.74" ypos="76.5791" zpos="93.1395" type="tt.mc.h.chm.talk" GUID="QM2IR1Z88kyHU3X/G1RFSQ=="/>
 		<POI MapID="31" xpos="-1045.3" ypos="76.5889" zpos="89.4019" type="tt.mc.h.chm.talk" GUID="mIAvK43K6kS4PD7RvSeDDQ=="/>
 		<POI MapID="31" xpos="-1072.93" ypos="79.7141" zpos="104.685" type="tt.mc.h.chm.finish_heart" GUID="Evgi9rOrY0yrrgv6goIMpA=="/>
