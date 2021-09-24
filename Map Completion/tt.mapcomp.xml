@@ -1567,7 +1567,7 @@
 		<POI MapID="25" xpos="473.04" ypos="50.6302" zpos="898.725" type="tt.mc.cm.rm.vistas" GUID="eR0OGCEMc022FX7pcMv5kg=="/>
 		<POI MapID="25" xpos="474.258" ypos="50.3131" zpos="901.412" type="tt.mc.cm.mm.griffon" GUID="InZ4gbfpaECD1It7iDxJDQ=="/>
 		<POI MapID="25" xpos="494.811" ypos="1.74099" zpos="-687.729" type="tt.mc.cm.rm.points_of_interest" GUID="AHSnui0WDkqzWPebYQ5Dpw=="/>
-		<POI MapID="25" xpos="518.207" ypos="1.90487" zpos="-635.971" type="tt.mc.h.chm.start_heart" info="Do Bria event (do not kill her, only kill her minions) | kill spiders, ghosts, help spirits" infoRange="40.0" GUID="vv8ML8O6206kCgq3RRyEhA=="/>
+		<POI MapID="25" xpos="518.207" ypos="1.90487" zpos="-635.971" type="tt.mc.h.chm.start_heart" info="Kill spiders, ghosts, help spirits&#xA;&#xA;Bria event -> Kill her minions (DO NOT kill her)" infoRange="40.0" GUID="vv8ML8O6206kCgq3RRyEhA=="/>
 		<POI MapID="25" xpos="564.85" ypos="11.3694" zpos="-566.913" type="tt.mc.cm.rm.start" GUID="Oed8woj0i0Gj+6gpA+uMSA=="/>
 		<POI MapID="25" xpos="570.591" ypos="-0.260333" zpos="1167.66" type="tt.mc.cm.rm.points_of_interest" GUID="ZzqWT4wY9UaKoC+mwJFfsg=="/>
 		<POI MapID="25" xpos="572.295" ypos="-0.225744" zpos="1166.38" type="tt.mc.cm.wm.wparrow" copy="[&BOsBAAA=]" GUID="hpvPpc4uiUe2hYv2aZQjOQ=="/>
