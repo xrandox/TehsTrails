@@ -5093,7 +5093,7 @@
 		<POI MapID="29" xpos="-455.364" ypos="48.4129" zpos="713.503" type="tt.mc.h.chm.interact" GUID="UZvh9GWNkky2Jg3JHtuR7w=="/>
 		<POI MapID="29" xpos="-456.391" ypos="48.4151" zpos="737.059" type="tt.mc.h.chm.interact" GUID="FA2tSw3V+E+sTJJjcCh13g=="/>
 		<POI MapID="29" xpos="-459.094" ypos="48.3317" zpos="753.951" type="tt.mc.h.chm.interact" GUID="s9dIO7Ii80W4uvxyGzA/kQ=="/>
-		<POI MapID="29" xpos="-460.14" ypos="46.8746" zpos="783.596" type="tt.mc.h.chm.start_heart" info="Weaponswap kegs and toast/boast" infoRange="40.0" GUID="gj8Y1Pf20UGM/X1rlsCFhA=="/>
+		<POI MapID="29" xpos="-460.14" ypos="46.8746" zpos="783.596" type="tt.mc.h.chm.start_heart" info="Weaponswap kegs and toast/boast&#xA;&#xA;Event -> kill drunk skritt" infoRange="40.0" GUID="gj8Y1Pf20UGM/X1rlsCFhA=="/>
 		<POI MapID="29" xpos="-462.576" ypos="49.5154" zpos="748.025" type="tt.mc.h.chm.interact" GUID="7AcH0hCOcEiSjK+FwV8sJw=="/>
 		<POI MapID="29" xpos="-464.98" ypos="48.4127" zpos="747.065" type="tt.mc.h.chm.interact" GUID="fKIiqlo300Wsn0tGZuK6Qg=="/>
 		<POI MapID="29" xpos="-469.82" ypos="48.4128" zpos="735.334" type="tt.mc.h.chm.interact" GUID="fsgZ/ojTdEOLLphqkFO5gQ=="/>
