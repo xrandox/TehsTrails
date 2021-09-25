@@ -963,7 +963,8 @@
 		<POI MapID="32" xpos="233.38" ypos="-16.5078" zpos="295.234" type="tt.mc.h.chm.interact" GUID="wpKeUS09jkKkpryboMLNKw=="/>
 		<POI MapID="32" xpos="242.751" ypos="-14.606" zpos="253.582" type="tt.mc.h.chm.interact" GUID="E0tast8fDEqpWfPnRa1JCA=="/>
 		<POI MapID="32" xpos="245.381" ypos="23.4068" zpos="-453.338" type="tt.mc.h.chm.gather" GUID="mr3OYIuMWUO5UJqCpO1clA=="/>
-		<POI MapID="32" xpos="249.814" ypos="23.3712" zpos="-461.655" type="tt.mc.h.chm.start_heart" info="Water trough, feed hay, bring chickens in" infoRange="40.0" GUID="RhXABx5xfkid+xDgC9o2oQ=="/>
+		<POI MapID="32" xpos="172.814" ypos="25.3712" zpos="-411.655" type="tt.mc.h.chm.start_heart" info="Talk to Dahala -> feed hay to cow, repeat&#xA;&#xA;Event -> Water trough, bring chickens in, kill separatists" infoRange="40.0" GUID="RhXABx5xfkid+xDgC9o2oQ=="/>
+		<POI MapID="32" xpos="157.213" ypos="27.4098" zpos="-321.14" type="tt.mc.h.chm.talk" GUID="m4zOPvUW9Ui1joHCmoPlfA=="/>
 		<POI MapID="32" xpos="274.425" ypos="-11.6446" zpos="282.947" type="tt.mc.h.chm.interact" GUID="NRwOn3BPVU2Kk48zUORMug=="/>
 		<POI MapID="32" xpos="290.334" ypos="24.1997" zpos="-609.306" type="tt.mc.cm.rm.points_of_interest" GUID="Uwcep+/iv0OP/eFXF8LmHA=="/>
 		<POI MapID="32" xpos="292.352" ypos="27.5812" zpos="-569.059" type="tt.mc.cm.mm.springer" GUID="1iCB9gXD+0+zjcpIoCDNNw=="/>
