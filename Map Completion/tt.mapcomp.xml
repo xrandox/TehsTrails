@@ -2481,7 +2481,8 @@
 		<POI MapID="15" xpos="-556.84" ypos="35.4327" zpos="-417.585" type="tt.mc.h.chm.interact" GUID="KIiXqbyP5km4rxVRxWiyyg=="/>
 		<POI MapID="15" xpos="-557.506" ypos="35.4342" zpos="-411.21" type="tt.mc.h.chm.kill" GUID="z9s2jC86yUqZESQ+phbQHA=="/>
 		<POI MapID="15" xpos="-564.335" ypos="35.4352" zpos="-404.061" type="tt.mc.h.chm.finish_heart" GUID="d0vRftQ4T0anRnHizGzuzg=="/>
-		<POI MapID="15" xpos="-567.362" ypos="35.0779" zpos="-426.255" type="tt.mc.h.chm.start_heart" info="Do sword or shield training" infoRange="40.0" GUID="OOE2GTBO00yopOPx2L0YCQ=="/>
+		<POI MapID="15" xpos="-567.362" ypos="35.0779" zpos="-426.255" type="tt.mc.h.chm.start_heart" info="Take sword -> DO NOT target sergeant -> Wait till she lowers shield -> Press 1 towards her repeatedly from the marked spot" infoRange="40.0" GUID="OOE2GTBO00yopOPx2L0YCQ=="/>
+		<POI MapID="15" xpos="-559.825" ypos="35.4315" zpos="-419.265" type="tt.mc.h.chm.arrow" GUID="EG9p8SlTk0mZ+lJxQbfVjA=="/>
 		<POI MapID="15" xpos="-567.922" ypos="35.393" zpos="-409.78" type="tt.mc.cm.rm.waypoints" GUID="LxdSFEUbuE+ZL3+2iTyFpA=="/>
 		<POI MapID="15" xpos="-580.539" ypos="70.5602" zpos="154.068" type="tt.mc.cm.rm.points_of_interest" GUID="5TZdNlV1mE+15l5LFKkT7g=="/>
 		<POI MapID="15" xpos="-641.994" ypos="22.1777" zpos="360.016" type="tt.mc.cm.rm.waypoints" GUID="JZt1EA6ufE2iJaQpHBb+2g=="/>
