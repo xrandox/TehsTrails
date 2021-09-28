@@ -3156,7 +3156,7 @@
 		<POI MapID="35" xpos="-509.805" ypos="35.1243" zpos="375.782" type="tt.mc.h.chm.start_heart" GUID="ExiQjRe9DkmUHVlgx174Bg==" info="Kill irradiated rats, Interact multiple chaotic materials then kill chaos beasts" infoRange="40.0"/>
 		<POI MapID="35" xpos="-326.277" ypos="8.89238" zpos="-418.552" type="tt.mc.h.chm.talk" GUID="0Daj2xaKZkSqkX3NQbOnHA=="/>
 		<POI MapID="35" xpos="-341.708" ypos="7.55648" zpos="-335.161" type="tt.mc.cm.rm.waypoints" GUID="ryCcBqUEDUCzWHhfmfOjSg=="/>
-		<POI MapID="35" xpos="-343.352" ypos="7.67265" zpos="-333.182" type="tt.mc.h.chm.start_heart" GUID="Rk+JzcCdd06KSvQZNihJ2Q==" info="Talk to Suspicious Salvage Specialist and kill " infoRange="40.0"/>
+		<POI MapID="35" xpos="-343.352" ypos="7.67265" zpos="-333.182" type="tt.mc.h.chm.start_heart" GUID="Rk+JzcCdd06KSvQZNihJ2Q==" info="Talk to Suspicious Salvage Specialists -> kill&#xA;&#xA;No Suspicious Specialists -> follow trail -> kill all + interact danger signs behind gate" infoRange="40.0"/>
 		<POI MapID="35" xpos="-343.605" ypos="8.47234" zpos="-354.995" type="tt.mc.h.chm.talk" GUID="F2Tgp/oSKUOy5MNm/fK51Q=="/>
 		<POI MapID="35" xpos="-350.634" ypos="8.83936" zpos="-340.95" type="tt.mc.cm.wm.wparrow" copy="[&BEMAAAA=]" GUID="0qSojZnceEa0UyDqembcTQ=="/>
 		<POI MapID="35" xpos="-351.658" ypos="8.96766" zpos="-339.161" type="tt.mc.h.chm.finish_heart" GUID="rhY0tTm41EalYS/i4vKkIQ=="/>
@@ -5771,6 +5771,7 @@
 		
 		<!-- HEART TRAILS -->
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/PirateLootHeart.trl"/>
+		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpShoonHeart.trl"/>
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpMiltonHeart.trl"/>
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpCitizensOfBeetletunHeart.trl"/>
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpBrannenHeart.trl"/>
