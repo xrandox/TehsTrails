@@ -2413,7 +2413,7 @@
 		<POI MapID="15" xpos="807.26" ypos="85.2751" zpos="-240.68" type="tt.mc.h.chm.start_heart" info="Kill Tamini" infoRange="40.0" GUID="3cPKZu6rOE+IExW7vbojjA=="/>
 		<POI MapID="15" xpos="849.119" ypos="13.9614" zpos="544.95" type="tt.mc.h.chm.interact" GUID="DiKQzW1UNkyq120q2BZmJA=="/>
 		<POI MapID="15" xpos="850.283" ypos="14.2539" zpos="535.212" type="tt.mc.h.chm.interact" GUID="xO+4PYtKQ0yaI1aRCY80qw=="/>
-		<POI MapID="15" xpos="850.649" ypos="14.2586" zpos="518.145" type="tt.mc.h.chm.interact" GUID="HFSTiYAjwUK7eludC01FMg=="/>
+		<POI MapID="15" xpos="850.649" ypos="14.2586" zpos="518.145" type="tt.mc.h.chm.talk" GUID="HFSTiYAjwUK7eludC01FMg=="/>
 		<POI MapID="15" xpos="857.581" ypos="14.2667" zpos="512.646" type="tt.mc.h.chm.interact" GUID="hjYaoF4bv0SoIswsBI6UMg=="/>
 		<POI MapID="15" xpos="859.591" ypos="114.678" zpos="-181.777" type="tt.mc.cm.mm.griffon" GUID="F0wGgR9CfUWGq1hb9941Og=="/>
 		<POI MapID="15" xpos="876.378" ypos="58.7763" zpos="-517.932" type="tt.mc.cm.rm.points_of_interest" GUID="cVovteh7P0Cuu/EQSYVEow=="/>
@@ -2424,6 +2424,9 @@
 		<POI MapID="15" xpos="922.715" ypos="15.0907" zpos="546.713" type="tt.mc.h.chm.talk" GUID="SHrWum1AeUyK1rpmn4X2EQ=="/>
 		<POI MapID="15" xpos="928.928" ypos="14.854" zpos="537.865" type="tt.mc.h.chm.interact" GUID="j5cs4HqxW0yt342OBYbe3g=="/>
 		<POI MapID="15" xpos="930.161" ypos="15.093" zpos="534.726" type="tt.mc.h.chm.interact" GUID="QP7/ntK4f0GZKN8xzUeing=="/>
+		<POI MapID="15" xpos="889.706" ypos="14.791" zpos="498.538" type="tt.mc.h.chm.talk" GUID="hPxZ6SfHekat5MRPF/w7sw=="/>
+		<POI MapID="15" xpos="986.3" ypos="26.397" zpos="538.655" type="tt.mc.h.chm.talk" GUID="usSgJelGaUqCEuRsuU/riA=="/>
+		<POI MapID="15" xpos="930.703" ypos="14.8658" zpos="530.149" type="tt.mc.cm.mm.jackal" GUID="3LH/KgEQAkG5o3JleWnGeg=="/>
 		<POI MapID="15" xpos="934.398" ypos="16.6687" zpos="507.267" type="tt.mc.h.chm.start_heart" info="Interact with hidden children, wasp nests, graffiti" infoRange="40.0" GUID="MpD3pnN2AEiusRgVNvXCBw=="/>
 		<POI MapID="15" xpos="945.98" ypos="21.2133" zpos="543.162" type="tt.mc.cm.rm.waypoints" GUID="PtruAwmm70+BCT88JViXPw=="/>
 		<POI MapID="15" xpos="948.043" ypos="20.3129" zpos="539.373" type="tt.mc.h.chm.finish_heart" GUID="XXEl3A3GvUGQHVctXd7Y7Q=="/>
