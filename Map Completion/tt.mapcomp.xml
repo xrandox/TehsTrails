@@ -5758,6 +5758,7 @@
 		
 		<!-- HEART TRAILS -->
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/PirateLootHeart.trl"/>
+		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpCitizensOfBeetletunHeart.trl"/>
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpBrannenHeart.trl"/>
 		
 		<!-- HEART ZONES -->
