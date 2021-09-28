@@ -136,10 +136,14 @@
 					<MarkerCategory name="torch" DisplayName="Torch" iconFile="Data/MapCompletion/General/heartspecific/torch.png"/>
 					<MarkerCategory name="warhammer" DisplayName="Warhammer" iconFile="Data/MapCompletion/General/heartspecific/warhammer.png"/>
 					<MarkerCategory name="pourwater" DisplayName="Pour Water" iconFile="Data/MapCompletion/General/heartspecific/Throw_Water.png"/>
-					<MarkerCategory name="sit" DisplayName="Sit" iconFile="Data/MapCompletion/General/heartspecific/sit.png" iconSize="0.75"/>
-					<MarkerCategory name="threaten" DisplayName="Threaten" iconFile="Data/MapCompletion/General/heartspecific/Threaten.png" iconSize="0.75"/>
-					<MarkerCategory name="cheer" DisplayName="Cheer" iconFile="Data/MapCompletion/General/heartspecific/Cheer.png" iconSize="0.75"/>
-					<MarkerCategory name="bow" DisplayName="Bow" iconFile="Data/MapCompletion/General/heartspecific/Bow.png" iconSize="0.75"/>
+					<MarkerCategory name="sit" DisplayName="Sit" iconFile="Data/MapCompletion/General/heartspecific/sit.png" iconSize="1.0"/>
+					<MarkerCategory name="threaten" DisplayName="Threaten" iconFile="Data/MapCompletion/General/heartspecific/Threaten.png" iconSize="1.0"/>
+					<MarkerCategory name="cheer" DisplayName="Cheer" iconFile="Data/MapCompletion/General/heartspecific/Cheer.png" iconSize="1.0"/>
+					<MarkerCategory name="bow" DisplayName="Bow" iconFile="Data/MapCompletion/General/heartspecific/Bow.png" iconSize="1.0"/>
+					<MarkerCategory name="laugh" DisplayName="Laugh" iconFile="Data/MapCompletion/General/heartspecific/Laugh.png" iconSize="1.0"/>
+					<MarkerCategory name="salute" DisplayName="Salute" iconFile="Data/MapCompletion/General/heartspecific/Salute.png" iconSize="1.0"/>
+					<MarkerCategory name="dance" DisplayName="Dance" iconFile="Data/MapCompletion/General/heartspecific/Dance.png" iconSize="1.0"/>
+					<MarkerCategory name="cower" DisplayName="Cower" iconFile="Data/MapCompletion/General/heartspecific/Cower.png" iconSize="1.0"/>
 					<MarkerCategory name="number1" DisplayName="Number 1" iconFile="Data/MapCompletion/General/heartspecific/number1.png" iconSize="0.4"/>
 					<MarkerCategory name="number2" DisplayName="Number 2" iconFile="Data/MapCompletion/General/heartspecific/number2.png" iconSize="0.4"/>
 					<MarkerCategory name="number3" DisplayName="Number 3" iconFile="Data/MapCompletion/General/heartspecific/number3.png" iconSize="0.4"/>
@@ -3598,7 +3602,13 @@
 		<POI MapID="26" xpos="-295.101" ypos="59.8612" zpos="743.388" type="tt.mc.h.chm.interact" GUID="88/X1uAehU6m3y7nULwHCw=="/>
 		<POI MapID="26" xpos="-296.547" ypos="24.5087" zpos="-666.582" type="tt.mc.cm.wm.square" GUID="gecuIgyTRU674ij4ttWmAA=="/>
 		<POI MapID="26" xpos="-297.053" ypos="57.236" zpos="733.199" type="tt.mc.cm.rm.waypoints" GUID="JEuL8QlDrE+1QM9KCK6b3Q=="/>
-		<POI MapID="26" xpos="-298.147" ypos="61.5723" zpos="422.267" type="tt.mc.h.chm.start_heart" info="Kill phantom imps, spider cave where rich iron vein is, do event if up" infoRange="40.0" GUID="xnkHTTGVZk+9I6dtjjaAkQ=="/>
+		<POI MapID="26" xpos="-315.645" ypos="58.1008" zpos="493.729" type="tt.mc.h.hsm.laugh" copy="/Laugh" triggerrange="4" autotrigger="true" GUID="8lP86Dz/BUSqPOyuh75/Dg=="/>
+		<POI MapID="26" xpos="-287.255" ypos="55.3924" zpos="493.411" type="tt.mc.h.hsm.cheer" copy="/Cheer" triggerrange="4" autotrigger="true" GUID="7j0oBr9JpUydDF37f8tFrA=="/>
+		<POI MapID="26" xpos="-250.499" ypos="51.2576" zpos="518.446" type="tt.mc.h.hsm.cower" copy="/Cower" triggerrange="4" autotrigger="true" GUID="xzkVk6q8+kyTZkDonHnFTg=="/>
+		<POI MapID="26" xpos="-313.507" ypos="61.5057" zpos="454.058" type="tt.mc.h.hsm.dance" copy="/Dance" triggerrange="4" autotrigger="true" GUID="4IjkU4P8GEaB2L64c0qXCg=="/>
+		<POI MapID="26" xpos="-427.164" ypos="69.7041" zpos="387.414" type="tt.mc.h.hsm.bow" copy="/Bow" triggerrange="4" autotrigger="true" GUID="JMNHKv0SRECU6OEZh22BCA=="/>
+		<POI MapID="26" xpos="-402.897" ypos="69.2917" zpos="432.342" type="tt.mc.h.hsm.salute" copy="/Salute" triggerrange="4" autotrigger="true" GUID="SXWpSARfM0GSRaZ4NdwwnA=="/>
+		<POI MapID="26" xpos="-298.147" ypos="61.5723" zpos="422.267" type="tt.mc.h.chm.start_heart" info="Emotes on Impressionable Skritt, kill spiders&#xA;&#xA;Event -> kill phantoms and spiders" infoRange="40.0" GUID="xnkHTTGVZk+9I6dtjjaAkQ=="/>
 		<POI MapID="26" xpos="-302.357" ypos="20.4596" zpos="-700.461" type="tt.mc.h.chm.finish_heart" GUID="3jQcydoEV0aK+VthU2EjEQ=="/>
 		<POI MapID="26" xpos="-304.938" ypos="21.5159" zpos="-683.125" type="tt.mc.cm.rm.waypoints" GUID="D5EF/LDvtU6U/DJAcbfxmw=="/>
 		<POI MapID="26" xpos="-305.322" ypos="20.2071" zpos="-701.329" type="tt.mc.cm.mm.springer" GUID="Asx5g9h4xkW1DAE5RLiZlw=="/>
