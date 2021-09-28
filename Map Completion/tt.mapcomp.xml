@@ -2401,7 +2401,7 @@
 		<POI MapID="15" xpos="742.081" ypos="-9.64223" zpos="592.559" type="tt.mc.h.chm.interact" GUID="3aVeatR+JEGE1qRwk0VTMw=="/>
 		<POI MapID="15" xpos="742.569" ypos="-16.4746" zpos="527.833" type="tt.mc.h.chm.interact" GUID="gS1j1wmD70ui1w0b/DTaVg=="/>
 		<POI MapID="15" xpos="742.992" ypos="-4.38378" zpos="563.229" type="tt.mc.h.chm.interact" GUID="Hv0wrbdKa0edsjI8f1cBPg=="/>
-		<POI MapID="15" xpos="747.155" ypos="-2.8578" zpos="620.686" type="tt.mc.h.chm.finish_heart" info="Trap crabs" infoRange="40.0" GUID="jPTqjqpfT0i+5xCDR3WQ0A=="/>
+		<POI MapID="15" xpos="747.155" ypos="-2.8578" zpos="620.686" type="tt.mc.h.chm.finish_heart" info="Kill skale/armored fish, Trap crabs" infoRange="40.0" GUID="jPTqjqpfT0i+5xCDR3WQ0A=="/>
 		<POI MapID="15" xpos="747.182" ypos="-2.8578" zpos="622.541" type="tt.mc.cm.rm.finish" copy="[&BPcAAAA=]" GUID="xJuZY//bjUe4pSEon0d6Pg=="/>
 		<POI MapID="15" xpos="749.393" ypos="-40.9306" zpos="613.211" type="tt.mc.h.chm.interact" GUID="F2OteAVJCUSkw0zKwoJnYQ=="/>
 		<POI MapID="15" xpos="760.533" ypos="-28.5107" zpos="560.33" type="tt.mc.h.chm.interact" GUID="301s4pLk4USiZxmIKTpfHg=="/>
