@@ -1851,9 +1851,22 @@
 		<POI MapID="24" xpos="170.978" ypos="0.313836" zpos="96.7486" type="tt.mc.h.chm.finish_heart" GUID="PAHK2knfZkGfYF4nc0RIsA=="/>
 		<POI MapID="24" xpos="178.135" ypos="7.95925" zpos="504.357" type="tt.mc.cm.wm.wpcircle" copy="[&BM0DAAA=]" GUID="EwjY2S6h70ytM40C4CJ/cg=="/>
 		<POI MapID="24" xpos="181.898" ypos="7.59665" zpos="503.509" type="tt.mc.cm.rm.waypoints" GUID="0oT98VzH10eublwNS0y+cg=="/>
-		<POI MapID="24" xpos="192.005" ypos="7.01058" zpos="-254.541" type="tt.mc.h.chm.start_heart" info="Lazy/Daydreaming Farmers | Feed animals" infoRange="40.0" GUID="Y1xKNJWDWEiHq5/RgBZlpQ=="/>
-		<POI MapID="24" xpos="202.289" ypos="0.193096" zpos="95.6935" type="tt.mc.cm.rm.points_of_interest" GUID="zTxtG6r6M0OUzQ0+Ti5Ilg=="/>
+		<POI MapID="24" xpos="56.9868" ypos="16.2697" zpos="-371.097" type="tt.mc.h.chm.start_heart" info="Talk to Lazy/Daydreaming Farmers, Interact wasp nests&#xA;&#xA;Not enough farmers -> Kill grubs/wasps/pirates, feed animals" infoRange="40.0" GUID="Y1xKNJWDWEiHq5/RgBZlpQ=="/>
+		<POI MapID="24" xpos="79.1731" ypos="17.2336" zpos="-286.229" type="tt.mc.h.chm.talk" GUID="craShjjt00e9FOK4gfPP5Q=="/>
+		<POI MapID="24" xpos="14.7267" ypos="18.7418" zpos="-285.353" type="tt.mc.h.chm.talk" GUID="1de5kJw5tE2b6yOW3nHXvw=="/>
+		<POI MapID="24" xpos="9.0775" ypos="20.6967" zpos="-316.206" type="tt.mc.h.chm.talk" GUID="WkZFgTLv4keKoCO4UPTRPw=="/>
+		<POI MapID="24" xpos="129.952" ypos="19.4262" zpos="-312.459" type="tt.mc.h.chm.talk" GUID="unv2OJWXW0uxSll8PC5GiA=="/>
+		<POI MapID="24" xpos="177.921" ypos="12.2045" zpos="-295.333" type="tt.mc.h.chm.talk" GUID="LcRWLZOtDEaaM5ZquGWfcA=="/>
+		<POI MapID="24" xpos="149.545" ypos="10.8488" zpos="-234.658" type="tt.mc.h.chm.talk" GUID="lVqrX0b/E0K7RJvHzWkE3Q=="/>
+		<POI MapID="24" xpos="53.1177" ypos="16.8989" zpos="-369.501" type="tt.mc.h.chm.talk" GUID="44c4M/4Ee0uxkLPKuqURmA=="/>
+		<POI MapID="24" xpos="99.7704" ypos="14.6382" zpos="-269.44" type="tt.mc.h.chm.talk" GUID="vRN4j/63ZU+OL8S+NmoGAg=="/>
 		<POI MapID="24" xpos="208.807" ypos="6.04029" zpos="-255.369" type="tt.mc.h.chm.talk" GUID="n3h90A0h/k24kVYjc5MP+A=="/>
+		<POI MapID="24" xpos="124.475" ypos="13.2945" zpos="-221.274" type="tt.mc.h.chm.talk" GUID="GCehNLPfuUmoBoQ6/MTang=="/>
+		<POI MapID="24" xpos="67.2596" ypos="19.4729" zpos="-303.505" type="tt.mc.h.chm.interact" GUID="GE+fY7c6K0OEmZuTZw1ycw=="/>
+		<POI MapID="24" xpos="84.1697" ypos="17.0555" zpos="-283.689" type="tt.mc.h.chm.interact" GUID="B7EppSYxxE6n8Puty1BNOw=="/>
+		<POI MapID="24" xpos="113.02" ypos="15.8107" zpos="-277.723" type="tt.mc.h.chm.interact" GUID="W/qdUJhyFUW7sZbgEDk2Zw=="/>
+		<POI MapID="24" xpos="109.867" ypos="21.4272" zpos="-311.734" type="tt.mc.h.chm.interact" GUID="ciGolMBJ706iXt1tTsH5Jg=="/>
+		<POI MapID="24" xpos="202.289" ypos="0.193096" zpos="95.6935" type="tt.mc.cm.rm.points_of_interest" GUID="zTxtG6r6M0OUzQ0+Ti5Ilg=="/>
 		<POI MapID="24" xpos="218.676" ypos="-0.00114494" zpos="94.9091" type="tt.mc.cm.mm.skimmer" GUID="IZ79sNjerk66HTwFPXLh1Q=="/>
 		<POI MapID="24" xpos="220.007" ypos="1.92514" zpos="-187.145" type="tt.mc.cm.mm.springer" GUID="dooSEdKfA06ob5lEOEzPLg=="/>
 		<POI MapID="24" xpos="229.376" ypos="2.54783" zpos="254.857" type="tt.mc.cm.wm.circle" GUID="jeOCXj5tX0WRvAwBD5tFPw=="/>
@@ -5758,6 +5771,7 @@
 		
 		<!-- HEART TRAILS -->
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/PirateLootHeart.trl"/>
+		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpMiltonHeart.trl"/>
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpCitizensOfBeetletunHeart.trl"/>
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpBrannenHeart.trl"/>
 		
