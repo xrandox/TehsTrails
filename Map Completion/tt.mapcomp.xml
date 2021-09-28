@@ -22,6 +22,8 @@
 				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- DARK BLUE -->
 				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- GREEN -->
+				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- BLUE (PRIORITY) -->
 				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/Trail.png" trailScale="1" miniMapVisibility="0"/>
 			</MarkerCategory>
@@ -5616,7 +5618,7 @@
 		<Trail type="tt.mc.ct.mapDB" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
 		<Trail type="tt.mc.ct.mapDB" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
 		<Trail type="tt.mc.ct.mapDB" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
-				<!-- RED TRAILS -->
+		<!-- RED TRAILS -->
 		<Trail type="tt.mc.ct.mapR" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
 		<Trail type="tt.mc.ct.mapR" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
 		<Trail type="tt.mc.ct.mapR" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
@@ -5702,6 +5704,50 @@
 		<Trail type="tt.mc.ct.mapDP" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
 		<Trail type="tt.mc.ct.mapDP" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
 		<Trail type="tt.mc.ct.mapDP" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
+		<!-- GREEN TRAILS -->
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/FireheartRise.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/IronMarches.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/PlainsofAshford.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadel.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance4.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/Hoelbrak.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSum.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/TheGrove.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/TheGroveInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/DivinitysReach.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/LionsArch.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/GendarranFields.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HarathiHinterlands.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/KessexHills.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/Queensdale.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/MetricaProvince.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/CursedShore.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/MalchorsLeap.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/StraitsofDevastation.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/DredgehauntCliffs.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/FrostgorgeSound.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/LornarsPass.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/SnowdenDrifts.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/WayfarerFoothills.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BloodtideCoast.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
+
 		<!-- BLUE TRAILS (PRIORITY) -->
 		<Trail type="tt.mc.ct.mapB" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
 		<Trail type="tt.mc.ct.mapB" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
