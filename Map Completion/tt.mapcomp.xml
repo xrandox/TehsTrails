@@ -819,7 +819,7 @@
 		<POI MapID="20" xpos="417.578" ypos="41.9200" zpos="200.174" type="tt.mc.h.chm.start_heart" info="Fix pet houses, put chicken back, cook, train pets" infoRange="40.0" GUID="F/uzjw75nEmA1u5mU/U3kQ=="/>
 		<POI MapID="20" xpos="366.718" ypos="38.5468" zpos="1039.05" type="tt.mc.h.chm.start_heart" info="Kill bandits, take and turn in explosives, destroy supplies" infoRange="40.0" GUID="AT4B7ABGtEecfH49FdCk2g=="/>
 		<POI MapID="20" xpos="6.89477" ypos="49.1205" zpos="-82.9824" type="tt.mc.h.chm.talk" GUID="U1a4+xvoJkWn15iVj+rokA=="/>
-		<POI MapID="20" xpos="8.17247" ypos="19.3798" zpos="-87.1964" type="tt.mc.h.chm.start_heart" info="Talk to heart, kill grawls and their supplies" infoRange="40.0" GUID="0UWI7NsEskihFNLKlhrAlQ=="/>
+		<POI MapID="20" xpos="8.17247" ypos="19.3798" zpos="-87.1964" type="tt.mc.h.chm.start_heart" info="Talk to heart -> kill grawls, Interact supplies, branches and unformed elementals&#xA;&#xA;Use bundle to weaponswap animations" infoRange="40.0" GUID="0UWI7NsEskihFNLKlhrAlQ=="/>
 		<POI MapID="20" xpos="43.5303" ypos="-0.682394" zpos="-1141.21" type="tt.mc.h.chm.interact" GUID="Wu6zVJz1gkqw300VpM5OsQ=="/>
 		<POI MapID="20" xpos="49.5913" ypos="62.6471" zpos="641.875" type="tt.mc.h.chm.finish_heart" GUID="BA6vAwbh60WwZqyzAqlkAA=="/>
 		<POI MapID="20" xpos="53.1591" ypos="-0.626392" zpos="-1153.21" type="tt.mc.h.chm.interact" GUID="qlFNMY1y+EmvIapzOVgcKQ=="/>
