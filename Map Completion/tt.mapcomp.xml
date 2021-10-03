@@ -2377,7 +2377,7 @@
 		<POI MapID="15" xpos="473.992" ypos="36.3476" zpos="-17.8474" type="tt.mc.h.chm.interact" GUID="PjZY3fjLOk2St0a0od/7Mw=="/>
 		<POI MapID="15" xpos="492.965" ypos="37.9377" zpos="-0.358331" type="tt.mc.h.chm.interact" GUID="9I/E8oyxKke6bhsMa6NBew=="/>
 		<POI MapID="15" xpos="512.562" ypos="-0.785192" zpos="-531.463" type="tt.mc.h.chm.finish_heart" GUID="5huA1NmJRkCEffUokDD2rA=="/>
-		<POI MapID="15" xpos="516.553" ypos="76.2685" zpos="22.5941" type="tt.mc.h.chm.start_heart" info="Kill Tamini, Pull and kill grubs, taste test&#xA;&#xA;Defense event -> Kill centaurs" infoRange="40.0" GUID="+PX5MJf2e0yA5t729bIWdA=="/>
+		<POI MapID="15" xpos="516.553" ypos="76.2685" zpos="22.5941" type="tt.mc.h.chm.start_heart" info="Kill Tamini, Pull and kill grubs, taste test&#xA;&#xA;Defense event -> Kill centaurs&#xA;Portal event -> Kill shades and portals" infoRange="40.0" GUID="+PX5MJf2e0yA5t729bIWdA=="/>
 		<POI MapID="15" xpos="523.288" ypos="2.01054" zpos="-269.815" type="tt.mc.cm.rm.waypoints" GUID="0a0TaZHT/UefmoaSqW6/GQ=="/>
 		<POI MapID="15" xpos="528.345" ypos="37.9295" zpos="456.163" type="tt.mc.cm.rm.points_of_interest" GUID="9LK2KfDEdk6xMlf4l9SVFA=="/>
 		<POI MapID="15" xpos="536.473" ypos="0.242804" zpos="-446.494" type="tt.mc.h.chm.kill" GUID="AIMXdbVtFUuBEIhoEQCr1Q=="/>
