@@ -1231,6 +1231,8 @@
 		<POI MapID="21" xpos="-91.7266" ypos="37.8019" zpos="-731.786" type="tt.mc.h.chm.kill" GUID="nxocaDSepU6pB+hjG4zy2w=="/>
 		<POI MapID="21" xpos="-98.1433" ypos="44.0573" zpos="-410.719" type="tt.mc.cm.rm.points_of_interest" GUID="ysmDxgoF6k6J9vIm/nr0Dw=="/>
 		<POI MapID="21" xpos="-105.216" ypos="32.8729" zpos="-341.385" type="tt.mc.cm.rm.waypoints" GUID="CER8WIs1MUCHfYsSBX5+Ag=="/>
+		<POI MapID="21" xpos="-75.5154" ypos="12.6941" zpos="-184.613" type="tt.mc.cm.rm.ppr_m" GUID="lNLR9VG+ZEmI0jYEoyAwhA=="/>
+		<POI MapID="21" xpos="-99.4154" ypos="42.4838" zpos="-406.285" type="tt.mc.cm.rm.ppr_r" GUID="LNdmDKrvQkmveDWbo5sOZw=="/>
 		<POI MapID="21" xpos="-108.404" ypos="48.7821" zpos="-756.196" type="tt.mc.h.chm.kill" GUID="uyWj4SwqqUmOedbKQIkF9w=="/>
 		<POI MapID="21" xpos="-156.296" ypos="49.1734" zpos="-780.543" type="tt.mc.h.chm.interact" GUID="oecVrWIOuUujME6oPieFbg=="/>
 		<POI MapID="21" xpos="-161.685" ypos="34.6358" zpos="-762.668" type="tt.mc.h.chm.interact" GUID="nJZqiW34WUykRdy/vdUogA=="/>
