@@ -3192,6 +3192,8 @@
 		<POI MapID="62" xpos="348.586" ypos="83.4238" zpos="-1134.5118" type="tt.mc.cm.mm.griffon" GUID="oGEDDkRVpkm/VYeiDgX0+w=="/>
 		<POI MapID="62" xpos="434.449" ypos="26.94226" zpos="-1092.498" type="tt.mc.cm.rm.waypoints" info="Be ready to glide when you get dismounted near vista" infoRange="40" GUID="WlMuV4mvJk2yUzfaEC0TUQ=="/>
 		<POI MapID="62" xpos="37.886" ypos="46.0238" zpos="-940.0118" type="tt.mc.cm.rm.dismount" GUID="JjNnvqOYSkynSxBM632CfA=="/>
+		<POI MapID="62" xpos="-319.385" ypos="46.8057" zpos="-724.383" type="tt.mc.cm.rm.ppr_m" GUID="W9C6sWdnlE2lhwUQyRr2xg=="/>
+		<POI MapID="62" xpos="-391.789" ypos="43.1867" zpos="-851.464" type="tt.mc.cm.rm.ppr_r" GUID="699Tln+vLUGkc09I+xSk/w=="/>
 		<POI MapID="62" xpos="455.908" ypos="45.6168" zpos="237.852" type="tt.mc.cm.rm.points_of_interest" GUID="dPyjmUM6akWO9qSrfCcZ3w=="/>
 		<POI MapID="62" xpos="464.204" ypos="17.0325" zpos="-1014.14" type="tt.mc.cm.rm.points_of_interest" GUID="UnXS2nwwKUGVp5diOoipWg=="/>
 		<POI MapID="62" xpos="320.924" ypos="84.4205" zpos="-1081.779" type="tt.mc.cm.rm.bondoffaith" GUID="fUt7rDHWL0eNX+c8+4Fyag=="/>
