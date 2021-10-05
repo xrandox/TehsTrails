@@ -4404,7 +4404,7 @@
 		<POI MapID="28" xpos="-80.9118" ypos="96.9555" zpos="225.094" type="tt.mc.h.chm.interact" GUID="g81lFd1uI0OGsdd1AJj+9g=="/>
 		<POI MapID="28" xpos="-78.0538" ypos="96.3207" zpos="215.931" type="tt.mc.h.chm.interact" GUID="wMDPzjkf5Eer2oPrLUagkw=="/>
 		<POI MapID="28" xpos="-111.916" ypos="94.6399" zpos="221.728" type="tt.mc.h.chm.interact" GUID="AMJNw6CD7kCGZhN5DCvnbA=="/>
-		<POI MapID="28" xpos="-110.567" ypos="107.074" zpos="223.276" type="tt.mc.h.chm.start_heart" info="Kill rock dogs or do trades: Rabbit hole -> Trugg -> Boulder@Jokull -> Trugg -> Loose ore -> Trugg -> Bottle@Jokull -> Grokor -> Cage@Kakifien -> Grokor -> Barrel@Grokor -> Trugg -> Plank@Trugg -> Jokull -> Heart" infoRange="40.0" GUID="jtuDsKNbzEyNdIndaeTBZg=="/>
+		<POI MapID="28" xpos="-110.567" ypos="107.074" zpos="223.276" type="tt.mc.h.chm.start_heart" info="Kill rock dogs or do trades:&#xA;Rabbit hole -> Trugg&#xA;Boulder(near Jokull) -> Trugg&#xA;Loose ore -> Trugg&#xA;Bottle(near Jokull) -> Grokor&#xA;Cage(near Kakifien) -> Grokor&#xA;Barrel(near Grokor) -> Trugg&#xA;Plank(near Trugg) -> Jokull -> give to heart" infoRange="40.0" GUID="jtuDsKNbzEyNdIndaeTBZg=="/>
 		<POI MapID="28" xpos="-144.674" ypos="118.191" zpos="810.048" type="tt.mc.cm.rm.waypoints" GUID="+IIgRManBUmHWAvjN3M/1w=="/>
 		<POI MapID="28" xpos="-159.403" ypos="165.613" zpos="1040.2" type="tt.mc.cm.mm.griffon" GUID="iqNToHU/E0G3YobesVgBFw=="/>
 		<POI MapID="28" xpos="-161.023" ypos="164.111" zpos="1040.93" type="tt.mc.h.chm.finish_heart" GUID="/X3oGC8EIUK707EUo1IYOA=="/>
