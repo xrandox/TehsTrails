@@ -4283,6 +4283,8 @@
 		<POI MapID="28" xpos="232.763" ypos="48.1041" zpos="-661.231" type="tt.mc.cm.wm.wpx" copy="[&BHQBAAA=]" GUID="zFyZXYGXC0SxSAemFpWh6Q=="/>
 		<POI MapID="28" xpos="236.187" ypos="85.2165" zpos="520.055" type="tt.mc.cm.rm.waypoints" GUID="c1jV/wN84EqdosO+RaV6fw=="/>
 		<POI MapID="28" xpos="238.05" ypos="88.747" zpos="858.697" type="tt.mc.h.chm.start_heart" info="Capture calfs, cull skelk" infoRange="40.0" GUID="HfRLngu4e0W7/WbmIfjPug=="/>
+		<POI MapID="28" xpos="302.435" ypos="151.074" zpos="1111.09" type="tt.mc.cm.rm.ppr_m" GUID="kxEpz9mXUk2k3DgktVQ/Ag=="/>
+		<POI MapID="28" xpos="416.364" ypos="149.54" zpos="1192.81" type="tt.mc.cm.rm.ppr_r" GUID="HoG9xbwliUyGTCArSQv8QQ=="/>
 		<POI MapID="28" xpos="242.238" ypos="0.217302" zpos="-754.405" type="tt.mc.h.chm.interact" GUID="+VDxgZmrzE2ow5UNFgSYVQ=="/>
 		<POI MapID="28" xpos="243.466" ypos="-0.372539" zpos="-806.988" type="tt.mc.h.chm.start_heart" info="Open fish traps, disarm bear traps, kick trees, kill Svarnir, duel acolytes, erase tags" infoRange="40.0" GUID="4jN5fH8keEWHUnNieKzpzg=="/>
 		<POI MapID="28" xpos="248.862" ypos="0.254725" zpos="-801.723" type="tt.mc.h.chm.interact" GUID="OTfTvCNZy0+L7ceaPI4sCg=="/>
