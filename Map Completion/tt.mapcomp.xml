@@ -4520,7 +4520,7 @@
 		<POI MapID="73" xpos="548.523" ypos="1.93556" zpos="-800.209" type="tt.mc.cm.rm.waypoints" GUID="LRHQqiiQ202RA2s1x2Kcmw=="/>
 		<POI MapID="73" xpos="554.456" ypos="37.6271" zpos="-458.166" type="tt.mc.cm.rm.points_of_interest" GUID="JP9WWp4Hxk6dPjgvcheCUw=="/>
 		<POI MapID="73" xpos="567.374" ypos="38.0945" zpos="840.919" type="tt.mc.cm.rm.waypoints" GUID="UbbSKw6i2kCSXlS3DRgibw=="/>
-		<POI MapID="73" xpos="737.326" ypos="31.2324" zpos="551.035" type="tt.mc.h.chm.start_heart" info="Throw rum, fight pirates" infoRange="40.0" GUID="zzITttdV2EW53iOtznl03g=="/>
+		<POI MapID="73" xpos="737.326" ypos="31.2324" zpos="551.035" type="tt.mc.h.chm.start_heart" info="Throw rum, fight pirates (stack conditions)" infoRange="40.0" GUID="zzITttdV2EW53iOtznl03g=="/>
 		<POI MapID="73" xpos="606.788" ypos="2.64452" zpos="-836.587" type="tt.mc.h.hsm.number1" GUID="fuSnIVbZ3k61dthXqeyyzQ=="/>
 		<POI MapID="73" xpos="613.551" ypos="4.69709" zpos="-802.541" type="tt.mc.h.hsm.number2" GUID="P71q3uIclECI0VzOfuc5/Q=="/>
 		<POI MapID="73" xpos="615.212" ypos="4.08699" zpos="-806.158" type="tt.mc.h.hsm.number2" GUID="4X3genrnX0KwIuyEegkJwA=="/>
