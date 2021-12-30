@@ -7,25 +7,25 @@
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:"/>
 				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/LightGreyTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/LightGreyTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/OrangeTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/OrangeTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PinkTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PinkTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PepegaTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PepegaTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/Trail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/Trail.png" trailScale="1" miniMapVisibility="0"/>
 			</MarkerCategory>
 
 		<!--=======================================================================================================================================================================-->
@@ -97,7 +97,7 @@
 				<!-- Heart Trails -->
 				<MarkerCategory name="ht" DisplayName="Heart Trails" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- Heart Zone Categories -->
-				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
 				
 				<!-- Common Heart Markers -->
 				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -161,17 +161,17 @@
 		<!--==                                                                            HERO POINTS                                                                            ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
-				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/MapCompletion/General/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/SkyscaleTrail.png" trailScale="1" miniMapVisibility="0"/>
+			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/SkyscaleTrail.png" trailScale="1" miniMapVisibility="0"/>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
+			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                               CREDITS                                                                             ==-->
 		<!--=======================================================================================================================================================================-->
@@ -5823,8 +5823,8 @@
 		<Trail type="tt.mc.hp.hpt" GUID="WsBbuonAlEqXkEp71vGfTg==" trailData="Data/MapCompletion/Trails/hptrails/GendarranFields.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="K4VoGm0YHEyFugmmkF/2Kg==" trailData="Data/MapCompletion/Trails/hptrails/HarathiHinterlands.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="YihtVAY+D06J/6VyZUOifA==" trailData="Data/MapCompletion/Trails/hptrails/KessexHills.trl"/>
-		<Trail type="tt.mc.hp.hpt" alpha="3" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/Queensdale.trl"/>
-		<Trail type="tt.mc.hp.hpt" alpha="3" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.hp.hpt" alpha="1" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/Queensdale.trl"/>
+		<Trail type="tt.mc.hp.hpt" alpha="1" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/BrisbanWildlands.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="YruYMoF5J0yNAphfFZ6GHQ==" trailData="Data/MapCompletion/Trails/hptrails/CaledonForest.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="wSlyq/qa9UqQHZQwgzEXrg==" trailData="Data/MapCompletion/Trails/hptrails/MetricaProvince.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="tKwntjht5k2ht1YFdzQFHw==" trailData="Data/MapCompletion/Trails/hptrails/CursedShore.trl"/>
