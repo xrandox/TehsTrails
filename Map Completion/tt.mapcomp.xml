@@ -5,7 +5,7 @@
 		<!--==                                                                              MAIN TRAILS                                                                          ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:"/>
+				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
 				<!-- RED -->
 				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- GREY -->
@@ -97,7 +97,7 @@
 				<!-- Heart Trails -->
 				<MarkerCategory name="ht" DisplayName="Heart Trails" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- Heart Zone Categories -->
-				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0" iswall="1"/>
 				
 				<!-- Common Heart Markers -->
 				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -175,91 +175,91 @@
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                               CREDITS                                                                             ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="credits" DisplayName="Credits">
+			<MarkerCategory name="credits" DisplayName="Credits" isseparator="1">
 			
-				<MarkerCategory name="createdby" DisplayName="Created By">
-					<MarkerCategory name="discord" DisplayName="null#7146"/>
-					<MarkerCategory name="ign" DisplayName="xTeh.7146"/>
+				<MarkerCategory name="createdby" DisplayName="Created By" isseparator="1">
+					<MarkerCategory name="discord" DisplayName="null#7146" isseparator="1"/>
+					<MarkerCategory name="ign" DisplayName="xTeh.7146" isseparator="1"/>
 				</MarkerCategory>
 				
-				<MarkerCategory name="thanksto" DisplayName="Special Thanks To">
-					<MarkerCategory name="snow" DisplayName="The Creator of BHUD">
-						<MarkerCategory name="snow" DisplayName="Who created the trail editing tool"/>
-						<MarkerCategory name="snow0" DisplayName="that made this pack possible:"/>
-						<MarkerCategory name="snow1" DisplayName="Freesnöw#0001"/>
-						<MarkerCategory name="snow2" DisplayName="LandersXanders.1235"/>
+				<MarkerCategory name="thanksto" DisplayName="Special Thanks To" isseparator="1">
+					<MarkerCategory name="snow" DisplayName="The Creator of BHUD" isseparator="1">
+						<MarkerCategory name="snow" DisplayName="Who created the trail editing tool" isseparator="1"/>
+						<MarkerCategory name="snow0" DisplayName="that made this pack possible:" isseparator="1"/>
+						<MarkerCategory name="snow1" DisplayName="Freesnöw#0001" isseparator="1"/>
+						<MarkerCategory name="snow2" DisplayName="LandersXanders.1235" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="foxe" DisplayName="The Ever-So-Talented Artist">
-						<MarkerCategory name="foxe" DisplayName="Who drew the custom mount markers"/>
-						<MarkerCategory name="foxe0" DisplayName="and kept me from going insane:"/>
-						<MarkerCategory name="foxe1" DisplayName="foxe#9222"/>
-						<MarkerCategory name="foxe2" DisplayName="foxetrotte.6873"/>
-						<MarkerCategory name="foxe3" DisplayName="@foxetails"/>
+					<MarkerCategory name="foxe" DisplayName="The Ever-So-Talented Artist" isseparator="1">
+						<MarkerCategory name="foxe" DisplayName="Who drew the custom mount markers" isseparator="1"/>
+						<MarkerCategory name="foxe0" DisplayName="and kept me from going insane:" isseparator="1"/>
+						<MarkerCategory name="foxe1" DisplayName="foxe#9222" isseparator="1"/>
+						<MarkerCategory name="foxe2" DisplayName="foxetrotte.6873" isseparator="1"/>
+						<MarkerCategory name="foxe3" DisplayName="@foxetails" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="odeh" DisplayName="The Mad Assistant">
-						<MarkerCategory name="odeh" DisplayName="Who probably went just"/>
-						<MarkerCategory name="odeh0" DisplayName="as insane as I did:"/>
-						<MarkerCategory name="odeh1" DisplayName="Odeh.9310"/>
+					<MarkerCategory name="odeh" DisplayName="The Mad Assistant" isseparator="1">
+						<MarkerCategory name="odeh" DisplayName="Who probably went just" isseparator="1"/>
+						<MarkerCategory name="odeh0" DisplayName="as insane as I did:" isseparator="1"/>
+						<MarkerCategory name="odeh1" DisplayName="Odeh.9310" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="radd" DisplayName="The Slave Laborer">
-						<MarkerCategory name="radd" DisplayName="Who helped keep me organized:"/>
-						<MarkerCategory name="radd0" DisplayName="Orange Turtle.3546"/>
+					<MarkerCategory name="radd" DisplayName="The Slave Laborer" isseparator="1">
+						<MarkerCategory name="radd" DisplayName="Who helped keep me organized:" isseparator="1"/>
+						<MarkerCategory name="radd0" DisplayName="Orange Turtle.3546" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="zot" DisplayName="The Fastest Tyrian">
-						<MarkerCategory name="zot" DisplayName="Who helped provide improvements"/>
-						<MarkerCategory name="zot0" DisplayName="to various things in the pack:"/>
-						<MarkerCategory name="zot1" DisplayName="zotmer"/>
+					<MarkerCategory name="zot" DisplayName="The Fastest Tyrian" isseparator="1">
+						<MarkerCategory name="zot" DisplayName="Who helped provide improvements" isseparator="1"/>
+						<MarkerCategory name="zot0" DisplayName="to various things in the pack:" isseparator="1"/>
+						<MarkerCategory name="zot1" DisplayName="zotmer" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="orig" DisplayName="The Original Pioneers">
-						<MarkerCategory name="orig" DisplayName="Who developed the base routing that I"/>
-						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:"/>
-						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:"/>
-						<MarkerCategory name="orig1" DisplayName="Lulleh.6714 - [LAW]"/>
-						<MarkerCategory name="orig2" DisplayName="ideka's AugTyr"/>
+					<MarkerCategory name="orig" DisplayName="The Original Pioneers" isseparator="1">
+						<MarkerCategory name="orig" DisplayName="Who developed the base routing that I" isseparator="1"/>
+						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:" isseparator="1"/>
+						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:" isseparator="1"/>
+						<MarkerCategory name="orig1" DisplayName="Lulleh.6714 - [LAW]" isseparator="1"/>
+						<MarkerCategory name="orig2" DisplayName="ideka's AugTyr" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors">
-						<MarkerCategory name="maptester0" DisplayName="Alatar.7364"/>
-						<MarkerCategory name="maptester1" DisplayName="Ank.9537"/>
-						<MarkerCategory name="maptester2" DisplayName="Blood.5607"/>
-						<MarkerCategory name="maptester3" DisplayName="choco.5918"/>
-						<MarkerCategory name="maptester4" DisplayName="Deekay.1579"/>
-						<MarkerCategory name="maptester5" DisplayName="Don.9870"/>
-						<MarkerCategory name="maptester6" DisplayName="Emikadon.8542"/>
-						<MarkerCategory name="maptester7" DisplayName="Frenzy.6189"/>
-						<MarkerCategory name="maptester8" DisplayName="iToPouch.5073"/>
-						<MarkerCategory name="maptester9" DisplayName="justsoelmo.7068"/>
-						<MarkerCategory name="maptester10" DisplayName="lokko.7534"/>
-						<MarkerCategory name="maptester11" DisplayName="Lycart.5487"/>
-						<MarkerCategory name="maptester12" DisplayName="Lyra.7082"/>
-						<MarkerCategory name="maptester13" DisplayName="Mavrande.5849"/>
-						<MarkerCategory name="maptester14" DisplayName="Pizzous.4783"/>
-						<MarkerCategory name="maptester15" DisplayName="Predator.1430"/>
-						<MarkerCategory name="maptester16" DisplayName="Scott Ware.7291"/>
-						<MarkerCategory name="maptester17" DisplayName="ScythShot.9236"/>
-						<MarkerCategory name="maptester18" DisplayName="Sj Vermeulen.1470"/>
-						<MarkerCategory name="maptester19" DisplayName="Tacnayn.2754"/>
-						<MarkerCategory name="maptester20" DisplayName="Xanky.6475"/>
-						<MarkerCategory name="maptester21" DisplayName="xeronil.6930"/>
-						<MarkerCategory name="maptester22" DisplayName="xhellkellx.4853"/>
-						<MarkerCategory name="contributor" DisplayName="TarEnethil"/>
+					<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors" isseparator="1">
+						<MarkerCategory name="maptester0" DisplayName="Alatar.7364" isseparator="1"/>
+						<MarkerCategory name="maptester1" DisplayName="Ank.9537" isseparator="1"/>
+						<MarkerCategory name="maptester2" DisplayName="Blood.5607" isseparator="1"/>
+						<MarkerCategory name="maptester3" DisplayName="choco.5918" isseparator="1"/>
+						<MarkerCategory name="maptester4" DisplayName="Deekay.1579" isseparator="1"/>
+						<MarkerCategory name="maptester5" DisplayName="Don.9870" isseparator="1"/>
+						<MarkerCategory name="maptester6" DisplayName="Emikadon.8542" isseparator="1"/>
+						<MarkerCategory name="maptester7" DisplayName="Frenzy.6189" isseparator="1"/>
+						<MarkerCategory name="maptester8" DisplayName="iToPouch.5073" isseparator="1"/>
+						<MarkerCategory name="maptester9" DisplayName="justsoelmo.7068" isseparator="1"/>
+						<MarkerCategory name="maptester10" DisplayName="lokko.7534" isseparator="1"/>
+						<MarkerCategory name="maptester11" DisplayName="Lycart.5487" isseparator="1"/>
+						<MarkerCategory name="maptester12" DisplayName="Lyra.7082" isseparator="1"/>
+						<MarkerCategory name="maptester13" DisplayName="Mavrande.5849" isseparator="1"/>
+						<MarkerCategory name="maptester14" DisplayName="Pizzous.4783" isseparator="1"/>
+						<MarkerCategory name="maptester15" DisplayName="Predator.1430" isseparator="1"/>
+						<MarkerCategory name="maptester16" DisplayName="Scott Ware.7291" isseparator="1"/>
+						<MarkerCategory name="maptester17" DisplayName="ScythShot.9236" isseparator="1"/>
+						<MarkerCategory name="maptester18" DisplayName="Sj Vermeulen.1470" isseparator="1"/>
+						<MarkerCategory name="maptester19" DisplayName="Tacnayn.2754" isseparator="1"/>
+						<MarkerCategory name="maptester20" DisplayName="Xanky.6475" isseparator="1"/>
+						<MarkerCategory name="maptester21" DisplayName="xeronil.6930" isseparator="1"/>
+						<MarkerCategory name="maptester22" DisplayName="xhellkellx.4853" isseparator="1"/>
+						<MarkerCategory name="contributor" DisplayName="TarEnethil" isseparator="1"/>
 					</MarkerCategory>
 				</MarkerCategory>
 				
-				<MarkerCategory name="asssetsfrom" DisplayName="Assets From">
-					<MarkerCategory name="assets" DisplayName="Arenanet"/>
-					<MarkerCategory name="assets0" DisplayName="(Plz don't sue me for copyright)"/>
+				<MarkerCategory name="asssetsfrom" DisplayName="Assets From" isseparator="1">
+					<MarkerCategory name="assets" DisplayName="Arenanet" isseparator="1"/>
+					<MarkerCategory name="assets0" DisplayName="(Plz don't sue me for copyright)" isseparator="1"/>
 				</MarkerCategory>
 				
-				<MarkerCategory name="joindiscord" DisplayName="Join us on discord!">
-					<MarkerCategory name="ttinvitelink" DisplayName="Teh's Trails - https://discord.gg/bJV6VXT"/>
-					<MarkerCategory name="overflowinvitelink" DisplayName="Overflow Discord - https://discord.gg/7tWwz499rX"/>
-					<MarkerCategory name="bhudinvitelink" DisplayName="Blish HUD Discord - https://discord.gg/FYKN3qh"/>
+				<MarkerCategory name="joindiscord" DisplayName="Join us on discord!" isseparator="1">
+					<MarkerCategory name="ttinvitelink" DisplayName="Teh's Trails - https://discord.gg/bJV6VXT" isseparator="1"/>
+					<MarkerCategory name="overflowinvitelink" DisplayName="Overflow Discord - https://discord.gg/7tWwz499rX" isseparator="1"/>
+					<MarkerCategory name="bhudinvitelink" DisplayName="Blish HUD Discord - https://discord.gg/FYKN3qh" isseparator="1"/>
 				</MarkerCategory>
 				
-				<MarkerCategory name="donations" DisplayName="Feeling generous?">
-					<MarkerCategory name="mail" DisplayName="Feel free to send a mail to xTeh.7146"/>
-					<MarkerCategory name="donation" DisplayName="Every donation is appreciated!"/>
-					<MarkerCategory name="kind" DisplayName="Even just kind words are nice to receive :)"/>
+				<MarkerCategory name="donations" DisplayName="Feeling generous?" isseparator="1">
+					<MarkerCategory name="mail" DisplayName="Feel free to send a mail to xTeh.7146" isseparator="1"/>
+					<MarkerCategory name="donation" DisplayName="Every donation is appreciated!" isseparator="1"/>
+					<MarkerCategory name="kind" DisplayName="Even just kind words are nice to receive :)" isseparator="1"/>
 				</MarkerCategory>
 				
 			</MarkerCategory>
@@ -2569,7 +2569,7 @@
 		
 		
 		<!--============================================= BRISBAN WILDLANDS MARKERS =============================================-->
-		<POI MapID="54" xpos="76.5859" ypos="37.4365" zpos="14.0139" type="tt.mc.cm.mm.skyscale" GUID=""/>
+		<POI MapID="54" xpos="76.5859" ypos="37.4365" zpos="14.0139" type="tt.mc.cm.mm.skyscale"/>
 		<POI MapID="54" xpos="285.743" ypos="74.51" zpos="-692.782" type="tt.mc.cm.mm.beetle" GUID="cch8FXtVS0u0avP8Z0jyOg=="/>
 		<POI MapID="54" xpos="397.146" ypos="1.02536" zpos="-377.28" type="tt.mc.cm.mm.jackal" GUID="hbkVvy4fWke1NQSRQxzqpg=="/>
 		<POI MapID="54" xpos="771.749" ypos="72.9005" zpos="391.704" type="tt.mc.cm.mm.beetle" GUID="cZxi69xf+UeI/iWXyVc7cQ=="/>
