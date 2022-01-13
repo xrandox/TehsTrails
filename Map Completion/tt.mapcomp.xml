@@ -54,7 +54,7 @@
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/MapCompletion/General/shoppinglist.png" iconSize="1.5"/>
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map_by_teleporting" DisplayName="Exit Point Teleportation" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
-					<MarkerCategory name="nem" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1">
+					<MarkerCategory name="nem" DisplayName="Numbered Exit Map Markers" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1">
 						<MarkerCategory name="exit_map_1" DisplayName="Exit Map 1" iconFile="Data/MapCompletion/General/ExitMap1.png"/>
 						<MarkerCategory name="exit_map_2" DisplayName="Exit Map 2" iconFile="Data/MapCompletion/General/ExitMap2.png"/>
 						<MarkerCategory name="exit_map_3" DisplayName="Exit Map 3" iconFile="Data/MapCompletion/General/ExitMap3.png"/>
@@ -529,7 +529,7 @@
 		
 		
 		<!--============================================= LION'S ARCH MARKERS =============================================-->
-		
+
 		<POI MapID="50" xpos="-296.809" ypos="7.64322" zpos="262.566" type="tt.mc.cm.mm.skyscale" GUID="cnsEU3s1m0+C1U2qpdZ4zg=="/>
 		<POI MapID="50" xpos="-172.847" ypos="22.2342" zpos="191.532" type="tt.mc.cm.rm.shoppinglist" GUID="DI7sKnF7fE+bDiG0WihhWQ=="/>
 		<POI MapID="50" xpos="69.3641" ypos="24.5885" zpos="315.652" type="tt.mc.cm.rm.points_of_interest" GUID="9g8Llai4Ikih4ZaHIPADDQ=="/>
