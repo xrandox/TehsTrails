@@ -54,6 +54,15 @@
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/MapCompletion/General/shoppinglist.png" iconSize="1.5"/>
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map_by_teleporting" DisplayName="Exit Point Teleportation" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="nem" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1">
+						<MarkerCategory name="exit_map_1" DisplayName="Exit Map 1" iconFile="Data/MapCompletion/General/ExitMap1.png"/>
+						<MarkerCategory name="exit_map_2" DisplayName="Exit Map 2" iconFile="Data/MapCompletion/General/ExitMap2.png"/>
+						<MarkerCategory name="exit_map_3" DisplayName="Exit Map 3" iconFile="Data/MapCompletion/General/ExitMap3.png"/>
+						<MarkerCategory name="exit_map_4" DisplayName="Exit Map 4" iconFile="Data/MapCompletion/General/ExitMap4.png"/>
+						<MarkerCategory name="exit_map_5" DisplayName="Exit Map 5" iconFile="Data/MapCompletion/General/ExitMap5.png"/>
+						<MarkerCategory name="exit_map_6" DisplayName="Exit Map 6" iconFile="Data/MapCompletion/General/ExitMap6.png"/>
+						<MarkerCategory name="exit_map_7" DisplayName="Exit Map 7" iconFile="Data/MapCompletion/General/ExitMap7.png"/>
+					</MarkerCategory>
 				</MarkerCategory>
 	
 				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -520,25 +529,26 @@
 		
 		
 		<!--============================================= LION'S ARCH MARKERS =============================================-->
+		
 		<POI MapID="50" xpos="-296.809" ypos="7.64322" zpos="262.566" type="tt.mc.cm.mm.skyscale" GUID="cnsEU3s1m0+C1U2qpdZ4zg=="/>
 		<POI MapID="50" xpos="-172.847" ypos="22.2342" zpos="191.532" type="tt.mc.cm.rm.shoppinglist" GUID="DI7sKnF7fE+bDiG0WihhWQ=="/>
 		<POI MapID="50" xpos="69.3641" ypos="24.5885" zpos="315.652" type="tt.mc.cm.rm.points_of_interest" GUID="9g8Llai4Ikih4ZaHIPADDQ=="/>
 		<POI MapID="50" xpos="91.9232" ypos="23.9449" zpos="146.449" type="tt.mc.cm.rm.waypoints" GUID="H5GjaPFTNUu4odKEHS5Qmw=="/>
 		<POI MapID="50" xpos="95.7767" ypos="29.0314" zpos="161.663" type="tt.mc.cm.wm.arrow" GUID="OTTaP42T30qoTFe7da921Q=="/>
-		<POI MapID="50" xpos="102.341" ypos="39.2841" zpos="209.937" type="tt.mc.cm.rm.start" GUID="DcnZybSli0+G6DZdsi6T/A=="/>
+		<POI MapID="50" xpos="102.341" ypos="39.2841" zpos="209.937" type="tt.mc.cm.rm.nem.exit_map_1" GUID="DcnZybSli0+G6DZdsi6T/A=="/>
 		<POI MapID="50" xpos="118.644" ypos="34.514" zpos="-32.7869" type="tt.mc.cm.mm.griffon" GUID="Pd6SB4v/qE2YwBFHQqQoCw=="/>
 		<POI MapID="50" xpos="126.353" ypos="36.143" zpos="185.531" type="tt.mc.cm.rm.points_of_interest" GUID="7ndf0Dvl1E6u8+ISjObr7g=="/>
-		<POI MapID="50" xpos="127.275" ypos="39.2886" zpos="266.673" type="tt.mc.cm.rm.start" GUID="xP6Xhkkw3EitrXtuHrwdiw=="/>
+		<POI MapID="50" xpos="127.275" ypos="39.2886" zpos="266.673" type="tt.mc.cm.rm.nem.exit_map_3" GUID="xP6Xhkkw3EitrXtuHrwdiw=="/>
 		<POI MapID="50" xpos="133.422" ypos="38.6519" zpos="194.745" type="tt.mc.cm.rm.finish" GUID="jATrL7BYP06BdHsqAnMoaA=="/>
 		<POI MapID="50" xpos="139.545" ypos="36.0891" zpos="-44.4482" type="tt.mc.cm.rm.points_of_interest" GUID="cbxOYBdLnUuMUfNeZ27nEg=="/>
-		<POI MapID="50" xpos="145.075" ypos="39.324" zpos="176.598" type="tt.mc.cm.rm.start" GUID="jvQbCuG7jkOOpqb9SDOshA=="/>
+		<POI MapID="50" xpos="145.075" ypos="39.324" zpos="176.598" type="tt.mc.cm.rm.nem.exit_map_2" GUID="jvQbCuG7jkOOpqb9SDOshA=="/>
 		<POI MapID="50" xpos="155.753" ypos="25.0818" zpos="-205.284" type="tt.mc.cm.rm.points_of_interest" GUID="sxO1Sq48Rk2eljDVisvqwg=="/>
 		<POI MapID="50" xpos="156.576" ypos="16.8755" zpos="69.6874" type="tt.mc.cm.rm.dismount" GUID="Lhg0vct1DUur7Z1+I0sv+g=="/>
 		<POI MapID="50" xpos="168.79" ypos="16.754" zpos="61.0025" type="tt.mc.cm.rm.vistas" GUID="G8BJQdPFfECtYOqS4rRirQ=="/>
 		<POI MapID="50" xpos="169.91" ypos="16.6862" zpos="60.0521" type="tt.mc.cm.mm.griffon" GUID="3xwxFF0y4kWN/QZEukfmZA=="/>
-		<POI MapID="50" xpos="170.401" ypos="39.5356" zpos="185.706" type="tt.mc.cm.rm.start" GUID="9BOIIpK3fk2DhTUInAqZBQ=="/>
+		<POI MapID="50" xpos="170.401" ypos="39.5356" zpos="185.706" type="tt.mc.cm.rm.nem.exit_map_5" GUID="9BOIIpK3fk2DhTUInAqZBQ=="/>
 		<POI MapID="50" xpos="172.228" ypos="30.2529" zpos="-130.745" type="tt.mc.cm.rm.waypoints" GUID="QTwWcXLcnUO7HnL8L35QwA=="/>
-		<POI MapID="50" xpos="179.836" ypos="39.3295" zpos="246.597" type="tt.mc.cm.rm.start" GUID="2anNDFtZq0OX+jZChiFDzw=="/>
+		<POI MapID="50" xpos="179.836" ypos="39.3295" zpos="246.597" type="tt.mc.cm.rm.nem.exit_map_4" GUID="2anNDFtZq0OX+jZChiFDzw=="/>
 		<POI MapID="50" xpos="200.114" ypos="30.6726" zpos="-288.455" type="tt.mc.cm.mm.raptor" GUID="wDkmwuSlzUyFNnGFzqAo7A=="/>
 		<POI MapID="50" xpos="209.096" ypos="30.9986" zpos="-292.67" type="tt.mc.cm.rm.points_of_interest" GUID="T/NXblxjqUqQgzjB5yx6Bg=="/>
 		<POI MapID="50" xpos="228" ypos="100.209" zpos="-531" type="tt.mc.cm.rm.start" GUID="JHJ1l65esUePo3BLGXjJsQ=="/>
