@@ -160,7 +160,7 @@
 					<MarkerCategory name="number1" DisplayName="Number 1" iconFile="Data/MapCompletion/General/heartspecific/number1.png" iconSize="0.4"/>
 					<MarkerCategory name="number2" DisplayName="Number 2" iconFile="Data/MapCompletion/General/heartspecific/number2.png" iconSize="0.4"/>
 					<MarkerCategory name="number3" DisplayName="Number 3" iconFile="Data/MapCompletion/General/heartspecific/number3.png" iconSize="0.4"/>
-					<MarkerCategory name="fullinventory" DisplayName="Full Inventory" iconFile="Data/MapCompletion/General/heartspecific/Full_Inventory.png" iconSize="0.35"/>
+					<MarkerCategory name="fullinventory" DisplayName="Full Inventory" iconFile="Data/MapCompletion/General/heartspecific/Full_Inventory.png" iconSize="0.5"/>
 					<MarkerCategory name="meat" DisplayName="Meat" iconFile="Data/MapCompletion/General/heartspecific/Meat.png"/>
 					<MarkerCategory name="drink" DisplayName="Drink" iconFile="Data/MapCompletion/General/heartspecific/Drink.png"/>
 					<MarkerCategory name="inspire" DisplayName="Inspire" iconFile="Data/MapCompletion/General/heartspecific/Inspire.png"/>
@@ -2619,7 +2619,7 @@
 		
 		
 		<!--============================================= BRISBAN WILDLANDS MARKERS =============================================-->
-		<POI MapID="54" xpos="76.5859" ypos="37.4365" zpos="14.0139" type="tt.mc.cm.mm.skyscale"/>
+		<POI MapID="54" xpos="76.5859" ypos="37.4365" zpos="14.0139" type="tt.mc.cm.mm.skyscale" GUID="JzeoAGwfbkCMvOwHLkfU+g=="/>
 		<POI MapID="54" xpos="285.743" ypos="74.51" zpos="-692.782" type="tt.mc.cm.mm.beetle" GUID="cch8FXtVS0u0avP8Z0jyOg=="/>
 		<POI MapID="54" xpos="397.146" ypos="1.02536" zpos="-377.28" type="tt.mc.cm.mm.jackal" GUID="hbkVvy4fWke1NQSRQxzqpg=="/>
 		<POI MapID="54" xpos="771.749" ypos="72.9005" zpos="391.704" type="tt.mc.cm.mm.beetle" GUID="cZxi69xf+UeI/iWXyVc7cQ=="/>
