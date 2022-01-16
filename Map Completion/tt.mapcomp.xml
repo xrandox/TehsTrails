@@ -2080,7 +2080,7 @@
 		<POI MapID="17" xpos="353.67" ypos="37.6354" zpos="-320.891" type="tt.mc.h.chm.start_heart" info="Kill Harathi" infoRange="40.0" GUID="+hdDHOsQKUGEJRPLVZzzoA=="/>
 		<POI MapID="17" xpos="364.876" ypos="70.623" zpos="404.289" type="tt.mc.cm.rm.points_of_interest" GUID="/+KHfIYnl0G52DVlfLtrwg=="/>
 		<POI MapID="17" xpos="369.403" ypos="32.792" zpos="-340.548" type="tt.mc.cm.mm.jackal" GUID="ceyyP53dckGZFJ0XGKjR/w=="/>
-		<POI MapID="17" xpos="419.926" ypos="25.2871" zpos="-699.699" type="tt.mc.h.chm.start_heart" info="Kill Harathi | Event" infoRange="40.0" GUID="iYucrFHDYUiZGS0IACVWHQ=="/>
+		<POI MapID="17" xpos="419.926" ypos="25.2871" zpos="-699.699" type="tt.mc.h.chm.start_heart" info="Kill Harathi, interact with things, destroy Harathi equipment | Event" infoRange="40.0" GUID="iYucrFHDYUiZGS0IACVWHQ=="/>
 		<POI MapID="17" xpos="434.923" ypos="65.8355" zpos="377.972" type="tt.mc.h.chm.start_heart" info="Kill Harathi, torch everything, rescue slaves" infoRange="40.0" GUID="YxePPI8wSkCaDxs2uohVKw=="/>
 		<POI MapID="17" xpos="447.656" ypos="25.2894" zpos="-749.318" type="tt.mc.cm.mm.beetle" GUID="M1uz110TsE6IooV6B9mOxw=="/>
 		<POI MapID="17" xpos="454.315" ypos="28.6531" zpos="-762.72" type="tt.mc.cm.wm.arrow" GUID="CkOYauSzO0WcWWR8GxMr6g=="/>
@@ -2092,6 +2092,7 @@
 		<POI MapID="17" xpos="581.514" ypos="84.8048" zpos="549.74" type="tt.mc.cm.rm.points_of_interest" GUID="dOnojtC3kUynySz40d5Tiw=="/>
 		<POI MapID="17" xpos="594.393" ypos="117.522" zpos="-366.812" type="tt.mc.cm.mm.griffon" GUID="7oxCpDqtuEGXgdRIvhcXXw=="/>
 		<POI MapID="17" xpos="654.134" ypos="109.331" zpos="647.079" type="tt.mc.cm.rm.waypoints" GUID="edg6hyy+qU2dBzSRo4S67g=="/>
+		<POI MapID="17" xpos="655.842" ypos="25.1039" zpos="-749.273" type="tt.mc.cm.rm.talk" GUID="LWHDdPosM0OKXSXzFHKg3A==" info="This heart will be completed after teleporting to the Arrow waypoint." infoRange="20.0"/>
 		<POI MapID="17" xpos="667.245" ypos="73.4609" zpos="-26.9131" type="tt.mc.cm.rm.vistas" GUID="oU81FQ4HG0qh+Dk8Z/fz6w=="/>
 		<POI MapID="17" xpos="708.481" ypos="-43.0338" zpos="-721.13" type="tt.mc.cm.rm.points_of_interest" GUID="7pIRLyfuP0+9ef9ruF1ywQ=="/>
 		<POI MapID="17" xpos="714.648" ypos="76.2067" zpos="-341.385" type="tt.mc.cm.rm.vistas" GUID="aPDZ5hCIYk2ecRkKfu2QuQ=="/>
@@ -3848,7 +3849,7 @@
 		<POI MapID="30" xpos="-480.97" ypos="38.8604" zpos="-303.492" type="tt.mc.h.chm.interact" GUID="EU0dvjMbhUWGcTE4FXOreQ=="/>
 		<POI MapID="30" xpos="-483.566" ypos="48.9997" zpos="-237.652" type="tt.mc.h.hsm.number1" GUID="zO90lR2zKkqvxp8yHkewJQ=="/>
 		<POI MapID="30" xpos="-488.995" ypos="49.4808" zpos="-231.202" type="tt.mc.cm.mm.griffon" GUID="T86kFLx170yH6hSokiz9fQ=="/>
-		<POI MapID="30" xpos="-497.669" ypos="42.5063" zpos="-203.701" type="tt.mc.h.hsm.number2" info="These NPC's occasionally switch places. Freezing Steps is 3, Distant Oracle is 2" infoRange="7.5" GUID="ETiFVvxY7EykvMZs3enL9A=="/>
+		<POI MapID="30" xpos="-497.669" ypos="42.5063" zpos="-203.701" type="tt.mc.h.hsm.number2" info="These NPC's occasionally switch places. Freezing Steps is 3, Distant Oracle is 2" infoRange="15.0" GUID="ETiFVvxY7EykvMZs3enL9A=="/>
 		<POI MapID="30" xpos="-502.742" ypos="41.8558" zpos="-202.425" type="tt.mc.h.hsm.number3" GUID="WzPGrSDsikGMKDduaijp0A=="/>
 		<POI MapID="30" xpos="-514.945" ypos="37.3695" zpos="-813.84" type="tt.mc.h.chm.finish_heart" GUID="+63R/7mQy0K9qcRqFGrS2g=="/>
 		<POI MapID="30" xpos="-516.496" ypos="34.0141" zpos="507.414" type="tt.mc.h.chm.talk" GUID="kGvTbghs4U+Od5wlKBt5Dg=="/>
