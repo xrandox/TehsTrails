@@ -1,20 +1,11 @@
 
 :: build Map Comp
-del ".\Map Completion\tt.mapcomp.taco"
+del ".\TehsTrails\TehsTrails.taco"
 
-powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::CreateFromDirectory('Map Completion', '.\tt.mapcomp.zip'); }"
+powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::CreateFromDirectory('TehsTrails', '.\TehsTrails.zip'); }"
 
-rename "tt.mapcomp.zip" "tt.mapcomp.taco"
+rename "TehsTrails.zip" "TehsTrails.taco"
 
-move "tt.mapcomp.taco" ".\Map Completion"
-
-::build HP Train Trails
-del ".\HP Train Trails\tt.hptraintrails.taco"
-
-powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::CreateFromDirectory('HP Train Trails', '.\tt.hptraintrails.zip'); }"
-
-rename "tt.hptraintrails.zip" "tt.hptraintrails.taco"
-
-move "tt.hptraintrails.taco" ".\HP Train Trails"
+move "TehsTrails.taco" ".\TehsTrails"
 
 pause
