@@ -314,7 +314,7 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                         PATH OF FIRE MAP COMP                                                                     ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="pof" DisplayName="Heart of Thorns Map Completion (Coming soon!)">
+		<MarkerCategory name="pof" DisplayName="Path of Fire Map Completion (Coming soon!)">
 
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
