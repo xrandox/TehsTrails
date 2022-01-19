@@ -8,6 +8,8 @@ In the works:
 - Path of Fire Map Completion
 - Proper release of Teh's Train Trails
 
+## Latest Pack Download Link: [TehsTrails.taco](https://github.com/xrandox/TehsTrails/raw/main/TehsTrails/TehsTrails.taco)
+
 ***
 
 ### Map Completion 
@@ -18,10 +20,6 @@ A pack tailored for speedrunning central tyria map completion. It utilizes all m
 *Warning! This pack is still very rough, I haven't had a chance to give it much attention since I created it over two years ago.*
 
 A collection of trails for the routes I used to use for my Hero Point Trains in HoT and PoF maps. Path of Fire can easily be used to quickly get an elite spec solo (~1-2 hours). It's recommend to bring some friends if you intend to do the Heart of Thorns HP's, as some can be difficult to solo. 
-
-***
-
-Latest Pack Download Link: [TehsTrails.taco](https://github.com/xrandox/TehsTrails/raw/main/TehsTrails/TehsTrails.taco)
 
 ***
 
