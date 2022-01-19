@@ -8,7 +8,7 @@ In the works:
 - Path of Fire Map Completion
 - Proper release of Teh's Train Trails
 
-## Latest Pack Download Link: [TehsTrails.taco](https://github.com/xrandox/TehsTrails/raw/main/TehsTrails/TehsTrails.taco)
+### Latest Pack Download Link: [TehsTrails.taco](https://github.com/xrandox/TehsTrails/raw/main/TehsTrails/TehsTrails.taco)
 
 ***
 
