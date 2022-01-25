@@ -246,6 +246,7 @@
 					<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
 					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
 					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+					<MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png" iconSize="0.5"/>
 					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
 					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
@@ -6420,12 +6421,12 @@
 	<!--==                                                                        HEART OF THORNS MAP COMP                                                                   ==-->
 	<!--=======================================================================================================================================================================-->
 	<!--VERDANT BRINK MARKERS-->
-		<POI MapID="1052" xpos="6.99222" ypos="738.803" zpos="2.39966" type="tt.hot.cm.mm.griffon" GUID="BouQbdQd5k25196OA6w64g=="/>
+		<POI MapID="1052" xpos="6.99222" ypos="738.803" zpos="2.39966" type="tt.hot.cm.mm.glider" GUID="BouQbdQd5k25196OA6w64g=="/>
 		<POI MapID="1052" xpos="89.5192" ypos="341.755" zpos="-272.694" type="tt.hot.cm.rm.points_of_interest" GUID="dAjQa7FNiUOlcfSG9+bBxg=="/>
 		<POI MapID="1052" xpos="93.1382" ypos="341.994" zpos="-273.465" type="tt.hot.cm.wm.wpheart" GUID="OsQBFW86cUKZikNDPBXTXQ=="/>
 		<POI MapID="1052" xpos="97.6284" ypos="387.967" zpos="3.519" type="tt.hot.cm.rm.points_of_interest" GUID="K1Ri6wlCf0qCTLXQWMIpOA=="/>
 		<POI MapID="1052" xpos="133.678" ypos="442.74" zpos="-27.0862" type="tt.hot.cm.rm.waypoints" GUID="wZBynRHmz0ORp/Kcx3yvPg=="/>
-		<POI MapID="1052" xpos="134.215" ypos="589.229" zpos="140.897" type="tt.hot.cm.rm.bondoffaith" GUID="Cx1dNEYOKUKpyfpK2rr0/A=="/>
+		<POI MapID="1052" xpos="133.680" ypos="591.060" zpos="181.160" type="tt.hot.cm.rm.glider" GUID="Cx1dNEYOKUKpyfpK2rr0/A=="/>
 		<POI MapID="1052" xpos="143.879" ypos="716.307" zpos="136.145" type="tt.hot.cm.mm.griffon" GUID="8Sa3Wd+gXUCA6QgDJtcNSQ=="/>
 		<POI MapID="1052" xpos="166.836" ypos="672.174" zpos="-29.2079" type="tt.hot.cm.rm.points_of_interest" GUID="FWvTUeptgk223miXkpm4pA=="/>
 		<POI MapID="1052" xpos="216.465" ypos="507.172" zpos="-353.867" type="tt.hot.cm.rm.points_of_interest" GUID="gtKt1rdiaEyyp7/qE0EX9Q=="/>
@@ -6450,7 +6451,7 @@
 		<POI MapID="1052" xpos="517.79" ypos="413.921" zpos="277.636" type="tt.hot.cm.mm.griffon" GUID="DkxgTiH2lU+i6d5ffF0xgQ=="/>
 		<POI MapID="1052" xpos="525.048" ypos="454.255" zpos="-368.407" type="tt.hot.cm.rm.vistas" GUID="GbvDw/dOXkKvn1yG6+opZQ=="/>
 		<POI MapID="1052" xpos="581.094" ypos="10.7765" zpos="-34.7697" type="tt.hot.cm.wm.wparrow" GUID="QAeGodUc7kiWh2fczQDObg=="/>
-		<POI MapID="1052" xpos="631.756" ypos="365.393" zpos="-386.392" type="tt.hot.cm.rm.points_of_interest" GUID="zowUY4G1mE2BaWFzX3X9hQ=="/>
+		<POI MapID="1052" xpos="631.756" ypos="365.393" zpos="-386.392" type="tt.hot.cm.rm.points_of_interest" info="If you mess up this dive, just follow the HP trail" infoRange="80.0" GUID="zowUY4G1mE2BaWFzX3X9hQ=="/>
 		<POI MapID="1052" xpos="650.169" ypos="379.768" zpos="354.271" type="tt.hot.cm.rm.vistas" GUID="GYMBmoyLb0Oj1/s3u0LuRA=="/>
 		<POI MapID="1052" xpos="654.726" ypos="374.418" zpos="370.567" type="tt.hot.cm.mm.griffon" GUID="J5QQVgWZnE6f3AgQ7SPynw=="/>
 		<POI MapID="1052" xpos="663.351" ypos="370.744" zpos="292.031" type="tt.hot.cm.mm.beetle" GUID="acqSTcfR8kOORq83HZ1qpg=="/>
@@ -6487,10 +6488,10 @@
 		<POI MapID="1052" xpos="-260.63" ypos="565.21" zpos="158.204" type="tt.hot.cm.rm.waypoints" GUID="YH0qkt42w06YRLA74OjsaQ=="/>
 		<POI MapID="1052" xpos="-267.373" ypos="542.939" zpos="149.066" type="tt.hot.cm.rm.1" GUID="SRKIVmgA30yph/MQF6dwsw=="/>
 		<POI MapID="1052" xpos="-269.701" ypos="543.272" zpos="146.497" type="tt.hot.cm.wm.square" GUID="S7cjcWVoaUah80AseqILXg=="/>
-		<POI MapID="1052" xpos="-270.038" ypos="542.945" zpos="153.151" type="tt.hot.cm.rm.points_of_interest" GUID="yFXjF2Uj9UGIfQuwRyxhxQ=="/>
+		<POI MapID="1052" xpos="-264.518" ypos="565.553" zpos="151.578" type="tt.hot.cm.rm.points_of_interest" info="If you crash here, you can use the updraft on the ship to get back on trail" infoRange="60.0" GUID="yFXjF2Uj9UGIfQuwRyxhxQ=="/>
 		<POI MapID="1052" xpos="-273.281" ypos="543.01" zpos="148.621" type="tt.hot.cm.rm.2" GUID="MJ2zp/E2E02m8D+edqvGbw=="/>
-		<POI MapID="1052" xpos="-275.75" ypos="368.31" zpos="-158.481" type="tt.hot.cm.rm.points_of_interest" GUID="D3aaIDuu7U+YXyRfyNfJRw=="/>
-		<POI MapID="1052" xpos="-278.433" ypos="368.379" zpos="-156.864" type="tt.hot.cm.wm.wpheart" GUID="HKdL6IKa80GoHE9ltr+5lw=="/>
+		<POI MapID="1052" xpos="-273.261" ypos="376.995" zpos="-174.932" type="tt.hot.cm.rm.points_of_interest" GUID="D3aaIDuu7U+YXyRfyNfJRw=="/>
+		<POI MapID="1052" xpos="-270.335" ypos="377.521" zpos="-174.852" type="tt.hot.cm.wm.wpheart" GUID="HKdL6IKa80GoHE9ltr+5lw=="/>
 		<POI MapID="1052" xpos="-397.258" ypos="148.268" zpos="-118.449" type="tt.hot.cm.wm.wpsquare" GUID="9EFgE1O5Qke4bkuxk4DiOA=="/>
 		<POI MapID="1052" xpos="-439.178" ypos="583.644" zpos="-300.432" type="tt.hot.hp.hpm" GUID="zzczRINhqUeI6tMdRjVy9g=="/>
 		<POI MapID="1052" xpos="-439.748" ypos="582.617" zpos="-303.311" type="tt.hot.cm.mm.griffon" GUID="lBitQs+pt0WgCT9QHkkVWQ=="/>
