@@ -6421,6 +6421,10 @@
 	<!--==                                                                        HEART OF THORNS MAP COMP                                                                   ==-->
 	<!--=======================================================================================================================================================================-->
 	<!--VERDANT BRINK MARKERS-->
+		<POI MapID="1052" xpos="-701.433" ypos="362.405" zpos="-350.872" type="tt.hot.hp.hpm" info="Range highly recommended. Focus the two archers first, then the champion. If the bladedancer gets close, he can deal significant damage with a chain CC attack." infoRange="20.0" GUID="P9qbZOIOs0qPVVrmuv3fbw=="/>
+		<POI MapID="1052" xpos="-670.208" ypos="560.624" zpos="-136.205" type="tt.hot.hp.hpm" info="CC highly recommended. Focus the Heal-o-Tron's whenever they spawn." infoRange="50.0" GUID="VEv+TYK49U2J81KCyQtT7Q=="/>
+		<POI MapID="1052" xpos="579.236" ypos="10.7784" zpos="-36.3533" type="tt.hot.hp.hpm" info="Focus any menders first, then the smaller mobs, then the veteran" infoRange="30.0" GUID="JYGqFqlm0UqK1z63Qxpl5A=="/>
+		<POI MapID="1052" xpos="203.169" ypos="581.245" zpos="218.251" type="tt.hot.hp.hpm" info="CC is a must. At 25% HP, she will perform a life-drain skill that will regen a large amount of HP, breaking her defiance bar to prevent her from healing back up is key." infoRange="20.0" GUID="B4myBgmxy0eeDTqf6PPFwA=="/>
 		<POI MapID="1052" xpos="6.99222" ypos="738.803" zpos="2.39966" type="tt.hot.cm.mm.glider" GUID="BouQbdQd5k25196OA6w64g=="/>
 		<POI MapID="1052" xpos="89.5192" ypos="341.755" zpos="-272.694" type="tt.hot.cm.rm.points_of_interest" GUID="dAjQa7FNiUOlcfSG9+bBxg=="/>
 		<POI MapID="1052" xpos="93.1382" ypos="341.994" zpos="-273.465" type="tt.hot.cm.wm.wpheart" GUID="OsQBFW86cUKZikNDPBXTXQ=="/>
@@ -6430,7 +6434,7 @@
 		<POI MapID="1052" xpos="143.879" ypos="716.307" zpos="136.145" type="tt.hot.cm.mm.griffon" GUID="8Sa3Wd+gXUCA6QgDJtcNSQ=="/>
 		<POI MapID="1052" xpos="166.836" ypos="672.174" zpos="-29.2079" type="tt.hot.cm.rm.points_of_interest" GUID="FWvTUeptgk223miXkpm4pA=="/>
 		<POI MapID="1052" xpos="216.465" ypos="507.172" zpos="-353.867" type="tt.hot.cm.rm.points_of_interest" GUID="gtKt1rdiaEyyp7/qE0EX9Q=="/>
-		<POI MapID="1052" xpos="222.492" ypos="621.03" zpos="299.428" type="tt.hot.hp.hpm" GUID="ssQwWmZlyU2SNfiZmMcOKQ=="/>
+		<POI MapID="1052" xpos="222.492" ypos="621.03" zpos="299.428" type="tt.hot.hp.hpm" info="Combat HP | Guano can be very challenging due to being a champion and her regen mechanics. Not recommended to solo." infoRange="30.0" GUID="ssQwWmZlyU2SNfiZmMcOKQ=="/>
 		<POI MapID="1052" xpos="222.609" ypos="507.174" zpos="-334.373" type="tt.hot.cm.rm.dismount" GUID="1g6Ixgj/y0WUowNnUeRGDg=="/>
 		<POI MapID="1052" xpos="225.279" ypos="614.951" zpos="299.613" type="tt.hot.cm.rm.points_of_interest" GUID="4OhWbsAXvk2LvIE3iNMTGA=="/>
 		<POI MapID="1052" xpos="237.107" ypos="522.847" zpos="-332.219" type="tt.hot.cm.rm.points_of_interest" GUID="HVVvTEjKuE29SL770LZXiA=="/>
@@ -6442,7 +6446,7 @@
 		<POI MapID="1052" xpos="418.257" ypos="851.801" zpos="-133.289" type="tt.hot.cm.rm.points_of_interest" GUID="u1HSJxbzqEecpqGvX2p+7g=="/>
 		<POI MapID="1052" xpos="434.146" ypos="851.801" zpos="-93.9192" type="tt.hot.cm.mm.griffon" GUID="fD9OU63H2UyPvkWIn28eCw=="/>
 		<POI MapID="1052" xpos="448.565" ypos="365.827" zpos="250.343" type="tt.hot.cm.rm.points_of_interest" GUID="FRaSiJ66mEu1L0yvIEc+qQ=="/>
-		<POI MapID="1052" xpos="449.907" ypos="365.817" zpos="250.275" type="tt.hot.hp.hpm" GUID="9W6yWjRBf0yZjzkWnCAuBw=="/>
+		<POI MapID="1052" xpos="449.907" ypos="365.817" zpos="250.275" type="tt.hot.hp.hpm" info="Two Commune HPs back to back" infoRange="50.0" GUID="9W6yWjRBf0yZjzkWnCAuBw=="/>
 		<POI MapID="1052" xpos="451.227" ypos="365.769" zpos="251.317" type="tt.hot.cm.wm.wpcircle" GUID="NQWCHcfYTkaTR8ReYOT7MA=="/>
 		<POI MapID="1052" xpos="468.563" ypos="333.489" zpos="397.841" type="tt.hot.cm.mm.jackal" GUID="YDPl5tjJq0W4y/08/yVMew=="/>
 		<POI MapID="1052" xpos="476.775" ypos="414.373" zpos="-370.561" type="tt.hot.cm.mm.jackal" GUID="0cvU5tlC/kiuCOawcvfLxA=="/>
@@ -6459,13 +6463,13 @@
 		<POI MapID="1052" xpos="668.196" ypos="372.914" zpos="370.909" type="tt.hot.cm.rm.dismount" GUID="IhizJpjHXkGb1Mtj07NzuQ=="/>
 		<POI MapID="1052" xpos="699.010" ypos="367.553" zpos="143.799" type="tt.hot.cm.rm.dismount" GUID="IhizJpjHXkGb1Mtj07NzuQ=="/>
 		<POI MapID="1052" xpos="669.204" ypos="373.088" zpos="369.027" type="tt.hot.cm.rm.waypoints" GUID="ywUw4rrMykyXx9xou0tjog=="/>
-		<POI MapID="1052" xpos="673.795" ypos="460.085" zpos="-373.513" type="tt.hot.hp.hpm" GUID="xSaArOOhWEufejHalaegSg=="/>
+		<POI MapID="1052" xpos="673.795" ypos="460.085" zpos="-373.513" type="tt.hot.hp.hpm" info="Commune" infoRange="50.0" GUID="xSaArOOhWEufejHalaegSg=="/>
 		<POI MapID="1052" xpos="695.975" ypos="320.573" zpos="211.754" type="tt.hot.cm.rm.points_of_interest" GUID="EZxnA+Ca6k2ZXWowBrbAXA=="/>
 		<POI MapID="1052" xpos="922.822" ypos="370.236" zpos="270.679" type="tt.hot.cm.rm.points_of_interest" GUID="xxZAoKRH70+Hq4pEmj0mVQ=="/>
 		<POI MapID="1052" xpos="650.885" ypos="376.161" zpos="358.374" type="tt.hot.cm.rm.points_of_interest" GUID="iezNe7YTv0+VC5/EIBpJ2g=="/>
 		<POI MapID="1052" xpos="698.795" ypos="320.583" zpos="212.718" type="tt.hot.cm.mm.beetle" GUID="+qF/aEhl+keRwJhObkqaEw=="/>
 		<POI MapID="1052" xpos="715.234" ypos="265.638" zpos="45.7871" type="tt.hot.cm.wm.wparrow" GUID="wgxqKfQnc0aVd+H2jZuJ0g=="/>
-		<POI MapID="1052" xpos="716.963" ypos="265.485" zpos="41.25066" type="tt.hot.hp.hpm" GUID="Z3h0uQ/OokeaQfvQVlcS3A=="/>
+		<POI MapID="1052" xpos="716.963" ypos="265.485" zpos="41.25066" type="tt.hot.hp.hpm" info="Combat HP | Soloable with most builds" infoRange="50.0" GUID="Z3h0uQ/OokeaQfvQVlcS3A=="/>
 		<POI MapID="1052" xpos="718.770" ypos="267.060" zpos="45.9402" type="tt.hot.cm.rm.points_of_interest" GUID="OG7et4Ye3EuFkoIs7VAZ5g=="/>
 		<POI MapID="1052" xpos="858.763" ypos="432.006" zpos="49.7909" type="tt.hot.cm.mm.griffon" GUID="Gji/14I/VEiEFKkHR0wldg=="/>
 		<POI MapID="1052" xpos="864.29" ypos="411.387" zpos="-194.782" type="tt.hot.cm.rm.vistas" GUID="4TfFYpgOvUahc5w6Tim7RQ=="/>
@@ -6478,7 +6482,7 @@
 		<POI MapID="1052" xpos="936.244" ypos="418.129" zpos="50.8373" type="tt.hot.cm.wm.circle" GUID="8zNUDP5Le0SRYtUr6DtwnQ=="/>
 		<POI MapID="1052" xpos="-24.1032" ypos="757.15" zpos="34.9358" type="tt.hot.cm.mm.griffon" GUID="17SNeG534UKBG5wvXr2KXw=="/>
 		<POI MapID="1052" xpos="-71.7591" ypos="421.288" zpos="-394.586" type="tt.hot.cm.rm.points_of_interest" GUID="B6FxT1L+ZkifwyL84hcZow=="/>
-		<POI MapID="1052" xpos="-85.0284" ypos="418.103" zpos="28.2776" type="tt.hot.hp.hpm" GUID="JrPQRos790Wn6MxLtT++Vw=="/>
+		<POI MapID="1052" xpos="-85.0284" ypos="418.103" zpos="28.2776" type="tt.hot.hp.hpm" info="Commune HP | Nunoch Wallow mastery required to continue following trail" infoRange="40.0" GUID="JrPQRos790Wn6MxLtT++Vw=="/>
 		<POI MapID="1052" xpos="-85.4154" ypos="418.196" zpos="28.7135" type="tt.hot.cm.rm.vistas" GUID="OOrnfehTX0Kh5tLbVglf1w=="/>
 		<POI MapID="1052" xpos="-85.4388" ypos="415.306" zpos="23.9042" type="tt.hot.cm.mm.griffon" GUID="fksWcGpLhUempZmXlvFUMA=="/>
 		<POI MapID="1052" xpos="-87.6242" ypos="747.334" zpos="15.9811" type="tt.hot.cm.rm.points_of_interest" GUID="XSJvCKvsDUS58EDDrOJbIQ=="/>
@@ -6493,7 +6497,7 @@
 		<POI MapID="1052" xpos="-273.261" ypos="376.995" zpos="-174.932" type="tt.hot.cm.rm.points_of_interest" GUID="D3aaIDuu7U+YXyRfyNfJRw=="/>
 		<POI MapID="1052" xpos="-270.335" ypos="377.521" zpos="-174.852" type="tt.hot.cm.wm.wpheart" GUID="HKdL6IKa80GoHE9ltr+5lw=="/>
 		<POI MapID="1052" xpos="-397.258" ypos="148.268" zpos="-118.449" type="tt.hot.cm.wm.wpsquare" GUID="9EFgE1O5Qke4bkuxk4DiOA=="/>
-		<POI MapID="1052" xpos="-439.178" ypos="583.644" zpos="-300.432" type="tt.hot.hp.hpm" GUID="zzczRINhqUeI6tMdRjVy9g=="/>
+		<POI MapID="1052" xpos="-439.178" ypos="583.644" zpos="-300.432" type="tt.hot.hp.hpm" info="Commune HP" infoRange="50.0" GUID="zzczRINhqUeI6tMdRjVy9g=="/>
 		<POI MapID="1052" xpos="-439.748" ypos="582.617" zpos="-303.311" type="tt.hot.cm.mm.griffon" GUID="lBitQs+pt0WgCT9QHkkVWQ=="/>
 		<POI MapID="1052" xpos="-447.456" ypos="583.684" zpos="-302.674" type="tt.hot.cm.rm.points_of_interest" GUID="XPFqouMoGEeeC1TteFV0TQ=="/>
 		<POI MapID="1052" xpos="-479.725" ypos="715.652" zpos="-141.147" type="tt.hot.cm.rm.points_of_interest" GUID="j52Q0AxacUSqSuUThieAXw=="/>
@@ -6504,20 +6508,20 @@
 		<POI MapID="1052" xpos="-524.751" ypos="513.676" zpos="-278.664" type="tt.hot.cm.wm.heart" GUID="3hgTDverB0OMNJiExINJAg=="/>
 		<POI MapID="1052" xpos="-526.011" ypos="512.963" zpos="-275.685" type="tt.hot.cm.rm.2" GUID="EFxPoBWw40STo5JEoXQP1g=="/>
 		<POI MapID="1052" xpos="-529.368" ypos="512.993" zpos="-281.223" type="tt.hot.cm.rm.3" GUID="ok4K/rbn1UKtEDYY3YqpAQ=="/>
-		<POI MapID="1052" xpos="-530.365" ypos="512.543" zpos="-270.578" type="tt.hot.hp.hpm" GUID="pBc59fo7oE+kyeJnFNH6pg=="/>
+		<POI MapID="1052" xpos="-530.365" ypos="512.543" zpos="-270.578" type="tt.hot.hp.hpm" info="Combat HP | Golem is a champion mob thus it's not recommended to attempt to solo" infoRange="20.0" GUID="pBc59fo7oE+kyeJnFNH6pg=="/>
 		<POI MapID="1052" xpos="-541.52" ypos="496.836" zpos="-208.764" type="tt.hot.cm.mm.griffon" GUID="uaOXlZWF7kaqVWJHqCNFzg=="/>
 		<POI MapID="1052" xpos="-543.566" ypos="528.725" zpos="-265.645" type="tt.hot.cm.rm.waypoints" GUID="YW9O41368EuQHx6YhrYjiA=="/>
 		<POI MapID="1052" xpos="-586.528" ypos="619.118" zpos="223.341" type="tt.hot.cm.rm.vistas" GUID="9rXFHcmlfUGm0MYlE+SC1Q=="/>
 		<POI MapID="1052" xpos="-591.199" ypos="615.089" zpos="223.467" type="tt.hot.cm.mm.griffon" GUID="wGZQ7b/tLkKaavBFG4tQPw=="/>
 		<POI MapID="1052" xpos="-627.035" ypos="503.098" zpos="-284.736" type="tt.hot.cm.mm.griffon" GUID="zY6d0OANGECPr/ekkJIA2A=="/>
-		<POI MapID="1052" xpos="-677.779" ypos="422.127" zpos="-2.74505" type="tt.hot.hp.hpm" GUID="MER8a/bDsEyVnYA02f3VvA=="/>
+		<POI MapID="1052" xpos="-677.779" ypos="422.127" zpos="-2.74505" type="tt.hot.hp.hpm" info="Two Commune HP's back to back" infoRange="50.0" GUID="MER8a/bDsEyVnYA02f3VvA=="/>
 		<POI MapID="1052" xpos="-679.672" ypos="422.368" zpos="-0.75307" type="tt.hot.cm.wm.wpsquare" GUID="vAF/3khNbUicUN9bJzJarw=="/>
 		<POI MapID="1052" xpos="-682.251" ypos="422.189" zpos="-2.13736" type="tt.hot.cm.rm.points_of_interest" GUID="VsWXwNx/1Eeo+OR/y7gdkw=="/>
 		<POI MapID="1052" xpos="-699.599" ypos="361.563" zpos="-353.288" type="tt.hot.cm.wm.wpstar" GUID="OoARdsop3kiFg/74ANiiwQ=="/>
 		<POI MapID="1052" xpos="-723.366" ypos="310.108" zpos="318.041" type="tt.hot.cm.wm.wpheart" GUID="K3CUfvKs3kSPUebcjMYMJQ=="/>
 		<POI MapID="1052" xpos="-725.314" ypos="309.759" zpos="315.487" type="tt.hot.cm.rm.points_of_interest" GUID="jf6HZ/65jkCHGksZxX4dAQ=="/>
 		<POI MapID="1052" xpos="-755.086" ypos="396.718" zpos="-248.018" type="tt.hot.cm.rm.points_of_interest" GUID="GH6w55NXtECS03DotWHdHQ=="/>
-		<POI MapID="1052" xpos="-783.138" ypos="385.324" zpos="-382.206" type="tt.hot.hp.hpm" GUID="XLY4o+WeGUmEV0xTOXMmBQ=="/>
+		<POI MapID="1052" xpos="-783.138" ypos="385.324" zpos="-382.206" type="tt.hot.hp.hpm" info="Combat HP | The Coztic Bladedancer is a champion and thus it's not recommended to attempt to solo" infoRange="50.0" GUID="XLY4o+WeGUmEV0xTOXMmBQ=="/>
 		<POI MapID="1052" xpos="-783.361" ypos="385.257" zpos="-389.193" type="tt.hot.cm.rm.waypoints" GUID="k9r58YrDEUiM1XAxLeZt9w=="/>
 		<POI MapID="1052" xpos="-784.324" ypos="383.945" zpos="-408.547" type="tt.hot.cm.rm.finish" GUID="BkWNUmMmmUmGzQt5PpmdzQ=="/>
 	<!--AURIC BASIN MARKERS-->
