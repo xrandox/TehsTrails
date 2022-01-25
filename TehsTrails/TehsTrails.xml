@@ -6535,6 +6535,8 @@
 	<!--TRAILS-->
 		<Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HeartofThornsMapCompletionTrails/VB.trl"/>
 		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HeartofThornsMapCompletionTrails/VB_hp.trl"/>
+		<Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HeartofThornsMapCompletionTrails/AB.trl"/>
+		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HeartofThornsMapCompletionTrails/AB_hp.trl"/>
 
 
 
