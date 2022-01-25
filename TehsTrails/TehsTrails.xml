@@ -1178,7 +1178,7 @@
 		<POI MapID="651" xpos="49.4929" ypos="488.137" zpos="157.645" type="tt.mc.cm.rm.points_of_interest" GUID="rmLFZFSm5UqlukOsgy5biQ=="/>
 			<!--===================================== SNAFF MEMORIAL LAB MARKERS =====================================-->
 		<POI MapID="649" xpos="-292.924" ypos="79.1691" zpos="41.0427" type="tt.mc.cm.wm.wpcircle" copy="[&BLQEAAA=]" GUID="lClD9mmWF0a6N5PgYlNOJQ=="/>
-		<POI MapID="649" xpos="-43.8655" ypos="47.0731" zpos="147.7749" type="tt.mc.cm.wm.circle" GUID="iY04q4SD4kiz3LnxXcnB7w=="/>
+		<POI MapID="649" xpos="-43.8655" ypos="47.0731" zpos="147.7749" type="tt.mc.cm.wm.circle" GUID="OEU/rZQeNkGvzkpBeR8Byg=="/>
 		<POI MapID="649" xpos="-293.442" ypos="79.1691" zpos="43.9845" type="tt.mc.cm.rm.points_of_interest" GUID="VbyYhx3bXk2t0Sz2vK2QQA=="/>
 		
 		
@@ -6421,11 +6421,13 @@
 	<!--==                                                                        HEART OF THORNS MAP COMP                                                                   ==-->
 	<!--=======================================================================================================================================================================-->
 	<!--VERDANT BRINK MARKERS-->
+		<POI MapID="1052" xpos="240.288" ypos="523.014" zpos="-334.286" type="tt.hot.cm.mm.skyscale" GUID="hLFbEBvWCEyK1LMNZDW6Fg=="/>
+		<POI MapID="1052" xpos="-535.638" ypos="515.763" zpos="-268.229" type="tt.hot.cm.mm.skyscale" GUID="oe3fe20qAUurljiSKgO5kA=="/>
 		<POI MapID="1052" xpos="-701.433" ypos="362.405" zpos="-350.872" type="tt.hot.hp.hpm" info="Range highly recommended. Focus the two archers first, then the champion. If the bladedancer gets close, he can deal significant damage with a chain CC attack." infoRange="20.0" GUID="P9qbZOIOs0qPVVrmuv3fbw=="/>
 		<POI MapID="1052" xpos="-670.208" ypos="560.624" zpos="-136.205" type="tt.hot.hp.hpm" info="CC highly recommended. Focus the Heal-o-Tron's whenever they spawn." infoRange="50.0" GUID="VEv+TYK49U2J81KCyQtT7Q=="/>
 		<POI MapID="1052" xpos="579.236" ypos="10.7784" zpos="-36.3533" type="tt.hot.hp.hpm" info="Focus any menders first, then the smaller mobs, then the veteran" infoRange="30.0" GUID="JYGqFqlm0UqK1z63Qxpl5A=="/>
-		<POI MapID="1052" xpos="203.169" ypos="581.245" zpos="218.251" type="tt.hot.hp.hpm" info="CC is a must. At 25% HP, she will perform a life-drain skill that will regen a large amount of HP, breaking her defiance bar to prevent her from healing back up is key." infoRange="20.0" GUID="B4myBgmxy0eeDTqf6PPFwA=="/>
-		<POI MapID="1052" xpos="6.99222" ypos="738.803" zpos="2.39966" type="tt.hot.cm.mm.glider" GUID="BouQbdQd5k25196OA6w64g=="/>
+		<POI MapID="1052" xpos="203.169" ypos="581.245" zpos="218.251" type="tt.hot.hp.hpm" info="CC is a must. At 25% HP, she will perform a life-drain skill that will regen a large amount of HP, breaking her defiance bar to prevent her from healing back up is key. Try to stay behind her to avoid most of her damage." infoRange="20.0" GUID="B4myBgmxy0eeDTqf6PPFwA=="/>
+		<POI MapID="1052" xpos="6.99222" ypos="738.803" zpos="2.39966" type="tt.hot.cm.rm.glider" GUID="BouQbdQd5k25196OA6w64g=="/>
 		<POI MapID="1052" xpos="89.5192" ypos="341.755" zpos="-272.694" type="tt.hot.cm.rm.points_of_interest" GUID="dAjQa7FNiUOlcfSG9+bBxg=="/>
 		<POI MapID="1052" xpos="93.1382" ypos="341.994" zpos="-273.465" type="tt.hot.cm.wm.wpheart" GUID="OsQBFW86cUKZikNDPBXTXQ=="/>
 		<POI MapID="1052" xpos="97.6284" ypos="387.967" zpos="3.519" type="tt.hot.cm.rm.points_of_interest" GUID="K1Ri6wlCf0qCTLXQWMIpOA=="/>
