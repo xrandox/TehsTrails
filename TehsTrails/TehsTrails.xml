@@ -6435,7 +6435,7 @@
 		<POI MapID="1052" xpos="133.680" ypos="591.060" zpos="181.160" type="tt.hot.cm.rm.glider" GUID="Cx1dNEYOKUKpyfpK2rr0/A=="/>
 		<POI MapID="1052" xpos="143.879" ypos="716.307" zpos="136.145" type="tt.hot.cm.mm.griffon" GUID="8Sa3Wd+gXUCA6QgDJtcNSQ=="/>
 		<POI MapID="1052" xpos="166.836" ypos="672.174" zpos="-29.2079" type="tt.hot.cm.rm.points_of_interest" GUID="FWvTUeptgk223miXkpm4pA=="/>
-		<POI MapID="1052" xpos="216.465" ypos="507.172" zpos="-353.867" type="tt.hot.cm.rm.points_of_interest" GUID="gtKt1rdiaEyyp7/qE0EX9Q=="/>
+		<POI MapID="1052" xpos="216.465" ypos="507.172" zpos="-353.867" type="tt.hot.cm.rm.points_of_interest" info="If it's nighttime and choppers are up, you can waypoint back to the previous WP (shrouded ruins) and take that chopper after getting this point of interest." infoRange="40.0" GUID="gtKt1rdiaEyyp7/qE0EX9Q=="/>
 		<POI MapID="1052" xpos="222.492" ypos="621.03" zpos="299.428" type="tt.hot.hp.hpm" info="Combat HP | Guano can be very challenging due to being a champion and her regen mechanics. Not recommended to solo." infoRange="30.0" GUID="ssQwWmZlyU2SNfiZmMcOKQ=="/>
 		<POI MapID="1052" xpos="222.609" ypos="507.174" zpos="-334.373" type="tt.hot.cm.rm.dismount" GUID="1g6Ixgj/y0WUowNnUeRGDg=="/>
 		<POI MapID="1052" xpos="225.279" ypos="614.951" zpos="299.613" type="tt.hot.cm.rm.points_of_interest" GUID="4OhWbsAXvk2LvIE3iNMTGA=="/>
