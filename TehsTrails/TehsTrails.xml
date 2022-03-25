@@ -479,6 +479,8 @@
 					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
 					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="zip" DisplayName="Zipline" iconFile="Data/TehsTrails/Markers/zip.png" iconSize="0.8"/>
+					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -511,6 +513,26 @@
 				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" miniMapVisibility="0" mapVisibility="0"/>
 				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" miniMapVisibility="0" mapVisibility="0"/>
 				  <MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+			<MarkerCategory name="h" DisplayName="Hearts">
+
+				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0" iswall="1"/>
+				
+				<!-- Common Heart Markers -->
+				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="80"/>
+					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
+					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png"/>
+					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/TehsTrails/Markers/Talk.png" iconSize="0.75"/>
+					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
+					<MarkerCategory name="kill" DisplayName="Kill" iconFile="Data/TehsTrails/Markers/Kill.png"/>
+					<MarkerCategory name="gather" DisplayName="Gather" iconFile="Data/TehsTrails/Markers/Gather.png"/>
+					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png"/>
+					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
+					<MarkerCategory name="fish" DisplayName="Fish" iconFile="Data/TehsTrails/Markers/fish.png"/>
 				</MarkerCategory>
 
 			</MarkerCategory>
