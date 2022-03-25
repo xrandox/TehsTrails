@@ -481,6 +481,7 @@
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="zip" DisplayName="Zipline" iconFile="Data/TehsTrails/Markers/zip.png" iconSize="0.8"/>
 					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
+					<MarkerCategory name="deactivate" DisplayName="Deactivate Jade Bot" iconFile="Data/TehsTrails/Markers/deactivate.png" iconSize="0.5"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -533,6 +534,7 @@
 					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png"/>
 					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
 					<MarkerCategory name="fish" DisplayName="Fish" iconFile="Data/TehsTrails/Markers/fish.png"/>
+					<MarkerCategory name="scan" DisplayName="Scan" iconFile="Data/TehsTrails/Markers/scan.png" iconSize="0.5"/>
 				</MarkerCategory>
 
 			</MarkerCategory>
