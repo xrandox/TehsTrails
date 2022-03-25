@@ -480,7 +480,7 @@
 					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="zip" DisplayName="Zipline" iconFile="Data/TehsTrails/Markers/zip.png" iconSize="0.8"/>
-					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png"/>
+					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -6902,12 +6902,137 @@
 	<!--==                                                                        END OF DRAGONS MAP COMP                                                                    ==-->
 	<!--=======================================================================================================================================================================-->
 	<!--END OF DRAGONS MARKERS-->
+		<!--SP Markers-->
+		<POI MapID="1442" xpos="374.578" ypos="0.454919" zpos="701.144" type="tt.eod.cm.rm.start" GUID="pFLIZvwsn02hzi2nyIi8NA=="/>
+		<POI MapID="1442" xpos="370.512" ypos="2.01308" zpos="698.057" type="tt.eod.cm.mm.jackal" GUID="TRKddZDKS0qK/Wvd3zdyTA=="/>
+		<POI MapID="1442" xpos="362.183" ypos="0.456062" zpos="685.263" type="tt.eod.cm.rm.waypoints" GUID="zMsA/vUoK0ajWi7G9lcBmg=="/>
+		<POI MapID="1442" xpos="395.316" ypos="36.2948" zpos="465.983" type="tt.eod.cm.wm.hpm" GUID="EbY6Gp74sk6xok88P1QKmg=="/>
+		<POI MapID="1442" xpos="400.141" ypos="36.7131" zpos="452.395" type="tt.eod.cm.mm.skyscale" GUID="a0tw3M6zN0iuaw+BNHkDKw=="/>
+		<POI MapID="1442" xpos="477.422" ypos="82.4158" zpos="315.799" type="tt.eod.cm.rm.vistas" GUID="hEzsuFYps0iw3Gv+6UAUcA=="/>
+		<POI MapID="1442" xpos="478.462" ypos="81.7772" zpos="312.967" type="tt.eod.cm.mm.griffon" GUID="3eb6c0cR3EOTRbmPO/QCuw=="/>
+		<POI MapID="1442" xpos="476.049" ypos="17.2957" zpos="216.122" type="tt.eod.cm.rm.points_of_interest" GUID="mR3cypr6xkOJLn8n2D76iQ=="/>
+		<POI MapID="1442" xpos="580.321" ypos="25.3825" zpos="639.968" type="tt.eod.cm.rm.points_of_interest" GUID="gEdHdyPpkkyBDCVI+i1+Qw=="/>
+		<POI MapID="1442" xpos="906.183" ypos="16.9549" zpos="689.476" type="tt.eod.cm.rm.points_of_interest" GUID="xC8lLWxJyESAVKfe+DSGZQ=="/>
+		<POI MapID="1442" xpos="896.052" ypos="19.7245" zpos="500.753" type="tt.eod.cm.rm.points_of_interest" GUID="VqkzkM9UJUmZrLxPRk6T0g=="/>
+		<POI MapID="1442" xpos="976.333" ypos="21.2089" zpos="302.706" type="tt.eod.cm.rm.vistas" GUID="omGz4xlQNkGVuoWESSMtTw=="/>
+		<POI MapID="1442" xpos="914.582" ypos="23.061" zpos="237.6" type="tt.eod.cm.rm.points_of_interest" GUID="TYM2NLOh9U+1HdySkKWHRA=="/>
+		<POI MapID="1442" xpos="817.834" ypos="21.6617" zpos="272.356" type="tt.eod.cm.mm.beetle" GUID="xRqOHioaWk6H2yuZzrjwUA=="/>
+		<POI MapID="1442" xpos="570.6" ypos="2.62026" zpos="321.932" type="tt.eod.h.chm.interact" GUID="zBzZNwp6tEGAo3GKhHjSnw=="/>
+		<POI MapID="1442" xpos="557.975" ypos="4.10942" zpos="343.098" type="tt.eod.h.chm.interact" GUID="Q3kr4e0W5EisQsX7izHNrQ=="/>
+		<POI MapID="1442" xpos="333.696" ypos="76.0747" zpos="264.475" type="tt.eod.cm.mm.jackal" GUID="zw9VRpNibU++16elB4P7zQ=="/>
+		<POI MapID="1442" xpos="117.668" ypos="122.147" zpos="209.323" type="tt.eod.cm.rm.points_of_interest" GUID="zOp5IzOxCUOWYw5CuoNL8Q=="/>
+		<POI MapID="1442" xpos="74.1854" ypos="114.115" zpos="247.746" type="tt.eod.cm.rm.waypoints" GUID="NSwCawVPnU2Vf2BrXsZlbg=="/>
+		<POI MapID="1442" xpos="65.5546" ypos="114.261" zpos="254.961" type="tt.eod.cm.rm.1" GUID="Nj1B0QIlR0isM5onVcQDWA=="/>
+		<POI MapID="1442" xpos="69.525" ypos="114.146" zpos="248.553" type="tt.eod.cm.rm.2" GUID="iCtDsjGPwke5PN0tNIdvQg=="/>
+		<POI MapID="1442" xpos="68.2197" ypos="114.078" zpos="251.611" type="tt.eod.cm.wm.arrow" GUID="/QhtwjrmQEKRGpNfZ0xNcQ=="/>
+		<POI MapID="1442" xpos="-33.1238" ypos="139.071" zpos="190.166" type="tt.eod.cm.rm.points_of_interest" GUID="MhkjR62J50e5DUAc0WANYw=="/>
+		<POI MapID="1442" xpos="-29.2925" ypos="139.074" zpos="187.293" type="tt.eod.cm.mm.skyscale" GUID="PpR/oFbnfkGPSMopQ2QNkw=="/>
+		<POI MapID="1442" xpos="-86.4104" ypos="217.65" zpos="87.3905" type="tt.eod.cm.wm.hpm" GUID="PNW61EmY30KFiT1Xe6BL6w=="/>
+		<POI MapID="1442" xpos="-95.4996" ypos="226.501" zpos="61.5703" type="tt.eod.cm.rm.jadewp" info="Place personal jade waypoint here" infoRange="20.0" GUID="lP2V12b2OUO1Sc2NfetipA=="/>
+		<POI MapID="1442" xpos="-98.3765" ypos="226.583" zpos="61.7903" type="tt.eod.cm.mm.griffon" GUID="j+JB6QOwX02W1ht7tnWmQg=="/>
+		<POI MapID="1442" xpos="-436.711" ypos="152.6" zpos="128.816" type="tt.eod.cm.rm.points_of_interest" GUID="5DPFXn/LskGbw+LPXOzq1A=="/>
+		<POI MapID="1442" xpos="-957.655" ypos="147.164" zpos="410.852" type="tt.eod.cm.rm.points_of_interest" GUID="rgrflON2kUivoKL1AxlN8Q=="/>
+		<POI MapID="1442" xpos="-946.127" ypos="126.209" zpos="454.518" type="tt.eod.cm.mm.beetle" GUID="hagRuusOzUyQ9Fvhoi06WQ=="/>
+		<POI MapID="1442" xpos="-919.101" ypos="132.569" zpos="656.673" type="tt.eod.h.chm.interact" GUID="YyWUgVAOzkuZipcvR0YGxQ=="/>
+		<POI MapID="1442" xpos="-914.244" ypos="132.564" zpos="654.856" type="tt.eod.cm.mm.griffon" GUID="/ed+sc3rWUSLYRlPAAH2IQ=="/>
+		<POI MapID="1442" xpos="-558.231" ypos="52.2889" zpos="444.362" type="tt.eod.cm.rm.vistas" GUID="KsciWczogE+aIo8bUSPdhA=="/>
+		<POI MapID="1442" xpos="-618.01" ypos="4.68175" zpos="539.905" type="tt.eod.h.chm.interact" info="Use teleporter and then immediately come back" infoRange="15.0" GUID="laoEK2yugEqALpAyFMidfg=="/>
+		<POI MapID="1442" xpos="-600.695" ypos="1.25287" zpos="531.028" type="tt.eod.h.chm.start_heart" info="Boat around to get HP and PoI, rescuing villagers and hitting debris along the way, then finish by catching ~10 Shinota Blackfin and turning in to the Hall Director or killing Aetherblade" infoRange="30.0" GUID="GGJdKHYUlEGfAyzX/oVfGA=="/>
+		<POI MapID="1442" xpos="-694.073" ypos="1.37639" zpos="499.972" type="tt.eod.h.chm.interact" GUID="WlQCTmy5GUWC3VwTFwDJRA=="/>
+		<POI MapID="1442" xpos="-644.068" ypos="1.37639" zpos="326.087" type="tt.eod.h.chm.interact" GUID="+TV2eneAHkKFuhf/Sf01zA=="/>
+		<POI MapID="1442" xpos="-320.024" ypos="1.37639" zpos="180.377" type="tt.eod.h.chm.interact" GUID="0lswX0dfwEKZZq035aOYEg=="/>
+		<POI MapID="1442" xpos="-254.36" ypos="1.37639" zpos="86.288" type="tt.eod.h.chm.interact" GUID="6nSX8D1c5U6biRXOpuKjpg=="/>
+		<POI MapID="1442" xpos="-202.61" ypos="1.37639" zpos="184.534" type="tt.eod.cm.rm.points_of_interest" GUID="dZl890KnLkm/abvMiTZKKA=="/>
+		<POI MapID="1442" xpos="-204.987" ypos="1.37639" zpos="230.414" type="tt.eod.h.chm.interact" GUID="8bm9Mh7WPkqqv1ONDjbxSA=="/>
+		<POI MapID="1442" xpos="-474.175" ypos="1.37639" zpos="462.092" type="tt.eod.h.chm.interact" GUID="MDaZxcN3sUupG90Ag3pgAA=="/>
+		<POI MapID="1442" xpos="-524.923" ypos="1.37639" zpos="521.168" type="tt.eod.h.chm.fish" GUID="v/SZyeqkbEKq/0A7nQotBg=="/>
+		<POI MapID="1442" xpos="-537.958" ypos="2.71893" zpos="491.035" type="tt.eod.h.chm.kill" GUID="51e/ijtJHUSZm+eU3vNgvA=="/>
+		<POI MapID="1442" xpos="-400.091" ypos="3.33579" zpos="450.104" type="tt.eod.h.chm.kill" GUID="4lGdZWw8DEercCxKJv74LA=="/>
+		<POI MapID="1442" xpos="-517.735" ypos="1.37639" zpos="528.272" type="tt.eod.h.chm.finish_heart" GUID="yaPL8PRePUGNkx14uRyo4w=="/>
+		<POI MapID="1442" xpos="-438.63" ypos="38.3919" zpos="535.105" type="tt.eod.cm.rm.points_of_interest" GUID="Q5QyD0e8A0uBWKmbF6kPcw=="/>
+		<POI MapID="1442" xpos="-439.325" ypos="39.4979" zpos="536.692" type="tt.eod.cm.wm.wparrow" copy="[&BGUNAAA=]" GUID="TMVFV6e6fkeRxElyO5xWtg=="/>
+		<POI MapID="1442" xpos="85.1898" ypos="72.6343" zpos="456.619" type="tt.eod.cm.rm.points_of_interest" GUID="WrjmIFae60y0h4AN8gR7ow=="/>
+		<POI MapID="1442" xpos="79.3811" ypos="91.7419" zpos="617.703" type="tt.eod.cm.rm.points_of_interest" GUID="4nu4RoeSCkG/kE4RwkszSw=="/>
+		<POI MapID="1442" xpos="-152.345" ypos="3.17626" zpos="726.522" type="tt.eod.cm.rm.points_of_interest" GUID="jVfcoqOh1UWJBN/r3Cp3/g=="/>
+		<POI MapID="1442" xpos="-175.478" ypos="-26.7292" zpos="727.858" type="tt.eod.cm.wm.hpm" GUID="dtNkmhreKEa/BoVYiGN2mA=="/>
+		<POI MapID="1442" xpos="-175.375" ypos="-26.2636" zpos="729.952" type="tt.eod.cm.rm.jadewp" info="Teleport to the waypoint you placed" infoRange="30.0" GUID="qNamvL9h7UitevyV64SN+g=="/>
+		<POI MapID="1442" xpos="-169.49" ypos="83.5984" zpos="-62.5742" type="tt.eod.cm.rm.points_of_interest" GUID="40gdh4TIikWEF4QOWpfDMw=="/>
+		<POI MapID="1442" xpos="-299.278" ypos="77.1504" zpos="-84.7894" type="tt.eod.cm.rm.points_of_interest" GUID="Zz+msRXWXkOpCDIQ6eNTzQ=="/>
+		<POI MapID="1442" xpos="-410.248" ypos="111.159" zpos="-128.877" type="tt.eod.cm.rm.points_of_interest" GUID="TxfaiDuD6kSrpLTJLd1YPw=="/>
+		<POI MapID="1442" xpos="-639.724" ypos="163.529" zpos="-64.5086" type="tt.eod.cm.wm.hpm" GUID="Z9gDBFUtZEOVLAh+odPJfg=="/>
+		<POI MapID="1442" xpos="-650.659" ypos="163.288" zpos="-70.2157" type="tt.eod.cm.mm.griffon" GUID="E7oZ/r0GJUeLTIih+aHuMw=="/>
+		<POI MapID="1442" xpos="-853.282" ypos="115.928" zpos="-116.026" type="tt.eod.cm.rm.waypoints" GUID="fEaKCUzKKUK9VxFKCz/NIQ=="/>
+		<POI MapID="1442" xpos="-849.289" ypos="115.926" zpos="-111.673" type="tt.eod.cm.mm.jackal" GUID="CNOgnB0CVU65cWpB6LmP2w=="/>
+		<POI MapID="1442" xpos="-871.209" ypos="135.879" zpos="-75.7082" type="tt.eod.cm.rm.points_of_interest" GUID="oMUgwd7hYkWf/toxc1huLA=="/>
+		<POI MapID="1442" xpos="-978.415" ypos="97.8464" zpos="-69.3161" type="tt.eod.cm.rm.points_of_interest" GUID="3vLGgaG3VkOFpAH0WEVZAQ=="/>
+		<POI MapID="1442" xpos="-989.342" ypos="98.0853" zpos="-183.199" type="tt.eod.cm.rm.points_of_interest" GUID="3WHTDOV/NkKfGmZ4CFzgIw=="/>
+		<POI MapID="1442" xpos="-835.327" ypos="94.31" zpos="-207.15" type="tt.eod.cm.mm.skyscale" GUID="vbh+jm/dAE6q831ijkc7rA=="/>
+		<POI MapID="1442" xpos="-806.01" ypos="118.713" zpos="-245.515" type="tt.eod.cm.rm.vistas" GUID="jnKuK94G9Uql+C+fuxgWsQ=="/>
+		<POI MapID="1442" xpos="-812.304" ypos="134.056" zpos="-269.566" type="tt.eod.cm.mm.griffon" GUID="3FiSYPQblEy96ngKVg54Zw=="/>
+		<POI MapID="1442" xpos="-902.442" ypos="61.4378" zpos="-399.604" type="tt.eod.cm.rm.points_of_interest" GUID="It9xJfcxB0uRN6l3nDir1Q=="/>
+		<POI MapID="1442" xpos="-844.801" ypos="68.678" zpos="-507.489" type="tt.eod.cm.rm.points_of_interest" GUID="6XFyXlC+xEGlnXj2WZmHog=="/>
+		<POI MapID="1442" xpos="-669.868" ypos="59.2951" zpos="-512.551" type="tt.eod.cm.rm.points_of_interest" GUID="VJkolWTwpkW7HdidTOZ7hw=="/>
+		<POI MapID="1442" xpos="-666.043" ypos="54.6533" zpos="-431.866" type="tt.eod.h.chm.start_heart" info="Do one lap of obstacle course, then combo girl, then defiance bar, then do either dodge or painting until complete" infoRange="50.0" GUID="nMUlh9ywYUGt9fM4y/ePjQ=="/>
+		<POI MapID="1442" xpos="-657.079" ypos="52.0706" zpos="-411.851" type="tt.eod.cm.rm.points_of_interest" GUID="wWxlp5XnC0SQarR5mfjeug=="/>
+		<POI MapID="1442" xpos="-580.757" ypos="36.7226" zpos="-363.474" type="tt.eod.h.chm.kill" GUID="DGaxMtJM1EmAprq2zKOghg=="/>
+		<POI MapID="1442" xpos="-574.685" ypos="36.7229" zpos="-399.651" type="tt.eod.h.chm.kill" GUID="7CSUs+ENs0ivtVLRipPAJQ=="/>
+		<POI MapID="1442" xpos="-586.712" ypos="36.7229" zpos="-425.428" type="tt.eod.h.chm.kill" GUID="v6jwkJQNrky45T4QlwdDSw=="/>
+		<POI MapID="1442" xpos="-519.55" ypos="46.553" zpos="-373.303" type="tt.eod.cm.wm.hpm" GUID="NAFHHn3GqkaMVPJQ7FgMVg=="/>
+		<POI MapID="1442" xpos="-506.523" ypos="46.4601" zpos="-386.538" type="tt.eod.h.chm.finish_heart" GUID="B7s9Iy4HB0GyCqxn3hHBbw=="/>
+		<POI MapID="1442" xpos="-509.36" ypos="46.5422" zpos="-388.215" type="tt.eod.cm.mm.beetle" GUID="yEsId7P99kiSL0FIubLAMg=="/>
+		<POI MapID="1442" xpos="-500.988" ypos="48.7833" zpos="-445.646" type="tt.eod.cm.rm.points_of_interest" GUID="WfsUxGfLS0qwBjC7+Tu+4Q=="/>
+		<POI MapID="1442" xpos="-423.96" ypos="13.2403" zpos="-566.56" type="tt.eod.cm.rm.points_of_interest" GUID="H2E4hzrFDUuItmpSz4nEYw=="/>
+		<POI MapID="1442" xpos="-414.81" ypos="3.20503" zpos="-575.829" type="tt.eod.cm.wm.wpcircle" copy="[&BGUNAAA=]" GUID="QLTSOOrKGUWscL6UdXllYA=="/>
+		<POI MapID="1442" xpos="-79.0016" ypos="14.3336" zpos="-183.805" type="tt.eod.cm.wm.circle" GUID="6AM6agdXJk6g8g0w+HLZJw=="/>
+		<POI MapID="1442" xpos="-75.8091" ypos="14.4271" zpos="-175.635" type="tt.eod.cm.rm.points_of_interest" GUID="AvYZ9SLZI0iDnS+T3hqE1w=="/>
+		<POI MapID="1442" xpos="-111.527" ypos="48.9844" zpos="-281.507" type="tt.eod.cm.rm.points_of_interest" GUID="f25/3deLn0GQDKx9s1T6Qg=="/>
+		<POI MapID="1442" xpos="-125.891" ypos="48.6845" zpos="-276.094" type="tt.eod.cm.rm.vistas" GUID="xX1qrWOk4EqMAYskabHm8A=="/>
+		<POI MapID="1442" xpos="-75.6538" ypos="15.3909" zpos="-192.063" type="tt.eod.cm.mm.jackal" GUID="1KY62DhnokeZGE6qvTWeZQ=="/>
+		<POI MapID="1442" xpos="-92.1164" ypos="48.747" zpos="-355.759" type="tt.eod.cm.rm.points_of_interest" GUID="rFq4UyYIx0WfvudGtU4E7A=="/>
+		<POI MapID="1442" xpos="-110.514" ypos="48.6674" zpos="-363.684" type="tt.eod.cm.mm.skyscale" GUID="yN6wVv9Kt06dgXAFPXuyYA=="/>
+		<POI MapID="1442" xpos="-140.568" ypos="66.4291" zpos="-341.103" type="tt.eod.cm.mm.griffon" GUID="pV5CT21u+kGZDZ2syVAtDw=="/>
+		<POI MapID="1442" xpos="-315.711" ypos="2.96943" zpos="-218.616" type="tt.eod.cm.wm.hpm" GUID="WGXEWEFKhEaak9KCb1X79g=="/>
+		<POI MapID="1442" xpos="-315.793" ypos="2.99111" zpos="-215.691" type="tt.eod.cm.wm.wparrow" copy="[&BGUNAAA=]" GUID="1yLBvgXNJEGe1aGixaZWKQ=="/>
+		<POI MapID="1442" xpos="77.4794" ypos="116.27" zpos="233.042" type="tt.eod.cm.mm.skyscale" GUID="AYB0T6AdYU6ZsRLXp6f5GQ=="/>
+		<POI MapID="1442" xpos="167.496" ypos="160.945" zpos="171.522" type="tt.eod.cm.mm.jackal" GUID="wMYOiyHa506xh0fVslKtIQ=="/>
+		<POI MapID="1442" xpos="291.608" ypos="170.935" zpos="66.3386" type="tt.eod.cm.mm.skyscale" GUID="kwVlyHxN0kSkI+nRx5e/sg=="/>
+		<POI MapID="1442" xpos="298.393" ypos="173.248" zpos="65.3501" type="tt.eod.cm.rm.points_of_interest" GUID="KPMi6yw7WU28Wl6vAdOUpg=="/>
+		<POI MapID="1442" xpos="197.794" ypos="269.825" zpos="22.3503" type="tt.eod.cm.mm.griffon" GUID="xISeaHs1HE6YKhpopX6Czw=="/>
+		<POI MapID="1442" xpos="141.948" ypos="106.286" zpos="-73.058" type="tt.eod.cm.rm.points_of_interest" GUID="p1vmwvqak0mzJz52EEpI4w=="/>
+		<POI MapID="1442" xpos="157.962" ypos="101.901" zpos="-339.964" type="tt.eod.cm.rm.points_of_interest" GUID="a/yj+G2gvkeEexHLuOnQ1Q=="/>
+		<POI MapID="1442" xpos="97.4922" ypos="116.4" zpos="-631.199" type="tt.eod.cm.rm.points_of_interest" GUID="OvubA0P8xUCWtAaN3aI4aw=="/>
+		<POI MapID="1442" xpos="339.291" ypos="96.8265" zpos="-374.904" type="tt.eod.cm.rm.points_of_interest" GUID="L5oXttsCdkG9C6pzVaaUaQ=="/>
+		<POI MapID="1442" xpos="335.008" ypos="69.5727" zpos="-274.576" type="tt.eod.cm.rm.points_of_interest" GUID="J+IownC0BkyAW0HmMfOmtg=="/>
+		<POI MapID="1442" xpos="495.407" ypos="114.145" zpos="-182.402" type="tt.eod.cm.wm.hpm" GUID="EMaEXpZ04ES7dJDVg/oAxw=="/>
+		<POI MapID="1442" xpos="505.647" ypos="113.079" zpos="-179.788" type="tt.eod.cm.mm.griffon" GUID="miLUraA26Eazg74ZPB4cfA=="/>
+		<POI MapID="1442" xpos="501.183" ypos="40.4986" zpos="-27.2815" type="tt.eod.cm.rm.points_of_interest" GUID="2y7NJ7Qq2kCtcyMhbktUnA=="/>
+		<POI MapID="1442" xpos="627.467" ypos="69.383" zpos="-3.7387" type="tt.eod.cm.mm.beetle" GUID="EUcv+yI1BUOb0jZXyJ2mJQ=="/>
+		<POI MapID="1442" xpos="859.962" ypos="63.7072" zpos="-55.9972" type="tt.eod.cm.rm.points_of_interest" GUID="WSbGewMXWk2W6bITU1bMhQ=="/>
+		<POI MapID="1442" xpos="856.384" ypos="64.4736" zpos="-66.6354" type="tt.eod.cm.mm.skyscale" GUID="m98lBodBeUCUPbJmKCF9yQ=="/>
+		<POI MapID="1442" xpos="843.102" ypos="88.3213" zpos="-113.19" type="tt.eod.cm.mm.griffon" GUID="Nc+fcGxODUS+dvZzqf7uyw=="/>
+		<POI MapID="1442" xpos="979.172" ypos="100.643" zpos="-360.704" type="tt.eod.cm.wm.hpm" GUID="TmYareIYNk2FOmW226T46w=="/>
+		<POI MapID="1442" xpos="978.209" ypos="100.737" zpos="-364.418" type="tt.eod.cm.mm.griffon" GUID="48GafuqPSkShOqtJU9KGuw=="/>
+		<POI MapID="1442" xpos="915.827" ypos="42.5692" zpos="-376.239" type="tt.eod.cm.rm.points_of_interest" GUID="qx3uKCKUoEOtvhNY05uwUg=="/>
+		<POI MapID="1442" xpos="935.655" ypos="21.5395" zpos="-616.609" type="tt.eod.cm.rm.points_of_interest" GUID="g/pNZZm/LEOOMX0XylsEJw=="/>
+		<POI MapID="1442" xpos="794.48" ypos="0.245478" zpos="-225.779" type="tt.eod.h.chm.talk" GUID="VTJmYBElyEWgdEGu2cBZwg=="/>
+		<POI MapID="1442" xpos="795.866" ypos="0.0840342" zpos="-228.895" type="tt.eod.h.chm.start_heart" info="Purchase Haiju Minnow's from heart NPC. Fish and turn in 9 Daijun Blackfins." infoRange="30.0" GUID="XAxbjfvigkKA9wGrvWizcg=="/>
+		<POI MapID="1442" xpos="783.092" ypos="0.196185" zpos="-219.014" type="tt.eod.h.chm.finish_heart" GUID="l+u2JJBQQ0GGjT/0I20wZw=="/>
+		<POI MapID="1442" xpos="785.013" ypos="0.727424" zpos="-217.155" type="tt.eod.cm.rm.finish" GUID="swqCEWD8FEKayQ6TNW2rkA=="/>
+		<POI MapID="1442" xpos="-661.681" ypos="30.5297" zpos="604.765" type="tt.eod.cm.rm.points_of_interest" GUID="GsipiY1OREuUkIgnIAaNGw=="/>
+		<POI MapID="1442" xpos="75.0908" ypos="143.09" zpos="309.272" type="tt.eod.cm.mm.griffon" GUID="onolbmmIzEyk3OtZByqncQ=="/>
+		<POI MapID="1442" xpos="68.2441" ypos="113.81" zpos="255.256" type="tt.eod.cm.mm.skyscale" GUID="8Mie72PdiUGgq59fYLZdMg=="/>
+		<!--NKC Markers-->
+
+		<!--TEW Markers-->
+
+		<!--DE Markers-->
 
 	<!--END OF DRAGONS TRAILS-->
-		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SJI.trl"/>
+		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.h.hz" trailData="Data/TehsTrails/EoDTrails/SPHeartZones.trl"/>
 
 
 	</POIs>
