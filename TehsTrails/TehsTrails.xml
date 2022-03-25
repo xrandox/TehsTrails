@@ -7024,11 +7024,123 @@
 		<POI MapID="1442" xpos="75.0908" ypos="143.09" zpos="309.272" type="tt.eod.cm.mm.griffon" GUID="onolbmmIzEyk3OtZByqncQ=="/>
 		<POI MapID="1442" xpos="68.2441" ypos="113.81" zpos="255.256" type="tt.eod.cm.mm.skyscale" GUID="8Mie72PdiUGgq59fYLZdMg=="/>
 		<!--NKC Markers-->
-
+		<POI MapID="1438" xpos="1049.53" ypos="42.4478" zpos="-704.871" type="tt.eod.cm.rm.start" GUID="Lo0hfuFJDUSvDud12df9MQ=="/>
+		<POI MapID="1438" xpos="1048.16" ypos="40.2256" zpos="-694.331" type="tt.eod.cm.mm.raptor" GUID="1fTaCPxPo02byjpU605bFg=="/>
+		<POI MapID="1438" xpos="826.983" ypos="55.2259" zpos="-617.92" type="tt.eod.cm.wm.hpm" GUID="D8MIZ1fZyUya7008YPlUwg=="/>
+		<POI MapID="1438" xpos="826.021" ypos="54.9447" zpos="-610.357" type="tt.eod.cm.mm.skyscale" GUID="OJHP6fWhREeAvA2Aoxs2hw=="/>
+		<POI MapID="1438" xpos="818.924" ypos="43.214" zpos="-564.268" type="tt.eod.cm.rm.points_of_interest" GUID="eq3KazRBskSXJs8TUGvtAA=="/>
+		<POI MapID="1438" xpos="705.595" ypos="117.064" zpos="-581.532" type="tt.eod.cm.mm.griffon" GUID="3DrUV2fWIUqJPVMuaeqEfA=="/>
+		<POI MapID="1438" xpos="636.554" ypos="47.2324" zpos="-587.134" type="tt.eod.cm.rm.points_of_interest" GUID="oV06BY4Hx0GCc9EeRQrTEw=="/>
+		<POI MapID="1438" xpos="601.38" ypos="11.5002" zpos="-392.678" type="tt.eod.cm.rm.points_of_interest" GUID="3WS1FQtlxk297ry6M4neeQ=="/>
+		<POI MapID="1438" xpos="942.159" ypos="28.9196" zpos="-313.437" type="tt.eod.cm.rm.points_of_interest" GUID="1VAzut0LcEONqWwNCK7CGg=="/>
+		<POI MapID="1438" xpos="938.577" ypos="26.1914" zpos="-309.826" type="tt.eod.cm.mm.skyscale" GUID="qY9CAWZ5ok+uF5bepkye5A=="/>
+		<POI MapID="1438" xpos="895.345" ypos="91.5544" zpos="-259.32" type="tt.eod.cm.mm.raptor" GUID="6ej33qcpIUyObCKZdhF4ow=="/>
+		<POI MapID="1438" xpos="878.149" ypos="95.4406" zpos="-185.57" type="tt.eod.cm.rm.points_of_interest" GUID="vtBeUrRxLUSOzyhC9M3HYQ=="/>
+		<POI MapID="1438" xpos="882.705" ypos="91.6367" zpos="-115.999" type="tt.eod.cm.mm.griffon" GUID="yqyMX3OxHEOsooo+JSHHTQ=="/>
+		<POI MapID="1438" xpos="894.258" ypos="17.9406" zpos="-103.623" type="tt.eod.cm.rm.points_of_interest" GUID="0jNJAdACsEmUYTftAjn6zg=="/>
+		<POI MapID="1438" xpos="1041.96" ypos="12.052" zpos="-1.24647" type="tt.eod.cm.wm.hpm" GUID="GfXMQSykGkqtgbld6gUvVg=="/>
+		<POI MapID="1438" xpos="1036.2" ypos="12.052" zpos="-9.21393" type="tt.eod.cm.mm.jackal" GUID="iKXhQuiaZEKeJKAJc+0exA=="/>
+		<POI MapID="1438" xpos="1016.76" ypos="56.4266" zpos="-98.3826" type="tt.eod.h.chm.start_heart" info="Doors can bug out and stack -- spam F on the doors and if you're lucky there will be enough stacked to insta-complete the heart. If you're not, kill the purists and deposit the item in one of the shrines marked on the map. Pathing takes you to the first one because it's on the way to the next set of doors anyways. Flying into ravens with skyscale will give some easy completion too. Don't bother with grubs." infoRange="30.0" GUID="rShqqmu0BU2c6vgLdPULBA=="/>
+		<POI MapID="1438" xpos="1016.09" ypos="56.4266" zpos="-101.374" type="tt.eod.h.chm.interact" GUID="xT5t2FOQvkeLx7TJiC2IaA=="/>
+		<POI MapID="1438" xpos="924.79" ypos="33.778" zpos="-107.73" type="tt.eod.h.chm.deposit" GUID="ml1EctYvH0Ki8VLtHp2hLw=="/>
+		<POI MapID="1438" xpos="858.15" ypos="23.3537" zpos="-78.9384" type="tt.eod.h.chm.interact" GUID="ONWd0zlDOEiSLRVBWZCP2w=="/>
+		<POI MapID="1438" xpos="831.437" ypos="23.3537" zpos="-93.3611" type="tt.eod.h.chm.interact" GUID="LEZ/YqjUDkSE3ScdSRMFqQ=="/>
+		<POI MapID="1438" xpos="830.371" ypos="23.1427" zpos="-90.0443" type="tt.eod.h.chm.finish_heart" GUID="7NdXcPyOl0eKL8CY/Xeiig=="/>
+		<POI MapID="1438" xpos="825.484" ypos="27.1673" zpos="-84.6364" type="tt.eod.cm.mm.skyscale" GUID="KosvPfnIcE6eiqklLePZPw=="/>
+		<POI MapID="1438" xpos="943.211" ypos="23.3537" zpos="-36.9543" type="tt.eod.h.chm.interact" GUID="DDX6bXgDnkCI14ZpBoPlSg=="/>
+		<POI MapID="1438" xpos="768.134" ypos="62.4824" zpos="-119.734" type="tt.eod.cm.rm.vistas" GUID="xXuf4uJgD0C7yVaHJ0DBIw=="/>
+		<POI MapID="1438" xpos="761.329" ypos="62.4824" zpos="-121.078" type="tt.eod.cm.mm.skyscale" GUID="nDN7ZgCF90OVDV5LcCvgeQ=="/>
+		<POI MapID="1438" xpos="662.933" ypos="95.1897" zpos="37.8444" type="tt.eod.cm.rm.vistas" GUID="UhPVpVonb02P/6SGMYV9Eg=="/>
+		<POI MapID="1438" xpos="660.578" ypos="94.8469" zpos="41.2474" type="tt.eod.cm.rm.ppr_m" GUID="vkmaOeWqHUS9fbt3FlC8cw=="/>
+		<POI MapID="1438" xpos="587.141" ypos="89.4722" zpos="73.793" type="tt.eod.cm.rm.points_of_interest" GUID="QGRAELNVQkm30/5KoAlWgQ=="/>
+		<POI MapID="1438" xpos="659.665" ypos="94.8972" zpos="35.9907" type="tt.eod.cm.mm.griffon" GUID="e2xNSDutH0+tFiu1kraHmQ=="/>
+		<POI MapID="1438" xpos="579.082" ypos="10.2754" zpos="-1.47366" type="tt.eod.cm.rm.waypoints" GUID="ClLAj6htM0an2v5Ttbd1WQ=="/>
+		<POI MapID="1438" xpos="508.936" ypos="2.623" zpos="33.8885" type="tt.eod.cm.rm.points_of_interest" GUID="ddxHNIhzL0G+RfWNMZjqWg=="/>
+		<POI MapID="1438" xpos="668.089" ypos="95.1077" zpos="99.1768" type="tt.eod.cm.mm.skyscale" GUID="r/FzHzgSfUCu7XziE7dHKQ=="/>
+		<POI MapID="1438" xpos="716.463" ypos="238.074" zpos="243.504" type="tt.eod.cm.rm.jadewp" info="Place Personal Waypoint" infoRange="15.0" GUID="OIHvflc+rUm1m54L6jyhQQ=="/>
+		<POI MapID="1438" xpos="716.279" ypos="239.676" zpos="246.661" type="tt.eod.cm.mm.griffon" GUID="L0SPzcYGak6YlTyrG09yTg=="/>
+		<POI MapID="1438" xpos="882.56" ypos="218.575" zpos="484.219" type="tt.eod.cm.wm.hpm" GUID="6lxfamt6bUy7E2SgpIi2rA=="/>
+		<POI MapID="1438" xpos="885.913" ypos="218.685" zpos="482.492" type="tt.eod.cm.mm.griffon" GUID="/LeidKO+vUKFz0vX7VlB0g=="/>
+		<POI MapID="1438" xpos="925.524" ypos="118.815" zpos="469.589" type="tt.eod.cm.rm.points_of_interest" GUID="t8w3Y3YYXE+fkckmii4VLw=="/>
+		<POI MapID="1438" xpos="813.631" ypos="47.2528" zpos="418.313" type="tt.eod.cm.rm.vistas" GUID="rMb+8wO9hEGgieHIlyA7Rw=="/>
+		<POI MapID="1438" xpos="810.45" ypos="47.2528" zpos="414.353" type="tt.eod.cm.mm.springer" GUID="OIHv7a96Tk6DCoIFLmBv5g=="/>
+		<POI MapID="1438" xpos="818.393" ypos="82.3398" zpos="412.459" type="tt.eod.cm.mm.griffon" GUID="4ebVE3q8jEyzkBXPy8fQSw=="/>
+		<POI MapID="1438" xpos="1019.57" ypos="17.6432" zpos="640.48" type="tt.eod.cm.rm.points_of_interest" GUID="KgBJ8bt2M0KQiuzgc3+vpQ=="/>
+		<POI MapID="1438" xpos="960.34" ypos="-1.34102" zpos="584.185" type="tt.eod.cm.mm.skimmer" GUID="0HPjDxv5OESc8Eq5D4jlCw=="/>
+		<POI MapID="1438" xpos="938.79" ypos="-49.8099" zpos="578.295" type="tt.eod.cm.rm.points_of_interest" GUID="5WWwxFUfDU2AUFQfHgbF6A=="/>
+		<POI MapID="1438" xpos="938.568" ypos="-49.8099" zpos="581.271" type="tt.eod.cm.rm.jadewp" info="Teleport to the waypoint you placed" infoRange="20.0" GUID="Kb3jffM1K0CnoZWUX5oq0A=="/>
+		<POI MapID="1438" xpos="515.306" ypos="101.554" zpos="672.722" type="tt.eod.cm.rm.points_of_interest" GUID="xv+QdDGnsUqlDozlUG3NrA=="/>
+		<POI MapID="1438" xpos="452.428" ypos="109.509" zpos="380.906" type="tt.eod.cm.wm.hpm" GUID="we+mGcktH0e/3lb9g2ZBPw=="/>
+		<POI MapID="1438" xpos="447.5" ypos="111.097" zpos="359.572" type="tt.eod.cm.mm.griffon" info="If you mess up dive, just beetle under path" infoRange="20.0" GUID="qsgYyCEq2ESte4cd/L5qIQ=="/>
+		<POI MapID="1438" xpos="441.043" ypos="19.8703" zpos="263.964" type="tt.eod.cm.rm.points_of_interest" GUID="AYe++0Eao0aOkfIJpVqwFQ=="/>
+		<POI MapID="1438" xpos="320.375" ypos="15.6024" zpos="113.649" type="tt.eod.cm.rm.points_of_interest" GUID="zXG4izJRpU6bfW/6anco5Q=="/>
+		<POI MapID="1438" xpos="232.429" ypos="12.0564" zpos="345.95" type="tt.eod.cm.wm.hpm" GUID="atTE8hGseESl71tXPuo9UQ=="/>
+		<POI MapID="1438" xpos="234.238" ypos="2.73902" zpos="449.285" type="tt.eod.cm.rm.points_of_interest" GUID="opNLudAXnU6M6q29RM3sSA=="/>
+		<POI MapID="1438" xpos="67.0517" ypos="18.6537" zpos="103.039" type="tt.eod.cm.rm.points_of_interest" GUID="veTI8TveNkOZKvE3zT0tvQ=="/>
+		<POI MapID="1438" xpos="94.1961" ypos="45.2712" zpos="-0.228561" type="tt.eod.cm.mm.skyscale" GUID="RdyBVd9msUi8FnkI4+jPRQ=="/>
+		<POI MapID="1438" xpos="143.049" ypos="197.958" zpos="-19.9219" type="tt.eod.cm.rm.points_of_interest" GUID="f2T5+WA6+E+yQqM3CpDaNA=="/>
+		<POI MapID="1438" xpos="-14.851" ypos="166.456" zpos="-0.274298" type="tt.eod.cm.rm.vistas" GUID="T/HBLR6rLECjbJRp7pPz6A=="/>
+		<POI MapID="1438" xpos="-15.5462" ypos="166.496" zpos="10.6944" type="tt.eod.cm.mm.griffon" info="This griffon path goes through somewhat tight areas, may be worth using rewinder here as a backup for your first time. Try not to pull up until the power plant doors." infoRange="20.0" GUID="B8AMbEtHbUWA7jJqEhTX+Q=="/>
+		<POI MapID="1438" xpos="-81.7565" ypos="32.1783" zpos="-1.30876" type="tt.eod.cm.rm.points_of_interest" GUID="sKv4zXcKjUGMcqLhvPJgpA=="/>
+		<POI MapID="1438" xpos="-147.311" ypos="10.6452" zpos="-31.8311" type="tt.eod.cm.rm.waypoints" GUID="Yk1wZNMQv0W1SsmYTPkNlw=="/>
+		<POI MapID="1438" xpos="-512.576" ypos="22.5208" zpos="7.13533" type="tt.eod.cm.rm.points_of_interest" GUID="Tfh+d4G3mkK/YyGeBBpF0g=="/>
+		<POI MapID="1438" xpos="60.5946" ypos="2.62316" zpos="-493.957" type="tt.eod.cm.rm.points_of_interest" GUID="w6K2Jk99tE+7NBaiuPYsCg=="/>
+		<POI MapID="1438" xpos="72.1092" ypos="2.62315" zpos="-505.339" type="tt.eod.h.chm.start_heart" info="No easy way to complete this heart sadly. Get on raptor, check which generators you have marked on your map, deliver boxes to them." infoRange="30.0" GUID="3fxMnOV5uE+4CnaT7XzfyQ=="/>
+		<POI MapID="1438" xpos="60.7974" ypos="2.62315" zpos="-515.07" type="tt.eod.h.chm.finish_heart" GUID="RbbSO7tE6UOe2ctY2ar8ow=="/>
+		<POI MapID="1438" xpos="58.8076" ypos="2.62143" zpos="-525.065" type="tt.eod.cm.mm.raptor" GUID="bT/oCrRKJUu85MJxjngetQ=="/>
+		<POI MapID="1438" xpos="-94.7631" ypos="3.00909" zpos="-646.672" type="tt.eod.cm.rm.points_of_interest" GUID="p/iksBIXm0CeUG2seoKWJw=="/>
+		<POI MapID="1438" xpos="-96.7023" ypos="3.00649" zpos="-651.525" type="tt.eod.cm.mm.skyscale" GUID="ripitO90M0WW0/AqhMUwrA=="/>
+		<POI MapID="1438" xpos="-319.773" ypos="226.482" zpos="-587.236" type="tt.eod.cm.rm.points_of_interest" GUID="+RUBOWZtX0yExzgP5ODudg=="/>
+		<POI MapID="1438" xpos="-477.856" ypos="269.75" zpos="-456.166" type="tt.eod.cm.wm.hpm" GUID="rHOl1LxXp0SHd+Ek0zFXWA=="/>
+		<POI MapID="1438" xpos="-452.921" ypos="270.071" zpos="-434.492" type="tt.eod.cm.mm.griffon" GUID="0OVlH6RkW0yMeHhK/AoFYQ=="/>
+		<POI MapID="1438" xpos="-293.562" ypos="116.934" zpos="-464.243" type="tt.eod.cm.rm.points_of_interest" GUID="5XxncbPpPk+AsD6UajovxA=="/>
+		<POI MapID="1438" xpos="-293.977" ypos="116.858" zpos="-457.633" type="tt.eod.cm.mm.beetle" GUID="1as2r+Fq802rLv6L8nTyAg=="/>
+		<POI MapID="1438" xpos="-499.615" ypos="120.156" zpos="-338.828" type="tt.eod.cm.rm.points_of_interest" GUID="oNJCD8uHBEGTJ59CLkvkLA=="/>
+		<POI MapID="1438" xpos="-475.266" ypos="120.158" zpos="-268.63" type="tt.eod.cm.mm.skyscale" GUID="rPLGM3lcFky3JGwNT25I6A=="/>
+		<POI MapID="1438" xpos="-545.895" ypos="224.057" zpos="-312.204" type="tt.eod.cm.mm.raptor" GUID="Ga/+/lT9NUK6eFMBli1bjQ=="/>
+		<POI MapID="1438" xpos="-637.688" ypos="216.676" zpos="-337.838" type="tt.eod.cm.rm.points_of_interest" GUID="+hbPEcjtQEmcr+UrL9kzqw=="/>
+		<POI MapID="1438" xpos="-557.874" ypos="198.028" zpos="-506.64" type="tt.eod.cm.rm.points_of_interest" GUID="DQoT2Okv40eboPp4XB5Aig=="/>
+		<POI MapID="1438" xpos="-587.148" ypos="197.917" zpos="-529.398" type="tt.eod.cm.mm.griffon" GUID="nR676jsDsUmRQx02dfaNQg=="/>
+		<POI MapID="1438" xpos="-854.058" ypos="139.089" zpos="-746.153" type="tt.eod.cm.wm.hpm" GUID="yxcKOwD9kEah4BlMeupNCw=="/>
+		<POI MapID="1438" xpos="-853.363" ypos="139.007" zpos="-752.746" type="tt.eod.cm.mm.springer" GUID="0sPoOrGCkk+V7foUoXv2JA=="/>
+		<POI MapID="1438" xpos="-847.926" ypos="188.366" zpos="-744.021" type="tt.eod.cm.mm.griffon" info="Somewhat technical griffon path. You fly quite close to the groundnear the waypoint and pull up sharply at the end. If you mess it up, you can follow underneath and skyscale up the wall using the buildings on the right side." infoRange="15.0" GUID="SLiIxKW8a0KVT3mCqvyd/g=="/>
+		<POI MapID="1438" xpos="-862.313" ypos="16.4585" zpos="-628.776" type="tt.eod.cm.rm.points_of_interest" GUID="6q7/eMRjB0+KrS6DMVLaFA=="/>
+		<POI MapID="1438" xpos="-901.509" ypos="12.1925" zpos="-52.7389" type="tt.eod.cm.rm.points_of_interest" GUID="L8bHi8JmH0CtkEXxUkUqxA=="/>
+		<POI MapID="1438" xpos="-790.055" ypos="14.0998" zpos="-17.8629" type="tt.eod.cm.rm.points_of_interest" info="If you fail to pull up all the way, use the buildings on the right to skyscale up the wall" infoRange="30.0" GUID="MJrC47L5dU+iR0HTqxmUBQ=="/>
+		<POI MapID="1438" xpos="-706.648" ypos="152.959" zpos="-19.0652" type="tt.eod.cm.mm.raptor" GUID="QpMIFI7lWEa7x24gg/wiTw=="/>
+		<POI MapID="1438" xpos="-558.534" ypos="157.99" zpos="-0.0612342" type="tt.eod.cm.wm.hpm" GUID="a8L/cEJGokGJoqCgkDjo1g=="/>
+		<POI MapID="1438" xpos="-506.082" ypos="152.78" zpos="0.203949" type="tt.eod.cm.rm.points_of_interest" GUID="kOtAcUxxAUy/aBN8TxNT1Q=="/>
+		<POI MapID="1438" xpos="-546.212" ypos="120.148" zpos="187.417" type="tt.eod.cm.wm.hpm" GUID="LBjDqhiRZEyvz2llbAH5yw=="/>
+		<POI MapID="1438" xpos="-513.902" ypos="120.158" zpos="189.054" type="tt.eod.cm.mm.beetle" GUID="aB0arLXA4kGpTOVMqJlk7A=="/>
+		<POI MapID="1438" xpos="-404.537" ypos="120.117" zpos="320.268" type="tt.eod.cm.rm.points_of_interest" GUID="D/pMCj1wsUCfy4EKcLYtYg=="/>
+		<POI MapID="1438" xpos="-321.896" ypos="116.85" zpos="426.103" type="tt.eod.cm.rm.points_of_interest" GUID="hD1z2FTDtke1QlrVb6OhLA=="/>
+		<POI MapID="1438" xpos="-388.122" ypos="197.768" zpos="447.188" type="tt.eod.cm.mm.skyscale" GUID="aUVd5mChL0+NsKRkKKzFGg=="/>
+		<POI MapID="1438" xpos="-318.31" ypos="260.796" zpos="509.401" type="tt.eod.cm.rm.points_of_interest" GUID="EZSUTnSEmkC7wlZh52Ni0A=="/>
+		<POI MapID="1438" xpos="-349.149" ypos="260.918" zpos="509.306" type="tt.eod.cm.mm.raptor" GUID="ilsANc/v2U2KojscnJKDaA=="/>
+		<POI MapID="1438" xpos="-500.013" ypos="229.848" zpos="457.156" type="tt.eod.cm.rm.points_of_interest" GUID="S2K77e7OlEGHzH6tVaZtWg=="/>
+		<POI MapID="1438" xpos="-513.831" ypos="217.439" zpos="468.892" type="tt.eod.h.chm.start_heart" info="Grab batteries, then fight the training mechs on the highest difficulty you can. You should be able to run back and forth between the two locations. Make sure to use the jade bot terminal on the path to grab the upper PoI. You could light lanterns, but I find it slower." infoRange="30.0" GUID="CyzsrOcoX0mIG4gO7ZBbVw=="/>
+		<POI MapID="1438" xpos="-519.29" ypos="217.218" zpos="476.229" type="tt.eod.h.chm.interact" GUID="4IYTgUzdHUiTNouZra0Uhg=="/>
+		<POI MapID="1438" xpos="-526.228" ypos="207.504" zpos="485.672" type="tt.eod.h.chm.interact" GUID="fjSFtUn/lEGHSmF+wJLLew=="/>
+		<POI MapID="1438" xpos="-519.903" ypos="207.503" zpos="497.483" type="tt.eod.h.chm.interact" GUID="IseK+LBfH0KCh1qniAW9cw=="/>
+		<POI MapID="1438" xpos="-630.056" ypos="207.588" zpos="413.631" type="tt.eod.h.chm.interact" GUID="KMNs1Rf9pUqyeg9rKuH+ng=="/>
+		<POI MapID="1438" xpos="-626.796" ypos="207.61" zpos="443.746" type="tt.eod.h.chm.interact" GUID="zzeMclsGLEmWixxHGUWmvQ=="/>
+		<POI MapID="1438" xpos="-592.103" ypos="207.659" zpos="454.335" type="tt.eod.cm.rm.waypoints" GUID="rTkrD/YET0S3RD/zRCPqTQ=="/>
+		<POI MapID="1438" xpos="-509.35" ypos="273.436" zpos="370.302" type="tt.eod.cm.rm.points_of_interest" GUID="BCd3N9PMpE+BD/1/GKHTtg=="/>
+		<POI MapID="1438" xpos="-506.398" ypos="275.911" zpos="367.811" type="tt.eod.cm.rm.points_of_interest" GUID="zLHFzzgGWky1g+7sMVce9w=="/>
+		<POI MapID="1438" xpos="-632.295" ypos="207.61" zpos="435.629" type="tt.eod.cm.mm.raptor" GUID="joA+uPvdp0Srzn2hP4F4Yg=="/>
+		<POI MapID="1438" xpos="-694.821" ypos="261.71" zpos="196.785" type="tt.eod.cm.rm.points_of_interest" GUID="dLNqnRHUTE+zehzAUa2XhQ=="/>
+		<POI MapID="1438" xpos="-745.783" ypos="197.593" zpos="164.633" type="tt.eod.cm.rm.vistas" GUID="hfjeUf4Re0u3OwSLWno0Bg=="/>
+		<POI MapID="1438" xpos="-746.846" ypos="197.593" zpos="171.847" type="tt.eod.cm.mm.griffon" GUID="yRGyojqdV0a6WOHQ7wIMEQ=="/>
+		<POI MapID="1438" xpos="-554.346" ypos="42.8409" zpos="685.281" type="tt.eod.cm.rm.points_of_interest" GUID="u6Nx+BAMBkCiwcdrvilv3Q=="/>
+		<POI MapID="1438" xpos="-1035.86" ypos="21.168" zpos="510.401" type="tt.eod.cm.rm.points_of_interest" GUID="huef2rUtnECuVczKw9LZUQ=="/>
+		<POI MapID="1438" xpos="-1042.35" ypos="18.9026" zpos="540.67" type="tt.eod.cm.rm.finish" GUID="92VVJJps/0alya5Thg7UIQ=="/>
 		<!--TEW Markers-->
 
 		<!--DE Markers-->
 
+		<!--Arborstone Markers-->
+		<POI MapID="1428" xpos="-742.297" ypos="9.57112" zpos="445.828" type="tt.eod.cm.rm.start" info="The Echovald Wilds starts through this portal" infoRange="30.0" GUID="WtZqmJnK+UCsBC8KgXw6WA=="/>
+		<POI MapID="1428" xpos="-1126.92" ypos="7.40712" zpos="742.558" type="tt.eod.cm.rm.start" info="New Kaineng City starts through this portal" infoRange="30.0" GUID="aYD/Jq4VokuxbQbA641/fg=="/>
 	<!--END OF DRAGONS TRAILS-->
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
