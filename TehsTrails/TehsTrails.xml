@@ -7401,6 +7401,42 @@
 		<POI MapID="1428" xpos="-742.297" ypos="9.57112" zpos="445.828" type="tt.eod.cm.rm.start" info="The Echovald Wilds path starts through this portal" infoRange="30.0" GUID="WtZqmJnK+UCsBC8KgXw6WA=="/>
 		<POI MapID="1428" xpos="-1126.92" ypos="7.40712" zpos="742.558" type="tt.eod.cm.rm.start" info="New Kaineng City path starts through this portal" infoRange="30.0" GUID="aYD/Jq4VokuxbQbA641/fg=="/>
 	<!--END OF DRAGONS TRAILS-->
+		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
