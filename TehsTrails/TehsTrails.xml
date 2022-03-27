@@ -551,31 +551,84 @@
 
 
 
-	<!--<MarkerCategory name="eodl" DisplayName="End of Dragons - Lanterns">-->
-			<!--<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">-->
-				<!--<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>-->
+		<MarkerCategory name="eodl" DisplayName="End of Dragons - Lanterns">
+			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
+				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
 				<!-- RED -->
-				<!--<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- GREY -->
-				<!--<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- LIGHT GREY -->
-				<!--<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- ORANGE -->
-				<!--<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- PINK -->
-				<!--<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- PEPEGA -->
-				<!--<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- DARK PURPLE -->
-				<!--<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- DARK BLUE -->
-				<!--<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- GREEN -->
-				<!--<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>-->
+				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- BLUE (PRIORITY) -->
-				<!--<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>-->
-			<!--</MarkerCategory>-->
-	<!--</MarkerCategory>-->
+				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
+			</MarkerCategory>
+
+			<MarkerCategory name="lantern" DisplayName="Jade Lanterns" iconFile="Data/TehsTrails/Markers/lantern.png" scaleOnMapWithZoom="0" mapDisplaySize="40" iconSize="1" fadeNear="3000" fadeFar="3500" miniMapVisibility="1" mapVisibility="1"/>
+
+			<MarkerCategory name="cm" DisplayName="Common Markers">
+
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png" iconSize="0.5"/>
+					<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autotrigger="true" triggerrange="25" />
+					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
+					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
+					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
+					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="zip" DisplayName="Zipline" iconFile="Data/TehsTrails/Markers/zip.png" iconSize="0.8"/>
+					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
+				</MarkerCategory>
+	
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
+				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
+				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
+				  <MarkerCategory name="skimmer" DisplayName="Skimmer" iconFile="Data/TehsTrails/Markers/Skimmer.png"/>
+				  <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
+				  <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
+				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
+				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
+				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				</MarkerCategory>
+	
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
+				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" miniMapVisibility="0" mapVisibility="0"/>
+				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" miniMapVisibility="0" mapVisibility="0"/>
+				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" miniMapVisibility="0" mapVisibility="0"/>
+				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" miniMapVisibility="0" mapVisibility="0"/>
+				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" miniMapVisibility="0" mapVisibility="0"/>
+				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" miniMapVisibility="0" mapVisibility="0"/>
+				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" miniMapVisibility="0" mapVisibility="0"/>
+				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+	</MarkerCategory>
 
 
 
@@ -7489,8 +7542,131 @@
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.h.hz" trailData="Data/TehsTrails/EoDTrails/SPHeartZones.trl"/>
-		<!--Lantern Trails-->
-		<!--<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>-->
+
+	<!--=======================================================================================================================================================================-->	
+	<!--==                                                                        END OF DRAGONS LANTERNS                                                                    ==-->
+	<!--=======================================================================================================================================================================-->
+	<!--LANTERN MARKERS-->
+
+		<!--SP Markers-->
+
+		<!--NKC Markers-->
+		<POI MapID="1438" xpos="-149.816" ypos="2.62128" zpos="-35.5133" type="tt.eodl.cm.wm.heart" GUID="7yc/imVY/kKN7Gucysse3w=="/>
+		<POI MapID="1438" xpos="219.927" ypos="2.63877" zpos="443.191" type="tt.eodl.cm.wm.wpheart" info="If not contested, waypoint" infoRange="30" copy="[&BBYNAAA=]" GUID="rqKFAEy3tUSPEPa4eNeODQ=="/>
+		<POI MapID="1438" xpos="1049.21" ypos="41.7383" zpos="-701.918" type="tt.eodl.cm.rm.start" GUID="jV3GmQxJnE2gU2Q7362X0Q=="/>
+		<POI MapID="1438" xpos="1052.65" ypos="40.4613" zpos="-685.594" type="tt.eodl.cm.rm.interact" GUID="ByG2ra3HpkezN1tiy0jVKg=="/>
+		<POI MapID="1438" xpos="1047.31" ypos="38.9167" zpos="-682.261" type="tt.eodl.cm.mm.beetle" GUID="Xq4xQoBm00au6m4aBD1wTA=="/>
+		<POI MapID="1438" xpos="860.372" ypos="53.7812" zpos="-637.532" type="tt.eodl.cm.rm.bondoffaith" GUID="4QMQfm6hdkqHvHBzGYedZQ=="/>
+		<POI MapID="1438" xpos="824.015" ypos="55.0842" zpos="-611.465" type="tt.eodl.cm.mm.raptor" GUID="g34ObLvYUEOk6pDmEELLCg=="/>
+		<POI MapID="1438" xpos="742.151" ypos="53.0898" zpos="-652.717" type="tt.eodl.cm.rm.interact" GUID="iy87BPP+f0y0daXCupr/cg=="/>
+		<POI MapID="1438" xpos="641.49" ypos="2.99929" zpos="-600.59" type="tt.eodl.cm.mm.raptor" GUID="ba2ZWvQp0U2i2bGwe/2YKg=="/>
+		<POI MapID="1438" xpos="586.42" ypos="2.62885" zpos="-450.819" type="tt.eodl.cm.rm.interact" GUID="tBBDMbfT+USOoE6Ku6iJkg=="/>
+		<POI MapID="1438" xpos="587.854" ypos="2.62924" zpos="-444.172" type="tt.eodl.cm.mm.skimmer" GUID="L530Wk+tLU2IIMAR0Nx+jQ=="/>
+		<POI MapID="1438" xpos="755.417" ypos="0.98408" zpos="-354.17" type="tt.eodl.cm.mm.beetle" GUID="Zcf8BnWKCEW2GnZLyDnUWw=="/>
+		<POI MapID="1438" xpos="941.835" ypos="2.70105" zpos="-338.701" type="tt.eodl.cm.rm.dismount" GUID="57tJ8FVOaEqURPAweoUy6w=="/>
+		<POI MapID="1438" xpos="949.105" ypos="2.74447" zpos="-341.972" type="tt.eodl.cm.mm.skyscale" GUID="B6OedxrvbUeMK6fWfGigLw=="/>
+		<POI MapID="1438" xpos="881.894" ypos="91.6368" zpos="-118.071" type="tt.eodl.cm.mm.griffon" GUID="ObnfCzDKrEey4KjuhB2G5w=="/>
+		<POI MapID="1438" xpos="982.535" ypos="2.49426" zpos="2.89989" type="tt.eodl.cm.rm.interact" GUID="yqixoiV1G0maq/izc2BcIA=="/>
+		<POI MapID="1438" xpos="974.746" ypos="0.441263" zpos="5.78083" type="tt.eodl.cm.mm.skimmer" GUID="3TNMaobBW06oBT0FV8NgXA=="/>
+		<POI MapID="1438" xpos="794.327" ypos="2.53925" zpos="-23.5474" type="tt.eodl.cm.mm.beetle" GUID="aU3ANp7oEUWFHhEcp6kfsQ=="/>
+		<POI MapID="1438" xpos="566.673" ypos="2.41241" zpos="0.335273" type="tt.eodl.cm.rm.dismount" GUID="Q2I5GfMr90mFSe+eWbN3RQ=="/>
+		<POI MapID="1438" xpos="357.431" ypos="2.6204" zpos="120.847" type="tt.eodl.cm.rm.jadewp" info="Place personal waypoint" infoRange="30.0" GUID="ak7WV9VLDUGN7ad5njSuHA=="/>
+		<POI MapID="1438" xpos="391.388" ypos="2.6204" zpos="269.599" type="tt.eodl.cm.rm.interact" GUID="RDUTyKtZdEubjT8F6R4jXg=="/>
+		<POI MapID="1438" xpos="460.182" ypos="35.8413" zpos="359.697" type="tt.eodl.cm.rm.interact" GUID="16SiiTV8FU6R9rxuZ6ZDWA=="/>
+		<POI MapID="1438" xpos="458.113" ypos="36.557" zpos="358.488" type="tt.eodl.cm.mm.skyscale" GUID="WVn0JX5poUKyFmOFaGqGfA=="/>
+		<POI MapID="1438" xpos="453.409" ypos="111.278" zpos="394.702" type="tt.eodl.cm.mm.griffon" GUID="rzrnIj7+okuDBpOnx0WIiA=="/>
+		<POI MapID="1438" xpos="530.239" ypos="96.1865" zpos="660.508" type="tt.eodl.cm.rm.interact" GUID="F1yLCI0tokuTPYkx6Qesug=="/>
+		<POI MapID="1438" xpos="509.818" ypos="96.146" zpos="659.873" type="tt.eodl.cm.mm.griffon" GUID="83w92rn6Q06vo7GrBFW0Pw=="/>
+		<POI MapID="1438" xpos="773.668" ypos="69.066" zpos="381.732" type="tt.eodl.cm.mm.skyscale" GUID="Y97OBJmwukmKPDkY5CXYBQ=="/>
+		<POI MapID="1438" xpos="949.55" ypos="92.8525" zpos="439.507" type="tt.eodl.cm.rm.interact" GUID="ZrWSCs2K3E2+m6cZpseT+A=="/>
+		<POI MapID="1438" xpos="948.636" ypos="92.7626" zpos="436.627" type="tt.eodl.cm.mm.skyscale" GUID="BTsLk+wY/UicSlr9cO6IoQ=="/>
+		<POI MapID="1438" xpos="890.931" ypos="218.293" zpos="493.559" type="tt.eodl.cm.mm.griffon" GUID="9krgYxkw1UCzt+ihrv/61Q=="/>
+		<POI MapID="1438" xpos="1013.76" ypos="2.16294" zpos="644.332" type="tt.eodl.cm.rm.interact" GUID="OcsyzL/dRk+VoXLXaXdR2Q=="/>
+		<POI MapID="1438" xpos="996.345" ypos="0.51804" zpos="634.143" type="tt.eodl.cm.mm.skimmer" GUID="TBrM/p5wZkWsJuZSHEXr3Q=="/>
+		<POI MapID="1438" xpos="945.718" ypos="-44.4707" zpos="573.063" type="tt.eodl.cm.rm.jadewp" info="Teleport to the waypoint you placed" infoRange="30.0" GUID="q+BYRvbD/060ZRCNzgjbjg=="/>
+		<POI MapID="1438" xpos="226.864" ypos="2.63905" zpos="405.793" type="tt.eodl.cm.rm.interact" GUID="x0Z54dHvTkOwx9ZuMiLJeg=="/>
+		<POI MapID="1438" xpos="-205.351" ypos="6.6651" zpos="-50.2382" type="tt.eodl.cm.mm.raptor" GUID="8/8JRHlrcEeI2LpNEr/xhw=="/>
+		<POI MapID="1438" xpos="-211.731" ypos="6.6647" zpos="-45.4322" type="tt.eodl.cm.rm.interact" GUID="C1AUCikr60uoxYcAsNNtIw=="/>
+		<POI MapID="1438" xpos="73.9968" ypos="2.62144" zpos="-477.532" type="tt.eodl.cm.rm.interact" GUID="TrLnoTa/RUKv9ThFCZg23Q=="/>
+		<POI MapID="1438" xpos="-96.3314" ypos="2.97268" zpos="-654.3" type="tt.eodl.cm.mm.beetle" GUID="hwv4UtiHFU6cIBkYg6k/Nw=="/>
+		<POI MapID="1438" xpos="-26.4044" ypos="120.52" zpos="-529.989" type="tt.eodl.cm.mm.beetle" GUID="dpn4fHEH9kC+1tQKUsdpWg=="/>
+		<POI MapID="1438" xpos="-309.58" ypos="118.236" zpos="-438.49" type="tt.eodl.cm.mm.beetle" GUID="iJIppGnVGkis3nZskQT0Lg=="/>
+		<POI MapID="1438" xpos="-485.073" ypos="120.156" zpos="-323.763" type="tt.eodl.cm.rm.dismount" GUID="FWxVjokVBkyJR6s2VqJ6KA=="/>
+		<POI MapID="1438" xpos="-479.295" ypos="120.195" zpos="-266.254" type="tt.eodl.cm.mm.skyscale" GUID="ST1uCnMSvECb+Qt1JkGvmQ=="/>
+		<POI MapID="1438" xpos="-466.089" ypos="150.142" zpos="-240.827" type="tt.eodl.cm.rm.bondoffaith" GUID="OM+2FM9O6UCct4KTxaUyYQ=="/>
+		<POI MapID="1438" xpos="-547.238" ypos="224.085" zpos="-312.706" type="tt.eodl.cm.mm.raptor" GUID="egjJRK2+oEWRBI5F8SCTCA=="/>
+		<POI MapID="1438" xpos="-663.509" ypos="198.028" zpos="-359.907" type="tt.eodl.cm.mm.beetle" GUID="qMVWDJ0Y4kCXzksj2L9dgQ=="/>
+		<POI MapID="1438" xpos="-575.083" ypos="198.026" zpos="-521.277" type="tt.eodl.cm.rm.dismount" GUID="VBY1jwkGC0qR8Ql1wBbCcA=="/>
+		<POI MapID="1438" xpos="-542.081" ypos="198.029" zpos="-485.918" type="tt.eodl.cm.mm.skyscale" GUID="9c2R4X2Yv0agcmVxCsR2Pg=="/>
+		<POI MapID="1438" xpos="-499.548" ypos="206.806" zpos="-471.825" type="tt.eodl.cm.rm.interact" GUID="KIkw8vbap0iO9v6WBJ9S2w=="/>
+		<POI MapID="1438" xpos="-485.873" ypos="270.131" zpos="-475.075" type="tt.eodl.cm.rm.interact" GUID="6XhSZpm530e8OAnX6Y94AA=="/>
+		<POI MapID="1438" xpos="-503.337" ypos="270.142" zpos="-468.55" type="tt.eodl.cm.mm.griffon" GUID="rkRj3V+CT0W1GPnIcjFXEQ=="/>
+		<POI MapID="1438" xpos="-860.143" ypos="138.438" zpos="-754.537" type="tt.eodl.cm.mm.griffon" GUID="jMXB1tuy8UGGkJzL/5w+Aw=="/>
+		<POI MapID="1438" xpos="-869.811" ypos="1.40501" zpos="-622.02" type="tt.eodl.cm.wm.wparrow" copy="[&BMYMAAA=]" GUID="FJfk6UuE5k+KkE8D1HemCA=="/>
+		<POI MapID="1438" xpos="-898.649" ypos="2.8985" zpos="-145.101" type="tt.eodl.cm.mm.beetle" GUID="IqxB2zpFNkyxT6iIWiWE+w=="/>
+		<POI MapID="1438" xpos="-859.771" ypos="2.62758" zpos="-49.4716" type="tt.eodl.cm.rm.interact" GUID="UA+jjpCdrUqW/OjnHlXPlA=="/>
+		<POI MapID="1438" xpos="-764.959" ypos="3.00668" zpos="-17.5335" type="tt.eodl.cm.mm.beetle" GUID="L2TUMuV4ukqhZ9FwrLjLVQ=="/>
+		<POI MapID="1438" xpos="-513.066" ypos="1.26181" zpos="-53.1455" type="tt.eodl.cm.rm.interact" GUID="Hs7IMUIIe069A54LZOTETA=="/>
+		<POI MapID="1438" xpos="-518.583" ypos="6.11403" zpos="8.48108" type="tt.eodl.cm.mm.skyscale" GUID="D6Qz47ucLUeusbhtcLf3Lg=="/>
+		<POI MapID="1438" xpos="-506.329" ypos="127.838" zpos="90.2308" type="tt.eodl.cm.rm.bondoffaith" GUID="PwUPWqtWRkqvy0wJu8XrwA=="/>
+		<POI MapID="1438" xpos="-554.519" ypos="152.322" zpos="6.1935" type="tt.eodl.cm.mm.beetle" GUID="LjjUzR6wuUyrEfnZ245AMw=="/>
+		<POI MapID="1438" xpos="-466.832" ypos="133.956" zpos="338.633" type="tt.eodl.cm.mm.springer" GUID="PhN1JNF2R0ycnWhoA4WziA=="/>
+		<POI MapID="1438" xpos="-466.165" ypos="157.088" zpos="344.305" type="tt.eodl.cm.mm.griffon" GUID="a8wgalmFukW4yuy3pk6/4g=="/>
+		<POI MapID="1438" xpos="-383.62" ypos="197.768" zpos="445.436" type="tt.eodl.cm.mm.raptor" GUID="pQHgPfakvk+XU0v5i2cIrQ=="/>
+		<POI MapID="1438" xpos="-286.786" ypos="264.267" zpos="528.172" type="tt.eodl.cm.mm.raptor" GUID="Ig/20+VJ7ECFrcim3jEUIQ=="/>
+		<POI MapID="1438" xpos="-523.995" ypos="217.295" zpos="427.193" type="tt.eodl.cm.rm.interact" GUID="TXyHntTuQ06HXb9oDm+98A=="/>
+		<POI MapID="1438" xpos="-603.331" ypos="207.648" zpos="488.14" type="tt.eodl.cm.rm.interact" GUID="IElS2j+/kESs/F7z3zbFCw=="/>
+		<POI MapID="1438" xpos="-602.914" ypos="209.155" zpos="490.909" type="tt.eodl.cm.mm.griffon" GUID="D7HRncHstUKrm8/S+JEaSQ=="/>
+		<POI MapID="1438" xpos="-604.404" ypos="207.687" zpos="484.509" type="tt.eodl.cm.rm.ppr_m" info="Rewinder is faster than waypointing, but if you'd rather, you can waypoint back. If the waypoint is contested, you must use rewinder." GUID="4dxWmnaAikCBcGYj4rNLKA=="/>
+		<POI MapID="1438" xpos="-536.715" ypos="17.4758" zpos="673.898" type="tt.eodl.cm.rm.ppr_r" GUID="p6nfijViRE2DVtMy5lIjvg=="/>
+		<POI MapID="1438" xpos="-534.232" ypos="17.4758" zpos="672.351" type="tt.eodl.cm.wm.wpcircle" copy="[&BBYNAAA=]" GUID="ILKJk4MdlEC6wZSQpjY/Zg=="/>
+		<POI MapID="1438" xpos="-593.734" ypos="207.659" zpos="455.367" type="tt.eodl.cm.wm.circle" GUID="GIbofSgBmEy084rGa6fZ8w=="/>
+		<POI MapID="1438" xpos="-882.23" ypos="2.83998" zpos="-129.012" type="tt.eodl.cm.wm.arrow" GUID="d0VxOCVuYkeRt+CK30Mf2Q=="/>
+		<POI MapID="1438" xpos="-899.468" ypos="3.04461" zpos="-155.757" type="tt.eodl.lantern" achievementid="6083" achievementbit="6" GUID="CcdseuLeJUmWJR3JY3pR3Q=="/>
+		<POI MapID="1438" xpos="-769.899" ypos="3.30415" zpos="-10.3809" type="tt.eodl.lantern" achievementid="6083" achievementbit="10" GUID="ulGXcWlgq0iICMmmryXYoA=="/>
+		<POI MapID="1438" xpos="831.701" ypos="54.9978" zpos="-610.431" type="tt.eodl.lantern" achievementid="6083" achievementbit="40" GUID="GXfOc9LSmUuWJiZfP+Wvjw=="/>
+		<POI MapID="1438" xpos="654.664" ypos="2.70633" zpos="-595.339" type="tt.eodl.lantern" achievementid="6083" achievementbit="31" GUID="sT3iXnmXEUin+jGIgNJ/rw=="/>
+		<POI MapID="1438" xpos="946.972" ypos="2.69902" zpos="-339.118" type="tt.eodl.lantern" achievementid="6083" achievementbit="36" GUID="8SqeVOHbVUy6FdfMl4/PpA=="/>
+		<POI MapID="1438" xpos="883.331" ypos="94.9533" zpos="-205.265" type="tt.eodl.lantern" achievementid="6083" achievementbit="12" GUID="B7Tt+KPkxECgs86UzcxIXQ=="/>
+		<POI MapID="1438" xpos="833.085" ypos="0.90009" zpos="-42.9725" type="tt.eodl.lantern" achievementid="6083" achievementbit="3" GUID="oUalOHpXJky++3hHEROcAg=="/>
+		<POI MapID="1438" xpos="1041.73" ypos="12.1037" zpos="-10.3299" type="tt.eodl.lantern" achievementid="6083" achievementbit="5" GUID="HMX48+K84kiV65D96ZIotg=="/>
+		<POI MapID="1438" xpos="561.845" ypos="2.40793" zpos="-5.17433" type="tt.eodl.lantern" achievementid="6083" achievementbit="9" GUID="2j0ShwEjjE6CntqgBcU/Kg=="/>
+		<POI MapID="1438" xpos="515.252" ypos="2.6408" zpos="28.1063" type="tt.eodl.lantern" achievementid="6083" achievementbit="29" GUID="Hsy/Yp0gc06Ss5nv/cSyTw=="/>
+		<POI MapID="1438" xpos="886.054" ypos="218.081" zpos="491.365" type="tt.eodl.lantern" achievementid="6083" achievementbit="37" GUID="5aDsKxp81UyLr539Ti0bUQ=="/>
+		<POI MapID="1438" xpos="954.254" ypos="92.7506" zpos="433.658" type="tt.eodl.lantern" achievementid="6083" achievementbit="24" GUID="1gzPNO6M3EqWitmOkXHKhg=="/>
+		<POI MapID="1438" xpos="1034.7" ypos="2.63928" zpos="634.268" type="tt.eodl.lantern" achievementid="6083" achievementbit="25" GUID="JuB7j9LpJkmjwC4MlpnmPw=="/>
+		<POI MapID="1438" xpos="941.324" ypos="-47.2834" zpos="571.899" type="tt.eodl.lantern" achievementid="6083" achievementbit="26" GUID="Vjsn4gOWZ02Bl5V1u0vhow=="/>
+		<POI MapID="1438" xpos="525.062" ypos="96.1886" zpos="656.212" type="tt.eodl.lantern" achievementid="6083" achievementbit="11" GUID="fyHgsnRDPkqaq5TAB6lvWQ=="/>
+		<POI MapID="1438" xpos="458.781" ypos="109.509" zpos="394.484" type="tt.eodl.lantern" achievementid="6083" achievementbit="41" GUID="ewD80kJheUWSLBTH9DPMCQ=="/>
+		<POI MapID="1438" xpos="307.473" ypos="2.62128" zpos="136.414" type="tt.eodl.lantern" achievementid="6083" achievementbit="16" GUID="leOWO1kBq0OjRqBNNU9kOQ=="/>
+		<POI MapID="1438" xpos="220.054" ypos="12.6189" zpos="359.76" type="tt.eodl.lantern" achievementid="6083" achievementbit="42" GUID="B5N8rhE8IU+KkGkMP4llOQ=="/>
+		<POI MapID="1438" xpos="225.606" ypos="2.62217" zpos="452.789" type="tt.eodl.lantern" achievementid="6083" achievementbit="15" GUID="pgeGbojDWEGroNiq2QqubA=="/>
+		<POI MapID="1438" xpos="-180.973" ypos="2.8811" zpos="-26.1403" type="tt.eodl.lantern" achievementid="6083" achievementbit="13" GUID="gkZKRzTuHk2mttYT8TReeg=="/>
+		<POI MapID="1438" xpos="-57.3213" ypos="2.62356" zpos="7.22845" type="tt.eodl.lantern" achievementid="6083" achievementbit="8" GUID="FPpdYkAIFUy8Y6uVn12v8g=="/>
+		<POI MapID="1438" xpos="-524.355" ypos="6.13458" zpos="9.14393" type="tt.eodl.lantern" achievementid="6083" achievementbit="23" GUID="SIpYawgC/USoxLk5w6rZ1A=="/>
+		<POI MapID="1438" xpos="58.664" ypos="2.57531" zpos="-470.689" type="tt.eodl.lantern" achievementid="6083" achievementbit="1" GUID="Jl41XSesqE2yJZepzB35mg=="/>
+		<POI MapID="1438" xpos="24.34" ypos="2.77564" zpos="-540.448" type="tt.eodl.lantern" achievementid="6083" achievementbit="28" GUID="Dm0+AoDnYkOoHdn6pVsJIQ=="/>
+		<POI MapID="1438" xpos="-108.085" ypos="3.04653" zpos="-642.986" type="tt.eodl.lantern" achievementid="6083" achievementbit="27" GUID="qkAqE8N9JUyMWeKw0kRj/w=="/>
+		<POI MapID="1438" xpos="-311.847" ypos="117.003" zpos="-444.754" type="tt.eodl.lantern" achievementid="6083" achievementbit="33" GUID="oaadk8hbCEmJSiDhWDVaTQ=="/>
+		<POI MapID="1438" xpos="-488.001" ypos="120.156" zpos="-320.517" type="tt.eodl.lantern" achievementid="6083" achievementbit="32" GUID="HT6czUc5SU+2sBp+ihCPxA=="/>
+		<POI MapID="1438" xpos="-670.61" ypos="198.135" zpos="-311.048" type="tt.eodl.lantern" achievementid="6083" achievementbit="35" GUID="En7zVEPB+kqe/+HifWtGWQ=="/>
+		<POI MapID="1438" xpos="-466.828" ypos="269.951" zpos="-468.922" type="tt.eodl.lantern" achievementid="6083" achievementbit="34" GUID="k1GUb86irkmXdRgc7xYdGw=="/>
+		<POI MapID="1438" xpos="-503.474" ypos="206.806" zpos="-459.395" type="tt.eodl.lantern" achievementid="6083" achievementbit="38" GUID="pX8Ey/cMm06eO+0+ohipkg=="/>
+		<POI MapID="1438" xpos="-853.92" ypos="139.007" zpos="-752.742" type="tt.eodl.lantern" achievementid="6083" achievementbit="43" GUID="owGF0BrX6EayYTMEa7QCeg=="/>
+		<POI MapID="1438" xpos="-870.317" ypos="1.29701" zpos="-619.234" type="tt.eodl.lantern" achievementid="6083" achievementbit="30" GUID="6lByfO503kqltxtY2EFkiQ=="/>
+		<POI MapID="1438" xpos="-559.025" ypos="152.322" zpos="0.460809" type="tt.eodl.lantern" achievementid="6083" achievementbit="39" GUID="+qeQYIcDN0+C529RGgEifg=="/>
+		<POI MapID="1438" xpos="-542.303" ypos="120.433" zpos="195.358" type="tt.eodl.lantern" achievementid="6083" achievementbit="4" GUID="M0m1++sYFEWdR8p5Cx5HgQ=="/>
+		<POI MapID="1438" xpos="-399.958" ypos="120.156" zpos="310.466" type="tt.eodl.lantern" achievementid="6083" achievementbit="17" GUID="eolC6lpLhE+qTPWLfPHMVw=="/>
+		<POI MapID="1438" xpos="-301.326" ypos="209.004" zpos="461.939" type="tt.eodl.lantern" achievementid="6083" achievementbit="18" GUID="w3QfruS6nUKiJ5z0tbe/Qw=="/>
+		<POI MapID="1438" xpos="-276.249" ypos="264.373" zpos="528.644" type="tt.eodl.lantern" achievementid="6083" achievementbit="19" GUID="h5RKps5UsUa804+/jGdymA=="/>
+		<POI MapID="1438" xpos="-469.254" ypos="157.273" zpos="348.604" type="tt.eodl.lantern" achievementid="6083" achievementbit="22" GUID="pcgQ4xTLDUmwYDFUdGkYqA=="/>
+		<POI MapID="1438" xpos="-554.5" ypos="211.839" zpos="442.576" type="tt.eodl.lantern" achievementid="6083" achievementbit="2" GUID="Gt0mEtnG30y08zVn/FCVgw=="/>
+		<POI MapID="1438" xpos="-589.492" ypos="207.712" zpos="472.7" type="tt.eodl.lantern" achievementid="6083" achievementbit="7" GUID="7CEiR9rI5kKGxc/TW2yN0g=="/>
+		<POI MapID="1438" xpos="-530.07" ypos="217.313" zpos="430.283" type="tt.eodl.lantern" achievementid="6083" achievementbit="20" GUID="WELxCW3Td0OPRuQhSMRARw=="/>
+		<POI MapID="1438" xpos="-662.151" ypos="260.995" zpos="178.24" type="tt.eodl.lantern" achievementid="6083" achievementbit="21" GUID="WkQZFgFr1Uq5VEq/3yXCew=="/>
+		<POI MapID="1438" xpos="-534.497" ypos="17.4758" zpos="675.236" type="tt.eodl.lantern" achievementid="6083" achievementbit="14" GUID="uRxwjYqYJ0iyt7SjnTPhnA=="/>
+	<!--LANTERN TRAILS-->
+		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
 
 
 	</POIs>
