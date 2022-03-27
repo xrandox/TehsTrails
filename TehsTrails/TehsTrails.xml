@@ -551,7 +551,31 @@
 
 
 
-
+	<MarkerCategory name="eodl" DisplayName="End of Dragons - Lanterns">
+			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
+				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
+				<!-- RED -->
+				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- GREY -->
+				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- LIGHT GREY -->
+				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- ORANGE -->
+				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- PINK -->
+				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- PEPEGA -->
+				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- DARK PURPLE -->
+				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- DARK BLUE -->
+				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- GREEN -->
+				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<!-- BLUE (PRIORITY) -->
+				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
+			</MarkerCategory>
+	</MarkerCategory>
 
 
 
@@ -7025,7 +7049,7 @@
 		<POI MapID="1442" xpos="794.48" ypos="0.245478" zpos="-225.779" type="tt.eod.h.chm.talk" GUID="VTJmYBElyEWgdEGu2cBZwg=="/>
 		<POI MapID="1442" xpos="795.866" ypos="0.0840342" zpos="-228.895" type="tt.eod.h.chm.start_heart" info="Purchase Haiju Minnow's from heart NPC. Fish and turn in Daijun Blackfins." infoRange="30.0" GUID="XAxbjfvigkKA9wGrvWizcg=="/>
 		<POI MapID="1442" xpos="783.092" ypos="0.196185" zpos="-219.014" type="tt.eod.h.chm.finish_heart" GUID="l+u2JJBQQ0GGjT/0I20wZw=="/>
-		<POI MapID="1442" xpos="785.013" ypos="0.727424" zpos="-217.155" type="tt.eod.cm.rm.finish" GUID="swqCEWD8FEKayQ6TNW2rkA=="/>
+		<POI MapID="1442" xpos="785.013" ypos="0.727424" zpos="-217.155" type="tt.eod.cm.rm.finish" info="All done here! Go back to Arborstone to start Echovald" copy="[&BGMNAAA=]" GUID="swqCEWD8FEKayQ6TNW2rkA=="/>
 		<POI MapID="1442" xpos="-661.681" ypos="30.5297" zpos="604.765" type="tt.eod.cm.rm.points_of_interest" GUID="GsipiY1OREuUkIgnIAaNGw=="/>
 		<POI MapID="1442" xpos="75.0908" ypos="143.09" zpos="309.272" type="tt.eod.cm.mm.griffon" GUID="onolbmmIzEyk3OtZByqncQ=="/>
 		<POI MapID="1442" xpos="68.2441" ypos="113.81" zpos="255.256" type="tt.eod.cm.mm.skyscale" GUID="8Mie72PdiUGgq59fYLZdMg=="/>
@@ -7139,8 +7163,9 @@
 		<POI MapID="1438" xpos="-746.846" ypos="197.593" zpos="171.847" type="tt.eod.cm.mm.griffon" GUID="yRGyojqdV0a6WOHQ7wIMEQ=="/>
 		<POI MapID="1438" xpos="-554.346" ypos="42.8409" zpos="685.281" type="tt.eod.cm.rm.points_of_interest" GUID="u6Nx+BAMBkCiwcdrvilv3Q=="/>
 		<POI MapID="1438" xpos="-1035.86" ypos="21.168" zpos="510.401" type="tt.eod.cm.rm.points_of_interest" GUID="huef2rUtnECuVczKw9LZUQ=="/>
-		<POI MapID="1438" xpos="-1042.35" ypos="18.9026" zpos="540.67" type="tt.eod.cm.rm.finish" GUID="92VVJJps/0alya5Thg7UIQ=="/>
+		<POI MapID="1438" xpos="-1042.35" ypos="18.9026" zpos="540.67" type="tt.eod.cm.rm.finish" copy="[&BMYMAAA=]" info="You're done! Go to Promenade Waypoint and then go southeast to the portal in the water to begin Seitung trail" infoRange="40.0" GUID="92VVJJps/0alya5Thg7UIQ=="/>
 		<!--TEW Markers-->
+		<POI MapID="1452" xpos="1108.63" ypos="91.5663" zpos="50.8005" type="tt.eod.cm.rm.exit_map" GUID="s79MLwKTnUuO2O9/nQCXlg=="/>
 		<POI MapID="1452" xpos="-657.159" ypos="162.672" zpos="361.872" type="tt.eod.cm.rm.start" GUID="UdisQJYhuk6RwlEZGjhrWg=="/>
 		<POI MapID="1452" xpos="-655.769" ypos="162.677" zpos="356.503" type="tt.eod.cm.mm.beetle" GUID="bKdbMOzKIEeaETRmZBEG4Q=="/>
 		<POI MapID="1452" xpos="-631.253" ypos="166.275" zpos="98.3978" type="tt.eod.cm.rm.points_of_interest" GUID="xVOAPNEThEm8cZxVDcAQyg=="/>
@@ -7152,18 +7177,22 @@
 		<POI MapID="1452" xpos="-1048.16" ypos="168.585" zpos="153.532" type="tt.eod.cm.rm.points_of_interest" GUID="LGq0Jy81Y0u3Yn39Q1ZI1w=="/>
 		<POI MapID="1452" xpos="-1045.79" ypos="167.706" zpos="150.676" type="tt.eod.cm.mm.beetle" GUID="mkug1OixOkCvhwMWyKoS6g=="/>
 		<POI MapID="1452" xpos="-866.593" ypos="134.006" zpos="-82.4929" type="tt.eod.cm.rm.points_of_interest" GUID="8ZAQninZCUqFgT2h1UXA2w=="/>
-		<POI MapID="1452" xpos="-872.754" ypos="178.111" zpos="-436.396" type="tt.eod.h.chm.start_heart" info="Talk to NPC and get disguised" infoRange="10.0" GUID="u5isimC6AUCmS45qHOdtNw=="/>
-		<POI MapID="1452" xpos="-932.219" ypos="174.631" zpos="-548.513" type="tt.eod.h.chm.interact" info="Steal jade tech, plant on guards by pillars when no one is looking." infoRange="30.0" GUID="YeB+R3Ewm0G057QdY9BToQ=="/>
+		<POI MapID="1452" xpos="-872.754" ypos="178.111" zpos="-436.396" type="tt.eod.h.chm.start_heart" info="Open your portal on marker, talk to NPC and get disguised, then take portal" infoRange="10.0" GUID="u5isimC6AUCmS45qHOdtNw=="/>
+		<POI MapID="1452" xpos="-932.219" ypos="174.631" zpos="-548.513" type="tt.eod.h.chm.interact" GUID="YeB+R3Ewm0G057QdY9BToQ=="/>
 		<POI MapID="1452" xpos="-891.186" ypos="177.103" zpos="-514.454" type="tt.eod.h.chm.interact" GUID="stsObY7Zxkaf8BE3iRVOcg=="/>
-		<POI MapID="1452" xpos="-959.666" ypos="172.958" zpos="-523.453" type="tt.eod.h.chm.interact" GUID="5uhL6Tgn3Eilt0PSMIyDEA=="/>
-		<POI MapID="1452" xpos="-955.265" ypos="175.305" zpos="-486.38" type="tt.eod.h.chm.interact" GUID="kT+RS+mxiEaHb3Gq+g5qJw=="/>
-		<POI MapID="1452" xpos="-998.888" ypos="162.266" zpos="-500.959" type="tt.eod.cm.rm.points_of_interest" GUID="VzEg3JkQx0e1oUjXOea+Iw=="/>
-		<POI MapID="1452" xpos="-990.077" ypos="222.067" zpos="-583.317" type="tt.eod.h.chm.kill" info="Kill single patrol here" infoRange="15.0" GUID="6Z21G22IvUm/mZ1i1oL0fw=="/>
+		<POI MapID="1452" xpos="-959.666" ypos="172.958" zpos="-523.453" type="tt.eod.h.chm.interact" info="Steal jade tech, plant on guards by pillars when no one is looking." infoRange="30.0" GUID="5uhL6Tgn3Eilt0PSMIyDEA=="/>
+		<POI MapID="1452" xpos="-992.100" ypos="162.612" zpos="-517.445" type="tt.eod.cm.rm.points_of_interest" GUID="VzEg3JkQx0e1oUjXOea+Iw=="/>
+		<POI MapID="1452" xpos="-878.833" ypos="169.802" zpos="-547.405" type="tt.eod.h.chm.kill" info="Bait single patrol to here and kill them out of sight of any guards to complete heart." infoRange="15.0" GUID="6Z21G22IvUm/mZ1i1oL0fw=="/>
+		<POI MapID="1452" xpos="-878.419" ypos="260.497" zpos="-460.094" type="tt.eod.cm.rm.portal" info="If you have portal: Place portal here, drop down to get HP, then drop off to get kicked out.
+		
+		If you don't have portal: Drop and get HP, then skyscale back up and place rewinder. Then drop and get disguised, pull rewinder back out, and rewind." infoRange="15.0" GUID="DMSuRuTOKkqcWcSlKTgYFA=="/>
+		<POI MapID="1452" xpos="-867.278" ypos="178.092" zpos="-437.062" type="tt.eod.cm.rm.portal" GUID="pZGXHPluZ0irR7kBlpWReA=="/>
+		<POI MapID="1452" xpos="-877.689" ypos="175.162" zpos="-417.955" type="tt.eod.cm.mm.skyscale" GUID="3SDp8W7tckW1czlc3sj1AQ=="/>
 		<POI MapID="1452" xpos="-950.595" ypos="221.606" zpos="-555.89" type="tt.eod.cm.rm.vistas" GUID="5Bu7IJMjC0WM7vfFa27XhA=="/>
 		<POI MapID="1452" xpos="-879.185" ypos="222.066" zpos="-484.117" type="tt.eod.cm.wm.hpm" GUID="90O4Uou3dUSVeZ5xAiAz5A=="/>
 		<POI MapID="1452" xpos="-1007.82" ypos="166.714" zpos="-599.006" type="tt.eod.cm.rm.points_of_interest" GUID="OSW6qLh+ZUiV1uRlPFmSYw=="/>
 		<POI MapID="1452" xpos="-1020.49" ypos="169.806" zpos="-595.219" type="tt.eod.h.chm.interact" GUID="F2mbTTjr5kOEvqFC3acfkA=="/>
-		<POI MapID="1452" xpos="-1006.33" ypos="168.29" zpos="-615.161" type="tt.eod.h.chm.talk" info="Talk to NPC, use skill to hit pillars as you float around. Go back and plant more jade tech if you still need more progress." infoRange="15.0" GUID="ovH6z4i720q6yRwVdG2qNg=="/>
+		<POI MapID="1452" xpos="-1006.33" ypos="168.29" zpos="-615.161" type="tt.eod.h.chm.talk" info="Talk to NPC, use skill to hit pillars as you float around." infoRange="15.0" GUID="ovH6z4i720q6yRwVdG2qNg=="/>
 		<POI MapID="1452" xpos="-873.404" ypos="163.323" zpos="-577.263" type="tt.eod.h.chm.finish_heart" info="Go out by zipline to lose diguise." infoRange="10.0" GUID="2n5fQn2OpEyTOxzGkx38vw=="/>
 		<POI MapID="1452" xpos="-813.751" ypos="170.014" zpos="-589.362" type="tt.eod.cm.mm.skyscale" GUID="vgTGt2Y/Yke2zVxNELDNzQ=="/>
 		<POI MapID="1452" xpos="-787.299" ypos="199.818" zpos="-658.157" type="tt.eod.cm.rm.points_of_interest" GUID="EpjSbHlZVkqaW+ut5Asvtg=="/>
@@ -7273,7 +7302,7 @@
 		<POI MapID="1452" xpos="1041.85" ypos="6.65331" zpos="-521.502" type="tt.eod.h.chm.finish_heart" GUID="9vvELchLAUu//cXZe27rkQ=="/>
 		<POI MapID="1452" xpos="1004.43" ypos="43.599" zpos="-194.79" type="tt.eod.h.chm.interact" info="If this is your first time, you must complete the Cryptseeker achievement first, then come back." infoRange="15.0" GUID="0nEzwoUwOEq0OARGjz8P4w=="/>
 		<POI MapID="1452" xpos="1069.49" ypos="30.721" zpos="-179.149" type="tt.eod.cm.rm.points_of_interest" GUID="O6/rfod7bUS+JySxGCgH+w=="/>
-		<POI MapID="1452" xpos="1071.12" ypos="30.9694" zpos="-176.97" type="tt.eod.cm.rm.finish" GUID="mR29n2GhJEKaeEbulLsiAw=="/>
+		<POI MapID="1452" xpos="1071.12" ypos="30.9694" zpos="-176.97" type="tt.eod.cm.rm.finish" copy="[&BPkMAAA=]" info="You're done! Go to Jade Gate waypoint and head east to begin DE trail" infoRange="30.0" GUID="mR29n2GhJEKaeEbulLsiAw=="/>
 		<POI MapID="1452" xpos="979.402" ypos="1.37617" zpos="-577.548" type="tt.eod.h.chm.fish" GUID="Skd/q5OS/kO0uamH+POHxA=="/>
 		<POI MapID="1452" xpos="974.124" ypos="1.37639" zpos="-610.396" type="tt.eod.h.chm.fish" GUID="OPfr6RQ4/Em/SJPt4BBX5Q=="/>
 		<POI MapID="1452" xpos="952.906" ypos="1.37639" zpos="-640.727" type="tt.eod.h.chm.fish" GUID="B5r3dlyN4UyI5WLoqrxYzA=="/>
@@ -7341,7 +7370,9 @@
 		<POI MapID="1422" xpos="-86.0601" ypos="1.37639" zpos="-286.852" type="tt.eod.cm.rm.points_of_interest" GUID="6RyeyfDV0USNmmI74PxBLg=="/>
 		<POI MapID="1422" xpos="-85.4556" ypos="9.22367" zpos="-752.511" type="tt.eod.cm.rm.points_of_interest" GUID="NJqjP+WvJEOdktRrnS4BBQ=="/>
 		<POI MapID="1422" xpos="-84.9918" ypos="7.52475" zpos="-750.646" type="tt.eod.cm.wm.wparrow" copy="[&BKIMAAA=]" GUID="A0GvX1VuV0SDQmxC4dlmMA=="/>
-		<POI MapID="1422" xpos="-197.841" ypos="176.314" zpos="837.965" type="tt.eod.cm.wm.arrow" info="Stop! Two things before you continue past this waypoint: 1) Your personal waypoint must be off cooldown 2) Meta cannot be happening. If you must, come back later. It'll just be a waste of time if you try and do it." infoRange="20.0" GUID="aDhagKtBF0ysE8426SoVSg=="/>
+		<POI MapID="1422" xpos="-197.841" ypos="176.314" zpos="837.965" type="tt.eod.cm.wm.arrow" info="Stop! Two things before you continue past this waypoint: 1) Your personal waypoint must be off cooldown 2) Meta cannot be happening. 
+		
+		If you must, come back later. It'll just be a waste of time if you try and do it." infoRange="20.0" GUID="aDhagKtBF0ysE8426SoVSg=="/>
 		<POI MapID="1422" xpos="-257.053" ypos="143.842" zpos="761.212" type="tt.eod.cm.mm.beetle" GUID="DNIplRBWukWpI/3gt64wuw=="/>
 		<POI MapID="1422" xpos="-442.805" ypos="156.399" zpos="711.723" type="tt.eod.cm.rm.points_of_interest" GUID="70qlwOeULUWhy5RAuTil2g=="/>
 		<POI MapID="1422" xpos="-373.288" ypos="156.473" zpos="567.23" type="tt.eod.cm.rm.points_of_interest" GUID="KKZ4/nM3DUOTJA/vup5lZw=="/>
@@ -7350,7 +7381,9 @@
 		<POI MapID="1422" xpos="-320.712" ypos="132.927" zpos="406.354" type="tt.eod.cm.rm.points_of_interest" GUID="erXgaYyZC0OKgo6xsNnXjw=="/>
 		<POI MapID="1422" xpos="-277.018" ypos="132.817" zpos="361.363" type="tt.eod.cm.rm.vistas" GUID="uUMPl2ZzOEO8t2UaHQAMBA=="/>
 		<POI MapID="1422" xpos="-163.06" ypos="342.062" zpos="148.881" type="tt.eod.cm.rm.points_of_interest" GUID="iR4eOFuSO0yv4aJ5ilA3BA=="/>
-		<POI MapID="1422" xpos="-171.397" ypos="341.911" zpos="149.005" type="tt.eod.cm.rm.ppr_m" info="This rewind timing can be tight if you aren't fast. Keep an eye on the buff as you fly. If it starts to blink, use Bond of Faith to quickly dismount and rewind. You can always retry the glide, getting back up here from the ground is a pain." infoRange="20.0" GUID="iKJOp856Rk+/OY19ZUspTg=="/>
+		<POI MapID="1422" xpos="-171.397" ypos="341.911" zpos="149.005" type="tt.eod.cm.rm.ppr_m" info="This rewind timing can be tight if you aren't fast. Keep an eye on the buff as you fly. If it starts to blink, use Bond of Faith to quickly dismount and rewind. 
+		
+		You can always retry the glide, getting back up here from the ground is a pain." infoRange="20.0" GUID="iKJOp856Rk+/OY19ZUspTg=="/>
 		<POI MapID="1422" xpos="-171.141" ypos="341.95" zpos="151.184" type="tt.eod.cm.mm.griffon" GUID="5EZmomFmsEuwVsj2C3IbJw=="/>
 		<POI MapID="1422" xpos="-341.117" ypos="166.483" zpos="186.657" type="tt.eod.cm.rm.points_of_interest" GUID="dkVC76bMW0ic0fSYIAiq3Q=="/>
 		<POI MapID="1422" xpos="-402.286" ypos="210.056" zpos="-0.6173" type="tt.eod.cm.rm.points_of_interest" GUID="RPtEbAA7RU6l2ssqKLvjcQ=="/>
@@ -7364,7 +7397,11 @@
 		<POI MapID="1422" xpos="30.5175" ypos="362.164" zpos="-467.792" type="tt.eod.cm.rm.points_of_interest" GUID="nS9wlPKvfUGVG9aMg799gA=="/>
 		<POI MapID="1422" xpos="24.2099" ypos="391.713" zpos="-498.393" type="tt.eod.cm.rm.jadewp" info="Place personal waypoint" infoRange="10.0" GUID="y5NTr+hvMESSTvvlsY+yaA=="/>
 		<POI MapID="1422" xpos="-17.5181" ypos="391.713" zpos="-522.097" type="tt.eod.cm.rm.points_of_interest" GUID="+2LY27qWX02DQF9ygHFIyg=="/>
-		<POI MapID="1422" xpos="-19.6732" ypos="391.713" zpos="-527.303" type="tt.eod.cm.mm.griffon" info="The first path here uses an out of bounds mechanic to return you back to this spot, it is key that you do not touch the ground. The second path uses rewinder, you'll need to be quick on opening the vista and dropping down to get the waypoint before rewinding. Again, you can always rewind and try again. Getting back up is a pain." infoRange="15.0" GUID="S8Siz+zaoUqO3otq2uWP8w=="/>
+		<POI MapID="1422" xpos="-19.6732" ypos="391.713" zpos="-527.303" type="tt.eod.cm.mm.griffon" info="The first path here uses an out of bounds mechanic to return you back to this spot, it is key that you do not touch the ground. 
+		
+		The second path uses rewinder, you'll need to be quick on opening the vista and dropping down to get the waypoint before rewinding. 
+		
+		Again, you can always rewind and try again. Getting back up is a pain." infoRange="15.0" GUID="S8Siz+zaoUqO3otq2uWP8w=="/>
 		<POI MapID="1422" xpos="49.9196" ypos="391.713" zpos="-510.93" type="tt.eod.cm.mm.griffon" GUID="NX4g4ncKfEmxsu99lT4k1g=="/>
 		<POI MapID="1422" xpos="25.4881" ypos="391.713" zpos="-484.107" type="tt.eod.cm.mm.griffon" GUID="RfvSTrbRpES4+WKbllU3Vw=="/>
 		<POI MapID="1422" xpos="-262.611" ypos="185.844" zpos="-632.484" type="tt.eod.cm.rm.points_of_interest" GUID="gMfkKi2XHESPs95xrvhDDg=="/>
@@ -7396,52 +7433,66 @@
 		<POI MapID="1422" xpos="-10.5339" ypos="246.106" zpos="-316.267" type="tt.eod.cm.wm.hpm" GUID="srCDbvkcRESiTfS/VWepRA=="/>
 		<POI MapID="1422" xpos="3.08573" ypos="245.364" zpos="-316.669" type="tt.eod.cm.mm.griffon" GUID="3+abfuYGXEmNRzzUoXltCQ=="/>
 		<POI MapID="1422" xpos="109.912" ypos="177.173" zpos="-260.646" type="tt.eod.cm.wm.hpm" GUID="brXEcBWtnUSSa5jSS5FgaQ=="/>
-		<POI MapID="1422" xpos="111.7" ypos="177.173" zpos="-262.494" type="tt.eod.cm.rm.finish" GUID="+4dSSqKWNUqh6WLxZ3kZlw=="/>
+		<POI MapID="1422" xpos="111.7" ypos="177.173" zpos="-262.494" type="tt.eod.cm.rm.finish" info="All done! Congrats!" infoRange="15.0" GUID="+4dSSqKWNUqh6WLxZ3kZlw=="/>
 		<!--Arborstone Markers-->
 		<POI MapID="1428" xpos="-742.297" ypos="9.57112" zpos="445.828" type="tt.eod.cm.rm.start" info="The Echovald Wilds path starts through this portal" infoRange="30.0" GUID="WtZqmJnK+UCsBC8KgXw6WA=="/>
 		<POI MapID="1428" xpos="-1126.92" ypos="7.40712" zpos="742.558" type="tt.eod.cm.rm.start" info="New Kaineng City path starts through this portal" infoRange="30.0" GUID="aYD/Jq4VokuxbQbA641/fg=="/>
+		<POI MapID="1428" xpos="-817.376" ypos="2.12448" zpos="521.234" type="tt.mc.cm.rm.start" info="TehsTrails Map Comp starts here and goes NKC -> SP -> TEW -> DE. Good luck!" infoRange="30.0" GUID="dV0/NkfpV06Shilx5gLjIA=="/>
+		<POI MapID="1428" xpos="-826.531" ypos="2.02353" zpos="527.419" type="tt.eod.cm.mm.beetle" GUID="cQUbbxoe40SZ8KIQgvTvRg=="/>	
 	<!--END OF DRAGONS TRAILS-->
 		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
 		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.h.hz" trailData="Data/TehsTrails/EoDTrails/SPHeartZones.trl"/>
+		<!--Lantern Trails-->
+		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
 
 
 	</POIs>
