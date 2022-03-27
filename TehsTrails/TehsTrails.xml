@@ -7054,6 +7054,7 @@
 		<POI MapID="1442" xpos="75.0908" ypos="143.09" zpos="309.272" type="tt.eod.cm.mm.griffon" GUID="onolbmmIzEyk3OtZByqncQ=="/>
 		<POI MapID="1442" xpos="68.2441" ypos="113.81" zpos="255.256" type="tt.eod.cm.mm.skyscale" GUID="8Mie72PdiUGgq59fYLZdMg=="/>
 		<!--NKC Markers-->
+		<POI MapID="1438" xpos="508.579" ypos="2.62128" zpos="35.509" type="tt.eod.cm.rm.ppr_r" GUID="855vooxwV0WPRAaz3/1RoQ=="/>
 		<POI MapID="1438" xpos="1049.53" ypos="42.4478" zpos="-704.871" type="tt.eod.cm.rm.start" GUID="Lo0hfuFJDUSvDud12df9MQ=="/>
 		<POI MapID="1438" xpos="1048.16" ypos="40.2256" zpos="-694.331" type="tt.eod.cm.mm.raptor" GUID="1fTaCPxPo02byjpU605bFg=="/>
 		<POI MapID="1438" xpos="826.983" ypos="55.2259" zpos="-617.92" type="tt.eod.cm.wm.hpm" GUID="D8MIZ1fZyUya7008YPlUwg=="/>
