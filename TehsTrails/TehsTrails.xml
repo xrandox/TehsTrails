@@ -7149,13 +7149,10 @@
 		<POI MapID="1438" xpos="-318.31" ypos="260.796" zpos="509.401" type="tt.eod.cm.rm.points_of_interest" GUID="EZSUTnSEmkC7wlZh52Ni0A=="/>
 		<POI MapID="1438" xpos="-349.149" ypos="260.918" zpos="509.306" type="tt.eod.cm.mm.raptor" GUID="ilsANc/v2U2KojscnJKDaA=="/>
 		<POI MapID="1438" xpos="-500.013" ypos="229.848" zpos="457.156" type="tt.eod.cm.rm.points_of_interest" GUID="S2K77e7OlEGHzH6tVaZtWg=="/>
-		<POI MapID="1438" xpos="-513.831" ypos="217.439" zpos="468.892" type="tt.eod.h.chm.start_heart" info="Grab batteries, then fight the training mechs on the highest difficulty you can. You should be able to run back and forth between the two locations. Make sure to use the jade bot terminal on the path to grab the upper PoI. You could light lanterns, but I find it slower." infoRange="30.0" GUID="CyzsrOcoX0mIG4gO7ZBbVw=="/>
-		<POI MapID="1438" xpos="-519.29" ypos="217.218" zpos="476.229" type="tt.eod.h.chm.interact" GUID="4IYTgUzdHUiTNouZra0Uhg=="/>
-		<POI MapID="1438" xpos="-526.228" ypos="207.504" zpos="485.672" type="tt.eod.h.chm.interact" GUID="fjSFtUn/lEGHSmF+wJLLew=="/>
-		<POI MapID="1438" xpos="-519.903" ypos="207.503" zpos="497.483" type="tt.eod.h.chm.interact" GUID="IseK+LBfH0KCh1qniAW9cw=="/>
-		<POI MapID="1438" xpos="-630.056" ypos="207.588" zpos="413.631" type="tt.eod.h.chm.interact" GUID="KMNs1Rf9pUqyeg9rKuH+ng=="/>
+		<POI MapID="1438" xpos="-635.142" ypos="207.384" zpos="429.695" type="tt.eod.h.chm.finish_heart" GUID="FYKc1GPLNUuixNtC6rEt9w=="/>
+		<POI MapID="1438" xpos="-617.213" ypos="207.610" zpos="440.076" type="tt.eod.h.chm.start_heart" info="Use bot to get PoI up top, then return. Then spam the zipline (F -> X to dismount) to quickly complete heart." infoRange="30.0" GUID="CyzsrOcoX0mIG4gO7ZBbVw=="/>
 		<POI MapID="1438" xpos="-626.796" ypos="207.61" zpos="443.746" type="tt.eod.h.chm.interact" GUID="zzeMclsGLEmWixxHGUWmvQ=="/>
-		<POI MapID="1438" xpos="-592.103" ypos="207.659" zpos="454.335" type="tt.eod.cm.rm.waypoints" GUID="rTkrD/YET0S3RD/zRCPqTQ=="/>
+		<POI MapID="1438" xpos="-595.896" ypos="207.659" zpos="447.721" type="tt.eod.cm.rm.waypoints" GUID="rTkrD/YET0S3RD/zRCPqTQ=="/>
 		<POI MapID="1438" xpos="-509.35" ypos="273.436" zpos="370.302" type="tt.eod.cm.rm.points_of_interest" GUID="BCd3N9PMpE+BD/1/GKHTtg=="/>
 		<POI MapID="1438" xpos="-506.398" ypos="275.911" zpos="367.811" type="tt.eod.h.chm.deactivate" GUID="zLHFzzgGWky1g+7sMVce9w=="/>
 		<POI MapID="1438" xpos="-632.295" ypos="207.61" zpos="435.629" type="tt.eod.cm.mm.raptor" GUID="joA+uPvdp0Srzn2hP4F4Yg=="/>
