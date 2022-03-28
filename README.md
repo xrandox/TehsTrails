@@ -1,7 +1,7 @@
 # TehsTrails
 A collection of xTeh.7146's marker packs. 
 
-Currently contains two packs, Core Tyria Map Completion and Teh's Train Trails
+Currently contains two packs, Core Tyria Map Completion, EoD Map Comp, EoD Lanterns and Teh's HP Train Trails
 
 In the works:
 - Heart of Thorns Map Completion
