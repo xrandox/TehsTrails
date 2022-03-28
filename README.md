@@ -13,7 +13,7 @@ In the works:
 ***
 
 ### Map Completion 
-A pack tailored for speedrunning central tyria map completion. It utilizes all mounts, waypoints and a multitude of markers (Over 5,000!) to give you the fastest map completion times possible. The current map comp world record of 8h59m utilizes this packs routing!
+A pack tailored for speedrunning map completion. It utilizes all mounts, waypoints and a multitude of markers (Over 5,000!) to give you the fastest map completion times possible. The current map comp world record of 8h59m utilizes this packs routing!
 
 ***
 ### Hero Point Train Trails
