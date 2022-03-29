@@ -7549,7 +7549,160 @@
 	<!--LANTERN MARKERS-->
 
 		<!--SP Markers-->
-
+		<POI MapID="1442" xpos="69.3976" ypos="112.456" zpos="277.656" type="tt.eodl.cm.rm.interact" GUID="WJPRAAtExE6vJBti0rwSmQ=="/>
+		<POI MapID="1442" xpos="71.8939" ypos="111.97" zpos="277.577" type="tt.eodl.cm.mm.springer" GUID="cb/Yg0Gt4E+lfbFLUVRcOw=="/>
+		<POI MapID="1442" xpos="72.8429" ypos="131.436" zpos="284.85" type="tt.eodl.cm.rm.bondoffaith" GUID="q7ubtiVTu0W63M1t6IfceQ=="/>
+		<POI MapID="1442" xpos="73.4477" ypos="137.852" zpos="300.894" type="tt.eodl.cm.mm.griffon" GUID="kzpvpjH0DEuUMPmUjpb25Q=="/>
+		<POI MapID="1442" xpos="69.4925" ypos="48.4418" zpos="549.264" type="tt.eodl.cm.mm.griffon" GUID="DopGtdK4L0eZyxb5C2/k2Q=="/>
+		<POI MapID="1442" xpos="-173.297" ypos="1.37632" zpos="731.81" type="tt.eodl.cm.mm.skimmer" GUID="UHpaZX5I6UW2D8+e5QlhVw=="/>
+		<POI MapID="1442" xpos="-258.091" ypos="69.7176" zpos="570.607" type="tt.eodl.cm.mm.raptor" GUID="ValRzyG4vUychgEDpKVTDA=="/>
+		<POI MapID="1442" xpos="-368.411" ypos="39.8938" zpos="538.285" type="tt.eodl.cm.mm.raptor" GUID="PbU+ZsXop0+JOHA38r6xpA=="/>
+		<POI MapID="1442" xpos="-527.407" ypos="11.4163" zpos="553.065" type="tt.eodl.cm.rm.bondoffaith" GUID="J2dh152pk0+OcerE83xr2Q=="/>
+		<POI MapID="1442" xpos="-618.167" ypos="4.68123" zpos="539.714" type="tt.eodl.cm.rm.interact" GUID="DJOtqxbao0u6HfJAFJgRew=="/>
+		<POI MapID="1442" xpos="-661.726" ypos="30.5249" zpos="604.754" type="tt.eodl.cm.rm.interact" GUID="7YTBhOxDN0+oKEkUB8OFIg=="/>
+		<POI MapID="1442" xpos="-659.391" ypos="29.6301" zpos="597.965" type="tt.eodl.cm.rm.interact" GUID="bivwx885Zk6pf27axyYHcQ=="/>
+		<POI MapID="1442" xpos="-624.468" ypos="29.6429" zpos="589.976" type="tt.eodl.cm.mm.skyscale" GUID="snyqA6YHh0i93vuo0wwNGw=="/>
+		<POI MapID="1442" xpos="-616.315" ypos="64.1549" zpos="599.133" type="tt.eodl.cm.rm.interact" GUID="3v9i4FW+70qbInBry6rMaw=="/>
+		<POI MapID="1442" xpos="-615.613" ypos="3.40141" zpos="532.956" type="tt.eodl.cm.mm.raptor" GUID="LtrIWKZ/I0Gh9NdF/9Qn8g=="/>
+		<POI MapID="1442" xpos="-704.249" ypos="1.37641" zpos="556.639" type="tt.eodl.cm.mm.skimmer" GUID="7xMPEvvJNEm+Z07XaN1MbQ=="/>
+		<POI MapID="1442" xpos="-770.48" ypos="9.60812" zpos="598.062" type="tt.eodl.cm.rm.interact" GUID="jikFmD5mr0+CAXi5Y0ojlw=="/>
+		<POI MapID="1442" xpos="-776.776" ypos="10.4091" zpos="589.009" type="tt.eodl.cm.rm.interact" GUID="Pne7EBCEZ0OcuU7xmlj3sA=="/>
+		<POI MapID="1442" xpos="-786.043" ypos="83.0728" zpos="592.705" type="tt.eodl.cm.mm.beetle" GUID="Ff4qW+Atr0KVezDkkdiGHA=="/>
+		<POI MapID="1442" xpos="-918.636" ypos="132.565" zpos="655.556" type="tt.eodl.cm.rm.interact" GUID="o7gXJNys7kSCgo1XRklj+w=="/>
+		<POI MapID="1442" xpos="-960.169" ypos="122.684" zpos="653.52" type="tt.eodl.cm.mm.beetle" GUID="IqfVTf52xEe2Ywmi3vF6mA=="/>
+		<POI MapID="1442" xpos="-985.919" ypos="134.972" zpos="408.702" type="tt.eodl.cm.wm.wparrow" copy="[&BGUNAAA=]" GUID="vxPghmMK4U2V3XZ42HO0dw=="/>
+		<POI MapID="1442" xpos="68.3183" ypos="113.278" zpos="259.617" type="tt.eodl.cm.rm.start" infoRange="20.0" info="Teh's Lantern Trail starts here! 
+		
+		Please note, there is no trail that leads to the Aetherblade Refuge Lantern, as it is locked behind the Aetherblade meta event. You'll need to light that lantern on your own." GUID="i1XCaMXiN0q41BvItXpV2w=="/>
+		<POI MapID="1442" xpos="68.1280" ypos="114.214" zpos="249.117" type="tt.eodl.cm.wm.arrow" GUID="eRQph60CDEurttnaR1Bg6A=="/>
+		<POI MapID="1442" xpos="71.5756" ypos="113.287" zpos="256.281" type="tt.eodl.cm.rm.1" GUID="ZOyzREz140mb5II82LJhCQ=="/>
+		<POI MapID="1442" xpos="74.3306" ypos="113.95" zpos="248.799" type="tt.eodl.cm.rm.2" GUID="NhG1cml9G0Oqdgz5utxMoA=="/>
+		<POI MapID="1442" xpos="65.4195" ypos="114.147" zpos="255.996" type="tt.eodl.cm.rm.3" GUID="fl7LYJtZaUKJzvsG3k/N3A=="/>
+		<POI MapID="1442" xpos="121.986" ypos="122.141" zpos="222.449" type="tt.eodl.cm.mm.skyscale" GUID="V6h4sAyS5Umyz3ph+gmimA=="/>
+		<POI MapID="1442" xpos="151.724" ypos="162.435" zpos="136.522" type="tt.eodl.cm.rm.interact" GUID="CUa1JAgBDEuDEeE+aBjjig=="/>
+		<POI MapID="1442" xpos="194.325" ypos="161.005" zpos="127.088" type="tt.eodl.cm.rm.interact" GUID="na6v0ezIK0ilOuFNtoDZdw=="/>
+		<POI MapID="1442" xpos="202.587" ypos="160.968" zpos="123.204" type="tt.eodl.cm.mm.jackal" GUID="NNQbGv51ikKeSAv/eZ5WMA=="/>
+		<POI MapID="1442" xpos="405.757" ypos="198.863" zpos="49.1898" type="tt.eodl.cm.mm.springertogriff" GUID="FuS82qYLTUqpKcakcVPh7Q=="/>
+		<POI MapID="1442" xpos="446.443" ypos="0.162987" zpos="238.113" type="tt.eodl.cm.mm.beetle" GUID="2sEKrQ0Zp0STNx4qxFxjgA=="/>
+		<POI MapID="1442" xpos="399.907" ypos="-0.65245" zpos="386.097" type="tt.eodl.cm.mm.skyscale" GUID="UC9+KSQsrE6qnPGAc+M6Xg=="/>
+		<POI MapID="1442" xpos="72.1494" ypos="133.174" zpos="277.272" type="tt.eod.cm.rm.bondoffaith" GUID="J2dh152pk0+OcerE83xr2Q=="/>
+		<POI MapID="1442" xpos="376.873" ypos="1.76785" zpos="700.264" type="tt.eodl.cm.mm.skimmer" GUID="y9G8eLVwx0uhe35B/I1j/Q=="/>
+		<POI MapID="1442" xpos="464.042" ypos="0.228754" zpos="660.445" type="tt.eodl.cm.mm.beetle" GUID="rnyZ3QD5bE6TdyJdjkYdRg=="/>
+		<POI MapID="1442" xpos="628.873" ypos="0.196422" zpos="663.118" type="tt.eodl.cm.mm.raptor" GUID="I9z+zziD+kK+NTwyZhX+Sg=="/>
+		<POI MapID="1442" xpos="363.694" ypos="3.91177" zpos="634.251" type="tt.eodl.cm.rm.interact" GUID="Pyikja+ZXkicHgjynZ1mxg=="/>
+		<POI MapID="1442" xpos="855.254" ypos="2.06894" zpos="671.906" type="tt.eodl.cm.rm.interact" GUID="al5yv2Mi5UuW7j5sdC9q+g=="/>
+		<POI MapID="1442" xpos="985.61" ypos="24.1233" zpos="706.544" type="tt.eodl.cm.mm.skyscale" GUID="HCN9fBPSPUeoGkSUqzFVRw=="/>
+		<POI MapID="1442" xpos="898.744" ypos="25.5871" zpos="452.525" type="tt.eodl.cm.mm.beetle" GUID="QSk5oj6r80W3PWcXqsoF9A=="/>
+		<POI MapID="1442" xpos="900.336" ypos="18.9451" zpos="227.061" type="tt.eodl.cm.rm.interact" GUID="a2Lh5RYUx022ds+R94ypqQ=="/>
+		<POI MapID="1442" xpos="923.691" ypos="18.8133" zpos="223.868" type="tt.eodl.cm.rm.interact" GUID="LhcD322r3EiHtSFm0dpYvw=="/>
+		<POI MapID="1442" xpos="919.549" ypos="18.6972" zpos="218.769" type="tt.eodl.cm.mm.beetle" GUID="cUVHTLHYy0WngufeFexSFw=="/>
+		<POI MapID="1442" xpos="897.846" ypos="66.539" zpos="-45.1242" type="tt.eodl.cm.mm.beetle" GUID="s/4G/xekEk6KpF2Vda0iDg=="/>
+		<POI MapID="1442" xpos="811.71" ypos="15.3479" zpos="-268.689" type="tt.eodl.cm.mm.raptor" GUID="OlDDXRcM2UyoKjl2Q47W2A=="/>
+		<POI MapID="1442" xpos="885.606" ypos="17.3634" zpos="-377.279" type="tt.eodl.cm.rm.interact" GUID="nJztZqxYFEexEmHGvFtjKQ=="/>
+		<POI MapID="1442" xpos="918.457" ypos="15.0511" zpos="-387.114" type="tt.eodl.cm.mm.skyscale" GUID="kYwXqgVhME6rmAYGgalsVA=="/>
+		<POI MapID="1442" xpos="971.59" ypos="100.556" zpos="-364.458" type="tt.eodl.cm.mm.griffon" GUID="LFKMHoiFGkWrC7okiF4YPA=="/>
+		<POI MapID="1442" xpos="-78.8084" ypos="14.3559" zpos="-183.939" type="tt.eodl.cm.wm.circle" GUID="NT2oSaJL5UePiCOYGm9cMA=="/>
+		<POI MapID="1442" xpos="-74.3585" ypos="14.4778" zpos="-183.256" type="tt.eodl.cm.rm.1" GUID="Le0sl08ZnkS5cD8fWzwKNw=="/>
+		<POI MapID="1442" xpos="-77.1485" ypos="14.7933" zpos="-189.325" type="tt.eodl.cm.rm.2" GUID="MrTRJ5WIK0WDT1G3maF9TQ=="/>
+		<POI MapID="1442" xpos="-82.7479" ypos="14.2992" zpos="-179.97" type="tt.eodl.cm.rm.3" GUID="4HtmxRSlsUavpAi3Y+SbjA=="/>
+		<POI MapID="1442" xpos="-73.0273" ypos="17.3400" zpos="-202.661" type="tt.eodl.cm.mm.jackal" GUID="mAmEf7wASUy9aZYYpCAmUA=="/>
+		<POI MapID="1442" xpos="-73.9815" ypos="14.3769" zpos="-179.23" type="tt.eodl.cm.mm.skyscale" GUID="w0I58w3f70a6Dnajlt//DQ=="/>
+		<POI MapID="1442" xpos="-85.819" ypos="12.9148" zpos="-182.397" type="tt.eodl.cm.mm.beetle" GUID="syYQYfTXBkKEs6fzsGCk/w=="/>
+		<POI MapID="1442" xpos="-62.3791" ypos="21.9801" zpos="-167.406" type="tt.eodl.cm.rm.dismount" GUID="FCzgglsBv0ejXxqGoR6Oxw=="/>
+		<POI MapID="1442" xpos="-46.5924" ypos="13.1069" zpos="-178.682" type="tt.eodl.cm.rm.interact" GUID="TvR/Ttu0j0S5R0qrElPQQg=="/>
+		<POI MapID="1442" xpos="-43.7079" ypos="13.5056" zpos="-176.83" type="tt.eodl.cm.wm.wpcircle" copy="[&BGUNAAA=]" GUID="Nu/y6RF400efiNeCTcFA4Q=="/>
+		<POI MapID="1442" xpos="-196.479" ypos="62.3722" zpos="-72.8108" type="tt.eodl.cm.rm.finish" GUID="+4nKeAI5HkG1Y5RwSnIE+A=="/>
+		<POI MapID="1442" xpos="-96.3586" ypos="53.097" zpos="-382.394" type="tt.eodl.cm.mm.skyscale" GUID="x6cCY96QYES7SPA8wW+Q7g=="/>
+		<POI MapID="1442" xpos="-219.476" ypos="20.3013" zpos="-280.745" type="tt.eodl.cm.rm.interact" GUID="uLU25rFFtUKSqkzSSwqTdg=="/>
+		<POI MapID="1442" xpos="-193.216" ypos="4.26335" zpos="122.093" type="tt.eodl.cm.rm.interact" GUID="GytQ2c8G20+I82pSSB15Tw=="/>
+		<POI MapID="1442" xpos="-428.429" ypos="2.83031" zpos="195.207" type="tt.eodl.cm.rm.interact" GUID="qwhaOxGiSEeEApBRVapYOg=="/>
+		<POI MapID="1442" xpos="-430.746" ypos="2.7525" zpos="195.97" type="tt.eodl.cm.wm.wpheart" copy="[&BL8MAAA=]" GUID="b4S4YK00LEyNQhp6grhMDg=="/>
+		<POI MapID="1442" xpos="-857.28" ypos="115.926" zpos="-117.54" type="tt.eodl.cm.wm.heart" GUID="gh4Ens+prUOQ1HTjKy00ZQ=="/>
+		<POI MapID="1442" xpos="-867.804" ypos="135.881" zpos="-72.5364" type="tt.eodl.cm.mm.skyscale" GUID="fBKR1eiY+kChZCp0NcfE7A=="/>
+		<POI MapID="1442" xpos="-967.384" ypos="133.174" zpos="-72.5068" type="tt.eodl.cm.rm.interact" GUID="vO101q8WwUiuOi3kTNbH7w=="/>
+		<POI MapID="1442" xpos="-998.935" ypos="98.0848" zpos="-182.451" type="tt.eodl.cm.rm.dismount" GUID="VbCKx9y1TkORSRVx5Jd4Ig=="/>
+		<POI MapID="1442" xpos="-904.632" ypos="18.5363" zpos="-437.557" type="tt.eodl.cm.rm.interact" GUID="r9GqB7scdE29xm5FlYgqvA=="/>
+		<POI MapID="1442" xpos="-819.43" ypos="35.5601" zpos="-538.857" type="tt.eodl.cm.rm.interact" GUID="Silk1flfB0Ot++luV/noag=="/>
+		<POI MapID="1442" xpos="-830.489" ypos="36.5253" zpos="-507.2" type="tt.eodl.cm.mm.skyscale" GUID="V60a+KesjEiCIypceC6UmQ=="/>
+		<POI MapID="1442" xpos="-682.807" ypos="49.2187" zpos="-457.945" type="tt.eodl.cm.mm.skyscale" GUID="Ofbd7pHC10mjm43kC7c0dg=="/>
+		<POI MapID="1442" xpos="-635.118" ypos="46.4901" zpos="-501.801" type="tt.eodl.cm.rm.interact" GUID="dH9DKJKzPkyL5tSQkLEBQQ=="/>
+		<POI MapID="1442" xpos="-501.315" ypos="48.1865" zpos="-432.189" type="tt.eodl.cm.rm.interact" GUID="hm+J/lOYvkK79s8evi8adw=="/>
+		<POI MapID="1442" xpos="-417.838" ypos="5.41046" zpos="-632.55" type="tt.eodl.cm.wm.wpcircle" copy="[&BGUNAAA=]" GUID="z4IA/ATRuUOIWlUga4/A4w=="/>
+		<POI MapID="1442" xpos="-71.2096" ypos="216.561" zpos="48.3071" type="tt.eodl.cm.mm.griffon" GUID="AI7ri20xpUCX1gMVeD0Ebg=="/>
+		<POI MapID="1442" xpos="-71.7359" ypos="218.768" zpos="54.0142" type="tt.eodl.cm.rm.jadewp" info="Place your personal waypoint here" infoRange="20.0" GUID="s0CpTR5aPk6Ed5AvvZkcWg=="/>
+		<POI MapID="1442" xpos="-439.25" ypos="144.686" zpos="95.232" type="tt.eodl.cm.rm.interact" GUID="3U7qcSVtPkGNiZy5WahhWQ=="/>
+		<POI MapID="1442" xpos="-426.47" ypos="140.954" zpos="100.292" type="tt.eodl.cm.mm.beetle" GUID="dnn2o5f5hEOovX0WYbAbNw=="/>
+		<POI MapID="1442" xpos="-583.037" ypos="107.756" zpos="-92.99" type="tt.eodl.cm.mm.skyscale" GUID="LJ3HtlCYZE2a1nJsaCamXQ=="/>
+		<POI MapID="1442" xpos="-632.912" ypos="165.842" zpos="-71.305" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="etqndLxUjUePl4qRhp8jDg=="/>
+		<POI MapID="1442" xpos="132.423" ypos="71.5391" zpos="-75.1449" type="tt.eodl.cm.rm.interact" GUID="7vxckYlr4EKAqSiK0nmMIA=="/>
+		<POI MapID="1442" xpos="142.656" ypos="70.883" zpos="-79.3647" type="tt.eodl.cm.mm.beetle" GUID="/qrQd1BoSk+qmS9TaqLACg=="/>
+		<POI MapID="1442" xpos="155.081" ypos="74.2091" zpos="-342.278" type="tt.eodl.cm.rm.interact" GUID="1TeWRqfthk6vgcNYGR8l6Q=="/>
+		<POI MapID="1442" xpos="165.53" ypos="74.1275" zpos="-391.128" type="tt.eodl.cm.mm.skyscale" GUID="FtOthbxrI0Sx3fwZNNOEIQ=="/>
+		<POI MapID="1442" xpos="69.9169" ypos="101.181" zpos="-653.556" type="tt.eodl.cm.mm.skyscale" GUID="Aaja8zuNqkufuCuv1jNllA=="/>
+		<POI MapID="1442" xpos="83.8596" ypos="132.192" zpos="-647.949" type="tt.eodl.cm.mm.griffon" GUID="smoCEdbr+U2Sl0pa1ccCew=="/>
+		<POI MapID="1442" xpos="407.946" ypos="71.2222" zpos="-341.763" type="tt.eodl.cm.rm.interact" GUID="JF9fjsm/z0a2/bFbSwWIIw=="/>
+		<POI MapID="1442" xpos="354.672" ypos="77.1105" zpos="-236.528" type="tt.eodl.cm.rm.interact" GUID="S5/CIegr3ES4xpXrvn0pjw=="/>
+		<POI MapID="1442" xpos="496.558" ypos="113.071" zpos="-192.65" type="tt.eodl.cm.rm.interact" GUID="xYNYNX2ZSUWmi+MbXq8/8Q=="/>
+		<POI MapID="1442" xpos="503.66" ypos="113.053" zpos="-188.121" type="tt.eodl.cm.mm.griffon" GUID="1NwmlFxC7keh06HxeEqLYw=="/>
+		<POI MapID="1442" xpos="489.871" ypos="24.8497" zpos="-19.8885" type="tt.eodl.cm.wm.wpcircle" copy="[&BJ4MAAA=]" GUID="Q6+puX3peEi3J82v6lyq9w=="/>
+		<POI MapID="1442" xpos="906.222" ypos="0.817406" zpos="-612.825" type="tt.eodl.cm.rm.interact" GUID="gpkrnuxVL0ShOpVURyBKUw=="/>
+		<POI MapID="1442" xpos="904.86" ypos="0.598811" zpos="-615.736" type="tt.eodl.cm.wm.wparrow" copy="[&BGUNAAA=]" GUID="2uoRvm//Ak6cPUbTnDi1LQ=="/>
+		<POI MapID="1442" xpos="-56.6980" ypos="14.8209" zpos="-148.814" type="tt.eodl.lantern" achievementid="6239" achievementbit="36" GUID="lWd907ZUa0myRkNOWwJYwQ=="/>
+		<POI MapID="1442" xpos="94.102" ypos="2.61914" zpos="598.789" type="tt.eodl.lantern" achievementid="6239" achievementbit="36" GUID="lWd907ZUa0myRkNOWwJYwQ=="/>
+		<POI MapID="1442" xpos="372.901" ypos="0.454921" zpos="702.482" type="tt.eodl.lantern" achievementid="6239" achievementbit="37" GUID="TjMw45mAQkmzSsdMtftHNQ=="/>
+		<POI MapID="1442" xpos="391.583" ypos="35.6966" zpos="456.478" type="tt.eodl.lantern" achievementid="6239" achievementbit="51" GUID="CzouyUt6v0O46s4iOvUJ4Q=="/>
+		<POI MapID="1442" xpos="440.499" ypos="22.8213" zpos="217.775" type="tt.eodl.lantern" achievementid="6239" achievementbit="30" GUID="T6FcpP9BFkG8a0eiiOWNGA=="/>
+		<POI MapID="1442" xpos="616.828" ypos="13.7839" zpos="653.641" type="tt.eodl.lantern" achievementid="6239" achievementbit="29" GUID="QPyNYABeCE+gVGdiQ/AOcg=="/>
+		<POI MapID="1442" xpos="976.189" ypos="24.1032" zpos="711.02" type="tt.eodl.lantern" achievementid="6239" achievementbit="28" GUID="fYIal4U9+E2jfsmlLkPhdg=="/>
+		<POI MapID="1442" xpos="904.74" ypos="28.9721" zpos="458.061" type="tt.eodl.lantern" achievementid="6239" achievementbit="27" GUID="ZcpN40q0pEGFyXo2QLgpqQ=="/>
+		<POI MapID="1442" xpos="883.763" ypos="18.7186" zpos="217.006" type="tt.eodl.lantern" achievementid="6239" achievementbit="26" GUID="4/4K5DSlU0Gm/4bBFHvxfw=="/>
+		<POI MapID="1442" xpos="108.22" ypos="122.168" zpos="179.403" type="tt.eodl.lantern" achievementid="6239" achievementbit="32" GUID="+YcZZJDP402jmbHs5CsB7g=="/>
+		<POI MapID="1442" xpos="47.3078" ypos="126.998" zpos="254.624" type="tt.eodl.lantern" achievementid="6239" achievementbit="33" GUID="lqGzdHMO6kWUCpatRSI7Ug=="/>
+		<POI MapID="1442" xpos="-36.5444" ypos="139.074" zpos="194.632" type="tt.eodl.lantern" achievementid="6239" achievementbit="34" GUID="1K+RVrqZc0KqZYWleJLiCA=="/>
+		<POI MapID="1442" xpos="-67.4933" ypos="220.845" zpos="77.9154" type="tt.eodl.lantern" achievementid="6239" achievementbit="56" GUID="YwdJnRQdXEOpmtoVhBWj1w=="/>
+		<POI MapID="1442" xpos="-478.038" ypos="144.967" zpos="128.811" type="tt.eodl.lantern" achievementid="6239" achievementbit="48" GUID="XRqmKk4s0k+k1lx5WLXX9g=="/>
+		<POI MapID="1442" xpos="-986.685" ypos="134.972" zpos="411.108" type="tt.eodl.lantern" achievementid="6239" achievementbit="46" GUID="NjNgBuo9yUyGs3nWNmfOsw=="/>
+		<POI MapID="1442" xpos="-912.095" ypos="126.667" zpos="698.837" type="tt.eodl.lantern" achievementid="6239" achievementbit="47" GUID="lKvb2JY3iUC8+SM1TXVKiQ=="/>
+		<POI MapID="1442" xpos="-625.29" ypos="64.2578" zpos="591.98" type="tt.eodl.lantern" achievementid="6239" achievementbit="43" GUID="lItv139NBkuPa1+L8l2mVw=="/>
+		<POI MapID="1442" xpos="-572.761" ypos="2.04464" zpos="562.585" type="tt.eodl.lantern" achievementid="6239" achievementbit="42" GUID="Lzvy/MaPCEaj1EruYDiy7w=="/>
+		<POI MapID="1442" xpos="-364.723" ypos="39.8895" zpos="532.256" type="tt.eodl.lantern" achievementid="6239" achievementbit="39" GUID="9klYeorUPUKFMQ+LtL6DIg=="/>
+		<POI MapID="1442" xpos="76.8062" ypos="50.0713" zpos="551.268" type="tt.eodl.lantern" achievementid="6239" achievementbit="35" GUID="14aKFnzLu0issyzmQy0KiA=="/>
+		<POI MapID="1442" xpos="-165.551" ypos="0.55056" zpos="738.57" type="tt.eodl.lantern" achievementid="6239" achievementbit="38" GUID="EbumYuMDEEigSANEVu4sOg=="/>
+		<POI MapID="1442" xpos="-197.052" ypos="62.2669" zpos="-75.7871" type="tt.eodl.lantern" achievementid="6239" achievementbit="11" GUID="ByxDsov0IE2D2WvcQRfaaQ=="/>
+		<POI MapID="1442" xpos="-304.292" ypos="1.64403" zpos="-63.6878" type="tt.eodl.lantern" achievementid="6239" achievementbit="10" GUID="i3PLdnXd2kiOZaDdd6p1yQ=="/>
+		<POI MapID="1442" xpos="-417.594" ypos="1.0025" zpos="191.931" type="tt.eodl.lantern" achievementid="6239" achievementbit="45" GUID="H+UaUYhi10CrSCnNWuk0bA=="/>
+		<POI MapID="1442" xpos="-199.945" ypos="1.2023" zpos="160.84" type="tt.eodl.lantern" achievementid="6239" achievementbit="55" GUID="yCL7+2k7l0mEkEtQY3flYQ=="/>
+		<POI MapID="1442" xpos="-418.988" ypos="102.992" zpos="-211.923" type="tt.eodl.lantern" achievementid="6239" achievementbit="9" GUID="BTzjqfz9s06Hpt3+RkKn7w=="/>
+		<POI MapID="1442" xpos="-634.438" ypos="166.946" zpos="-68.7852" type="tt.eodl.lantern" achievementid="6239" achievementbit="54" GUID="igE+v0d/zU6Xpibyr6OBgA=="/>
+		<POI MapID="1442" xpos="-862.433" ypos="125.973" zpos="-102.457" type="tt.eodl.lantern" achievementid="6239" achievementbit="44" GUID="hHlhhgMHyEyjI1mFhHrDcQ=="/>
+		<POI MapID="1442" xpos="-886.667" ypos="153.873" zpos="-36.4381" type="tt.eodl.lantern" achievementid="6239" achievementbit="7" GUID="TfNTLnhWCkyfRnBy5nOtiA=="/>
+		<POI MapID="1442" xpos="-1007.19" ypos="98.4425" zpos="-17.0208" type="tt.eodl.lantern" achievementid="6239" achievementbit="6" GUID="EuX/hX8aWU21tY103NFVsA=="/>
+		<POI MapID="1442" xpos="-1011.09" ypos="97.985" zpos="-198.496" type="tt.eodl.lantern" achievementid="6239" achievementbit="5" GUID="yEsF/phD+E+BCUOnCv85Tg=="/>
+		<POI MapID="1442" xpos="-910.644" ypos="18.3803" zpos="-434.326" type="tt.eodl.lantern" achievementid="6239" achievementbit="4" GUID="OU1pxzfSYkeTOMLdtYTx7Q=="/>
+		<POI MapID="1442" xpos="-799.892" ypos="36.5531" zpos="-565.359" type="tt.eodl.lantern" achievementid="6239" achievementbit="3" GUID="VvH2SDoVZkKCbF73F8yCDA=="/>
+		<POI MapID="1442" xpos="-688.816" ypos="46.4588" zpos="-524.531" type="tt.eodl.lantern" achievementid="6239" achievementbit="41" GUID="uNu2w5O68Eu78yWYb7k3SQ=="/>
+		<POI MapID="1442" xpos="-692.485" ypos="79.0725" zpos="-436.386" type="tt.eodl.lantern" achievementid="6239" achievementbit="8" GUID="LzSdj+ahi02dDvagLD8eBg=="/>
+		<POI MapID="1442" xpos="-563.125" ypos="38.023" zpos="-437.947" type="tt.eodl.lantern" achievementid="6239" achievementbit="40" GUID="f4ybYR0GxUiIsTOsfAY6Mg=="/>
+		<POI MapID="1442" xpos="-499.028" ypos="46.2152" zpos="-377.864" type="tt.eodl.lantern" achievementid="6239" achievementbit="49" GUID="F+VPEVqu10qzSBaSK/Si+w=="/>
+		<POI MapID="1442" xpos="-494.848" ypos="50.3092" zpos="-462.212" type="tt.eodl.lantern" achievementid="6239" achievementbit="1" GUID="XmSELuLjvUeGHRTvKlvUdg=="/>
+		<POI MapID="1442" xpos="-416.031" ypos="6.46214" zpos="-631.468" type="tt.eodl.lantern" achievementid="6239" achievementbit="2" GUID="Hj01inkFvEihcPow+XGtyQ=="/>
+		<POI MapID="1442" xpos="-70.774" ypos="16.0234" zpos="-197.317" type="tt.eodl.lantern" achievementid="6239" achievementbit="13" GUID="YO4zz6MgX02l3z8bf2EopA=="/>
+		<POI MapID="1442" xpos="-70.7809" ypos="51.83" zpos="-417.364" type="tt.eodl.lantern" achievementid="6239" achievementbit="17" GUID="8gjxCp9HhUSffMJE1gX6rg=="/>
+		<POI MapID="1442" xpos="-183.76" ypos="21.844" zpos="-297.666" type="tt.eodl.lantern" achievementid="6239" achievementbit="12" GUID="PhdfFVzTRU6jmHtpz4uz4w=="/>
+		<POI MapID="1442" xpos="-305.342" ypos="2.03989" zpos="-209.796" type="tt.eodl.lantern" achievementid="6239" achievementbit="52" GUID="sWEz1oJkhkih7XM2kZsoYg=="/>
+		<POI MapID="1442" xpos="404.803" ypos="200.607" zpos="52.779" type="tt.eodl.lantern" achievementid="6239" achievementbit="31" GUID="1YK/ZWN4zkm8D7y/tLdsJw=="/>
+		<POI MapID="1442" xpos="128.014" ypos="75.3446" zpos="-62.142" type="tt.eodl.lantern" achievementid="6239" achievementbit="14" info="Be careful not to miss the bridge with the next beetle drift" infoRange="30.0" GUID="IBxEhzIl6EOZOmXpqKIylQ=="/>
+		<POI MapID="1442" xpos="170.978" ypos="74.7974" zpos="-378.876" type="tt.eodl.lantern" achievementid="6239" achievementbit="16" GUID="+R9IeZTOG0yBg/hdWkGGjg=="/>
+		<POI MapID="1442" xpos="66.3914" ypos="99.777" zpos="-656.083" type="tt.eodl.lantern" achievementid="6239" achievementbit="18" GUID="2jPVZP1Awkasjfz8fOlnug=="/>
+		<POI MapID="1442" xpos="410.466" ypos="92.4091" zpos="-423.08" type="tt.eodl.lantern" achievementid="6239" achievementbit="19" GUID="KmDcnGSUiE2WRFFnmtrUqA=="/>
+		<POI MapID="1442" xpos="325.338" ypos="60.1929" zpos="-290.151" type="tt.eodl.lantern" achievementid="6239" achievementbit="15" GUID="UMlGQEmsyU6pWZJnn0BhFQ=="/>
+		<POI MapID="1442" xpos="479.433" ypos="112.693" zpos="-192.766" type="tt.eodl.lantern" achievementid="6239" achievementbit="50" GUID="qUYAiHzQH0mYgEJLI4V2Ew=="/>
+		<POI MapID="1442" xpos="488.213" ypos="25.349" zpos="-21.7725" type="tt.eodl.lantern" achievementid="6239" achievementbit="25" GUID="s6W+vgoEQ0WDtBwaD1i0/Q=="/>
+		<POI MapID="1442" xpos="903.363" ypos="67.1851" zpos="-35.5327" type="tt.eodl.lantern" achievementid="6239" achievementbit="23" GUID="zXR88sBGtE6tkdnef8wtAA=="/>
+		<POI MapID="1442" xpos="988.702" ypos="101.061" zpos="-370.695" type="tt.eodl.lantern" achievementid="6239" achievementbit="53" GUID="jLtePy9F2ka5jiYb6+LCYQ=="/>
+		<POI MapID="1442" xpos="880.401" ypos="17.3787" zpos="-388.442" type="tt.eodl.lantern" achievementid="6239" achievementbit="21" GUID="Olvkb8TKEkeXT/LoSd5JVw=="/>
+		<POI MapID="1442" xpos="941.639" ypos="0.632091" zpos="-600.67" type="tt.eodl.lantern" achievementid="6239" achievementbit="22" GUID="/FIJOqs6UUi7GbMk3U+tig=="/>
+		<POI MapID="1442" xpos="801.189" ypos="17.2613" zpos="-265.74" type="tt.eodl.lantern" achievementid="6239" achievementbit="20" GUID="8T54aInC+ECSKXWoOhPK7A=="/>
 		<!--NKC Markers-->
 		<POI MapID="1438" xpos="-149.816" ypos="2.62128" zpos="-35.5133" type="tt.eodl.cm.wm.heart" GUID="7yc/imVY/kKN7Gucysse3w=="/>
 		<POI MapID="1438" xpos="219.927" ypos="2.63877" zpos="443.191" type="tt.eodl.cm.wm.wpheart" info="If not contested, waypoint" infoRange="30" copy="[&BBYNAAA=]" GUID="rqKFAEy3tUSPEPa4eNeODQ=="/>
