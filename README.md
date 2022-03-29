@@ -1,7 +1,7 @@
 # TehsTrails
 A collection of xTeh.7146's marker packs. 
 
-Currently contains two packs, Core Tyria Map Completion and Teh's Train Trails
+Currently contains two packs, Core Tyria Map Completion, EoD Map Comp, EoD Lanterns and Teh's HP Train Trails
 
 In the works:
 - Heart of Thorns Map Completion
@@ -13,7 +13,7 @@ In the works:
 ***
 
 ### Map Completion 
-A pack tailored for speedrunning central tyria map completion. It utilizes all mounts, waypoints and a multitude of markers (Over 5,000!) to give you the fastest map completion times possible. The current map comp world record of 8h59m utilizes this packs routing!
+A pack tailored for speedrunning map completion. It utilizes all mounts, waypoints and a multitude of markers (Over 5,000!) to give you the fastest map completion times possible. The current map comp world record of 8h59m utilizes this packs routing!
 
 ***
 ### Hero Point Train Trails
