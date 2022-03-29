@@ -3,7 +3,8 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                              CORE TYRIA                                                                           ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="mc" DisplayName="Core Tyria Map Completion">
+		<MarkerCategory name="mapcomp" DisplayName="     |===Map Completion===|" isseparator="1"/>
+		<MarkerCategory name="mc" DisplayName="Core Tyria">
 		<!--=======================================================================================================================================================================-->	
 		<!--==                                                                              MAIN TRAILS                                                                          ==-->
 		<!--=======================================================================================================================================================================-->
@@ -201,7 +202,7 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                        HEART OF THORNS MAP COMP                                                                   ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="hot" DisplayName="Heart of Thorns Map Completion (Coming soon!)">
+		<MarkerCategory name="hot" DisplayName="Heart of Thorns (WIP!)">
 
 			<MarkerCategory name="ct" DisplayName="Trails">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
@@ -315,7 +316,7 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                         PATH OF FIRE MAP COMP                                                                     ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="pof" DisplayName="Path of Fire Map Completion (Coming soon!)">
+		<MarkerCategory name="pof" DisplayName="Path of Fire (Coming soon!)">
 
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
@@ -431,7 +432,7 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                        END OF DRAGONS MAP COMP                                                                    ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="eod" DisplayName="End of Dragons Map Completion">
+		<MarkerCategory name="eod" DisplayName="End of Dragons">
 
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
@@ -550,8 +551,8 @@
 
 
 
-
-		<MarkerCategory name="eodl" DisplayName="End of Dragons - Lanterns">
+		<MarkerCategory name="lanterns" DisplayName="     |======Lanterns======|" isseparator="1"/>
+		<MarkerCategory name="eodl" DisplayName="End of Dragons">
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
 				<!-- RED -->
@@ -637,7 +638,8 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                     HEART OF THORNS HERO POINT TRAIN                                                              ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="hothpt" DisplayName="Heart of Thorns Hero Point Train (WIP)">
+		<MarkerCategory name="hpt" DisplayName="     |=====HP Trails=====|" isseparator="1"/>
+		<MarkerCategory name="hothpt" DisplayName="Heart of Thorns (WIP)">
 
 			<MarkerCategory name="ct" DisplayName="Trails">
 				<MarkerCategory name="mapGR" DisplayName="Griffon Trail" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
@@ -712,7 +714,7 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                      PATH OF FIRE HERO POINT TRAIN                                                                ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="pofhpt" DisplayName="Path of Fire Hero Point Train (WIP)">
+		<MarkerCategory name="pofhpt" DisplayName="Path of Fire (WIP)">
 			<MarkerCategory name="ct" DisplayName="Trails">
 				<MarkerCategory name="mapR" DisplayName="Raptor Trail" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<MarkerCategory name="mapG" DisplayName="Map Change Trail" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>
@@ -789,6 +791,7 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                               CREDITS                                                                             ==-->
 	<!--=======================================================================================================================================================================-->
+		<MarkerCategory name="other" DisplayName="     |=======Other=======|" isseparator="1"/>
 		<MarkerCategory name="credits" DisplayName="Credits" isseparator="1">
 		
 			<MarkerCategory name="createdby" DisplayName="Created By" isseparator="1">
