@@ -7821,9 +7821,159 @@
 		<POI MapID="1438" xpos="-530.07" ypos="217.313" zpos="430.283" type="tt.eodl.lantern" achievementid="6083" achievementbit="20" GUID="WELxCW3Td0OPRuQhSMRARw=="/>
 		<POI MapID="1438" xpos="-662.151" ypos="260.995" zpos="178.24" type="tt.eodl.lantern" achievementid="6083" achievementbit="21" GUID="WkQZFgFr1Uq5VEq/3yXCew=="/>
 		<POI MapID="1438" xpos="-534.497" ypos="17.4758" zpos="675.236" type="tt.eodl.lantern" achievementid="6083" achievementbit="14" GUID="uRxwjYqYJ0iyt7SjnTPhnA=="/>
+	<!--TEW Markers-->
+		<POI MapID="1452" xpos="-127.159" ypos="162.828" zpos="710.272" type="tt.eodl.cm.wm.arrow" info="TEW Lantern Trail starts here.
+		
+		Please note, there is no trail leading to the two lanterns inside Aspenwood Research Facility, as they are locked behind the meta event. You must get those lanterns on your own.
+		
+		You will also need to have unlocked the story step 'Empty' with the character you are on in order to get to the lantern in Secret Cavern. The trail does lead to this lantern, but you may choose to come back and get it after." infoRange="35.0" GUID="uVt6BrBT8EeXqNCRLYVf1Q=="/>
+		<POI MapID="1452" xpos="-120.844" ypos="162.827" zpos="698.525" type="tt.eodl.cm.mm.beetle" GUID="4G/mq+gwNEWB+bgYH2kEKg=="/>
+		<POI MapID="1452" xpos="-119.754" ypos="162.837" zpos="720.117" type="tt.eodl.cm.rm.start" GUID="fC2I5ViP3Eud1gJgBXIgRQ=="/>
+		<POI MapID="1452" xpos="-403.511" ypos="212.381" zpos="685.045" type="tt.eodl.cm.rm.interact" GUID="i+AVP90ZME2CvZa/sk6UBA=="/>
+		<POI MapID="1452" xpos="-104.507" ypos="162.83" zpos="709.346" type="tt.eodl.cm.rm.interact" GUID="4xWf/VdI0U+yGRMI/feBwg=="/>
+		<POI MapID="1452" xpos="-288.931" ypos="170.01" zpos="568.709" type="tt.eodl.cm.rm.interact" GUID="dLEKEo1zlE6EIwo012xcFQ=="/>
+		<POI MapID="1452" xpos="-574.525" ypos="163.169" zpos="599.071" type="tt.eodl.cm.rm.interact" GUID="PjaRM0P5d0iBXgsYV6iLzg=="/>
+		<POI MapID="1452" xpos="-553.161" ypos="168.661" zpos="586.391" type="tt.eodl.cm.mm.beetle" GUID="gcgCi0WhVUS2ukvQJKmQZg=="/>
+		<POI MapID="1452" xpos="-885.211" ypos="179.834" zpos="-435.131" type="tt.eodl.cm.rm.interact" GUID="Gj28A5Crt0W7TV/+9Z+lDg=="/>
+		<POI MapID="1452" xpos="-868.424" ypos="178.09" zpos="-437.155" type="tt.eodl.cm.mm.skyscale" GUID="1xVjqZ8BikW4deQwm9S5Ag=="/>
+		<POI MapID="1452" xpos="-873.315" ypos="178.841" zpos="-438.622" type="tt.eodl.cm.rm.ppr_r" info="Go up with skyscale first, place rewinder mark at top, then drop down and get disguised. Pull rewinder back out and rewind to top." infoRange="30.0" GUID="G/CRFCZOUU689M7i1efIog=="/>
+		<POI MapID="1452" xpos="-868.015" ypos="256.941" zpos="-448.838" type="tt.eodl.cm.rm.bondoffaith" GUID="5O7NkjWI50y8x4WwL5GsuQ=="/>
+		<POI MapID="1452" xpos="-878.966" ypos="260.495" zpos="-460.856" type="tt.eodl.cm.rm.ppr_m" info="Place rewinder mark and drop down to get disguised" infoRange="20.0" GUID="yl2UEFE5uEmQJARiXroYlQ=="/>
+		<POI MapID="1452" xpos="-772.744" ypos="169.85" zpos="-551.727" type="tt.eodl.cm.mm.skyscale" GUID="NTLfrPziyEabqYu9sFK/5Q=="/>
+		<POI MapID="1452" xpos="-816.54" ypos="206.236" zpos="-619.01" type="tt.eodl.cm.rm.interact" GUID="hgmiotRnd0G8tZcc3rldfA=="/>
+		<POI MapID="1452" xpos="-561.451" ypos="204.921" zpos="-695.939" type="tt.eodl.cm.mm.skyscale" GUID="ZmLIUZpmVkKHQ+bTSba+3w=="/>
+		<POI MapID="1452" xpos="-771.287" ypos="199.818" zpos="-669.076" type="tt.eodl.cm.mm.jackal" GUID="x1D7KTf/HkyvgRAwDHxOTQ=="/>
+		<POI MapID="1452" xpos="-526.485" ypos="1.26958" zpos="-684.332" type="tt.eodl.cm.rm.interact" GUID="o/4tOrDc20eS/2tZWWX1Fw=="/>
+		<POI MapID="1452" xpos="-528.771" ypos="1.26957" zpos="-683.546" type="tt.eodl.cm.wm.wparrow" copy="[&BIsMAAA=]" GUID="yNCfklmJ0kuKTX6KZQhpGQ=="/>
+		<POI MapID="1452" xpos="-176.659" ypos="181.666" zpos="342.493" type="tt.eodl.cm.rm.interact" GUID="PDIPPpRzCUqIGygRrygpcg=="/>
+		<POI MapID="1452" xpos="-278.658" ypos="214.35" zpos="346.587" type="tt.eodl.cm.rm.interact" GUID="n2ukp8SxPUmk4duDFVBsZg=="/>
+		<POI MapID="1452" xpos="-274.813" ypos="216.458" zpos="299.885" type="tt.eodl.cm.rm.interact" GUID="/spGMP7VPEOd/xDqxJZDbw=="/>
+		<POI MapID="1452" xpos="-292.491" ypos="214.479" zpos="376.653" type="tt.eodl.cm.mm.beetle" GUID="lMXBpwW5eEiInn4GcV4/Ug=="/>
+		<POI MapID="1452" xpos="-112.603" ypos="145.868" zpos="86.9154" type="tt.eodl.cm.mm.skyscale" GUID="UaI8yO9fL0CsGWnnY6VjvQ=="/>
+		<POI MapID="1452" xpos="34.1291" ypos="135.629" zpos="101.541" type="tt.eodl.cm.rm.interact" GUID="gxBW2QwqjUuuBTmrVE28EA=="/>
+		<POI MapID="1452" xpos="-171.197" ypos="147.189" zpos="-96.136" type="tt.eodl.cm.rm.interact" GUID="+rOKiwzCA0+E0+rdzCdjRw=="/>
+		<POI MapID="1452" xpos="-426.052" ypos="115.542" zpos="-100.426" type="tt.eodl.cm.mm.skyscale" GUID="t9QNN6r+T0KYt0/KECUJSA=="/>
+		<POI MapID="1452" xpos="-433.797" ypos="147.097" zpos="-112.467" type="tt.eodl.cm.mm.beetle" GUID="QT8gLpRqnUeXH1726XL+LA=="/>
+		<POI MapID="1452" xpos="-420.043" ypos="158.465" zpos="-295.277" type="tt.eodl.cm.mm.skyscale" GUID="MUy6WerOuUuT1OTJi63fJw=="/>
+		<POI MapID="1452" xpos="-288.241" ypos="277.356" zpos="-337.772" type="tt.eodl.cm.mm.griffon" GUID="G61Cb+VCCEa//FCto5r7fg=="/>
+		<POI MapID="1452" xpos="-508.323" ypos="315.669" zpos="-522.827" type="tt.eodl.cm.mm.griffon" GUID="260woGy8XUWZy8YBAy1Ffw=="/>
+		<POI MapID="1452" xpos="-319.248" ypos="139.31" zpos="-454.181" type="tt.eodl.cm.mm.beetle" GUID="rqsIMJ5yHUevNuOBjOoMTg=="/>
+		<POI MapID="1452" xpos="-93.4399" ypos="95.8687" zpos="-623.295" type="tt.eodl.cm.rm.interact" GUID="VPvO3nOVBkmiikapAbNL1w=="/>
+		<POI MapID="1452" xpos="-90.8177" ypos="103.465" zpos="-624.262" type="tt.eodl.cm.mm.skyscale" GUID="gNo4SCu4PkmNnXk7QT7MhA=="/>
+		<POI MapID="1452" xpos="-46.6195" ypos="114.566" zpos="-654.626" type="tt.eodl.cm.mm.skyscale" GUID="Nd2RSwl7jUG81+i5MqyAvw=="/>
+		<POI MapID="1452" xpos="54.2172" ypos="194.731" zpos="-301.827" type="tt.eodl.cm.rm.interact" GUID="EwALbck3nESViSodpnpE0Q=="/>
+		<POI MapID="1452" xpos="261.85" ypos="195.738" zpos="-283.927" type="tt.eodl.cm.rm.interact" GUID="PExnRyJRSkipj6aYgAlEDw=="/>
+		<POI MapID="1452" xpos="423.38" ypos="62.3085" zpos="-279.921" type="tt.eodl.cm.rm.interact" GUID="mjZcQFnFoUGvIZkyLFH5wg=="/>
+		<POI MapID="1452" xpos="620.578" ypos="7.48105" zpos="65.655" type="tt.eodl.cm.rm.interact" info="An npc will spawn here that must be killed to gain access. Lantern is in the last room. Second room you have to kill mobs to get the key." infoRange="30.0" GUID="HyitMKb6+UyfwPkFVOq7pQ=="/>
+		<POI MapID="1452" xpos="708.667" ypos="32.3247" zpos="110.028" type="tt.eodl.cm.rm.interact" GUID="/OWoBdcj9k2muHdjni601g=="/>
+		<POI MapID="1452" xpos="701.172" ypos="32.353" zpos="89.9928" type="tt.eodl.cm.rm.interact" GUID="cH5L/ldzBU2uUmStOrRIRw=="/>
+		<POI MapID="1452" xpos="721.438" ypos="1.43497" zpos="27.9047" type="tt.eodl.cm.rm.interact" GUID="J8+X/stjbUWqcTiyM5WQJA=="/>
+		<POI MapID="1452" xpos="617.418" ypos="11.5619" zpos="97.1282" type="tt.eodl.cm.wm.wparrow" copy="[&BIsMAAA=]" GUID="xNwElAGxhEK9df8zETKw+g=="/>
+		<POI MapID="1452" xpos="-126.45" ypos="162.828" zpos="704.08" type="tt.eodl.cm.rm.1" GUID="/NsvgxD8DEmoOY6RO4YhBg=="/>
+		<POI MapID="1452" xpos="-121.311" ypos="162.828" zpos="705.677" type="tt.eodl.cm.rm.2" GUID="AVqGqo7yy0uKipnBIaSvqA=="/>
+		<POI MapID="1452" xpos="-119.391" ypos="162.828" zpos="710.931" type="tt.eodl.cm.rm.3" GUID="WdDp5JTe10iUA9LSNml9jA=="/>
+		<POI MapID="1452" xpos="-100.668" ypos="154.384" zpos="594.028" type="tt.eodl.cm.mm.skyscale" GUID="aH1conuJa0KjjTqACeWxoQ=="/>
+		<POI MapID="1452" xpos="6.85415" ypos="290.734" zpos="537.859" type="tt.eodl.cm.rm.interact" GUID="XAUd5eIuXEW7Pxlnc4xbSg=="/>
+		<POI MapID="1452" xpos="42.0286" ypos="174.404" zpos="527.418" type="tt.eodl.cm.rm.zip" GUID="/aVpIO+cSkifSS1XsXZOxg=="/>
+		<POI MapID="1452" xpos="84.3022" ypos="172.033" zpos="543.688" type="tt.eodl.cm.rm.interact" GUID="TcPTV/NON0GLOnnQi0y4JA=="/>
+		<POI MapID="1452" xpos="36.913" ypos="170.699" zpos="646.159" type="tt.eodl.cm.rm.interact" GUID="uf4p3uMtRk2h82QerwqZbA=="/>
+		<POI MapID="1452" xpos="32.2305" ypos="170.004" zpos="659.221" type="tt.eodl.cm.rm.interact" GUID="NylOyHOCaUSF4rQP0HASRw=="/>
+		<POI MapID="1452" xpos="135.774" ypos="226.119" zpos="676.026" type="tt.eodl.cm.rm.interact" GUID="OGpJafthl0qmxcKBjvLiZA=="/>
+		<POI MapID="1452" xpos="149.487" ypos="216.279" zpos="676.549" type="tt.eodl.cm.wm.x" GUID="jzsAClvjxk6bAC6E09LY4Q=="/>
+		<POI MapID="1452" xpos="75.3953" ypos="169.277" zpos="516.042" type="tt.eodl.cm.mm.beetle" GUID="gRNl41lnzEqoSSSw585TPQ=="/>
+		<POI MapID="1452" xpos="364.119" ypos="205.787" zpos="627.917" type="tt.eodl.cm.rm.jadewp" info="Place personal waypoint here" infoRange="20.0" GUID="pd10UYGYaEG56DAbbZMlHQ=="/>
+		<POI MapID="1452" xpos="254.062" ypos="238.684" zpos="503.661" type="tt.eodl.cm.rm.interact" GUID="QRnQqMmoF0SBc4wC1QPlrw=="/>
+		<POI MapID="1452" xpos="306.132" ypos="193.303" zpos="-40.6179" type="tt.eodl.cm.rm.interact" info="You must switch your active story to EoD Ch. 10 'Empty' to get in here. 
+		
+		If you cannot do that on this character, return to the Jade WP you placed and come back later on another character." infoRange="20.0" GUID="Ce2YNCvr+UW3BDaaH/DoNg=="/>
+		<POI MapID="1452" xpos="-652.063" ypos="177.725" zpos="60.9786" type="tt.eodl.cm.mm.skyscale" GUID="vhIGbGiFXkasXbWC7o8d5Q=="/>
+		<POI MapID="1452" xpos="-706.192" ypos="197.297" zpos="9.85005" type="tt.eodl.cm.mm.skyscale" GUID="DOT7Y1x4VkyPG0jrOz9y0Q=="/>
+		<POI MapID="1452" xpos="394.304" ypos="215.033" zpos="637.918" type="tt.eodl.cm.mm.springer" GUID="t5F1ltIz0UC3yeQKewkBVg=="/>
+		<POI MapID="1452" xpos="428.092" ypos="178.477" zpos="-39.4765" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="RfMrioln3Em+ia3qhX+IOw=="/>
+		<POI MapID="1452" xpos="415.688" ypos="243.829" zpos="647.603" type="tt.eodl.cm.mm.springertogriff" GUID="hgWktJ2FJEm/sMYFIKDxMg=="/>
+		<POI MapID="1452" xpos="659.704" ypos="238.59" zpos="620.946" type="tt.eodl.cm.mm.griffon" GUID="DiqJkL1N3UqCBK1vwz2uMw=="/>
+		<POI MapID="1452" xpos="1028.71" ypos="3.94337" zpos="737.077" type="tt.eodl.cm.wm.wpcircle" copy="[&BNQMAAA=]" info="If the waypoint is contested, skimmer to the other side" infoRange="20.0" GUID="M8CFKwV+1EKsLe/lNZwU9Q=="/>
+		<POI MapID="1452" xpos="957.452" ypos="68.8302" zpos="515.827" type="tt.eodl.cm.wm.circle" GUID="oyklLbscCUi6//6Ip9+hWw=="/>
+		<POI MapID="1452" xpos="1073.79" ypos="23.4295" zpos="355.713" type="tt.eodl.cm.mm.beetle" GUID="AL6GIlhaQkeegV7ix68+zg=="/>
+		<POI MapID="1452" xpos="1071.99" ypos="29.4976" zpos="-92.1245" type="tt.eodl.cm.wm.wpheart" copy="[&BPkMAAA=]" info="If the waypoint is contested or you are caught in combat, use the zipline just outside the cave" infoRange="20.0" GUID="S9hbXZXgV0y/6vnBjDAOsQ=="/>
+		<POI MapID="1452" xpos="1013.41" ypos="88.8307" zpos="38.3545" type="tt.eodl.cm.wm.heart" GUID="xxkpY2NrvUi99sbcifRyGA=="/>
+		<POI MapID="1452" xpos="1007.48" ypos="88.8666" zpos="57.8785" type="tt.eodl.cm.mm.beetle" GUID="6Hgxv3iLj02npOztryjy5Q=="/>
+		<POI MapID="1452" xpos="764.808" ypos="88.8046" zpos="-68.8282" type="tt.eodl.cm.rm.interact" GUID="JdIXUuElIEqKKXze+5fjXA=="/>
+		<POI MapID="1452" xpos="767.371" ypos="89.9649" zpos="-66.2848" type="tt.eodl.cm.wm.wpsquare" copy="[&BMcMAAA=]" GUID="6wD8er3IGE+JsVrzuBw06g=="/>
+		<POI MapID="1452" xpos="1078.25" ypos="23.1569" zpos="360.229" type="tt.eodl.cm.rm.interact" GUID="AMkdL6KCwEihlQltUYpekQ=="/>
+		<POI MapID="1452" xpos="1058.74" ypos="7.6427" zpos="-524.164" type="tt.eodl.cm.wm.square" GUID="6Ih74oGdY0ybtzNQVtErPg=="/>
+		<POI MapID="1452" xpos="1042.74" ypos="4.03995" zpos="-541.071" type="tt.eodl.cm.rm.interact" GUID="q9I40OUFXU6Ti75mdc3Iqg=="/>
+		<POI MapID="1452" xpos="1044.82" ypos="10.8977" zpos="-542.888" type="tt.eodl.cm.mm.skyscale" GUID="ARadxRbdQkG9XlAUTulDKg=="/>
+		<POI MapID="1452" xpos="1046.46" ypos="40.7424" zpos="-632.354" type="tt.eodl.cm.rm.interact" GUID="7sBx3urnAkK6HZ9LGJtRXg=="/>
+		<POI MapID="1452" xpos="1046.31" ypos="46.9171" zpos="-629.922" type="tt.eodl.cm.mm.skyscale" GUID="u5TFnK2f4k2CHqpy/i3knA=="/>
+		<POI MapID="1452" xpos="1030.58" ypos="99.7157" zpos="-660.497" type="tt.eodl.cm.mm.griffon" GUID="/fo9diDF/kajpuVjbd/8cw=="/>
+		<POI MapID="1452" xpos="847.305" ypos="92.8575" zpos="-619.037" type="tt.eodl.cm.mm.griffon" GUID="VhSlf0va5E+e8B5ApoH3mg=="/>
+		<POI MapID="1452" xpos="659.185" ypos="3.00312" zpos="-456.253" type="tt.eodl.cm.rm.interact" GUID="MvbaCuh5B0uGEsSLLdDaJA=="/>
+		<POI MapID="1452" xpos="650.399" ypos="3.00312" zpos="-449.57" type="tt.eodl.cm.mm.skimmer" GUID="YZ/Z6wxTWUOxUVeOJGKY2A=="/>
+		<POI MapID="1452" xpos="167.006" ypos="0.872854" zpos="-712.323" type="tt.eodl.cm.rm.finish" GUID="UfYt6hyaxku1GHxkjJLJoQ=="/>
+		<POI MapID="1452" xpos="456.926" ypos="154.595" zpos="231.283" type="tt.eodl.lantern" achievementid="6219" achievementbit="8" GUID="MVeONZYk3EurzDDqnb1LYQ=="/>
+		<POI MapID="1452" xpos="374.426" ypos="99.7927" zpos="165.479" type="tt.eodl.lantern" achievementid="6219" achievementbit="7" GUID="KUGyx6G9EUi8i7FfJ1zDKg=="/>
+		<POI MapID="1452" xpos="-640.669" ypos="177.524" zpos="212.177" type="tt.eodl.lantern" achievementid="6219" achievementbit="1" GUID="dbU5zvBlGUC8ZkGnq46NnQ=="/>
+		<POI MapID="1452" xpos="-604.69" ypos="166.276" zpos="112.057" type="tt.eodl.lantern" achievementid="6219" achievementbit="49" GUID="TVVv0zWBa0KuF0sP+8zlEw=="/>
+		<POI MapID="1452" xpos="-707.655" ypos="194.864" zpos="15.6151" type="tt.eodl.lantern" achievementid="6219" achievementbit="55" GUID="PlZJ30Qbek67hR6ZYpFyvw=="/>
+		<POI MapID="1452" xpos="-1095.74" ypos="175.147" zpos="151.789" type="tt.eodl.lantern" achievementid="6219" achievementbit="47" GUID="A1XUZ21Pr0yyA5NVwl3sPQ=="/>
+		<POI MapID="1452" xpos="-835.511" ypos="133.864" zpos="-128.172" type="tt.eodl.lantern" achievementid="6219" achievementbit="38" GUID="bEzdu6UN+EqvkU9Lznnwfw=="/>
+		<POI MapID="1452" xpos="-869.101" ypos="178.555" zpos="-441.13" type="tt.eodl.lantern" achievementid="6219" achievementbit="52" GUID="14nbrC1uUUe3uAC+DP1rNw=="/>
+		<POI MapID="1452" xpos="-1006.71" ypos="162.131" zpos="-501.031" type="tt.eodl.lantern" achievementid="6219" achievementbit="45" GUID="/4HW8px5Vk+Bhq5rh5ZXIA=="/>
+		<POI MapID="1452" xpos="-1008.41" ypos="168.731" zpos="-626.172" type="tt.eodl.lantern" achievementid="6219" achievementbit="42" GUID="fvb2ekncLkqmeF4wH3oFfg=="/>
+		<POI MapID="1452" xpos="-875.76" ypos="222.168" zpos="-480.4" type="tt.eodl.lantern" achievementid="6219" achievementbit="56" GUID="VyN3ta3Ry0yyMVXRdJQrFw=="/>
+		<POI MapID="1452" xpos="-772.723" ypos="199.808" zpos="-674.718" type="tt.eodl.lantern" achievementid="6219" achievementbit="43" GUID="CWnNdP8f6EelBblkaQSbUw=="/>
+		<POI MapID="1452" xpos="-525.508" ypos="1.26958" zpos="-717.374" type="tt.eodl.lantern" achievementid="6219" achievementbit="46" GUID="sAojzjfef0GDasVlwlLTGA=="/>
+		<POI MapID="1452" xpos="-113.165" ypos="162.828" zpos="708.074" type="tt.eodl.lantern" achievementid="6219" achievementbit="3" GUID="F8C6YnS8Bkewavq1lHLvsA=="/>
+		<POI MapID="1452" xpos="-351.232" ypos="195.121" zpos="666.86" type="tt.eodl.lantern" achievementid="6219" achievementbit="57" GUID="WEVerIbf00K3hxMqxkaj7Q=="/>
+		<POI MapID="1452" xpos="-383.226" ypos="212.379" zpos="686.196" type="tt.eodl.lantern" achievementid="6219" achievementbit="50" GUID="mUdcvM/z1kiZws+gaglJEg=="/>
+		<POI MapID="1452" xpos="-588.907" ypos="164.416" zpos="603.82" type="tt.eodl.lantern" achievementid="6219" achievementbit="48" GUID="PX0ngLzcz0uiqQSRekVpag=="/>
+		<POI MapID="1452" xpos="-286.083" ypos="215.697" zpos="276.744" type="tt.eodl.lantern" achievementid="6219" achievementbit="22" GUID="tMTTVA0rokWDPg8KmEDcZg=="/>
+		<POI MapID="1452" xpos="-185.452" ypos="150.191" zpos="141.649" type="tt.eodl.lantern" achievementid="6219" achievementbit="21" GUID="KX0+3I7rQU218galkq0jhw=="/>
+		<POI MapID="1452" xpos="2.8959" ypos="180.967" zpos="138.067" type="tt.eodl.lantern" achievementid="6219" achievementbit="18" GUID="nvryir2usEeMzh4j9lr5YQ=="/>
+		<POI MapID="1452" xpos="54.597" ypos="117.679" zpos="30.2949" type="tt.eodl.lantern" achievementid="6219" achievementbit="19" GUID="309KNrWpNkaFBIEt8dbHbA=="/>
+		<POI MapID="1452" xpos="-103.26" ypos="91.727" zpos="0.849032" type="tt.eodl.lantern" achievementid="6219" achievementbit="20" GUID="umkYNeR3w0i5Lb9MO1jLIw=="/>
+		<POI MapID="1452" xpos="-106.244" ypos="204.265" zpos="-56.1479" type="tt.eodl.lantern" achievementid="6219" achievementbit="59" GUID="K+jMS8BRO0OPaECyDDVp5w=="/>
+		<POI MapID="1452" xpos="-232.397" ypos="149.817" zpos="-153.623" type="tt.eodl.lantern" achievementid="6219" achievementbit="39" GUID="X0I973D18ky6ynOK/PGc1Q=="/>
+		<POI MapID="1452" xpos="-264.105" ypos="150.32" zpos="13.1125" type="tt.eodl.lantern" achievementid="6219" achievementbit="37" GUID="adrPXOy5Jk6Ca+l9WyPeeQ=="/>
+		<POI MapID="1452" xpos="-424.443" ypos="115.553" zpos="-104.622" type="tt.eodl.lantern" achievementid="6219" achievementbit="41" GUID="gusCoN71/0ijvvwzRBp5rQ=="/>
+		<POI MapID="1452" xpos="-473.294" ypos="164.791" zpos="-333.91" type="tt.eodl.lantern" achievementid="6219" achievementbit="4" GUID="6dKsgyBqo0y3ouXXh6/rUw=="/>
+		<POI MapID="1452" xpos="-510.897" ypos="315.841" zpos="-525.834" type="tt.eodl.lantern" achievementid="6219" achievementbit="44" GUID="kWb6397mykW2cyUAl8S4QA=="/>
+		<POI MapID="1452" xpos="-324.425" ypos="139.373" zpos="-447.451" type="tt.eodl.lantern" achievementid="6219" achievementbit="11" GUID="6h2C18VG00upEZM/WAGA9g=="/>
+		<POI MapID="1452" xpos="-53.5209" ypos="117.921" zpos="-686.832" type="tt.eodl.lantern" achievementid="6219" achievementbit="13" GUID="MkkzTctsuEuNFq/C72bb7w=="/>
+		<POI MapID="1452" xpos="100.988" ypos="190.917" zpos="-505.246" type="tt.eodl.lantern" achievementid="6219" achievementbit="10" GUID="5UEcIeQ5hUSjDFUFwrqing=="/>
+		<POI MapID="1452" xpos="76.3788" ypos="223.126" zpos="-261.042" type="tt.eodl.lantern" achievementid="6219" achievementbit="12" GUID="AphoyjubNkuhs8rJqegvGg=="/>
+		<POI MapID="1452" xpos="292.268" ypos="137.182" zpos="-230.243" type="tt.eodl.lantern" achievementid="6219" achievementbit="29" GUID="UNGJBSnkLkuG6RasN01gmQ=="/>
+		<POI MapID="1452" xpos="419.583" ypos="61.1168" zpos="-280.881" type="tt.eodl.lantern" achievementid="6219" achievementbit="31" GUID="WSbRrYIfsEG32zbYuAi4pg=="/>
+		<POI MapID="1452" xpos="615.098" ypos="11.5641" zpos="97.6955" type="tt.eodl.lantern" achievementid="6219" achievementbit="27" GUID="3nQAPi0SpUWNW2P7s0fWeg=="/>
+		<POI MapID="1452" xpos="48.451" ypos="294.307" zpos="496.247" type="tt.eodl.lantern" achievementid="6219" achievementbit="16" GUID="70Hpre8CIEaqvdsdl9y3iQ=="/>
+		<POI MapID="1452" xpos="40.7376" ypos="173.975" zpos="520.627" type="tt.eodl.lantern" achievementid="6219" achievementbit="53" GUID="R9ykuKj2x0+bda2qYzjpdA=="/>
+		<POI MapID="1452" xpos="82.4312" ypos="168.299" zpos="626.696" type="tt.eodl.lantern" achievementid="6219" achievementbit="17" GUID="1E4Kwa9P5ki0ZJ94dj0M9Q=="/>
+		<POI MapID="1452" xpos="150.445" ypos="217.39" zpos="679.011" type="tt.eodl.lantern" achievementid="6219" achievementbit="14" GUID="hzkAqE3TG0GnSDFPFxXSiA=="/>
+		<POI MapID="1452" xpos="308.473" ypos="204.93" zpos="728.194" type="tt.eodl.lantern" achievementid="6219" achievementbit="15" GUID="udhrWRVbZ0SQJGOVQnbb5g=="/>
+		<POI MapID="1452" xpos="279.199" ypos="246.419" zpos="345.005" type="tt.eodl.lantern" achievementid="6219" achievementbit="6" GUID="HHkJyd2nnkCI++0Gr/YyHg=="/>
+		<POI MapID="1452" xpos="295.434" ypos="232.579" zpos="119.036" type="tt.eodl.lantern" achievementid="6219" achievementbit="23" GUID="GX5MJCmGF06n5bULQPMIkg=="/>
+		<POI MapID="1452" xpos="429.825" ypos="178.339" zpos="-37.4668" type="tt.eodl.lantern" achievementid="6219" achievementbit="28" GUID="/PDbzdibLEmsoQd7r9Wc3A=="/>
+		<POI MapID="1452" xpos="707.616" ypos="263.735" zpos="523.546" type="tt.eodl.lantern" achievementid="6219" achievementbit="9" GUID="OzU5Qx7Bf02s5GIZdJgf9Q=="/>
+		<POI MapID="1452" xpos="1026.96" ypos="3.98576" zpos="737.463" type="tt.eodl.lantern" achievementid="6219" achievementbit="34" GUID="v8dynckLXE+aAlxf8fzBkQ=="/>
+		<POI MapID="1452" xpos="1050.9" ypos="10.9225" zpos="424.489" type="tt.eodl.lantern" achievementid="6219" achievementbit="36" GUID="j8tVydLNnEqidIhoeVeHGA=="/>
+		<POI MapID="1452" xpos="1040.86" ypos="23.558" zpos="125.941" type="tt.eodl.lantern" achievementid="6219" achievementbit="35" GUID="XxjTJJLjJE6qindOvwuWbg=="/>
+		<POI MapID="1452" xpos="1010.8" ypos="89.3083" zpos="62.6727" type="tt.eodl.lantern" achievementid="6219" achievementbit="2" GUID="0u2xXSdMCkKtmlvsXO9Keg=="/>
+		<POI MapID="1452" xpos="803.623" ypos="95.3987" zpos="-64.8948" type="tt.eodl.lantern" achievementid="6219" achievementbit="30" GUID="EVyAh8J+DkebncSGN/Ab2Q=="/>
+		<POI MapID="1452" xpos="653.824" ypos="2.9889" zpos="-461.491" type="tt.eodl.lantern" achievementid="6219" achievementbit="24" GUID="H3IQ9+PxcEOz3dw9L0am7g=="/>
+		<POI MapID="1452" xpos="850.396" ypos="93.2457" zpos="-620.657" type="tt.eodl.lantern" achievementid="6219" achievementbit="33" GUID="N75jWf+WJE27rHrrb5FbLA=="/>
+		<POI MapID="1452" xpos="1038.05" ypos="99.7374" zpos="-665.751" type="tt.eodl.lantern" achievementid="6219" achievementbit="58" GUID="eZbNk956oU+wDGLWmPptMg=="/>
+		<POI MapID="1452" xpos="1040.77" ypos="40.7711" zpos="-627.659" type="tt.eodl.lantern" achievementid="6219" achievementbit="32" GUID="TBpmIKvT30q/ddmgXDjIQA=="/>
+		<POI MapID="1452" xpos="1055.21" ypos="8.35253" zpos="-518.27" type="tt.eodl.lantern" achievementid="6219" achievementbit="5" GUID="iSVNCpHl3ESfB7yzjbzPEw=="/>
+		<POI MapID="1452" xpos="1013.55" ypos="6.12015" zpos="-528.94" type="tt.eodl.lantern" achievementid="6219" achievementbit="51" GUID="X2eVv2EQi0C9LrQ3Nnldlw=="/>
+		<POI MapID="1452" xpos="1069.48" ypos="29.2416" zpos="-92.0753" type="tt.eodl.lantern" achievementid="6219" achievementbit="26" GUID="/8IuA3zXzUyUr6WAjd2WBQ=="/>
+		<POI MapID="1452" xpos="167.457" ypos="1.14555" zpos="-714.05" type="tt.eodl.lantern" achievementid="6219" achievementbit="54" GUID="6QBmWlkISk2eALWQlikihg=="/>
+		<POI MapID="1452" xpos="509.068" ypos="6.72019" zpos="-656.821" type="tt.eodl.lantern" achievementid="6219" achievementbit="25" GUID="6QBmWlkISk2eALWQlikihg=="/>
+		<POI MapID="1452" xpos="-422.214" ypos="160.06" zpos="-303.437" type="tt.eodl.lantern" achievementid="6219" achievementbit="40" GUID="1VB7+0bprEGcntWTnPcLcA=="/>
 	<!--LANTERN TRAILS-->
 		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
 		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
+		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
 
 
 
