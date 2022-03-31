@@ -7613,7 +7613,7 @@
 		<POI MapID="1442" xpos="-85.819" ypos="12.9148" zpos="-182.397" type="tt.eodl.cm.mm.beetle" GUID="syYQYfTXBkKEs6fzsGCk/w=="/>
 		<POI MapID="1442" xpos="-62.3791" ypos="21.9801" zpos="-167.406" type="tt.eodl.cm.rm.dismount" GUID="FCzgglsBv0ejXxqGoR6Oxw=="/>
 		<POI MapID="1442" xpos="-46.5924" ypos="13.1069" zpos="-178.682" type="tt.eodl.cm.rm.interact" GUID="TvR/Ttu0j0S5R0qrElPQQg=="/>
-		<POI MapID="1442" xpos="-43.7079" ypos="13.5056" zpos="-176.83" type="tt.eodl.cm.wm.wpcircle" copy="[&BGUNAAA=]" GUID="Nu/y6RF400efiNeCTcFA4Q=="/>
+		<POI MapID="1442" xpos="-43.7079" ypos="13.5056" zpos="-176.83" type="tt.eodl.cm.wm.wpcircle" copy="[&BJ4MAAA=]" GUID="Nu/y6RF400efiNeCTcFA4Q=="/>
 		<POI MapID="1442" xpos="-196.479" ypos="62.3722" zpos="-72.8108" type="tt.eodl.cm.rm.finish" GUID="+4nKeAI5HkG1Y5RwSnIE+A=="/>
 		<POI MapID="1442" xpos="-96.3586" ypos="53.097" zpos="-382.394" type="tt.eodl.cm.mm.skyscale" GUID="x6cCY96QYES7SPA8wW+Q7g=="/>
 		<POI MapID="1442" xpos="-219.476" ypos="20.3013" zpos="-280.745" type="tt.eodl.cm.rm.interact" GUID="uLU25rFFtUKSqkzSSwqTdg=="/>
@@ -7630,7 +7630,7 @@
 		<POI MapID="1442" xpos="-682.807" ypos="49.2187" zpos="-457.945" type="tt.eodl.cm.mm.skyscale" GUID="Ofbd7pHC10mjm43kC7c0dg=="/>
 		<POI MapID="1442" xpos="-635.118" ypos="46.4901" zpos="-501.801" type="tt.eodl.cm.rm.interact" GUID="dH9DKJKzPkyL5tSQkLEBQQ=="/>
 		<POI MapID="1442" xpos="-501.315" ypos="48.1865" zpos="-432.189" type="tt.eodl.cm.rm.interact" GUID="hm+J/lOYvkK79s8evi8adw=="/>
-		<POI MapID="1442" xpos="-417.838" ypos="5.41046" zpos="-632.55" type="tt.eodl.cm.wm.wpcircle" copy="[&BGUNAAA=]" GUID="z4IA/ATRuUOIWlUga4/A4w=="/>
+		<POI MapID="1442" xpos="-417.838" ypos="5.41046" zpos="-632.55" type="tt.eodl.cm.wm.wpcircle" copy="[&BJ4MAAA=]" GUID="z4IA/ATRuUOIWlUga4/A4w=="/>
 		<POI MapID="1442" xpos="-71.2096" ypos="216.561" zpos="48.3071" type="tt.eodl.cm.mm.griffon" GUID="AI7ri20xpUCX1gMVeD0Ebg=="/>
 		<POI MapID="1442" xpos="-71.7359" ypos="218.768" zpos="54.0142" type="tt.eodl.cm.rm.jadewp" info="Place your personal waypoint here" infoRange="20.0" GUID="s0CpTR5aPk6Ed5AvvZkcWg=="/>
 		<POI MapID="1442" xpos="-439.25" ypos="144.686" zpos="95.232" type="tt.eodl.cm.rm.interact" GUID="3U7qcSVtPkGNiZy5WahhWQ=="/>
