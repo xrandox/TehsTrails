@@ -4,11 +4,11 @@ A collection of xTeh.7146's marker packs.
 Currently contains trails for:
 - Core Tyria Map Completion
 - End of Dragons Map Completion
-- End of Dragons Lanterns (2/4 done)
+- End of Dragons Lanterns (3/4 done)
 - Heart of Thorns Map Completion (Verdant Brink Only)
 
 In the works:
-- End of Dragons Lanterns (2/4 done)
+- End of Dragons Lanterns (DE remaining)
 - End of Dragons Hero Points
 - Heart of Thorns Map Completion
 - Proper release of HoT/PoF HP Trails
