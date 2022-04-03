@@ -4,11 +4,10 @@ A collection of xTeh.7146's marker packs.
 Currently contains trails for:
 - Core Tyria Map Completion
 - End of Dragons Map Completion
-- End of Dragons Lanterns (3/4 done)
+- End of Dragons Lanterns
 - Heart of Thorns Map Completion (Verdant Brink Only)
 
 In the works:
-- End of Dragons Lanterns (DE remaining)
 - End of Dragons Hero Points
 - Heart of Thorns Map Completion
 - Proper release of HoT/PoF HP Trails
@@ -18,13 +17,31 @@ In the works:
 
 ***
 
-### Map Completion 
+### Core Tyria Map Completion 
 A pack tailored for speedrunning map completion. It utilizes all mounts, waypoints and a multitude of markers (Over 5,000!) to give you the fastest map completion times possible. The current Core Tyria map comp world record of 8h59m utilizes this packs routing!
+
+***
+
+### End of Dragons Map Completion
+Per my normal, the routing on these maps is intended for speed and thus is not necessarily beginner friendly. This pack is not intended for your first time to any of these maps. In fact, it is routed starting from Arborstone, like you would come in with a fresh character using the portal tome. That means NKC and TEW start from the Arborstone portals, SP starts from the water portal in NKC, and DE starts from the TEW portal. 
+
+
+#### Average Map Times:
+- Seitung Province: ~25 min 
+- New Kaineng City: ~18 min
+- The Echovald Wilds: ~30 min
+- Dragons End: ~10 min
 
 ***
 
 ### Lanterns 
 With EoD we got a new way to do repeatable map comp -- Jade Lanterns. As these are very promising for their speed, and no longer require us to create more and more characters, they may very well be the new map comp. As such, I'm in the process of creating routing for each of the 4 Cantha maps lanterns as well. The goal here is just the same as map comp -- get it all as fast as possible.
+
+#### Average Map Times:
+- Seitung Province: ~22 min 
+- New Kaineng City: ~15 min
+- The Echovald Wilds: ~25 min
+- Dragons End: ~20 min
 
 ***
 
