@@ -25,7 +25,8 @@ A pack tailored for speedrunning map completion. It utilizes all mounts, waypoin
 ### End of Dragons Map Completion
 Per my normal, the routing on these maps is intended for speed and thus is not necessarily beginner friendly. This pack is not intended for your first time to any of these maps. In fact, it is routed starting from Arborstone, like you would come in with a fresh character using the portal tome. That means NKC and TEW start from the Arborstone portals, SP starts from the water portal in NKC, and DE starts from the TEW portal. 
 
-Average Map Times:
+
+#### Average Map Times:
 - Seitung Province: ~25 min 
 - New Kaineng City: ~18 min
 - The Echovald Wilds: ~30 min
@@ -35,7 +36,8 @@ Average Map Times:
 
 ### Lanterns 
 With EoD we got a new way to do repeatable map comp -- Jade Lanterns. As these are very promising for their speed, and no longer require us to create more and more characters, they may very well be the new map comp. As such, I'm in the process of creating routing for each of the 4 Cantha maps lanterns as well. The goal here is just the same as map comp -- get it all as fast as possible.
-Average Map Times:
+
+#### Average Map Times:
 - Seitung Province: ~22 min 
 - New Kaineng City: ~15 min
 - The Echovald Wilds: ~25 min
