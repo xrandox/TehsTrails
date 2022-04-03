@@ -7708,7 +7708,7 @@
 		<POI MapID="1442" xpos="801.189" ypos="17.2613" zpos="-265.74" type="tt.eodl.lantern" achievementid="6239" achievementbit="20" GUID="8T54aInC+ECSKXWoOhPK7A=="/>
 		<!--NKC Markers-->
 		<POI MapID="1438" xpos="-149.816" ypos="2.62128" zpos="-35.5133" type="tt.eodl.cm.wm.heart" GUID="7yc/imVY/kKN7Gucysse3w=="/>
-		<POI MapID="1438" xpos="219.927" ypos="2.63877" zpos="443.191" type="tt.eodl.cm.wm.wpheart" info="If not contested, waypoint" infoRange="30" copy="[&BBYNAAA=]" GUID="rqKFAEy3tUSPEPa4eNeODQ=="/>
+		<POI MapID="1438" xpos="219.927" ypos="2.63877" zpos="443.191" type="tt.eodl.cm.wm.wpheart" info="If not contested, waypoint" infoRange="30" copy="[&BBkNAAA=]" GUID="rqKFAEy3tUSPEPa4eNeODQ=="/>
 		<POI MapID="1438" xpos="1049.21" ypos="41.7383" zpos="-701.918" type="tt.eodl.cm.rm.start" GUID="jV3GmQxJnE2gU2Q7362X0Q=="/>
 		<POI MapID="1438" xpos="1052.65" ypos="40.4613" zpos="-685.594" type="tt.eodl.cm.rm.interact" GUID="ByG2ra3HpkezN1tiy0jVKg=="/>
 		<POI MapID="1438" xpos="1047.31" ypos="38.9167" zpos="-682.261" type="tt.eodl.cm.mm.beetle" GUID="Xq4xQoBm00au6m4aBD1wTA=="/>
@@ -7972,8 +7972,11 @@
 		<POI MapID="1452" xpos="-422.214" ypos="160.06" zpos="-303.437" type="tt.eodl.lantern" achievementid="6219" achievementbit="40" GUID="1VB7+0bprEGcntWTnPcLcA=="/>
 	<!--Dragons End Markers-->
 		<POI MapID="1422" xpos="-199.087" ypos="176.314" zpos="845.896" type="tt.eodl.cm.rm.start" info="DE Lantern Trail begins here. 
+
 		Do not attempt to run the second half of the trail when the meta is happening
+
 		There are several batteries which appear/disappear depending on the progress of the map. If the battery you are meant to interact with is not there, you will need to look around and locate another.
+		
 		The trail does not lead to the Jade Wind's Respite lantern as it is meta-locked. You will need to get it on your own after a succesful meta." infoRange="20.0" GUID="bSJZUFtRDUe1QYVpOmGWrg=="/>
 		<POI MapID="1422" xpos="-198.084" ypos="176.314" zpos="837.946" type="tt.eodl.cm.wm.arrow" GUID="60SiAKwg70+wG30zMeAYrw=="/>
 		<POI MapID="1422" xpos="-206.951" ypos="180.443" zpos="888.101" type="tt.eodl.cm.rm.interact" GUID="oaEGcZcMd0WpYDpRWvkanw=="/>
@@ -7994,7 +7997,7 @@
 		<POI MapID="1422" xpos="39.7734" ypos="34.1879" zpos="540.807" type="tt.eodl.cm.rm.interact" GUID="q8OAHW8jGEiU/7+gPNqXrA=="/>
 		<POI MapID="1422" xpos="331.184" ypos="105.239" zpos="578.186" type="tt.eodl.cm.mm.griffon" GUID="fcWe2w78qEOVQ6NbWDXj8g=="/>
 		<POI MapID="1422" xpos="-166.066" ypos="2.09885" zpos="461.062" type="tt.eodl.cm.rm.interact" GUID="gsi8dNgTLU2vTyWAq68YEw=="/>
-		<POI MapID="1422" xpos="-74.8356" ypos="10.9718" zpos="-753.709" type="tt.eodl.cm.wm.wparrow" GUID="8FcVPUusp0u+IZXEcLZslA=="/>
+		<POI MapID="1422" xpos="-74.8356" ypos="10.9718" zpos="-753.709" type="tt.eodl.cm.wm.wparrow" copy="[&BKIMAAA=]" GUID="8FcVPUusp0u+IZXEcLZslA=="/>
 		<POI MapID="1422" xpos="-200.493" ypos="176.314" zpos="831.754" type="tt.eodl.cm.rm.2" GUID="VgdIE/ahREC9pfLEo/AYKQ=="/>
 		<POI MapID="1422" xpos="-259.78" ypos="143.918" zpos="760.336" type="tt.eodl.cm.mm.beetle" GUID="2XJV6tdfZke1OAwh0sUNmw=="/>
 		<POI MapID="1422" xpos="-159.672" ypos="341.984" zpos="149.273" type="tt.eodl.cm.rm.jadewp" info="Place personal waypoint here" infoRange="20.0" GUID="yqhywLxxAk6qODd2vhhrow=="/>
@@ -8023,7 +8026,7 @@
 		<POI MapID="1422" xpos="-32.2004" ypos="201.611" zpos="-971.536" type="tt.eodl.cm.rm.interact" GUID="w7bnrt6/5kCTbBd68W0kxQ=="/>
 		<POI MapID="1422" xpos="46.974" ypos="201.099" zpos="-952.253" type="tt.eodl.cm.rm.interact" GUID="fyv9Ino+gkaW6IpLGoXC+g=="/>
 		<POI MapID="1422" xpos="-15.3123" ypos="201.798" zpos="-1011.08" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="1rmgNDYh0U+i7CUc4srvHQ=="/>
-		<POI MapID="1422" xpos="385.93" ypos="165.218" zpos="-144.914" type="tt.eodl.cm.wm.wpcircle" GUID="2ESfJZIAWEGdhRykWhfRCg=="/>
+		<POI MapID="1422" xpos="385.93" ypos="165.218" zpos="-144.914" type="tt.eodl.cm.wm.wpcircle" copy="[&BPEMAAA=]" GUID="2ESfJZIAWEGdhRykWhfRCg=="/>
 		<POI MapID="1422" xpos="-14.7232" ypos="198.225" zpos="-959.32" type="tt.eodl.lantern" achievementid="6369" achievementbit="45" GUID="+u64neJWvkuS4Le2zJvbyQ=="/>
 		<POI MapID="1422" xpos="-15.0725" ypos="201.863" zpos="-1009.07" type="tt.eodl.lantern" achievementid="6369" achievementbit="5" GUID="iDGlEDg1x0u5XvS6IT1O0A=="/>
 		<POI MapID="1422" xpos="-196.529" ypos="176.314" zpos="856.948" type="tt.eodl.lantern" achievementid="6369" achievementbit="1" GUID="AozrvGAM1UG3m7oZX14dnw=="/>
