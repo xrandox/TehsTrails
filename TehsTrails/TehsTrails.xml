@@ -7491,7 +7491,7 @@
 		<!--Arborstone Markers-->
 		<POI MapID="1428" xpos="-742.297" ypos="9.57112" zpos="445.828" type="tt.eod.cm.rm.start" info="The Echovald Wilds path starts through this portal" infoRange="30.0" GUID="WtZqmJnK+UCsBC8KgXw6WA=="/>
 		<POI MapID="1428" xpos="-1126.92" ypos="7.40712" zpos="742.558" type="tt.eod.cm.rm.start" info="New Kaineng City path starts through this portal" infoRange="30.0" GUID="aYD/Jq4VokuxbQbA641/fg=="/>
-		<POI MapID="1428" xpos="-817.376" ypos="2.12448" zpos="521.234" type="tt.mc.cm.rm.start" info="TehsTrails Map Comp starts here and goes NKC -> SP -> TEW -> DE. Good luck!" infoRange="30.0" GUID="dV0/NkfpV06Shilx5gLjIA=="/>
+		<POI MapID="1428" xpos="-817.376" ypos="2.12448" zpos="521.234" type="tt.eod.cm.rm.start" info="TehsTrails Map Comp starts here and goes NKC -> SP -> TEW -> DE. Good luck!" infoRange="30.0" GUID="dV0/NkfpV06Shilx5gLjIA=="/>
 		<POI MapID="1428" xpos="-826.531" ypos="2.02353" zpos="527.419" type="tt.eod.cm.mm.beetle" GUID="cQUbbxoe40SZ8KIQgvTvRg=="/>	
 	<!--END OF DRAGONS TRAILS-->
 		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
