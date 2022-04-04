@@ -203,7 +203,7 @@
 	<!--==                                                                        HEART OF THORNS MAP COMP                                                                   ==-->
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="hotsep" DisplayName="     |===Heart of Thorns===|     " isseparator="1"/>
-		<MarkerCategory name="hot" DisplayName="Map Completion (Verdant Brink Only)">
+		<MarkerCategory name="hot" DisplayName="Map Completion (WIP)">
 
 			<MarkerCategory name="ct" DisplayName="Trails">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
@@ -8194,6 +8194,77 @@
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                       END OF DRAGONS HERO POINTS                                                                  ==-->
 	<!--=======================================================================================================================================================================-->
+	<!--NKC Markers-->
+		<POI MapID="1438" xpos="1049.78" ypos="41.5792" zpos="-700.452" type="tt.eodhp.rm.start" GUID="ZrCL8UhRjkqZS+JNNtHHlg=="/>
+		<POI MapID="1438" xpos="1048.94" ypos="40.6156" zpos="-695.938" type="tt.eodhp.mm.beetle" GUID="J3N+qT7wokOg0Zb67MQ3ig=="/>
+		<POI MapID="1438" xpos="855.498" ypos="55.0237" zpos="-631.342" type="tt.eodhp.rm.bondoffaith" GUID="5gGbmqtDLEO4+SqPLmSv2A=="/>
+		<POI MapID="1438" xpos="820.471" ypos="54.9888" zpos="-615.369" type="tt.eodhp.mm.raptor" GUID="nDrFE0RTq0u4NJGv3oJrEw=="/>
+		<POI MapID="1438" xpos="768.799" ypos="60.9658" zpos="-555.664" type="tt.eodhp.mm.springer" GUID="LDpfX8wuQUWNRdxGWbkFsQ=="/>
+		<POI MapID="1438" xpos="785.102" ypos="77.9101" zpos="-550.98" type="tt.eodhp.mm.griffon" GUID="bcLdvedQT06qCRlkIm657g=="/>
+		<POI MapID="1438" xpos="1012.26" ypos="0.247438" zpos="54.2024" type="tt.eodhp.mm.skimmer" GUID="IFqb598wV06XMy6WqToa7Q=="/>
+		<POI MapID="1438" xpos="850.518" ypos="1.3904" zpos="369.157" type="tt.eodhp.mm.skyscale" GUID="HGh9pyLl2kGErSGKhn+ZlQ=="/>
+		<POI MapID="1438" xpos="874.605" ypos="217.482" zpos="482.886" type="tt.eodhp.rm.bondoffaith" GUID="4jDsIObPHUquLPaXd275VQ=="/>
+		<POI MapID="1438" xpos="872.777" ypos="226.51" zpos="482.47" type="tt.eodhp.mm.griffon" GUID="Pi5vqkIUCEmSQBxM2cLG7g=="/>
+		<POI MapID="1438" xpos="443.644" ypos="111.716" zpos="360.982" type="tt.eodhp.mm.griffon" GUID="xt+meeaZZE2sXlVqr/zwMA=="/>
+		<POI MapID="1438" xpos="231.275" ypos="9.188" zpos="322.878" type="tt.eodhp.rm.bondoffaith" GUID="Iw/C6UTViEm76dd7Udhg0A=="/>
+		<POI MapID="1438" xpos="201.751" ypos="2.62137" zpos="344.279" type="tt.eodhp.mm.beetle" GUID="GeZuF6ZmLUWEAh0oX0htdA=="/>
+		<POI MapID="1438" xpos="-36.6061" ypos="120.156" zpos="613.794" type="tt.eodhp.mm.beetle" GUID="wzsoJNtA5kyC1aHfMeOJuQ=="/>
+		<POI MapID="1438" xpos="-539.958" ypos="120.156" zpos="183.709" type="tt.eodhp.mm.jackal" GUID="s+glO99yc0SZdboxufg1wA=="/>
+		<POI MapID="1438" xpos="-565.142" ypos="152.995" zpos="-16.575" type="tt.eodhp.mm.beetle" GUID="qtT1kyLXD0+jdeGXm0qrmA=="/>
+		<POI MapID="1438" xpos="-772.428" ypos="152.877" zpos="-74.7753" type="tt.eodhp.rm.dismount" GUID="Igof1yMIjk+GnxByDG09UQ=="/>
+		<POI MapID="1438" xpos="-738.164" ypos="197.996" zpos="-175.455" type="tt.eodhp.mm.beetle" GUID="eTu9jRSVUEm+s/gmqjN22g=="/>
+		<POI MapID="1438" xpos="-505.297" ypos="269.889" zpos="-476.212" type="tt.eodhp.mm.griffon" GUID="x56/zqFgWkCg1NBiWs5s7Q=="/>
+		<POI MapID="1438" xpos="-856.309" ypos="139.007" zpos="-751.443" type="tt.eodhp.mm.griffon" GUID="vEne2fLDsUS+/U6lmwS/1A=="/>
+		<POI MapID="1438" xpos="-852.173" ypos="139.089" zpos="-748.901" type="tt.eodhp.rm.finish" GUID="EwZROw1k0ki4LYn5Mr+JkQ=="/>
+	<!--SP Markers-->
+		<POI MapID="1442" xpos="373.699" ypos="0.458997" zpos="700.243" type="tt.eodhp.rm.start" GUID="mopPA1nkGEGFETqQhCA/0g=="/>
+		<POI MapID="1442" xpos="370.145" ypos="2.05747" zpos="696.875" type="tt.eodhp.mm.jackal" GUID="gUyWoyvYJUCixWEJg0jInA=="/>
+		<POI MapID="1442" xpos="416.653" ypos="33.8857" zpos="463.808" type="tt.eodhp.mm.griffon" GUID="5/6Z+4LRREa3PSwWkwde2Q=="/>
+		<POI MapID="1442" xpos="342.31" ypos="76.2439" zpos="265.631" type="tt.eodhp.mm.jackal" GUID="MEmrQMOY/kyzgBP29DJpew=="/>
+		<POI MapID="1442" xpos="-14.1318" ypos="137.819" zpos="136.053" type="tt.eodhp.mm.skyscale" GUID="Y61FWq3ppEmOLHo47yHXJw=="/>
+		<POI MapID="1442" xpos="-68.7198" ypos="217.748" zpos="51.4552" type="tt.eodhp.rm.jadewp" info="Place your personal waypoint" infoRange="20.0" GUID="FP5Ct6kaIkyxv1syPXF/7A=="/>
+		<POI MapID="1442" xpos="-70.5107" ypos="216.506" zpos="46.9722" type="tt.eodhp.mm.griffon" GUID="UPmtg4ME+UqJVyhxFOHG4g=="/>
+		<POI MapID="1442" xpos="-413.934" ypos="1.08009" zpos="193.608" type="tt.eodhp.wm.wparrow" copy="[&BJ4MAAA=]" GUID="dY6zdFXvlkOlpwhO2Pr1dw=="/>
+		<POI MapID="1442" xpos="-79.0056" ypos="14.3334" zpos="-183.819" type="tt.eodhp.wm.arrow" GUID="O0QIyspVE0m/vseTOu2g6g=="/>
+		<POI MapID="1442" xpos="-134.406" ypos="1.37639" zpos="-186.219" type="tt.eodhp.mm.skimmer" GUID="3BJILmwXwUGauLLEklEfig=="/>
+		<POI MapID="1442" xpos="-333.97" ypos="1.37639" zpos="-224.051" type="tt.eodhp.mm.skimmer" GUID="EUVBcBOo+EezVit8gkiN/Q=="/>
+		<POI MapID="1442" xpos="-520.823" ypos="47.8339" zpos="-365.797" type="tt.eodhp.mm.raptor" GUID="jL/ZQN9nZkOC/3N2SgA6Bg=="/>
+		<POI MapID="1442" xpos="-588.564" ypos="107.846" zpos="-92.7339" type="tt.eodhp.mm.skyscale" GUID="s5OU6Az7NkCzISrxlAlubw=="/>
+		<POI MapID="1442" xpos="-639.591" ypos="163.067" zpos="-61.9195" type="tt.eodhp.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="RiiJSHl+DEevlhkM4KU6kg=="/>
+		<POI MapID="1442" xpos="503.71" ypos="113.293" zpos="-185.774" type="tt.eodhp.mm.griffon" GUID="vRj68+GleUeqxcmqtAOZuw=="/>
+		<POI MapID="1442" xpos="982.008" ypos="100.517" zpos="-360.158" type="tt.eodhp.rm.finish" info="Waypoint to The Echovald Wilds to continue the trail" infoRange="20.0" copy="[&BIsMAAA=]" GUID="Os3jCbt6TECC2PnulBuqUw=="/>
+	<!--TEW Markers-->
+		<POI MapID="1452" xpos="-127.37" ypos="162.838" zpos="709.964" type="tt.eodhp.wm.arrow" GUID="b1GjjP6GJEuxLSguG3EIJw=="/>	
+		<POI MapID="1452" xpos="-126.407" ypos="162.993" zpos="697.857" type="tt.eodhp.rm.start" GUID="eeV1BowaqU2yUAuI1C96pA=="/>
+		<POI MapID="1452" xpos="-127.034" ypos="162.828" zpos="704.088" type="tt.eodhp.rm.1" GUID="HNHwJcc+D0WcCR6xY/w7sw=="/>
+		<POI MapID="1452" xpos="-121.231" ypos="162.828" zpos="706.715" type="tt.eodhp.rm.2" GUID="X99l3gi8j0+p4YrODm7Azg=="/>
+		<POI MapID="1452" xpos="-122.458" ypos="163.042" zpos="700.333" type="tt.eodhp.mm.beetle" GUID="G7eBfu4LlEK0JE1g/NshLQ=="/>
+		<POI MapID="1452" xpos="-393.956" ypos="195.123" zpos="655.008" type="tt.eodhp.mm.beetle" GUID="0yO4BMfxyEeSnCPQWdz+RQ=="/>
+		<POI MapID="1452" xpos="-518.18" ypos="139.646" zpos="-4.13788" type="tt.eodhp.mm.jackal" GUID="/WbiJz+fpk21zZ9dTQ10Yw=="/>
+		<POI MapID="1452" xpos="-647.199" ypos="166.978" zpos="-13.1272" type="tt.eodhp.mm.skyscale" GUID="UBk9Yn5EG0eMzvr3KzQakg=="/>
+		<POI MapID="1452" xpos="-686.335" ypos="187.46" zpos="13.1526" type="tt.eodhp.mm.griffon" GUID="J7joV03rWke+FqTEWjTpjQ=="/>
+		<POI MapID="1452" xpos="-694.787" ypos="150.467" zpos="-46.9646" type="tt.eodhp.mm.beetle" GUID="FpVEsrLlfEKRenuU4zMSXQ=="/>
+		<POI MapID="1452" xpos="-876.793" ypos="222.174" zpos="-484.05" type="tt.eodhp.wm.wparrow" copy="[&BIsMAAA=]" GUID="tMD5xgoWFE+fTApXG2wFRw=="/>
+		<POI MapID="1452" xpos="-177.319" ypos="146.945" zpos="-97.2249" type="tt.eodhp.mm.skyscale" GUID="ThZ+i0vWX0uIaittSN6LmA=="/>
+		<POI MapID="1452" xpos="-97.772" ypos="204.306" zpos="-57.7187" type="tt.eodhp.mm.skyscale" GUID="HRzQBY8tX0u3kx8/t7vwGw=="/>
+		<POI MapID="1452" xpos="-74.3877" ypos="229.942" zpos="-52.3418" type="tt.eodhp.mm.griffon" info="It's important that you don't mess this dive up" infoRange="20.0" GUID="eTNoYEENHEWiWfhFzDVONQ=="/>
+		<POI MapID="1452" xpos="1029.66" ypos="99.7374" zpos="-659.846" type="tt.eodhp.mm.griffon" GUID="9kWyj07JfEyiaCQtXH1PTg=="/>
+		<POI MapID="1452" xpos="146.016" ypos="0.889345" zpos="-691.969" type="tt.eodhp.rm.finish" info="Head to Jade Quarry Waypoint in DE for the last trail" infoRange="20.0" copy="[&BKIMAAA=]" GUID="9OUAJ+/Gq0SUPDHolWZHHQ=="/>	
+	<!--DE Markers-->
+		<POI MapID="1422" xpos="-197.953" ypos="176.318" zpos="837.784" type="tt.eodhp.rm.start" GUID="5UxoAX4suUu5yaXlt5EYgQ=="/>
+		<POI MapID="1422" xpos="-175.608" ypos="176.315" zpos="864.629" type="tt.eodhp.mm.skyscale" GUID="3aq5aK0JPk6BAg2Wlwr9iQ=="/>
+		<POI MapID="1422" xpos="-112.128" ypos="239.799" zpos="960.467" type="tt.eodhp.mm.griffon" GUID="R8jH5wcogESztshH8Jfxjg=="/>
+		<POI MapID="1422" xpos="156.279" ypos="178.026" zpos="932.817" type="tt.eodhp.mm.griffon" GUID="XfKz0Zv6lE2SsPO86khMFQ=="/>
+		<POI MapID="1422" xpos="181.585" ypos="54.3464" zpos="341.51" type="tt.eodhp.mm.skyscale" GUID="L71zQpG4lUipD/x9iAG1Zg=="/>
+		<POI MapID="1422" xpos="163.461" ypos="113.75" zpos="234.689" type="tt.eodhp.mm.beetle" GUID="kKwcu/JwC066IrpfpnHU7g=="/>
+		<POI MapID="1422" xpos="469.812" ypos="161.011" zpos="-115.977" type="tt.eodhp.mm.beetle" GUID="6uwD8/plQUee7KIwixXleQ=="/>
+		<POI MapID="1422" xpos="156.713" ypos="159.336" zpos="-121.779" type="tt.eodhp.rm.bondoffaith" GUID="BcPKCiPKDkC6WVjBUhENTw=="/>
+		<POI MapID="1422" xpos="116.315" ypos="160.954" zpos="-142.199" type="tt.eodhp.mm.skyscale" GUID="gZ9cdW0taka8gvpOHF32+w=="/>
+		<POI MapID="1422" xpos="-0.907917" ypos="245.598" zpos="-318.769" type="tt.eodhp.mm.griffon" GUID="u312V/JTF06LdhYceIlJqw=="/>
+		<POI MapID="1422" xpos="111.219" ypos="177.175" zpos="-264.486" type="tt.eodhp.rm.finish" GUID="v7PfZvyzuUGKf4QUhjhznw=="/>	
+	<!--AS Markers-->
+		<POI MapID="1428" xpos="-817.805" ypos="2.11994" zpos="521.432" type="tt.eodhp.rm.start" GUID="ZI7FgNViLkOOgUuuqlEgvA=="/>
+		<POI MapID="1428" xpos="-831.778" ypos="1.96808" zpos="531.504" type="tt.eodhp.mm.beetle" GUID="ce6VPxgSL0yytSwws/y+Vg=="/>
 	<!--Hero Point Trails-->
 		<Trail type="tt.eodhp.ct.mapR" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
 		<Trail type="tt.eodhp.ct.mapR" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
