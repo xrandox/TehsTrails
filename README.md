@@ -5,13 +5,15 @@ Currently contains trails for:
 - Core Tyria Map Completion
 - End of Dragons Map Completion
 - End of Dragons Lanterns
+- End of Dragons Hero Points
 - Heart of Thorns Map Completion (Verdant Brink Only)
+- Rough Trails for HoT/PoF HP trails
 
 In the works:
-- End of Dragons Hero Points
-- Heart of Thorns Map Completion
+- Heart of Thorns Map Completion (3/4 remaining)
 - Proper release of HoT/PoF HP Trails
 - Path of Fire Map Completion
+- Revamp of Core Tyria for new EoD masteries
 
 ### Latest Pack Download Link: [TehsTrails.taco](https://github.com/xrandox/TehsTrails/raw/main/TehsTrails/TehsTrails.taco)
 
