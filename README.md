@@ -6,11 +6,11 @@ Currently contains trails for:
 - End of Dragons Map Completion
 - End of Dragons Lanterns
 - End of Dragons Hero Points
-- Heart of Thorns Map Completion (Verdant Brink Only)
+- Heart of Thorns Map Completion (VB/AB Only)
 - Rough Trails for HoT/PoF HP trails
 
 In the works:
-- Heart of Thorns Map Completion (3/4 remaining)
+- Heart of Thorns Map Completion (2/4 remaining)
 - Proper release of HoT/PoF HP Trails
 - Path of Fire Map Completion
 - Revamp of Core Tyria for new EoD masteries
