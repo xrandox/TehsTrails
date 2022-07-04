@@ -708,7 +708,7 @@
 
 
 
-		<MarkerCategory name="eodl" DisplayName="Lanterns">
+		<MarkerCategory name="eodl" DisplayName="Lanterns" defaulttoggle="0">
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
 				<!-- RED -->
@@ -788,7 +788,7 @@
 		</MarkerCategory>
 
 
-		<MarkerCategory name="eodhp" DisplayName="Hero Points">
+		<MarkerCategory name="eodhp" DisplayName="Hero Points Only" defaulttoggle="0">
 
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
 				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
