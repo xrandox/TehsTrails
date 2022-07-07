@@ -36,14 +36,19 @@ Per my normal, the routing on these maps is intended for speed and thus is not n
 
 ***
 
-### Lanterns 
+### End of Dragons Lanterns 
 With EoD we got a new way to do repeatable map comp -- Jade Lanterns. As these are very promising for their speed, and no longer require us to create more and more characters, they may very well be the new map comp. As such, I'm in the process of creating routing for each of the 4 Cantha maps lanterns as well. The goal here is just the same as map comp -- get it all as fast as possible.
 
 #### Average Map Times:
 - Seitung Province: ~22 min 
-- New Kaineng City: ~15 min
+- New Kaineng City: ~14 min
 - The Echovald Wilds: ~25 min
 - Dragons End: ~20 min
+
+***
+
+### End of Dragons Hero Points Only
+This routing is for those who want to quickly unlock elite specs. It provides trails to all HP's in EoD. Stealth is highly recommended to stealth commune and not need to fight the elites that guard most HP's. Otherwise, bring a decent single target build to nuke the elites before you commune. 
 
 ***
 
