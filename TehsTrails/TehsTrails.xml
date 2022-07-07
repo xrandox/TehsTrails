@@ -3749,7 +3749,12 @@
 		
 		
 		<!--============================================= METRICA PROVINCE MARKERS =============================================-->
-		<POI MapID="35" xpos="489.833" ypos="15.5899" zpos="-397.046" type="tt.mc.cm.mm.beetle" GUID="WAOe2jmREkiP45YSnQkNqQ=="/>
+		<POI MapID="35" xpos="213.816" ypos="2.77786" zpos="-151.071" type="tt.mc.cm.rm.1" GUID="gy+mlty6d0yjAFbrgjpkgQ=="/>
+		<POI MapID="35" xpos="220.626" ypos="2.23155" zpos="-146.454" type="tt.mc.cm.rm.2" GUID="+8sR5PcF4EuAmEnap2sApA=="/>
+		<POI MapID="35" xpos="219.358" ypos="2.34908" zpos="-149.994" type="tt.mc.cm.mm.beetle" GUID="HegRuJvyGUKn2HCB/uQx1A=="/>
+		<POI MapID="35" xpos="211.922" ypos="3.08147" zpos="-144.802" type="tt.mc.cm.wm.heart" GUID="gUV9uE8kNkWfmORw2ZtXSQ=="/>
+		<POI MapID="35" xpos="301.123" ypos="34.9807" zpos="-29.3134" type="tt.mc.cm.wm.wpheart" GUID="kVP6GlrldEego1mpdWWaUA=="/>
+		<POI MapID="35" xpos="615.224" ypos="43.4988" zpos="-569.766" type="tt.mc.cm.wm.wpheart" GUID="UOTB1fk/80qMNxv+4m78GQ=="/>
 		<POI MapID="35" xpos="-476.619" ypos="47.2911" zpos="-729.725" type="tt.mc.cm.mm.raptor" GUID="qcqGE+/w+UadTbx4kOGrWw=="/>
 		<POI MapID="35" xpos="100.881" ypos="2.91052" zpos="-572.419" type="tt.mc.cm.mm.beetle" GUID="TUiKFj6GtkOPJ5iUCSpvVg=="/>
 		<POI MapID="35" xpos="1.02365" ypos="23.7466" zpos="-148.915" type="tt.mc.cm.mm.beetle" GUID="ZJF1QcJBxU6UKIT9og0qeg=="/>
@@ -3869,7 +3874,6 @@
 		<POI MapID="35" xpos="576.683" ypos="64.7769" zpos="948.975" type="tt.mc.cm.rm.finish" copy="[&BEcAAAA=]" triggerrange="50" GUID="cd5+be2OI0CQr7ANzHPJcg=="/>
 		<POI MapID="35" xpos="578.85" ypos="64.7405" zpos="950.794" type="tt.mc.cm.rm.points_of_interest" GUID="fjYuI5t810axmDKSuCULeQ=="/>
 		<POI MapID="35" xpos="580.014" ypos="28.178" zpos="-676.212" type="tt.mc.h.chm.gather" GUID="OKkPwkg5tUOrXx/9/9NunQ=="/>
-		<POI MapID="35" xpos="589.758" ypos="33.3069" zpos="-538.776" type="tt.mc.cm.mm.griffon" GUID="IRghYTiDm0yn2Aw0MZV4OA=="/>
 		<POI MapID="35" xpos="593.809" ypos="27.5531" zpos="-673.919" type="tt.mc.h.chm.gather" GUID="Dv0dYhXkeUWpRc/ZB1n1nw=="/>
 		<POI MapID="35" xpos="597.996" ypos="35.1501" zpos="-603.598" type="tt.mc.h.chm.gather" GUID="1Td/UfBltUeuWytf9pubMg=="/>
 		<POI MapID="35" xpos="605.151" ypos="29.7108" zpos="-653.611" type="tt.mc.h.chm.gather" GUID="t6VL+GGuwUu2UEF4hEYqRg=="/>
