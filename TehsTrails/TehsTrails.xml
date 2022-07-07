@@ -3346,6 +3346,8 @@
 		
 		
 		<!--============================================= BRISBAN WILDLANDS MARKERS =============================================-->
+		<POI MapID="54" xpos="53.7984" ypos="83.3809" zpos="117.888" type="tt.mc.cm.mm.jackal" GUID="Tbpg2ocftE6i4rPqUlJIAA=="/>
+		<POI MapID="54" xpos="60.1494" ypos="103.495" zpos="166.987" type="tt.mc.cm.mm.beetle" GUID="PrUPPPk/LEGnH3d/JcSE2Q=="/>
 		<POI MapID="54" xpos="285.743" ypos="74.51" zpos="-692.782" type="tt.mc.cm.mm.beetle" GUID="cch8FXtVS0u0avP8Z0jyOg=="/>
 		<POI MapID="54" xpos="727.868" ypos="103.413" zpos="719.587" type="tt.mc.cm.mm.beetle" GUID="sgvc8bdEBkyqgQ/iNmTrTQ=="/>
 		<POI MapID="54" xpos="950.272" ypos="46.1221" zpos="-127.345" type="tt.mc.cm.mm.beetle" GUID="aurTdgjNZUmoLM7dVQ16+g=="/>
@@ -3512,15 +3514,16 @@
 		<POI MapID="54" xpos="955.419" ypos="55.5915" zpos="-404.888" type="tt.mc.h.chm.interact" GUID="yWG5BcxWqESnFeATXtPUUQ=="/>
 		<POI MapID="54" xpos="955.563" ypos="66.1292" zpos="567.356" type="tt.mc.h.chm.finish_heart" GUID="+ePaLovO2U62tzsjLpXQcA=="/>
 		<POI MapID="54" xpos="956.567" ypos="53.2479" zpos="-374.146" type="tt.mc.h.chm.start_heart" GUID="tQ7BruN+50mz72OJYp0vDA==" info="Kill Nightmare court"/>
-		<POI MapID="54" xpos="957.393" ypos="66.5489" zpos="567.53" type="tt.mc.cm.rm.jadewp" GUID="E7ABtUjnvkq7suLuWY0eNA==" copy="[&amp;BGAAAAA=]"/>
+		<POI MapID="54" xpos="957.393" ypos="66.5489" zpos="567.53" type="tt.mc.cm.rm.jadewp" GUID="E7ABtUjnvkq7suLuWY0eNA=="/>
+		<POI MapID="54" xpos="256.232" ypos="52.0967" zpos="-633.227" type="tt.mc.cm.rm.jadewp" GUID="E7ABtUjnvkq7suLuWZ0eNA=="/>
 		<POI MapID="54" xpos="959.139" ypos="66.8622" zpos="568.593" type="tt.mc.cm.rm.points_of_interest" GUID="uy4EIIvRDEqJH/aUo8o7Og=="/>
 		<POI MapID="54" xpos="960.634" ypos="55.0899" zpos="646.106" type="tt.mc.cm.rm.waypoints" GUID="/AW8vfwHzUSgdcRI+dL7Lw=="/>
 		<POI MapID="54" xpos="978.391" ypos="81.6668" zpos="-433.488" type="tt.mc.h.chm.interact" GUID="dEbciGUHjU6w4LtD8KOs7g=="/>
 		<POI MapID="54" xpos="983.849" ypos="82.8066" zpos="-443.949" type="tt.mc.h.chm.finish_heart" GUID="OTihe8EO6E+W8sTMQwA2AQ=="/>
 		<POI MapID="54" xpos="985.577" ypos="83.1904" zpos="-443.8" type="tt.mc.cm.wm.wpcircle" GUID="6hamD1OLnEOgZ0hAjCQs1w==" copy="[&amp;BHUAAAA=]"/>
 		<POI MapID="54" xpos="986.591" ypos="83.4485" zpos="-442.13" type="tt.mc.cm.rm.points_of_interest" GUID="dVkaXnWvpUGYFMbn3oWftw=="/>
-		<POI MapID="54" xpos="251.675" ypos="51.0666" zpos="-629.91" type="tt.mc.cm.rm.1" GUID="naLpYLmNSUWW4QKQh3049A=="/>
-		<POI MapID="54" xpos="256.552" ypos="51.9515" zpos="-633.029" type="tt.mc.cm.rm.2" GUID="L9B7vGwDkEiPvH429ovYpw=="/>
+		<POI MapID="54" xpos="251.675" ypos="51.0666" zpos="-629.91" type="tt.mc.cm.rm.2" GUID="naLpYLmNSUWW4QKQh3049A=="/>
+		<POI MapID="54" xpos="256.552" ypos="51.9515" zpos="-633.029" type="tt.mc.cm.rm.1" GUID="L9B7vGwDkEiPvH429ovYpw=="/>
 		<POI MapID="54" xpos="507.647" ypos="1.68542" zpos="-468.333" type="tt.mc.cm.wm.wpcircle" GUID="Tgvu/h+9UUO2hWFg6JyUWw=="/>
 		<POI MapID="54" xpos="300.013" ypos="101.666" zpos="675.976" type="tt.mc.cm.mm.beetle" GUID="ZS399QrsGkul7eDGqg9xiQ=="/>
 		<POI MapID="54" xpos="566.108" ypos="62.1431" zpos="355.21" type="tt.mc.cm.wm.wparrow" GUID="vdeJpg5CH0yc8Yy0CZ1eRg=="/>
