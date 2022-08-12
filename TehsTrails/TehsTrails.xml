@@ -3559,7 +3559,6 @@
 		<POI MapID="34" xpos="78.718" ypos="5.24358" zpos="-704.664" type="tt.mc.h.chm.interact" GUID="YolxyXHbhUqD8MYwcxiZkA=="/>
 		<POI MapID="34" xpos="95.3393" ypos="3.45258" zpos="-705.228" type="tt.mc.h.chm.interact" GUID="ACN8WhW5mkWMcgcEOD3cIw=="/>
 		<POI MapID="34" xpos="123.22" ypos="5.46299" zpos="-946.734" type="tt.mc.h.chm.start_heart" GUID="UOjMaOyDcU+FoUWSbFTSVQ==" info="Play with pups | Interact with larvae and kill mosquitoes"/>
-		<POI MapID="34" xpos="143.695" ypos="23.9913" zpos="-195.991" type="tt.mc.cm.mm.griffon" GUID="SwC2inQIbUWxGm3GNJP0gg=="/>
 		<POI MapID="34" xpos="154.351" ypos="0.675131" zpos="-911.475" type="tt.mc.cm.rm.points_of_interest" GUID="PMXjVluLdUq4Ktp+5rs6dw=="/>
 		<POI MapID="34" xpos="168.78" ypos="31.8719" zpos="444.943" type="tt.mc.cm.rm.vistas" GUID="EAoPVCMzkUOwok6LcMnD9g=="/>
 		<POI MapID="34" xpos="169.264" ypos="1.91229" zpos="-932.181" type="tt.mc.h.chm.finish_heart" GUID="sKyhauEzLkqmWCA59dCtyw=="/>
@@ -3693,7 +3692,7 @@
 		<POI MapID="34" xpos="-219.828" ypos="55.6548" zpos="442.527" type="tt.mc.cm.rm.waypoints" GUID="Sq/dey+76kqNlY86YNv8AA=="/>
 		<POI MapID="34" xpos="-218.921" ypos="31.8724" zpos="-699.486" type="tt.mc.cm.rm.waypoints" GUID="+oS3+Dz8NkWm57oMgWDbMw=="/>
 		<POI MapID="34" xpos="-221.474" ypos="-0.356826" zpos="-945.855" type="tt.mc.h.chm.interact" GUID="yV8jDXaGSEym8Yiyxg7Tmw=="/>
-		<POI MapID="34" xpos="-255.758" ypos="26.2038" zpos="-666.875" type="tt.mc.h.chm.finish_heart" GUID="WJ2xyjzTpUOOtaMjuWJMgQ=="/>
+		<POI MapID="34" xpos="-245.269" ypos="27.8537" zpos="-675.296" type="tt.mc.h.chm.finish_heart" GUID="WJ2xyjzTpUOOtaMjuWJMgQ=="/>
 		<POI MapID="34" xpos="-229.438" ypos="-8.97638" zpos="-93.8651" type="tt.mc.h.chm.interact" GUID="1wWvk81mOUSXVqhvlQ07wQ=="/>
 		<POI MapID="34" xpos="-239.808" ypos="0.740763" zpos="-511.698" type="tt.mc.h.chm.finish_heart" GUID="wXnS1M8vxE29j0+qF3/OSw=="/>
 		<POI MapID="34" xpos="-242.992" ypos="-0.498788" zpos="-991.221" type="tt.mc.h.chm.interact" GUID="8HFjJq2I+kqicK8bLE+JkQ=="/>
@@ -3718,7 +3717,7 @@
 		<POI MapID="34" xpos="-280.829" ypos="2.76077" zpos="-542.319" type="tt.mc.cm.rm.1" GUID="5S1NR1cne0Knz2Gbj7jIAg=="/>
 		<POI MapID="34" xpos="-288.468" ypos="4.20191" zpos="-548.4" type="tt.mc.cm.wm.heart" GUID="7zHSEPR/W0eX0Q4e1wkQgw=="/>
 		<POI MapID="34" xpos="-293.08" ypos="4.24497" zpos="-544.87" type="tt.mc.cm.rm.2" GUID="Kd+Tb1is0E6OtjedDNW1Fg=="/>
-		<POI MapID="34" xpos="-296.404" ypos="6.72869" zpos="-556.515" type="tt.mc.cm.rm.waypoints" GUID="JSkVqJHIakqeABBXewSSJQ=="/>
+		<POI MapID="34" xpos="-297.825" ypos="6.72869" zpos="-557.453" type="tt.mc.cm.rm.waypoints" GUID="JSkVqJHIakqeABBXewSSJQ=="/>
 		<POI MapID="34" xpos="-305.727" ypos="0.128057" zpos="1105.35" type="tt.mc.h.chm.interact" GUID="ZSTYLU2TA0GCHw5IxA6jYg=="/>
 		<POI MapID="34" xpos="-330.469" ypos="8.25126" zpos="963.649" type="tt.mc.cm.rm.points_of_interest" GUID="T5x8Uy35RUiOMF5MNSd50w=="/>
 		<POI MapID="34" xpos="-332.614" ypos="6.13629" zpos="691.926" type="tt.mc.cm.rm.waypoints" GUID="w+b4ZV3Eykm6rKvOavUnYw=="/>
@@ -3758,10 +3757,17 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
 		<POI MapID="34" xpos="186.686" ypos="-0.19622" zpos="-21.3536" type="tt.mc.cm.mm.skyscale" GUID="sw1CkhFN/UqmnKznJHbI9g=="/>
 		<POI MapID="34" xpos="-395.331" ypos="17.9678" zpos="-22.7562" type="tt.mc.cm.rm.bondoffaith" GUID="sLd0lJ4FH0i6uNl30fFcpQ=="/>
 		<POI MapID="34" xpos="-400.205" ypos="17.8923" zpos="-24.7182" type="tt.mc.cm.mm.skyscale" GUID="X5OpzGdGgUCPVN2HZCEWIg=="/>
-		<POI MapID="34" xpos="333.044" ypos="49.2291" zpos="964.63" type="tt.mc.cm.mm.springertogriff" GUID="2fgTej3Gv0WJt7zElOLMIQ=="/>
+		<POI MapID="34" xpos="333.044" ypos="49.2291" zpos="964.63" type="tt.mc.cm.mm.springertogriff" GUID="2fgTej3Gv0WJt7zElOLMIQ==" info="As long as you keep your speed up, you can stay on griff, otherwise land and swap to beetle." infoRange="5.0"/>
 		<POI MapID="34" xpos="-338.406" ypos="2.06379" zpos="709.13" type="tt.mc.cm.mm.beetle" GUID="+++nvNjxTkaV1dyeAQkdqw=="/>
 		<POI MapID="34" xpos="-342.467" ypos="4.03432" zpos="701.781" type="tt.mc.cm.wm.arrow" GUID="SBU35rykik+K2gypxBC7WQ=="/>
-		<POI MapID="34" xpos="-420.47" ypos="0.38686" zpos="528.57" type="tt.mc.cm.wm.wparrow" GUID="ZixLUuIayUaoqLpT4QJU/g=="/>
+		<POI MapID="34" xpos="-420.47" ypos="0.38686" zpos="528.57" type="tt.mc.cm.wm.wparrow" info="Quickly waypoint to Arrow before you get hit. If hit, walk of shame back to waypoint." infoRange="35.0" GUID="ZixLUuIayUaoqLpT4QJU/g=="/>
+		<POI MapID="34" xpos="-248.99" ypos="27.6726" zpos="-678.255" type="tt.mc.cm.mm.beetle" GUID="ELm5qQgu1kCpAqhB2LIeBQ=="/>
+		<POI MapID="34" xpos="-453.86" ypos="24.0653" zpos="-660.823" type="tt.mc.cm.rm.bondoffaith" GUID="KSjZzg9WOkuxQ84B68ryLw=="/>
+		<POI MapID="34" xpos="-440.071" ypos="-0.0506172" zpos="-720.107" type="tt.mc.cm.mm.beetle" GUID="3C9mSBc4Ake0VLx1xHhO2g=="/>
+		<POI MapID="34" xpos="-454.819" ypos="31.952" zpos="-892.393" type="tt.mc.cm.wm.wpheart" GUID="TEvfcS533U6Xf5DXQQssig=="/>
+		<POI MapID="34" xpos="-78.314" ypos="17.7079" zpos="-489.904" type="tt.mc.cm.rm.bondoffaith" GUID="dozI8q5G60Wbw/ncxZHtdQ=="/>
+		<POI MapID="34" xpos="-19.5038" ypos="19.8814" zpos="-495.544" type="tt.mc.cm.mm.beetle" GUID="pCOPlpR/8kGrPBrpvAYoyw=="/>
+		<POI MapID="34" xpos="139.174" ypos="33.1766" zpos="-253.188" type="tt.mc.cm.wm.wpheart" GUID="u6SwoOsXcEqXfGJjandd2g=="/>
 		
 		
 		<!--============================================= METRICA PROVINCE MARKERS =============================================-->
