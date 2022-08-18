@@ -5646,7 +5646,6 @@ Event -&gt; Interact with Orrian grub holes + AoE kill"/>
 		<POI MapID="53" xpos="-460.089" ypos="34.5501" zpos="561.527" type="tt.mc.cm.mm.beetle" GUID="W96fsb7RN0OuThYsFJNjAg=="/>
 		<POI MapID="53" xpos="-67.01" ypos="6.42219" zpos="-335.076" type="tt.mc.cm.mm.beetle" GUID="ZkU/kpfAJkiM8b9Pg3OUGg=="/>
 		<POI MapID="53" xpos="-65.542" ypos="8.80011" zpos="-346.274" type="tt.mc.cm.mm.beetle" GUID="Y5U3BGBqgEWd+m1e4/Q65g=="/>
-		<POI MapID="53" xpos="397.496" ypos="0.147295" zpos="-324.038" type="tt.mc.cm.mm.jackal" GUID="gWxCutWZXEqiFMLbv9dR0g=="/>
 		<POI MapID="53" xpos="311.494" ypos="3.69899" zpos="-366.213" type="tt.mc.cm.mm.beetle" GUID="+oSKSD+JCECkwf/zQOLe4Q=="/>
 		<POI MapID="53" xpos="314.213" ypos="0.354087" zpos="-729.934" type="tt.mc.cm.mm.beetle" GUID="iJ5M9lbvbkKudFWdvuqMmg=="/>
 		<POI MapID="53" xpos="2.14597" ypos="23.8986" zpos="285.522" type="tt.mc.h.chm.interact" GUID="KSkyIFjUjEayGBN5fMtuxg=="/>
@@ -5691,9 +5690,9 @@ Kill risen, skale, trolls, fix hylek region markers"/>
 		<POI MapID="53" xpos="303.992" ypos="-0.262324" zpos="-633.707" type="tt.mc.h.chm.start_heart" GUID="i77tXli3A0ab0CVGblBPbA==" info="Kill ambient creatures, bring in supplies"/>
 		<POI MapID="53" xpos="311.372" ypos="0.347829" zpos="-731.491" type="tt.mc.cm.rm.waypoints" GUID="A9uN/7G0KUq5ceWQu6H04g=="/>
 		<POI MapID="53" xpos="330.584" ypos="2.16625" zpos="-321.508" type="tt.mc.cm.wm.heart" GUID="nEp0YLRhkE+xuLWNkJvIEQ=="/>
-		<POI MapID="53" xpos="338.862" ypos="13.7091" zpos="-341.284" type="tt.mc.cm.rm.waypoints" GUID="h9PEV0eMY0KhVVZ5qEfEVQ=="/>
+		<POI MapID="53" xpos="322.467" ypos="9.59418" zpos="-316.995" type="tt.mc.cm.rm.waypoints" GUID="h9PEV0eMY0KhVVZ5qEfEVQ=="/>
 		<POI MapID="53" xpos="366.619" ypos="10.117" zpos="601.794" type="tt.mc.cm.rm.points_of_interest" GUID="hBrurP84aUuuaJ3SqE5kPQ=="/>
-		<POI MapID="53" xpos="396.121" ypos="0.144439" zpos="-320.972" type="tt.mc.h.chm.finish_heart" GUID="gh1CCNxbJkqsjK38ItIjGg=="/>
+		<POI MapID="53" xpos="307.546" ypos="10.9092" zpos="-331.35" type="tt.mc.h.chm.finish_heart" GUID="gh1CCNxbJkqsjK38ItIjGg=="/>
 		<POI MapID="53" xpos="468.413" ypos="13.6501" zpos="-739.655" type="tt.mc.h.chm.finish_heart" GUID="Z6ZPTyh3okiTgRnPpUCzow=="/>
 		<POI MapID="53" xpos="469.563" ypos="39.2051" zpos="532.773" type="tt.mc.cm.mm.griffon" GUID="qHGnzR2kVEG++rlWNjoJwQ=="/>
 		<POI MapID="53" xpos="495.119" ypos="32.8624" zpos="542.953" type="tt.mc.cm.rm.waypoints" GUID="x2arYfW7b0O1cKR4nKwy+A=="/>
@@ -5702,7 +5701,6 @@ Kill risen, skale, trolls, fix hylek region markers"/>
 		<POI MapID="53" xpos="538.883" ypos="46.1684" zpos="669.454" type="tt.mc.cm.rm.vistas" GUID="EcoRjekifUG3lvLhyiXpsA=="/>
 		<POI MapID="53" xpos="546.015" ypos="62.7641" zpos="423.186" type="tt.mc.cm.rm.points_of_interest" GUID="R2k0uQJ8ZUehvqMbvkaFuw=="/>
 		<POI MapID="53" xpos="570.703" ypos="30.7774" zpos="-619.202" type="tt.mc.cm.rm.waypoints" GUID="UlOdd99AkUWh7x/7akH0Ig=="/>
-		<POI MapID="53" xpos="581.338" ypos="40.1672" zpos="13.3605" type="tt.mc.cm.wm.wpheart" GUID="C+McJWuwW0S/sQI7GskNwg==" copy="[&amp;BE0DAAA=]"/>
 		<POI MapID="53" xpos="582.914" ypos="40.6569" zpos="14.9626" type="tt.mc.cm.rm.waypoints" GUID="1j4VRXXMoECsqeCesWZThA=="/>
 		<POI MapID="53" xpos="624.592" ypos="38.5582" zpos="-714.344" type="tt.mc.cm.rm.finish" GUID="+7IeAPTCeUS2HtnEdneVHg=="/>
 		<POI MapID="53" xpos="628.1" ypos="38.827" zpos="-716.467" type="tt.mc.cm.rm.points_of_interest" GUID="zO3uWyYT90qx272Dn4qdsA=="/>
@@ -5816,6 +5814,9 @@ Talk to heart -&gt; use weapon skills on enemies out of range (skill 4 and 5 giv
 		<POI MapID="53" xpos="-172.349" ypos="0.265474" zpos="370.91" type="tt.mc.cm.mm.skyscale" GUID="ix9gQwO7ZUGkr6p95Sh+Og=="/>
 		<POI MapID="53" xpos="-239.259" ypos="32.6584" zpos="301.835" type="tt.mc.cm.rm.bondoffaith" GUID="A9qKpsTon0CITK6yMVThmQ=="/>
 		<POI MapID="53" xpos="206.959" ypos="45.2578" zpos="843.44" type="tt.mc.cm.wm.wpx" GUID="Wxp0oeo2U0Kvbn0O3N4T5Q=="/>
+		<POI MapID="53" xpos="652.571" ypos="62.7374" zpos="-299.892" type="tt.mc.cm.wm.wpheart" GUID="caJd6sdcO0OfXyMj1JD5Vg=="/>
+		<POI MapID="53" xpos="581.923" ypos="39.1852" zpos="4.12394" type="tt.mc.cm.mm.beetle" GUID="m2Pbe5YabUq2S5tAYmZgfw=="/>
+		<POI MapID="53" xpos="337.535" ypos="1.11994" zpos="-308.368" type="tt.mc.cm.mm.beetle" GUID="CDENzDZwQEqcigqVRm1OSQ=="/>
 		
 		
 		
