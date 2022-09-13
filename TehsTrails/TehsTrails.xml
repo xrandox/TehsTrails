@@ -81,6 +81,7 @@
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
@@ -257,15 +258,16 @@
 				</MarkerCategory>
 	
 				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
-				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
-				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
-				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
-				  <MarkerCategory name="skimmer" DisplayName="Skimmer" iconFile="Data/TehsTrails/Markers/Skimmer.png"/>
-				  <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
-				  <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
-				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
-				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
-				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				  	<MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
+				 	<MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
+				 	<MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
+					<MarkerCategory name="skimmer" DisplayName="Skimmer" iconFile="Data/TehsTrails/Markers/Skimmer.png"/>
+				 	<MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
+				 	<MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
+				  	<MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
+				  	<MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
+				  	<MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+					<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
@@ -369,6 +371,7 @@
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
@@ -465,6 +468,7 @@
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
@@ -552,6 +556,7 @@
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
@@ -653,6 +658,7 @@
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
@@ -840,6 +846,7 @@
 				<MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
 				<MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				<MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 			</MarkerCategory>
 
 			<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
