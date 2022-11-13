@@ -20,7 +20,7 @@ In the works:
 ***
 
 ### Core Tyria Map Completion 
-A pack tailored for speedrunning map completion. It utilizes all mounts, waypoints and a multitude of markers (Over 5,000!) to give you the fastest map completion times possible. The current Core Tyria map comp world record of 8h59m utilizes this packs routing!
+A pack tailored for speedrunning map completion. It utilizes all mounts, waypoints and a multitude of markers (Over 5,000!) to give you the fastest map completion times possible. The current Core Tyria map comp world record of 8h11m utilizes this packs routing!
 
 ***
 
@@ -37,7 +37,7 @@ Per my normal, the routing on these maps is intended for speed and thus is not n
 ***
 
 ### End of Dragons Lanterns 
-With EoD we got a new way to do repeatable map comp -- Jade Lanterns. As these are very promising for their speed, and no longer require us to create more and more characters, they may very well be the new map comp. As such, I'm in the process of creating routing for each of the 4 Cantha maps lanterns as well. The goal here is just the same as map comp -- get it all as fast as possible.
+With EoD we got a new way to do repeatable map comp -- Jade Lanterns. Lanterns are very promising for their speed and because they allow us to repeat map comp without needing to create a new character each time. As such, many people are switching to doing lanterns instead of repeating map comp on new characters. The goal is to simply light every lantern on the map. Each lantern requires on jade bot charge to light. This pack provides you fast routing between lanterns while also making use of batteries and other jade technologies to manage your jade bot charges for you. 
 
 #### Average Map Times:
 - Seitung Province: ~22 min 
