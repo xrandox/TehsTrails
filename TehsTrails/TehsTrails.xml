@@ -5765,7 +5765,7 @@ If you don't have anything -&gt; After getting to bottom of volcano -&gt; Follow
 		<POI MapID="53" xpos="119.446" ypos="4.28131" zpos="771.219" type="tt.mc.cm.rm.points_of_interest" GUID="D1PMRRxU9UmDnJtpHxsuuQ=="/>
 		<POI MapID="53" xpos="120.747" ypos="5.52209" zpos="777.805" type="tt.mc.h.chm.finish_heart" GUID="eATK1xvc4UyatbjCI7iLqg=="/>
 		<POI MapID="53" xpos="123.335" ypos="6.22743" zpos="780.347" type="tt.mc.cm.mm.griffon" GUID="4X3h2lCxc0SE8N8EhJfRQg=="/>
-		<POI MapID="53" xpos="131.592" ypos="2.48513" zpos="744.607" type="tt.mc.h.chm.start_heart" GUID="Uuhl5ayduUy6xt1Ij6Yumg==" info="Grab flamethrower and burn weeds"/>
+		<POI MapID="53" xpos="131.592" ypos="2.48513" zpos="744.607" type="tt.mc.h.chm.start_heart" GUID="Uuhl5ayduUy6xt1Ij6Yumg==" info="Grab flamethrower and burn weeds (you get progress 2x with quickness)"/>
 		<POI MapID="53" xpos="133.014" ypos="3.10803" zpos="750.18" type="tt.mc.h.chm.gather" GUID="rcJVuIzpxEOR6Brkmp+X5w=="/>
 		<POI MapID="53" xpos="148.565" ypos="6.12375" zpos="751.185" type="tt.mc.h.chm.kill" GUID="cdSerGPaX0mjhQAShkMuJw=="/>
 		<POI MapID="53" xpos="150.364" ypos="2.01318" zpos="731.132" type="tt.mc.h.chm.kill" GUID="+PrcpsVEVkWv7go+EHjjmw=="/>
