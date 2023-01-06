@@ -2951,7 +2951,7 @@ Talk to heart -&gt; skill 2 on rat out of LoS"/>
 		<POI MapID="17" xpos="-672.528" ypos="33.811" zpos="357.598" type="tt.mc.cm.rm.vistas" GUID="tYLCmzsKXk2OyFDo4YONow=="/>
 		<POI MapID="17" xpos="-684.858" ypos="10.3066" zpos="310.113" type="tt.mc.cm.mm.griffon" GUID="GygurULYh0aJbvl9xa1uAw=="/>
 		<POI MapID="17" xpos="-698.706" ypos="9.78311" zpos="356.581" type="tt.mc.h.chm.interact" GUID="n1nXDLf9REe/1kjWsQ7I4w=="/>
-		<POI MapID="17" xpos="-713.225" ypos="17.3623" zpos="408.623" type="tt.mc.h.chm.start_heart" GUID="q3m4eIcxAUaniLMCi6WQJQ==" info="Feed livestock, duel Duchen, kill Harathi and bandits
+		<POI MapID="17" xpos="-713.225" ypos="17.3623" zpos="408.623" type="tt.mc.h.chm.start_heart" GUID="q3m4eIcxAUaniLMCi6WQJQ==" info="Feed livestock, Give meal to heart, duel Duchen, kill Harathi and bandits
 
 Do not forget Vista"/>
 		<POI MapID="17" xpos="-714.945" ypos="19.4383" zpos="408.041" type="tt.mc.cm.rm.waypoints" GUID="6PjXiJMqnEmwyB4TbE1wmA=="/>
@@ -2980,7 +2980,10 @@ Do not forget Vista"/>
 		<POI MapID="17" xpos="-757.664" ypos="105.796" zpos="-460.043" type="tt.mc.cm.mm.jackal" GUID="kIJEQByBW0WfoH/BlVQyXg=="/>
 		<POI MapID="17" xpos="-704.576" ypos="68.5201" zpos="-179.936" type="tt.mc.cm.mm.beetle" GUID="MwfyU7eXvEKvBACSW14Xkg=="/>
 		<POI MapID="17" xpos="-415.011" ypos="40.3862" zpos="-344.546" type="tt.mc.cm.mm.beetle" GUID="pl8iH41zUkmvyOvha5porw=="/>
-		
+        <POI MapID="17" xpos="-743.42" ypos="14.3379" zpos="395.986" type="tt.mc.h.chm.deposit" GUID="GzVhfECeQEi+MYU4jYGaLg=="/>
+        <POI MapID="17" xpos="-745.998" ypos="13.6511" zpos="406.662" type="tt.mc.h.chm.interact" GUID="uBD374lEsUOL4CHVbi0T4Q=="/>
+        <POI MapID="17" xpos="-746.552" ypos="13.9438" zpos="413.882" type="tt.mc.h.chm.interact" GUID="JJXwd8an7U248XE+JBweSg=="/>
+        <POI MapID="17" xpos="-746.578" ypos="14.0774" zpos="415.537" type="tt.mc.h.chm.interact" GUID="J3w7RF7nCEGFOJabRH5Otw=="/>
 		
 		<!--============================================= KESSEX HILLS MARKERS =============================================-->
 		<POI MapID="23" xpos="777.719" ypos="42.3069" zpos="180.356" type="tt.mc.cm.mm.jackal" GUID="FAmh/8sa+kq9IMh1zUE2vg=="/>
