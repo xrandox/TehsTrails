@@ -1744,7 +1744,8 @@ Use bundle to weaponswap animations"/>
 		<POI MapID="32" xpos="383.104" ypos="53.4226" zpos="-559.25" type="tt.mc.cm.rm.vistas" GUID="RR/ddokvWkWdjidOvVeqww=="/>
 		<POI MapID="32" xpos="391.933" ypos="1.4952" zpos="317.604" type="tt.mc.cm.rm.waypoints" GUID="Q+Fce9AE2kSsjzNd14wD8g=="/>
 		<POI MapID="32" xpos="403.207" ypos="1.38562" zpos="336.072" type="tt.mc.cm.mm.skimmer" GUID="cQGi/e8zwkuuOmPkoMGH4Q=="/>
-		<POI MapID="32" xpos="410.243" ypos="34.7306" zpos="-287.12" type="tt.mc.h.chm.start_heart" info="Kill Separatists, interact with piles" GUID="qLYtRhRNpEejaGixKW37fQ=="/>
+		<POI MapID="32" xpos="410.243" ypos="34.7306" zpos="-287.12" type="tt.mc.h.chm.start_heart" info="Kill Separatists, interact with piles
+Trebuchet event -> Destroy Trebuchet" GUID="qLYtRhRNpEejaGixKW37fQ=="/>
 		<POI MapID="32" xpos="410.755" ypos="38.1605" zpos="589.686" type="tt.mc.cm.rm.waypoints" GUID="x7BbDNt2sUiMu4W98i5wMA=="/>
 		<POI MapID="32" xpos="469.56" ypos="7.13251" zpos="646.484" type="tt.mc.cm.mm.jackal" GUID="QEJ0NJ7qfUObJwTNHE5CnA=="/>
 		<POI MapID="32" xpos="489.058" ypos="35.553" zpos="-254.325" type="tt.mc.h.chm.finish_heart" GUID="U+oO2q6y8kerMWiB7Q4uUQ=="/>
