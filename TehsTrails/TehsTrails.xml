@@ -3019,7 +3019,7 @@ Do not forget Vista"/>
 		<POI MapID="23" xpos="149.551" ypos="4.63067" zpos="-150.371" type="tt.mc.h.chm.finish_heart" GUID="KgtqVdxEykqeknxRsk7Ndg=="/>
 		<POI MapID="23" xpos="225.336" ypos="68.2307" zpos="164.038" type="tt.mc.h.chm.finish_heart" GUID="9bb3rouGKEW5sY3lf70xAQ=="/>
 		<POI MapID="23" xpos="211.569" ypos="40.7333" zpos="411.838" type="tt.mc.h.chm.finish_heart" GUID="MpGJXSIzZEqp1QX/xyO7UA=="/>
-		<POI MapID="23" xpos="256.423" ypos="68.8833" zpos="157.445" type="tt.mc.h.chm.start_heart" GUID="uX1uilPwb0OBq5K5/qudyw==" info="Interact with wurm mounds, kill all pests"/>
+        <POI MapID="23" xpos="256.423" ypos="68.8833" zpos="157.445" type="tt.mc.h.chm.start_heart" GUID="uX1uilPwb0OBq5K5/qudyw==" info="Scare rabbits, Interact with wurm mounds -> Kill wurms, kill all pests"/>
 		<POI MapID="23" xpos="263.549" ypos="75.9356" zpos="524.971" type="tt.mc.cm.rm.waypoints" GUID="vtNBML6fLUGer4CPh3+BZw=="/>
 		<POI MapID="23" xpos="345.988" ypos="49.7945" zpos="382.794" type="tt.mc.cm.rm.points_of_interest" GUID="UQDeXh7L806gpqsjW79sww=="/>
 		<POI MapID="23" xpos="355.321" ypos="67.5005" zpos="-343.688" type="tt.mc.cm.wm.circle" GUID="zNJfBFRrVEmnDFogDsPs5w=="/>
