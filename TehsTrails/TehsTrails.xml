@@ -37,7 +37,7 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
@@ -73,7 +73,7 @@
 					</MarkerCategory>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -86,7 +86,7 @@
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -119,7 +119,7 @@
 				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0" iswall="1"/>
 				
 				<!-- Common Heart Markers -->
-				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="80"/>
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
 					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png" iconSize="0.75"/>
@@ -133,7 +133,7 @@
 				</MarkerCategory>
 				
 				<!-- Heart Specific Markers -->
-				<MarkerCategory name="hsm" DisplayName="Heart-Specific Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="hsm" DisplayName="Heart-Specific Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="lattice1" DisplayName="Lattice 1" iconFile="Data/TehsTrails/Markers/heartspecific/lattice1.png" iconSize="2"/>
 					<MarkerCategory name="lattice2" DisplayName="Lattice 2" iconFile="Data/TehsTrails/Markers/heartspecific/lattice2.png"/>
 					<MarkerCategory name="lattice3" DisplayName="Lattice 3" iconFile="Data/TehsTrails/Markers/heartspecific/lattice3.png"/>
@@ -181,7 +181,7 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
 				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
-				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20"/>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
@@ -238,7 +238,7 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
@@ -260,7 +260,7 @@
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				  	<MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				 	<MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				 	<MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -273,7 +273,7 @@
 					<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -297,7 +297,7 @@
 			<MarkerCategory name="h" DisplayName="Hearts">
 			
 				<!-- Common Heart Markers -->
-				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="80"/>
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
 					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png"/>
@@ -317,7 +317,7 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
 				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
-				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20"/>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
@@ -344,7 +344,7 @@
 
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="a" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png"/>
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
@@ -365,7 +365,7 @@
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -378,7 +378,7 @@
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -443,7 +443,7 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
@@ -463,7 +463,7 @@
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -476,7 +476,7 @@
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -502,7 +502,7 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
 				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
-				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20"/>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
@@ -531,7 +531,7 @@
 
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="a" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png"/>
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
@@ -552,7 +552,7 @@
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -565,7 +565,7 @@
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -633,7 +633,7 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
@@ -655,7 +655,7 @@
 					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -668,7 +668,7 @@
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -695,7 +695,7 @@
 				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0" iswall="1"/>
 				
 				<!-- Common Heart Markers -->
-				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="80"/>
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
 					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png"/>
@@ -751,7 +751,7 @@
 
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png" iconSize="0.5"/>
 					<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
 					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
@@ -767,7 +767,7 @@
 					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -779,7 +779,7 @@
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -829,7 +829,7 @@
 				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
 			</MarkerCategory>
 
-			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png" iconSize="0.5"/>
 				<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
 				<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
@@ -845,7 +845,7 @@
 				<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
 			</MarkerCategory>
 
-			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				<MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				<MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				<MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -858,7 +858,7 @@
 				<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 			</MarkerCategory>
 
-			<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true">
+			<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerrange="25" autotrigger="true" infoRange="20">
 				<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				<MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				<MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -1259,7 +1259,7 @@
 		
 		
 		<!--============================================= LION'S ARCH MARKERS =============================================-->
-        <POI MapID="50" xpos="505.009" ypos="28.3432" zpos="-159.566" type="tt.mc.cm.mm.skyscale" GUID="d1r5ZJ06eUmh2tk/RZU2TQ==" info="If you don't have skyscale follow trail of shame" infoRange="20"/>
+        <POI MapID="50" xpos="505.009" ypos="28.3432" zpos="-159.566" type="tt.mc.cm.mm.skyscale" GUID="d1r5ZJ06eUmh2tk/RZU2TQ==" info="If you don't have skyscale follow trail of shame"/>
         <POI MapID="50" xpos="-172.847" ypos="22.2342" zpos="191.532" type="tt.mc.cm.rm.shoppinglist" GUID="DI7sKnF7fE+bDiG0WihhWQ=="/>
         <POI MapID="50" xpos="69.3641" ypos="24.5885" zpos="315.652" type="tt.mc.cm.rm.points_of_interest" GUID="9g8Llai4Ikih4ZaHIPADDQ=="/>
         <POI MapID="50" xpos="57.714" ypos="24.6726" zpos="304.155" type="tt.mc.cm.mm.beetle" GUID="3bZMn6LMBEu0SWtQwHJslA=="/>
@@ -1389,7 +1389,7 @@
         <POI MapID="50" xpos="-3915.72" ypos="100.209" zpos="-2884.07" type="tt.mc.cm.rm.start" GUID="vyOrnMoGakO/hvZ0FJUaUA=="/>
         <POI MapID="50" xpos="-5126.72" ypos="100.209" zpos="-1104.07" type="tt.mc.cm.rm.start" GUID="b+si8VmCm0m4li/rm5HG4g=="/>
         <POI MapID="50" xpos="-5471" ypos="100.209" zpos="-2996.07" type="tt.mc.cm.rm.start" GUID="8OLtmAJqL06a9FkmleQ90g=="/>
-        <POI MapID="50" xpos="-89.7779" ypos="7.64564" zpos="-212.615" type="tt.mc.cm.mm.skyscale" GUID="r8n2gDiMZEqAZ8vq2F+MjQ==" info="If you don't have skyscale with rift repair mastery follow trail of shame" infoRange="20"/>
+        <POI MapID="50" xpos="-89.7779" ypos="7.64564" zpos="-212.615" type="tt.mc.cm.mm.skyscale" GUID="r8n2gDiMZEqAZ8vq2F+MjQ==" info="If you don't have skyscale with rift repair mastery follow trail of shame"/>
         <POI MapID="50" xpos="-585.621" ypos="11.7382" zpos="318.172" type="tt.mc.cm.mm.raptor" GUID="FWalmKOADUCvlks1meSNyg=="/>
 		
 		
@@ -2159,7 +2159,7 @@ No Trainees -&gt; repair turrets and kill skritt"/>
         <POI MapID="21" xpos="-308.625" ypos="85.8068" zpos="568.768" type="tt.mc.cm.mm.distogriff" GUID="ZV7ZbPmGck+OzYgD27r1CA=="/>
         <POI MapID="21" xpos="175.407" ypos="10.5182" zpos="859.282" type="tt.mc.h.chm.interact" GUID="5+mJtEC8/UGZuhEOjEgxAg=="/>
         <POI MapID="21" xpos="188.575" ypos="19.2919" zpos="883.904" type="tt.mc.h.chm.interact" GUID="aiU89nCU70WmMa1SPM7VPg=="/>
-        <POI MapID="21" xpos="201.655" ypos="49.37" zpos="-197.259" type="tt.mc.cm.mm.skyscale" GUID="8KOIkW96bkiBWbWGlpbEbA==" info="If you don't have skyscale use bunny -> griffon" infoRange="20"/>
+        <POI MapID="21" xpos="201.655" ypos="49.37" zpos="-197.259" type="tt.mc.cm.mm.skyscale" GUID="8KOIkW96bkiBWbWGlpbEbA==" info="If you don't have skyscale use bunny -> griffon"/>
         <POI MapID="21" xpos="195.105" ypos="80.4374" zpos="-169.656" type="tt.mc.cm.mm.distogriff" GUID="cN1rXiPVpkqLV8H0RmLfuw=="/>
         <POI MapID="21" xpos="409.801" ypos="35.3268" zpos="-463.639" type="tt.mc.cm.mm.skyscale" GUID="bovWPwJLzUasjHHoSxhDNQ=="/>
         <POI MapID="21" xpos="-507.328" ypos="58.5307" zpos="-386.428" type="tt.mc.cm.mm.raptor" GUID="xwsLyWuyE06eWhJj9YJLXA=="/>
@@ -2880,7 +2880,7 @@ Event -&gt; (if night go north -&gt; talk to fallen + interact tomb of the falle
 		<POI MapID="17" xpos="581.514" ypos="84.8048" zpos="549.74" type="tt.mc.cm.rm.points_of_interest" GUID="dOnojtC3kUynySz40d5Tiw=="/>
 		<POI MapID="17" xpos="594.393" ypos="117.522" zpos="-366.812" type="tt.mc.cm.mm.griffon" GUID="7oxCpDqtuEGXgdRIvhcXXw=="/>
 		<POI MapID="17" xpos="654.134" ypos="109.331" zpos="647.079" type="tt.mc.cm.rm.waypoints" GUID="edg6hyy+qU2dBzSRo4S67g=="/>
-		<POI MapID="17" xpos="655.842" ypos="25.1039" zpos="-749.273" type="tt.mc.cm.rm.talk" GUID="LWHDdPosM0OKXSXzFHKg3A==" info="This heart will be completed after teleporting to the Arrow waypoint." infoRange="20"/>
+		<POI MapID="17" xpos="655.842" ypos="25.1039" zpos="-749.273" type="tt.mc.cm.rm.talk" GUID="LWHDdPosM0OKXSXzFHKg3A==" info="This heart will be completed after teleporting to the Arrow waypoint."/>
 		<POI MapID="17" xpos="667.245" ypos="73.4609" zpos="-26.9131" type="tt.mc.cm.rm.vistas" GUID="oU81FQ4HG0qh+Dk8Z/fz6w=="/>
 		<POI MapID="17" xpos="708.481" ypos="-43.0338" zpos="-721.13" type="tt.mc.cm.rm.points_of_interest" GUID="7pIRLyfuP0+9ef9ruF1ywQ=="/>
 		<POI MapID="17" xpos="714.648" ypos="76.2067" zpos="-341.385" type="tt.mc.cm.rm.vistas" GUID="aPDZ5hCIYk2ecRkKfu2QuQ=="/>
@@ -3106,7 +3106,7 @@ If not enough -&gt; continue on path to kill grubs and ettins in cave"/>
         <POI MapID="23" xpos="-617.939" ypos="2.85687" zpos="-232.736" type="tt.mc.h.chm.interact" GUID="ws+bqpTZVkyH2eOSJ2zYiA=="/>
         <POI MapID="23" xpos="-633.234" ypos="11.2549" zpos="-220.988" type="tt.mc.h.chm.interact" GUID="0GLwpEn5hE6KnA789An4qg=="/>
         <POI MapID="23" xpos="-650.729" ypos="12.3642" zpos="-232.294" type="tt.mc.h.chm.finish_heart" GUID="Rcfcd+5ai0qA/RJC8vQEsg=="/>
-        <POI MapID="23" xpos="-691.602" ypos="26.7579" zpos="-547.108" type="tt.mc.cm.rm.finish" GUID="6EHWEp1u/UCOAwkhulRGuQ==" info="Waypoint to Heart if you haven't finished one heart, otherwise the map is done" infoRange="20" copy="[&amp;BBAEAAA=], or if still missing one heart: [&amp;BAMAAAA=]"/>
+        <POI MapID="23" xpos="-691.602" ypos="26.7579" zpos="-547.108" type="tt.mc.cm.rm.finish" GUID="6EHWEp1u/UCOAwkhulRGuQ==" info="Waypoint to Heart if you haven't finished one heart, otherwise the map is done" copy="[&amp;BBAEAAA=], or if still missing one heart: [&amp;BAMAAAA=]"/>
         <POI MapID="23" xpos="-693.073" ypos="26.6132" zpos="-546.522" type="tt.mc.cm.rm.vistas" GUID="3A+bjmFNf0aYhwZxO63DFw=="/>
         <POI MapID="23" xpos="-702.571" ypos="5.43605" zpos="-548.296" type="tt.mc.cm.mm.springer" GUID="9kn03fKcqUqZmVO7g67t2w=="/>
         <POI MapID="23" xpos="-706.401" ypos="58.6259" zpos="148.17" type="tt.mc.cm.mm.griffon" GUID="ziLdOFg3PUGwsCCwA1fO+w=="/>
@@ -4145,7 +4145,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="253.131" ypos="35.8838" zpos="152.622" type="tt.mc.cm.rm.points_of_interest" GUID="K7/YkmRtwEOQdLAwQeepCw=="/>
         <POI MapID="62" xpos="253.462" ypos="35.3989" zpos="153.88" type="tt.mc.cm.rm.waypoints" GUID="PDQM1hFW402cJlcHlhNgsA=="/>
         <POI MapID="62" xpos="208.968" ypos="8.11357" zpos="-48.0432" type="tt.mc.cm.rm.dismount" GUID="3AgLdbSsUU+KJRyTQXoB+A=="/>
-        <POI MapID="62" xpos="250.398" ypos="8.5891" zpos="-65.8292" type="tt.mc.cm.rm.ppr_r" GUID="mpiSrHdxr0WGQldiB1nivA==" info="If you cannot rewind -&gt; TP to Heart and follow trail of shame" infoRange="20"/>
+        <POI MapID="62" xpos="250.398" ypos="8.5891" zpos="-65.8292" type="tt.mc.cm.rm.ppr_r" GUID="mpiSrHdxr0WGQldiB1nivA==" info="If you cannot rewind -&gt; TP to Heart and follow trail of shame"/>
         <POI MapID="62" xpos="250.937" ypos="8.52727" zpos="-64.5908" type="tt.mc.cm.rm.points_of_interest" GUID="5d9AnH6B4EW+QZ0iYCV4Zw=="/>
         <POI MapID="62" xpos="284.641" ypos="21.9727" zpos="-959.374" type="tt.mc.cm.rm.points_of_interest" GUID="Bc9Ze91q10y3mrqfY50rFA=="/>
         <POI MapID="62" xpos="355.923" ypos="43.9962" zpos="413.166" type="tt.mc.cm.rm.waypoints" GUID="b6E/sOX/SEGl7rzkYRRsCg=="/>
@@ -4218,7 +4218,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="-48.9483" ypos="28.921" zpos="-441.616" type="tt.mc.cm.rm.ppr_m" GUID="jMgQ89ZptUWBHlrCYay20w=="/>
         <POI MapID="62" xpos="-431.978" ypos="28.8332" zpos="-558.333" type="tt.mc.cm.rm.ppr_m" GUID="b9HWdWqgqU6ANWw/9ksBww=="/>
         <POI MapID="62" xpos="-440.377" ypos="29.0025" zpos="-565.783" type="tt.mc.cm.mm.beetle" GUID="ilJXaAd2tEOLFa/7lPZ/1w=="/>
-        <POI MapID="62" xpos="-476.646" ypos="35.0734" zpos="-857.538" type="tt.mc.hp.hpm" GUID="xqU67v+MbkCAmOLRXPrInQ==" info="If you can't rewind back -&gt; backtrack with beetle to first rewinder marker" infoRange="20"/>
+        <POI MapID="62" xpos="-476.646" ypos="35.0734" zpos="-857.538" type="tt.mc.hp.hpm" GUID="xqU67v+MbkCAmOLRXPrInQ==" info="If you can't rewind back -&gt; backtrack with beetle to first rewinder marker" />
         <POI MapID="62" xpos="-415.512" ypos="27.0839" zpos="-564.055" type="tt.mc.cm.mm.beetle" GUID="CDIdmkI0O0eRxpd4f0Zq0g=="/>
         <POI MapID="62" xpos="132.334" ypos="11.6025" zpos="-105.842" type="tt.mc.cm.mm.jackal" GUID="UNMqJpA+t0a2d3X6gkTAkQ=="/>
         <POI MapID="62" xpos="-30.5058" ypos="29.3516" zpos="-62.9603" type="tt.mc.cm.wm.heart" GUID="6+PUvq778kGgcfTOJPUsOw=="/>
@@ -4234,7 +4234,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="10.8548" ypos="47.0726" zpos="-950.932" type="tt.mc.cm.rm.finish" GUID="p3wxXy3IqUKMwIlITnF3hg=="/>
         <POI MapID="62" xpos="356.347" ypos="69.8208" zpos="-1081.33" type="tt.mc.cm.mm.distogriff" GUID="7gBgvZHcGkaZxxOOPHEGxQ=="/>
         <POI MapID="62" xpos="355.777" ypos="109.764" zpos="191.243" type="tt.mc.cm.mm.distogriff" GUID="YFOnjBnJkUinVV4KQwThcw=="/>
-        <POI MapID="62" xpos="451.461" ypos="47.4648" zpos="228.046" type="tt.mc.cm.mm.skyscale" GUID="ZFY7j/Kp/0SGOCCG9+R3nw==" info="If you don´t have skyscale -&gt; Follow trail of shame" infoRange="20"/>
+        <POI MapID="62" xpos="451.461" ypos="47.4648" zpos="228.046" type="tt.mc.cm.mm.skyscale" GUID="ZFY7j/Kp/0SGOCCG9+R3nw==" info="If you don´t have skyscale -&gt; Follow trail of shame"/>
         <POI MapID="62" xpos="441.022" ypos="43.812" zpos="231.057" type="tt.mc.cm.mm.beetle" GUID="Tbs1foqF4UOPiwqFZSLdtw=="/>
         <POI MapID="62" xpos="233.737" ypos="29.6392" zpos="160.199" type="tt.mc.cm.mm.beetle" GUID="M/artE6Dw02r6/Aujq/ahA=="/>
 		
@@ -4244,7 +4244,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="65" xpos="-524.801" ypos="51.5827" zpos="-308.189" type="tt.mc.cm.mm.griffon" GUID="nrWk6si6fU+VYEQ0zF9JxQ=="/>
         <POI MapID="65" xpos="-472.137" ypos="31.2469" zpos="-328.255" type="tt.mc.hp.hpm" GUID="VSR0OinZkUaw5+acv0hmaA=="/>
         <POI MapID="65" xpos="27.2489" ypos="28.2745" zpos="102.013" type="tt.mc.cm.rm.points_of_interest" GUID="uICmLOL5pU6P6wgMHJj2fQ=="/>
-        <POI MapID="65" xpos="-243.475" ypos="114.679" zpos="-38.4115" type="tt.mc.cm.mm.skyscale" GUID="qvE9tpaNUEqeSclMCOleKQ==" info="If you don't have skyscale: Follow trail of shame" infoRange="20"/>
+        <POI MapID="65" xpos="-243.475" ypos="114.679" zpos="-38.4115" type="tt.mc.cm.mm.skyscale" GUID="qvE9tpaNUEqeSclMCOleKQ==" info="If you don't have skyscale: Follow trail of shame"/>
         <POI MapID="65" xpos="58.7456" ypos="63.4633" zpos="-414.168" type="tt.mc.cm.mm.griffon" GUID="tEf3rr/g6UCaGxUCIwpLhw=="/>
         <POI MapID="65" xpos="49.804" ypos="118.229" zpos="-146.037" type="tt.mc.cm.mm.griffon" GUID="ve3D5GSghUO+6PO/0AqqpQ=="/>
         <POI MapID="65" xpos="89.5526" ypos="84.4425" zpos="-2.7894" type="tt.mc.cm.rm.vistas" GUID="ZqIEur9cMkWYnyJ0VDng9A=="/>
@@ -4283,7 +4283,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="65" xpos="951.717" ypos="50.7601" zpos="233.053" type="tt.mc.cm.rm.points_of_interest" GUID="ldRWtRBnt0G96P6nedb6dg=="/>
         <POI MapID="65" xpos="994.783" ypos="50.2024" zpos="-102.553" type="tt.mc.cm.rm.points_of_interest" GUID="xJ8JPrrBj0ey9teqPrADjA=="/>
         <POI MapID="65" xpos="1004.26" ypos="65.217" zpos="-187.571" type="tt.mc.cm.mm.skyscale" GUID="UyGtnrIPKE2KY7wXXHRZ9w=="/>
-        <POI MapID="65" xpos="1021.25" ypos="-1.24587" zpos="352.425" type="tt.mc.cm.rm.ppr_r" GUID="8Tqrei8I+kGLEqX5XsxPhg==" info="If you cannot rewind: TP to star (uncontested) or to circle and walk to star" infoRange="20"/>
+        <POI MapID="65" xpos="1021.25" ypos="-1.24587" zpos="352.425" type="tt.mc.cm.rm.ppr_r" GUID="8Tqrei8I+kGLEqX5XsxPhg==" info="If you cannot rewind: TP to star (uncontested) or to circle and walk to star"/>
         <POI MapID="65" xpos="1023.64" ypos="-1.28556" zpos="352.367" type="tt.mc.cm.rm.points_of_interest" GUID="Hd3Z2mM0ok2X1+48ucziAA=="/>
         <POI MapID="65" xpos="1025.59" ypos="30.5364" zpos="-366.596" type="tt.mc.cm.wm.arrow" GUID="ThIlzf69pECxCa91NLqkHg=="/>
         <POI MapID="65" xpos="1029.44" ypos="30.3099" zpos="-374.694" type="tt.mc.cm.rm.points_of_interest" GUID="ieEMRxjfOka4FSP0T0ZxNQ=="/>
@@ -4350,25 +4350,25 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="65" xpos="733.697" ypos="44.7713" zpos="-149.831" type="tt.mc.cm.wm.star" GUID="INXz+LK9x0KAzXv+pCtuXg=="/>
         <POI MapID="65" xpos="841.756" ypos="99.3064" zpos="-81.3668" type="tt.mc.cm.mm.griffon" GUID="nqb+FBJwT0uNo7wmd46SAQ=="/>
         <POI MapID="65" xpos="725.063" ypos="68.9465" zpos="-109.976" type="tt.mc.cm.rm.ppr_m" GUID="rbTBOsdnV0OhJ8B6rRhZ+Q=="/>
-        <POI MapID="65" xpos="729.134" ypos="70.5804" zpos="-107.367" type="tt.mc.cm.mm.skyscale" GUID="E1bYhlnUvUOh+1fduKi9+A==" info="If you don't have skyscale use bunny-&gt;griffon" infoRange="20"/>
+        <POI MapID="65" xpos="729.134" ypos="70.5804" zpos="-107.367" type="tt.mc.cm.mm.skyscale" GUID="E1bYhlnUvUOh+1fduKi9+A==" info="If you don't have skyscale use bunny-&gt;griffon"/>
         <POI MapID="65" xpos="782.962" ypos="114.395" zpos="-47.4565" type="tt.mc.cm.mm.distogriff" GUID="tmwbHnYosEuhucVNEGgHBg=="/>
         <POI MapID="65" xpos="167.49" ypos="40.1887" zpos="-90.5588" type="tt.mc.cm.rm.jadewp" GUID="25cf8V2A8kSnulB618VXvg=="/>
         <POI MapID="65" xpos="250.716" ypos="85.1959" zpos="-9.88783" type="tt.mc.cm.mm.skyscale" GUID="lXa26uCtu0iaGTbDWW4f4Q=="/>
         <POI MapID="65" xpos="360.627" ypos="173.411" zpos="-1.88345" type="tt.mc.cm.mm.distogriff" GUID="ouT+dE474EScvKdkYH7XRQ=="/>
-        <POI MapID="65" xpos="31.5524" ypos="28.2641" zpos="99.1893" type="tt.mc.cm.rm.ppr_r" GUID="Inc8/qFZzUGaCHNg41Xt1Q==" info="If you cannot rewind: Tp to swirl, then follow trail of shame" infoRange="20"/>
+        <POI MapID="65" xpos="31.5524" ypos="28.2641" zpos="99.1893" type="tt.mc.cm.rm.ppr_r" GUID="Inc8/qFZzUGaCHNg41Xt1Q==" info="If you cannot rewind: Tp to swirl, then follow trail of shame"/>
         <POI MapID="65" xpos="89.123" ypos="86.5562" zpos="2.27032" type="tt.mc.cm.mm.griffon" GUID="D/zJX3yFd0SBdU4fr0cdWg=="/>
-        <POI MapID="65" xpos="-128.257" ypos="-22.7691" zpos="394.323" type="tt.mc.cm.wm.wptriangle" GUID="Y7Q5AbsZBUmUEJjtkUshfA==" info="TP to triangle or use jade bot waypoint" infoRange="20" copy="[&BKwCAAA=]"/>
+        <POI MapID="65" xpos="-128.257" ypos="-22.7691" zpos="394.323" type="tt.mc.cm.wm.wptriangle" GUID="Y7Q5AbsZBUmUEJjtkUshfA==" info="TP to triangle or use jade bot waypoint" copy="[&BKwCAAA=]"/>
         <POI MapID="65" xpos="-392.156" ypos="150.816" zpos="125.72" type="tt.mc.cm.rm.ppr_m" GUID="t+Wke+HmVkOTse6dCubTEw=="/>
         <POI MapID="65" xpos="-392.384" ypos="152.53" zpos="132.377" type="tt.mc.cm.mm.griffon" GUID="4c++1CfDaEyjejCSpl7SoQ=="/>
         <POI MapID="65" xpos="-685.052" ypos="1.69074" zpos="144.077" type="tt.mc.cm.mm.skimmer" GUID="8Z5WY3G5hkqWVf1Xqpx9NQ=="/>
         <POI MapID="65" xpos="-440.706" ypos="1.44561" zpos="-10.5843" type="tt.mc.cm.mm.beetle" GUID="BRcZa5bPtUyQe8bgDTRorg=="/>
         <POI MapID="65" xpos="-522.964" ypos="48.8911" zpos="-309.515" type="tt.mc.cm.rm.ppr_m" GUID="mWs2mn2eu0CXqZLf/PoRPw=="/>
-        <POI MapID="65" xpos="-648.747" ypos="-46.5671" zpos="-232.399" type="tt.mc.cm.rm.ppr_r" GUID="+ew8EJf/Y0uOTCgVm3lwhQ==" info="If you cannot rewind: Follow trail of shame" infoRange="20"/>
+        <POI MapID="65" xpos="-648.747" ypos="-46.5671" zpos="-232.399" type="tt.mc.cm.rm.ppr_r" GUID="+ew8EJf/Y0uOTCgVm3lwhQ==" info="If you cannot rewind: Follow trail of shame"/>
         <POI MapID="65" xpos="-1066.17" ypos="42.8146" zpos="-283.516" type="tt.mc.cm.rm.dismount" GUID="5qk1RZRgZUuimSEYISM2ZA=="/>
         <POI MapID="65" xpos="-1044.66" ypos="-37.5119" zpos="-37.93" type="tt.mc.cm.wm.wpheart" GUID="PKr6CAh1gk+OL5MUpp+Ntg==" copy="[&BK8CAAA=]"/>
         <POI MapID="65" xpos="-1042.27" ypos="1.18051" zpos="-65.2141" type="tt.mc.cm.mm.skimmer" GUID="XFoqiNqX30eFHMLr2w84Kg=="/>
         <POI MapID="65" xpos="-454.223" ypos="16.7597" zpos="-228.31" type="tt.mc.cm.mm.skyscale" GUID="nwM80w+DnkmajiDXUIgAjA=="/>
-        <POI MapID="65" xpos="-328.325" ypos="51.7538" zpos="-426.403" type="tt.mc.cm.rm.ppr_m" GUID="IUFBDqxhWkaMW9rqyjnaCQ==" info="If X contested: Use Rewinder" infoRange="20"/>
+        <POI MapID="65" xpos="-328.325" ypos="51.7538" zpos="-426.403" type="tt.mc.cm.rm.ppr_m" GUID="IUFBDqxhWkaMW9rqyjnaCQ==" info="If X contested: Use Rewinder"/>
         <POI MapID="65" xpos="-307.059" ypos="51.8323" zpos="-443.835" type="tt.mc.cm.mm.beetle" GUID="R68Q4/cSpU2mxUVyA1B8aA=="/>
         <POI MapID="65" xpos="-1081.44" ypos="35.6714" zpos="-276.525" type="tt.mc.cm.mm.griffon" GUID="o9UrGaHC7UCPgl8r84vcdg=="/>
         <POI MapID="65" xpos="926.588" ypos="48.6894" zpos="-53.0017" type="tt.mc.cm.rm.dismount" GUID="6pRfkIbr9EiLOlw7OKfmcw=="/>
@@ -4402,7 +4402,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="51" xpos="64.3034" ypos="4.66361" zpos="-356.251" type="tt.mc.cm.rm.points_of_interest" GUID="GLFUm+rZ7UG7IobjuaApOQ=="/>
         <POI MapID="51" xpos="79.916" ypos="16.7307" zpos="640.04" type="tt.mc.cm.rm.points_of_interest" GUID="JXUF1W16kECfaOco+TDTvw=="/>
         <POI MapID="51" xpos="79.4861" ypos="16.7454" zpos="641.514" type="tt.mc.cm.wm.wparrow" GUID="+48Yth0joEWgBgg8DVsCHA==" copy="[&amp;BOwCAAA=]"/>
-        <POI MapID="51" xpos="47.2477" ypos="1.16184" zpos="-315.932" type="tt.mc.cm.mm.raptor" GUID="5jAalVmYV0W53/7yhj0qbA==" info="If you don´t have skyscale follow trail of shame" infoRange="20"/>
+        <POI MapID="51" xpos="47.2477" ypos="1.16184" zpos="-315.932" type="tt.mc.cm.mm.raptor" GUID="5jAalVmYV0W53/7yhj0qbA==" info="If you don´t have skyscale follow trail of shame"/>
         <POI MapID="51" xpos="107.582" ypos="-65.6299" zpos="75.2393" type="tt.mc.cm.wm.circle" GUID="gzbiY+FPcE2j6j3hzo+OGA=="/>
         <POI MapID="51" xpos="116.059" ypos="-45.7643" zpos="71.6779" type="tt.mc.cm.rm.waypoints" GUID="buDkFLhFbEa1iR/xaEpOjQ=="/>
         <POI MapID="51" xpos="143.254" ypos="2.46499" zpos="685.985" type="tt.mc.cm.rm.waypoints" GUID="fYYEhG9Dd0a2an9vbyczzw=="/>
@@ -4438,14 +4438,14 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="51" xpos="891.097" ypos="22.4813" zpos="147.737" type="tt.mc.cm.rm.waypoints" GUID="CXutTgt+T0SoRnNoJY6iBA=="/>
         <POI MapID="51" xpos="903.102" ypos="53.0736" zpos="-217.983" type="tt.mc.cm.rm.vistas" GUID="M613370ZNUqwfqacSvLIQg=="/>
         <POI MapID="51" xpos="-98.6243" ypos="6.76074" zpos="-425.816" type="tt.mc.cm.rm.points_of_interest" GUID="p4cBmaIhh0+Lt88XmMfIxw=="/>
-        <POI MapID="51" xpos="-99.5749" ypos="7.22914" zpos="-427.923" type="tt.mc.cm.rm.ppr_r" GUID="r+ceJ29l50S1bIjSsrpCHA==" info="If you cannot rewind: TP to heart and follow 2nd trail of shame" infoRange="20"/>
+        <POI MapID="51" xpos="-99.5749" ypos="7.22914" zpos="-427.923" type="tt.mc.cm.rm.ppr_r" GUID="r+ceJ29l50S1bIjSsrpCHA==" info="If you cannot rewind: TP to heart and follow 2nd trail of shame"/>
         <POI MapID="51" xpos="-114.122" ypos="-1.05664" zpos="425.099" type="tt.mc.cm.mm.skimmer" GUID="Y/BvjMLBkEmso9r/bbXOjA=="/>
         <POI MapID="51" xpos="-128.868" ypos="53.4419" zpos="-547.926" type="tt.mc.cm.rm.points_of_interest" GUID="chpQKO3Hm0SXLMAPcn8JBw=="/>
         <POI MapID="51" xpos="-181.773" ypos="-31.9071" zpos="356.867" type="tt.mc.cm.rm.points_of_interest" GUID="rmsMSIT9FUqYzcOCu5uPoA=="/>
         <POI MapID="51" xpos="-204.62" ypos="-34.6619" zpos="399.914" type="tt.mc.cm.rm.waypoints" GUID="jDSqJlubi0SDKumTEYBDtQ=="/>
         <POI MapID="51" xpos="-222.585" ypos="34.3688" zpos="-675.099" type="tt.mc.cm.rm.waypoints" GUID="9tv4jUKXhUuIczWJTNe2Iw=="/>
         <POI MapID="51" xpos="-228.462" ypos="-0.107521" zpos="-84.3645" type="tt.mc.cm.rm.waypoints" GUID="Vd3asRxfFUaKcSvSfhu9qQ=="/>
-        <POI MapID="51" xpos="-229.609" ypos="-0.2486" zpos="-85.9769" type="tt.mc.cm.rm.ppr_r" GUID="J3GdCreMsU+JXCobDdytbA==" info="If you cannot rewind or don´t have hero points: TP to heart and follow 1st trail of shame" infoRange="20"/>
+        <POI MapID="51" xpos="-229.609" ypos="-0.2486" zpos="-85.9769" type="tt.mc.cm.rm.ppr_r" GUID="J3GdCreMsU+JXCobDdytbA==" info="If you cannot rewind or don´t have hero points: TP to heart and follow 1st trail of shame"/>
         <POI MapID="51" xpos="-267.083" ypos="12.02" zpos="-47.8946" type="tt.mc.cm.rm.points_of_interest" GUID="6tLsGQyhGEGg8ewuCJMb+w=="/>
         <POI MapID="51" xpos="-343.292" ypos="0.42046" zpos="217.253" type="tt.mc.cm.rm.waypoints" GUID="pVWWASrpb0qJrMsAl5JHEQ=="/>
         <POI MapID="51" xpos="-357.357" ypos="1.72854" zpos="362.008" type="tt.mc.cm.rm.points_of_interest" GUID="WVGRHCQy4kybsXv9sGqv1Q=="/>
@@ -4489,10 +4489,10 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.wm.wpsquare" GUID="gzkf3m0250WlcFOAIMBUvw=="/>
         <POI MapID="51" xpos="805.79" ypos="26.94" zpos="27.2366" type="tt.mc.cm.rm.1" GUID="H6OHvJjCUEucOVTbrK9Nww=="/>
         <POI MapID="51" xpos="799.173" ypos="26.9328" zpos="22.0566" type="tt.mc.cm.rm.2" GUID="bZPCeHcyQUO8IXAxtW+OFA=="/>
-        <POI MapID="51" xpos="51.9155" ypos="38.175" zpos="-353.869" type="tt.mc.cm.mm.skyscale" GUID="qt1ZyWLSeUOit4eo0WdWyA==" info="Using bond of Vigor dash 4 times with skyscale to get as much height as possible.&#xA;&#xA;When you get dismounted immediately start gliding towards the vista" infoRange="20"/>
+        <POI MapID="51" xpos="51.9155" ypos="38.175" zpos="-353.869" type="tt.mc.cm.mm.skyscale" GUID="qt1ZyWLSeUOit4eo0WdWyA==" info="Using bond of Vigor dash 4 times with skyscale to get as much height as possible.&#xA;&#xA;When you get dismounted immediately start gliding towards the vista"/>
         <POI MapID="51" xpos="143.338" ypos="94.445" zpos="-288.487" type="tt.mc.cm.rm.dismount" GUID="xUbIWTDI1Uy//xKMacFVXw=="/>
         <POI MapID="51" xpos="172.729" ypos="76.1513" zpos="-297.305" type="tt.mc.cm.rm.ppr_m" GUID="hBWAIRuy8EyN5Adn6fAn+A=="/>
-        <POI MapID="51" xpos="203.011" ypos="29.075" zpos="-318.035" type="tt.mc.cm.rm.ppr_r" GUID="7HdaWQzROE+LgkQGgOAW8w==" info="If you cannot rewind follow trail of shame" infoRange="20"/>
+        <POI MapID="51" xpos="203.011" ypos="29.075" zpos="-318.035" type="tt.mc.cm.rm.ppr_r" GUID="7HdaWQzROE+LgkQGgOAW8w==" info="If you cannot rewind follow trail of shame"/>
         <POI MapID="51" xpos="241.309" ypos="-0.189267" zpos="-273.955" type="tt.mc.cm.mm.skimmer" GUID="6QOupd0MKkCfCywIEQWFJA=="/>
         <POI MapID="51" xpos="154.104" ypos="71.7424" zpos="-269.109" type="tt.mc.cm.mm.griffon" GUID="aGb+TKjpRU6HJG6RSlpz2Q=="/>
         <POI MapID="51" xpos="99.8336" ypos="-63.135" zpos="77.3109" type="tt.mc.cm.mm.skimmer" GUID="BnkuXOlpCUmz0C8CIpnk+Q=="/>
@@ -4501,7 +4501,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="51" xpos="-351.491" ypos="0.29715" zpos="361.462" type="tt.mc.cm.mm.raptor" GUID="9aIdIS+PNkiRVwBRAVlwVQ=="/>
         <POI MapID="51" xpos="-359.491" ypos="-0.0136404" zpos="370.121" type="tt.mc.cm.mm.skimmer" GUID="4auI6gtGWkCaLa0x2RLmGg=="/>
         <POI MapID="51" xpos="-430.126" ypos="9.36737" zpos="190.585" type="tt.mc.cm.rm.ppr_r" GUID="j3+0BzCuYEmrzshFPjo3yg=="/>
-        <POI MapID="51" xpos="-921.775" ypos="23.8268" zpos="126.034" type="tt.mc.cm.mm.skyscale" GUID="Jkaiya/c7USsxBKqdDKWZw==" info="If you don't have skyscale follow trail of shame" infoRange="20"/>
+        <POI MapID="51" xpos="-921.775" ypos="23.8268" zpos="126.034" type="tt.mc.cm.mm.skyscale" GUID="Jkaiya/c7USsxBKqdDKWZw==" info="If you don't have skyscale follow trail of shame"/>
         <POI MapID="51" xpos="-819.632" ypos="71.7196" zpos="-0.73054" type="tt.mc.cm.mm.distogriff" GUID="WHueIhI93keA9Z4APyMWaw=="/>
         <POI MapID="51" xpos="-779.735" ypos="32.8925" zpos="-59.2629" type="tt.mc.cm.mm.beetle" GUID="Z5d6a/xWcEm3X4HyHGNSkw=="/>
         <POI MapID="51" xpos="-572.689" ypos="100.083" zpos="-211.676" type="tt.mc.cm.rm.ppr_m" GUID="xdG7dO6tsUiug6WqlMx3Lw=="/>
@@ -4674,7 +4674,7 @@ Event -&gt; kill phantoms and spiders"/>
         <POI MapID="26" xpos="-521.009" ypos="88.7044" zpos="114.315" type="tt.mc.h.chm.interact" GUID="p3hKhyz7z02yxnS7Srw3fg=="/>
         <POI MapID="26" xpos="-516.865" ypos="59.6239" zpos="228.925" type="tt.mc.cm.rm.points_of_interest" GUID="LufFx+CUWEObd9zPBf0eJg=="/>
         <POI MapID="26" xpos="-547.681" ypos="62.3005" zpos="-858.698" type="tt.mc.cm.rm.vistas" GUID="1wCNqGyS0EW0OWaGtOYUPg=="/>
-        <POI MapID="26" xpos="-550.995" ypos="35.676" zpos="-841.185" type="tt.mc.cm.rm.points_of_interest" GUID="uOpcrfzn2k6WFxrxPcTKMA==" info="Use stealth if you can" infoRange="20"/>
+        <POI MapID="26" xpos="-550.995" ypos="35.676" zpos="-841.185" type="tt.mc.cm.rm.points_of_interest" GUID="uOpcrfzn2k6WFxrxPcTKMA==" info="Use stealth if you can"/>
         <POI MapID="26" xpos="-557.136" ypos="64.6793" zpos="195.549" type="tt.mc.cm.rm.waypoints" GUID="jR2vuGzjv0ut7hAe2G0VJQ=="/>
         <POI MapID="26" xpos="-573.234" ypos="66.3976" zpos="312.149" type="tt.mc.cm.rm.vistas" GUID="2otU1ukIeEesm3MdLjxDeg=="/>
         <POI MapID="26" xpos="-580.502" ypos="56.9268" zpos="829.577" type="tt.mc.h.chm.start_heart" GUID="+9r8XDtYIk+pTJFiUlEk2g==" info="Kill Svanir, Interact with markers"/>
@@ -4702,7 +4702,7 @@ Event -&gt; kill phantoms and spiders"/>
         <POI MapID="26" xpos="117.269" ypos="99.5294" zpos="837.887" type="tt.mc.cm.rm.2" GUID="PvejWd8HgkuSYrfjGwk1rw=="/>
         <POI MapID="26" xpos="82.5932" ypos="97.0069" zpos="979.889" type="tt.mc.cm.wm.wparrow" GUID="AU6ExijTtk6boMDpk0y39g=="/>
         <POI MapID="26" xpos="114.987" ypos="100.114" zpos="839.558" type="tt.mc.cm.mm.skyscale" GUID="HUImu0SA3kK4DHX/P6XjVw=="/>
-        <POI MapID="26" xpos="36.0385" ypos="133.239" zpos="845.161" type="tt.mc.cm.mm.skyscale" GUID="Ir+4sreLpE2AhIno6l+n8w==" info="If you don't have skyscale follow trail of shame" infoRange="20"/>
+        <POI MapID="26" xpos="36.0385" ypos="133.239" zpos="845.161" type="tt.mc.cm.mm.skyscale" GUID="Ir+4sreLpE2AhIno6l+n8w==" info="If you don't have skyscale follow trail of shame"/>
         <POI MapID="26" xpos="23.9123" ypos="163.098" zpos="810.5" type="tt.mc.cm.mm.distogriff" GUID="mX/Rdlv/Wk+uyYsqNudAyA=="/>
         <POI MapID="26" xpos="-324.863" ypos="50.6538" zpos="712.264" type="tt.mc.h.chm.interact" GUID="fpI2SFnySkiGWgzdxFkyAg=="/>
         <POI MapID="26" xpos="-362.208" ypos="42.252" zpos="685.85" type="tt.mc.h.chm.interact" GUID="vzsM8I9rXk2FkR9WjsovXQ=="/>
@@ -4794,11 +4794,11 @@ Talk to Kazk to spawn more imps"/>
         <POI MapID="30" xpos="311.839" ypos="122.595" zpos="-654.905" type="tt.mc.cm.rm.points_of_interest" GUID="cvmd2NG0BUSX/pwsZRn7HA=="/>
         <POI MapID="30" xpos="349.919" ypos="59.5612" zpos="-359.067" type="tt.mc.h.chm.finish_heart" GUID="+SwTx/WHy0CD7kXmrLXjXA=="/>
         <POI MapID="30" xpos="344.829" ypos="59.9519" zpos="-368.888" type="tt.mc.h.chm.deposit" GUID="wn1pjr8n9ECv21aYV00tgA=="/>
-        <POI MapID="30" xpos="418.629" ypos="77.3765" zpos="-246.826" type="tt.mc.cm.mm.griffon" GUID="RDtHaKpxZka8L5xrL7/ZYQ==" info="Don't try to griffon superspeed" infoRange="20"/>
+        <POI MapID="30" xpos="418.629" ypos="77.3765" zpos="-246.826" type="tt.mc.cm.mm.griffon" GUID="RDtHaKpxZka8L5xrL7/ZYQ==" info="Don't try to griffon superspeed"/>
         <POI MapID="30" xpos="452.437" ypos="44.0026" zpos="-212.392" type="tt.mc.cm.rm.points_of_interest" GUID="zNkWOu7AFkeWIF4JHCuAaQ=="/>
         <POI MapID="30" xpos="479.332" ypos="47.2871" zpos="-862.076" type="tt.mc.cm.rm.start" GUID="rWbP29m1SkeqhHw0G/MN2w=="/>
         <POI MapID="30" xpos="483.081" ypos="45.7154" zpos="-839.386" type="tt.mc.cm.wm.arrow" GUID="59Wdi/uTukiqGD7rnZi/Vw=="/>
-        <POI MapID="30" xpos="549.798" ypos="30.616" zpos="-122.686" type="tt.mc.cm.rm.ppr_r" GUID="MymRuoc9fU6ikfk/pCF1aQ==" info="If you cannot rewind follow trail of shame" infoRange="20"/>
+        <POI MapID="30" xpos="549.798" ypos="30.616" zpos="-122.686" type="tt.mc.cm.rm.ppr_r" GUID="MymRuoc9fU6ikfk/pCF1aQ==" info="If you cannot rewind follow trail of shame"/>
         <POI MapID="30" xpos="549.952" ypos="30.8403" zpos="-120.901" type="tt.mc.cm.rm.vistas" GUID="1H9tqtOT8k6kYOmhyJlEvw=="/>
         <POI MapID="30" xpos="583.277" ypos="35.1521" zpos="-321.809" type="tt.mc.cm.rm.waypoints" GUID="1JSg+W8jA0OEB8PSkvEHbg=="/>
         <POI MapID="30" xpos="625.205" ypos="8.53499" zpos="-684.635" type="tt.mc.cm.rm.points_of_interest" GUID="wpRaQ71YP0OQRxj+hzf4ww=="/>
@@ -4934,7 +4934,7 @@ Distant Oracle - 2" infoRange="15"/>
         <POI MapID="30" xpos="314.581" ypos="67.6635" zpos="-375.905" type="tt.mc.h.chm.interact" GUID="U33uvY9wHUa96U8mcD5+KQ=="/>
         <POI MapID="30" xpos="312.422" ypos="68.4903" zpos="-391.003" type="tt.mc.h.chm.interact" GUID="17D7cKRRNU2j1pHjrdGsFA=="/>
         <POI MapID="30" xpos="218.546" ypos="101.185" zpos="-589.587" type="tt.mc.cm.mm.beetle" GUID="sFlcscm/LEOvJCDuUO2GEg=="/>
-        <POI MapID="30" xpos="149.777" ypos="94.0726" zpos="-423.933" type="tt.mc.cm.mm.skyscale" GUID="JR8H42EHKkmraKbe3+3TNQ==" info="Careful not to hit the icicles during flight" infoRange="20"/>
+        <POI MapID="30" xpos="149.777" ypos="94.0726" zpos="-423.933" type="tt.mc.cm.mm.skyscale" GUID="JR8H42EHKkmraKbe3+3TNQ==" info="Careful not to hit the icicles during flight"/>
         <POI MapID="30" xpos="127.016" ypos="142.136" zpos="-301.702" type="tt.mc.cm.mm.distogriff" GUID="gcMOBrwefkOsfPODyfQK4g=="/>
         <POI MapID="30" xpos="297.535" ypos="-121.948" zpos="653.998" type="tt.mc.cm.wm.wpcircle" GUID="z86JJSqq+0WButzbcfP4vw==" copy="[&amp;BIICAAA=]"/>
         <POI MapID="30" xpos="659.166" ypos="51.6085" zpos="261.22" type="tt.mc.cm.mm.beetle" GUID="mCNHcGmaMkuDFkymz1beqw=="/>
@@ -5041,15 +5041,15 @@ If tons of players are nearby -&gt; Talk to heart -&gt; Kill dredge, Inspire nea
         <POI MapID="30" xpos="114.394" ypos="5.60307" zpos="563.208" type="tt.mc.cm.wm.x" GUID="yDWtusX2GkibwalCwsHEWA=="/>
         <POI MapID="30" xpos="100.497" ypos="-215.567" zpos="652.175" type="tt.mc.cm.rm.finish" GUID="fS1eZ2XyWk2v4JGpG2iULg==" copy="[&amp;BHoCAAA=]"/>
         <POI MapID="30" xpos="275.472" ypos="151.884" zpos="-645.992" type="tt.mc.cm.mm.distogriff" GUID="QRn2vObrJ0ODtoOmRackYA=="/>
-        <POI MapID="30" xpos="650.979" ypos="57.5316" zpos="-344.482" type="tt.mc.cm.mm.skyscale" GUID="ALlBMazPdkizNQLPviysag==" info="If you don't have skyscale follow trail of shame" infoRange="20"/>
-        <POI MapID="30" xpos="621.08" ypos="70.0694" zpos="-242.415" type="tt.mc.cm.mm.springertogriff" GUID="eMdx5m1jo0OJXsLlyYuf+g==" info="If you don't have skyscale just bunny to griff here" infoRange="20"/>
+        <POI MapID="30" xpos="650.979" ypos="57.5316" zpos="-344.482" type="tt.mc.cm.mm.skyscale" GUID="ALlBMazPdkizNQLPviysag==" info="If you don't have skyscale follow trail of shame"/>
+        <POI MapID="30" xpos="621.08" ypos="70.0694" zpos="-242.415" type="tt.mc.cm.mm.springertogriff" GUID="eMdx5m1jo0OJXsLlyYuf+g==" info="If you don't have skyscale just bunny to griff here"/>
         <POI MapID="30" xpos="153.201" ypos="132.194" zpos="-352.615" type="tt.mc.cm.mm.springertogriff" GUID="nQodVAUJoUKdu+tk9CRYlA==" info="If you don't have skyscale follow trail of shame" infoRange="40"/>
         <POI MapID="30" xpos="-586.234" ypos="6.5952" zpos="-338.985" type="tt.mc.cm.wm.triangle" GUID="hWbtwlNYDEKVHoDA6rLs/A=="/>
         <POI MapID="30" xpos="-557.431" ypos="39.3416" zpos="-241.176" type="tt.mc.cm.mm.skyscale" GUID="eJIRpdsqOUefJOw8BJrjCw=="/>
         <POI MapID="30" xpos="-535.688" ypos="60.6247" zpos="-199.667" type="tt.mc.cm.mm.griffon" GUID="L32ioIIZnUKO8U3tZd83Iw=="/>
         <POI MapID="30" xpos="-470.003" ypos="0.73742" zpos="-99.9455" type="tt.mc.cm.mm.skimmer" GUID="MiLKOQ+5CUGT/zSbXJqVFQ=="/>
-        <POI MapID="30" xpos="-626.862" ypos="1.79951" zpos="375.797" type="tt.mc.cm.mm.skyscale" GUID="b85Ik9ZmJkiYoMMT0A5CZw==" info="If you don't have skyscale follow trail of shame" infoRange="20"/>
-        <POI MapID="30" xpos="736.541" ypos="125.454" zpos="757.71" type="tt.mc.hp.hpm" GUID="RitEBUbaJUWEy5AxjYGMjQ==" info="If you're doing hero points WP to X" infoRange="20"/>
+        <POI MapID="30" xpos="-626.862" ypos="1.79951" zpos="375.797" type="tt.mc.cm.mm.skyscale" GUID="b85Ik9ZmJkiYoMMT0A5CZw==" info="If you don't have skyscale follow trail of shame"/>
+        <POI MapID="30" xpos="736.541" ypos="125.454" zpos="757.71" type="tt.mc.hp.hpm" GUID="RitEBUbaJUWEy5AxjYGMjQ==" info="If you're doing hero points WP to X"/>
         <POI MapID="30" xpos="-54.2309" ypos="-39.3543" zpos="167.384" type="tt.mc.cm.wm.wpcircle" GUID="BcfH/9sUakWcRPMJIm4tuQ==" copy="[&amp;BIICAAA=]"/>
         <POI MapID="30" xpos="-356.237" ypos="35.5074" zpos="488.362" type="tt.mc.cm.mm.griffon" GUID="szw4XJlgW0SvGoNNjanjPQ=="/>
         <POI MapID="30" xpos="-222.118" ypos="-1.05664" zpos="116.254" type="tt.mc.cm.mm.skimmer" GUID="J0ex6W1Vp0GDx0QT+F2iOw=="/>
@@ -5061,7 +5061,7 @@ If tons of players are nearby -&gt; Talk to heart -&gt; Kill dredge, Inspire nea
         <POI MapID="27" xpos="-185.864" ypos="65.0452" zpos="1206.67" type="tt.mc.cm.mm.beetle" GUID="P5hDoVEJxkOUWR9x20GUJQ=="/>
         <POI MapID="27" xpos="-409.953" ypos="59.0164" zpos="1234.86" type="tt.mc.cm.mm.jackal" GUID="zaZNqRuOQU+hDaVN4IWTPg=="/>
         <POI MapID="27" xpos="-342.7" ypos="120.543" zpos="1080.47" type="tt.mc.cm.mm.skyscale" GUID="iG+fYohnkkatIbiDE4PcHA=="/>
-        <POI MapID="27" xpos="-285.246" ypos="151.191" zpos="1063.32" type="tt.mc.cm.mm.springertogriff" GUID="sYEZf4a4LkiaQHKxeGVBxA==" info="Use glide boost as well if you have it" infoRange="20"/>
+        <POI MapID="27" xpos="-285.246" ypos="151.191" zpos="1063.32" type="tt.mc.cm.mm.springertogriff" GUID="sYEZf4a4LkiaQHKxeGVBxA==" info="Use glide boost as well if you have it"/>
         <POI MapID="27" xpos="-291.738" ypos="111.07" zpos="933.12" type="tt.mc.cm.mm.griffon" GUID="u0UAhjQHpk2uXGJAVBT82g=="/>
         <POI MapID="27" xpos="300.069" ypos="151.594" zpos="1361.47" type="tt.mc.cm.mm.jackal" GUID="4S7pCedPY0ewH4zpwOFMRA=="/>
         <POI MapID="27" xpos="395.334" ypos="117.226" zpos="673.384" type="tt.mc.cm.mm.beetle" GUID="Rx7ZgdP2SkWf1SMvTXxsRA=="/>
@@ -5069,7 +5069,7 @@ If tons of players are nearby -&gt; Talk to heart -&gt; Kill dredge, Inspire nea
         <POI MapID="27" xpos="-451.933" ypos="77.2766" zpos="-19.2596" type="tt.mc.cm.mm.beetle" GUID="EBpoNyGd1k+OpqYAr8PG4A=="/>
         <POI MapID="27" xpos="-163.966" ypos="82.2048" zpos="-204.225" type="tt.mc.cm.mm.jackal" GUID="5XnixUvGjke6qduhjnPShw=="/>
         <POI MapID="27" xpos="-124.567" ypos="62.4447" zpos="-386.428" type="tt.mc.cm.mm.beetle" GUID="QTnzMtAd3ESgrbbcd2hREg=="/>
-        <POI MapID="27" xpos="-96.0973" ypos="67.8067" zpos="-459.204" type="tt.mc.cm.mm.griffon" GUID="nyInWygU/0uyirn4bXrNog==" info="Use griffon if the bridge is missing" infoRange="20"/>
+        <POI MapID="27" xpos="-96.0973" ypos="67.8067" zpos="-459.204" type="tt.mc.cm.mm.griffon" GUID="nyInWygU/0uyirn4bXrNog==" info="Use griffon if the bridge is missing"/>
         <POI MapID="27" xpos="406.685" ypos="139.576" zpos="-300.898" type="tt.mc.cm.mm.beetle" GUID="AqgSa0ykcEWePge6FPz/9w=="/>
         <POI MapID="27" xpos="289.993" ypos="85.8989" zpos="-589.69" type="tt.mc.cm.mm.beetle" GUID="aORcYxqTkEOxgI/9U+T7gg=="/>
         <POI MapID="27" xpos="90.4172" ypos="87.8251" zpos="-1333.47" type="tt.mc.cm.mm.beetle" GUID="+4fs5a3svUCm38gLuj5HQA=="/>
@@ -5339,7 +5339,7 @@ Pirates friendly -&gt; Follow the trail for loot (90% of heart)"/>
         <POI MapID="27" xpos="-350.175" ypos="159.181" zpos="409.649" type="tt.mc.cm.mm.skyscale" GUID="apIpnkGMnEeGSIusKtjl9g=="/>
         <POI MapID="27" xpos="-419.121" ypos="168.931" zpos="488.215" type="tt.mc.cm.mm.jackal" GUID="v2o8f3F0Ikm/f0GSd58mvg=="/>
         <POI MapID="27" xpos="-322.458" ypos="73.3902" zpos="127.479" type="tt.mc.cm.mm.beetle" GUID="Sr3QVniNLEqjvW7bHh3J1w=="/>
-        <POI MapID="27" xpos="1.18719" ypos="135.751" zpos="-653.5" type="tt.mc.cm.rm.ppr_m" GUID="oOgfKBL+VUinwRJ8ABNc1w==" info="First flight -&gt; You get dismounted near waypoint, so try to fly low, otherwise gravity will do its job" infoRange="20"/>
+        <POI MapID="27" xpos="1.18719" ypos="135.751" zpos="-653.5" type="tt.mc.cm.rm.ppr_m" GUID="oOgfKBL+VUinwRJ8ABNc1w==" info="First flight -&gt; You get dismounted near waypoint, so try to fly low, otherwise gravity will do its job"/>
         <POI MapID="27" xpos="-2.36752" ypos="140.179" zpos="-653.971" type="tt.mc.cm.mm.griffon" GUID="qXNQgt6+6kOa2eU+s/Q6dg=="/>
         <POI MapID="27" xpos="-301.306" ypos="46.1641" zpos="-673.96" type="tt.mc.cm.rm.dismount" GUID="YExQ9IHscUS8GOJywRbSag=="/>
         <POI MapID="27" xpos="-466.175" ypos="88.8062" zpos="-4.37198" type="tt.mc.cm.mm.skyscale" GUID="dM+GDD8QGEaQcqvjGJFsHg==" info="Follow trail of shame if you don't have skyscale or if you mess up during flight" infoRange="30"/>
@@ -5358,7 +5358,7 @@ Pirates friendly -&gt; Follow the trail for loot (90% of heart)"/>
         <POI MapID="27" xpos="-84.7215" ypos="103.758" zpos="-175.912" type="tt.mc.h.chm.interact" GUID="A55BF0SP5EuamEr8AF5csQ=="/>
         <POI MapID="27" xpos="411.368" ypos="194.373" zpos="1244.95" type="tt.mc.cm.mm.beetle" GUID="FvqPSnPeqUehGAHeW8YXjA=="/>
         <POI MapID="27" xpos="430.327" ypos="163.511" zpos="1360.93" type="tt.mc.cm.rm.stealthmount" GUID="Qv2uOEeH4Ems0m3ShU+D4g=="/>
-        <POI MapID="27" xpos="434.607" ypos="230.44" zpos="1084.84" type="tt.mc.cm.mm.griffon" GUID="CRT6q6h9Qkqn83pFWWkYrw==" info="Don't try to griffon superspeed" infoRange="20"/>
+        <POI MapID="27" xpos="434.607" ypos="230.44" zpos="1084.84" type="tt.mc.cm.mm.griffon" GUID="CRT6q6h9Qkqn83pFWWkYrw==" info="Don't try to griffon superspeed"/>
         <POI MapID="27" xpos="453.879" ypos="166.308" zpos="321.64" type="tt.mc.cm.mm.raptor" GUID="FVrs6NjpkEW2AE0tEVPDlA=="/>
         <POI MapID="27" xpos="368.767" ypos="133.555" zpos="118.585" type="tt.mc.cm.rm.ppr_m" GUID="1CxdDNwibUKev55jJNUCIQ=="/>
         <POI MapID="27" xpos="106.273" ypos="124.542" zpos="1347.12" type="tt.mc.h.hsm.pourwater" GUID="gvBLC11OzUG6fUQAkaFq4w=="/>
@@ -5388,7 +5388,7 @@ Pirates friendly -&gt; Follow the trail for loot (90% of heart)"/>
         <POI MapID="27" xpos="-302.618" ypos="70.2717" zpos="119.382" type="tt.mc.h.chm.interact" GUID="80WQKzYND06quCVFiZYFPg=="/>
         <POI MapID="27" xpos="-259.596" ypos="-1.05662" zpos="-937.189" type="tt.mc.cm.wm.wpstar" GUID="pwc0ZFDLbk62lnilw/FJgQ==" copy="[&amp;BOYAAAA=]"/>
         <POI MapID="27" xpos="-430.803" ypos="52.6344" zpos="-1243.21" type="tt.mc.cm.mm.skyscale" GUID="SW7RNkDrlUii3/qj2Txk2w=="/>
-        <POI MapID="27" xpos="393.296" ypos="118.045" zpos="-1279.37" type="tt.mc.cm.mm.skyscale" GUID="8axxWp2WoEGz7A4Jxnq6TQ==" info="If you don't have skyscale use griffon" infoRange="20"/>
+        <POI MapID="27" xpos="393.296" ypos="118.045" zpos="-1279.37" type="tt.mc.cm.mm.skyscale" GUID="8axxWp2WoEGz7A4Jxnq6TQ==" info="If you don't have skyscale use griffon"/>
         <POI MapID="27" xpos="367.209" ypos="153.393" zpos="-1238.02" type="tt.mc.cm.mm.distogriff" GUID="aJmGPvcGDUa5ibIEiSLOUQ=="/>
         <POI MapID="27" xpos="428.268" ypos="113.586" zpos="-938.178" type="tt.mc.cm.wm.wpcircle" GUID="vkQtI39ZS0+Tev6sY1lkCQ==" copy="[&amp;BOgAAAA=]"/>
         <POI MapID="27" xpos="-331.352" ypos="34.8505" zpos="-670.731" type="tt.mc.cm.wm.circle" GUID="Nyf3cUvr2UuW/z86byApFg=="/>
@@ -5554,7 +5554,7 @@ Pirates friendly -&gt; Follow the trail for loot (90% of heart)"/>
         <POI MapID="28" xpos="-11.9519" ypos="36.7896" zpos="-207.947" type="tt.mc.cm.mm.beetle" GUID="o++NBAMUi0WcKf0bgNxWUg=="/>
         <POI MapID="28" xpos="213.316" ypos="13.2081" zpos="-210.369" type="tt.mc.cm.mm.beetle" GUID="kDhqsXCKskWXA6SkkXjsWQ=="/>
         <POI MapID="28" xpos="384.159" ypos="72.5443" zpos="644.963" type="tt.mc.cm.mm.beetle" GUID="Po6YPye0I0uNJfVv5aWk3w=="/>
-        <POI MapID="28" xpos="264.384" ypos="194.36" zpos="1227.68" type="tt.mc.cm.mm.skyscale" GUID="2jxs2/aXQUGB0qeWq6JUjQ==" info="If you don't have skyscale follow trail of shame" infoRange="20"/>
+        <POI MapID="28" xpos="264.384" ypos="194.36" zpos="1227.68" type="tt.mc.cm.mm.skyscale" GUID="2jxs2/aXQUGB0qeWq6JUjQ==" info="If you don't have skyscale follow trail of shame"/>
         <POI MapID="28" xpos="-338.517" ypos="123.444" zpos="371.956" type="tt.mc.cm.mm.beetle" GUID="pVmfEaoV4EuRV9mLkw7Cjg=="/>
         <POI MapID="28" xpos="-127.325" ypos="106.168" zpos="282.567" type="tt.mc.h.chm.interact" GUID="DkQcknk13UKs0ZLXR/BFmQ=="/>
         <POI MapID="28" xpos="-110.771" ypos="93.0995" zpos="198.952" type="tt.mc.cm.mm.beetle" GUID="R79aQlYvsUSvGtaEj4f0PQ=="/>
@@ -5642,7 +5642,7 @@ Turn in raven eggs in any nest"/>
         <POI MapID="28" xpos="-40.4422" ypos="144.015" zpos="584.485" type="tt.mc.cm.rm.vistas" GUID="68soaTNUAEi+Yd5U/ac+rA=="/>
         <POI MapID="28" xpos="-40.3261" ypos="30.4501" zpos="-1084.98" type="tt.mc.cm.rm.waypoints" GUID="ZRX9z5COJEWILZY78Mfzqg=="/>
         <POI MapID="28" xpos="-43.2366" ypos="144.138" zpos="584.292" type="tt.mc.cm.mm.skyscale" GUID="dGjQHvazYkaRPeFXDveaXg==" info="If you don't have skyscale use bunny into griffon
-Make sure to take the next PoI during flight" infoRange="20"/>
+Make sure to take the next PoI during flight"/>
         <POI MapID="28" xpos="-54.1318" ypos="50.4281" zpos="-1231.01" type="tt.mc.h.chm.interact" GUID="xjokQAQkoUWkEzyQdZx5Tw=="/>
         <POI MapID="28" xpos="-56.714" ypos="43.8313" zpos="-1188.02" type="tt.mc.h.chm.start_heart" GUID="GEltGa+STUiuAODGibBqlw==" info="Kill Svanir, destroy banners, weaponswap wolf cages"/>
         <POI MapID="28" xpos="-56.3352" ypos="49.7363" zpos="-1219.22" type="tt.mc.h.chm.interact" GUID="gKxQyggIDUOCvEv9WUhTxg=="/>
@@ -5688,7 +5688,7 @@ If there are no dredge -&gt; return later"/>
         <POI MapID="28" xpos="-224.518" ypos="92.9289" zpos="-618.792" type="tt.mc.cm.rm.start" GUID="X0z9foVnI0iYc6a1JKB79w=="/>
         <POI MapID="28" xpos="-227.656" ypos="183.237" zpos="-429.168" type="tt.mc.cm.rm.vistas" GUID="tuWH82tm00aPMdX8MdNzdQ=="/>
         <POI MapID="28" xpos="-229.929" ypos="94.9657" zpos="-617.279" type="tt.mc.cm.wm.x" GUID="U2BtFqu8O0CaKuU8BUf17Q=="/>
-        <POI MapID="28" xpos="-250.241" ypos="147.867" zpos="-152.389" type="tt.mc.cm.mm.griffon" GUID="k1lWfuMpZ0ygCExwk376Yw==" info="Make sure to pick the next PoI during flight" infoRange="20"/>
+        <POI MapID="28" xpos="-250.241" ypos="147.867" zpos="-152.389" type="tt.mc.cm.mm.griffon" GUID="k1lWfuMpZ0ygCExwk376Yw==" info="Make sure to pick the next PoI during flight"/>
         <POI MapID="28" xpos="-251.581" ypos="148.119" zpos="-154.198" type="tt.mc.cm.rm.vistas" GUID="p5or19Zvp0ibDWLnMN4a9g=="/>
         <POI MapID="28" xpos="-289.246" ypos="138.833" zpos="121.174" type="tt.mc.cm.rm.vistas" GUID="ay9ah0P4tEGYeRcSsFgdPw=="/>
         <POI MapID="28" xpos="-297.215" ypos="156.733" zpos="-340.307" type="tt.mc.cm.rm.waypoints" GUID="kD0vACl7V0SCtlVh2Ztj1w=="/>
@@ -5930,7 +5930,7 @@ Event -&gt; Interact with Orrian grub holes + AoE kill"/>
         <POI MapID="39" xpos="441.934" ypos="-0.221629" zpos="-129.494" type="tt.mc.h.chm.start_heart" GUID="NnxIUz0kMkKloZ9Cs41faA==" info="Kill Krait (no veteran), blood idols and turrets underwater, interact cages"/>
         <POI MapID="39" xpos="320.728" ypos="18.4089" zpos="301.855" type="tt.mc.cm.rm.points_of_interest" GUID="+4dHTw2dZEO7jzHdS6+hrQ=="/>
         <POI MapID="39" xpos="339.375" ypos="0.658385" zpos="-58.5441" type="tt.mc.h.chm.kill" GUID="UF3XtnM0R06ueTO/0aoeug=="/>
-        <POI MapID="39" xpos="388.483" ypos="0.921402" zpos="-315.263" type="tt.mc.cm.rm.points_of_interest" GUID="elxjCMJJuUulx2D0Y8C/Sg==" info="Fun fact: Jackal teleports where you look, not where you go. That means you can teleport backwards" infoRange="20"/>
+        <POI MapID="39" xpos="388.483" ypos="0.921402" zpos="-315.263" type="tt.mc.cm.rm.points_of_interest" GUID="elxjCMJJuUulx2D0Y8C/Sg==" info="Fun fact: Jackal teleports where you look, not where you go. That means you can teleport backwards"/>
         <POI MapID="39" xpos="412.046" ypos="62.7367" zpos="478.684" type="tt.mc.cm.rm.vistas" GUID="7LsibvOH9U6TV2W0UaAElw=="/>
         <POI MapID="39" xpos="435.263" ypos="29.9015" zpos="-337.529" type="tt.mc.cm.rm.waypoints" GUID="FsiAVi+/zUyRfsZyhxt8Rw=="/>
         <POI MapID="39" xpos="450.681" ypos="-32.6732" zpos="-115.459" type="tt.mc.cm.rm.points_of_interest" GUID="owzA/o9hdEmUK13/VHc5uA=="/>
@@ -6043,7 +6043,7 @@ Event -&gt; Interact with Orrian grub holes + AoE kill"/>
         <POI MapID="39" xpos="-354.193" ypos="232.092" zpos="-126.163" type="tt.mc.hp.hpm" GUID="0zezihaf+kWMgobavNTwAQ=="/>
         <POI MapID="39" xpos="224.182" ypos="-45.8298" zpos="-350.439" type="tt.mc.hp.hpm" GUID="Ws3EQvgOH0eI7cJWPZ2nJw=="/>
         <POI MapID="39" xpos="531.318" ypos="-14.4235" zpos="115.083" type="tt.mc.hp.hpm" GUID="mu1nqDfhdk+84PhSky++Mg==" info="Once you collect hero point -&gt; beetle under path" infoRange="40"/>
-        <POI MapID="39" xpos="703.678" ypos="23.1503" zpos="-614.257" type="tt.mc.hp.hpm" GUID="VFq0PRLsAEyNFkMFAmjnJg==" info="Once you collect hero point -&gt; beetle/skimmer under path" infoRange="20"/>
+        <POI MapID="39" xpos="703.678" ypos="23.1503" zpos="-614.257" type="tt.mc.hp.hpm" GUID="VFq0PRLsAEyNFkMFAmjnJg==" info="Once you collect hero point -&gt; beetle/skimmer under path"/>
         <POI MapID="39" xpos="734.815" ypos="19.8109" zpos="684.908" type="tt.mc.hp.hpm" GUID="N+Sng94X6UC77GdqHDT7Wg=="/>
         <POI MapID="39" xpos="816.078" ypos="32.1948" zpos="-226.791" type="tt.mc.hp.hpm" GUID="PfRbho5zQ02DKxgGXRCHjw=="/>
         <POI MapID="39" xpos="-1670" ypos="0" zpos="120" type="tt.mc.cm.rm.exit_map_by_teleporting" GUID="7OXQJmwAkUa0nF/rEfQ1Qg=="/>
@@ -6066,12 +6066,12 @@ Event -&gt; Interact with Orrian grub holes + AoE kill"/>
         <POI MapID="39" xpos="-611.607" ypos="26.2173" zpos="103.429" type="tt.mc.cm.mm.beetle" GUID="BZGzsLb/9Ee/oWGg+MFeyA=="/>
         <POI MapID="39" xpos="-411.468" ypos="75.849" zpos="179.073" type="tt.mc.cm.mm.jackal" GUID="jkhSCI3J4Em48zh/e246ig=="/>
         <POI MapID="39" xpos="-346.142" ypos="231.863" zpos="-112.923" type="tt.mc.cm.rm.ppr_m" GUID="sL4x7TW3OUO8nw/OF+1tMQ==" info="If you don't have rewinder -&gt; use jade bot waypoint
-If you don't have anything -&gt; After getting to bottom of volcano -&gt; Follow trail of shame from star" infoRange="20"/>
+If you don't have anything -&gt; After getting to bottom of volcano -&gt; Follow trail of shame from star"/>
         <POI MapID="39" xpos="-344.078" ypos="230.15" zpos="-110.464" type="tt.mc.cm.mm.skyscale" GUID="9nRVvyolE0+zAx+YaHRqGQ=="/>
         <POI MapID="39" xpos="-293.132" ypos="240.881" zpos="-58.7886" type="tt.mc.cm.mm.distogriff" GUID="cyxy/y5X4EOevV68HQyOwQ=="/>
         <POI MapID="39" xpos="-265.96" ypos="18.6993" zpos="524.055" type="tt.mc.cm.rm.finish" GUID="c/jWVidOskeCpkTzlYbeiQ=="/>
         <POI MapID="39" xpos="-50.9986" ypos="83.0198" zpos="-232.189" type="tt.mc.cm.rm.stealthmount" GUID="+CHUfm/5zUy05syXEirCHQ=="/>
-        <POI MapID="39" xpos="-5.27712" ypos="81.979" zpos="-314.909" type="tt.mc.cm.mm.skyscale" GUID="V6ACZ8MZJE+tAE0lMkG43g==" info="If you don't have skyscale -&gt; use griffon" infoRange="20"/>
+        <POI MapID="39" xpos="-5.27712" ypos="81.979" zpos="-314.909" type="tt.mc.cm.mm.skyscale" GUID="V6ACZ8MZJE+tAE0lMkG43g==" info="If you don't have skyscale -&gt; use griffon"/>
         <POI MapID="39" xpos="41.7965" ypos="116.904" zpos="-269.887" type="tt.mc.cm.mm.distogriff" GUID="O6n6JNCnu0GngE8IW6SFCQ=="/>
         <POI MapID="39" xpos="282.303" ypos="43.1799" zpos="633.63" type="tt.mc.cm.rm.ppr_r" GUID="FI/3RdbqnU6wJdL89Fe0TQ=="/>
         <POI MapID="39" xpos="412.677" ypos="62.7472" zpos="481.068" type="tt.mc.cm.rm.ppr_m" GUID="R+0XAeye3UyRiw0XWuEhSg=="/>
@@ -6521,8 +6521,8 @@ Event -&gt; kill drunk skritt"/>
         <POI MapID="29" xpos="-402.156" ypos="8.29405" zpos="96.6647" type="tt.mc.cm.mm.skyscale" GUID="2E56MFcgAEmvtRBn9gSmmg=="/>
         <POI MapID="29" xpos="-423.671" ypos="52.593" zpos="120.39" type="tt.mc.cm.mm.griffon" GUID="W1Pzp4b8J0iKSWMXzTnm4Q=="/>
         <POI MapID="29" xpos="350.133" ypos="7.07543" zpos="198.899" type="tt.mc.cm.wm.square" GUID="+PnAi8+qUkql4jBciBuzrA=="/>
-        <POI MapID="29" xpos="-163.382" ypos="11.6618" zpos="632.222" type="tt.mc.cm.wm.wpsquare" GUID="U5f+i21Bt0yffR0zHLuoQA==" copy="[&amp;BE0CAAA=], if contested go from [&BE8CAAA=]" infoRange="20" info="If square contested -> WP to star and beetle to square"/>
-        <POI MapID="29" xpos="531.951" ypos="1.29907" zpos="158.781" type="tt.mc.cm.rm.finish" GUID="r5EyJVAA9E2fQKG3PnFPyQ==" info="If you skipped the heart -&gt; TP to triangle" infoRange="20" copy="[&amp;BHwBAAA=]"/>
+        <POI MapID="29" xpos="-163.382" ypos="11.6618" zpos="632.222" type="tt.mc.cm.wm.wpsquare" GUID="U5f+i21Bt0yffR0zHLuoQA==" copy="[&amp;BE0CAAA=], if contested go from [&BE8CAAA=]" info="If square contested -> WP to star and beetle to square"/>
+        <POI MapID="29" xpos="531.951" ypos="1.29907" zpos="158.781" type="tt.mc.cm.rm.finish" GUID="r5EyJVAA9E2fQKG3PnFPyQ==" info="If you skipped the heart -&gt; TP to triangle" copy="[&amp;BHwBAAA=]"/>
         <POI MapID="29" xpos="144.309" ypos="48.2954" zpos="-109.721" type="tt.mc.cm.mm.raptor" GUID="EJL2fLGCD068INj8CeZUow=="/>
         <POI MapID="29" xpos="377.907" ypos="18.2676" zpos="809.035" type="tt.mc.cm.mm.skyscale" GUID="8tKDtQyHeEOCHF9Ofp9evw=="/>
         <POI MapID="29" xpos="133.103" ypos="59.0482" zpos="479.468" type="tt.mc.cm.wm.star" GUID="80+z2+cWKES869+4GwGUUA=="/>
@@ -7288,10 +7288,10 @@ Event -&gt; kill drunk skritt"/>
 	<!--VERDANT BRINK MARKERS-->
 		<POI MapID="1052" xpos="240.288" ypos="523.014" zpos="-334.286" type="tt.hot.cm.mm.skyscale" GUID="hLFbEBvWCEyK1LMNZDW6Fg=="/>
 		<POI MapID="1052" xpos="-535.638" ypos="515.763" zpos="-268.229" type="tt.hot.cm.mm.skyscale" GUID="oe3fe20qAUurljiSKgO5kA=="/>
-		<POI MapID="1052" xpos="-701.433" ypos="362.405" zpos="-350.872" type="tt.hot.hp.hpm" info="Range highly recommended. Focus the two archers first, then the champion. If the bladedancer gets close, he can deal significant damage with a chain CC attack." infoRange="20.0" GUID="P9qbZOIOs0qPVVrmuv3fbw=="/>
+		<POI MapID="1052" xpos="-701.433" ypos="362.405" zpos="-350.872" type="tt.hot.hp.hpm" info="Range highly recommended. Focus the two archers first, then the champion. If the bladedancer gets close, he can deal significant damage with a chain CC attack." GUID="P9qbZOIOs0qPVVrmuv3fbw=="/>
 		<POI MapID="1052" xpos="-670.208" ypos="560.624" zpos="-136.205" type="tt.hot.hp.hpm" info="CC highly recommended. Focus the Heal-o-Tron's whenever they spawn." infoRange="50.0" GUID="VEv+TYK49U2J81KCyQtT7Q=="/>
 		<POI MapID="1052" xpos="579.236" ypos="10.7784" zpos="-36.3533" type="tt.hot.hp.hpm" info="Focus any menders first, then the smaller mobs, then the veteran" infoRange="30.0" GUID="JYGqFqlm0UqK1z63Qxpl5A=="/>
-		<POI MapID="1052" xpos="203.169" ypos="581.245" zpos="218.251" type="tt.hot.hp.hpm" info="CC is a must. At 25% HP, she will perform a life-drain skill that will regen a large amount of HP, breaking her defiance bar to prevent her from healing back up is key. Try to stay behind her to avoid most of her damage." infoRange="20.0" GUID="B4myBgmxy0eeDTqf6PPFwA=="/>
+		<POI MapID="1052" xpos="203.169" ypos="581.245" zpos="218.251" type="tt.hot.hp.hpm" info="CC is a must. At 25% HP, she will perform a life-drain skill that will regen a large amount of HP, breaking her defiance bar to prevent her from healing back up is key. Try to stay behind her to avoid most of her damage." GUID="B4myBgmxy0eeDTqf6PPFwA=="/>
 		<POI MapID="1052" xpos="6.99222" ypos="738.803" zpos="2.39966" type="tt.hot.cm.rm.glider" GUID="BouQbdQd5k25196OA6w64g=="/>
 		<POI MapID="1052" xpos="89.5192" ypos="341.755" zpos="-272.694" type="tt.hot.cm.rm.points_of_interest" GUID="dAjQa7FNiUOlcfSG9+bBxg=="/>
 		<POI MapID="1052" xpos="93.1382" ypos="341.994" zpos="-273.465" type="tt.hot.cm.wm.wpheart" GUID="OsQBFW86cUKZikNDPBXTXQ=="/>
@@ -7375,7 +7375,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1052" xpos="-524.751" ypos="513.676" zpos="-278.664" type="tt.hot.cm.wm.heart" GUID="3hgTDverB0OMNJiExINJAg=="/>
 		<POI MapID="1052" xpos="-526.011" ypos="512.963" zpos="-275.685" type="tt.hot.cm.rm.2" GUID="EFxPoBWw40STo5JEoXQP1g=="/>
 		<POI MapID="1052" xpos="-529.368" ypos="512.993" zpos="-281.223" type="tt.hot.cm.rm.3" GUID="ok4K/rbn1UKtEDYY3YqpAQ=="/>
-		<POI MapID="1052" xpos="-530.365" ypos="512.543" zpos="-270.578" type="tt.hot.hp.hpm" info="Combat HP | Golem is a champion mob thus it's not recommended to attempt to solo" infoRange="20.0" GUID="pBc59fo7oE+kyeJnFNH6pg=="/>
+		<POI MapID="1052" xpos="-530.365" ypos="512.543" zpos="-270.578" type="tt.hot.hp.hpm" info="Combat HP | Golem is a champion mob thus it's not recommended to attempt to solo" GUID="pBc59fo7oE+kyeJnFNH6pg=="/>
 		<POI MapID="1052" xpos="-541.52" ypos="496.836" zpos="-208.764" type="tt.hot.cm.mm.griffon" GUID="uaOXlZWF7kaqVWJHqCNFzg=="/>
 		<POI MapID="1052" xpos="-543.566" ypos="528.725" zpos="-265.645" type="tt.hot.cm.rm.waypoints" GUID="YW9O41368EuQHx6YhrYjiA=="/>
 		<POI MapID="1052" xpos="-586.528" ypos="619.118" zpos="223.341" type="tt.hot.cm.rm.vistas" GUID="9rXFHcmlfUGm0MYlE+SC1Q=="/>
@@ -7757,7 +7757,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1442" xpos="-33.1238" ypos="139.071" zpos="190.166" type="tt.eod.cm.rm.points_of_interest" GUID="MhkjR62J50e5DUAc0WANYw=="/>
 		<POI MapID="1442" xpos="-29.2925" ypos="139.074" zpos="187.293" type="tt.eod.cm.mm.skyscale" GUID="PpR/oFbnfkGPSMopQ2QNkw=="/>
 		<POI MapID="1442" xpos="-86.4104" ypos="217.65" zpos="87.3905" type="tt.eod.cm.wm.hpm" GUID="PNW61EmY30KFiT1Xe6BL6w=="/>
-		<POI MapID="1442" xpos="-95.4996" ypos="226.501" zpos="61.5703" type="tt.eod.cm.rm.jadewp" info="Place personal jade waypoint here" infoRange="20.0" GUID="lP2V12b2OUO1Sc2NfetipA=="/>
+		<POI MapID="1442" xpos="-95.4996" ypos="226.501" zpos="61.5703" type="tt.eod.cm.rm.jadewp" info="Place personal jade waypoint here" GUID="lP2V12b2OUO1Sc2NfetipA=="/>
 		<POI MapID="1442" xpos="-98.3765" ypos="226.583" zpos="61.7903" type="tt.eod.cm.mm.griffon" GUID="j+JB6QOwX02W1ht7tnWmQg=="/>
 		<POI MapID="1442" xpos="-436.711" ypos="152.6" zpos="128.816" type="tt.eod.cm.rm.points_of_interest" GUID="5DPFXn/LskGbw+LPXOzq1A=="/>
 		<POI MapID="1442" xpos="-957.655" ypos="147.164" zpos="410.852" type="tt.eod.cm.rm.points_of_interest" GUID="rgrflON2kUivoKL1AxlN8Q=="/>
@@ -7896,10 +7896,10 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1438" xpos="1019.57" ypos="17.6432" zpos="640.48" type="tt.eod.cm.rm.points_of_interest" GUID="KgBJ8bt2M0KQiuzgc3+vpQ=="/>
 		<POI MapID="1438" xpos="960.34" ypos="-1.34102" zpos="584.185" type="tt.eod.cm.mm.skimmer" GUID="0HPjDxv5OESc8Eq5D4jlCw=="/>
 		<POI MapID="1438" xpos="938.79" ypos="-49.8099" zpos="578.295" type="tt.eod.cm.rm.points_of_interest" GUID="5WWwxFUfDU2AUFQfHgbF6A=="/>
-		<POI MapID="1438" xpos="938.568" ypos="-49.8099" zpos="581.271" type="tt.eod.cm.rm.jadewp" info="Teleport to the waypoint you placed" infoRange="20.0" GUID="Kb3jffM1K0CnoZWUX5oq0A=="/>
+		<POI MapID="1438" xpos="938.568" ypos="-49.8099" zpos="581.271" type="tt.eod.cm.rm.jadewp" info="Teleport to the waypoint you placed" GUID="Kb3jffM1K0CnoZWUX5oq0A=="/>
 		<POI MapID="1438" xpos="515.306" ypos="101.554" zpos="672.722" type="tt.eod.cm.rm.points_of_interest" GUID="xv+QdDGnsUqlDozlUG3NrA=="/>
 		<POI MapID="1438" xpos="452.428" ypos="109.509" zpos="380.906" type="tt.eod.cm.wm.hpm" GUID="we+mGcktH0e/3lb9g2ZBPw=="/>
-		<POI MapID="1438" xpos="447.5" ypos="111.097" zpos="359.572" type="tt.eod.cm.mm.griffon" info="If you mess up dive, just beetle under path" infoRange="20.0" GUID="qsgYyCEq2ESte4cd/L5qIQ=="/>
+		<POI MapID="1438" xpos="447.5" ypos="111.097" zpos="359.572" type="tt.eod.cm.mm.griffon" info="If you mess up dive, just beetle under path" GUID="qsgYyCEq2ESte4cd/L5qIQ=="/>
 		<POI MapID="1438" xpos="441.043" ypos="19.8703" zpos="263.964" type="tt.eod.cm.rm.points_of_interest" GUID="AYe++0Eao0aOkfIJpVqwFQ=="/>
 		<POI MapID="1438" xpos="320.375" ypos="15.6024" zpos="113.649" type="tt.eod.cm.rm.points_of_interest" GUID="zXG4izJRpU6bfW/6anco5Q=="/>
 		<POI MapID="1438" xpos="232.429" ypos="12.0564" zpos="345.95" type="tt.eod.cm.wm.hpm" GUID="atTE8hGseESl71tXPuo9UQ=="/>
@@ -7908,7 +7908,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1438" xpos="94.1961" ypos="45.2712" zpos="-0.228561" type="tt.eod.cm.mm.skyscale" GUID="RdyBVd9msUi8FnkI4+jPRQ=="/>
 		<POI MapID="1438" xpos="143.049" ypos="197.958" zpos="-19.9219" type="tt.eod.cm.rm.points_of_interest" GUID="f2T5+WA6+E+yQqM3CpDaNA=="/>
 		<POI MapID="1438" xpos="-14.851" ypos="166.456" zpos="-0.274298" type="tt.eod.cm.rm.vistas" GUID="T/HBLR6rLECjbJRp7pPz6A=="/>
-		<POI MapID="1438" xpos="-15.5462" ypos="166.496" zpos="10.6944" type="tt.eod.cm.mm.griffon" info="This griffon path goes through somewhat tight areas, may be worth using rewinder here as a backup for your first time. Try not to pull up until the power plant doors." infoRange="20.0" GUID="B8AMbEtHbUWA7jJqEhTX+Q=="/>
+		<POI MapID="1438" xpos="-15.5462" ypos="166.496" zpos="10.6944" type="tt.eod.cm.mm.griffon" info="This griffon path goes through somewhat tight areas, may be worth using rewinder here as a backup for your first time. Try not to pull up until the power plant doors." GUID="B8AMbEtHbUWA7jJqEhTX+Q=="/>
 		<POI MapID="1438" xpos="-81.7565" ypos="32.1783" zpos="-1.30876" type="tt.eod.cm.rm.points_of_interest" GUID="sKv4zXcKjUGMcqLhvPJgpA=="/>
 		<POI MapID="1438" xpos="-147.311" ypos="10.6452" zpos="-31.8311" type="tt.eod.cm.rm.waypoints" GUID="Yk1wZNMQv0W1SsmYTPkNlw=="/>
 		<POI MapID="1438" xpos="-512.576" ypos="22.5208" zpos="7.13533" type="tt.eod.cm.rm.points_of_interest" GUID="Tfh+d4G3mkK/YyGeBBpF0g=="/>
@@ -8060,7 +8060,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1452" xpos="70.3213" ypos="248.003" zpos="660.685" type="tt.eod.cm.rm.vistas" GUID="pLjfinOUZ0qDAA8cq0u0WQ=="/>
 		<POI MapID="1452" xpos="72.1167" ypos="254.109" zpos="662.906" type="tt.eod.h.chm.return" GUID="xng22u2HaEaDm8GuDGdVTA=="/>
 		<POI MapID="1452" xpos="90.4192" ypos="171.389" zpos="500.789" type="tt.eod.cm.mm.beetle" GUID="XF/eqKdRbEGv5wquX9aULA=="/>
-		<POI MapID="1452" xpos="363.326" ypos="205.456" zpos="631.04" type="tt.eod.cm.rm.jadewp" info="Place personal waypoint" infoRange="20.0" GUID="YQwzB7CGXEqLR+appMkXEA=="/>
+		<POI MapID="1452" xpos="363.326" ypos="205.456" zpos="631.04" type="tt.eod.cm.rm.jadewp" info="Place personal waypoint" GUID="YQwzB7CGXEqLR+appMkXEA=="/>
 		<POI MapID="1452" xpos="313.018" ypos="205.105" zpos="716.672" type="tt.eod.cm.rm.points_of_interest" GUID="OpFfUfKdgE6r5H5auVQ2pw=="/>
 		<POI MapID="1452" xpos="265.572" ypos="247.224" zpos="362.356" type="tt.eod.cm.rm.points_of_interest" GUID="YaS3CLA/Q0KRRQ0e15VCuA=="/>
 		<POI MapID="1452" xpos="286.785" ypos="231.988" zpos="121.408" type="tt.eod.cm.rm.points_of_interest" GUID="wNBoxp/CS0W+IEVTff7CUw=="/>
@@ -8167,7 +8167,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1422" xpos="-84.9918" ypos="7.52475" zpos="-750.646" type="tt.eod.cm.wm.wparrow" copy="[&BKIMAAA=]" GUID="A0GvX1VuV0SDQmxC4dlmMA=="/>
 		<POI MapID="1422" xpos="-197.841" ypos="176.314" zpos="837.965" type="tt.eod.cm.wm.arrow" info="Stop! Two things before you continue past this waypoint: 1) Your personal waypoint must be off cooldown 2) Meta cannot be happening. 
 		
-		If you must, come back later. It'll just be a waste of time if you try and do it." infoRange="20.0" GUID="aDhagKtBF0ysE8426SoVSg=="/>
+		If you must, come back later. It'll just be a waste of time if you try and do it." GUID="aDhagKtBF0ysE8426SoVSg=="/>
 		<POI MapID="1422" xpos="-257.053" ypos="143.842" zpos="761.212" type="tt.eod.cm.mm.beetle" GUID="DNIplRBWukWpI/3gt64wuw=="/>
 		<POI MapID="1422" xpos="-442.805" ypos="156.399" zpos="711.723" type="tt.eod.cm.rm.points_of_interest" GUID="70qlwOeULUWhy5RAuTil2g=="/>
 		<POI MapID="1422" xpos="-373.288" ypos="156.473" zpos="567.23" type="tt.eod.cm.rm.points_of_interest" GUID="KKZ4/nM3DUOTJA/vup5lZw=="/>
@@ -8178,7 +8178,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1422" xpos="-163.06" ypos="342.062" zpos="148.881" type="tt.eod.cm.rm.points_of_interest" GUID="iR4eOFuSO0yv4aJ5ilA3BA=="/>
 		<POI MapID="1422" xpos="-171.397" ypos="341.911" zpos="149.005" type="tt.eod.cm.rm.ppr_m" info="This rewind timing can be tight if you aren't fast. Keep an eye on the buff as you fly. If it starts to blink, use Bond of Faith to quickly dismount and rewind. 
 		
-		You can always retry the glide, getting back up here from the ground is a pain." infoRange="20.0" GUID="iKJOp856Rk+/OY19ZUspTg=="/>
+		You can always retry the glide, getting back up here from the ground is a pain." GUID="iKJOp856Rk+/OY19ZUspTg=="/>
 		<POI MapID="1422" xpos="-171.141" ypos="341.95" zpos="151.184" type="tt.eod.cm.mm.griffon" GUID="5EZmomFmsEuwVsj2C3IbJw=="/>
 		<POI MapID="1422" xpos="-341.117" ypos="166.483" zpos="186.657" type="tt.eod.cm.rm.points_of_interest" GUID="dkVC76bMW0ic0fSYIAiq3Q=="/>
 		<POI MapID="1422" xpos="-402.286" ypos="210.056" zpos="-0.6173" type="tt.eod.cm.rm.points_of_interest" GUID="RPtEbAA7RU6l2ssqKLvjcQ=="/>
@@ -8219,7 +8219,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1422" xpos="531.05" ypos="214.174" zpos="-142.804" type="tt.eod.cm.rm.points_of_interest" GUID="skqPVW5AQ0CCoJN3dK/pbQ=="/>
 		<POI MapID="1422" xpos="494.405" ypos="237.454" zpos="-110.282" type="tt.eod.cm.rm.vistas" GUID="iIO2KqhsP0+yKmZUMuzxnA=="/>
 		<POI MapID="1422" xpos="474.29" ypos="161.014" zpos="-109.188" type="tt.eod.cm.wm.hpm" GUID="rYaAWv1j2kSfU/T9szj7RA=="/>
-		<POI MapID="1422" xpos="474.598" ypos="161.014" zpos="-111.729" type="tt.eod.cm.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="7GquROTcI0uI6HBbeAd1uA=="/>
+		<POI MapID="1422" xpos="474.598" ypos="161.014" zpos="-111.729" type="tt.eod.cm.rm.jadewp" info="Teleport to your personal waypoint" GUID="7GquROTcI0uI6HBbeAd1uA=="/>
 		<POI MapID="1422" xpos="21.5899" ypos="209.201" zpos="-289.43" type="tt.eod.cm.rm.points_of_interest" GUID="VwQ/b6LgOk20xVcSs4yn6g=="/>
 		<POI MapID="1422" xpos="21.1952" ypos="202.19" zpos="-200.673" type="tt.eod.cm.rm.points_of_interest" GUID="QLoa1/mitE60UxBz37ZQ9w=="/>
 		<POI MapID="1422" xpos="25.2577" ypos="176.74" zpos="-18.1825" type="tt.eod.cm.rm.points_of_interest" GUID="UyTylUdH90Sc+BeDCsdcgQ=="/>
@@ -8315,7 +8315,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1442" xpos="-918.636" ypos="132.565" zpos="655.556" type="tt.eodl.cm.rm.interact" GUID="o7gXJNys7kSCgo1XRklj+w=="/>
 		<POI MapID="1442" xpos="-960.169" ypos="122.684" zpos="653.52" type="tt.eodl.cm.mm.beetle" GUID="IqfVTf52xEe2Ywmi3vF6mA=="/>
 		<POI MapID="1442" xpos="-985.919" ypos="134.972" zpos="408.702" type="tt.eodl.cm.wm.wparrow" copy="[&BGUNAAA=]" GUID="vxPghmMK4U2V3XZ42HO0dw=="/>
-		<POI MapID="1442" xpos="68.3183" ypos="113.278" zpos="259.617" type="tt.eodl.cm.rm.start" infoRange="20.0" info="Teh's Lantern Trail starts here! 
+		<POI MapID="1442" xpos="68.3183" ypos="113.278" zpos="259.617" type="tt.eodl.cm.rm.start" info="Teh's Lantern Trail starts here! 
 		
 		Please note, there is no trail that leads to the Aetherblade Refuge Lantern, as it is locked behind the Aetherblade meta event. You'll need to light that lantern on your own." GUID="i1XCaMXiN0q41BvItXpV2w=="/>
 		<POI MapID="1442" xpos="68.1280" ypos="114.214" zpos="249.117" type="tt.eodl.cm.wm.arrow" GUID="eRQph60CDEurttnaR1Bg6A=="/>
@@ -8373,11 +8373,11 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1442" xpos="-501.315" ypos="48.1865" zpos="-432.189" type="tt.eodl.cm.rm.interact" GUID="hm+J/lOYvkK79s8evi8adw=="/>
 		<POI MapID="1442" xpos="-417.838" ypos="5.41046" zpos="-632.55" type="tt.eodl.cm.wm.wpcircle" copy="[&BJ4MAAA=]" GUID="z4IA/ATRuUOIWlUga4/A4w=="/>
 		<POI MapID="1442" xpos="-71.2096" ypos="216.561" zpos="48.3071" type="tt.eodl.cm.mm.griffon" GUID="AI7ri20xpUCX1gMVeD0Ebg=="/>
-		<POI MapID="1442" xpos="-71.7359" ypos="218.768" zpos="54.0142" type="tt.eodl.cm.rm.jadewp" info="Place your personal waypoint here" infoRange="20.0" GUID="s0CpTR5aPk6Ed5AvvZkcWg=="/>
+		<POI MapID="1442" xpos="-71.7359" ypos="218.768" zpos="54.0142" type="tt.eodl.cm.rm.jadewp" info="Place your personal waypoint here" GUID="s0CpTR5aPk6Ed5AvvZkcWg=="/>
 		<POI MapID="1442" xpos="-439.25" ypos="144.686" zpos="95.232" type="tt.eodl.cm.rm.interact" GUID="3U7qcSVtPkGNiZy5WahhWQ=="/>
 		<POI MapID="1442" xpos="-426.47" ypos="140.954" zpos="100.292" type="tt.eodl.cm.mm.beetle" GUID="dnn2o5f5hEOovX0WYbAbNw=="/>
 		<POI MapID="1442" xpos="-583.037" ypos="107.756" zpos="-92.99" type="tt.eodl.cm.mm.skyscale" GUID="LJ3HtlCYZE2a1nJsaCamXQ=="/>
-		<POI MapID="1442" xpos="-632.912" ypos="165.842" zpos="-71.305" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="etqndLxUjUePl4qRhp8jDg=="/>
+		<POI MapID="1442" xpos="-632.912" ypos="165.842" zpos="-71.305" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" GUID="etqndLxUjUePl4qRhp8jDg=="/>
 		<POI MapID="1442" xpos="132.423" ypos="71.5391" zpos="-75.1449" type="tt.eodl.cm.rm.interact" GUID="7vxckYlr4EKAqSiK0nmMIA=="/>
 		<POI MapID="1442" xpos="142.656" ypos="70.883" zpos="-79.3647" type="tt.eodl.cm.mm.beetle" GUID="/qrQd1BoSk+qmS9TaqLACg=="/>
 		<POI MapID="1442" xpos="155.081" ypos="74.2091" zpos="-342.278" type="tt.eodl.cm.rm.interact" GUID="1TeWRqfthk6vgcNYGR8l6Q=="/>
@@ -8579,7 +8579,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1452" xpos="-868.424" ypos="178.09" zpos="-437.155" type="tt.eodl.cm.mm.skyscale" GUID="1xVjqZ8BikW4deQwm9S5Ag=="/>
 		<POI MapID="1452" xpos="-873.315" ypos="178.841" zpos="-438.622" type="tt.eodl.cm.rm.ppr_r" info="Go up with skyscale first, place rewinder mark at top, then drop down and get disguised. Pull rewinder back out and rewind to top." infoRange="30.0" GUID="G/CRFCZOUU689M7i1efIog=="/>
 		<POI MapID="1452" xpos="-868.015" ypos="256.941" zpos="-448.838" type="tt.eodl.cm.rm.bondoffaith" GUID="5O7NkjWI50y8x4WwL5GsuQ=="/>
-		<POI MapID="1452" xpos="-878.966" ypos="260.495" zpos="-460.856" type="tt.eodl.cm.rm.ppr_m" info="Place rewinder mark and drop down to get disguised" infoRange="20.0" GUID="yl2UEFE5uEmQJARiXroYlQ=="/>
+		<POI MapID="1452" xpos="-878.966" ypos="260.495" zpos="-460.856" type="tt.eodl.cm.rm.ppr_m" info="Place rewinder mark and drop down to get disguised" GUID="yl2UEFE5uEmQJARiXroYlQ=="/>
 		<POI MapID="1452" xpos="-772.744" ypos="169.85" zpos="-551.727" type="tt.eodl.cm.mm.skyscale" GUID="NTLfrPziyEabqYu9sFK/5Q=="/>
 		<POI MapID="1452" xpos="-816.54" ypos="206.236" zpos="-619.01" type="tt.eodl.cm.rm.interact" GUID="hgmiotRnd0G8tZcc3rldfA=="/>
 		<POI MapID="1452" xpos="-561.451" ypos="204.921" zpos="-695.939" type="tt.eodl.cm.mm.skyscale" GUID="ZmLIUZpmVkKHQ+bTSba+3w=="/>
@@ -8622,21 +8622,21 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1452" xpos="135.774" ypos="226.119" zpos="676.026" type="tt.eodl.cm.rm.interact" GUID="OGpJafthl0qmxcKBjvLiZA=="/>
 		<POI MapID="1452" xpos="149.487" ypos="216.279" zpos="676.549" type="tt.eodl.cm.wm.x" GUID="jzsAClvjxk6bAC6E09LY4Q=="/>
 		<POI MapID="1452" xpos="75.3953" ypos="169.277" zpos="516.042" type="tt.eodl.cm.mm.beetle" GUID="gRNl41lnzEqoSSSw585TPQ=="/>
-		<POI MapID="1452" xpos="364.119" ypos="205.787" zpos="627.917" type="tt.eodl.cm.rm.jadewp" info="Place personal waypoint here" infoRange="20.0" GUID="pd10UYGYaEG56DAbbZMlHQ=="/>
+		<POI MapID="1452" xpos="364.119" ypos="205.787" zpos="627.917" type="tt.eodl.cm.rm.jadewp" info="Place personal waypoint here" GUID="pd10UYGYaEG56DAbbZMlHQ=="/>
 		<POI MapID="1452" xpos="254.062" ypos="238.684" zpos="503.661" type="tt.eodl.cm.rm.interact" GUID="QRnQqMmoF0SBc4wC1QPlrw=="/>
 		<POI MapID="1452" xpos="306.132" ypos="193.303" zpos="-40.6179" type="tt.eodl.cm.rm.interact" info="You must switch your active story to EoD Ch. 10 'Empty' to get in here. 
 		
-		If you cannot do that on this character, return to the Jade WP you placed and come back later on another character." infoRange="20.0" GUID="Ce2YNCvr+UW3BDaaH/DoNg=="/>
+		If you cannot do that on this character, return to the Jade WP you placed and come back later on another character." GUID="Ce2YNCvr+UW3BDaaH/DoNg=="/>
 		<POI MapID="1452" xpos="-652.063" ypos="177.725" zpos="60.9786" type="tt.eodl.cm.mm.skyscale" GUID="vhIGbGiFXkasXbWC7o8d5Q=="/>
 		<POI MapID="1452" xpos="-706.192" ypos="197.297" zpos="9.85005" type="tt.eodl.cm.mm.skyscale" GUID="DOT7Y1x4VkyPG0jrOz9y0Q=="/>
 		<POI MapID="1452" xpos="394.304" ypos="215.033" zpos="637.918" type="tt.eodl.cm.mm.springer" GUID="t5F1ltIz0UC3yeQKewkBVg=="/>
-		<POI MapID="1452" xpos="428.092" ypos="178.477" zpos="-39.4765" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="RfMrioln3Em+ia3qhX+IOw=="/>
+		<POI MapID="1452" xpos="428.092" ypos="178.477" zpos="-39.4765" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" GUID="RfMrioln3Em+ia3qhX+IOw=="/>
 		<POI MapID="1452" xpos="415.688" ypos="243.829" zpos="647.603" type="tt.eodl.cm.mm.springertogriff" GUID="hgWktJ2FJEm/sMYFIKDxMg=="/>
 		<POI MapID="1452" xpos="659.704" ypos="238.59" zpos="620.946" type="tt.eodl.cm.mm.griffon" GUID="DiqJkL1N3UqCBK1vwz2uMw=="/>
-		<POI MapID="1452" xpos="1028.71" ypos="3.94337" zpos="737.077" type="tt.eodl.cm.wm.wpcircle" copy="[&BNQMAAA=]" info="If the waypoint is contested, skimmer to the other side" infoRange="20.0" GUID="M8CFKwV+1EKsLe/lNZwU9Q=="/>
+		<POI MapID="1452" xpos="1028.71" ypos="3.94337" zpos="737.077" type="tt.eodl.cm.wm.wpcircle" copy="[&BNQMAAA=]" info="If the waypoint is contested, skimmer to the other side" GUID="M8CFKwV+1EKsLe/lNZwU9Q=="/>
 		<POI MapID="1452" xpos="957.452" ypos="68.8302" zpos="515.827" type="tt.eodl.cm.wm.circle" GUID="oyklLbscCUi6//6Ip9+hWw=="/>
 		<POI MapID="1452" xpos="1073.79" ypos="23.4295" zpos="355.713" type="tt.eodl.cm.mm.beetle" GUID="AL6GIlhaQkeegV7ix68+zg=="/>
-		<POI MapID="1452" xpos="1071.99" ypos="29.4976" zpos="-92.1245" type="tt.eodl.cm.wm.wpheart" copy="[&BPkMAAA=]" info="If the waypoint is contested or you are caught in combat, use the zipline just outside the cave" infoRange="20.0" GUID="S9hbXZXgV0y/6vnBjDAOsQ=="/>
+		<POI MapID="1452" xpos="1071.99" ypos="29.4976" zpos="-92.1245" type="tt.eodl.cm.wm.wpheart" copy="[&BPkMAAA=]" info="If the waypoint is contested or you are caught in combat, use the zipline just outside the cave" GUID="S9hbXZXgV0y/6vnBjDAOsQ=="/>
 		<POI MapID="1452" xpos="1013.41" ypos="88.8307" zpos="38.3545" type="tt.eodl.cm.wm.heart" GUID="xxkpY2NrvUi99sbcifRyGA=="/>
 		<POI MapID="1452" xpos="1007.48" ypos="88.8666" zpos="57.8785" type="tt.eodl.cm.mm.beetle" GUID="6Hgxv3iLj02npOztryjy5Q=="/>
 		<POI MapID="1452" xpos="764.808" ypos="88.8046" zpos="-68.8282" type="tt.eodl.cm.rm.interact" GUID="JdIXUuElIEqKKXze+5fjXA=="/>
@@ -8718,7 +8718,7 @@ Event -&gt; kill drunk skritt"/>
 
 		There are several batteries which appear/disappear depending on the progress of the map. If the battery you are meant to interact with is not there, you will need to look around and locate another.
 		
-		The trail does not lead to the Jade Wind's Respite lantern as it is meta-locked. You will need to get it on your own after a succesful meta." infoRange="20.0" GUID="bSJZUFtRDUe1QYVpOmGWrg=="/>
+		The trail does not lead to the Jade Wind's Respite lantern as it is meta-locked. You will need to get it on your own after a succesful meta." GUID="bSJZUFtRDUe1QYVpOmGWrg=="/>
 		<POI MapID="1422" xpos="-198.084" ypos="176.314" zpos="837.946" type="tt.eodl.cm.wm.arrow" GUID="60SiAKwg70+wG30zMeAYrw=="/>
 		<POI MapID="1422" xpos="-206.951" ypos="180.443" zpos="888.101" type="tt.eodl.cm.rm.interact" GUID="oaEGcZcMd0WpYDpRWvkanw=="/>
 		<POI MapID="1422" xpos="-209.623" ypos="177.828" zpos="860.181" type="tt.eodl.cm.mm.jackal" GUID="FZ8t9axBAEi2OUIHPJ2XFQ=="/>
@@ -8741,7 +8741,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1422" xpos="-74.8356" ypos="10.9718" zpos="-753.709" type="tt.eodl.cm.wm.wparrow" copy="[&BKIMAAA=]" GUID="8FcVPUusp0u+IZXEcLZslA=="/>
 		<POI MapID="1422" xpos="-200.493" ypos="176.314" zpos="831.754" type="tt.eodl.cm.rm.2" GUID="VgdIE/ahREC9pfLEo/AYKQ=="/>
 		<POI MapID="1422" xpos="-259.78" ypos="143.918" zpos="760.336" type="tt.eodl.cm.mm.beetle" GUID="2XJV6tdfZke1OAwh0sUNmw=="/>
-		<POI MapID="1422" xpos="-159.672" ypos="341.984" zpos="149.273" type="tt.eodl.cm.rm.jadewp" info="Place personal waypoint here" infoRange="20.0" GUID="yqhywLxxAk6qODd2vhhrow=="/>
+		<POI MapID="1422" xpos="-159.672" ypos="341.984" zpos="149.273" type="tt.eodl.cm.rm.jadewp" info="Place personal waypoint here" GUID="yqhywLxxAk6qODd2vhhrow=="/>
 		<POI MapID="1422" xpos="-171.446" ypos="341.898" zpos="149.532" type="tt.eodl.cm.mm.griffon" GUID="fk2RbmGE+Ueq/NkhZWhoVQ=="/>
 		<POI MapID="1422" xpos="-313.597" ypos="130.021" zpos="132.502" type="tt.eodl.cm.rm.interact" GUID="ERxxaWH09kWr+865Wn8yBQ=="/>
 		<POI MapID="1422" xpos="-470.057" ypos="171.246" zpos="-31.0919" type="tt.eodl.cm.rm.interact" GUID="YveLuORrPEuR5QcHvDowMA=="/>
@@ -8766,7 +8766,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1422" xpos="-14.6345" ypos="198.329" zpos="-951.435" type="tt.eodl.cm.wm.circle" GUID="hGCJsWQUvkKhWpSJJFCWgA=="/>
 		<POI MapID="1422" xpos="-32.2004" ypos="201.611" zpos="-971.536" type="tt.eodl.cm.rm.interact" GUID="w7bnrt6/5kCTbBd68W0kxQ=="/>
 		<POI MapID="1422" xpos="46.974" ypos="201.099" zpos="-952.253" type="tt.eodl.cm.rm.interact" GUID="fyv9Ino+gkaW6IpLGoXC+g=="/>
-		<POI MapID="1422" xpos="-15.3123" ypos="201.798" zpos="-1011.08" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="1rmgNDYh0U+i7CUc4srvHQ=="/>
+		<POI MapID="1422" xpos="-15.3123" ypos="201.798" zpos="-1011.08" type="tt.eodl.cm.rm.jadewp" info="Teleport to your personal waypoint" GUID="1rmgNDYh0U+i7CUc4srvHQ=="/>
 		<POI MapID="1422" xpos="385.93" ypos="165.218" zpos="-144.914" type="tt.eodl.cm.wm.wpcircle" copy="[&BPEMAAA=]" GUID="2ESfJZIAWEGdhRykWhfRCg=="/>
 		<POI MapID="1422" xpos="-14.7232" ypos="198.225" zpos="-959.32" type="tt.eodl.lantern" achievementid="6369" achievementbit="45" GUID="+u64neJWvkuS4Le2zJvbyQ=="/>
 		<POI MapID="1422" xpos="-15.0725" ypos="201.863" zpos="-1009.07" type="tt.eodl.lantern" achievementid="6369" achievementbit="5" GUID="iDGlEDg1x0u5XvS6IT1O0A=="/>
@@ -8898,7 +8898,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1442" xpos="416.653" ypos="33.8857" zpos="463.808" type="tt.eodhp.mm.griffon" GUID="5/6Z+4LRREa3PSwWkwde2Q=="/>
 		<POI MapID="1442" xpos="342.31" ypos="76.2439" zpos="265.631" type="tt.eodhp.mm.jackal" GUID="MEmrQMOY/kyzgBP29DJpew=="/>
 		<POI MapID="1442" xpos="-14.1318" ypos="137.819" zpos="136.053" type="tt.eodhp.mm.skyscale" GUID="Y61FWq3ppEmOLHo47yHXJw=="/>
-		<POI MapID="1442" xpos="-68.7198" ypos="217.748" zpos="51.4552" type="tt.eodhp.rm.jadewp" info="Place your personal waypoint" infoRange="20.0" GUID="FP5Ct6kaIkyxv1syPXF/7A=="/>
+		<POI MapID="1442" xpos="-68.7198" ypos="217.748" zpos="51.4552" type="tt.eodhp.rm.jadewp" info="Place your personal waypoint" GUID="FP5Ct6kaIkyxv1syPXF/7A=="/>
 		<POI MapID="1442" xpos="-70.5107" ypos="216.506" zpos="46.9722" type="tt.eodhp.mm.griffon" GUID="UPmtg4ME+UqJVyhxFOHG4g=="/>
 		<POI MapID="1442" xpos="-413.934" ypos="1.08009" zpos="193.608" type="tt.eodhp.wm.wparrow" copy="[&BJ4MAAA=]" GUID="dY6zdFXvlkOlpwhO2Pr1dw=="/>
 		<POI MapID="1442" xpos="-79.0056" ypos="14.3334" zpos="-183.819" type="tt.eodhp.wm.arrow" GUID="O0QIyspVE0m/vseTOu2g6g=="/>
@@ -8906,9 +8906,9 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1442" xpos="-333.97" ypos="1.37639" zpos="-224.051" type="tt.eodhp.mm.skimmer" GUID="EUVBcBOo+EezVit8gkiN/Q=="/>
 		<POI MapID="1442" xpos="-520.823" ypos="47.8339" zpos="-365.797" type="tt.eodhp.mm.raptor" GUID="jL/ZQN9nZkOC/3N2SgA6Bg=="/>
 		<POI MapID="1442" xpos="-588.564" ypos="107.846" zpos="-92.7339" type="tt.eodhp.mm.skyscale" GUID="s5OU6Az7NkCzISrxlAlubw=="/>
-		<POI MapID="1442" xpos="-639.591" ypos="163.067" zpos="-61.9195" type="tt.eodhp.rm.jadewp" info="Teleport to your personal waypoint" infoRange="20.0" GUID="RiiJSHl+DEevlhkM4KU6kg=="/>
+		<POI MapID="1442" xpos="-639.591" ypos="163.067" zpos="-61.9195" type="tt.eodhp.rm.jadewp" info="Teleport to your personal waypoint" GUID="RiiJSHl+DEevlhkM4KU6kg=="/>
 		<POI MapID="1442" xpos="503.71" ypos="113.293" zpos="-185.774" type="tt.eodhp.mm.griffon" GUID="vRj68+GleUeqxcmqtAOZuw=="/>
-		<POI MapID="1442" xpos="982.008" ypos="100.517" zpos="-360.158" type="tt.eodhp.rm.finish" info="Waypoint to The Echovald Wilds to continue the trail" infoRange="20.0" copy="[&BIsMAAA=]" GUID="Os3jCbt6TECC2PnulBuqUw=="/>
+		<POI MapID="1442" xpos="982.008" ypos="100.517" zpos="-360.158" type="tt.eodhp.rm.finish" info="Waypoint to The Echovald Wilds to continue the trail" copy="[&BIsMAAA=]" GUID="Os3jCbt6TECC2PnulBuqUw=="/>
 	<!--TEW Markers-->
 		<POI MapID="1452" xpos="-127.37" ypos="162.838" zpos="709.964" type="tt.eodhp.wm.arrow" GUID="b1GjjP6GJEuxLSguG3EIJw=="/>	
 		<POI MapID="1452" xpos="-126.407" ypos="162.993" zpos="697.857" type="tt.eodhp.rm.start" GUID="eeV1BowaqU2yUAuI1C96pA=="/>
@@ -8923,9 +8923,9 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="1452" xpos="-876.793" ypos="222.174" zpos="-484.05" type="tt.eodhp.wm.wparrow" copy="[&BIsMAAA=]" GUID="tMD5xgoWFE+fTApXG2wFRw=="/>
 		<POI MapID="1452" xpos="-177.319" ypos="146.945" zpos="-97.2249" type="tt.eodhp.mm.skyscale" GUID="ThZ+i0vWX0uIaittSN6LmA=="/>
 		<POI MapID="1452" xpos="-97.772" ypos="204.306" zpos="-57.7187" type="tt.eodhp.mm.skyscale" GUID="HRzQBY8tX0u3kx8/t7vwGw=="/>
-		<POI MapID="1452" xpos="-74.3877" ypos="229.942" zpos="-52.3418" type="tt.eodhp.mm.griffon" info="It's important that you don't mess this dive up" infoRange="20.0" GUID="eTNoYEENHEWiWfhFzDVONQ=="/>
+		<POI MapID="1452" xpos="-74.3877" ypos="229.942" zpos="-52.3418" type="tt.eodhp.mm.griffon" info="It's important that you don't mess this dive up" GUID="eTNoYEENHEWiWfhFzDVONQ=="/>
 		<POI MapID="1452" xpos="1029.66" ypos="99.7374" zpos="-659.846" type="tt.eodhp.mm.griffon" GUID="9kWyj07JfEyiaCQtXH1PTg=="/>
-		<POI MapID="1452" xpos="146.016" ypos="0.889345" zpos="-691.969" type="tt.eodhp.rm.finish" info="Head to Jade Quarry Waypoint in DE for the last trail" infoRange="20.0" copy="[&BKIMAAA=]" GUID="9OUAJ+/Gq0SUPDHolWZHHQ=="/>	
+		<POI MapID="1452" xpos="146.016" ypos="0.889345" zpos="-691.969" type="tt.eodhp.rm.finish" info="Head to Jade Quarry Waypoint in DE for the last trail" copy="[&BKIMAAA=]" GUID="9OUAJ+/Gq0SUPDHolWZHHQ=="/>	
 	<!--DE Markers-->
 		<POI MapID="1422" xpos="-197.953" ypos="176.318" zpos="837.784" type="tt.eodhp.rm.start" GUID="5UxoAX4suUu5yaXlt5EYgQ=="/>
 		<POI MapID="1422" xpos="-175.608" ypos="176.315" zpos="864.629" type="tt.eodhp.mm.skyscale" GUID="3aq5aK0JPk6BAg2Wlwr9iQ=="/>
