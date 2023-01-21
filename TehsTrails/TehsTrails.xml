@@ -1747,7 +1747,7 @@ Otherwise -&gt; Kill Separatists, interact with suspicious piles"/>
         <POI MapID="32" xpos="623.701" ypos="25.5712" zpos="70.9219" type="tt.mc.h.chm.interact" GUID="Oy30QXI1qECfkHcKRORa+g=="/>
         <POI MapID="32" xpos="628.285" ypos="24.1419" zpos="118.36" type="tt.mc.h.chm.interact" GUID="Z8zlHH+GcESO0HHEHuZkyg=="/>
         <POI MapID="32" xpos="629.501" ypos="21.9495" zpos="143.006" type="tt.mc.h.chm.interact" GUID="QKyvLFzpy0Ssy006Nrcang=="/>
-        <POI MapID="32" xpos="750.336" ypos="17.2977" zpos="-382.499" type="tt.mc.h.chm.start_heart" GUID="W3GcJ5FLl0KGRW7EzEUxUQ==" info="Talk to 2 of the trained skelk -&gt; Let them walk to their trees -&gt; Keep running between them each time weaponswap talking" infoRange="30"/>
+        <POI MapID="32" xpos="750.336" ypos="17.2977" zpos="-382.499" type="tt.mc.h.chm.start_heart" GUID="W3GcJ5FLl0KGRW7EzEUxUQ==" info="Talk to 2 skelk -&gt; When they start logging, alternate talking to both of them, weapon-swapping to interrupt the channel" infoRange="30"/>
         <POI MapID="32" xpos="638.767" ypos="25.328" zpos="83.3856" type="tt.mc.h.chm.deposit" GUID="cjQMeCLMw0S6dO014+MS5w=="/>
         <POI MapID="32" xpos="643.579" ypos="23.3169" zpos="103.909" type="tt.mc.h.chm.interact" GUID="j+BrP20M0Uy+qRDXmX2R+Q=="/>
         <POI MapID="32" xpos="717.631" ypos="27.1789" zpos="-340.138" type="tt.mc.cm.rm.points_of_interest" GUID="XtAGxS9gHEGXKmhoZVsR/A=="/>
