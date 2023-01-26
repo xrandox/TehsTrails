@@ -4290,7 +4290,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="57.1203" ypos="98.6747" zpos="-164.835" type="tt.mc.cm.mm.distogriff" GUID="KyHtA7saukeqWxEcJcD3uA=="/>
         <POI MapID="62" xpos="117.013" ypos="36.6441" zpos="900.618" type="tt.mc.cm.rm.points_of_interest" GUID="c7O42IPkfEqbY/BqA1gchw=="/>
         <POI MapID="62" xpos="130.27" ypos="82.9023" zpos="1112.95" type="tt.mc.cm.rm.points_of_interest" GUID="vWSVcvj6tkyGNfJ8b/IzzA=="/>
-        <POI MapID="62" xpos="145.32" ypos="31.6423" zpos="665.583" type="tt.mc.cm.rm.points_of_interest" GUID="94te1FY3jUK3G9GTIXOc5A=="/>
+        <POI MapID="62" xpos="122.033" ypos="35.8332" zpos="650.783" type="tt.mc.cm.rm.points_of_interest" GUID="94te1FY3jUK3G9GTIXOc5A=="/>
         <POI MapID="62" xpos="146.36" ypos="2.76972" zpos="-677.475" type="tt.mc.cm.rm.points_of_interest" GUID="xKW9VVi710qngpvj/uzXjQ=="/>
         <POI MapID="62" xpos="195.858" ypos="41.8409" zpos="644.377" type="tt.mc.cm.rm.waypoints" GUID="Cbn+bk0b90eUR0WT/FY2bg=="/>
         <POI MapID="62" xpos="253.131" ypos="35.8838" zpos="152.622" type="tt.mc.cm.rm.points_of_interest" GUID="K7/YkmRtwEOQdLAwQeepCw=="/>
@@ -4312,8 +4312,8 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="479.592" ypos="88.8909" zpos="-285.604" type="tt.mc.cm.rm.points_of_interest" GUID="uemGsF8fV0eNzSuk57+5oA=="/>
         <POI MapID="62" xpos="506.899" ypos="89.0382" zpos="-276.004" type="tt.mc.cm.rm.waypoints" GUID="J32QMa9INkeV143fhMdsDw=="/>
         <POI MapID="62" xpos="507.006" ypos="89.0213" zpos="-278.029" type="tt.mc.cm.rm.ppr_r" GUID="Fps4CJf3KEicdrA9zqVN0w=="/>
-        <POI MapID="62" xpos="-5.01656" ypos="28.2109" zpos="522.788" type="tt.mc.cm.rm.ppr_r" GUID="6FGezPtqyE6dUdrqHIoKsQ=="/>
-        <POI MapID="62" xpos="-3.17384" ypos="26.4944" zpos="527.858" type="tt.mc.cm.rm.points_of_interest" GUID="HJnxXBW0nkevId07Bg/FbQ=="/>
+        <POI MapID="62" xpos="-189.366" ypos="30.3198" zpos="475.873" type="tt.mc.cm.rm.ppr_r" GUID="6FGezPtqyE6dUdrqHIoKsQ=="/>
+        <POI MapID="62" xpos="-3.5893" ypos="25.2285" zpos="525.542" type="tt.mc.cm.rm.points_of_interest" GUID="HJnxXBW0nkevId07Bg/FbQ=="/>
         <POI MapID="62" xpos="-21.0366" ypos="7.56021" zpos="589.07" type="tt.mc.cm.wm.wparrow" GUID="ZEGGunjunEydTpdaRAzVbw==" copy="[&amp;BCEDAAA=]"/>
         <POI MapID="62" xpos="-43.3496" ypos="28.9153" zpos="-66.3455" type="tt.mc.cm.mm.skyscale" GUID="UvW0AJIkKUGLZBpc9JKz9w=="/>
         <POI MapID="62" xpos="-38.3431" ypos="28.7919" zpos="-68.6048" type="tt.mc.cm.rm.waypoints" GUID="CgwO3EXK3U2gFif+LOLRbA=="/>
@@ -4328,8 +4328,8 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="-159.834" ypos="14.6925" zpos="784.503" type="tt.mc.cm.rm.waypoints" GUID="3nsen8lx1E+fcmgobLSlvw=="/>
         <POI MapID="62" xpos="-174.949" ypos="18.271" zpos="44.5605" type="tt.mc.cm.rm.points_of_interest" GUID="uF0JzvyB9UO/eae+jsyejg=="/>
         <POI MapID="62" xpos="-177.223" ypos="57.781" zpos="-848.487" type="tt.mc.cm.rm.points_of_interest" GUID="72Mz2HbJjEq7R0zJf82/ug=="/>
-        <POI MapID="62" xpos="-211.173" ypos="6.75677" zpos="488.791" type="tt.mc.cm.rm.points_of_interest" GUID="Xk5om1UljUyhbzpKCXMa4g=="/>
-        <POI MapID="62" xpos="-212.179" ypos="6.71883" zpos="487.916" type="tt.mc.cm.wm.wparrow" GUID="FrhRECtpR0+rqcQE7R6N+A==" copy="[&amp;BCEDAAA=]"/>
+        <POI MapID="62" xpos="-191.302" ypos="29.3194" zpos="476.823" type="tt.mc.cm.rm.points_of_interest" GUID="Xk5om1UljUyhbzpKCXMa4g=="/>
+        <POI MapID="62" xpos="-383.836" ypos="4.55852" zpos="463.949" type="tt.mc.cm.wm.wparrow" GUID="FrhRECtpR0+rqcQE7R6N+A==" copy="[&amp;BCEDAAA=]"/>
         <POI MapID="62" xpos="-328.746" ypos="10.4627" zpos="915.139" type="tt.mc.cm.rm.points_of_interest" GUID="pfL9VP2/aUCV39jGM+OCaQ=="/>
         <POI MapID="62" xpos="-350.094" ypos="1.18336" zpos="-175.191" type="tt.mc.cm.mm.skimmer" GUID="PK/N1eUh40GvFe2Dsrhetw=="/>
         <POI MapID="62" xpos="-367.553" ypos="44.2383" zpos="-858.221" type="tt.mc.cm.rm.waypoints" GUID="cNu3d8PEcEyXJo0dRIc3wg=="/>
@@ -4343,7 +4343,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="-478.227" ypos="-79.0969" zpos="49.1273" type="tt.mc.cm.rm.points_of_interest" GUID="/mBFPNYNZ0CJ/QbhUTxKNQ=="/>
         <POI MapID="62" xpos="-16.5461" ypos="29.6912" zpos="-80.0388" type="tt.mc.hp.hpm" GUID="dDJsjpNHC0uHSxitbIsyRQ=="/>
         <POI MapID="62" xpos="-202.612" ypos="21.5818" zpos="1032" type="tt.mc.hp.hpm" GUID="qr0MvHbTSUKPKo3sXJ58qg=="/>
-        <POI MapID="62" xpos="-315.78" ypos="18.4955" zpos="916.304" type="tt.mc.hp.hpm" GUID="6JPziMHX6kOsQe4o3j0Jkg=="/>
+        <POI MapID="62" xpos="-324.605" ypos="11.1187" zpos="917.481" type="tt.mc.hp.hpm" GUID="6JPziMHX6kOsQe4o3j0Jkg=="/>
         <POI MapID="62" xpos="-391.561" ypos="43.5342" zpos="-857.449" type="tt.mc.hp.hpm" GUID="utXezeEAAkaoR3wskt2p7g=="/>
         <POI MapID="62" xpos="-398.313" ypos="2.46072" zpos="-456.72" type="tt.mc.hp.hpm" GUID="5+Vyzy3ACkGLRhwkbZu97w=="/>
         <POI MapID="62" xpos="-4.55882" ypos="17.9549" zpos="545.913" type="tt.mc.hp.hpm" GUID="vaHNCSPtiEumf77LlK4Nsg=="/>
@@ -4354,7 +4354,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="255.371" ypos="8.62174" zpos="-65.1702" type="tt.mc.hp.hpm" GUID="rJ2YXB5dA0C5rp+Pylw/BA=="/>
         <POI MapID="62" xpos="343.556" ypos="47.7188" zpos="-1007.09" type="tt.mc.hp.hpm" GUID="eibIfOGMgUC/Hp0ZhSzN9A=="/>
         <POI MapID="62" xpos="460.55" ypos="45.7972" zpos="237.335" type="tt.mc.hp.hpm" GUID="mQlJk7kQoUuKlvP0XutnYQ=="/>
-        <POI MapID="62" xpos="118.432" ypos="38.503" zpos="895.432" type="tt.mc.hp.hpm" GUID="CZ34Jl0ccUKMi/Ar3zzlBw=="/>
+        <POI MapID="62" xpos="82.2452" ypos="31.5757" zpos="908.7" type="tt.mc.hp.hpm" GUID="CZ34Jl0ccUKMi/Ar3zzlBw=="/>
         <POI MapID="62" xpos="5970" ypos="0" zpos="7450" type="tt.mc.cm.rm.exit_map_by_teleporting" GUID="9p52n80H9kqrhUFz4vorwg=="/>
         <POI MapID="62" xpos="79.865" ypos="110.701" zpos="891.677" type="tt.mc.cm.rm.ppr_m" GUID="YvuhZ68u/kGJ5prysNFOtw=="/>
         <POI MapID="62" xpos="70.2276" ypos="111.609" zpos="892.135" type="tt.mc.cm.rm.2" GUID="qGh7O+R0lESpfADBW1h72A=="/>
@@ -4369,7 +4369,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="-48.9483" ypos="28.921" zpos="-441.616" type="tt.mc.cm.rm.ppr_m" GUID="jMgQ89ZptUWBHlrCYay20w=="/>
         <POI MapID="62" xpos="-431.978" ypos="28.8332" zpos="-558.333" type="tt.mc.cm.rm.ppr_m" GUID="b9HWdWqgqU6ANWw/9ksBww=="/>
         <POI MapID="62" xpos="-440.377" ypos="29.0025" zpos="-565.783" type="tt.mc.cm.mm.beetle" GUID="ilJXaAd2tEOLFa/7lPZ/1w=="/>
-        <POI MapID="62" xpos="-476.646" ypos="35.0734" zpos="-857.538" type="tt.mc.hp.hpm" GUID="xqU67v+MbkCAmOLRXPrInQ==" info="If you can't rewind back -&gt; backtrack with beetle to first rewinder marker" />
+        <POI MapID="62" xpos="-476.646" ypos="35.0734" zpos="-857.538" type="tt.mc.hp.hpm" GUID="xqU67v+MbkCAmOLRXPrInQ==" info="If you can't rewind back -&gt; backtrack with beetle to first rewinder marker"/>
         <POI MapID="62" xpos="-415.512" ypos="27.0839" zpos="-564.055" type="tt.mc.cm.mm.beetle" GUID="CDIdmkI0O0eRxpd4f0Zq0g=="/>
         <POI MapID="62" xpos="132.334" ypos="11.6025" zpos="-105.842" type="tt.mc.cm.mm.jackal" GUID="UNMqJpA+t0a2d3X6gkTAkQ=="/>
         <POI MapID="62" xpos="-30.5058" ypos="29.3516" zpos="-62.9603" type="tt.mc.cm.wm.heart" GUID="6+PUvq778kGgcfTOJPUsOw=="/>
@@ -4388,6 +4388,13 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="451.461" ypos="47.4648" zpos="228.046" type="tt.mc.cm.mm.skyscale" GUID="ZFY7j/Kp/0SGOCCG9+R3nw==" info="If you don´t have skyscale -&gt; Follow trail of shame"/>
         <POI MapID="62" xpos="441.022" ypos="43.812" zpos="231.057" type="tt.mc.cm.mm.beetle" GUID="Tbs1foqF4UOPiwqFZSLdtw=="/>
         <POI MapID="62" xpos="233.737" ypos="29.6392" zpos="160.199" type="tt.mc.cm.mm.beetle" GUID="M/artE6Dw02r6/Aujq/ahA=="/>
+        <POI MapID="62" xpos="-78.7412" ypos="9.88697" zpos="-721.669" type="tt.mc.hp.hpm" GUID="+hPGV3oSbEGBy2Pk1SLEEg=="/>
+        <POI MapID="62" xpos="429.679" ypos="25.6081" zpos="-1093.47" type="tt.mc.hp.hpm" GUID="dbj1XUK2x0uyk0AftCiIYQ=="/>
+        <POI MapID="62" xpos="168.05" ypos="19.5594" zpos="-679.621" GUID="SjOFeBJ9P0m1BNPJj4ZG5g=="/>
+        <POI MapID="62" xpos="269.935" ypos="43.2677" zpos="-955.591" GUID="1E3natBr20mzixyRFiw56Q=="/>
+        <POI MapID="62" xpos="457.266" ypos="30.2462" zpos="-1011.08" GUID="/BNBQBVhC0mBlmgm/PZg7Q=="/>
+        <POI MapID="62" xpos="-48.5153" ypos="31.7795" zpos="-410.521" type="tt.mc.cm.rm.stealthmount" GUID="IF9qQVPNEEK0FVaQ9u0pqg=="/>
+        <POI MapID="62" xpos="485.413" ypos="88.9258" zpos="-281.863" type="tt.mc.cm.rm.hourglass" GUID="aO7kPVph+UKrIQ3bDe4uZQ=="/>
 		
 		
 		<!--============================================= MALCHOR'S LEAP MARKERS =============================================-->
