@@ -3476,7 +3476,7 @@ Otherwise return here at the end of the map to interact with unexploded shots ag
         <POI MapID="23" xpos="147.907" ypos="3.02036" zpos="-212.713" type="tt.mc.cm.mm.raptor" GUID="yBSXdWrXmE2fVY3S3e3Y5Q=="/>
         <POI MapID="23" xpos="-216.835" ypos="10.5798" zpos="-60.5039" type="tt.mc.cm.mm.skyscale" GUID="VXKSeSpmtUyoiqrasLT40A=="/>
         <POI MapID="23" xpos="-268.025" ypos="20.2861" zpos="-137.371" type="tt.mc.cm.mm.raptor" GUID="08EqXXcxqEinsBSY+M0wew=="/>
-        <POI MapID="23" xpos="-691.444" ypos="26.5074" zpos="-548.755" type="tt.mc.cm.wm.wpswirl" GUID="GHKddCpHWE2Az9DgtvIp/w=="/>
+        <POI MapID="23" xpos="-691.444" ypos="26.5074" zpos="-548.755" type="tt.mc.cm.wm.wpheart" GUID="GHKddCpHWE2Az9DgtvIp/w=="/>
         <POI MapID="23" xpos="-893.018" ypos="92.1932" zpos="492.22" type="tt.mc.cm.wm.heart" GUID="to3w6+fN7k+5gimKNyIIKQ=="/>
 		
 		
@@ -4385,7 +4385,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="253.131" ypos="35.8838" zpos="152.622" type="tt.mc.cm.rm.points_of_interest" GUID="K7/YkmRtwEOQdLAwQeepCw=="/>
         <POI MapID="62" xpos="253.462" ypos="35.3989" zpos="153.88" type="tt.mc.cm.rm.waypoints" GUID="PDQM1hFW402cJlcHlhNgsA=="/>
         <POI MapID="62" xpos="208.968" ypos="8.11357" zpos="-48.0432" type="tt.mc.cm.rm.dismount" GUID="3AgLdbSsUU+KJRyTQXoB+A=="/>
-        <POI MapID="62" xpos="250.398" ypos="8.5891" zpos="-65.8292" type="tt.mc.cm.rm.ppr_r" GUID="mpiSrHdxr0WGQldiB1nivA==" info="If you cannot rewind -&gt; TP to Heart and follow trail of shame"/>
+        <POI MapID="62" xpos="250.398" ypos="8.5891" zpos="-65.8292" type="tt.mc.cm.rm.ppr_r" GUID="mpiSrHdxr0WGQldiB1nivA==" info="If you cannot rewind -&gt; TP to Heart and follow trail of shame" script-focus="Teh_Highlight_Waypoint(p12qUuUzREexc2aLaYM4bA==)"/>
         <POI MapID="62" xpos="250.937" ypos="8.52727" zpos="-64.5908" type="tt.mc.cm.rm.points_of_interest" GUID="5d9AnH6B4EW+QZ0iYCV4Zw=="/>
         <POI MapID="62" xpos="284.641" ypos="21.9727" zpos="-959.374" type="tt.mc.cm.rm.points_of_interest" GUID="Bc9Ze91q10y3mrqfY50rFA=="/>
         <POI MapID="62" xpos="355.923" ypos="43.9962" zpos="413.166" type="tt.mc.cm.rm.waypoints" GUID="b6E/sOX/SEGl7rzkYRRsCg=="/>
@@ -4527,7 +4527,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="65" xpos="951.717" ypos="50.7601" zpos="233.053" type="tt.mc.cm.rm.points_of_interest" GUID="ldRWtRBnt0G96P6nedb6dg=="/>
         <POI MapID="65" xpos="994.783" ypos="50.2024" zpos="-102.553" type="tt.mc.cm.rm.points_of_interest" GUID="xJ8JPrrBj0ey9teqPrADjA=="/>
         <POI MapID="65" xpos="1004.26" ypos="65.217" zpos="-187.571" type="tt.mc.cm.mm.skyscale" GUID="UyGtnrIPKE2KY7wXXHRZ9w=="/>
-        <POI MapID="65" xpos="1021.25" ypos="-1.24587" zpos="352.425" type="tt.mc.cm.rm.ppr_r" GUID="8Tqrei8I+kGLEqX5XsxPhg==" info="If you cannot rewind: TP to star (uncontested) or to circle and walk to star"/>
+        <POI MapID="65" xpos="1021.25" ypos="-1.24587" zpos="352.425" type="tt.mc.cm.rm.ppr_r" GUID="8Tqrei8I+kGLEqX5XsxPhg==" info="If you cannot rewind: TP to star" script-focus="Teh_Highlight_Waypoint(cJlnDwGijkWzwLWkoRA7FA==)"/>
         <POI MapID="65" xpos="1023.64" ypos="-1.28556" zpos="352.367" type="tt.mc.cm.rm.points_of_interest" GUID="Hd3Z2mM0ok2X1+48ucziAA=="/>
         <POI MapID="65" xpos="1025.59" ypos="30.5364" zpos="-366.596" type="tt.mc.cm.wm.arrow" GUID="ThIlzf69pECxCa91NLqkHg=="/>
         <POI MapID="65" xpos="1029.44" ypos="30.3099" zpos="-374.694" type="tt.mc.cm.rm.points_of_interest" GUID="ieEMRxjfOka4FSP0T0ZxNQ=="/>
@@ -4599,7 +4599,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="65" xpos="167.49" ypos="40.1887" zpos="-90.5588" type="tt.mc.cm.rm.jadewp" GUID="25cf8V2A8kSnulB618VXvg=="/>
         <POI MapID="65" xpos="250.716" ypos="85.1959" zpos="-9.88783" type="tt.mc.cm.mm.skyscale" GUID="lXa26uCtu0iaGTbDWW4f4Q=="/>
         <POI MapID="65" xpos="360.627" ypos="173.411" zpos="-1.88345" type="tt.mc.cm.mm.distogriff" GUID="ouT+dE474EScvKdkYH7XRQ=="/>
-        <POI MapID="65" xpos="31.5524" ypos="28.2641" zpos="99.1893" type="tt.mc.cm.rm.ppr_r" GUID="Inc8/qFZzUGaCHNg41Xt1Q==" info="If you cannot rewind: Tp to swirl, then follow trail of shame"/>
+        <POI MapID="65" xpos="31.5524" ypos="28.2641" zpos="99.1893" type="tt.mc.cm.rm.ppr_r" GUID="Inc8/qFZzUGaCHNg41Xt1Q==" info="If you cannot rewind: Tp to swirl, then follow trail of shame" script-focus="Teh_Highlight_Waypoint(FCxEGgeFNkOug2hJ8uUyIw==)" />
         <POI MapID="65" xpos="89.123" ypos="86.5562" zpos="2.27032" type="tt.mc.cm.mm.griffon" GUID="D/zJX3yFd0SBdU4fr0cdWg=="/>
         <POI MapID="65" xpos="-128.257" ypos="-22.7691" zpos="394.323" type="tt.mc.cm.wm.wptriangle" GUID="Y7Q5AbsZBUmUEJjtkUshfA==" info="TP to triangle or use jade bot waypoint" copy="[&amp;BKwCAAA=]"/>
         <POI MapID="65" xpos="-392.156" ypos="150.816" zpos="125.72" type="tt.mc.cm.rm.ppr_m" GUID="t+Wke+HmVkOTse6dCubTEw=="/>
@@ -4682,14 +4682,14 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="51" xpos="891.097" ypos="22.4813" zpos="147.737" type="tt.mc.cm.rm.waypoints" GUID="CXutTgt+T0SoRnNoJY6iBA=="/>
         <POI MapID="51" xpos="903.102" ypos="53.0736" zpos="-217.983" type="tt.mc.cm.rm.vistas" GUID="M613370ZNUqwfqacSvLIQg=="/>
         <POI MapID="51" xpos="-98.6243" ypos="6.76074" zpos="-425.816" type="tt.mc.cm.rm.points_of_interest" GUID="p4cBmaIhh0+Lt88XmMfIxw=="/>
-        <POI MapID="51" xpos="-99.5749" ypos="7.22914" zpos="-427.923" type="tt.mc.cm.rm.ppr_r" GUID="r+ceJ29l50S1bIjSsrpCHA==" info="If you cannot rewind: TP to heart and follow 2nd trail of shame"/>
+        <POI MapID="51" xpos="-99.5749" ypos="7.22914" zpos="-427.923" type="tt.mc.cm.rm.ppr_r" GUID="r+ceJ29l50S1bIjSsrpCHA==" info="If you cannot rewind: TP to heart and follow 2nd trail of shame" script-focus="Teh_Highlight_Waypoint(O3N6iot08kynjUqet1H/zA==)" />
         <POI MapID="51" xpos="-114.122" ypos="-1.05664" zpos="425.099" type="tt.mc.cm.mm.skimmer" GUID="Y/BvjMLBkEmso9r/bbXOjA=="/>
         <POI MapID="51" xpos="-128.868" ypos="53.4419" zpos="-547.926" type="tt.mc.cm.rm.points_of_interest" GUID="chpQKO3Hm0SXLMAPcn8JBw=="/>
         <POI MapID="51" xpos="-181.773" ypos="-31.9071" zpos="356.867" type="tt.mc.cm.rm.points_of_interest" GUID="rmsMSIT9FUqYzcOCu5uPoA=="/>
         <POI MapID="51" xpos="-204.62" ypos="-34.6619" zpos="399.914" type="tt.mc.cm.rm.waypoints" GUID="jDSqJlubi0SDKumTEYBDtQ=="/>
         <POI MapID="51" xpos="-222.585" ypos="34.3688" zpos="-675.099" type="tt.mc.cm.rm.waypoints" GUID="9tv4jUKXhUuIczWJTNe2Iw=="/>
         <POI MapID="51" xpos="-228.462" ypos="-0.107521" zpos="-84.3645" type="tt.mc.cm.rm.waypoints" GUID="Vd3asRxfFUaKcSvSfhu9qQ=="/>
-        <POI MapID="51" xpos="-229.609" ypos="-0.2486" zpos="-85.9769" type="tt.mc.cm.rm.ppr_r" GUID="J3GdCreMsU+JXCobDdytbA==" info="If you cannot rewind or don´t have hero points: TP to heart and follow 1st trail of shame"/>
+        <POI MapID="51" xpos="-229.609" ypos="-0.2486" zpos="-85.9769" type="tt.mc.cm.rm.ppr_r" GUID="J3GdCreMsU+JXCobDdytbA==" info="If you cannot rewind or don´t have hero points: TP to heart and follow 1st trail of shame" script-focus="Teh_Highlight_Waypoint(O3N6iot08kynjUqet1H/zA==)" />
         <POI MapID="51" xpos="-267.083" ypos="12.02" zpos="-47.8946" type="tt.mc.cm.rm.points_of_interest" GUID="6tLsGQyhGEGg8ewuCJMb+w=="/>
         <POI MapID="51" xpos="-343.292" ypos="0.42046" zpos="217.253" type="tt.mc.cm.rm.waypoints" GUID="pVWWASrpb0qJrMsAl5JHEQ=="/>
         <POI MapID="51" xpos="-357.357" ypos="1.72854" zpos="362.008" type="tt.mc.cm.rm.points_of_interest" GUID="WVGRHCQy4kybsXv9sGqv1Q=="/>
@@ -5293,7 +5293,7 @@ If tons of players are nearby -&gt; Talk to heart -&gt; Kill dredge, Inspire nea
         <POI MapID="30" xpos="-535.688" ypos="60.6247" zpos="-199.667" type="tt.mc.cm.mm.griffon" GUID="L32ioIIZnUKO8U3tZd83Iw=="/>
         <POI MapID="30" xpos="-470.003" ypos="0.73742" zpos="-99.9455" type="tt.mc.cm.mm.skimmer" GUID="MiLKOQ+5CUGT/zSbXJqVFQ=="/>
         <POI MapID="30" xpos="-626.862" ypos="1.79951" zpos="375.797" type="tt.mc.cm.mm.skyscale" GUID="b85Ik9ZmJkiYoMMT0A5CZw==" info="If you don't have skyscale follow trail of shame"/>
-        <POI MapID="30" xpos="736.541" ypos="125.454" zpos="757.71" type="tt.mc.hp.hpm" GUID="RitEBUbaJUWEy5AxjYGMjQ==" info="If you're doing hero points WP to X"/>
+        <POI MapID="30" xpos="736.541" ypos="125.454" zpos="757.71" type="tt.mc.hp.hpm" GUID="RitEBUbaJUWEy5AxjYGMjQ==" info="If you're doing hero points WP to X" script-focus="Teh_Highlight_Waypoint(y9fhLaj9fUOCB94rZd5XAA==)"/>
         <POI MapID="30" xpos="-54.2309" ypos="-39.3543" zpos="167.384" type="tt.mc.cm.wm.wpcircle" GUID="BcfH/9sUakWcRPMJIm4tuQ==" copy="[&amp;BIICAAA=]"/>
         <POI MapID="30" xpos="-356.237" ypos="35.5074" zpos="488.362" type="tt.mc.cm.mm.griffon" GUID="szw4XJlgW0SvGoNNjanjPQ=="/>
         <POI MapID="30" xpos="-222.118" ypos="-1.05664" zpos="116.254" type="tt.mc.cm.mm.skimmer" GUID="J0ex6W1Vp0GDx0QT+F2iOw=="/>
@@ -7154,7 +7154,7 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="23" xpos="793.157" ypos="28.4952" zpos="-483.923" type="tt.mc.cm.nwm.tpm" GUID="lZLLBZY9eEGBgVHBdypA5A==" copy="[&amp;BBIAAAA=]" script-focus="Teh_Highlight_Waypoint(GvP16OOsJ02LwDC9Xh0kaw==)" />
 		<POI MapID="23" xpos="611.642" ypos="38.387" zpos="502.374" type="tt.mc.cm.nwm.wph" GUID="iC+ayWtjDU25kXcp2XRr4Q==" />
 		<POI MapID="23" xpos="960.705" ypos="55.0037" zpos="59.935" type="tt.mc.cm.nwm.tpm" GUID="vN8FFmj3h0Wwd6tYRtt8dg==" script-focus="Teh_Highlight_Waypoint(iC+ayWtjDU25kXcp2XRr4Q==)" />
-		<POI MapID="23" xpos="59.784" ypos="38.4794" zpos="383.099" type="tt.mc.cm.nwm.wph" GUID="nbl6C9pDiU+1HFxyLrO4kQ==" />
+		<POI MapID="23" xpos="-893.084" ypos="94.4794" zpos="492.209" type="tt.mc.cm.nwm.wph" GUID="nbl6C9pDiU+1HFxyLrO4kQ==" />
 		<POI MapID="23" xpos="10.9344" ypos="46.8851" zpos="519.314" type="tt.mc.cm.nwm.tpm" GUID="4TJku9pNJk6d0YB44YgLXw==" info="Waypoint contested -&gt; Beetle back" infoRange="40" copy="[&amp;BLoDAAA=]" script-focus="Teh_Highlight_Waypoint(nbl6C9pDiU+1HFxyLrO4kQ==)" />
 		<POI MapID="23" xpos="-691.444" ypos="26.5074" zpos="-548.755" type="tt.mc.cm.nwm.tpm" GUID="3JFJUjfI3Eix9S1qatsvPw==" script-focus="Teh_Highlight_Waypoint(nbl6C9pDiU+1HFxyLrO4kQ==)" />
 		<POI MapID="23" xpos="-893.018" ypos="92.1932" zpos="492.22" type="tt.mc.cm.nwm.wph" GUID="MtMmuyzhUkekiZHGwTEJsQ==" />
