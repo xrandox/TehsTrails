@@ -88,6 +88,8 @@
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" displayname="Waypoint Markers" fadenear="3500" fadefar="4000" triggerrange="25" autotrigger="true" inforange="20">
+				  <MarkerCategory name="tpm" displayname="Teleport Marker" minimapvisibility="0" mapvisibility="0"/>
+				  <MarkerCategory name="wph" displayname="Waypoint Highlight" iconfile="Data/TehsTrails/Markers/waypoint-highlight.png" scaleonmapwithzoom="0" mapdisplaysize="125" minimapvisibility="0" mapvisibility="0" ingamevisibility="0"/>
 				  <MarkerCategory name="arrow" displayname="Arrow" iconfile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleonmapwithzoom="0" mapdisplaysize="35"/>
 				  <MarkerCategory name="circle" displayname="Circle" iconfile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleonmapwithzoom="0" mapdisplaysize="35"/>
 				  <MarkerCategory name="heart" displayname="Heart" iconfile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleonmapwithzoom="0" mapdisplaysize="35"/>
