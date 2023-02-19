@@ -110,7 +110,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" fadeNear="3500" fadeFar="4000" triggerRange="20" autoTrigger="1" infoRange="20">
 					<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" miniMapVisibility="0" mapVisibility="0"/>
-					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" scaleOnMapWithZoom="0" mapDisplaySize="100" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0"/>
+					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="0" mapDisplaySize="100" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 			
