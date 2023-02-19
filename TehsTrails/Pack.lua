@@ -1,5 +1,7 @@
 Teh = {}
 
+Debug:Print("Loading Lua")
+
 Teh.highlight = {
     currentWaypoint = nil,
     waypointHighlighted = false,
@@ -7,8 +9,18 @@ Teh.highlight = {
     sizeGrowing = true
 }
 
+Teh.heartpointer = {
+    currentTarget = nil,
+    isPointing = false,
+    pointerMarker = nil
+}
+
+
+
 function Hide_reminders()
+    Debug:Print("Hiding Reminders")
     World.CategoryByType("tt.mc.cm.se"):Hide()
+    Debug:Print("Hid Reminders")
 end
 
 --Sets the given marker GUID as the current waypoint and highlights it
@@ -60,20 +72,71 @@ function Teh_Validate_Highlight()
     return true
 end
 
---Checks if the highlighted waypoint is still valid
---If it is, checks if the map is open and grows/shrinks it
-function Teh_Tick_Highlight(gameTime)
+function Teh_Tick_Handler(gameTime)
+    if (Teh.highlight.waypointHighlighted) then
+        Teh_Tick_Highlight()
+    end
 
-    local isHighlighted = Teh.highlight.waypointHighlighted
-
-    if (isHighlighted) then
-        if (Teh_Validate_Highlight()) then
-            if (Mumble.UI.IsMapOpen) then Teh_Grow_Highlight() end
-        end
+    if (Teh.heartpointer.isPointing) then
+        Teh_Tick_HeartPointer()
     end
 end
 
+--Checks if the highlighted waypoint is still valid
+--If it is, checks if the map is open and grows/shrinks it
+function Teh_Tick_Highlight(gameTime)
+    if (Teh_Validate_Highlight()) then
+        if (Mumble.UI.IsMapOpen) then Teh_Grow_Highlight() end
+    end
+end
+
+function Teh_Tick_HeartPointer(gameTime)
+    local target = Teh.heartpointer.currentTarget
+    local pointer = Teh.heartpointer.pointerMarker
+
+    if (target.Focused) then
+        Teh.heartpointer.isPointing = false
+        Teh.heartpointer.pointerMarker.InGameVisibility = false;
+        return
+    end
+
+    local playerPos = Mumble.PlayerCharacter.Position
+    local vector = (target.Position - playerPos)
+    vector = vector / vector:Length()
+    local targetPos = playerPos + vector * 2
+
+    pointer:SetPos(targetPos.X, targetPos.Y, targetPos.Z - 1.5)
+    local rotZ = (math.atan2(vector.Y, vector.X) - ((3 * math.pi) / 2))
+    local rotX = (-math.atan(vector.Z, vector.X))
+    pointer:SetRotZ(rotZ)
+    pointer:SetRotX(rotX)
+end
+
+-- Credit to Freesnow for the base point function
+function Teh_Heart_Pointer(marker, isfocused, guid)
+    -- We use the category as a toggle for this feature.
+    if (isfocused) then
+        Debug:Print("Start Heart marker focused")
+        --create a copy of target marker to be the pointer
+        local pointer = Pack:CreateMarker()
+        local target = World:MarkerByGuid(guid)
+        pointer.Texture = target.Texture
+        pointer.MiniMapVisibility = false;
+        pointer.MapVisibility = false;
+        Teh.heartpointer.currentTarget = target
+        Teh.heartpointer.isPointing = true
+        Teh.heartpointer.pointerMarker = pointer
+    end
+end
+
+
+
+Debug:Print("Hiding Reminders")
+
 Hide_reminders()
 
-Event:OnTick(Teh_Tick_Highlight)
+Debug:Print("Setting Tick Handler")
 
+Event:OnTick(Teh_Tick_Handler)
+
+Debug:Print("Lua Loaded")

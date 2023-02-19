@@ -122,6 +122,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--=======================================================================================================================================================================-->	
 			<MarkerCategory name="h" DisplayName="Hearts">
 			
+				<MarkerCategory name="hl" DisplayName="Heart Linking"/>
 				<!-- Heart Trails -->
 				<MarkerCategory name="ht" DisplayName="Heart Trails" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HeartTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- Heart Zone Categories -->
@@ -2792,7 +2793,7 @@ Not enough -&gt; bring truffles to warthogs"/>
 		<POI MapID="19" xpos="-711.674" ypos="29.9266" zpos="95.4881" type="tt.mc.h.chm.finish_heart" GUID="mxXGd73OY0yij4rYqKOHvA=="/>
 		<POI MapID="19" xpos="-799.892" ypos="47.1077" zpos="271.522" type="tt.mc.h.chm.finish_heart" GUID="L4X/tLvLTUu10BKSLEyGgw=="/>
 		<POI MapID="19" xpos="-819.531" ypos="47.6651" zpos="260.075" type="tt.mc.cm.rm.points_of_interest" GUID="tHLhMc9qy0ezjrFD6bERMA=="/>
-		<POI MapID="19" xpos="-825.77" ypos="47.1993" zpos="245.874" type="tt.mc.h.chm.start_heart" info="Pick up junk, kill ooze" GUID="Is+tsLeT90+B0qIjj+2Nqg=="/>
+		<POI MapID="19" xpos="-825.77" ypos="47.1993" zpos="245.874" type="tt.mc.h.chm.start_heart" script-tick="point()" info="Pick up junk, kill ooze" GUID="Is+tsLeT90+B0qIjj+2Nqg=="/>
 		<POI MapID="19" xpos="-825.551" ypos="54.7863" zpos="-500.848" type="tt.mc.cm.wm.wpheart" copy="[&amp;BJgDAAA=]" GUID="Nd8uTiT/6k+Kn1EWYM8k9A=="/>
 		<POI MapID="19" xpos="-826.747" ypos="75.5605" zpos="-178.105" type="tt.mc.cm.rm.vistas" GUID="hO2aF9Mn4kibuXYk4SN6oA=="/>
 		<POI MapID="19" xpos="-827.825" ypos="53.0383" zpos="-501.253" type="tt.mc.cm.rm.waypoints" GUID="MpaV6by6BE6KTbKh6HWsAQ=="/>
@@ -3836,7 +3837,7 @@ Otherwise return here at the end of the map to interact with unexploded shots ag
 		<POI MapID="54" xpos="457.799" ypos="3.23297" zpos="-516.834" type="tt.mc.h.chm.interact" GUID="inwhjbTJAES7el5wh/cpSg=="/>
 		<POI MapID="54" xpos="462.528" ypos="42.2735" zpos="-592.945" type="tt.mc.cm.mm.griffon" GUID="Sga2SUPEGkyz0rMl8NtyBw=="/>
 		<POI MapID="54" xpos="463.511" ypos="42.6137" zpos="-594.37" type="tt.mc.cm.rm.vistas" GUID="gU3URZZ+fkeLtq2RoZi+aA=="/>
-		<POI MapID="54" xpos="465.024" ypos="41.7293" zpos="-592.922" type="tt.mc.h.chm.start_heart" GUID="ks8IquFW0k6XMGik154/sQ==" info="Kill ooze and turn in ooze to processor"/>
+		<POI MapID="54" xpos="465.024" ypos="41.7293" zpos="-592.922" type="tt.mc.h.chm.start_heart" script-focus="Teh_Heart_Pointer(91oyjQqB80iDvucOyPg6Hw==)" GUID="ks8IquFW0k6XMGik154/sQ==" info="Kill ooze and turn in ooze to processor"/>
 		<POI MapID="54" xpos="468.531" ypos="38.2443" zpos="-648.324" type="tt.mc.cm.rm.points_of_interest" GUID="fJbHhVszQ0m/w9k01xoExQ=="/>
 		<POI MapID="54" xpos="479.262" ypos="0.800195" zpos="-235.876" type="tt.mc.h.chm.interact" GUID="oC/Icd7LB0yGiFN0sKNCtA=="/>
 		<POI MapID="54" xpos="482.08" ypos="2.56083" zpos="-535.629" type="tt.mc.h.chm.interact" GUID="XVszhViaa0ubjI7mA7iWqA=="/>
@@ -7368,6 +7369,8 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="yx+evYoC30i67RO/R5BF2g==" type="tt.mc.cm.se" />
 		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
 
+		<!-- Heart Pointer -->
+		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="2u8Z3QhpCkmgVBQdr10xIg==" type="tt.mc.h.hl" />
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                              TRAIL DATA                                                                           ==-->
