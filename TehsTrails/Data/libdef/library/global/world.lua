@@ -7,7 +7,7 @@ World = {}
 ---Finds and returns a category based on the provided type.
 ---@param type string # The namespace which represents the requested category.
 ---@return Category category
-function World.CategoryByType(this, type) end
+function World.CategoryByType(type) end
 
 ---Returns a pathable based on the provided guid.
 ---@param guid string # The base64 encoded guid associated with the pathable.

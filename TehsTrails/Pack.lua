@@ -7,6 +7,10 @@ Teh.highlight = {
     sizeGrowing = true
 }
 
+function Hide_reminders()
+    World.CategoryByType("tt.mc.cm.se"):Hide()
+end
+
 --Sets the given marker GUID as the current waypoint and highlights it
 function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
     local waypoint = World:MarkerByGuid(markerguid)
@@ -59,6 +63,7 @@ end
 --Checks if the highlighted waypoint is still valid
 --If it is, checks if the map is open and grows/shrinks it
 function Teh_Tick_Highlight(gameTime)
+
     local isHighlighted = Teh.highlight.waypointHighlighted
 
     if (isHighlighted) then
@@ -68,4 +73,7 @@ function Teh_Tick_Highlight(gameTime)
     end
 end
 
+Hide_reminders()
+
 Event:OnTick(Teh_Tick_Highlight)
+

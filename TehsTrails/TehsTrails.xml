@@ -89,7 +89,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerRange="25" autoTrigger="1" infoRange="20">
+				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" fadeNear="3500" fadeFar="4000" triggerRange="25" autoTrigger="1" infoRange="20">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -108,10 +108,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
 
-				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" fadeNear="3500" fadeFar="4000" triggerRange="20" autoTrigger="1" infoRange="20">
+				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" fadeNear="3500" fadeFar="4000" triggerRange="20" autoTrigger="1" infoRange="20">
 					<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" miniMapVisibility="0" mapVisibility="0"/>
 					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="0" mapDisplaySize="100" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0"/>
 				</MarkerCategory>
+
+				<MarkerCategory name="se" DisplayName="Enable Scripting Reminder(BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but you don't have scripts enabled.&#xA;&#xA;In order to properly use the waypoint system you must turn scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;Alternatively, if you wish to use the legacy system, you must enable it in the Map Completion -> Common Markers category"/>
 			</MarkerCategory>
 			
 
@@ -7333,7 +7335,38 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="29" xpos="-163.382" ypos="11.6618" zpos="632.222" type="tt.mc.cm.nwm.tpm" GUID="qBhlN5IuIUaZGHFrPwlrhw==" copy="[&amp;BE0CAAA=], if contested go from [&amp;BE8CAAA=]" info="If square contested -&gt; WP to star and beetle to square" script-focus="Teh_Highlight_Waypoint(GywvG7sC8Ei8yIRCAGldfQ==)" />
 		<POI MapID="29" xpos="133.103" ypos="59.0482" zpos="479.468" type="tt.mc.cm.nwm.wph" GUID="ni3kQj8CEUCtfehG4GIpXg==" />
 
-
+		<!--========== SCRIPTING REMINDER MARKERS ==========-->
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" />
+		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="QEI9L5Q92ECHpi/qEeIfQQ==" type="tt.mc.cm.se" />
+		<POI MapID="39" xpos="0" ypos="0" zpos="0" GUID="mhJRVPkjR0CY8kKWOuKaIQ==" type="tt.mc.cm.se" />
+		<POI MapID="73" xpos="0" ypos="0" zpos="0" GUID="cEJKs5x2WkG83YPHX+lGnA==" type="tt.mc.cm.se" />
+		<POI MapID="28" xpos="0" ypos="0" zpos="0" GUID="NWY21GuEtUaOj8D+HplEQQ==" type="tt.mc.cm.se" />
+		<POI MapID="31" xpos="0" ypos="0" zpos="0" GUID="ENApDTqt10OaVAKhGR5y9g==" type="tt.mc.cm.se" />
+		<POI MapID="27" xpos="0" ypos="0" zpos="0" GUID="9VFnXGfmEEGGXJbC920IYA==" type="tt.mc.cm.se" />
+		<POI MapID="30" xpos="0" ypos="0" zpos="0" GUID="fdoGDRD1mESqB0TQsaOBcQ==" type="tt.mc.cm.se" />
+		<POI MapID="26" xpos="0" ypos="0" zpos="0" GUID="VBAuPFUkS0aeKuUAi7EgCQ==" type="tt.mc.cm.se" />
+		<POI MapID="51" xpos="0" ypos="0" zpos="0" GUID="ZgjXgFYgmU68kAgrmcP6kw==" type="tt.mc.cm.se" />
+		<POI MapID="62" xpos="0" ypos="0" zpos="0" GUID="XQgFsEhEo0OJs6eh+/U1sg==" type="tt.mc.cm.se" />
+		<POI MapID="35" xpos="0" ypos="0" zpos="0" GUID="FEEb4agWUkWVIHpSbcAleA==" type="tt.mc.cm.se" />
+		<POI MapID="65" xpos="0" ypos="0" zpos="0" GUID="GVgySRMZQE2GS1othuOdSA==" type="tt.mc.cm.se" />
+		<POI MapID="34" xpos="0" ypos="0" zpos="0" GUID="WTNx8+EVL0aPdQkcTT9WtQ==" type="tt.mc.cm.se" />
+		<POI MapID="54" xpos="0" ypos="0" zpos="0" GUID="0bjl+PYu4ESpDjzBa3V1Gw==" type="tt.mc.cm.se" />
+		<POI MapID="15" xpos="0" ypos="0" zpos="0" GUID="TzaOwlx0eUKBat09TDBUuQ==" type="tt.mc.cm.se" />
+		<POI MapID="23" xpos="0" ypos="0" zpos="0" GUID="bL8Qe22Ibk6rP4+WpISdBA==" type="tt.mc.cm.se" />
+		<POI MapID="17" xpos="0" ypos="0" zpos="0" GUID="Umj9gxRw/kCAWB+P8otGfw==" type="tt.mc.cm.se" />
+		<POI MapID="24" xpos="0" ypos="0" zpos="0" GUID="Ra2gbLhx1Um+TrLyPliRFg==" type="tt.mc.cm.se" />
+		<POI MapID="19" xpos="0" ypos="0" zpos="0" GUID="rCQD+Y36FEGLlf5wczcCCA==" type="tt.mc.cm.se" />
+		<POI MapID="25" xpos="0" ypos="0" zpos="0" GUID="54464pjJVUqazG/ohriajw==" type="tt.mc.cm.se" />
+		<POI MapID="22" xpos="0" ypos="0" zpos="0" GUID="hQeUshWTEUW32FlQQzQ5Kw==" type="tt.mc.cm.se" />
+		<POI MapID="21" xpos="0" ypos="0" zpos="0" GUID="Ya4Dno+YvEe9vj8ze7CB7Q==" type="tt.mc.cm.se" />
+		<POI MapID="32" xpos="0" ypos="0" zpos="0" GUID="mr4hmrFK8UuZglzbOPcyJQ==" type="tt.mc.cm.se" />
+		<POI MapID="20" xpos="0" ypos="0" zpos="0" GUID="fY1wJwZq5EqTpxSAyEpSLQ==" type="tt.mc.cm.se" />
+		<POI MapID="91" xpos="0" ypos="0" zpos="0" GUID="stH7OVT/+EmJwU6OvDwsvg==" type="tt.mc.cm.se" />
+		<POI MapID="139" xpos="0" ypos="0" zpos="0" GUID="pZIoyFtTcECiyHVg9G5tiA==" type="tt.mc.cm.se" />
+		<POI MapID="326" xpos="0" ypos="0" zpos="0" GUID="kyXkz+e8VkKxZ/bTkbGcew==" type="tt.mc.cm.se" />
+		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="co8l9cL0dkOIXDPOSVXiKg==" type="tt.mc.cm.se" />
+		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="yx+evYoC30i67RO/R5BF2g==" type="tt.mc.cm.se" />
+		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
 
 
 		<!--=======================================================================================================================================================================-->
