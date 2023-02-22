@@ -14,6 +14,10 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
     local waypoint = World:MarkerByGuid(markerguid)
 
     if (isfocused) then
+        if (Teh.highlight.waypointHighlighted) then 
+            Teh.highlight.currentWaypoint.MapVisibility = false
+            Teh.highlight.currentWaypoint.MiniMapVisibility = false
+        end
         waypoint:SetTexture("Data/TehsTrails/Markers/waypoint-highlight.png")
         waypoint.MapVisibility = true
         waypoint.MiniMapVisibility = true
