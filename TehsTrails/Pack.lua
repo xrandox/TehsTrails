@@ -9,10 +9,16 @@ Teh.highlight = {
     sizeGrowing = true
 }
 
-Teh.heartpointer = {
+Teh.heartfollower = {
     currentTarget = nil,
-    isPointing = false,
-    pointerMarker = nil
+    isFollowing = false,
+    followMarker = nil
+}
+
+Teh.bounce = {
+    currentTarget = nil,
+    isBouncing = false,
+    wasFocused = false
 }
 
 
@@ -38,12 +44,12 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
 end
 
 --Grows or shrinks the highlight on the map
-function Teh_Grow_Highlight()
+function Teh_Grow_Highlight(gameTime)
     local size = Teh.highlight.currentSize
     local growing = Teh.highlight.sizeGrowing
     local MAX_SIZE = 200
     local MIN_SIZE = 100
-    local INTERVAL = 2
+    local INTERVAL = 180 * gameTime.ElapsedGameTime.TotalSeconds
 
     if (growing) then size = size + INTERVAL;
     else size = size - INTERVAL; end
@@ -74,11 +80,15 @@ end
 
 function Teh_Tick_Handler(gameTime)
     if (Teh.highlight.waypointHighlighted) then
-        Teh_Tick_Highlight()
+        Teh_Tick_Highlight(gameTime)
     end
 
-    if (Teh.heartpointer.isPointing) then
-        Teh_Tick_HeartPointer()
+    if (Teh.heartfollower.isFollowing) then
+        Teh_Tick_HeartFollower()
+    end
+
+    if (Teh.bounce.isBouncing) then
+        Teh_Tick_Bounce()
     end
 end
 
@@ -86,17 +96,18 @@ end
 --If it is, checks if the map is open and grows/shrinks it
 function Teh_Tick_Highlight(gameTime)
     if (Teh_Validate_Highlight()) then
-        if (Mumble.UI.IsMapOpen) then Teh_Grow_Highlight() end
+        Teh_Grow_Highlight(gameTime)
     end
 end
 
-function Teh_Tick_HeartPointer(gameTime)
-    local target = Teh.heartpointer.currentTarget
-    local pointer = Teh.heartpointer.pointerMarker
+function Teh_Tick_HeartFollower(gameTime)
+    local target = Teh.heartfollower.currentTarget
+    local follower = Teh.heartfollower.followMarker
 
     if (target.Focused) then
-        Teh.heartpointer.isPointing = false
-        Teh.heartpointer.pointerMarker.InGameVisibility = false;
+        Teh.heartfollower.isFollowing = false
+        Teh.heartfollower.followMarker.InGameVisibility = false
+        --Pack:RemoveMarker(Teh.heartfollower.followMarker.Guid)
         return
     end
 
@@ -105,31 +116,54 @@ function Teh_Tick_HeartPointer(gameTime)
     vector = vector / vector:Length()
     local targetPos = playerPos + vector * 2
 
-    pointer:SetPos(targetPos.X, targetPos.Y, targetPos.Z - 1.5)
+    follower:SetPos(targetPos.X, targetPos.Y, targetPos.Z - 1.5)
     local rotZ = (math.atan2(vector.Y, vector.X) - ((3 * math.pi) / 2))
     local rotX = (-math.atan(vector.Z, vector.X))
-    pointer:SetRotZ(rotZ)
-    pointer:SetRotX(rotX)
+    follower:SetRotZ(rotZ)
+    follower:SetRotX(rotX)
 end
 
--- Credit to Freesnow for the base point function
-function Teh_Heart_Pointer(marker, isfocused, guid)
+function Teh_Heart_Follower(marker, isfocused, guid)
     -- We use the category as a toggle for this feature.
     if (isfocused) then
-        Debug:Print("Start Heart marker focused")
         --create a copy of target marker to be the pointer
-        local pointer = Pack:CreateMarker()
+        local follower = Pack:CreateMarker()
         local target = World:MarkerByGuid(guid)
-        pointer.Texture = target.Texture
-        pointer.MiniMapVisibility = false;
-        pointer.MapVisibility = false;
-        Teh.heartpointer.currentTarget = target
-        Teh.heartpointer.isPointing = true
-        Teh.heartpointer.pointerMarker = pointer
+        follower.InGameVisibility = false;
+        follower.MiniMapVisibility = false;
+        follower.MapVisibility = false;
+        --follower:GetBehavior
+        Teh.heartfollower.currentTarget = target
+        Teh.heartfollower.isFollowing = true
+        Teh.heartfollower.followMarker = follower
     end
 end
 
 
+function Teh_Bounce(marker, isAutoTrigger, guid)
+    if (not isAutoTrigger) then return end
+    local target = World:MarkerByGuid(guid)
+    local bounce = target:GetBehavior("BounceModifier")
+    bounce.BounceHeight = 1
+    Teh.bounce.currentTarget = target
+    Teh.bounce.isBouncing = true
+    Teh.bounce.wasFocused = false
+end
+
+function Teh_Tick_Bounce()
+    if (Teh.bounce.wasFocused) then
+        if (not Teh.bounce.currentTarget.Focused) then
+            local bounce = Teh.bounce.currentTarget:GetBehavior("BounceModifier")
+            bounce.BounceHeight = 0
+            Teh.bounce.isBouncing = false
+            return
+        end
+        return
+    end
+    if (Teh.bounce.currentTarget.Focused) then
+        Teh.bounce.wasFocused = true
+    end
+end
 
 Debug:Print("Hiding Reminders")
 

@@ -48,13 +48,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="exit_instance" DisplayName="Exit Instance" iconFile="Data/TehsTrails/Markers/exit_instance.png" iconSize="0.75"/>
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
 					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
-					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" triggerRange="10" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
 					<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" iconSize="0.5"/>
 					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" iconSize="0.5"/>
 					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" iconSize="0.5"/>
-					<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
-					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
-					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+					<MarkerCategory name="1" DisplayName="One" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" triggerRange="10" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+					<MarkerCategory name="2" DisplayName="Two" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" triggerRange="10" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+					<MarkerCategory name="3" DisplayName="Three" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" triggerRange="10" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
 					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
                     <MarkerCategory name="stealthmount" DisplayName="Stealth mount" iconFile="Data/TehsTrails/Markers/StealthMount.png" iconSize="0.75"/>
 					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" iconSize="0.5"/>
@@ -108,9 +108,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
 
-				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" fadeNear="3500" fadeFar="4000" triggerRange="20" autoTrigger="1" infoRange="20">
+				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" fadeNear="3500" fadeFar="4000" triggerRange="10" autoTrigger="1" infoRange="20">
 					<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" miniMapVisibility="0" mapVisibility="0"/>
-					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="0" mapDisplaySize="100" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0"/>
+					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0"/>
 				</MarkerCategory>
 
 				<MarkerCategory name="se" DisplayName="Enable Scripting Reminder(BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but you don't have scripts enabled.&#xA;&#xA;In order to properly use the waypoint system you must turn scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;Alternatively, if you wish to use the legacy system, you must enable it in the Map Completion -> Common Markers category"/>
@@ -1015,7 +1015,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 		<!--============================================= BLACK CITADEL MARKERS =============================================-->
         <POI MapID="218" xpos="14.2651" ypos="195.391" zpos="203.658" type="tt.mc.cm.rm.waypoints" GUID="mgctLWu0/UmlwxW7sM1FgA=="/>
-        <POI MapID="218" xpos="16.8335" ypos="198.009" zpos="204.576" type="tt.mc.cm.wm.wpx" GUID="FBOVRx4ZBU61A+UgzrssyA==" triggerRange="20" copy="[&amp;BK0DAAA=]"/>
+        <POI MapID="218" xpos="16.8335" ypos="198.009" zpos="204.576" type="tt.mc.cm.wm.wpx" GUID="FBOVRx4ZBU61A+UgzrssyA==" copy="[&amp;BK0DAAA=]"/>
         <POI MapID="218" xpos="0.601186" ypos="211.591" zpos="203.292" type="tt.mc.cm.wm.x" GUID="dYUVS3RmhkOtFLABuISsBg=="/>
         <POI MapID="218" xpos="0.589" ypos="213.887" zpos="201.148" type="tt.mc.cm.rm.1" GUID="uzOKo26Yh0O/49QTrDeapw=="/>
         <POI MapID="218" xpos="-1.589" ypos="213.887" zpos="208.148" type="tt.mc.cm.rm.2" GUID="rAvi1MQec0inZFy6Yl4mDA=="/>
@@ -6999,8 +6999,8 @@ Event -&gt; kill drunk skritt"/>
 		<!--=======================================================================================================================================================================-->
 
 		<POI MapID="218" xpos="0.601186" ypos="211.591" zpos="203.292" type="tt.mc.cm.nwm.wph" GUID="/hmEtSyDN06DOqlwRPUUWA==" />
-		<POI MapID="218" xpos="16.8335" ypos="198.009" zpos="204.576" type="tt.mc.cm.nwm.tpm" GUID="kWQMUmaGrU+Ikk+JSpcTHg==" triggerRange="20" copy="[&amp;BK0DAAA=]" script-focus="Teh_Highlight_Waypoint(/hmEtSyDN06DOqlwRPUUWA==)" />
-		<POI MapID="218" xpos="12.3203" ypos="245.006" zpos="182.744" type="tt.mc.cm.nwm.tpm" GUID="LL8yStyR/UKmMY2EV7zspw==" copy="[&amp;BK0DAAA=]" script-focus="Teh_Highlight_Waypoint(/hmEtSyDN06DOqlwRPUUWA==)" />
+		<POI MapID="218" xpos="16.8335" ypos="198.009" zpos="204.576" type="tt.mc.cm.nwm.tpm" GUID="kWQMUmaGrU+Ikk+JSpcTHg==" copy="[&amp;BK0DAAA=]" script-trigger="Teh_Bounce(uzOKo26Yh0O/49QTrDeapw==)" script-focus="Teh_Highlight_Waypoint(/hmEtSyDN06DOqlwRPUUWA==)" />
+		<POI MapID="218" xpos="12.3203" ypos="245.006" zpos="182.744" type="tt.mc.cm.nwm.tpm" GUID="LL8yStyR/UKmMY2EV7zspw==" copy="[&amp;BK0DAAA=]" script-trigger="Teh_Bounce(rAvi1MQec0inZFy6Yl4mDA==)" script-focus="Teh_Highlight_Waypoint(/hmEtSyDN06DOqlwRPUUWA==)" />
 		<POI MapID="218" xpos="30.4856" ypos="169.401" zpos="370.429" type="tt.mc.cm.nwm.wph" GUID="Wm/Rq9Y5qE6A/LyGYmZ9oA==" />
 		<POI MapID="218" xpos="222.546" ypos="133.667" zpos="482.981" type="tt.mc.cm.nwm.tpm" GUID="Y7uL82ZMU0Kkkqb6Fq4w2w==" copy="[&amp;BKYDAAA=]" script-focus="Teh_Highlight_Waypoint(Wm/Rq9Y5qE6A/LyGYmZ9oA==)" />
 		<POI MapID="218" xpos="-20.5385" ypos="25.9226" zpos="263.773" type="tt.mc.cm.nwm.tpm" GUID="KwR2oSqOiE+kU0Y95+dk8Q==" copy="[&amp;BKYDAAA=]" script-focus="Teh_Highlight_Waypoint(Wm/Rq9Y5qE6A/LyGYmZ9oA==)" />
