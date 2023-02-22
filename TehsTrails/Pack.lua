@@ -18,7 +18,9 @@ Teh.heartfollower = {
 Teh.bounce = {
     currentTarget = nil,
     isBouncing = false,
-    wasFocused = false
+    wasFocused = false,
+    originalPosition = nil,
+    originalRotation = nil
 }
 
 
@@ -31,6 +33,7 @@ end
 
 --Sets the given marker GUID as the current waypoint and highlights it
 function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
+    if (World:CategoryByType("tt.mc.s.ewh"):IsVisible()) then return end
     local waypoint = World:MarkerByGuid(markerguid)
 
     if (isfocused) then
@@ -106,8 +109,9 @@ function Teh_Tick_HeartFollower(gameTime)
 
     if (target.Focused) then
         Teh.heartfollower.isFollowing = false
-        Teh.heartfollower.followMarker.InGameVisibility = false
-        --Pack:RemoveMarker(Teh.heartfollower.followMarker.Guid)
+        Teh.heartfollower.followMarker.InGameVisibility = true
+        Teh.heartfollower.followMarker:SetPos(Teh.heartfollower.originalPosition)
+        Teh.heartfollower.followMarker:SetRot(math.rad(90),0,0)
         return
     end
 
@@ -125,16 +129,16 @@ end
 
 function Teh_Heart_Follower(marker, isfocused, guid)
     -- We use the category as a toggle for this feature.
+    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
     if (isfocused) then
         --create a copy of target marker to be the pointer
-        local follower = Pack:CreateMarker()
-        local target = World:MarkerByGuid(guid)
-        follower.InGameVisibility = false;
-        follower.MiniMapVisibility = false;
-        follower.MapVisibility = false;
-        --follower:GetBehavior
-        Teh.heartfollower.currentTarget = target
+        Teh.heartfollower.originalPosition = marker.Position
+        Teh.heartfollower.originalRotation = marker.Rotation
+        Teh.heartfollower.currentTarget = World:MarkerByGuid(guid)
         Teh.heartfollower.isFollowing = true
+        local follower = marker
+        if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then follower.InGameVisibility = false end
+        follower.TriggerRange = 5
         Teh.heartfollower.followMarker = follower
     end
 end
@@ -142,6 +146,7 @@ end
 
 function Teh_Bounce(marker, isAutoTrigger, guid)
     if (not isAutoTrigger) then return end
+    if (not World:CategoryByType("tt.mc.s.ermb"):IsVisible()) then return end
     local target = World:MarkerByGuid(guid)
     local bounce = target:GetBehavior("BounceModifier")
     bounce.BounceHeight = 1
