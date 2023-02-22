@@ -111,7 +111,7 @@ function Teh_Tick_HeartFollower(gameTime)
         Teh.heartfollower.isFollowing = false
         Teh.heartfollower.followMarker.InGameVisibility = true
         Teh.heartfollower.followMarker:SetPos(Teh.heartfollower.originalPosition)
-        Teh.heartfollower.followMarker:SetRot(math.rad(90),0,0)
+        Teh.heartfollower.followMarker.RotationXyz = nil
         return
     end
 
