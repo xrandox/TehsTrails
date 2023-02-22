@@ -128,7 +128,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				
 				<!-- Common Heart Markers -->
 				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
-					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="80"/>
+					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="20"/>
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
 					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png" iconSize="0.75"/>
 					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/TehsTrails/Markers/Talk.png" iconSize="0.75"/>
@@ -200,7 +200,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
 
-			<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" bh-defaulttoggle="1" defaulttoggle="0">
+			<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0">
 				<MarkerCategory name="ewh" DisplayName="Enable Waypoint Highlights" tip-description="Highlights the next waypoint you are supposed to teleport to" bh-defaulttoggle="1" defaulttoggle="0"/>
 				<MarkerCategory name="ermb" DisplayName="Enable Route Marker Bouncing" tip-description="Signifies which route you are supposed to use by making the respective marker bounce" bh-defaulttoggle="1" defaulttoggle="0"/>
 				<MarkerCategory name="ehif" DisplayName="Enable Heart Information Following" tip-description="Makes heart text sticky -- it will follow you around until you reach the finish_heart marker (Limited Use)" bh-defaulttoggle="1" defaulttoggle="0">
@@ -3950,7 +3950,7 @@ Otherwise return here at the end of the map to interact with unexploded shots ag
 		<POI MapID="34" xpos="307.633" ypos="26.5157" zpos="-907.584" type="tt.mc.cm.rm.points_of_interest" GUID="tGv74O6z/EiVqZ9/iAKVKg=="/>
 		<POI MapID="34" xpos="309.619" ypos="28.05" zpos="-866.286" type="tt.mc.cm.wm.star" GUID="b7igrhvzDU+uM8yb00eT8w=="/>
 		<POI MapID="34" xpos="310.379" ypos="27.9868" zpos="-879.306" type="tt.mc.cm.rm.waypoints" GUID="KtbMh651J0SHbh2MQnPHGA=="/>
-		<POI MapID="34" xpos="339.02" ypos="1.848" zpos="-941.671" type="tt.mc.h.chm.start_heart" GUID="MwXfSk3GskaCQzb7iIk9ng==" info="Kill Risen | Interact with corpses"/>
+		<POI MapID="34" xpos="339.02" ypos="1.848" zpos="-941.671" type="tt.mc.h.chm.start_heart" GUID="MwXfSk3GskaCQzb7iIk9ng==" script-focus="Teh_Heart_Follower(LC2OtFXHukK56UwLNeUBaQ==)" info="Kill Risen | Interact with corpses"/>
 		<POI MapID="34" xpos="329.722" ypos="48.5822" zpos="967.279" type="tt.mc.cm.rm.vistas" GUID="EY1Ea+yN6EuOdERm/1TQkw=="/>
 		<POI MapID="34" xpos="342.299" ypos="1.51485" zpos="-950.474" type="tt.mc.h.chm.finish_heart" GUID="UFVbfqoMgUqetRIVgneMjg=="/>
 		<POI MapID="34" xpos="344.082" ypos="1.42103" zpos="-950.764" type="tt.mc.cm.wm.wpstar" GUID="2enPGGytNEWkNRnaIps9sg==" copy="[&amp;BP4FAAA=]"/>
