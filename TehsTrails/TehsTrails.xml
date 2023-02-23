@@ -200,7 +200,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
 
-			<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0">
+			<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0">
 				<MarkerCategory name="ewh" DisplayName="Enable Waypoint Highlights" tip-description="Highlights the next waypoint you are supposed to teleport to" bh-defaulttoggle="1" defaulttoggle="0"/>
 				<MarkerCategory name="ermb" DisplayName="Enable Route Marker Bouncing" tip-description="Signifies which route you are supposed to use by making the respective marker bounce" bh-defaulttoggle="1" defaulttoggle="0"/>
 				<MarkerCategory name="ehif" DisplayName="Enable Heart Information Following" tip-description="Makes heart text sticky -- it will follow you around until you reach the finish_heart marker (Limited Use)" bh-defaulttoggle="1" defaulttoggle="0">
@@ -5969,7 +5969,6 @@ There are more enemies around the keep" infoRange="100"/>
         <POI MapID="28" xpos="429.129" ypos="19.9299" zpos="-999.955" type="tt.mc.cm.rm.stealthmount" GUID="EoFctlaAQUWuhu0PqKG5TQ=="/>
         <POI MapID="28" xpos="-55.6796" ypos="127.407" zpos="-664.256" type="tt.mc.cm.mm.raptor" GUID="Z+SMJMSoYkmYeqwex+S0FQ=="/>
         <POI MapID="28" xpos="266.824" ypos="74.0933" zpos="761.989" type="tt.mc.h.chm.deposit" GUID="n3Kv2EFZQUmwPaONHke6jw=="/>
-        <POI MapID="28" xpos="-225.795" ypos="93.1276" zpos="-620.231" type="tt.mc.cm.rm.1" GUID="HA3Rm/gvjUKdXlf53eIbfg=="/>
         <POI MapID="28" xpos="-234.167" ypos="95.4538" zpos="-611.621" type="tt.mc.cm.rm.2" GUID="S0KqvcSB4EOr1LgxrZ3BCA=="/>
         <POI MapID="28" xpos="-234.959" ypos="96.5961" zpos="-604.951" type="tt.mc.cm.mm.skyscale" GUID="3o0g8225UkGWnmocC9LYCA==" info="If you don't have skyscale follow trail of shame" infoRange="10"/>
         <POI MapID="28" xpos="-223.227" ypos="184.621" zpos="-430.428" type="tt.mc.cm.mm.raptor" GUID="Ccb1jmgJ9k2A+UsPBFkXCA=="/>
@@ -7094,16 +7093,16 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="32" xpos="50.0014" ypos="27.0655" zpos="330.461" type="tt.mc.cm.nwm.wph" GUID="n0j531II0kiAHyPpSNuzyw==" />
 		<POI MapID="32" xpos="-773.585" ypos="95.2302" zpos="496.008" type="tt.mc.cm.nwm.tpm" GUID="iPEgOttqxkqq6FM9PhomiA==" copy="[&amp;BMkDAAA=]" script-focus="Teh_Highlight_Waypoint(n0j531II0kiAHyPpSNuzyw==)" />
 		<POI MapID="32" xpos="226.7" ypos="23.693" zpos="-533.726" type="tt.mc.cm.nwm.wph" GUID="xh6T88vrNUGX7jowk44W5A==" />
-		<POI MapID="32" xpos="286.983" ypos="24.1741" zpos="-608.992" type="tt.mc.cm.nwm.tpm" GUID="2GVdzuZOlkaMyCjDmatEYw==" script-focus="Teh_Highlight_Waypoint(xh6T88vrNUGX7jowk44W5A==)" />
-		<POI MapID="32" xpos="384.363" ypos="53.036" zpos="-558.404" type="tt.mc.cm.nwm.tpm" GUID="ue4sd6IZHU6JbdGlepotMg==" script-focus="Teh_Highlight_Waypoint(xh6T88vrNUGX7jowk44W5A==)" />
+		<POI MapID="32" xpos="286.983" ypos="24.1741" zpos="-608.992" type="tt.mc.cm.nwm.tpm" GUID="2GVdzuZOlkaMyCjDmatEYw==" script-trigger="Teh_Bounce(PzjtOQRW/EOtpI8cttDeyQ==)" script-focus="Teh_Highlight_Waypoint(xh6T88vrNUGX7jowk44W5A==)" />
+		<POI MapID="32" xpos="384.363" ypos="53.036" zpos="-558.404" type="tt.mc.cm.nwm.tpm" GUID="ue4sd6IZHU6JbdGlepotMg==" script-trigger="Teh_Bounce(AYZ6iT72WU6qRsQ/45eaKQ==)" script-focus="Teh_Highlight_Waypoint(xh6T88vrNUGX7jowk44W5A==)" />
 		<POI MapID="21" xpos="413.516" ypos="35.3288" zpos="-462.032" type="tt.mc.cm.nwm.wph" GUID="U8LcEP3C9U6dSc119dIBlg==" />
 		<POI MapID="21" xpos="680.915" ypos="31.6796" zpos="-209.207" type="tt.mc.cm.nwm.tpm" GUID="w5Fa0esduU6jgtlWAXr++w==" copy="[&amp;BE8BAAA=]" script-focus="Teh_Highlight_Waypoint(U8LcEP3C9U6dSc119dIBlg==)" />
 		<POI MapID="21" xpos="-251.051" ypos="16.4445" zpos="123.581" type="tt.mc.cm.nwm.wph" GUID="PXyx8KW650eaeMZ2QWa0kg==" />
 		<POI MapID="21" xpos="-418.469" ypos="16.357" zpos="230.254" type="tt.mc.cm.nwm.tpm" GUID="z4dfNLpO80mGzR7UyOXUHA==" copy="[&amp;BE0BAAA=]" script-focus="Teh_Highlight_Waypoint(PXyx8KW650eaeMZ2QWa0kg==)" />
 		<POI MapID="21" xpos="-519.307" ypos="60.8892" zpos="-370.939" type="tt.mc.cm.nwm.wph" GUID="q6MBOvrGNkmGLHfRdIQYaA==" />
-		<POI MapID="21" xpos="556.436" ypos="7.51204" zpos="489.868" type="tt.mc.cm.nwm.tpm" GUID="IG4zMFKAGkyrSbiqx/+1RQ==" copy="[&amp;BNMAAAA=]" script-focus="Teh_Highlight_Waypoint(q6MBOvrGNkmGLHfRdIQYaA==)" />
+		<POI MapID="21" xpos="556.436" ypos="7.51204" zpos="489.868" type="tt.mc.cm.nwm.tpm" GUID="IG4zMFKAGkyrSbiqx/+1RQ==" copy="[&amp;BNMAAAA=]" script-trigger="Teh_Bounce(0Tv4LuUoKUCuMR1Q8qu5Yg==)" script-focus="Teh_Highlight_Waypoint(q6MBOvrGNkmGLHfRdIQYaA==)" />
 		<POI MapID="21" xpos="833.218" ypos="39.5825" zpos="629.02" type="tt.mc.cm.nwm.tpm" GUID="0MLMkha8iUKuWHIQiM4mzQ==" copy="[&amp;BNMAAAA=]" script-focus="Teh_Highlight_Waypoint(q6MBOvrGNkmGLHfRdIQYaA==)" />
-		<POI MapID="21" xpos="-99.4291" ypos="43.1555" zpos="-408.573" type="tt.mc.cm.nwm.tpm" GUID="ZMowWtf+sUuPz4d92d98VA==" copy="[&amp;BNMAAAA=]" script-focus="Teh_Highlight_Waypoint(q6MBOvrGNkmGLHfRdIQYaA==)" />
+		<POI MapID="21" xpos="-99.4291" ypos="43.1555" zpos="-408.573" type="tt.mc.cm.nwm.tpm" GUID="ZMowWtf+sUuPz4d92d98VA==" copy="[&amp;BNMAAAA=]" script-trigger="Teh_Bounce(q415InoEQUONCUhAujGNEQ==)" script-focus="Teh_Highlight_Waypoint(q6MBOvrGNkmGLHfRdIQYaA==)" />
 		<POI MapID="21" xpos="-727.361" ypos="60.4045" zpos="-661.888" type="tt.mc.cm.nwm.wph" GUID="rkuMn/6FpkOSBXBsqhRSig==" />
 		<POI MapID="21" xpos="-712.799" ypos="60.7808" zpos="-747.958" type="tt.mc.cm.nwm.tpm" GUID="3cfWQJcgqkaivi7ruLYf4A==" copy="[&amp;BFEBAAA=]" script-focus="Teh_Highlight_Waypoint(rkuMn/6FpkOSBXBsqhRSig==)" />
 		<POI MapID="21" xpos="-797.367" ypos="60.1322" zpos="-620.217" type="tt.mc.cm.nwm.tpm" GUID="FsJ+TSsigUe0Upoql7eZmw==" copy="[&amp;BFEBAAA=]" script-focus="Teh_Highlight_Waypoint(rkuMn/6FpkOSBXBsqhRSig==)" />
@@ -7118,8 +7117,8 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="25" xpos="183.617" ypos="4.82325" zpos="-108.055" type="tt.mc.cm.nwm.wph" GUID="o004WJx77UKJOju6bFsHkw==" />
 		<POI MapID="25" xpos="43.2851" ypos="0.770757" zpos="-244.133" type="tt.mc.cm.nwm.tpm" copy="[&amp;BOkBAAA=]" GUID="XFgBrJZokkKErpyWGRUacw==" script-focus="Teh_Highlight_Waypoint(o004WJx77UKJOju6bFsHkw==)" />
 		<POI MapID="25" xpos="-174.384" ypos="19.451" zpos="295.975" type="tt.mc.cm.nwm.wph" GUID="DCiXcPfpVkyVF/9NmhZgkg==" />
-		<POI MapID="25" xpos="-529.957" ypos="15.7972" zpos="428.033" type="tt.mc.cm.nwm.tpm" copy="[&amp;BOsBAAA=]" GUID="ESzQr6fCEEGOFKCUh9gkHQ==" script-focus="Teh_Highlight_Waypoint(DCiXcPfpVkyVF/9NmhZgkg==)" />
-		<POI MapID="25" xpos="572.295" ypos="-0.225744" zpos="1166.38" type="tt.mc.cm.nwm.tpm" copy="[&amp;BOsBAAA=]" GUID="6imq5gDocECi8tJc5KG20Q==" script-focus="Teh_Highlight_Waypoint(DCiXcPfpVkyVF/9NmhZgkg==)" />
+		<POI MapID="25" xpos="-529.957" ypos="15.7972" zpos="428.033" type="tt.mc.cm.nwm.tpm" copy="[&amp;BOsBAAA=]" GUID="ESzQr6fCEEGOFKCUh9gkHQ==" script-trigger="Teh_Bounce(GFJdTilMJU2LnlmdAWFBzg==)" script-focus="Teh_Highlight_Waypoint(DCiXcPfpVkyVF/9NmhZgkg==)" />
+		<POI MapID="25" xpos="572.295" ypos="-0.225744" zpos="1166.38" type="tt.mc.cm.nwm.tpm" copy="[&amp;BOsBAAA=]" GUID="6imq5gDocECi8tJc5KG20Q==" script-trigger="Teh_Bounce(/qaDBRUPY0erEQvgkScXPA==)" script-focus="Teh_Highlight_Waypoint(DCiXcPfpVkyVF/9NmhZgkg==)" />
 		<POI MapID="19" xpos="-327.432" ypos="8.41581" zpos="-314.249" type="tt.mc.cm.nwm.wph" GUID="TqosRZhOV0eN2ztaSYHDwA==" />
 		<POI MapID="19" xpos="16.579" ypos="31.932" zpos="-28.4926" type="tt.mc.cm.nwm.tpm" copy="[&amp;BIUBAAA=]" GUID="aWrmocq9S0CgBM/Z7Aixjw==" script-focus="Teh_Highlight_Waypoint(TqosRZhOV0eN2ztaSYHDwA==)" />
 		<POI MapID="19" xpos="621.107" ypos="12.7123" zpos="175.544" type="tt.mc.cm.nwm.wph" GUID="GTcd4rWRBkK+Yn1m0kgk4w==" />
@@ -7239,8 +7238,8 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="26" xpos="151.521" ypos="67.8204" zpos="-424.034" type="tt.mc.cm.nwm.tpm" GUID="CDSNvq3B2k2foraMFo9/FQ==" copy="[&amp;BFoCAAA=]" script-focus="Teh_Highlight_Waypoint(YkCsomsCjUacLX0kHffD9Q==)" />
 		<POI MapID="26" xpos="120.567" ypos="98.8337" zpos="837.886" type="tt.mc.cm.nwm.wph" GUID="YOgF/5ZUi0e9gBDO7XAivg==" />
 		<POI MapID="26" xpos="-138.377" ypos="127.514" zpos="14.4802" type="tt.mc.cm.nwm.tpm" GUID="VqNABssuSEaKf2avVN2o8A==" copy="[&amp;BGICAAA=]" script-focus="Teh_Highlight_Waypoint(YOgF/5ZUi0e9gBDO7XAivg==)" />
-		<POI MapID="26" xpos="-517.911" ypos="0.136" zpos="758.678" type="tt.mc.cm.nwm.tpm" GUID="6BGI/Us0L0SIlJuVDC0J/w==" copy="[&amp;BGICAAA=]" script-focus="Teh_Highlight_Waypoint(YOgF/5ZUi0e9gBDO7XAivg==)" />
-		<POI MapID="26" xpos="82.5932" ypos="97.0069" zpos="979.889" type="tt.mc.cm.nwm.tpm" GUID="/l3rxlb26kexGINuBWRUBA==" script-focus="Teh_Highlight_Waypoint(YOgF/5ZUi0e9gBDO7XAivg==)" />
+		<POI MapID="26" xpos="-517.911" ypos="0.136" zpos="758.678" type="tt.mc.cm.nwm.tpm" GUID="6BGI/Us0L0SIlJuVDC0J/w==" copy="[&amp;BGICAAA=]" script-trigger="Teh_Bounce(PvejWd8HgkuSYrfjGwk1rw==)" script-focus="Teh_Highlight_Waypoint(YOgF/5ZUi0e9gBDO7XAivg==)" />
+		<POI MapID="26" xpos="82.5932" ypos="97.0069" zpos="979.889" type="tt.mc.cm.nwm.tpm" GUID="/l3rxlb26kexGINuBWRUBA==" copy="[&amp;BGICAAA=]" script-trigger="Teh_Bounce(PvejWd8HgkuSYrfjGwk1rw==)" script-focus="Teh_Highlight_Waypoint(YOgF/5ZUi0e9gBDO7XAivg==)" />
 		<POI MapID="26" xpos="-296.547" ypos="24.5087" zpos="-666.582" type="tt.mc.cm.nwm.wph" GUID="/8AfLaBDO0W4xSIG0byoNQ==" />
 		<POI MapID="26" xpos="-503.304" ypos="-0.181233" zpos="-652.049" type="tt.mc.cm.nwm.tpm" GUID="G6lRrlffDEKyPHxwEZP6zw==" copy="[&amp;BFYCAAA=]" script-focus="Teh_Highlight_Waypoint(/8AfLaBDO0W4xSIG0byoNQ==)" />
 		<POI MapID="26" xpos="-409.345" ypos="88.6288" zpos="-283.473" type="tt.mc.cm.nwm.wph" GUID="1itjZK/4C0e98xPlce6VlA==" />
@@ -7255,8 +7254,8 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="26" xpos="385.698" ypos="57.408" zpos="-616.236" type="tt.mc.cm.nwm.wph" GUID="KXx9WCnHMkOzKcnzsN51Wg==" />
 		<POI MapID="26" xpos="640.179" ypos="54.3059" zpos="-876.735" type="tt.mc.cm.nwm.tpm" GUID="4+k8Rh9CK0SU6ePaDnXuKg==" copy="[&amp;BFgCAAA=]" script-focus="Teh_Highlight_Waypoint(KXx9WCnHMkOzKcnzsN51Wg==)" />
 		<POI MapID="30" xpos="217.239" ypos="102.12" zpos="-587.405" type="tt.mc.cm.nwm.wph" GUID="SuyvbkPMU0qP54dCZ3KMsw==" />
-		<POI MapID="30" xpos="297.535" ypos="-121.948" zpos="653.998" type="tt.mc.cm.nwm.tpm" GUID="b5vvLMXOoky76HFxuRswug==" copy="[&amp;BIICAAA=]" script-focus="Teh_Highlight_Waypoint(SuyvbkPMU0qP54dCZ3KMsw==)" />
-		<POI MapID="30" xpos="-54.2309" ypos="-39.3543" zpos="167.384" type="tt.mc.cm.nwm.tpm" GUID="2PnEbdcfHkauMRyJeyzw2w==" copy="[&amp;BIICAAA=]" script-focus="Teh_Highlight_Waypoint(SuyvbkPMU0qP54dCZ3KMsw==)" />
+		<POI MapID="30" xpos="297.535" ypos="-121.948" zpos="653.998" type="tt.mc.cm.nwm.tpm" GUID="b5vvLMXOoky76HFxuRswug==" copy="[&amp;BIICAAA=]" script-trigger="Teh_Bounce(eHq7HyOYO0+C4BPHZda95w==)" script-focus="Teh_Highlight_Waypoint(SuyvbkPMU0qP54dCZ3KMsw==)" />
+		<POI MapID="30" xpos="-54.2309" ypos="-39.3543" zpos="167.384" type="tt.mc.cm.nwm.tpm" GUID="2PnEbdcfHkauMRyJeyzw2w==" copy="[&amp;BIICAAA=]" script-trigger="Teh_Bounce(BIUmFVx6h0+QIDpkU3BVHA==)" script-focus="Teh_Highlight_Waypoint(SuyvbkPMU0qP54dCZ3KMsw==)" />
 		<POI MapID="30" xpos="483.081" ypos="45.7154" zpos="-839.386" type="tt.mc.cm.nwm.wph" GUID="OvEIQFNlqkeuieeJHSbL6w==" />
 		<POI MapID="30" xpos="740.686" ypos="8.44741" zpos="-644.034" type="tt.mc.cm.nwm.tpm" GUID="WVr07/LF/ESDyRqZMVFH6Q==" copy="[&amp;BHgCAAA=]" script-focus="Teh_Highlight_Waypoint(OvEIQFNlqkeuieeJHSbL6w==)" />
 		<POI MapID="30" xpos="-220.662" ypos="46.5582" zpos="-534.624" type="tt.mc.cm.nwm.wph" GUID="drExeUjbL0u7XtJPTR1F2A==" />
@@ -7294,12 +7293,12 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="28" xpos="139.968" ypos="83.8818" zpos="754.923" type="tt.mc.cm.nwm.wph" GUID="Bre/TyG/r0ysNkLYxbvUog==" />
 		<POI MapID="28" xpos="181.03" ypos="28.7944" zpos="696.593" type="tt.mc.cm.nwm.tpm" GUID="sJrgEs5y6EOXNjURHQmNHg==" copy="[&amp;BMEDAAA=]" script-focus="Teh_Highlight_Waypoint(Bre/TyG/r0ysNkLYxbvUog==)" />
 		<POI MapID="28" xpos="276.057" ypos="2.53672" zpos="-915.406" type="tt.mc.cm.nwm.wph" GUID="lbLjlvGqJUWh0eJNHoxqRQ==" />
-		<POI MapID="28" xpos="232.763" ypos="48.1041" zpos="-661.231" type="tt.mc.cm.nwm.tpm" GUID="bUd8N+MgYUW1Z9FdHgMZIA==" copy="[&amp;BMMDAAA=]" script-focus="Teh_Highlight_Waypoint(lbLjlvGqJUWh0eJNHoxqRQ==)" />
-		<POI MapID="28" xpos="483.219" ypos="15.5796" zpos="-1050.02" type="tt.mc.cm.nwm.tpm" GUID="jOrjBjU0wUW1vWLo5n8dOw==" copy="[&amp;BMMDAAA=]" script-focus="Teh_Highlight_Waypoint(lbLjlvGqJUWh0eJNHoxqRQ==)" />
+		<POI MapID="28" xpos="232.763" ypos="48.1041" zpos="-661.231" type="tt.mc.cm.nwm.tpm" GUID="bUd8N+MgYUW1Z9FdHgMZIA==" copy="[&amp;BMMDAAA=]" script-trigger="Teh_Bounce(ZwHhcBrf9Ueqqaq+IylhWQ==)" script-focus="Teh_Highlight_Waypoint(lbLjlvGqJUWh0eJNHoxqRQ==)" />
+		<POI MapID="28" xpos="483.219" ypos="15.5796" zpos="-1050.02" type="tt.mc.cm.nwm.tpm" GUID="jOrjBjU0wUW1vWLo5n8dOw==" copy="[&amp;BMMDAAA=]" script-trigger="Teh_Bounce(YEwhHj5Z30OQi02APz0kEg==)" script-focus="Teh_Highlight_Waypoint(lbLjlvGqJUWh0eJNHoxqRQ==)" />
 		<POI MapID="28" xpos="-39.2507" ypos="24.3397" zpos="-1088.04" type="tt.mc.cm.nwm.wph" GUID="BMIziLuXvEWmJLfN/5d7pg==" />
 		<POI MapID="28" xpos="-467.93" ypos="32.8844" zpos="-1255.7" type="tt.mc.cm.nwm.tpm" GUID="i/cvmCcKlEqVCgKH4ueWdQ==" copy="[&amp;BHIBAAA=]" script-focus="Teh_Highlight_Waypoint(BMIziLuXvEWmJLfN/5d7pg==)" />
 		<POI MapID="28" xpos="-229.929" ypos="94.9657" zpos="-617.279" type="tt.mc.cm.nwm.wph" GUID="IhY6HV77fkywfRcIlshUGw==" />
-		<POI MapID="28" xpos="442.483" ypos="-0.83191" zpos="-826.579" type="tt.mc.cm.nwm.tpm" GUID="465XN9xSjUGYRPtSnjrdrQ==" copy="[&amp;BHQBAAA=]" script-focus="Teh_Highlight_Waypoint(IhY6HV77fkywfRcIlshUGw==)" />
+		<POI MapID="28" xpos="442.483" ypos="-0.83191" zpos="-826.579" type="tt.mc.cm.nwm.tpm" GUID="465XN9xSjUGYRPtSnjrdrQ==" copy="[&amp;BHQBAAA=]" script-trigger="Teh_Bounce(S0KqvcSB4EOr1LgxrZ3BCA==)" script-focus="Teh_Highlight_Waypoint(IhY6HV77fkywfRcIlshUGw==)" />
 		<POI MapID="73" xpos="242.722" ypos="0.863234" zpos="687.393" type="tt.mc.cm.nwm.wph" GUID="b6fjTfbgw0259c9HCg25WA==" />
 		<POI MapID="73" xpos="-287.06" ypos="-69.2135" zpos="624.826" type="tt.mc.cm.nwm.tpm" GUID="LsUqwFr6bkuRJ/pkWGB2Ng==" script-focus="Teh_Highlight_Waypoint(b6fjTfbgw0259c9HCg25WA==)" />
 		<POI MapID="73" xpos="152.004" ypos="8.81378" zpos="-92.3364" type="tt.mc.cm.nwm.wph" GUID="f1xZW7h0rEiwm3l9qnRweA==" />
