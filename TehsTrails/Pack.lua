@@ -19,7 +19,7 @@ function Teh_Tick_Handler(gameTime)
     end
 
     if (Teh.bounce.isBouncing) then
-        Teh_Tick_Bounce()
+        Teh_Tick_Bounce(gameTime)
     end
 end
 
