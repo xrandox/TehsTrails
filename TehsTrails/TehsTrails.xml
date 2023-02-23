@@ -4379,7 +4379,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="73.5487" ypos="108.509" zpos="891.413" type="tt.mc.cm.mm.griffon" GUID="KvlC4tXXwkGZRf4Oxx+r0A=="/>
         <POI MapID="62" xpos="76.9489" ypos="110.18" zpos="893.785" type="tt.mc.cm.rm.vistas" GUID="UeJha7fdAEiSnLI+ksFnkg=="/>
         <POI MapID="62" xpos="101.219" ypos="24.7922" zpos="337.774" type="tt.mc.cm.rm.points_of_interest" GUID="479ZBkDgY0u2fCYp0vLeww=="/>
-        <POI MapID="62" xpos="111.553" ypos="42.7229" zpos="921.489" type="tt.mc.cm.rm.waypoints" GUID="nGiATDMfpk62cMMuV17S9w=="/>
+        <POI MapID="62" xpos="111.553" ypos="42.7229" zpos="921.489" type="tt.mc.cm.rm.waypoints" script-trigger="Teh_Bounce(PQHltwQH6EWyhGVNgiCJqQ==)" GUID="nGiATDMfpk62cMMuV17S9w=="/>
         <POI MapID="62" xpos="111.69" ypos="32.1354" zpos="920.114" type="tt.mc.cm.wm.arrow" GUID="rqRBHS2ZykycUpJIh5e4ig=="/>
         <POI MapID="62" xpos="114.541" ypos="53.3429" zpos="-91.4805" type="tt.mc.cm.rm.vistas" GUID="NW0US3WF40SilSBuQ3rGvA=="/>
         <POI MapID="62" xpos="112.047" ypos="52.7455" zpos="-91.6179" type="tt.mc.cm.rm.ppr_m" GUID="9CdCuebDrkW8yRACU8OP4g=="/>
@@ -4393,7 +4393,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="253.131" ypos="35.8838" zpos="152.622" type="tt.mc.cm.rm.points_of_interest" GUID="K7/YkmRtwEOQdLAwQeepCw=="/>
         <POI MapID="62" xpos="253.462" ypos="35.3989" zpos="153.88" type="tt.mc.cm.rm.waypoints" GUID="PDQM1hFW402cJlcHlhNgsA=="/>
         <POI MapID="62" xpos="208.968" ypos="8.11357" zpos="-48.0432" type="tt.mc.cm.rm.dismount" GUID="3AgLdbSsUU+KJRyTQXoB+A=="/>
-        <POI MapID="62" xpos="250.398" ypos="8.5891" zpos="-65.8292" type="tt.mc.cm.rm.ppr_r" GUID="mpiSrHdxr0WGQldiB1nivA==" info="If you cannot rewind -&gt; TP to Heart and follow trail of shame" script-focus="Teh_Highlight_Waypoint(p12qUuUzREexc2aLaYM4bA==)"/>
+        <POI MapID="62" xpos="250.398" ypos="8.5891" zpos="-65.8292" type="tt.mc.cm.rm.ppr_r" script-trigger="Teh_Bounce(ugt8cQzsH0S1PM/VeohInQ==)" GUID="mpiSrHdxr0WGQldiB1nivA==" info="If you cannot rewind -&gt; TP to Heart and follow trail of shame" script-focus="Teh_Highlight_Waypoint(p12qUuUzREexc2aLaYM4bA==)"/>
         <POI MapID="62" xpos="250.937" ypos="8.52727" zpos="-64.5908" type="tt.mc.cm.rm.points_of_interest" GUID="5d9AnH6B4EW+QZ0iYCV4Zw=="/>
         <POI MapID="62" xpos="284.641" ypos="21.9727" zpos="-959.374" type="tt.mc.cm.rm.points_of_interest" GUID="Bc9Ze91q10y3mrqfY50rFA=="/>
         <POI MapID="62" xpos="355.923" ypos="43.9962" zpos="413.166" type="tt.mc.cm.rm.waypoints" GUID="b6E/sOX/SEGl7rzkYRRsCg=="/>
@@ -4409,11 +4409,11 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="62" xpos="479.592" ypos="88.8909" zpos="-285.604" type="tt.mc.cm.rm.points_of_interest" GUID="uemGsF8fV0eNzSuk57+5oA=="/>
         <POI MapID="62" xpos="506.899" ypos="89.0382" zpos="-276.004" type="tt.mc.cm.rm.waypoints" GUID="J32QMa9INkeV143fhMdsDw=="/>
         <POI MapID="62" xpos="507.006" ypos="89.0213" zpos="-278.029" type="tt.mc.cm.rm.ppr_r" GUID="Fps4CJf3KEicdrA9zqVN0w=="/>
-        <POI MapID="62" xpos="-189.366" ypos="30.3198" zpos="475.873" type="tt.mc.cm.rm.ppr_r" GUID="6FGezPtqyE6dUdrqHIoKsQ=="/>
+        <POI MapID="62" xpos="-189.366" ypos="30.3198" zpos="475.873" type="tt.mc.cm.rm.ppr_r" script-trigger="Teh_Bounce(qGh7O+R0lESpfADBW1h72A==)" GUID="6FGezPtqyE6dUdrqHIoKsQ=="/>
         <POI MapID="62" xpos="-3.5893" ypos="25.2285" zpos="525.542" type="tt.mc.cm.rm.points_of_interest" GUID="HJnxXBW0nkevId07Bg/FbQ=="/>
         <POI MapID="62" xpos="-21.0366" ypos="7.56021" zpos="589.07" type="tt.mc.cm.wm.wparrow" GUID="ZEGGunjunEydTpdaRAzVbw==" copy="[&amp;BCEDAAA=]"/>
         <POI MapID="62" xpos="-43.3496" ypos="28.9153" zpos="-66.3455" type="tt.mc.cm.mm.skyscale" GUID="UvW0AJIkKUGLZBpc9JKz9w=="/>
-        <POI MapID="62" xpos="-38.3431" ypos="28.7919" zpos="-68.6048" type="tt.mc.cm.rm.waypoints" GUID="CgwO3EXK3U2gFif+LOLRbA=="/>
+        <POI MapID="62" xpos="-38.3431" ypos="28.7919" zpos="-68.6048" type="tt.mc.cm.rm.waypoints" script-trigger="Teh_Bounce(Lox1nQIRWkOh/pIS0Nhixg==)" GUID="CgwO3EXK3U2gFif+LOLRbA=="/>
         <POI MapID="62" xpos="-47.0871" ypos="28.9569" zpos="-64.3394" type="tt.mc.cm.rm.points_of_interest" GUID="dLu3pgI4/0mJ8xO4yldUYg=="/>
         <POI MapID="62" xpos="-49.5646" ypos="29.9024" zpos="-452.581" type="tt.mc.cm.rm.points_of_interest" GUID="L9U5HewnSkug938U61QQnQ=="/>
         <POI MapID="62" xpos="-68.8945" ypos="17.198" zpos="99.7744" type="tt.mc.cm.rm.points_of_interest" GUID="W4aSweVX9UOR17PaLlNsWA=="/>
@@ -4690,14 +4690,14 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="51" xpos="891.097" ypos="22.4813" zpos="147.737" type="tt.mc.cm.rm.waypoints" GUID="CXutTgt+T0SoRnNoJY6iBA=="/>
         <POI MapID="51" xpos="903.102" ypos="53.0736" zpos="-217.983" type="tt.mc.cm.rm.vistas" GUID="M613370ZNUqwfqacSvLIQg=="/>
         <POI MapID="51" xpos="-98.6243" ypos="6.76074" zpos="-425.816" type="tt.mc.cm.rm.points_of_interest" GUID="p4cBmaIhh0+Lt88XmMfIxw=="/>
-        <POI MapID="51" xpos="-99.5749" ypos="7.22914" zpos="-427.923" type="tt.mc.cm.rm.ppr_r" GUID="r+ceJ29l50S1bIjSsrpCHA==" info="If you cannot rewind: TP to heart and follow 2nd trail of shame" script-focus="Teh_Highlight_Waypoint(O3N6iot08kynjUqet1H/zA==)" />
+        <POI MapID="51" xpos="-99.5749" ypos="7.22914" zpos="-427.923" type="tt.mc.cm.rm.ppr_r" script-trigger="Teh_Bounce(y0+WCX5cXU+murUeOo+D+Q==)" GUID="r+ceJ29l50S1bIjSsrpCHA==" info="If you cannot rewind: TP to heart and follow 2nd trail of shame" script-focus="Teh_Highlight_Waypoint(O3N6iot08kynjUqet1H/zA==)" />
         <POI MapID="51" xpos="-114.122" ypos="-1.05664" zpos="425.099" type="tt.mc.cm.mm.skimmer" GUID="Y/BvjMLBkEmso9r/bbXOjA=="/>
         <POI MapID="51" xpos="-128.868" ypos="53.4419" zpos="-547.926" type="tt.mc.cm.rm.points_of_interest" GUID="chpQKO3Hm0SXLMAPcn8JBw=="/>
         <POI MapID="51" xpos="-181.773" ypos="-31.9071" zpos="356.867" type="tt.mc.cm.rm.points_of_interest" GUID="rmsMSIT9FUqYzcOCu5uPoA=="/>
         <POI MapID="51" xpos="-204.62" ypos="-34.6619" zpos="399.914" type="tt.mc.cm.rm.waypoints" GUID="jDSqJlubi0SDKumTEYBDtQ=="/>
         <POI MapID="51" xpos="-222.585" ypos="34.3688" zpos="-675.099" type="tt.mc.cm.rm.waypoints" GUID="9tv4jUKXhUuIczWJTNe2Iw=="/>
         <POI MapID="51" xpos="-228.462" ypos="-0.107521" zpos="-84.3645" type="tt.mc.cm.rm.waypoints" GUID="Vd3asRxfFUaKcSvSfhu9qQ=="/>
-        <POI MapID="51" xpos="-229.609" ypos="-0.2486" zpos="-85.9769" type="tt.mc.cm.rm.ppr_r" GUID="J3GdCreMsU+JXCobDdytbA==" info="If you cannot rewind or don´t have hero points: TP to heart and follow 1st trail of shame" script-focus="Teh_Highlight_Waypoint(O3N6iot08kynjUqet1H/zA==)" />
+        <POI MapID="51" xpos="-229.609" ypos="-0.2486" zpos="-85.9769" type="tt.mc.cm.rm.ppr_r" script-trigger="Teh_Bounce(q8lrvfFRXkeTML5McCwKyA==)" GUID="J3GdCreMsU+JXCobDdytbA==" info="If you cannot rewind or don't have hero points: TP to heart and follow 1st trail of shame" script-focus="Teh_Highlight_Waypoint(O3N6iot08kynjUqet1H/zA==)" />
         <POI MapID="51" xpos="-267.083" ypos="12.02" zpos="-47.8946" type="tt.mc.cm.rm.points_of_interest" GUID="6tLsGQyhGEGg8ewuCJMb+w=="/>
         <POI MapID="51" xpos="-343.292" ypos="0.42046" zpos="217.253" type="tt.mc.cm.rm.waypoints" GUID="pVWWASrpb0qJrMsAl5JHEQ=="/>
         <POI MapID="51" xpos="-357.357" ypos="1.72854" zpos="362.008" type="tt.mc.cm.rm.points_of_interest" GUID="WVGRHCQy4kybsXv9sGqv1Q=="/>
@@ -7150,8 +7150,8 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="17" xpos="-482.129" ypos="116.324" zpos="-754.271" type="tt.mc.cm.nwm.tpm" GUID="xByJ/6yMckuRdYBmaNn5eg==" script-focus="Teh_Highlight_Waypoint(FS/6T3rdfkK0V3JrRWQAsg==)" />
 		<POI MapID="17" xpos="-474.197" ypos="74.2585" zpos="-768.303" type="tt.mc.cm.nwm.tpm" GUID="t6MaUomYwkWlBX2HsyHS/g==" script-focus="Teh_Highlight_Waypoint(FS/6T3rdfkK0V3JrRWQAsg==)" />
 		<POI MapID="23" xpos="355.321" ypos="67.5005" zpos="-343.688" type="tt.mc.cm.nwm.wph" GUID="qKS1KGaV9k+JZe7m2fYRcg==" />
-		<POI MapID="23" xpos="816.498" ypos="48.1283" zpos="-205.028" type="tt.mc.cm.nwm.tpm" GUID="7jmvvPcr+E+YhF6Jiw2dNg==" script-focus="Teh_Highlight_Waypoint(qKS1KGaV9k+JZe7m2fYRcg==)" />
-		<POI MapID="23" xpos="-133.749" ypos="-1.86527" zpos="-75.7638" type="tt.mc.cm.nwm.tpm" GUID="Sqdv2Y8pUE6wLbv+/5FdEw==" copy="[&amp;BBMAAAA=]" script-focus="Teh_Highlight_Waypoint(qKS1KGaV9k+JZe7m2fYRcg==)" />
+		<POI MapID="23" xpos="816.498" ypos="48.1283" zpos="-205.028" type="tt.mc.cm.nwm.tpm" GUID="7jmvvPcr+E+YhF6Jiw2dNg==" copy="[&amp;BBMAAAA=]" script-trigger="Teh_Bounce(Lkz5bziUAUuL3EGWwLHZVA==)" script-focus="Teh_Highlight_Waypoint(qKS1KGaV9k+JZe7m2fYRcg==)" />
+		<POI MapID="23" xpos="-133.749" ypos="-1.86527" zpos="-75.7638" type="tt.mc.cm.nwm.tpm" GUID="Sqdv2Y8pUE6wLbv+/5FdEw==" copy="[&amp;BBMAAAA=]" script-trigger="Teh_Bounce(qEjIRme90EeKDBDcIdgmSg==)" script-focus="Teh_Highlight_Waypoint(qKS1KGaV9k+JZe7m2fYRcg==)" />
 		<POI MapID="23" xpos="416.006" ypos="51.0871" zpos="65.8318" type="tt.mc.cm.nwm.wph" GUID="EuQF0p/0bUCgq3rhy5hMOQ==" />
 		<POI MapID="23" xpos="46.0851" ypos="54.1378" zpos="105.144" type="tt.mc.cm.nwm.tpm" GUID="uMl38EIiyUqcRmRZwgwSUw==" copy="[&amp;BBQAAAA=]" script-focus="Teh_Highlight_Waypoint(EuQF0p/0bUCgq3rhy5hMOQ==)" />
 		<POI MapID="23" xpos="979.719" ypos="24.3314" zpos="419.774" type="tt.mc.cm.nwm.wph" GUID="85jlucXiXk60+z+GG+q83Q==" />
@@ -7170,8 +7170,8 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="15" xpos="-645.624" ypos="22.1696" zpos="360.294" type="tt.mc.cm.nwm.wph" GUID="DTm26OOafUGazWRapkTXzw==" />
 		<POI MapID="15" xpos="-749.16" ypos="23.6934" zpos="64.4766" type="tt.mc.cm.nwm.tpm" copy="[&amp;BPAAAAA=]" GUID="cD1M0GCAHE+UY7Dr2Eh3bw==" script-focus="Teh_Highlight_Waypoint(DTm26OOafUGazWRapkTXzw==)" />
 		<POI MapID="54" xpos="252.087" ypos="52.9105" zpos="-635.557" type="tt.mc.cm.nwm.wph" GUID="yHSsy0d8o0mtt3PZWTQB0A==" />
-		<POI MapID="54" xpos="985.577" ypos="83.1904" zpos="-443.8" type="tt.mc.cm.nwm.tpm" GUID="Co7QwUOBXUaDNxELtnlnLQ==" copy="[&amp;BHUAAAA=]" script-focus="Teh_Highlight_Waypoint(yHSsy0d8o0mtt3PZWTQB0A==)" />
-		<POI MapID="54" xpos="507.647" ypos="1.68542" zpos="-468.333" type="tt.mc.cm.nwm.tpm" GUID="JSOtdbhFKEOzzvpCBtYdTQ==" copy="[&amp;BHUAAAA=]" script-focus="Teh_Highlight_Waypoint(yHSsy0d8o0mtt3PZWTQB0A==)" />
+		<POI MapID="54" xpos="985.577" ypos="83.1904" zpos="-443.8" type="tt.mc.cm.nwm.tpm" GUID="Co7QwUOBXUaDNxELtnlnLQ==" copy="[&amp;BHUAAAA=]" script-trigger="Teh_Bounce(naLpYLmNSUWW4QKQh3049A==)" script-focus="Teh_Highlight_Waypoint(yHSsy0d8o0mtt3PZWTQB0A==)" />
+		<POI MapID="54" xpos="507.647" ypos="1.68542" zpos="-468.333" type="tt.mc.cm.nwm.tpm" GUID="JSOtdbhFKEOzzvpCBtYdTQ==" copy="[&amp;BHUAAAA=]" script-trigger="Teh_Bounce(L9B7vGwDkEiPvH429ovYpw==)" script-focus="Teh_Highlight_Waypoint(yHSsy0d8o0mtt3PZWTQB0A==)" />
 		<POI MapID="54" xpos="582.227" ypos="54.9929" zpos="165.887" type="tt.mc.cm.nwm.wph" GUID="Ic2307yNtUWGukeMGai1gg==" />
 		<POI MapID="54" xpos="599.964" ypos="88.4051" zpos="195.74" type="tt.mc.cm.nwm.tpm" GUID="BAAqJqN0/kyy2CRtxDCPpA==" copy="[&amp;BGAAAAA=]" script-focus="Teh_Highlight_Waypoint(Ic2307yNtUWGukeMGai1gg==)" />
 		<POI MapID="54" xpos="566.108" ypos="62.1431" zpos="355.21" type="tt.mc.cm.nwm.tpm" GUID="Z/DIbevtFUybRrXKoxl8Gw==" copy="[&amp;BGAAAAA=]" script-focus="Teh_Highlight_Waypoint(Ic2307yNtUWGukeMGai1gg==)" />
@@ -7186,21 +7186,21 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="34" xpos="546.063" ypos="1.34259" zpos="-412.474" type="tt.mc.cm.nwm.tpm" GUID="dY4nayg0XE+kfXpixOWywA==" copy="[&amp;BDUBAAA=]" script-focus="Teh_Highlight_Waypoint(h2ksSDnW6UqYk4FaGochqw==)" />
 		<POI MapID="34" xpos="593.925" ypos="16.8025" zpos="-343.696" type="tt.mc.cm.nwm.tpm" GUID="K1+04H0ZNUOT0XemHFg5mQ==" copy="[&amp;BDUBAAA=]" script-focus="Teh_Highlight_Waypoint(h2ksSDnW6UqYk4FaGochqw==)" />
 		<POI MapID="34" xpos="-84.6338" ypos="3.46992" zpos="16.409" type="tt.mc.cm.nwm.wph" GUID="73Y/jzcdEUSpJLW9Inj7Bw==" />
-		<POI MapID="34" xpos="451.958" ypos="21.54" zpos="-250.033" type="tt.mc.cm.nwm.tpm" GUID="rtzhOnzlEkylUyzqkKIKqA==" copy="[&amp;BDoBAAA=]" script-focus="Teh_Highlight_Waypoint(73Y/jzcdEUSpJLW9Inj7Bw==)" />
-		<POI MapID="34" xpos="-173.767" ypos="48.6189" zpos="231.404" type="tt.mc.cm.nwm.tpm" GUID="ugyYybLRgUam28z1uzXJqw==" copy="[&amp;BDoBAAA=]" script-focus="Teh_Highlight_Waypoint(73Y/jzcdEUSpJLW9Inj7Bw==)" />
+		<POI MapID="34" xpos="451.958" ypos="21.54" zpos="-250.033" type="tt.mc.cm.nwm.tpm" GUID="rtzhOnzlEkylUyzqkKIKqA==" copy="[&amp;BDoBAAA=]" script-trigger="Teh_Bounce(HLJOwHVUDk6+KPfZp6p5TQ==)" script-focus="Teh_Highlight_Waypoint(73Y/jzcdEUSpJLW9Inj7Bw==)" />
+		<POI MapID="34" xpos="-173.767" ypos="48.6189" zpos="231.404" type="tt.mc.cm.nwm.tpm" GUID="ugyYybLRgUam28z1uzXJqw==" copy="[&amp;BDoBAAA=]" script-trigger="Teh_Bounce(/i9spmJJh0amLFJfbiW9Qg==)" script-focus="Teh_Highlight_Waypoint(73Y/jzcdEUSpJLW9Inj7Bw==)" />
 		<POI MapID="34" xpos="-288.468" ypos="4.20191" zpos="-548.4" type="tt.mc.cm.nwm.wph" GUID="JtJwnTMp1kmYVEI14u7zEg==" />
-		<POI MapID="34" xpos="35.9167" ypos="32.1956" zpos="-315.056" type="tt.mc.cm.nwm.tpm" GUID="b2DkEzp4fE2XDds+xk7HZw==" copy="[&amp;BDcBAAA=]" script-focus="Teh_Highlight_Waypoint(JtJwnTMp1kmYVEI14u7zEg==)" />
-		<POI MapID="34" xpos="-454.819" ypos="31.952" zpos="-892.393" type="tt.mc.cm.nwm.tpm" GUID="MoXkRH41tEmU3wUImMLUsA==" copy="[&amp;BDcBAAA=]" script-focus="Teh_Highlight_Waypoint(JtJwnTMp1kmYVEI14u7zEg==)" />
+		<POI MapID="34" xpos="35.9167" ypos="32.1956" zpos="-315.056" type="tt.mc.cm.nwm.tpm" GUID="b2DkEzp4fE2XDds+xk7HZw==" copy="[&amp;BDcBAAA=]" script-trigger="Teh_Bounce(Kd+Tb1is0E6OtjedDNW1Fg==)" script-focus="Teh_Highlight_Waypoint(JtJwnTMp1kmYVEI14u7zEg==)" />
+		<POI MapID="34" xpos="-454.819" ypos="31.952" zpos="-892.393" type="tt.mc.cm.nwm.tpm" GUID="MoXkRH41tEmU3wUImMLUsA==" copy="[&amp;BDcBAAA=]" script-trigger="Teh_Bounce(5S1NR1cne0Knz2Gbj7jIAg==)" script-focus="Teh_Highlight_Waypoint(JtJwnTMp1kmYVEI14u7zEg==)" />
 		<POI MapID="34" xpos="139.174" ypos="33.1766" zpos="-253.188" type="tt.mc.cm.nwm.tpm" GUID="oAYMxLxTuESj545ZSnBFJA==" copy="[&amp;BDcBAAA=]" script-focus="Teh_Highlight_Waypoint(JtJwnTMp1kmYVEI14u7zEg==)" />
 		<POI MapID="34" xpos="-342.467" ypos="4.03432" zpos="701.781" type="tt.mc.cm.nwm.wph" GUID="nzn6hD3pXE6BBmehH18QTA==" />
 		<POI MapID="34" xpos="-420.47" ypos="0.38686" zpos="528.57" type="tt.mc.cm.nwm.tpm" copy="[&amp;BD4BAAA=]" info="Quickly waypoint to Arrow before you get hit. If hit, walk of shame back to waypoint." infoRange="35.0" GUID="2TXbfWnzu0ecQnjnkDhUEg==" script-focus="Teh_Highlight_Waypoint(nzn6hD3pXE6BBmehH18QTA==)" />
 		<POI MapID="35" xpos="211.922" ypos="3.08147" zpos="-144.802" type="tt.mc.cm.nwm.wph" GUID="C0sk/fQbskehuTAqlIPsMg==" />
-		<POI MapID="35" xpos="301.123" ypos="34.9807" zpos="-29.3134" type="tt.mc.cm.nwm.tpm" GUID="q7aE+tq/skiSE/q8RCdt4Q==" copy="[&amp;BEgAAAA=]" script-focus="Teh_Highlight_Waypoint(C0sk/fQbskehuTAqlIPsMg==)" />
-		<POI MapID="35" xpos="615.224" ypos="43.4988" zpos="-569.766" type="tt.mc.cm.nwm.tpm" GUID="X0xqOkDBa0m4DOW+phob3A==" copy="[&amp;BEgAAAA=]" script-focus="Teh_Highlight_Waypoint(C0sk/fQbskehuTAqlIPsMg==)" />
+		<POI MapID="35" xpos="301.123" ypos="34.9807" zpos="-29.3134" type="tt.mc.cm.nwm.tpm" GUID="q7aE+tq/skiSE/q8RCdt4Q==" copy="[&amp;BEgAAAA=]" script-trigger="Teh_Bounce(gy+mlty6d0yjAFbrgjpkgQ==)" script-focus="Teh_Highlight_Waypoint(C0sk/fQbskehuTAqlIPsMg==)" />
+		<POI MapID="35" xpos="615.224" ypos="43.4988" zpos="-569.766" type="tt.mc.cm.nwm.tpm" GUID="X0xqOkDBa0m4DOW+phob3A==" copy="[&amp;BEgAAAA=]" script-trigger="Teh_Bounce(+8sR5PcF4EuAmEnap2sApA==)" script-focus="Teh_Highlight_Waypoint(C0sk/fQbskehuTAqlIPsMg==)" />
 		<POI MapID="35" xpos="-122.834" ypos="28.0651" zpos="-129.858" type="tt.mc.cm.nwm.wph" GUID="F8F+jmex3k+WgoCZv1DOGA==" />
-		<POI MapID="35" xpos="306.624" ypos="5.58735" zpos="113.647" type="tt.mc.cm.nwm.tpm" copy="[&amp;BEMAAAA=]" GUID="6kYLv6dS5k6lftEGFbGlYQ==" script-focus="Teh_Highlight_Waypoint(F8F+jmex3k+WgoCZv1DOGA==)" />
+		<POI MapID="35" xpos="306.624" ypos="5.58735" zpos="113.647" type="tt.mc.cm.nwm.tpm" copy="[&amp;BEMAAAA=]" GUID="6kYLv6dS5k6lftEGFbGlYQ==" script-trigger="Teh_Bounce(ogKtcn2IT066t1IPVL/2vg==)" script-focus="Teh_Highlight_Waypoint(F8F+jmex3k+WgoCZv1DOGA==)" />
 		<POI MapID="35" xpos="333.622" ypos="6.03613" zpos="135.505" type="tt.mc.cm.nwm.tpm" copy="[&amp;BEMAAAA=]" GUID="5owke3d/wk6NprwODzDYjA==" script-focus="Teh_Highlight_Waypoint(F8F+jmex3k+WgoCZv1DOGA==)" />
-		<POI MapID="35" xpos="-350.634" ypos="8.83936" zpos="-340.95" type="tt.mc.cm.nwm.tpm" copy="[&amp;BEMAAAA=]" GUID="Z/250hXy6UC8tyHGqhZMnw==" script-focus="Teh_Highlight_Waypoint(F8F+jmex3k+WgoCZv1DOGA==)" />
+		<POI MapID="35" xpos="-350.634" ypos="8.83936" zpos="-340.95" type="tt.mc.cm.nwm.tpm" copy="[&amp;BEMAAAA=]" GUID="Z/250hXy6UC8tyHGqhZMnw==" script-trigger="Teh_Bounce(p9nwhzmg9E+aouhLTC7Paw==)" script-focus="Teh_Highlight_Waypoint(F8F+jmex3k+WgoCZv1DOGA==)" />
 		<POI MapID="35" xpos="-559.285" ypos="21.8456" zpos="-340.843" type="tt.mc.cm.nwm.tpm" copy="[&amp;BEMAAAA=]" GUID="Fd9ChQrjo0C0qIlkOdDcSg==" script-focus="Teh_Highlight_Waypoint(F8F+jmex3k+WgoCZv1DOGA==)" />
 		<POI MapID="35" xpos="-233.088" ypos="12.4421" zpos="447.824" type="tt.mc.cm.nwm.wph" GUID="GPXUYxR41U2GwI6bV7rtgQ==" />
 		<POI MapID="35" xpos="-298.997" ypos="-0.0881202" zpos="877.947" type="tt.mc.cm.nwm.tpm" copy="[&amp;BEYAAAA=]" GUID="Wl88Y4m3Q02jIknuIT9Amw==" script-focus="Teh_Highlight_Waypoint(GPXUYxR41U2GwI6bV7rtgQ==)" />
@@ -7221,15 +7221,15 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="65" xpos="-330.74" ypos="2.18596" zpos="275.879" type="tt.mc.cm.nwm.wph" GUID="gDYU12uAPUitIasACj+mFQ==" />
 		<POI MapID="65" xpos="-1044.66" ypos="-37.5119" zpos="-37.93" type="tt.mc.cm.nwm.tpm" GUID="Q8/6nCJRWU2fZT/YM6WFOQ==" copy="[&amp;BK8CAAA=]" script-focus="Teh_Highlight_Waypoint(gDYU12uAPUitIasACj+mFQ==)" />
 		<POI MapID="65" xpos="-330.757" ypos="50.5506" zpos="-421.985" type="tt.mc.cm.nwm.wph" GUID="vWvKAWZPlkWEkJQYdeb6wQ==" />
-		<POI MapID="65" xpos="261.777" ypos="39.4311" zpos="-415.435" type="tt.mc.cm.nwm.tpm" GUID="OcQNT0/cM0mnKUIER2/YDw==" info="Teleport to X, or use rewinder" copy="[&amp;BKcCAAA=]" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
-		<POI MapID="65" xpos="-402.955" ypos="25.5757" zpos="-449.426" type="tt.mc.cm.nwm.tpm" GUID="w9lmz9GvTEyJfN9cVQEPBA==" info="Teleport to X, or use rewinder" infoRange="10" copy="[&amp;BKcCAAA=]" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
+		<POI MapID="65" xpos="261.777" ypos="39.4311" zpos="-415.435" type="tt.mc.cm.nwm.tpm" GUID="OcQNT0/cM0mnKUIER2/YDw==" info="Teleport to X, or use rewinder" copy="[&amp;BKcCAAA=]" script-trigger="Teh_Bounce(lWGomCO+kUOo9fkNbCR+9g==)" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
+		<POI MapID="65" xpos="-402.955" ypos="25.5757" zpos="-449.426" type="tt.mc.cm.nwm.tpm" GUID="w9lmz9GvTEyJfN9cVQEPBA==" info="Teleport to X, or use rewinder" infoRange="10" copy="[&amp;BKcCAAA=]" script-trigger="Teh_Bounce(s/wLLukLIUm2v3zAYNVCVA==)" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
 		<POI MapID="65" xpos="-423.535" ypos="5.89923" zpos="-151.926" type="tt.mc.cm.nwm.wph" GUID="RCg345DxT0Gb58h67THwWQ==" />
 		<POI MapID="65" xpos="-531.468" ypos="-40.1125" zpos="293.217" type="tt.mc.cm.nwm.tpm" GUID="vgvjqVGNxkGd6hPSl0VjcA==" copy="[&amp;BLICAAA=]" script-focus="Teh_Highlight_Waypoint(RCg345DxT0Gb58h67THwWQ==)" />
 		<POI MapID="65" xpos="733.697" ypos="44.7713" zpos="-149.831" type="tt.mc.cm.nwm.wph" GUID="cJlnDwGijkWzwLWkoRA7FA==" />
 		<POI MapID="65" xpos="-31.1177" ypos="36.5916" zpos="32.4459" type="tt.mc.cm.nwm.wph" GUID="FCxEGgeFNkOug2hJ8uUyIw==" />
 		<POI MapID="51" xpos="710.343" ypos="19.5584" zpos="114.558" type="tt.mc.cm.nwm.wph" GUID="U/pKeee5yEKUbmVyXFpEJg==" />
-		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.nwm.tpm" GUID="8ttl6ecooESgUaOYvG3hKA==" copy="[&amp;BO4CAAA=]" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
-		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.nwm.tpm" GUID="XvZsrl4kBkew2hkGs2EPzg==" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
+		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.nwm.tpm" GUID="8ttl6ecooESgUaOYvG3hKA==" copy="[&amp;BO4CAAA=]" script-trigger="Teh_Bounce(H6OHvJjCUEucOVTbrK9Nww==)" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
+		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.nwm.tpm" GUID="XvZsrl4kBkew2hkGs2EPzg==" copy="[&amp;BO4CAAA=]" script-trigger="Teh_Bounce(bZPCeHcyQUO8IXAxtW+OFA==)" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
 		<POI MapID="51" xpos="107.582" ypos="-65.6299" zpos="75.2393" type="tt.mc.cm.nwm.wph" GUID="fMriPHYyREm9RThZgcjzvg==" />
 		<POI MapID="51" xpos="187.815" ypos="21.8906" zpos="184.499" type="tt.mc.cm.nwm.tpm" GUID="RlJwvo08W0K62dTXkbAjsA==" copy="[&amp;BPICAAA=]" script-focus="Teh_Highlight_Waypoint(fMriPHYyREm9RThZgcjzvg==)" />
 		<POI MapID="51" xpos="509.031" ypos="72.0457" zpos="727.404" type="tt.mc.cm.nwm.wph" GUID="FqROF+MWoUONuwIFAejUog==" />
@@ -7305,8 +7305,8 @@ Event -&gt; kill drunk skritt"/>
 		<POI MapID="73" xpos="152.004" ypos="8.81378" zpos="-92.3364" type="tt.mc.cm.nwm.wph" GUID="f1xZW7h0rEiwm3l9qnRweA==" />
 		<POI MapID="73" xpos="635.164" ypos="-0.19292" zpos="-798.074" type="tt.mc.cm.nwm.tpm" GUID="ds/VY7bAUUamdmVf36G6/Q==" copy="[&amp;BKoBAAA=]" script-focus="Teh_Highlight_Waypoint(f1xZW7h0rEiwm3l9qnRweA==)" />
 		<POI MapID="73" xpos="221.858" ypos="15.021" zpos="964.478" type="tt.mc.cm.nwm.wph" GUID="0daW3j7140ShQAMGwvb+kQ==" />
-		<POI MapID="73" xpos="209.629" ypos="0.285214" zpos="566.806" type="tt.mc.cm.nwm.tpm" GUID="E7TH0a39bE6Im2uJJuyrJw==" copy="[&amp;BKMBAAA=]" script-focus="Teh_Highlight_Waypoint(0daW3j7140ShQAMGwvb+kQ==)" />
-		<POI MapID="73" xpos="640.982" ypos="-0.274057" zpos="-103.49" type="tt.mc.cm.nwm.tpm" GUID="gA25LytTX0yuAaSDlLxo8g==" copy="[&amp;BKMBAAA=]" script-focus="Teh_Highlight_Waypoint(0daW3j7140ShQAMGwvb+kQ==)" />
+		<POI MapID="73" xpos="209.629" ypos="0.285214" zpos="566.806" type="tt.mc.cm.nwm.tpm" GUID="E7TH0a39bE6Im2uJJuyrJw==" copy="[&amp;BKMBAAA=]" script-trigger="Teh_Bounce(SmunO3ujLUe5eV/IlLLdkQ==)" script-focus="Teh_Highlight_Waypoint(0daW3j7140ShQAMGwvb+kQ==)" />
+		<POI MapID="73" xpos="640.982" ypos="-0.274057" zpos="-103.49" type="tt.mc.cm.nwm.tpm" GUID="gA25LytTX0yuAaSDlLxo8g==" copy="[&amp;BKMBAAA=]" script-trigger="Teh_Bounce(3pEM6+H0/068x4p2RuLhdQ==)" script-focus="Teh_Highlight_Waypoint(0daW3j7140ShQAMGwvb+kQ==)" />
 		<POI MapID="73" xpos="-96.8171" ypos="6.09887" zpos="-497.599" type="tt.mc.cm.nwm.wph" GUID="Q0eqwNS6XEiF7M6jyZe1nA==" />
 		<POI MapID="73" xpos="-64.9037" ypos="-252.126" zpos="-646.595" type="tt.mc.cm.nwm.tpm" GUID="JprPJiQ66USmjWfvbC2xgQ==" copy="[&amp;BK0BAAA=]" script-focus="Teh_Highlight_Waypoint(Q0eqwNS6XEiF7M6jyZe1nA==)" />
 		<POI MapID="73" xpos="-83.1732" ypos="-124.068" zpos="-626.914" type="tt.mc.cm.nwm.tpm" GUID="9FCTw2qX2kqGYpC0ZKDnCA==" copy="[&amp;BK0BAAA=]" script-focus="Teh_Highlight_Waypoint(Q0eqwNS6XEiF7M6jyZe1nA==)" />
