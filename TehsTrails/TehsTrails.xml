@@ -7972,6 +7972,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/HelpAlbinChroniclerHeart.trl"/>
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/HelpThePeopleOfEbonhawk.trl"/>
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/DiessaPlateauHeartTrails.trl"/>
+        <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/BlazeridgeSteppesHeartTrails.trl"/>
 		
 		<!-- HEART ZONES -->
 		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/BlazeridgeSteppesHeartZones.trl"/>
