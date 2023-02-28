@@ -6,6 +6,7 @@ Pack:Require("Data/TehsTrails/Scripts/hide.lua")
 Pack:Require("Data/TehsTrails/Scripts/follower.lua")
 Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
 Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
+Pack:Require("Data/TehsTrails/Scripts/settings.lua")
 
 function Teh_Tick_Handler(gameTime)
     if (Teh.highlight.waypointHighlighted) then
@@ -21,6 +22,8 @@ function Teh_Tick_Handler(gameTime)
     if (Teh.bounce.isBouncing) then
         Teh_Tick_Bounce(gameTime)
     end
+
+    --Teh_Settings_Handler()
 end
 
 Hide_reminders()
