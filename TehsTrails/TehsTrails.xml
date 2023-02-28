@@ -8,7 +8,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="mapcomp" DisplayName="     |===Core Tyria===|     " isseparator="1"/>
 		<!-- THE MAJORITY OF GLOBAL MARKER SETTINGS SHOULD BE SET HERE -->
-		<MarkerCategory name="mc" DisplayName="Map Completion"  fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" triggerRange="10" infoRange="20" iconSize="0.5" animSpeed="0.25" trailScale="1" mapDisplaySize="35" scaleOnMapWithZoom="0">
+		<MarkerCategory name="mc" DisplayName="Map Completion"  fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20" iconSize="0.5" animSpeed="0.25" trailScale="1" mapDisplaySize="35" scaleOnMapWithZoom="0">
 		<!--=======================================================================================================================================================================-->	
 		<!--==                                                                              MAIN TRAILS                                                                          ==-->
 		<!--=======================================================================================================================================================================-->
@@ -45,7 +45,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png"/>
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
-					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1"/>
+					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" triggerRange="15" autoTrigger="1"/>
 					<MarkerCategory name="exit_instance" DisplayName="Exit Instance" iconFile="Data/TehsTrails/Markers/exit_instance.png" iconSize="0.75"/>
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
 					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png"/>
@@ -99,17 +99,17 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" miniMapVisibility="1" mapVisibility="1"/>
 				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" miniMapVisibility="1" mapVisibility="1"/>
 				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" miniMapVisibility="1" mapVisibility="1"/>
-				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png"/>
-				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png"/>
-				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png"/>
-				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png"/>
-				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png"/>
-				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png"/>
-				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png"/>
-				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png"/>
+				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" triggerRange="15"/>
+				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" triggerRange="15"/>
+				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" triggerRange="15"/>
+				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" triggerRange="15"/>
+				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" triggerRange="15"/>
+				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" triggerRange="15"/>
 				</MarkerCategory>
 
-				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
+				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15" autoTrigger="1">
 					<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png"/>
 					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 				</MarkerCategory>
@@ -129,8 +129,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				
 				<!-- Common Heart Markers -->
 				<MarkerCategory name="chm" DisplayName="Common Heart Markers">
-					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png"/>
-					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
+					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" triggerRange="15"/>
+					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png" triggerRange="15"/>
 					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png" iconSize="0.75"/>
 					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/TehsTrails/Markers/Talk.png" iconSize="0.75"/>
 					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
@@ -2844,7 +2844,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="19" xpos="-711.674" ypos="29.9266" zpos="95.4881" type="tt.mc.h.chm.finish_heart" GUID="mxXGd73OY0yij4rYqKOHvA==" />
 		<POI MapID="19" xpos="-799.892" ypos="47.1077" zpos="271.522" type="tt.mc.h.chm.finish_heart" GUID="L4X/tLvLTUu10BKSLEyGgw==" />
 		<POI MapID="19" xpos="-819.531" ypos="47.6651" zpos="260.075" type="tt.mc.cm.rm.points_of_interest" GUID="tHLhMc9qy0ezjrFD6bERMA==" />
-		<POI MapID="19" xpos="-825.77" ypos="47.1993" zpos="245.874" type="tt.mc.h.chm.start_heart" script-tick="point()" info="Pick up junk, kill ooze" GUID="Is+tsLeT90+B0qIjj+2Nqg==" script-focus="Teh_Heart_Follower(L4X/tLvLTUu10BKSLEyGgw==)" />
+		<POI MapID="19" xpos="-825.77" ypos="47.1993" zpos="245.874" type="tt.mc.h.chm.start_heart" info="Pick up junk, kill ooze" GUID="Is+tsLeT90+B0qIjj+2Nqg==" script-focus="Teh_Heart_Follower(L4X/tLvLTUu10BKSLEyGgw==)" />
 		<POI MapID="19" xpos="-825.551" ypos="54.7863" zpos="-500.848" type="tt.mc.cm.wm.wpheart" copy="[&amp;BJgDAAA=]" GUID="Nd8uTiT/6k+Kn1EWYM8k9A==" />
 		<POI MapID="19" xpos="-826.747" ypos="75.5605" zpos="-178.105" type="tt.mc.cm.rm.vistas" GUID="hO2aF9Mn4kibuXYk4SN6oA==" />
 		<POI MapID="19" xpos="-827.825" ypos="53.0383" zpos="-501.253" type="tt.mc.cm.rm.waypoints" GUID="MpaV6by6BE6KTbKh6HWsAQ==" />
@@ -3880,7 +3880,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="54" xpos="457.799" ypos="3.23297" zpos="-516.834" type="tt.mc.h.chm.interact" GUID="inwhjbTJAES7el5wh/cpSg==" />
 		<POI MapID="54" xpos="462.528" ypos="42.2735" zpos="-592.945" type="tt.mc.cm.mm.griffon" GUID="Sga2SUPEGkyz0rMl8NtyBw==" />
 		<POI MapID="54" xpos="463.511" ypos="42.6137" zpos="-594.37" type="tt.mc.cm.rm.vistas" GUID="gU3URZZ+fkeLtq2RoZi+aA==" />
-		<POI MapID="54" xpos="465.024" ypos="41.7293" zpos="-592.922" type="tt.mc.h.chm.start_heart" script-focus="Teh_Heart_Follower(91oyjQqB80iDvucOyPg6Hw==)" GUID="ks8IquFW0k6XMGik154/sQ==" info="Kill ooze and turn in ooze to processor" />
+		<POI MapID="54" xpos="465.024" ypos="41.7293" zpos="-592.922" type="tt.mc.h.chm.start_heart" script-focus="Teh_Heart_Follower_2(91oyjQqB80iDvucOyPg6Hw==,yHSsy0d8o0mtt3PZWTQB0A==)" GUID="ks8IquFW0k6XMGik154/sQ==" info="Kill ooze and turn in ooze to processor" />
 		<POI MapID="54" xpos="468.531" ypos="38.2443" zpos="-648.324" type="tt.mc.cm.rm.points_of_interest" GUID="fJbHhVszQ0m/w9k01xoExQ==" />
 		<POI MapID="54" xpos="479.262" ypos="0.800195" zpos="-235.876" type="tt.mc.h.chm.interact" GUID="oC/Icd7LB0yGiFN0sKNCtA==" />
 		<POI MapID="54" xpos="482.08" ypos="2.56083" zpos="-535.629" type="tt.mc.h.chm.interact" GUID="XVszhViaa0ubjI7mA7iWqA==" />

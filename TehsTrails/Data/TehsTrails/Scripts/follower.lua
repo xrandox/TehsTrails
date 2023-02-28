@@ -1,7 +1,9 @@
 Teh.heartfollower = {
     currentTarget = nil,
     isFollowing = false,
-    followMarker = nil
+    followMarker = nil,
+    target2 = nil,
+    originalPosition = nil
 }
 
 Debug:Watch("heartfollower", Teh.heartfollower)
@@ -13,7 +15,6 @@ function Teh_Heart_Follower(marker, isfocused, guid)
     if (isfocused) then
         --create a copy of target marker to be the pointer
         Teh.heartfollower.originalPosition = marker.Position
-        Teh.heartfollower.originalRotation = marker.Rotation
         Teh.heartfollower.currentTarget = World:MarkerByGuid(guid)
         Teh.heartfollower.isFollowing = true
         local follower = marker
@@ -28,12 +29,16 @@ function Teh_Tick_HeartFollower(gameTime)
     local target = Teh.heartfollower.currentTarget
     local follower = Teh.heartfollower.followMarker
 
-    if (target.Focused) then
-        Teh.heartfollower.isFollowing = false
-        Teh.heartfollower.followMarker.InGameVisibility = true
-        Teh.heartfollower.followMarker:SetPos(Teh.heartfollower.originalPosition)
-        Teh.heartfollower.followMarker.RotationXyz = nil
+    if (Teh.heartfollower.target2 == nil and target.Focused) then
+        Teh_Follower_Reset()
         return
+    end
+
+    if (not (Teh.heartfollower.target2 == nil)) then
+        if (Teh.heartfollower.target2.Focused) then
+            Teh_Follower_Reset()
+            return
+        end
     end
 
     local playerPos = Mumble.PlayerCharacter.Position
@@ -46,4 +51,32 @@ function Teh_Tick_HeartFollower(gameTime)
     local rotX = (-math.atan(vector.Z, vector.X))
     follower:SetRotZ(rotZ)
     follower:SetRotX(rotX)
+end
+
+function Teh_Follower_Reset()
+    Teh.heartfollower.isFollowing = false
+    Teh.heartfollower.followMarker.InGameVisibility = true
+    Teh.heartfollower.followMarker:SetPos(Teh.heartfollower.originalPosition)
+    Teh.heartfollower.followMarker.RotationXyz = nil
+    Teh.heartfollower.currentTarget = nil
+    Teh.heartfollower.followMarker = nil
+    Teh.heartfollower.originalPosition = nil
+    Teh.heartfollower.target2 = nil
+end
+
+function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
+    -- We use the category as a toggle for this feature.
+    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
+    if (isfocused) then
+        Debug:Print("Heart follower pointing to: " .. endGuid .. " and disappearing at " .. disappearGuid)
+        --create a copy of target marker to be the pointer
+        Teh.heartfollower.originalPosition = marker.Position
+        Teh.heartfollower.currentTarget = World:MarkerByGuid(endGuid)
+        Teh.heartfollower.target2 = World:MarkerByGuid(disappearGuid)
+        Teh.heartfollower.isFollowing = true
+        local follower = marker
+        if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then follower.InGameVisibility = false end
+        follower.TriggerRange = 5
+        Teh.heartfollower.followMarker = follower
+    end
 end
