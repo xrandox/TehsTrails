@@ -26,7 +26,8 @@ end
 -- Checks if the player enters the markers trigger range, if they do, waits for them to no longer be in the trigger range to stop it from bouncing
 function Teh_Tick_Bounce(gameTime)
     Teh.bounce.timeSinceStarted = Teh.bounce.timeSinceStarted + gameTime.ElapsedGameTime.TotalSeconds
-    if (Teh.bounce.timeSinceStarted > 300) then Teh_Bounce_Reset() end
+    if (not World:CategoryByType("tt.mc.s.ermb"):IsVisible()) then Teh_Bounce_Reset() return end
+    if (Teh.bounce.timeSinceStarted > 300) then Teh_Bounce_Reset() return end
 
     if (Teh.bounce.wasFocused) then
         if (not Teh.bounce.currentTarget.Focused) then

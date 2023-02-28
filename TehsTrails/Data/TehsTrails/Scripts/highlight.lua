@@ -37,6 +37,7 @@ end
 
 --Grows or shrinks the highlight on the map
 function Teh_Tick_Highlight(gameTime)
+    if (not World:CategoryByType("tt.mc.s.ewh"):IsVisible()) then Teh_Highlight_Reset() return end
     local elapsedSeconds = gameTime.ElapsedGameTime.TotalSeconds
     Teh.highlight.timeSinceStarted = Teh.highlight.timeSinceStarted + elapsedSeconds
     if (Teh.highlight.timeSinceStarted > 300) then Teh_Highlight_Reset() return end

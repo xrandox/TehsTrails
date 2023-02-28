@@ -29,6 +29,11 @@ function Teh_Tick_HeartFollower(gameTime)
     local target = Teh.heartfollower.currentTarget
     local follower = Teh.heartfollower.followMarker
 
+    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then
+        Teh_Follower_Reset()
+        return
+    end
+
     if (Teh.heartfollower.target2 == nil and target.Focused) then
         Teh_Follower_Reset()
         return
