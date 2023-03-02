@@ -209,11 +209,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				</MarkerCategory>
 			</MarkerCategory>
 
-			<MarkerCategory name="ds" DisplayName="Dynamic Settings (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="0" defaulttoggle="0" inGameVisibility="0">
+			<!--<MarkerCategory name="ds" DisplayName="Dynamic Settings (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="0" defaulttoggle="0" inGameVisibility="0">
 				<MarkerCategory name="stomm" DisplayName="Show Trails on Minimap" tip-description="Shows all trails on the minimap (excluding heart zones)" defaulttoggle="0"/>
 				<MarkerCategory name="shzomm" DisplayName="Show Heart Zones on Minimap" tip-description="Shows all heart zones on the minimap" defaulttoggle="0"/>
 				<MarkerCategory name="shzom" DisplayName="Show Heart Zones on Map" tip-description="Shows all heart zones on the map" defaulttoggle="0"/>
-			</MarkerCategory>
+			</MarkerCategory>-->
 		</MarkerCategory>
 
 
@@ -7498,7 +7498,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="99AHNYjBHEqJbZ6pm6++XQ==" type="tt.mc.s.ewh" />
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="9Db5ZiJ/+kGT9GVK6BXUpw==" type="tt.mc.s.ewh" />
 		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="TK1Ww5EXV0SxP+ho7MtmiA==" type="tt.mc.s.ewh" />
-		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="l2D4EM4mIkuz4C3QWuo6hQ==" type="tt.mc.ds.stomm" />
+		<!-- DYNAMIC SETTINGS -->
+		<!--<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="l2D4EM4mIkuz4C3QWuo6hQ==" type="tt.mc.ds.stomm" />
 		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="TeoHc7G4CkaCwYuiBeGhzw==" type="tt.mc.ds.stomm" />
 		<POI MapID="39" xpos="0" ypos="0" zpos="0" GUID="M6tZduJ+b0+QZZcL0Yl94g==" type="tt.mc.ds.stomm" />
 		<POI MapID="73" xpos="0" ypos="0" zpos="0" GUID="rxWkdq59F0yEKWCdkltB+Q==" type="tt.mc.ds.stomm" />
@@ -7590,7 +7591,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="326" xpos="0" ypos="0" zpos="0" GUID="hXK2xddBE0qQ9JmOMcu/gw==" type="tt.mc.ds.shzom" />
 		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="vClvm0zhk02Ni3PCNDi81Q==" type="tt.mc.ds.shzom" />
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="bPeFUq4WU0Kp9slk26MS+g==" type="tt.mc.ds.shzom" />
-		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="CaHIqa5kFEm8gfoCMJnN5g==" type="tt.mc.ds.shzom" />
+		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="CaHIqa5kFEm8gfoCMJnN5g==" type="tt.mc.ds.shzom" />-->
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                              TRAIL DATA                                                                           ==-->
