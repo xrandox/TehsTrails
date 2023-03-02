@@ -209,7 +209,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				</MarkerCategory>
 			</MarkerCategory>
 
-			<MarkerCategory name="ds" DisplayName="Dynamic Settings (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0" inGameVisibility="0">
+			<MarkerCategory name="ds" DisplayName="Dynamic Settings (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="0" defaulttoggle="0" inGameVisibility="0">
 				<MarkerCategory name="stomm" DisplayName="Show Trails on Minimap" tip-description="Shows all trails on the minimap (excluding heart zones)" defaulttoggle="0"/>
 				<MarkerCategory name="shzomm" DisplayName="Show Heart Zones on Minimap" tip-description="Shows all heart zones on the minimap" defaulttoggle="0"/>
 				<MarkerCategory name="shzom" DisplayName="Show Heart Zones on Map" tip-description="Shows all heart zones on the map" defaulttoggle="0"/>
