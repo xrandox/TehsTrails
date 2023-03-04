@@ -59,7 +59,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png"/>
                     <MarkerCategory name="stealthmount" DisplayName="Stealth mount" iconFile="Data/TehsTrails/Markers/StealthMount.png" iconSize="0.75"/>
 					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png"/>
-					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" miniMapVisibility="1" mapVisibility="1" iconSize="1"/>
 					<MarkerCategory name="nm" DisplayName="Next Map" iconFile="Data/TehsTrails/Markers/nextmap.png" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/TehsTrails/Markers/shoppinglist.png" iconSize="1.5"/>
