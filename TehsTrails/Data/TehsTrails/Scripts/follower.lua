@@ -12,13 +12,19 @@ Debug:Watch("heartfollower", Teh.heartfollower)
 --Sets the given GUID as the target and creates a marker to point towards it and carry around the info from the original marker
 function Teh_Heart_Follower(marker, isfocused, guid)
     if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
-    if (Teh.heartfollower.isFollowing) then return end
+    if (Teh.heartfollower.isFollowing) then                    --if we already have a follower
+        if (Teh.heartfollower.currentTarget.Guid == guid) then --and that follower is pointing to the same target
+            return                                             --then ignore
+        end
+        --otherwise, clear the old follower
+        Teh_Follower_Reset()
+    end
 
     if (isfocused) then
         local infoMod = marker:GetBehavior("InfoModifier")
         local info = infoMod.InfoValue
 
-        local follower = Pack:CreateMarker( {
+        local follower = Pack:CreateMarker({
             Info = info,
             TriggerRange = 5,
             InGameVisibility = false,
@@ -32,14 +38,13 @@ function Teh_Heart_Follower(marker, isfocused, guid)
         if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then
             follower.InGameVisibility = true
             Teh.heartfollower.visible = true
-       end
+        end
 
-       marker.TriggerRange = 1
-       Teh.heartfollower.originalMarker = marker
-       Teh.heartfollower.currentTarget = World:MarkerByGuid(guid)
-       Teh.heartfollower.isFollowing = true
-       Teh.heartfollower.followMarker = follower
-
+        marker.TriggerRange = 1
+        Teh.heartfollower.originalMarker = marker
+        Teh.heartfollower.currentTarget = World:MarkerByGuid(guid)
+        Teh.heartfollower.isFollowing = true
+        Teh.heartfollower.followMarker = follower
     end
 end
 
@@ -48,7 +53,7 @@ function Teh_Tick_HeartFollower(gameTime)
     local target = Teh.heartfollower.currentTarget
     local follower = Teh.heartfollower.followMarker
 
--- Visibility checks
+    -- Visibility checks
     if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then
         Teh_Follower_Reset()
         return
@@ -62,7 +67,7 @@ function Teh_Tick_HeartFollower(gameTime)
         follower.InGameVisibility = true
     end
 
---Reset checks
+    --Reset checks
     if (Teh.heartfollower.target2 == nil and target.Focused) then
         Teh_Follower_Reset()
         return
@@ -75,7 +80,7 @@ function Teh_Tick_HeartFollower(gameTime)
         end
     end
 
---Animate if visible
+    --Animate if visible
     if (Teh.heartfollower.visible) then
         local playerPos = Mumble.PlayerCharacter.Position
         local vector = (target.Position - playerPos)
@@ -88,7 +93,6 @@ function Teh_Tick_HeartFollower(gameTime)
         follower:SetRotZ(rotZ)
         follower:SetRotX(rotX)
     end
-
 end
 
 --Reset the follower
@@ -106,13 +110,19 @@ end
 --Same as Teh_Heart_Follower only it points to endGuid but doesnt disappear until in disappearGuid's focus
 function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
     if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
-    if (Teh.heartfollower.isFollowing) then return end
+    if (Teh.heartfollower.isFollowing) then                       --if we already have a follower
+        if (Teh.heartfollower.currentTarget.Guid == endGuid) then --and that follower is pointing to the same target
+            return                                                --then ignore
+        end
+        --otherwise, clear the old follower
+        Teh_Follower_Reset()
+    end
 
     if (isfocused) then
         local infoMod = marker:GetBehavior("InfoModifier")
         local info = infoMod.InfoValue
 
-        local follower = Pack:CreateMarker( {
+        local follower = Pack:CreateMarker({
             Info = info,
             TriggerRange = 5,
             InGameVisibility = false,
@@ -126,14 +136,13 @@ function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
         if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then
             follower.InGameVisibility = true
             Teh.heartfollower.visible = true
-       end
+        end
 
-       marker.TriggerRange = 1
-       Teh.heartfollower.originalMarker = marker
-       Teh.heartfollower.currentTarget = World:MarkerByGuid(endGuid)
-       Teh.heartfollower.target2 = World:MarkerByGuid(disappearGuid)
-       Teh.heartfollower.isFollowing = true
-       Teh.heartfollower.followMarker = follower
-
+        marker.TriggerRange = 1
+        Teh.heartfollower.originalMarker = marker
+        Teh.heartfollower.currentTarget = World:MarkerByGuid(endGuid)
+        Teh.heartfollower.target2 = World:MarkerByGuid(disappearGuid)
+        Teh.heartfollower.isFollowing = true
+        Teh.heartfollower.followMarker = follower
     end
 end
