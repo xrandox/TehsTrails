@@ -9,42 +9,22 @@ Teh.heartfollower = {
 
 Debug:Watch("heartfollower", Teh.heartfollower)
 
---Sets the given GUID as the target and creates a marker to point towards it and carry around the info from the original marker
+--Sets the given GUID as the target and creates a marker to point towards it and carrys around the info from the original marker
 function Teh_Heart_Follower(marker, isfocused, guid)
     if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
-    if (Teh.heartfollower.isFollowing) then                    --if we already have a follower
-        if (Teh.heartfollower.currentTarget.Guid == guid) then --and that follower is pointing to the same target
-            return                                             --then ignore
-        end
-        --otherwise, clear the old follower
-        Teh_Follower_Reset()
-    end
 
     if (isfocused) then
-        local infoMod = marker:GetBehavior("InfoModifier")
-        local info = infoMod.InfoValue
+        Teh_Create_Follower(marker, guid)
+    end
+end
 
-        local follower = Pack:CreateMarker({
-            Info = info,
-            TriggerRange = 5,
-            InGameVisibility = false,
-            MiniMapVisibility = false,
-            MapVisibility = false,
-            IconSize = 0.5
-        })
+--Same as Teh_Heart_Follower only it points to endGuid but doesnt disappear until in disappearGuid's focus
+function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
+    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
 
-        follower:SetTexture("Data/TehsTrails/Markers/Renown_Heart_empty.png")
-
-        if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then
-            follower.InGameVisibility = true
-            Teh.heartfollower.visible = true
-        end
-
-        marker.TriggerRange = 1
-        Teh.heartfollower.originalMarker = marker
-        Teh.heartfollower.currentTarget = World:MarkerByGuid(guid)
-        Teh.heartfollower.isFollowing = true
-        Teh.heartfollower.followMarker = follower
+    if (isfocused) then
+        Teh_Create_Follower(marker, endGuid)
+        Teh.heartfollower.target2 = World:MarkerByGuid(disappearGuid)
     end
 end
 
@@ -107,42 +87,33 @@ function Teh_Follower_Reset()
     Teh.heartfollower.originalMarker = nil
 end
 
---Same as Teh_Heart_Follower only it points to endGuid but doesnt disappear until in disappearGuid's focus
-function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
-    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
-    if (Teh.heartfollower.isFollowing) then                       --if we already have a follower
-        if (Teh.heartfollower.currentTarget.Guid == endGuid) then --and that follower is pointing to the same target
-            return                                                --then ignore
-        end
-        --otherwise, clear the old follower
+--Creates a follower targeting the specified target GUID
+function Teh_Create_Follower(heartMarker, targetGuid)
+    if (Teh.heartfollower.isFollowing) then --if we already have a follower, reset it
         Teh_Follower_Reset()
     end
 
-    if (isfocused) then
-        local infoMod = marker:GetBehavior("InfoModifier")
-        local info = infoMod.InfoValue
+    local info = heartMarker:GetBehavior("InfoModifier").InfoValue
 
-        local follower = Pack:CreateMarker({
-            Info = info,
-            TriggerRange = 5,
-            InGameVisibility = false,
-            MiniMapVisibility = false,
-            MapVisibility = false,
-            IconSize = 0.5
-        })
+    local follower = Pack:CreateMarker({
+        Info = info,
+        TriggerRange = 5,
+        InGameVisibility = false,
+        MiniMapVisibility = false,
+        MapVisibility = false,
+        IconSize = 0.5
+    })
 
-        follower:SetTexture("Data/TehsTrails/Markers/Renown_Heart_empty.png")
+    follower:SetTexture("Data/TehsTrails/Markers/Renown_Heart_empty.png")
 
-        if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then
-            follower.InGameVisibility = true
-            Teh.heartfollower.visible = true
-        end
-
-        marker.TriggerRange = 1
-        Teh.heartfollower.originalMarker = marker
-        Teh.heartfollower.currentTarget = World:MarkerByGuid(endGuid)
-        Teh.heartfollower.target2 = World:MarkerByGuid(disappearGuid)
-        Teh.heartfollower.isFollowing = true
-        Teh.heartfollower.followMarker = follower
+    if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then
+        follower.InGameVisibility = true
+        Teh.heartfollower.visible = true
     end
+
+    heartMarker.TriggerRange = 0
+    Teh.heartfollower.originalMarker = heartMarker
+    Teh.heartfollower.currentTarget = World:MarkerByGuid(targetGuid)
+    Teh.heartfollower.isFollowing = true
+    Teh.heartfollower.followMarker = follower
 end
