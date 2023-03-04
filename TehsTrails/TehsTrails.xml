@@ -2814,7 +2814,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="19" xpos="-470.562" ypos="54.3698" zpos="92.211" type="tt.mc.h.chm.kill" GUID="Jaz+58O7mkqZtLZCgwpBWA==" />
         <POI MapID="19" xpos="-501.451" ypos="54.3698" zpos="97.021" type="tt.mc.h.chm.kill" GUID="Kaz+58O7mkqZtLZCgwpBWA==" />
         <POI MapID="19" xpos="-500.64" ypos="26.9224" zpos="457.488" type="tt.mc.h.chm.interact" GUID="A02ieLrm9UeA1dzq4boPaw==" />
-        <POI MapID="19" xpos="-504.001" ypos="34.6704" zpos="-461.282" type="tt.mc.h.chm.finish_heart" GUID="abCx2rpQG06gM5HD1Bv5kQ==" />
+        <POI MapID="19" xpos="-507.501" ypos="41.6704" zpos="-447.282" type="tt.mc.h.chm.finish_heart" GUID="abCx2rpQG06gM5HD1Bv5kQ==" triggerRange="10"/>
         <POI MapID="19" xpos="-505.863" ypos="53.7536" zpos="-399.859" type="tt.mc.cm.rm.points_of_interest" GUID="ZsnnI4fCnEa1vbcv+Ubslg==" />
         <POI MapID="19" xpos="-508.789" ypos="26.6817" zpos="449.359" type="tt.mc.h.chm.interact" GUID="/g/eJaBRgU2XFkMzgq0MMQ==" />
         <POI MapID="19" xpos="-551.253" ypos="62.8888" zpos="-120.576" type="tt.mc.cm.rm.points_of_interest" GUID="FoaFZy7z0kOejrdQsKN08Q==" />
@@ -7163,7 +7163,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="19" xpos="-866.514" ypos="27.0194" zpos="-347.169" type="tt.mc.cm.nwm.wph" GUID="oxMYt3oliEuutpDRjzuJJg==" />
         <POI MapID="19" xpos="-825.551" ypos="54.7863" zpos="-500.848" type="tt.mc.cm.nwm.tpm" GUID="qgI4D9Qk1kGfbbhifgi7fg==" copy="[&amp;BJgDAAA=]" script-focus="Teh_Highlight_Waypoint(oxMYt3oliEuutpDRjzuJJg==)" />
         <POI MapID="19" xpos="-1076.28" ypos="51.6763" zpos="235.438" type="tt.mc.cm.nwm.wph" GUID="M+YE7fdVLk2/f35PXGaAFw==" />
-        <POI MapID="19" xpos="-578.532" ypos="0.492867" zpos="58.2757" type="tt.mc.cm.nwm.tpm" GUID="Zi4Ve6vL60+vQE2jwgKAiQ==" copy="[&amp;BIABAAA=]" script-focus="Teh_Highlight_Waypoint(M+YE7fdVLk2/f35PXGaAFw==)" />
+        <POI MapID="19" xpos="-578.532" ypos="0.492867" zpos="58.2757" type="tt.mc.cm.nwm.tpm" GUID="Zi4Ve6vL60+vQE2jwgKAiQ==" copy="[&amp;BIABAAA=]" script-trigger="Teh_Bounce(dY88gu9dKEK8WVEnslAR+Q==)" script-focus="Teh_Highlight_Waypoint(M+YE7fdVLk2/f35PXGaAFw==)" />
         <POI MapID="19" xpos="-453.213" ypos="52.8159" zpos="28.157" type="tt.mc.cm.nwm.wph" GUID="Zs3gAp4gmE6xmWR/VwUvXA==" />
         <POI MapID="19" xpos="-311.38" ypos="68.381" zpos="94.1298" type="tt.mc.cm.nwm.tpm" GUID="+w6oPSEQG0SIJjcz3L/iKA==" copy="[&amp;BIMBAAA=]" script-focus="Teh_Highlight_Waypoint(Zs3gAp4gmE6xmWR/VwUvXA==)" />
         <POI MapID="19" xpos="-867.205" ypos="45.9247" zpos="-33.6801" type="tt.mc.cm.nwm.wph" GUID="yyepKjP5gEK1S3N3XI/ClQ==" />
