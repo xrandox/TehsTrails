@@ -34,7 +34,7 @@ function Teh_Heart_Follower(marker, isfocused, guid)
             Teh.heartfollower.visible = true
        end
 
-       marker.TriggerRange = 1
+       marker.TriggerRange = 0
        Teh.heartfollower.originalMarker = marker
        Teh.heartfollower.currentTarget = World:MarkerByGuid(guid)
        Teh.heartfollower.isFollowing = true
@@ -128,7 +128,7 @@ function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
             Teh.heartfollower.visible = true
        end
 
-       marker.TriggerRange = 1
+       marker.TriggerRange = 0
        Teh.heartfollower.originalMarker = marker
        Teh.heartfollower.currentTarget = World:MarkerByGuid(endGuid)
        Teh.heartfollower.target2 = World:MarkerByGuid(disappearGuid)
