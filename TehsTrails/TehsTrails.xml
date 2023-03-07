@@ -90,7 +90,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1">
+				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" iconSize="1">
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" miniMapVisibility="1" mapVisibility="1"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" miniMapVisibility="1" mapVisibility="1"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" miniMapVisibility="1" mapVisibility="1"/>
@@ -133,8 +133,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png" triggerRange="15"/>
 					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png" iconSize="0.75"/>
 					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/TehsTrails/Markers/Talk.png" iconSize="0.75"/>
-					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
-					<MarkerCategory name="kill" DisplayName="Kill" iconFile="Data/TehsTrails/Markers/Kill.png"/>
+					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png" iconSize="0.75"/>
+					<MarkerCategory name="kill" DisplayName="Kill" iconFile="Data/TehsTrails/Markers/Kill.png" iconSize="0.75"/>
 					<MarkerCategory name="gather" DisplayName="Gather" iconFile="Data/TehsTrails/Markers/Gather.png"/>
 					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png"/>
 					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
@@ -189,17 +189,17 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--==                                                                            HERO POINTS                                                                            ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
-				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/HPTrail.png" mapVisibility="1"/>
+				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/HPTrail.png" mapVisibility="1" scaleOnMapWithZoom="1"/>
 				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png"/>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/SkyscaleTrail.png" mapVisibility="1"/>
+			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/SkyscaleTrail.png" mapVisibility="1" scaleOnMapWithZoom="1"/>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/TrailOfShame.png" mapVisibility="1"/>
+			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/TrailOfShame.png" mapVisibility="1" scaleOnMapWithZoom="1"/>
 
 			<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0" inGameVisibility="0">
 				<MarkerCategory name="ewh" DisplayName="Enable Waypoint Highlights" tip-description="Highlights the next waypoint you are supposed to teleport to" bh-defaulttoggle="1" defaulttoggle="0"/>
