@@ -3,7 +3,8 @@ Teh.highlight = {
     waypointHighlighted = false,
     currentSize = 100,
     sizeGrowing = true,
-    timeSinceStarted = 0
+    timeSinceStarted = 0,
+    secondaryTarget = nil
 }
 
 Debug:Watch("highlight", Teh.highlight)
@@ -13,6 +14,12 @@ local function Teh_Highlight_Reset()
     waypoint.MapVisibility = false
     waypoint.MiniMapVisibility = false
     Teh.highlight.waypointHighlighted = false
+    Teh.highlight.secondaryTarget = nil
+end
+
+function Teh_Highlight_Waypoint_2(marker, isfocused, markerguid, secondaryTarget)
+    Teh.highlight.secondaryTarget = World:MarkerByGuid(secondaryTarget)
+    Teh_Highlight_Waypoint(marker, isfocused, markerguid)
 end
 
 --Sets the given marker GUID as the current waypoint and highlights it
@@ -63,9 +70,16 @@ end
 --Returns true if the waypoint is still highlighted
 function Teh_Validate_Highlight()
     local waypoint = Teh.highlight.currentWaypoint
+    local secondaryTarget = Teh.highlight.secondaryTarget
     if (waypoint.Focused) then
-            Teh_Highlight_Reset()
+        Teh_Highlight_Reset()
         return false
+    end
+    if (secondaryTarget ~= nil) then
+        if (secondaryTarget.Focused) then
+            Teh_Highlight_Reset()
+            return false
+        end
     end
     return true
 end
