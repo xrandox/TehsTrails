@@ -4,7 +4,8 @@ Teh.highlight = {
     currentSize = 100,
     sizeGrowing = true,
     timeSinceStarted = 0,
-    secondaryTarget = nil
+    secondaryTarget = nil,
+    category = World:CategoryByType("tt.mc.s.ewh")
 }
 
 Debug:Watch("highlight", Teh.highlight)
@@ -24,7 +25,7 @@ end
 
 --Sets the given marker GUID as the current waypoint and highlights it
 function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
-    if (not World:CategoryByType("tt.mc.s.ewh"):IsVisible()) then return end
+    if (not Teh.highlight.category:IsVisible()) then return end
 
     local waypoint = World:MarkerByGuid(markerguid)
 
@@ -44,7 +45,7 @@ end
 
 --Grows or shrinks the highlight on the map
 function Teh_Tick_Highlight(gameTime)
-    if (not World:CategoryByType("tt.mc.s.ewh"):IsVisible()) then Teh_Highlight_Reset() return end
+    if (not Teh.highlight.category:IsVisible()) then Teh_Highlight_Reset() return end
     local elapsedSeconds = gameTime.ElapsedGameTime.TotalSeconds
     Teh.highlight.timeSinceStarted = Teh.highlight.timeSinceStarted + elapsedSeconds
     if (Teh.highlight.timeSinceStarted > 300) then Teh_Highlight_Reset() return end

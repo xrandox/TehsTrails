@@ -4,14 +4,16 @@ Teh.heartfollower = {
     followMarker = nil,
     target2 = nil,
     visible = false,
-    originalMarker = nil
+    originalMarker = nil,
+    category = World:CategoryByType("tt.mc.s.ehif"),
+    category2 = World:CategoryByType("tt.mc.s.ehif.evhp")
 }
 
 Debug:Watch("heartfollower", Teh.heartfollower)
 
 --Sets the given GUID as the target and creates a marker to point towards it and carrys around the info from the original marker
 function Teh_Heart_Follower(marker, isfocused, guid)
-    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
+    if (not Teh.heartfollower.category:IsVisible()) then return end
 
     if (isfocused) then
         Teh_Create_Follower(marker, guid)
@@ -20,7 +22,7 @@ end
 
 --Same as Teh_Heart_Follower only it points to endGuid but doesnt disappear until in disappearGuid's focus
 function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
-    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then return end
+    if (not Teh.heartfollower.category:IsVisible()) then return end
 
     if (isfocused) then
         Teh_Create_Follower(marker, endGuid)
@@ -34,12 +36,12 @@ function Teh_Tick_HeartFollower(gameTime)
     local follower = Teh.heartfollower.followMarker
 
     -- Visibility checks
-    if (not World:CategoryByType("tt.mc.s.ehif"):IsVisible()) then
+    if (not Teh.heartfollower.category:IsVisible()) then
         Teh_Follower_Reset()
         return
     end
 
-    if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then
+    if (not Teh.heartfollower.category2:IsVisible()) then
         Teh.heartfollower.visible = false
         follower.InGameVisibility = false
     else
@@ -106,7 +108,7 @@ function Teh_Create_Follower(heartMarker, targetGuid)
 
     follower:SetTexture("Data/TehsTrails/Markers/Renown_Heart_empty.png")
 
-    if (not World:CategoryByType("tt.mc.s.ehif.evhp"):IsVisible()) then
+    if (not Teh.heartfollower.category2:IsVisible()) then
         follower.InGameVisibility = true
         Teh.heartfollower.visible = true
     end
