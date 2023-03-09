@@ -202,6 +202,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/TrailOfShame.png" mapVisibility="1" scaleOnMapWithZoom="1"/>
 
 			<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0" inGameVisibility="0">
+				<MarkerCategory name="tgsp" DisplayName="Toggle Global Starting Point Markers" tip-description="Shows the starting points for trails on all core Tyria maps" defaulttoggle="0"/>
 				<MarkerCategory name="ewh" DisplayName="Enable Waypoint Highlights" tip-description="Highlights the next waypoint you are supposed to teleport to" bh-defaulttoggle="1" defaulttoggle="0"/>
 				<MarkerCategory name="ermb" DisplayName="Enable Route Marker Bouncing" tip-description="Signifies which route you are supposed to use by making the respective marker bounce" bh-defaulttoggle="1" defaulttoggle="0"/>
 				<MarkerCategory name="ehif" DisplayName="Enable Heart Information Following" tip-description="Makes heart text sticky -- it will follow you around until you reach the finish_heart marker (Limited Use)" bh-defaulttoggle="1" defaulttoggle="0">
@@ -7536,6 +7537,37 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="99AHNYjBHEqJbZ6pm6++XQ==" type="tt.mc.s.ewh" />
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="9Db5ZiJ/+kGT9GVK6BXUpw==" type="tt.mc.s.ewh" />
 		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="TK1Ww5EXV0SxP+ho7MtmiA==" type="tt.mc.s.ewh" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="vgTFLHm310C4F3TfOg+5zA==" type="tt.mc.s.tgsp" />
+		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="RAdYRO9Eck2RxQd5AVmdbg==" type="tt.mc.s.tgsp" />
+		<POI MapID="39" xpos="0" ypos="0" zpos="0" GUID="Y0MNDW+6eECp6PlnCUto1A==" type="tt.mc.s.tgsp" />
+		<POI MapID="73" xpos="0" ypos="0" zpos="0" GUID="kDpL8MEXg0Wtgj/4sPqyDg==" type="tt.mc.s.tgsp" />
+		<POI MapID="28" xpos="0" ypos="0" zpos="0" GUID="c+PA7Xgb4EqVxg8EXDAtaA==" type="tt.mc.s.tgsp" />
+		<POI MapID="31" xpos="0" ypos="0" zpos="0" GUID="u3Sg0DlEB0ql4xmJ9GYvSQ==" type="tt.mc.s.tgsp" />
+		<POI MapID="27" xpos="0" ypos="0" zpos="0" GUID="S2ihxGX7xUmGq97/pML5hw==" type="tt.mc.s.tgsp" />
+		<POI MapID="30" xpos="0" ypos="0" zpos="0" GUID="d3fo1OZJT0OfUw9R8QM7vw==" type="tt.mc.s.tgsp" />
+		<POI MapID="26" xpos="0" ypos="0" zpos="0" GUID="nnYhgHt1nUGi333pMcIYjA==" type="tt.mc.s.tgsp" />
+		<POI MapID="51" xpos="0" ypos="0" zpos="0" GUID="SG6tziyFtkmxFDp6XdHyjQ==" type="tt.mc.s.tgsp" />
+		<POI MapID="62" xpos="0" ypos="0" zpos="0" GUID="BS/lSrUbwkihVKH7zc2bMQ==" type="tt.mc.s.tgsp" />
+		<POI MapID="35" xpos="0" ypos="0" zpos="0" GUID="T45eUAw/FUiy+EqU8ZRBAg==" type="tt.mc.s.tgsp" />
+		<POI MapID="65" xpos="0" ypos="0" zpos="0" GUID="/ZdTUwFjYESeCF+BPYtO/Q==" type="tt.mc.s.tgsp" />
+		<POI MapID="34" xpos="0" ypos="0" zpos="0" GUID="45uvcPDFb02ifwhbrcKgDQ==" type="tt.mc.s.tgsp" />
+		<POI MapID="54" xpos="0" ypos="0" zpos="0" GUID="ZpDmEo5Yfkyppz9JiW9Mlw==" type="tt.mc.s.tgsp" />
+		<POI MapID="15" xpos="0" ypos="0" zpos="0" GUID="z1uxed8HR0O6Gh2+kL3alw==" type="tt.mc.s.tgsp" />
+		<POI MapID="23" xpos="0" ypos="0" zpos="0" GUID="kI0u043/x02QTsfjMGN6eA==" type="tt.mc.s.tgsp" />
+		<POI MapID="17" xpos="0" ypos="0" zpos="0" GUID="2mbtBvZ1SECsKGvJglTUkg==" type="tt.mc.s.tgsp" />
+		<POI MapID="24" xpos="0" ypos="0" zpos="0" GUID="A4Z4oe5IC0a8KJjRmbinfw==" type="tt.mc.s.tgsp" />
+		<POI MapID="19" xpos="0" ypos="0" zpos="0" GUID="MJb05Ohzr0608XcRh6I/EA==" type="tt.mc.s.tgsp" />
+		<POI MapID="25" xpos="0" ypos="0" zpos="0" GUID="gE106wP75kSH1GZY+zdWjQ==" type="tt.mc.s.tgsp" />
+		<POI MapID="22" xpos="0" ypos="0" zpos="0" GUID="FvHHRcq+E0GRS5oX2uAwFQ==" type="tt.mc.s.tgsp" />
+		<POI MapID="21" xpos="0" ypos="0" zpos="0" GUID="f3zPugyfBUmYvZ5DdRTf/Q==" type="tt.mc.s.tgsp" />
+		<POI MapID="32" xpos="0" ypos="0" zpos="0" GUID="lbcRl+OmGEm9ky0rZ7O2nw==" type="tt.mc.s.tgsp" />
+		<POI MapID="20" xpos="0" ypos="0" zpos="0" GUID="XyJu/Gjr/EWLd9HSV8Bxvg==" type="tt.mc.s.tgsp" />
+		<POI MapID="91" xpos="0" ypos="0" zpos="0" GUID="V/cv5qm5ok+JOYlwS8acoA==" type="tt.mc.s.tgsp" />
+		<POI MapID="139" xpos="0" ypos="0" zpos="0" GUID="Fd9aiJsUu06Jgl3NQp06Lw==" type="tt.mc.s.tgsp" />
+		<POI MapID="326" xpos="0" ypos="0" zpos="0" GUID="T8l1LqoECUmhciApBIuVLQ==" type="tt.mc.s.tgsp" />
+		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="nbxnKHlqfUaKWGeZIrTejA==" type="tt.mc.s.tgsp" />
+		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="b7m65jBvi0qkIdzp+a+SPw==" type="tt.mc.s.tgsp" />
+		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="hGUDnNGVKkOmH2xh4YIDLQ==" type="tt.mc.s.tgsp" />
 		<!-- DYNAMIC SETTINGS -->
 		<!--<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="l2D4EM4mIkuz4C3QWuo6hQ==" type="tt.mc.ds.stomm" />
 		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="TeoHc7G4CkaCwYuiBeGhzw==" type="tt.mc.ds.stomm" />
