@@ -5,8 +5,8 @@ Teh.heartfollower = {
     target2 = nil,
     visible = false,
     originalMarker = nil,
-    category = World:CategoryByType("tt.mc.s.ehif"),
-    category2 = World:CategoryByType("tt.mc.s.ehif.evhp")
+    category = World:CategoryByType("tt.s.ehif"),
+    category2 = World:CategoryByType("tt.s.ehif.evhp")
 }
 
 Debug:Watch("heartfollower", Teh.heartfollower)
@@ -62,19 +62,18 @@ function Teh_Tick_HeartFollower(gameTime)
         end
     end
 
-    --Animate if visible
-    if (Teh.heartfollower.visible) then
-        local playerPos = Mumble.PlayerCharacter.Position
-        local vector = (target.Position - playerPos)
-        vector = vector / vector:Length()
-        local targetPos = playerPos + vector * 2
 
-        follower:SetPos(targetPos.X, targetPos.Y, targetPos.Z - 1.5)
-        local rotZ = (math.atan2(vector.Y, vector.X) - ((3 * math.pi) / 2))
-        local rotX = (-math.atan(vector.Z, vector.X))
-        follower:SetRotZ(rotZ)
-        follower:SetRotX(rotX)
-    end
+    local playerPos = Mumble.PlayerCharacter.Position
+    local vector = (target.Position - playerPos)
+    vector = vector / vector:Length()
+    local targetPos = playerPos + vector * 2
+
+    follower:SetPos(targetPos.X, targetPos.Y, targetPos.Z - 1.5)
+    local rotZ = (math.atan2(vector.Y, vector.X) - ((3 * math.pi) / 2))
+    local rotX = (-math.atan(vector.Z, vector.X))
+    follower:SetRotZ(rotZ)
+    follower:SetRotX(rotX)
+
 end
 
 --Reset the follower

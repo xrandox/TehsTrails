@@ -1,11 +1,12 @@
 Teh.highlight = {
     currentWaypoint = nil,
+    currentTeleport = nil,
     waypointHighlighted = false,
     currentSize = 100,
     sizeGrowing = true,
     timeSinceStarted = 0,
     secondaryTarget = nil,
-    category = World:CategoryByType("tt.mc.s.ewh")
+    category = World:CategoryByType("tt.s.ewh")
 }
 
 Debug:Watch("highlight", Teh.highlight)
@@ -14,6 +15,8 @@ local function Teh_Highlight_Reset()
     local waypoint = Teh.highlight.currentWaypoint
     waypoint.MapVisibility = false
     waypoint.MiniMapVisibility = false
+    Teh.highlight.currentTeleport.TriggerRange = 0
+    Teh.highlight.currentTeleport = nil
     Teh.highlight.waypointHighlighted = false
     Teh.highlight.secondaryTarget = nil
 end
@@ -36,9 +39,12 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
         waypoint:SetTexture("Data/TehsTrails/Markers/waypoint-highlight.png")
         waypoint.MapVisibility = true
         waypoint.MiniMapVisibility = true
+
+        Teh.highlight.currentTeleport = marker
         Teh.highlight.currentWaypoint = waypoint
         Teh.highlight.waypointHighlighted = true
         Teh.highlight.timeSinceStarted = 0
+        marker.TriggerRange = 0
     end
 
 end

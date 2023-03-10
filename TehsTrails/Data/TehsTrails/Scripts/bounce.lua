@@ -3,7 +3,7 @@ Teh.bounce = {
     isBouncing = false,
     wasFocused = false,
     timeSinceStarted = 0,
-    category = World:CategoryByType("tt.mc.s.ermb")
+    category = World:CategoryByType("tt.s.ermb")
 }
 
 Debug:Watch("bounce", Teh.bounce)

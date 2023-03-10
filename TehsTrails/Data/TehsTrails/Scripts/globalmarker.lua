@@ -3,7 +3,7 @@ Teh.globalmarker = {
     isVisible = false,
     rects = Teh.lookups.rects,
     coordinateTable = Teh.lookups.coordinateTable,
-    category = World:CategoryByType("tt.mc.s.tgsp")
+    category = World:CategoryByType("tt.s.tgsp")
 }
 
 Debug:Watch("Global_Marker", Teh.globalmarker)
@@ -26,6 +26,7 @@ function Teh_Global_Marker()
             zpos = y,
             MapDisplaySize = 100,
             MapVisibility = true,
+            InGameVisibility = false,
             ScaleOnMapWithZoom = false
         }
 

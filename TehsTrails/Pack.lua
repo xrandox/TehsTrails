@@ -7,9 +7,9 @@ Pack:Require("Data/TehsTrails/Scripts/hide.lua")
 Pack:Require("Data/TehsTrails/Scripts/follower.lua")
 Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
 Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
-Pack:Require("Data/TehsTrails/Scripts/settings.lua")
+--Pack:Require("Data/TehsTrails/Scripts/settings.lua")
 Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
-Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua")
+--Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua")
 
 function Teh_Tick_Handler(gameTime)
     if (Teh.highlight.waypointHighlighted) then
