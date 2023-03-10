@@ -79,6 +79,7 @@ end
 
 --Reset the follower
 function Teh_Follower_Reset()
+    Teh.heartfollower.currentTarget.TriggerRange = 0
     Teh.heartfollower.originalMarker.TriggerRange = 15
     Teh.heartfollower.isFollowing = false
     Teh.heartfollower.followMarker:Remove()
@@ -118,4 +119,5 @@ function Teh_Create_Follower(heartMarker, targetGuid)
     Teh.heartfollower.currentTarget = World:MarkerByGuid(targetGuid)
     Teh.heartfollower.isFollowing = true
     Teh.heartfollower.followMarker = follower
+    Teh.heartfollower.currentTarget.TriggerRange = 15
 end
