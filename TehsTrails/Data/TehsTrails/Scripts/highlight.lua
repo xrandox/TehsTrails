@@ -15,7 +15,8 @@ local function Teh_Highlight_Reset()
     local waypoint = Teh.highlight.currentWaypoint
     waypoint.MapVisibility = false
     waypoint.MiniMapVisibility = false
-    Teh.highlight.currentTeleport.TriggerRange = 0
+    waypoint.TriggerRange = 0
+    Teh.highlight.currentTeleport.TriggerRange = 15
     Teh.highlight.currentTeleport = nil
     Teh.highlight.waypointHighlighted = false
     Teh.highlight.secondaryTarget = nil
@@ -39,7 +40,7 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
         waypoint:SetTexture("Data/TehsTrails/Markers/waypoint-highlight.png")
         waypoint.MapVisibility = true
         waypoint.MiniMapVisibility = true
-
+        waypoint.TriggerRange = 15
         Teh.highlight.currentTeleport = marker
         Teh.highlight.currentWaypoint = waypoint
         Teh.highlight.waypointHighlighted = true
