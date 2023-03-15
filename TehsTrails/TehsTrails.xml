@@ -6212,63 +6212,130 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 		<!--============================================= BLOODTIDE COAST MARKERS =============================================-->
-		<POI MapID="73" xpos="242.722" ypos="0.863234" zpos="687.393" type="tt.mc.cm.wm.swirl" GUID="KtGTf3x+U0uopTFj8eD+qQ==" />
+		<POI MapID="73" xpos="-533.543" ypos="44.8726" zpos="-519.634" type="tt.mc.cm.rm.points_of_interest" GUID="Vk/dXWq6sUmITRNd/WYyRQ==" />
+		<POI MapID="73" xpos="-531.741" ypos="44.5337" zpos="-518.57" type="tt.mc.cm.wm.wpcircle" GUID="TgWimiwRzUmPMdFc4hlMpg==" copy="[&amp;BKgBAAA=]" />
+		<POI MapID="73" xpos="-530.534" ypos="44.3096" zpos="-516.738" type="tt.mc.h.chm.finish_heart" GUID="En50cAqz/0mJjp2l6oMwpw==" />
+		<POI MapID="73" xpos="-518.247" ypos="18.9156" zpos="-637.676" type="tt.mc.h.chm.start_heart" GUID="tR12oPbNr0KF3HqJLksgKA==" info="Kill fireflies and use their essences on alchemy table &#xA;&#xA;Event -&gt; Interact with Orrian grub holes + AoE kill" script-focus="Teh_Heart_Follower(En50cAqz/0mJjp2l6oMwpw==)" />
+		<POI MapID="73" xpos="-505.957" ypos="16.0444" zpos="-764.307" type="tt.mc.cm.rm.waypoints" GUID="4VYv96LJ0EutnKWlAtPPjw==" />
+		<POI MapID="73" xpos="-480.904" ypos="4.5112" zpos="-138.557" type="tt.mc.cm.rm.waypoints" GUID="Z2hNEvfjaU6PtiYIuazX1w==" />
+		<POI MapID="73" xpos="-477.655" ypos="3.55365" zpos="-121.197" type="tt.mc.cm.mm.beetle" GUID="q9ZksvsBH02gl2p8nipEjg==" />
+		<POI MapID="73" xpos="-475.854" ypos="-49.1174" zpos="163.147" type="tt.mc.cm.rm.points_of_interest" GUID="qMAXtbgtMkibN0XEJhab3Q==" />
+		<POI MapID="73" xpos="-473.875" ypos="-48.8742" zpos="164.812" type="tt.mc.cm.rm.finish" GUID="SHVscZVgS0SW5sSbcTpcoA==" copy="[&amp;BLABAAA=]" />
+		<POI MapID="73" xpos="-470.757" ypos="1.43648" zpos="-142.663" type="tt.mc.h.chm.start_heart" GUID="eNqgP7owkUahjOtSscoNKg==" info="Help Quaggans, eliminate skale and kill crows/rats" script-focus="Teh_Heart_Follower(VRkLHC+xgk6DkJrY6i+hjA==)" />
+		<POI MapID="73" xpos="-464.861" ypos="-0.307265" zpos="4.97663" type="tt.mc.h.chm.finish_heart" GUID="VRkLHC+xgk6DkJrY6i+hjA==" />
+		<POI MapID="73" xpos="-459.062" ypos="13.5223" zpos="-730.617" type="tt.mc.cm.mm.raptor" GUID="5ZPGhG2OeEGTP1/Rqlq3rA==" />
+		<POI MapID="73" xpos="-345.304" ypos="-60.0537" zpos="775.466" type="tt.mc.cm.rm.points_of_interest" GUID="qfAQYTDy0k+2AcX64+HX2w==" />
+		<POI MapID="73" xpos="-335.623" ypos="-70.1669" zpos="-106.522" type="tt.mc.h.chm.interact" GUID="UmEDf7BW+0mJgyqRWm8XkQ==" />
+		<POI MapID="73" xpos="-325.676" ypos="-68.6164" zpos="-161.4" type="tt.mc.h.chm.interact" GUID="FDeyj1UEw06Hgj0KuGgA5Q==" />
+		<POI MapID="73" xpos="-319.929" ypos="-69.6374" zpos="601.716" type="tt.mc.h.chm.interact" GUID="jh3tkBoSLEu98hAYpuB/pQ==" />
+		<POI MapID="73" xpos="-306.867" ypos="29.435" zpos="-900.873" type="tt.mc.cm.mm.griffon" GUID="LClBYS0jI06f/Pr+LX4z1g==" />
+		<POI MapID="73" xpos="-305.819" ypos="29.3841" zpos="-903.989" type="tt.mc.cm.rm.vistas" GUID="WuAsY4hIKUSviZNzf/E6Jw==" />
+		<POI MapID="73" xpos="-295.209" ypos="3.73218" zpos="-892.798" type="tt.mc.cm.mm.springer" GUID="UlLQU31j5kqO8DwM4m6dhg==" />
+		<POI MapID="73" xpos="-289.636" ypos="-45.1868" zpos="537.061" type="tt.mc.h.chm.interact" GUID="ZFKMrluL4kCjKxFPN5fPPw==" />
 		<POI MapID="73" xpos="-287.06" ypos="-69.2135" zpos="624.826" type="tt.mc.cm.wm.wpswirl" GUID="bgVLG831a0+nvEOcNaiZaw==" />
-		<POI MapID="73" xpos="-43.9913" ypos="43.6595" zpos="593.149" type="tt.mc.cm.mm.beetle" GUID="V6E9Mobt5EamMpQ2Fc31xg==" />
-		<POI MapID="73" xpos="221.753" ypos="18.5521" zpos="975.752" type="tt.mc.cm.mm.beetle" GUID="BjZwYySkvEu3OUCEx19uIw==" />
-		<POI MapID="73" xpos="529.156" ypos="26.9438" zpos="874.966" type="tt.mc.cm.mm.beetle" GUID="EYRxpMsnPkOyq7VJ4TRRUw==" />
-		<POI MapID="73" xpos="446.515" ypos="14.2975" zpos="500.213" type="tt.mc.cm.mm.beetle" GUID="0vwALgckx0yXjDI3+4N9Ow==" />
-		<POI MapID="73" xpos="245.293" ypos="0.331836" zpos="705.48" type="tt.mc.cm.mm.beetle" GUID="dakB20PJ306M5kAD+8/3zg==" />
-		<POI MapID="73" xpos="-95.7293" ypos="1.14945" zpos="801.073" type="tt.mc.cm.mm.beetle" GUID="y88xqy1LlEuWdo1uJaHNXA==" />
-		<POI MapID="73" xpos="-169.576" ypos="29.4673" zpos="251.833" type="tt.mc.cm.mm.griffon" GUID="PreVclAwr0WSzQi+u7Y5PQ==" />
+		<POI MapID="73" xpos="-285.148" ypos="-67.8656" zpos="626.596" type="tt.mc.cm.rm.points_of_interest" GUID="vQ+r8lUz/UKOkgfgyOwQLA==" />
+		<POI MapID="73" xpos="-285.624" ypos="-70.0052" zpos="569.664" type="tt.mc.h.chm.interact" GUID="tFeYN/fdnE60ke1/H7ywog==" />
+		<POI MapID="73" xpos="-278.515" ypos="-76.1061" zpos="614.741" type="tt.mc.h.chm.interact" GUID="Lq4mYv/dB0SfbZX4c3PmIw==" />
+		<POI MapID="73" xpos="-278.799" ypos="-81.056" zpos="-140.628" type="tt.mc.h.chm.interact" GUID="KUYItI9S9ECt4UdFZhH8pA==" />
+		<POI MapID="73" xpos="-275.344" ypos="-1.05622" zpos="-143.212" type="tt.mc.cm.mm.skimmer" GUID="hNa7TqLD+k2bxRUr6WTKAQ==" />
+		<POI MapID="73" xpos="-286.695" ypos="-65.3183" zpos="628.517" type="tt.mc.h.chm.finish_heart" GUID="OI/j0kyIRUeBKOUJbJ9iFQ==" />
+		<POI MapID="73" xpos="-265.387" ypos="-51.1528" zpos="670.519" type="tt.mc.h.chm.start_heart" GUID="WULquwx83kq+hwE8LAqNyg==" info="Interact with capacitors and slay Inquest" script-focus="Teh_Heart_Follower_2(OI/j0kyIRUeBKOUJbJ9iFQ==,b6fjTfbgw0259c9HCg25WA==)" />
+		<POI MapID="73" xpos="-262.458" ypos="-67.2426" zpos="591.762" type="tt.mc.h.chm.interact" GUID="1yZ3ilS2s0ePM5jnF3zZjg==" />
+		<POI MapID="73" xpos="-254.436" ypos="-51.8761" zpos="-149.682" type="tt.mc.h.chm.finish_heart" GUID="IUgLZgqBMUerOhls0y4ZZg==" />
+		<POI MapID="73" xpos="-252.391" ypos="-42.1108" zpos="703.781" type="tt.mc.cm.rm.waypoints" GUID="oppasCUrcU+13/XbiVKn/A==" />
+		<POI MapID="73" xpos="-251.219" ypos="-55.5657" zpos="619.378" type="tt.mc.h.chm.interact" GUID="ITsS7BXLPECucT1fMqc6oQ==" />
+		<POI MapID="73" xpos="-248.678" ypos="-85.7891" zpos="-130.521" type="tt.mc.h.chm.interact" GUID="wzGg4qsj+EyugnwdBx8AuQ==" />
+		<POI MapID="73" xpos="-241.764" ypos="-80.1692" zpos="-150.647" type="tt.mc.cm.rm.points_of_interest" GUID="phnQSBKE1EKNSuR3BtbR8g==" />
+		<POI MapID="73" xpos="-239.998" ypos="-69.8933" zpos="-146.365" type="tt.mc.h.chm.start_heart" GUID="pz4ehBa84kiJvF4NMD52rg==" info="Grab weapon and give it to guards, kill fish" script-focus="Teh_Heart_Follower(IUgLZgqBMUerOhls0y4ZZg==)" />
+		<POI MapID="73" xpos="-227.31" ypos="26.3214" zpos="241.362" type="tt.mc.cm.rm.vistas" GUID="KHKbysjd9kyD4NaEKvZKEA==" />
+		<POI MapID="73" xpos="-218.402" ypos="50.7176" zpos="941.21" type="tt.mc.h.chm.finish_heart" GUID="riiAMoV72kekl21pbafiVg==" />
+		<POI MapID="73" xpos="-218.993" ypos="51.02" zpos="944.139" type="tt.mc.h.chm.tradingpost" GUID="DNBhfhpH+EqTmh3KunwUFA==" />
+		<POI MapID="73" xpos="-217.011" ypos="50.3096" zpos="930.466" type="tt.mc.cm.mm.beetle" GUID="7B/M7iG4T0WbQsROgnS64A==" />
+		<POI MapID="73" xpos="-213.583" ypos="-102.288" zpos="-192.127" type="tt.mc.h.chm.interact" GUID="9OwYGmXYMk2IyCxfOPRDvw==" />
+		<POI MapID="73" xpos="-212.962" ypos="50.2209" zpos="960.761" type="tt.mc.h.chm.finish_heart" GUID="BNNbcjBR10SbbWxvXvyErg==" />
+		<POI MapID="73" xpos="-204.984" ypos="50.0236" zpos="943.74" type="tt.mc.h.chm.start_heart" GUID="72yXaDs9pE6Wm4+Ziq8IPg==" info="Turn in Cursed Pirate Artifacts"/>
+		<POI MapID="73" xpos="-203.638" ypos="49.5577" zpos="942.97" type="tt.mc.cm.rm.points_of_interest" GUID="v1MCSrKI40a/oEsfsPxRkA==" />
 		<POI MapID="73" xpos="-198.612" ypos="44.2205" zpos="171.412" type="tt.mc.cm.mm.springertogriff" GUID="tZ11VSTFdEKpZpKQTkR30A==" />
+		<POI MapID="73" xpos="-169.576" ypos="29.4673" zpos="251.833" type="tt.mc.cm.mm.griffon" GUID="PreVclAwr0WSzQi+u7Y5PQ==" />
+		<POI MapID="73" xpos="-159.867" ypos="29.0191" zpos="238.809" type="tt.mc.cm.rm.points_of_interest" GUID="7N8PC2y/Y0yfDJOmj/cpgQ==" />
 		<POI MapID="73" xpos="-151.093" ypos="14.2579" zpos="251.53" type="tt.mc.cm.mm.skyscale" GUID="RmV2dFyyoUqeOVOrJ90XmQ==" />
-		<POI MapID="73" xpos="167.429" ypos="2.48434" zpos="-43.2833" type="tt.mc.cm.mm.beetle" GUID="9Iq/XQhJVkaURwrMPdsAdQ==" />
-		<POI MapID="73" xpos="277.552" ypos="23.1703" zpos="-150.005" type="tt.mc.cm.mm.beetle" GUID="Yls5RyEiJEyk1YIyLQxFCg==" />
-		<POI MapID="73" xpos="151.277" ypos="9.50512" zpos="-98.4094" type="tt.mc.cm.mm.beetle" GUID="eXmtwMFno0i9M1Zhb+xV9Q==" />
+		<POI MapID="73" xpos="-147.054" ypos="11.3414" zpos="94.4681" type="tt.mc.cm.rm.waypoints" GUID="Am+H4I5xx0unBVRBbJ4x7g==" />
+		<POI MapID="73" xpos="-147.766" ypos="2.62091" zpos="74.0351" type="tt.mc.cm.mm.skimmer" GUID="KqMDOIXReEOvYbVcnVj3vQ==" />
+		<POI MapID="73" xpos="-143.89" ypos="1.43919" zpos="90.0605" type="tt.mc.cm.wm.circle" GUID="Uw4BWnU6gUyDIBY13ByDYA==" />
 		<POI MapID="73" xpos="-139.357" ypos="27.6683" zpos="279.726" type="tt.mc.cm.rm.hourglass" GUID="ezVpqD1ByUyuqNKWXd/nQA==" />
-		<POI MapID="73" xpos="-477.331" ypos="-49.7365" zpos="164.083" type="tt.mc.cm.rm.hourglass" GUID="a4Rc9VL2OkGuyFzQqfMCyw==" info="If you took the hourglass route because Taidha was up, take Circle WP and get the PoI and Vista that you missed" />
+		<POI MapID="73" xpos="-112.777" ypos="2.93756" zpos="821.104" type="tt.mc.h.chm.start_heart" GUID="om/5AiCc/UC1wA9YUgJqWA==" info="Bring in crabs, cull skale" script-focus="Teh_Heart_Follower(DKybtkG+FUy73jem1ghAaw==)" />
+		<POI MapID="73" xpos="-107.502" ypos="3.6267" zpos="-498.532" type="tt.mc.cm.rm.waypoints" GUID="/xLwLu3Of0S7Chmoaor3mQ==" />
+		<POI MapID="73" xpos="-104.88" ypos="0.813038" zpos="-512.508" type="tt.mc.cm.mm.skimmer" GUID="+ybQoYB4V0mBWfXN6LPayg==" />
+		<POI MapID="73" xpos="-103.084" ypos="-0.467228" zpos="786.085" type="tt.mc.h.chm.interact" GUID="bop9h29SX0WjdTLTK9EcsQ==" />
+		<POI MapID="73" xpos="-99.7594" ypos="3.75823" zpos="-505.81" type="tt.mc.cm.mm.skimmer" GUID="Iw9Vjc6O6EyL+dd8vB+0hg==" />
+		<POI MapID="73" xpos="-97.8148" ypos="16.3486" zpos="-423.235" type="tt.mc.h.chm.finish_heart" GUID="bBKosRMM/E25CQvRp3B6CA==" />
+		<POI MapID="73" xpos="-96.8171" ypos="6.09887" zpos="-497.599" type="tt.mc.cm.wm.star" GUID="5HZyjzhm1UaR2CPonx808Q==" />
+		<POI MapID="73" xpos="-95.7293" ypos="1.14945" zpos="801.073" type="tt.mc.cm.mm.beetle" GUID="y88xqy1LlEuWdo1uJaHNXA==" />
+		<POI MapID="73" xpos="-87.3011" ypos="-124.17" zpos="-627.109" type="tt.mc.cm.rm.waypoints" GUID="iHuc0XrUtkmQi/qxfEPc9Q==" />
+		<POI MapID="73" xpos="-83.1732" ypos="-124.068" zpos="-626.914" type="tt.mc.cm.wm.wpstar" GUID="heGH8ScaT0un+mSUdVjpHw==" copy="[&amp;BK0BAAA=]" />
+		<POI MapID="73" xpos="-234.482" ypos="1.37625" zpos="783.644" type="tt.mc.h.chm.finish_heart" GUID="DKybtkG+FUy73jem1ghAaw==" />
+		<POI MapID="73" xpos="-83.6059" ypos="-0.283742" zpos="787.886" type="tt.mc.h.chm.interact" GUID="6xAh44Go0kSMxXOjzD8U/w==" />
+		<POI MapID="73" xpos="-67.0424" ypos="0.036198" zpos="800.734" type="tt.mc.h.chm.interact" GUID="6FCMF6BDNEC4KLd5tnLMlw==" />
+		<POI MapID="73" xpos="-64.9037" ypos="-252.126" zpos="-646.595" type="tt.mc.cm.wm.wpstar" GUID="JBylltcTOEG9o0+uc8Nlgw==" copy="[&amp;BK0BAAA=]" />
+		<POI MapID="73" xpos="-61.4523" ypos="-0.313244" zpos="782.284" type="tt.mc.h.chm.interact" GUID="VZjDIZswQESxMuEoYcsW0Q==" />
+		<POI MapID="73" xpos="-51.8559" ypos="44.4033" zpos="595.47" type="tt.mc.cm.rm.points_of_interest" GUID="C48CKNLWXUSO+RII0GILGg==" />
+		<POI MapID="73" xpos="-43.9913" ypos="43.6595" zpos="593.149" type="tt.mc.cm.mm.beetle" GUID="V6E9Mobt5EamMpQ2Fc31xg==" />
+		<POI MapID="73" xpos="-39.9782" ypos="-0.0348059" zpos="811.203" type="tt.mc.h.chm.interact" GUID="DR5YSZX+5UuXCTMqNQO89Q==" />
+		<POI MapID="73" xpos="-29.5629" ypos="-0.0844809" zpos="800.647" type="tt.mc.h.chm.interact" GUID="BcQhMii42kSq9zIe/g/VUg==" />
 		<POI MapID="73" xpos="42.2595" ypos="35.7706" zpos="-337.242" type="tt.mc.cm.rm.points_of_interest" GUID="l13Cq3ndP0O3dZvFfOC+8g==" />
 		<POI MapID="73" xpos="56.5617" ypos="36.8529" zpos="518.351" type="tt.mc.cm.rm.waypoints" GUID="U2FwMQfIgEGuDI+L5Yi/RA==" />
 		<POI MapID="73" xpos="63.6879" ypos="0.433911" zpos="148.49" type="tt.mc.cm.mm.raptor" GUID="pqLC7aCkAkOKwkWLKNtBUw==" />
 		<POI MapID="73" xpos="80.5086" ypos="71.1496" zpos="600.288" type="tt.mc.cm.rm.vistas" GUID="OpYVDy7YgEaiMnsIdRXSTA==" />
+		<POI MapID="73" xpos="85.7235" ypos="0.788974" zpos="271.589" type="tt.mc.h.chm.start_heart" GUID="/ZjybOTpEUSfQ1NjnjpQQQ==" info="Turn in Pirate Outfits &#xA;&#xA;Event -&gt; come back later or kill mobs" infoRange="20" />
 		<POI MapID="73" xpos="91.3153" ypos="0.844017" zpos="279.846" type="tt.mc.h.chm.tradingpost" GUID="H111w5SHO0CPHysNyf0fCQ==" />
 		<POI MapID="73" xpos="92.9478" ypos="2.22243" zpos="274.563" type="tt.mc.h.chm.finish_heart" GUID="kID2grBS+kaPciSYOc1sZg==" />
 		<POI MapID="73" xpos="97.541" ypos="41.3249" zpos="-281.724" type="tt.mc.cm.mm.griffon" GUID="3eipW634WkKmK6bk1W0Ldw==" />
 		<POI MapID="73" xpos="97.7829" ypos="57.3869" zpos="-243.699" type="tt.mc.cm.rm.vistas" GUID="QB1Rg8Y2fUW3KgsFrNeE+g==" />
-		<POI MapID="73" xpos="144.204" ypos="27.143" zpos="-257.765" type="tt.mc.h.chm.start_heart" GUID="8UmeEzU9dkO+OHI6J5Ugmg==" info="Kill Risen and destroy dredge tech" script-focus="Teh_Heart_Follower(eonCv6Am20qhAcRGKLomaA==)" />
+		<POI MapID="73" xpos="144.204" ypos="27.143" zpos="-257.765" type="tt.mc.h.chm.start_heart" GUID="8UmeEzU9dkO+OHI6J5Ugmg==" info="Kill Risen and destroy dredge tech" script-focus="Teh_Heart_Follower(bBKosRMM/E25CQvRp3B6CA==)" />
 		<POI MapID="73" xpos="144.568" ypos="19.0888" zpos="191.249" type="tt.mc.cm.rm.points_of_interest" GUID="XdMCIB6UikG+Z2uG4Djq3g==" />
+		<POI MapID="73" xpos="151.277" ypos="9.50512" zpos="-98.4094" type="tt.mc.cm.mm.beetle" GUID="eXmtwMFno0i9M1Zhb+xV9Q==" />
 		<POI MapID="73" xpos="152.004" ypos="8.81378" zpos="-92.3364" type="tt.mc.cm.wm.square" GUID="TMKiAmr8+Ee7jkXmZOty/g==" />
 		<POI MapID="73" xpos="158.377" ypos="9.25772" zpos="-92.0617" type="tt.mc.cm.rm.waypoints" GUID="oZogVbyK70iuD075SlbWlw==" />
-		<POI MapID="73" xpos="185.349" ypos="5.82115" zpos="888.182" type="tt.mc.h.chm.finish_heart" GUID="t6jPzZG5n0Kfl2eWd7Zvqg==" />
-		<POI MapID="73" xpos="263.798" ypos="20.5508" zpos="-150.901" type="tt.mc.h.chm.start_heart" GUID="Dc1WVXsdD0yk1d9EXsXbsA==" info="Turn in Skritt Artifacts" script-focus="Teh_Heart_Follower(eonCv6Am20qhAcRGKLomaA==)" />
+		<POI MapID="73" xpos="167.429" ypos="2.48434" zpos="-43.2833" type="tt.mc.cm.mm.beetle" GUID="9Iq/XQhJVkaURwrMPdsAdQ==" />
+		<POI MapID="73" xpos="201.938" ypos="2.0348" zpos="875.129" type="tt.mc.h.chm.finish_heart" GUID="t6jPzZG5n0Kfl2eWd7Zvqg==" />
 		<POI MapID="73" xpos="204.935" ypos="2.32656" zpos="876.254" type="tt.mc.h.chm.interact" GUID="cWnXITpLzk+PRfdEFYex+w==" />
 		<POI MapID="73" xpos="208.107" ypos="0.183306" zpos="567.721" type="tt.mc.cm.rm.points_of_interest" GUID="nN/xxVciSkirUYLykHP//g==" />
 		<POI MapID="73" xpos="209.629" ypos="0.285214" zpos="566.806" type="tt.mc.cm.wm.wparrow" GUID="Izx58qbODk61n+oWBytzgA==" copy="[&amp;BKMBAAA=]" />
 		<POI MapID="73" xpos="213.351" ypos="15.4822" zpos="965.868" type="tt.mc.cm.mm.beetle" GUID="TVbinbn22kGBoZN8oDTNzQ==" />
 		<POI MapID="73" xpos="216.199" ypos="15.0489" zpos="964.224" type="tt.mc.cm.rm.2" GUID="SmunO3ujLUe5eV/IlLLdkQ==" />
-		<POI MapID="73" xpos="225.59" ypos="10.9422" zpos="963.258" type="tt.mc.h.chm.start_heart" GUID="Ri5p8xHIqk+6tUpyr2u66Q==" info="Kill all marsh drakes, then kill them again when you TP to arrow" script-focus="Teh_Heart_Follower(t6jPzZG5n0Kfl2eWd7Zvqg==)" />
 		<POI MapID="73" xpos="219.18" ypos="12.9368" zpos="958.666" type="tt.mc.cm.rm.1" GUID="3pEM6+H0/068x4p2RuLhdQ==" />
+		<POI MapID="73" xpos="221.753" ypos="18.5521" zpos="975.752" type="tt.mc.cm.mm.beetle" GUID="BjZwYySkvEu3OUCEx19uIw==" />
 		<POI MapID="73" xpos="221.858" ypos="15.021" zpos="964.478" type="tt.mc.cm.wm.arrow" GUID="M9apMtbL00WvR88dQGkbAA==" />
 		<POI MapID="73" xpos="224.523" ypos="18.7548" zpos="976.178" type="tt.mc.cm.rm.start" GUID="RqKfARO/+EWIhBoUMBxKCw==" />
+		<POI MapID="73" xpos="203.145" ypos="6.4603" zpos="943.696" type="tt.mc.h.chm.start_heart" GUID="Ri5p8xHIqk+6tUpyr2u66Q==" info="Kill all marsh drakes, then kill them again when you TP to arrow" script-focus="Teh_Heart_Follower(t6jPzZG5n0Kfl2eWd7Zvqg==)" />
 		<POI MapID="73" xpos="229.124" ypos="-1.12136" zpos="102.408" type="tt.mc.cm.mm.skimmer" GUID="Z1sB4rklf0quq9CY4Fki+g==" />
+		<POI MapID="73" xpos="233.641" ypos="1.28183" zpos="692.996" type="tt.mc.cm.mm.jackal" GUID="A/kqJ5DU00CARLEhv3lMWw==" />
 		<POI MapID="73" xpos="241.373" ypos="0.695161" zpos="692.252" type="tt.mc.cm.rm.waypoints" GUID="Sn5rJHy9ckamRgyyYQOyOg==" />
+		<POI MapID="73" xpos="242.722" ypos="0.863234" zpos="687.393" type="tt.mc.cm.wm.swirl" GUID="KtGTf3x+U0uopTFj8eD+qQ==" />
+		<POI MapID="73" xpos="245.293" ypos="0.331836" zpos="705.48" type="tt.mc.cm.mm.beetle" GUID="dakB20PJ306M5kAD+8/3zg==" />
+		<POI MapID="73" xpos="263.798" ypos="20.5508" zpos="-150.901" type="tt.mc.h.chm.start_heart" GUID="Dc1WVXsdD0yk1d9EXsXbsA==" info="Turn in Skritt Artifacts" />
 		<POI MapID="73" xpos="268.908" ypos="22.4525" zpos="-149.658" type="tt.mc.h.chm.tradingpost" GUID="mQ7dUe9uA0+cJju49QIFsQ==" />
 		<POI MapID="73" xpos="270.132" ypos="21.7015" zpos="-154.126" type="tt.mc.h.chm.finish_heart" GUID="eonCv6Am20qhAcRGKLomaA==" />
+		<POI MapID="73" xpos="277.552" ypos="23.1703" zpos="-150.005" type="tt.mc.cm.mm.beetle" GUID="Yls5RyEiJEyk1YIyLQxFCg==" />
 		<POI MapID="73" xpos="293.081" ypos="0.269146" zpos="110.931" type="tt.mc.cm.rm.points_of_interest" GUID="w4nmgD45NU6SOAYLGS0TqQ==" />
 		<POI MapID="73" xpos="305.893" ypos="44.9739" zpos="-301.293" type="tt.mc.h.chm.interact" GUID="B+s6kATsIkOS8hXSG+U25Q==" />
 		<POI MapID="73" xpos="401.802" ypos="28.0705" zpos="878.304" type="tt.mc.cm.mm.griffon" GUID="schGztoQpEGKsfRTcb/I9Q==" />
+		<POI MapID="73" xpos="446.515" ypos="14.2975" zpos="500.213" type="tt.mc.cm.mm.beetle" GUID="0vwALgckx0yXjDI3+4N9Ow==" />
 		<POI MapID="73" xpos="447.595" ypos="54.4228" zpos="-238.639" type="tt.mc.cm.rm.points_of_interest" GUID="nvqayFRS50aFkP8cKVEfDA==" />
+		<POI MapID="73" xpos="448.072" ypos="57.7893" zpos="-241.271" type="tt.mc.cm.mm.skyscale" GUID="+im737vXvU6TFuxvdaRB4A==" />
 		<POI MapID="73" xpos="465.16" ypos="14.0983" zpos="515.759" type="tt.mc.cm.rm.points_of_interest" GUID="J4pNQTuB+USrM7Yg3+FPDQ==" />
 		<POI MapID="73" xpos="468.246" ypos="33.1074" zpos="940.454" type="tt.mc.cm.rm.vistas" GUID="zvA7+OmXI0iPj1uKiXEmkA==" />
 		<POI MapID="73" xpos="490.753" ypos="20.6314" zpos="117.163" type="tt.mc.cm.rm.points_of_interest" GUID="QkQ5tEdu10u2J/OHpcVp/w==" />
 		<POI MapID="73" xpos="494.349" ypos="22.676" zpos="517.31" type="tt.mc.h.chm.finish_heart" GUID="pO08sc8x+ESj/OwTeJgDzA==" />
-		<POI MapID="73" xpos="523.193" ypos="11.6068" zpos="543.939" type="tt.mc.h.chm.start_heart" GUID="ETbSisdo7USfM0w5vom3Sw==" info="Kill buccaneers/cannons" script-focus="Teh_Heart_Follower(pO08sc8x+ESj/OwTeJgDzA==)" />
 		<POI MapID="73" xpos="501.719" ypos="11.0513" zpos="579.371" type="tt.mc.cm.mm.jackal" GUID="Y+yUNR1OdEWzQ/I/LTv9gg==" />
 		<POI MapID="73" xpos="503.779" ypos="22.0172" zpos="609.062" type="tt.mc.cm.rm.vistas" GUID="zQc/KnHedEO4sEnqmRQELw==" />
 		<POI MapID="73" xpos="504.517" ypos="0.0775135" zpos="323.478" type="tt.mc.cm.rm.waypoints" GUID="ehnKtiqD3025EEKhqKRzkQ==" />
+		<POI MapID="73" xpos="506.29" ypos="124.99" zpos="-290.108" type="tt.mc.cm.mm.griffon" GUID="cvHfKHuih0WbbonDg0twvg==" />
 		<POI MapID="73" xpos="517.777" ypos="-0.0738421" zpos="607.9" type="tt.mc.cm.mm.springer" GUID="Qij13exuBU6DhlmKTpM/qA==" />
+		<POI MapID="73" xpos="523.193" ypos="11.6068" zpos="543.939" type="tt.mc.h.chm.start_heart" GUID="ETbSisdo7USfM0w5vom3Sw==" info="Kill buccaneers/cannons" script-focus="Teh_Heart_Follower(pO08sc8x+ESj/OwTeJgDzA==)" />
+		<POI MapID="73" xpos="529.156" ypos="26.9438" zpos="874.966" type="tt.mc.cm.mm.beetle" GUID="EYRxpMsnPkOyq7VJ4TRRUw==" />
 		<POI MapID="73" xpos="530.528" ypos="22.6469" zpos="492.845" type="tt.mc.h.chm.kill" GUID="YIUH4CrDVU27258y7UMG9A==" />
+		<POI MapID="73" xpos="530.637" ypos="8.65757" zpos="-840.465" type="tt.mc.cm.rm.exit_map" GUID="8zGI91cK8UCGM+Q4HPGW+g==" />
 		<POI MapID="73" xpos="532.229" ypos="21.3438" zpos="502.236" type="tt.mc.h.chm.kill" GUID="AuylYDQtDUWcYm0Oc/WYLw==" />
 		<POI MapID="73" xpos="532.977" ypos="14.7695" zpos="536.594" type="tt.mc.h.chm.kill" GUID="CMgEgV91HUOOibfvO4sqQQ==" />
 		<POI MapID="73" xpos="539.796" ypos="19.8802" zpos="511.941" type="tt.mc.h.chm.kill" GUID="KqmEFzaeuUuJEYd/Tq9XZA==" />
@@ -6277,7 +6344,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="73" xpos="548.523" ypos="1.93556" zpos="-800.209" type="tt.mc.cm.rm.waypoints" GUID="LRHQqiiQ202RA2s1x2Kcmw==" />
 		<POI MapID="73" xpos="554.456" ypos="37.6271" zpos="-458.166" type="tt.mc.cm.rm.points_of_interest" GUID="JP9WWp4Hxk6dPjgvcheCUw==" />
 		<POI MapID="73" xpos="567.374" ypos="38.0945" zpos="840.919" type="tt.mc.cm.rm.waypoints" GUID="UbbSKw6i2kCSXlS3DRgibw==" />
-		<POI MapID="73" xpos="737.326" ypos="31.2324" zpos="551.035" type="tt.mc.h.chm.start_heart" GUID="zzITttdV2EW53iOtznl03g==" info="Throw rum, fight pirates (stack conditions)" script-focus="Teh_Heart_Follower(gYkPrZ6dv06suL0r1wQOXA==)" />
 		<POI MapID="73" xpos="606.788" ypos="2.64452" zpos="-836.587" type="tt.mc.h.hsm.number1" GUID="fuSnIVbZ3k61dthXqeyyzQ==" />
 		<POI MapID="73" xpos="613.551" ypos="4.69709" zpos="-802.541" type="tt.mc.h.hsm.number2" GUID="P71q3uIclECI0VzOfuc5/Q==" />
 		<POI MapID="73" xpos="615.212" ypos="4.08699" zpos="-806.158" type="tt.mc.h.hsm.number2" GUID="4X3genrnX0KwIuyEegkJwA==" />
@@ -6285,7 +6351,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="73" xpos="621.642" ypos="1.00668" zpos="-791.302" type="tt.mc.h.chm.talk" GUID="tXOLUFGrmUqbxq6upd8dNg==" />
 		<POI MapID="73" xpos="623.836" ypos="-0.0540911" zpos="-787.201" type="tt.mc.h.chm.interact" GUID="/QMxFn5r1ESnq/qnVI3AIQ==" />
 		<POI MapID="73" xpos="626.304" ypos="35.5055" zpos="-476.213" type="tt.mc.cm.rm.waypoints" GUID="t22xsvspVEqZahlf/7iauQ==" />
-		<POI MapID="73" xpos="630.459" ypos="0.274727" zpos="-796.345" type="tt.mc.h.chm.start_heart" GUID="9GfeAwla+ki7Dh6XvX3f2Q==" info="Make pots and use them on spider hatchlings/cage | Coral, Mushroom, Fern | Vine, Mushroom, Coral" script-focus="Teh_Heart_Follower(QX4SWetP4kmyp4Ouisx6ow==)" />
+		<POI MapID="73" xpos="630.459" ypos="0.274727" zpos="-796.345" type="tt.mc.h.chm.start_heart" GUID="9GfeAwla+ki7Dh6XvX3f2Q==" info="Make pots and use them on spider hatchlings/cage | Coral, Mushroom, Fern | Vine, Mushroom, Coral" infoRange="20" />
 		<POI MapID="73" xpos="633.754" ypos="-0.0184428" zpos="-799.289" type="tt.mc.cm.rm.points_of_interest" GUID="BT9WaqNUSUS/8ZlH6nB4lA==" />
 		<POI MapID="73" xpos="635.164" ypos="-0.19292" zpos="-798.074" type="tt.mc.cm.wm.wpsquare" GUID="WTGLe7y+wU6LY7D88LfjGg==" copy="[&amp;BKoBAAA=]" />
 		<POI MapID="73" xpos="635.175" ypos="0.135008" zpos="-812.602" type="tt.mc.h.hsm.number1" GUID="cQw4ggrDHkiLoOGl6/34tw==" />
@@ -6297,75 +6363,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="73" xpos="678.175" ypos="1.28068" zpos="-187.185" type="tt.mc.cm.mm.skimmer" GUID="8Bi8xIO2CkSw+ThWimgi1A==" />
 		<POI MapID="73" xpos="682.186" ypos="50.8427" zpos="-668.45" type="tt.mc.cm.rm.vistas" GUID="7vYKPTcWsUm4/ugcmbKtjQ==" />
 		<POI MapID="73" xpos="683.852" ypos="0.637961" zpos="-193.817" type="tt.mc.cm.rm.points_of_interest" GUID="7pKB9J5xWEywneYwp2BbPw==" />
-		<POI MapID="73" xpos="733.958" ypos="31.5385" zpos="528.725" type="tt.mc.h.chm.finish_heart" GUID="gYkPrZ6dv06suL0r1wQOXA==" />
-		<POI MapID="73" xpos="-29.5629" ypos="-0.0844809" zpos="800.647" type="tt.mc.h.chm.interact" GUID="BcQhMii42kSq9zIe/g/VUg==" />
-		<POI MapID="73" xpos="-39.9782" ypos="-0.0348059" zpos="811.203" type="tt.mc.h.chm.interact" GUID="DR5YSZX+5UuXCTMqNQO89Q==" />
-		<POI MapID="73" xpos="-51.8559" ypos="44.4033" zpos="595.47" type="tt.mc.cm.rm.points_of_interest" GUID="C48CKNLWXUSO+RII0GILGg==" />
-		<POI MapID="73" xpos="-61.4523" ypos="-0.313244" zpos="782.284" type="tt.mc.h.chm.interact" GUID="VZjDIZswQESxMuEoYcsW0Q==" />
-		<POI MapID="73" xpos="-64.9037" ypos="-252.126" zpos="-646.595" type="tt.mc.cm.wm.wpstar" GUID="JBylltcTOEG9o0+uc8Nlgw==" copy="[&amp;BK0BAAA=]" />
-		<POI MapID="73" xpos="-67.0424" ypos="0.036198" zpos="800.734" type="tt.mc.h.chm.interact" GUID="6FCMF6BDNEC4KLd5tnLMlw==" />
-		<POI MapID="73" xpos="-83.1732" ypos="-124.068" zpos="-626.914" type="tt.mc.cm.wm.wpstar" GUID="heGH8ScaT0un+mSUdVjpHw==" copy="[&amp;BK0BAAA=]" />
-		<POI MapID="73" xpos="-83.1971" ypos="0.71357" zpos="803.809" type="tt.mc.h.chm.finish_heart" GUID="DKybtkG+FUy73jem1ghAaw==" />
-		<POI MapID="73" xpos="-83.6059" ypos="-0.283742" zpos="787.886" type="tt.mc.h.chm.interact" GUID="6xAh44Go0kSMxXOjzD8U/w==" />
-		<POI MapID="73" xpos="-87.3011" ypos="-124.17" zpos="-627.109" type="tt.mc.cm.rm.waypoints" GUID="iHuc0XrUtkmQi/qxfEPc9Q==" />
-		<POI MapID="73" xpos="-96.8171" ypos="6.09887" zpos="-497.599" type="tt.mc.cm.wm.star" GUID="5HZyjzhm1UaR2CPonx808Q==" />
-		<POI MapID="73" xpos="-97.8148" ypos="16.3486" zpos="-423.235" type="tt.mc.h.chm.finish_heart" GUID="bBKosRMM/E25CQvRp3B6CA==" />
-		<POI MapID="73" xpos="-99.7594" ypos="3.75823" zpos="-505.81" type="tt.mc.cm.mm.skimmer" GUID="Iw9Vjc6O6EyL+dd8vB+0hg==" />
-		<POI MapID="73" xpos="-103.084" ypos="-0.467228" zpos="786.085" type="tt.mc.h.chm.interact" GUID="bop9h29SX0WjdTLTK9EcsQ==" />
-		<POI MapID="73" xpos="-104.88" ypos="0.813038" zpos="-512.508" type="tt.mc.cm.mm.skimmer" GUID="+ybQoYB4V0mBWfXN6LPayg==" />
-		<POI MapID="73" xpos="-107.502" ypos="3.6267" zpos="-498.532" type="tt.mc.cm.rm.waypoints" GUID="/xLwLu3Of0S7Chmoaor3mQ==" />
-		<POI MapID="73" xpos="85.7235" ypos="0.788974" zpos="271.589" type="tt.mc.h.chm.start_heart" GUID="/ZjybOTpEUSfQ1NjnjpQQQ==" info="Turn in Pirate Outfits &#xA;&#xA;Event -&gt; come back later or kill mobs" infoRange="20" script-focus="Teh_Heart_Follower(kID2grBS+kaPciSYOc1sZg==)" />
-		<POI MapID="73" xpos="-143.89" ypos="1.43919" zpos="90.0605" type="tt.mc.cm.wm.circle" GUID="Uw4BWnU6gUyDIBY13ByDYA==" />
-		<POI MapID="73" xpos="-147.054" ypos="11.3414" zpos="94.4681" type="tt.mc.cm.rm.waypoints" GUID="Am+H4I5xx0unBVRBbJ4x7g==" />
-		<POI MapID="73" xpos="-147.766" ypos="2.62091" zpos="74.0351" type="tt.mc.cm.mm.skimmer" GUID="KqMDOIXReEOvYbVcnVj3vQ==" />
-		<POI MapID="73" xpos="-159.867" ypos="29.0191" zpos="238.809" type="tt.mc.cm.rm.points_of_interest" GUID="7N8PC2y/Y0yfDJOmj/cpgQ==" />
-		<POI MapID="73" xpos="-203.638" ypos="49.5577" zpos="942.97" type="tt.mc.cm.rm.points_of_interest" GUID="v1MCSrKI40a/oEsfsPxRkA==" />
-		<POI MapID="73" xpos="-204.984" ypos="50.0236" zpos="943.74" type="tt.mc.h.chm.start_heart" GUID="72yXaDs9pE6Wm4+Ziq8IPg==" info="Turn in Cursed Pirate Artifacts" script-focus="Teh_Heart_Follower(riiAMoV72kekl21pbafiVg==)" />
-		<POI MapID="73" xpos="-212.962" ypos="50.2209" zpos="960.761" type="tt.mc.h.chm.finish_heart" GUID="BNNbcjBR10SbbWxvXvyErg==" />
-		<POI MapID="73" xpos="-213.583" ypos="-102.288" zpos="-192.127" type="tt.mc.h.chm.interact" GUID="9OwYGmXYMk2IyCxfOPRDvw==" />
-		<POI MapID="73" xpos="-217.011" ypos="50.3096" zpos="930.466" type="tt.mc.cm.mm.beetle" GUID="7B/M7iG4T0WbQsROgnS64A==" />
-		<POI MapID="73" xpos="-112.777" ypos="2.93756" zpos="821.104" type="tt.mc.h.chm.start_heart" GUID="om/5AiCc/UC1wA9YUgJqWA==" info="Bring in crabs, cull skale" script-focus="Teh_Heart_Follower(DKybtkG+FUy73jem1ghAaw==)" />
-		<POI MapID="73" xpos="-218.402" ypos="50.7176" zpos="941.21" type="tt.mc.h.chm.finish_heart" GUID="riiAMoV72kekl21pbafiVg==" />
-		<POI MapID="73" xpos="-218.993" ypos="51.02" zpos="944.139" type="tt.mc.h.chm.tradingpost" GUID="DNBhfhpH+EqTmh3KunwUFA==" />
-		<POI MapID="73" xpos="-227.31" ypos="26.3214" zpos="241.362" type="tt.mc.cm.rm.vistas" GUID="KHKbysjd9kyD4NaEKvZKEA==" />
-		<POI MapID="73" xpos="-239.998" ypos="-69.8933" zpos="-146.365" type="tt.mc.h.chm.start_heart" GUID="pz4ehBa84kiJvF4NMD52rg==" info="Grab weapon and give it to guards, kill fish" script-focus="Teh_Heart_Follower(IUgLZgqBMUerOhls0y4ZZg==)" />
-		<POI MapID="73" xpos="-241.764" ypos="-80.1692" zpos="-150.647" type="tt.mc.cm.rm.points_of_interest" GUID="phnQSBKE1EKNSuR3BtbR8g==" />
-		<POI MapID="73" xpos="-248.678" ypos="-85.7891" zpos="-130.521" type="tt.mc.h.chm.interact" GUID="wzGg4qsj+EyugnwdBx8AuQ==" />
-		<POI MapID="73" xpos="-251.219" ypos="-55.5657" zpos="619.378" type="tt.mc.h.chm.interact" GUID="ITsS7BXLPECucT1fMqc6oQ==" />
-		<POI MapID="73" xpos="-252.391" ypos="-42.1108" zpos="703.781" type="tt.mc.cm.rm.waypoints" GUID="oppasCUrcU+13/XbiVKn/A==" />
-		<POI MapID="73" xpos="-254.436" ypos="-51.8761" zpos="-149.682" type="tt.mc.h.chm.finish_heart" GUID="IUgLZgqBMUerOhls0y4ZZg==" />
-		<POI MapID="73" xpos="-262.458" ypos="-67.2426" zpos="591.762" type="tt.mc.h.chm.interact" GUID="1yZ3ilS2s0ePM5jnF3zZjg==" />
-		<POI MapID="73" xpos="-269.891" ypos="-18.4976" zpos="611.209" type="tt.mc.h.chm.finish_heart" GUID="OI/j0kyIRUeBKOUJbJ9iFQ==" />
-		<POI MapID="73" xpos="-265.387" ypos="-51.1528" zpos="670.519" type="tt.mc.h.chm.start_heart" GUID="WULquwx83kq+hwE8LAqNyg==" info="Interact with capacitors and slay Inquest" script-focus="Teh_Heart_Follower(OI/j0kyIRUeBKOUJbJ9iFQ==)" />
-		<POI MapID="73" xpos="-275.344" ypos="-1.05622" zpos="-143.212" type="tt.mc.cm.mm.skimmer" GUID="hNa7TqLD+k2bxRUr6WTKAQ==" />
-		<POI MapID="73" xpos="-278.515" ypos="-76.1061" zpos="614.741" type="tt.mc.h.chm.interact" GUID="Lq4mYv/dB0SfbZX4c3PmIw==" />
-		<POI MapID="73" xpos="-278.799" ypos="-81.056" zpos="-140.628" type="tt.mc.h.chm.interact" GUID="KUYItI9S9ECt4UdFZhH8pA==" />
-		<POI MapID="73" xpos="-285.148" ypos="-67.8656" zpos="626.596" type="tt.mc.cm.rm.points_of_interest" GUID="vQ+r8lUz/UKOkgfgyOwQLA==" />
-		<POI MapID="73" xpos="-285.624" ypos="-70.0052" zpos="569.664" type="tt.mc.h.chm.interact" GUID="tFeYN/fdnE60ke1/H7ywog==" />
-		<POI MapID="73" xpos="-289.636" ypos="-45.1868" zpos="537.061" type="tt.mc.h.chm.interact" GUID="ZFKMrluL4kCjKxFPN5fPPw==" />
-		<POI MapID="73" xpos="-295.209" ypos="3.73218" zpos="-892.798" type="tt.mc.cm.mm.springer" GUID="UlLQU31j5kqO8DwM4m6dhg==" />
-		<POI MapID="73" xpos="-305.819" ypos="29.3841" zpos="-903.989" type="tt.mc.cm.rm.vistas" GUID="WuAsY4hIKUSviZNzf/E6Jw==" />
-		<POI MapID="73" xpos="-306.867" ypos="29.435" zpos="-900.873" type="tt.mc.cm.mm.griffon" GUID="LClBYS0jI06f/Pr+LX4z1g==" />
-		<POI MapID="73" xpos="-319.929" ypos="-69.6374" zpos="601.716" type="tt.mc.h.chm.interact" GUID="jh3tkBoSLEu98hAYpuB/pQ==" />
-		<POI MapID="73" xpos="-325.676" ypos="-68.6164" zpos="-161.4" type="tt.mc.h.chm.interact" GUID="FDeyj1UEw06Hgj0KuGgA5Q==" />
-		<POI MapID="73" xpos="-335.623" ypos="-70.1669" zpos="-106.522" type="tt.mc.h.chm.interact" GUID="UmEDf7BW+0mJgyqRWm8XkQ==" />
-		<POI MapID="73" xpos="-345.304" ypos="-60.0537" zpos="775.466" type="tt.mc.cm.rm.points_of_interest" GUID="qfAQYTDy0k+2AcX64+HX2w==" />
-		<POI MapID="73" xpos="-459.062" ypos="13.5223" zpos="-730.617" type="tt.mc.cm.mm.raptor" GUID="5ZPGhG2OeEGTP1/Rqlq3rA==" />
-		<POI MapID="73" xpos="-464.861" ypos="-0.307265" zpos="4.97663" type="tt.mc.h.chm.finish_heart" GUID="VRkLHC+xgk6DkJrY6i+hjA==" />
-		<POI MapID="73" xpos="-470.757" ypos="1.43648" zpos="-142.663" type="tt.mc.h.chm.start_heart" GUID="eNqgP7owkUahjOtSscoNKg==" info="Help Quaggans, eliminate skale and kill crows/rats" script-focus="Teh_Heart_Follower(VRkLHC+xgk6DkJrY6i+hjA==)" />
-		<POI MapID="73" xpos="-473.875" ypos="-48.8742" zpos="164.812" type="tt.mc.cm.rm.finish" GUID="SHVscZVgS0SW5sSbcTpcoA==" copy="[&amp;BLABAAA=]" />
-		<POI MapID="73" xpos="-475.854" ypos="-49.1174" zpos="163.147" type="tt.mc.cm.rm.points_of_interest" GUID="qMAXtbgtMkibN0XEJhab3Q==" />
-		<POI MapID="73" xpos="-480.904" ypos="4.5112" zpos="-138.557" type="tt.mc.cm.rm.waypoints" GUID="Z2hNEvfjaU6PtiYIuazX1w==" />
-		<POI MapID="73" xpos="-505.957" ypos="16.0444" zpos="-764.307" type="tt.mc.cm.rm.waypoints" GUID="4VYv96LJ0EutnKWlAtPPjw==" />
-		<POI MapID="73" xpos="-518.247" ypos="18.9156" zpos="-637.676" type="tt.mc.h.chm.start_heart" GUID="tR12oPbNr0KF3HqJLksgKA==" info="Kill fireflies and use their essences on alchemy table &#xA;&#xA;Event -&gt; Interact with Orrian grub holes + AoE kill" script-focus="Teh_Heart_Follower(En50cAqz/0mJjp2l6oMwpw==)" />
-		<POI MapID="73" xpos="-530.534" ypos="44.3096" zpos="-516.738" type="tt.mc.h.chm.finish_heart" GUID="En50cAqz/0mJjp2l6oMwpw==" />
-		<POI MapID="73" xpos="-531.741" ypos="44.5337" zpos="-518.57" type="tt.mc.cm.wm.wpcircle" GUID="TgWimiwRzUmPMdFc4hlMpg==" copy="[&amp;BKgBAAA=]" />
-		<POI MapID="73" xpos="-533.543" ypos="44.8726" zpos="-519.634" type="tt.mc.cm.rm.points_of_interest" GUID="Vk/dXWq6sUmITRNd/WYyRQ==" />
-		<POI MapID="73" xpos="448.072" ypos="57.7893" zpos="-241.271" type="tt.mc.cm.mm.skyscale" GUID="+im737vXvU6TFuxvdaRB4A==" />
-		<POI MapID="73" xpos="506.29" ypos="124.99" zpos="-290.108" type="tt.mc.cm.mm.griffon" GUID="cvHfKHuih0WbbonDg0twvg==" />
-		<POI MapID="73" xpos="233.641" ypos="1.28183" zpos="692.996" type="tt.mc.cm.mm.jackal" GUID="A/kqJ5DU00CARLEhv3lMWw==" />
-		<POI MapID="73" xpos="-477.655" ypos="3.55365" zpos="-121.197" type="tt.mc.cm.mm.beetle" GUID="q9ZksvsBH02gl2p8nipEjg==" />
-		<POI MapID="73" xpos="530.637" ypos="8.65757" zpos="-840.465" type="tt.mc.cm.rm.exit_map" GUID="8zGI91cK8UCGM+Q4HPGW+g==" />
+		<POI MapID="73" xpos="685.808" ypos="20.7221" zpos="540.313" type="tt.mc.h.chm.finish_heart" GUID="gYkPrZ6dv06suL0r1wQOXA==" />
+		<POI MapID="73" xpos="737.326" ypos="31.2324" zpos="551.035" type="tt.mc.h.chm.start_heart" GUID="zzITttdV2EW53iOtznl03g==" info="Throw rum, fight pirates (stack conditions)" script-focus="Teh_Heart_Follower(gYkPrZ6dv06suL0r1wQOXA==)" />
 
 
 		<!--============================================= MOUNT MAELSTROM MARKERS =============================================-->
