@@ -9,6 +9,8 @@ Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
 Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
 --Pack:Require("Data/TehsTrails/Scripts/settings.lua")
 Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
+Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
+Pack:Require("Data/TehsTrails/Scripts/copy.lua")
 --Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua")
 
 function Teh_Tick_Handler(gameTime)
@@ -37,6 +39,14 @@ function Teh_Tick_Handler(gameTime)
             Teh_Hide_Global_Markers()
         end
     end
+
+    if (not Teh.static.ran) then
+        Teh_Static_Categories(Mumble.CurrentMap.Id)
+    end
+
+    if (not Teh.copy.preloaded) then
+        Teh_Preload_Copy()
+    else Teh_Copy_Tick_Handler() end
 
     --Teh_Settings_Handler()
 
