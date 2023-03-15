@@ -1004,11 +1004,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 			<MarkerCategory name="tt" DisplayName="Teh's Trails">
 				<MarkerCategory name="link" DisplayName="https://discord.gg/bJV6VXT" tip-description="Click to copy!"/>
 			</MarkerCategory>
-			<MarkerCategory name="overflow" DisplayName="Overflow Discord">
-				<MarkerCategory name="link" DisplayName="https://discord.gg/gw2overflow" tip-description="Click to copy!"/>
-			</MarkerCategory>
 			<MarkerCategory name="bhud" DisplayName="Blish HUD">
 				<MarkerCategory name="link" DisplayName="https://discord.gg/FYKN3qh" tip-description="Click to copy!"/>
+			</MarkerCategory>
+			<MarkerCategory name="overflow" DisplayName="Overflow Trading Company">
+				<MarkerCategory name="link" DisplayName="https://discord.gg/gw2overflow" tip-description="Click to copy!"/>
 			</MarkerCategory>
 
 			
