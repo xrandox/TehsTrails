@@ -20,11 +20,14 @@ Debug:Watch("copy", Teh.copy)
 
 -- Preloads the visibility values to our internal table
 function Teh_Preload_Copy()
+
     local c = Teh.copy.categoriesToWatch
 
-    for key, value in pairs(Teh.copy.visibility) do
-        Teh.copy.visibility[key] = Teh.copy.categoriesToWatch[key]:IsVisible()
-    end
+    Teh.copy.visibility["tt"] = c["tt"]:IsVisible()
+    Teh.copy.visibility["overflow"] = c["overflow"]:IsVisible()
+    Teh.copy.visibility["bhud"] = c["bhud"]:IsVisible()
+    Teh.copy.visibility["ign"] = c["ign"]:IsVisible()
+    Teh.copy.visibility["kofi"] = c["kofi"]:IsVisible()
 
     Teh.copy.preloaded = true
 end
