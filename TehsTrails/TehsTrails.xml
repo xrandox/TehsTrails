@@ -1486,6 +1486,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		
 		
 		<!--============================================= RATA SUM MARKERS =============================================-->
+		<POI MapID="139" xpos="143.011" ypos="339.450" zpos="237.970" type="tt.mc.cm.mm.skyscale" GUID="LLOpCDmXDk5dvuWvn4qVqw=="/>
 		<POI MapID="139" xpos="66.373" ypos="383.5718" zpos="267.242" type="tt.mc.cm.mm.skyscale" GUID="LLOpCDmXDk6dvuWvn4qVqw=="/>
 		<POI MapID="139" xpos="94.573" ypos="398.7718" zpos="214.142" type="tt.mc.cm.rm.bondoffaith" GUID="4jSsUHMLmEC+NVDcpOb9MA=="/>
 		<POI MapID="139" xpos="-34.3778" ypos="385.865" zpos="223.135" type="tt.mc.cm.rm.points_of_interest" GUID="cvJ7qLPE3Eq/SxIT5Tb58Q=="/>
@@ -1517,7 +1518,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="139" xpos="118.934" ypos="385.831" zpos="119.9" type="tt.mc.cm.rm.waypoints" GUID="+z6iNkM09UqN6obTYgwYWw=="/>
 		<POI MapID="139" xpos="126.814" ypos="383.219" zpos="81.4301" type="tt.mc.cm.rm.exit_instance" GUID="+DakgvckVUmaPO+Nl5YYJQ=="/>
 		<POI MapID="139" xpos="129.275" ypos="339.387" zpos="160.101" type="tt.mc.cm.rm.waypoints" GUID="6PDppsOStEWwFT8s2bNaDw=="/>
-		<POI MapID="139" xpos="129.855" ypos="362.024" zpos="194.341" type="tt.mc.cm.rm.points_of_interest" GUID="zWIgWLcTZkuKPR19Z+UmnA=="/>
 		<POI MapID="139" xpos="133.042" ypos="385.832" zpos="193.156" type="tt.mc.cm.rm.points_of_interest" GUID="1isBYWnu/keeTB5LbzeccQ=="/>
 		<POI MapID="139" xpos="138.009" ypos="339.46" zpos="210.17" type="tt.mc.cm.rm.points_of_interest" GUID="5KJLmTyN9EqmTboT+48a+w=="/>
 		<POI MapID="139" xpos="141.399" ypos="347.402" zpos="199.71" type="tt.mc.cm.rm.vistas" GUID="on70gLpyMkKudFq6CxxFuA=="/>
