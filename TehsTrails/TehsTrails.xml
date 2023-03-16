@@ -70,6 +70,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" miniMapVisibility="1" mapVisibility="1" iconSize="1"/>
 					<MarkerCategory name="nm" DisplayName="Next Map" iconFile="Data/TehsTrails/Markers/nextmap.png" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
+					<MarkerCategory name="transp" DisplayName="Transparent Marker" iconFile="Data/TehsTrails/Markers/transparent.png"/>
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/TehsTrails/Markers/shoppinglist.png" iconSize="1.5"/>
 					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" miniMapVisibility="1" mapVisibility="1"/>
@@ -7530,6 +7531,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="29" xpos="-163.382" ypos="11.6618" zpos="632.222" type="tt.mc.cm.nwm.tpm" GUID="qBhlN5IuIUaZGHFrPwlrhw==" copy="[&amp;BE0CAAA=], if contested go from [&amp;BE8CAAA=]" info="If square contested -&gt; WP to star and beetle to square" script-focus="Teh_Highlight_Waypoint(GywvG7sC8Ei8yIRCAGldfQ==)" />
 		<POI MapID="29" xpos="133.103" ypos="59.0482" zpos="479.468" type="tt.mc.cm.nwm.wph" GUID="ni3kQj8CEUCtfehG4GIpXg==" />
 
+		<!-- REQUIRED MARKERS TO LOAD THE PNGS FOR BHUD -->
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/1-shadow.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/2-shadow.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/3-shadow.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
 		<!--========== SCRIPTING MARKERS ==========-->
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" />
 		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="QEI9L5Q92ECHpi/qEeIfQQ==" type="tt.mc.cm.se" />
