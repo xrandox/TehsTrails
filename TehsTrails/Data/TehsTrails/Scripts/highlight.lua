@@ -11,7 +11,7 @@ Teh.highlight = {
 
 Debug:Watch("highlight", Teh.highlight)
 
-local function Teh_Highlight_Reset()
+function Teh_Highlight_Reset()
     local waypoint = Teh.highlight.currentWaypoint
     waypoint.MapVisibility = false
     waypoint.MiniMapVisibility = false

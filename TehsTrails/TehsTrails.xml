@@ -6,6 +6,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                              CORE TYRIA                                                                           ==-->
 	<!--=======================================================================================================================================================================-->
+		<MarkerCategory name="sr" DisplayName="     [   RESET SCRIPTS   ]    " tip-description="Script bugging out? Click this to reset all active scripts" defaulttoggle="0" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0"/>
+	
 		<MarkerCategory name="mapcomp" DisplayName="     |=====Core Tyria=====|     " isseparator="1"/>
 		<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0" inGameVisibility="0">
 			<MarkerCategory name="tgsp" DisplayName="Toggle Global Starting Point Markers" tip-description="Shows the starting points for trails on all core Tyria maps" defaulttoggle="0"/>

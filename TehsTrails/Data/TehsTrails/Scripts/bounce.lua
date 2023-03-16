@@ -9,7 +9,7 @@ Teh.bounce = {
 Debug:Watch("bounce", Teh.bounce)
 
 -- Reset the bouncing marker to normal
-local function Teh_Bounce_Reset()
+function Teh_Bounce_Reset()
     local target = Teh.bounce.currentTarget
     local bounce = target:GetBehavior("BounceModifier")
     bounce.BounceHeight = 0
