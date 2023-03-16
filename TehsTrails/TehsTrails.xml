@@ -3697,7 +3697,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 		<!--============================================= QUEENSDALE MARKERS =============================================-->
-        <POI MapID="15" xpos="-426.81" ypos="34.0783" zpos="438.11" type="tt.mc.cm.mm.beetle" GUID="krDY+PNfaEukcRHU9Qy0PQ=="/>
+        <POI MapID="15" xpos="-426.81" ypos="34.0783" zpos="438.11" type="tt.mc.cm.mm.beetle" GUID="krDY+PNfaEukcRHU9Qy0PQ==" info="Do not miss the first POI"/>
         <POI MapID="15" xpos="-967.222" ypos="14.8865" zpos="492.265" type="tt.mc.cm.mm.beetle" GUID="woACV+toYUmdyaf5uGXzQQ=="/>
         <POI MapID="15" xpos="-645.996" ypos="21.0898" zpos="355.455" type="tt.mc.cm.mm.beetle" GUID="KbJ1TGnbkk+w+c9Rpedkag=="/>
         <POI MapID="15" xpos="-459.08" ypos="8.36949" zpos="-150.551" type="tt.mc.cm.mm.beetle" GUID="UdUuB5mpJE69VimdXeXOiQ=="/>
@@ -3838,7 +3838,7 @@ Do not forget POI"/>
         <POI MapID="15" xpos="-456.278" ypos="9.25925" zpos="-144.38" type="tt.mc.h.chm.interact" GUID="vFnFGXEeVEuGpVRjDSJKRA=="/>
         <POI MapID="15" xpos="-457.33" ypos="7.56223" zpos="-148.42" type="tt.mc.h.chm.finish_heart" GUID="IieVN07tIUGtxK6zqwf83Q=="/>
         <POI MapID="15" xpos="-468.63" ypos="8.12698" zpos="-104.636" type="tt.mc.h.chm.interact" GUID="w64pij/NfU2QvZDvbjEifA=="/>
-        <POI MapID="15" xpos="-493.717" ypos="21.1442" zpos="385.276" type="tt.mc.cm.rm.points_of_interest" GUID="OIQJbOw3T02jA6+R6ZbGtA=="/>
+        <POI MapID="15" xpos="-487.079" ypos="19.9775" zpos="385.87" type="tt.mc.cm.rm.points_of_interest" GUID="OIQJbOw3T02jA6+R6ZbGtA=="/>
         <POI MapID="15" xpos="-497.39" ypos="10.5659" zpos="-108.561" type="tt.mc.h.chm.interact" GUID="FhvAPIvH6EeykPvAdgAlZw=="/>
         <POI MapID="15" xpos="-498.139" ypos="12.1851" zpos="-122.056" type="tt.mc.h.chm.interact" GUID="mevR/y9yo0+JpcrYNcAgoQ=="/>
         <POI MapID="15" xpos="-492.793" ypos="12.6083" zpos="-123.281" type="tt.mc.cm.rm.waypoints" GUID="J9yoS/UrzEm/NkTobjrWKw=="/>
@@ -3878,7 +3878,7 @@ Do not forget POI"/>
         <POI MapID="15" xpos="-728.801" ypos="22.2133" zpos="367.763" type="tt.mc.h.chm.interact" GUID="kzwO25fDNUaS+9JFimotcA=="/>
         <POI MapID="15" xpos="-730.04" ypos="21.0726" zpos="398.953" type="tt.mc.h.chm.interact" GUID="oiT93ulqAkmkKacmNbkvMw=="/>
         <POI MapID="15" xpos="-731.137" ypos="21.2695" zpos="696.019" type="tt.mc.h.chm.interact" GUID="gWwU9Xh6NU+9Exx/xLR3ew=="/>
-        <POI MapID="15" xpos="-734.445" ypos="21.54" zpos="385.933" type="tt.mc.cm.rm.points_of_interest" GUID="DVgjEfzSh0an556MODTmxw=="/>
+        <POI MapID="15" xpos="-740.656" ypos="20.4872" zpos="387.829" type="tt.mc.cm.rm.points_of_interest" GUID="DVgjEfzSh0an556MODTmxw=="/>
         <POI MapID="15" xpos="-734.709" ypos="9.7507" zpos="681.938" type="tt.mc.h.chm.interact" GUID="mHoa2IkxIkKr8RVLn8ccow=="/>
         <POI MapID="15" xpos="-732.638" ypos="6.10994" zpos="-239.493" type="tt.mc.cm.rm.points_of_interest" GUID="3JBuQ7uJ6kCn65YsWfXF5w=="/>
         <POI MapID="15" xpos="-738.937" ypos="22.0026" zpos="387.421" type="tt.mc.h.chm.interact" GUID="kbQOoDNG8kyuYZKAbeOTVg=="/>
@@ -3970,8 +3970,8 @@ Do not forget POI"/>
         <POI MapID="15" xpos="523.673" ypos="1.92406" zpos="-270.29" type="tt.mc.cm.wm.heart" GUID="VQvih4e/CkSDkbrhSbSQ1A=="/>
         <POI MapID="15" xpos="421.878" ypos="0.0886714" zpos="-301.177" type="tt.mc.cm.rm.bondoffaith" GUID="egtaNm+MZ0GFjreJCDF9Lw=="/>
         <POI MapID="15" xpos="380.951" ypos="1.51604" zpos="-316.307" type="tt.mc.cm.mm.raptor" GUID="44zMKZttuUyg0u8IGCtyQQ=="/>
-        <POI MapID="15" xpos="424.485" ypos="-0.718356" zpos="-472.376" type="tt.mc.h.chm.finish_heart" GUID="TviIB5dtV0Oc+iYjlQ4gjw=="/>
-        <POI MapID="15" xpos="338.606" ypos="5.19323" zpos="-604.846" type="tt.mc.cm.mm.beetle" GUID="uvhdS55WjUKHYJm5BWv9NQ=="/>
+        <POI MapID="15" xpos="411.857" ypos="-1.82494" zpos="-471.923" type="tt.mc.h.chm.finish_heart" GUID="TviIB5dtV0Oc+iYjlQ4gjw=="/>
+        <POI MapID="15" xpos="341.149" ypos="5.19323" zpos="-600.511" type="tt.mc.cm.mm.beetle" GUID="uvhdS55WjUKHYJm5BWv9NQ=="/>
         <POI MapID="15" xpos="775.22" ypos="54.3945" zpos="-540.1" type="tt.mc.cm.mm.beetle" GUID="ZWGNS2rN7E2laSpRe3IAxA=="/>
         <POI MapID="15" xpos="451.244" ypos="35.3946" zpos="142.238" type="tt.mc.h.chm.start_heart" GUID="exbcyPMdFkut5MXz5x7itw==" info="Follow the trail to resume completing this heart" infoRange="10"/>
         <POI MapID="15" xpos="456.23" ypos="36.666" zpos="145.159" type="tt.mc.cm.mm.beetle" GUID="50ds4vXgR0+aHRKsZRhykw=="/>
@@ -4005,6 +4005,8 @@ Do not forget POI"/>
         <POI MapID="15" xpos="720.271" ypos="58.1866" zpos="351.082" type="tt.mc.cm.mm.griffon" GUID="s0SYDcWSjkK0uVB+RSFaiw=="/>
         <POI MapID="15" xpos="574.454" ypos="66.0755" zpos="-6.92728" type="tt.mc.cm.mm.raptor" GUID="46ADmyWJ5kyU7ictN8sUCQ=="/>
         <POI MapID="15" xpos="-9.07253" ypos="27.578" zpos="144.499" type="tt.mc.cm.mm.skyscale" GUID="GL0i/0gkgUGkybH/OxEUtg=="/>
+        <POI MapID="15" xpos="528.803" ypos="0.190705" zpos="-282.456" type="tt.mc.cm.mm.beetle" GUID="9y86/+x+8ECf7y3vfi/30g=="/>
+        <POI MapID="15" xpos="409.916" ypos="-0.359279" zpos="-472.951" type="tt.mc.cm.mm.beetle" GUID="eZDWKZTtQUWHL6tPT8smkA=="/>
 
 
 
