@@ -5370,7 +5370,6 @@ Do not forget POI"/>
 		<POI MapID="30" xpos="-703.295" ypos="-21.7748" zpos="331.396" type="tt.mc.h.chm.interact" GUID="yN23MCGWdkywe44m4aAS7w==" />
 		<POI MapID="30" xpos="-702.637" ypos="-55.1443" zpos="449.252" type="tt.mc.h.chm.interact" GUID="MxS8S3vQlUainL5vw6PrMw==" />
 		<POI MapID="30" xpos="-702.682" ypos="6.57836" zpos="-752.682" type="tt.mc.h.chm.interact" GUID="oesDw4153kSv0qnd0u8i8g==" />
-		<POI MapID="30" xpos="-695.134" ypos="-1.05664" zpos="-679.381" type="tt.mc.cm.mm.skimmer" GUID="jUBs1BXfh0+uZgYwWKTeBg==" />
 		<POI MapID="30" xpos="-693.417" ypos="-111.548" zpos="269.444" type="tt.mc.cm.rm.vistas" GUID="b8gvdYA6n0CV/aEGotqSqw==" />
 		<POI MapID="30" xpos="-689.848" ypos="6.20627" zpos="-752.803" type="tt.mc.h.chm.interact" GUID="dtBXR0q+pUSMBlzMWJV7aA==" />
 		<POI MapID="30" xpos="-688.75" ypos="-84.7735" zpos="358.715" type="tt.mc.h.chm.interact" GUID="/HTgn6OD90mCpVAoZ39x1A==" />
@@ -5388,8 +5387,8 @@ Do not forget POI"/>
 		<POI MapID="30" xpos="-644.308" ypos="13.026" zpos="-751.904" type="tt.mc.h.chm.kill" GUID="VbEwY91pnEO5/ztigSzsYw==" />
 		<POI MapID="30" xpos="-643.524" ypos="-149.914" zpos="253.636" type="tt.mc.cm.rm.points_of_interest" GUID="xCeCCYBLBEiyEoIjZYNsiw==" />
 		<POI MapID="30" xpos="-639.383" ypos="1.29159" zpos="380.773" type="tt.mc.cm.rm.waypoints" GUID="3dvHyiUlWE6I0IsWuj7hrg==" />
-		<POI MapID="30" xpos="-638.529" ypos="-0.440904" zpos="770.875" type="tt.mc.h.chm.finish_heart" GUID="t4K+1Hb/UEyhvfAv2B772A==" />
-		<POI MapID="30" xpos="-636.225" ypos="1.8035" zpos="729.077" type="tt.mc.hp.hpm" GUID="/qYXosbACUGZ6EDg27OX7Q==" />
+        <POI MapID="30" xpos="-636.523" ypos="1.18499" zpos="757.039" type="tt.mc.h.chm.finish_heart" GUID="t4K+1Hb/UEyhvfAv2B772A=="/>
+        <POI MapID="30" xpos="-662.97" ypos="-1.34824" zpos="773.914" type="tt.mc.hp.hpm" GUID="/qYXosbACUGZ6EDg27OX7Q=="/>
 		<POI MapID="30" xpos="-633.477" ypos="0.933942" zpos="374.701" type="tt.mc.cm.wm.square" GUID="vipMGORFJU6zM+esXDQGaA==" />
 		<POI MapID="30" xpos="-630.99" ypos="-97.9867" zpos="-638.426" type="tt.mc.cm.wm.wptriangle" GUID="ADH5RAVxkkuPAJ08Kfn1jg==" copy="[&amp;BIUCAAA=]" />
 		<POI MapID="30" xpos="-628.795" ypos="-97.2928" zpos="-640.51" type="tt.mc.cm.rm.points_of_interest" GUID="4sIwZOVVZkaJ1UxfNYWSIQ==" />
@@ -5596,7 +5595,7 @@ Do not forget POI"/>
 		<POI MapID="30" xpos="762.522" ypos="43.2553" zpos="139.37" type="tt.mc.cm.rm.waypoints" GUID="JFezLlU9NUy99NBCEl+nHw==" />
 		<POI MapID="30" xpos="792.315" ypos="51.9864" zpos="203.087" type="tt.mc.cm.rm.points_of_interest" GUID="umdytZHNu0uGuiyIwn8MIg==" />
 		<POI MapID="30" xpos="873.004" ypos="12.366" zpos="15.9196" type="tt.mc.cm.rm.exit_map" GUID="vsI6wvpqv06sdkZoJcfwhw==" />
-
+        <POI MapID="30" xpos="-636.586" ypos="-0.276391" zpos="759.584" type="tt.mc.cm.mm.beetle" GUID="gNRqJBajLk+UBrgetLHZKw=="/>
 
 
 		<!--============================================= LORNAR'S PASS MARKERS =============================================-->
