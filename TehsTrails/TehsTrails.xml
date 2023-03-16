@@ -4754,7 +4754,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="1167.37" ypos="45.8428" zpos="-96.0647" type="tt.mc.cm.rm.points_of_interest" GUID="SPr4DOmAW06JxVBfCYG43g==" />
 		<POI MapID="65" xpos="-35.2118" ypos="47.4899" zpos="31.2191" type="tt.mc.cm.rm.waypoints" GUID="VHETOdhQTUK801kwVzrrWA==" />
 		<POI MapID="65" xpos="-19.9143" ypos="70.5356" zpos="-444.122" type="tt.mc.cm.rm.points_of_interest" GUID="lH7MVVb3SUySkhzOA8bUzg==" />
-		<POI MapID="65" xpos="-131.238" ypos="-21.6312" zpos="394.554" type="tt.mc.cm.rm.points_of_interest" GUID="c4PVsdy6BkSeOAtWmirlYQ==" />
+		<POI MapID="65" xpos="-131.238" ypos="-21.6312" zpos="394.554" type="tt.mc.cm.rm.points_of_interest" GUID="c4PVsdy6BkSeOAtWmirlYQ==" info="If waypoint contested, use jade waypoint" infoRange="10"/>
 		<POI MapID="65" xpos="-190.704" ypos="105.254" zpos="-71.122" type="tt.mc.cm.rm.waypoints" GUID="wcRzJ2Vi5kma/0NjxZGksA==" />
 		<POI MapID="65" xpos="-203.033" ypos="126.42" zpos="-408.141" type="tt.mc.cm.mm.griffon" GUID="hmpvLa7f1E66MeZaRjjCKg==" />
 		<POI MapID="65" xpos="-230.12" ypos="111.452" zpos="-44.3163" type="tt.mc.cm.rm.points_of_interest" GUID="WC+CCsK810uV2TTawU1+pQ==" />
@@ -4811,7 +4811,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="725.063" ypos="68.9465" zpos="-109.976" type="tt.mc.cm.rm.ppr_m" GUID="rbTBOsdnV0OhJ8B6rRhZ+Q==" />
 		<POI MapID="65" xpos="729.134" ypos="70.5804" zpos="-107.367" type="tt.mc.cm.mm.skyscale" GUID="E1bYhlnUvUOh+1fduKi9+A==" info="If you don't have skyscale use bunny-&gt;griffon" />
 		<POI MapID="65" xpos="782.962" ypos="114.395" zpos="-47.4565" type="tt.mc.cm.mm.distogriff" GUID="tmwbHnYosEuhucVNEGgHBg==" />
-		<POI MapID="65" xpos="167.49" ypos="40.1887" zpos="-90.5588" type="tt.mc.cm.rm.jadewp" GUID="25cf8V2A8kSnulB618VXvg==" />
+		<POI MapID="65" xpos="167.49" ypos="40.1887" zpos="-90.5588" type="tt.mc.cm.rm.jadewp" GUID="25cf8V2A8kSnulB618VXvg==" info="Place Jade WP in case waypoint gets contested" infoRange="10"/>
 		<POI MapID="65" xpos="250.716" ypos="85.1959" zpos="-9.88783" type="tt.mc.cm.mm.skyscale" GUID="lXa26uCtu0iaGTbDWW4f4Q==" />
 		<POI MapID="65" xpos="360.627" ypos="173.411" zpos="-1.88345" type="tt.mc.cm.mm.distogriff" GUID="ouT+dE474EScvKdkYH7XRQ==" />
 		<POI MapID="65" xpos="31.5524" ypos="28.2641" zpos="99.1893" type="tt.mc.cm.rm.ppr_r" GUID="Inc8/qFZzUGaCHNg41Xt1Q==" info="If you cannot rewind: Tp to swirl, then follow trail of shame" script-focus="Teh_Highlight_Waypoint(FCxEGgeFNkOug2hJ8uUyIw==)" />
@@ -7410,8 +7410,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="-330.74" ypos="2.18596" zpos="275.879" type="tt.mc.cm.nwm.wph" GUID="gDYU12uAPUitIasACj+mFQ==" />
 		<POI MapID="65" xpos="-1044.66" ypos="-37.5119" zpos="-37.93" type="tt.mc.cm.nwm.tpm" GUID="Q8/6nCJRWU2fZT/YM6WFOQ==" copy="[&amp;BK8CAAA=]" script-focus="Teh_Highlight_Waypoint(gDYU12uAPUitIasACj+mFQ==)" />
 		<POI MapID="65" xpos="-330.757" ypos="50.5506" zpos="-421.985" type="tt.mc.cm.nwm.wph" GUID="vWvKAWZPlkWEkJQYdeb6wQ==" />
-		<POI MapID="65" xpos="261.777" ypos="39.4311" zpos="-415.435" type="tt.mc.cm.nwm.tpm" GUID="OcQNT0/cM0mnKUIER2/YDw==" info="Teleport to X, or use rewinder" copy="[&amp;BKcCAAA=]" script-trigger="Teh_Bounce(lWGomCO+kUOo9fkNbCR+9g==)" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
-		<POI MapID="65" xpos="-402.955" ypos="25.5757" zpos="-449.426" type="tt.mc.cm.nwm.tpm" GUID="w9lmz9GvTEyJfN9cVQEPBA==" info="Teleport to X, or use rewinder" infoRange="10" copy="[&amp;BKcCAAA=]" script-trigger="Teh_Bounce(s/wLLukLIUm2v3zAYNVCVA==)" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
+		<POI MapID="65" xpos="261.777" ypos="39.4311" zpos="-415.435" type="tt.mc.cm.nwm.tpm" GUID="OcQNT0/cM0mnKUIER2/YDw==" info="Teleport to X, or use rewinder" copy="[&amp;BKcCAAA=]" script-trigger="Teh_Bounce(s/wLLukLIUm2v3zAYNVCVA==)" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
+		<POI MapID="65" xpos="-402.955" ypos="25.5757" zpos="-449.426" type="tt.mc.cm.nwm.tpm" GUID="w9lmz9GvTEyJfN9cVQEPBA==" info="Teleport to X, or use rewinder" infoRange="10" copy="[&amp;BKcCAAA=]" script-trigger="Teh_Bounce(lWGomCO+kUOo9fkNbCR+9g==)" script-focus="Teh_Highlight_Waypoint(vWvKAWZPlkWEkJQYdeb6wQ==)" />
 		<POI MapID="65" xpos="-423.535" ypos="5.89923" zpos="-151.926" type="tt.mc.cm.nwm.wph" GUID="RCg345DxT0Gb58h67THwWQ==" />
 		<POI MapID="65" xpos="-531.468" ypos="-40.1125" zpos="293.217" type="tt.mc.cm.nwm.tpm" GUID="vgvjqVGNxkGd6hPSl0VjcA==" copy="[&amp;BLICAAA=]" script-focus="Teh_Highlight_Waypoint(RCg345DxT0Gb58h67THwWQ==)" />
 		<POI MapID="65" xpos="733.697" ypos="44.7713" zpos="-149.831" type="tt.mc.cm.nwm.wph" GUID="cJlnDwGijkWzwLWkoRA7FA==" />
