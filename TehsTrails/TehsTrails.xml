@@ -212,6 +212,17 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/TrailOfShame.png" mapVisibility="1" scaleOnMapWithZoom="1"/>
 
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                             HOOP TRAILS                                                                           ==-->
+		<!--=======================================================================================================================================================================-->
+			<MarkerCategory name="gr" DisplayName="Guide Rings" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/ring.png" mapVisibility="0"/>
+
+		<!--=======================================================================================================================================================================-->
+		<!--==                                                                            HAZARD TRAILS                                                                          ==-->
+		<!--=======================================================================================================================================================================-->
+			<MarkerCategory name="hw" DisplayName="Hazard Warnings" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/caution.png" mapVisibility="0"/>
+
+		
 			<!--<MarkerCategory name="ds" DisplayName="Dynamic Settings (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="0" defaulttoggle="0" inGameVisibility="0">
 				<MarkerCategory name="stomm" DisplayName="Show Trails on Minimap" tip-description="Shows all trails on the minimap (excluding heart zones)" defaulttoggle="0"/>
 				<MarkerCategory name="shzomm" DisplayName="Show Heart Zones on Minimap" tip-description="Shows all heart zones on the minimap" defaulttoggle="0"/>
@@ -4934,6 +4945,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="51" xpos="743.215" ypos="29.1086" zpos="114.429" type="tt.mc.cm.rm.points_of_interest" GUID="mDQp7Jnf5USYyGPIFMboHw==" />
 		<POI MapID="51" xpos="513.433" ypos="16.564" zpos="564.188" type="tt.mc.cm.rm.waypoints" GUID="K08amHuqxEWSdtbX6yiPag==" />
 		<POI MapID="51" xpos="860.6" ypos="24.2854" zpos="124.327" type="tt.mc.cm.mm.springer" GUID="AiH73aHW6kyHZ5OkrDFzfw==" />
+		<POI MapID="51" xpos="905.657" ypos="36.397" zpos="155.791" type="tt.mc.cm.wm.star" GUID="U/pKwww5yEKUbmVyXFpEJg==" />
 		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.wm.wpsquare" GUID="DHceInOciUaNGPkdzQw0Jg==" copy="[&amp;BO4CAAA=]" />
 		<POI MapID="51" xpos="710.343" ypos="19.5584" zpos="114.558" type="tt.mc.cm.wm.square" GUID="EgJa0JEs40aRae9+l9myiA==" />
 		<POI MapID="51" xpos="703.564" ypos="19.5044" zpos="108.674" type="tt.mc.hp.hpm" GUID="R5JltmC1x02A9fBhfJS3Qw==" />
@@ -5031,7 +5043,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="51" xpos="494.777" ypos="41.1032" zpos="705.507" type="tt.mc.cm.mm.raptor" GUID="rRCaZuhWL0GkGYGN09Czmg==" />
 		<POI MapID="51" xpos="522.169" ypos="-0.259799" zpos="552.462" type="tt.mc.cm.mm.beetle" GUID="ZOBuBBkcJkyGgGRHichOOg==" />
 		<POI MapID="51" xpos="896.332" ypos="52.6232" zpos="-215.989" type="tt.mc.cm.mm.jackal" GUID="EooZsISV8EWqcI7jmA82vQ==" />
-		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.wm.wpsquare" GUID="gzkf3m0250WlcFOAIMBUvw==" />
+		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.wm.wpstar" GUID="gzkf3m0250WlcFOAIMBUvw==" copy="[&amp;BO8CAAA=]"/>
 		<POI MapID="51" xpos="805.79" ypos="26.94" zpos="27.2366" type="tt.mc.cm.rm.1" GUID="H6OHvJjCUEucOVTbrK9Nww==" />
 		<POI MapID="51" xpos="799.173" ypos="26.9328" zpos="22.0566" type="tt.mc.cm.rm.2" GUID="bZPCeHcyQUO8IXAxtW+OFA==" />
 		<POI MapID="51" xpos="51.9155" ypos="38.175" zpos="-353.869" type="tt.mc.cm.mm.skyscale" GUID="qt1ZyWLSeUOit4eo0WdWyA==" info="Using bond of Vigor dash 4 times with skyscale to get as much height as possible.&#xA;&#xA;When you get dismounted immediately start gliding towards the vista" />
@@ -7505,8 +7517,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="733.697" ypos="44.7713" zpos="-149.831" type="tt.mc.cm.nwm.wph" GUID="cJlnDwGijkWzwLWkoRA7FA==" />
 		<POI MapID="65" xpos="-31.1177" ypos="36.5916" zpos="32.4459" type="tt.mc.cm.nwm.wph" GUID="FCxEGgeFNkOug2hJ8uUyIw==" />
 		<POI MapID="51" xpos="710.343" ypos="19.5584" zpos="114.558" type="tt.mc.cm.nwm.wph" GUID="U/pKeee5yEKUbmVyXFpEJg==" />
-		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.nwm.tpm" GUID="8ttl6ecooESgUaOYvG3hKA==" copy="[&amp;BO4CAAA=]" script-trigger="Teh_Bounce(H6OHvJjCUEucOVTbrK9Nww==)" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
-		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.nwm.tpm" GUID="XvZsrl4kBkew2hkGs2EPzg==" copy="[&amp;BO4CAAA=]" script-trigger="Teh_Bounce(bZPCeHcyQUO8IXAxtW+OFA==)" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
+		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.nwm.tpm" GUID="8ttl6ecooESgUaOYvG3hKA==" copy="[&amp;BO4CAAA=]" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
+		<POI MapID="51" xpos="905.657" ypos="36.397" zpos="155.791" type="tt.mc.cm.nwm.wph" GUID="U/pKwww5yEKUbmVyXFpEJg==" />
+		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.nwm.tpm" GUID="XvZsrl4kBkew2hkGs2EPzg==" copy="[&amp;BO8CAAA=]" script-focus="Teh_Highlight_Waypoint(U/pKwww5yEKUbmVyXFpEJg==)" />
 		<POI MapID="51" xpos="107.582" ypos="-65.6299" zpos="75.2393" type="tt.mc.cm.nwm.wph" GUID="fMriPHYyREm9RThZgcjzvg==" />
 		<POI MapID="51" xpos="187.815" ypos="21.8906" zpos="184.499" type="tt.mc.cm.nwm.tpm" GUID="RlJwvo08W0K62dTXkbAjsA==" copy="[&amp;BPICAAA=]" script-focus="Teh_Highlight_Waypoint(fMriPHYyREm9RThZgcjzvg==)" />
 		<POI MapID="51" xpos="509.031" ypos="72.0457" zpos="727.404" type="tt.mc.cm.nwm.wph" GUID="FqROF+MWoUONuwIFAejUog==" />
@@ -8270,6 +8283,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/PlainsOfAshfordTrailOfShame.trl"/>
         <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/IronMarchesTrailOfShame.trl"/>
         <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/SnowdenDriftsTrailOfShame.trl"/>
+
+		<!-- GUIDANCE HOOP TRAILS -->
+		<Trail type="tt.mc.gr" trailData="Data/TehsTrails/TyriaTrails/hooptrails/StraitsOfDevastationHoops.trl"/>
+
+		<!-- HAZARD WARNING TRAILS -->
+		<Trail type="tt.mc.hw" trailData="Data/TehsTrails/TyriaTrails/hazardtrails/StraitsOfDevastationHazards.trl"/>
 
 
 
