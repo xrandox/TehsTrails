@@ -3,6 +3,7 @@ Teh = {}
 Debug:Print("Loading Lua")
 
 Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
+Pack:Require("Data/TehsTrails/Scripts/reset.lua")
 Pack:Require("Data/TehsTrails/Scripts/hide.lua")
 Pack:Require("Data/TehsTrails/Scripts/follower.lua")
 Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
@@ -14,6 +15,9 @@ Pack:Require("Data/TehsTrails/Scripts/copy.lua")
 --Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua")
 
 function Teh_Tick_Handler(gameTime)
+
+    Teh_Reset_Handler(gameTime)
+
     if (Teh.highlight.waypointHighlighted) then
         if (Teh_Validate_Highlight()) then
             Teh_Tick_Highlight(gameTime)
@@ -49,7 +53,6 @@ function Teh_Tick_Handler(gameTime)
     else Teh_Copy_Tick_Handler() end
 
     --Teh_Settings_Handler()
-
 end
 
 Hide_reminders()
