@@ -216,12 +216,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--==                                                                             HOOP TRAILS                                                                           ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="gr" DisplayName="Guide Rings" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/ring.png" mapVisibility="0"/>
-
-		<!--=======================================================================================================================================================================-->
-		<!--==                                                                            HAZARD TRAILS                                                                          ==-->
-		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="hw" DisplayName="Hazard Warnings" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/caution.png" mapVisibility="0"/>
-			<MarkerCategory name="hwm" DisplayName="Hazard Warning Markers" iconFile="Data/TehsTrails/Markers/caution.png"/>
 		
 			<!--<MarkerCategory name="ds" DisplayName="Dynamic Settings (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="0" defaulttoggle="0" inGameVisibility="0">
 				<MarkerCategory name="stomm" DisplayName="Show Trails on Minimap" tip-description="Shows all trails on the minimap (excluding heart zones)" defaulttoggle="0"/>
@@ -8285,22 +8279,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 		<!-- GUIDANCE HOOP TRAILS -->
 		<Trail type="tt.mc.gr" trailData="Data/TehsTrails/TyriaTrails/hooptrails/StraitsOfDevastationHoops.trl"/>
-
-		<!-- HAZARD WARNING TRAILS -->
-		<Trail type="tt.mc.hw" trailData="Data/TehsTrails/TyriaTrails/hazardtrails/StraitsOfDevastationHazards.trl" iswall="1"/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="505.205" ypos="42.2587" zpos="621.397" GUID="NSf5XKrkOUqsESiJEzp3mg=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="513.75" ypos="42.4668" zpos="624.477" GUID="h03Ck/snPkGrefj2HXBDtg=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="523.48" ypos="44.3866" zpos="628.986" GUID="olL3nIJkLUqXz0mYBg/QKg=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="807.661" ypos="20.7068" zpos="441.923" GUID="IXZ2jujSkEq5W0BmG22HAQ=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="811.08" ypos="19.8874" zpos="432.719" GUID="qj1UsxXulU+iWjYGdWDZnA=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="816.56" ypos="20.4294" zpos="419.199" GUID="o0tPSrXCAUK3w8G0c1tGDQ=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="786.041" ypos="21.29" zpos="350.085" GUID="x9Gkx66as0mFNT93WwG7SQ=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="792.063" ypos="17.1145" zpos="312.01" GUID="H6J3NNJc3U+S+LwFUuLmvA=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="842.539" ypos="25.1248" zpos="240.414" GUID="vO2MYSSml06DyWaEISz8lw=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="848.342" ypos="21.5666" zpos="236.793" GUID="KdJgROs9PUS2/fkiyvy2Yg=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="850.127" ypos="24.4471" zpos="207.021" GUID="91BTZ3wVSkuv2W3I6gU6Vg=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="857.313" ypos="19.5675" zpos="197.06" GUID="E6G5ooLczUSLhhcNhrALMQ=="/>
-		<POI MapID="51" type="tt.mc.hwm" xpos="872.758" ypos="33.2754" zpos="170.088" GUID="LR1VIif1sUi06gd14LT6Ug=="/>
 
 
 
