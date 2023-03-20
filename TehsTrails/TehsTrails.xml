@@ -42,6 +42,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="mapDB" DisplayName="Dark Blue" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" defaulttoggle="0"/>
 				<!-- GREEN -->
 				<MarkerCategory name="mapGR" DisplayName="Green" texture="Data/TehsTrails/Markers/GreenTrail.png" defaulttoggle="0"/>
+				<!-- CUSTOM 
+				<MarkerCategory name="mapCustom" DisplayName="Click here to select your own color!" texture="Data/TehsTrails/Markers/LightGreyTrail.png" defaulttoggle="0"/>-->
 				<!-- BLUE (PRIORITY) -->
 				<MarkerCategory name="mapB" DisplayName="Blue" texture="Data/TehsTrails/Markers/Trail.png"/>
 			</MarkerCategory>
@@ -7763,6 +7765,48 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		
 		<!--========== MAIN COLORED TRAILS ==========-->
 
+		<!-- CUSTOM COLOR TRAILS 
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
+		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" /> -->
 		<!-- GREY TRAILS -->
 		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
 		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
@@ -7834,7 +7878,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
 		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
 		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl" GUID="hLFbEBvADEyK1LMNZDW6Fa=="/>
 		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
 		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
 		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
