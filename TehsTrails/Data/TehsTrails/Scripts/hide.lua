@@ -2,3 +2,5 @@
 function Hide_reminders()
     World.CategoryByType("tt.mc.cm.se"):Hide()
 end
+
+Hide_reminders()
