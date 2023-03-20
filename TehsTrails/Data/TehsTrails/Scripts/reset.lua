@@ -46,6 +46,13 @@ local function Teh_Hide_Reset_Category()
     end
 end
 
+function Teh_Reset_Scripts()
+    if (Teh.bounce.isBouncing) then Teh_Bounce_Reset() end
+    if (Teh.heartfollower.isFollowing) then Teh_Follower_Reset() end
+    if (Teh.highlight.waypointHighlighted) then Teh_Highlight_Reset() end
+    Teh_Hide_Reset_Category()
+end
+
 -- Handles the "reset" button category, that resets all active scripts when toggled
 function Teh_Reset_Handler()
     -- If there are scripts active
@@ -54,11 +61,7 @@ function Teh_Reset_Handler()
         if (Teh.reset.categoryShown == false) then Teh_Show_Reset_Category() end
         -- If the category has been shown, and it's now not visible, that means the user has toggled it, so reset everything
         if (Teh.reset.categoryShown == true and (Teh.reset.category:IsVisible() == false)) then
-            if (Teh.bounce.isBouncing) then Teh_Bounce_Reset() end
-            if (Teh.heartfollower.isFollowing) then Teh_Follower_Reset() end
-            if (Teh.highlight.waypointHighlighted) then Teh_Highlight_Reset() end
-
-            Teh_Hide_Reset_Category()
+            Teh_Reset_Scripts()
         end
     end
 end
