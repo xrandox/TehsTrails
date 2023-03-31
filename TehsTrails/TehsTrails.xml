@@ -4539,7 +4539,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
         <POI MapID="34" xpos="-92.1135" ypos="2.76896" zpos="15.1169" type="tt.mc.cm.rm.2" GUID="HLJOwHVUDk6+KPfZp6p5TQ=="/>
         <POI MapID="34" xpos="186.686" ypos="-0.19622" zpos="-23.7165" type="tt.mc.cm.mm.skyscale" GUID="sw1CkhFN/UqmnKznJHbI9g=="/>
         <POI MapID="34" xpos="-398.971" ypos="17.8923" zpos="-22.5858" type="tt.mc.cm.mm.skyscale" GUID="X5OpzGdGgUCPVN2HZCEWIg=="/>
-        <POI MapID="34" xpos="333.044" ypos="49.2291" zpos="965.445" type="tt.mc.cm.mm.skyscale" GUID="2fgTej3Gv0WJt7zElOLMIQ==" info="dddddddddddd"/>
+        <POI MapID="34" xpos="333.044" ypos="49.2291" zpos="965.445" type="tt.mc.cm.mm.skyscale" GUID="2fgTej3Gv0WJt7zElOLMIQ=="/>
         <POI MapID="34" xpos="-340.812" ypos="2.06379" zpos="709.13" type="tt.mc.cm.mm.beetle" GUID="+++nvNjxTkaV1dyeAQkdqw=="/>
         <POI MapID="34" xpos="-342.467" ypos="4.03432" zpos="701.781" type="tt.mc.cm.wm.arrow" GUID="SBU35rykik+K2gypxBC7WQ=="/>
         <POI MapID="34" xpos="-420.47" ypos="0.38686" zpos="528.57" type="tt.mc.cm.wm.wparrow" GUID="ZixLUuIayUaoqLpT4QJU/g==" info="WP contested or you got hit -&gt; Go and beetle back to waypoint" infoRange="35" copy="[&amp;BD4BAAA=]"/>
