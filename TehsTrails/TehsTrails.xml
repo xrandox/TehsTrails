@@ -1063,7 +1063,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="218" xpos="0.601186" ypos="211.591" zpos="203.292" type="tt.mc.cm.wm.x" GUID="dYUVS3RmhkOtFLABuISsBg=="/>
         <POI MapID="218" xpos="0.589" ypos="213.887" zpos="201.148" type="tt.mc.cm.rm.1" GUID="uzOKo26Yh0O/49QTrDeapw=="/>
         <POI MapID="218" xpos="-1.589" ypos="213.887" zpos="208.148" type="tt.mc.cm.rm.2" GUID="rAvi1MQec0inZFy6Yl4mDA=="/>
-        <POI MapID="218" xpos="-24.24" ypos="214.727" zpos="222.002" type="tt.mc.cm.mm.springertogriff" GUID="4iK3+q5ntEiMVjSXj5aO8w=="/>
+        <POI MapID="218" xpos="-26.5648" ypos="214.727" zpos="222.002" type="tt.mc.cm.mm.springertogriff" GUID="4iK3+q5ntEiMVjSXj5aO8w=="/>
         <POI MapID="218" xpos="8.96411" ypos="100.341" zpos="-78.1713" type="tt.mc.cm.rm.waypoints" GUID="sQGXXzLLQ0igojp+/AiZGw=="/>
         <POI MapID="218" xpos="12.3203" ypos="245.006" zpos="182.744" type="tt.mc.cm.wm.wpx" GUID="IDTOSSqJtUSm+f63FMum8w==" copy="[&amp;BK0DAAA=]"/>
         <POI MapID="218" xpos="13.8988" ypos="245.015" zpos="182.927" type="tt.mc.cm.rm.points_of_interest" GUID="PqaQebUueUyxiJc1QdwvkQ=="/>
@@ -1103,7 +1103,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="218" xpos="394.486" ypos="166.817" zpos="438.141" type="tt.mc.cm.rm.points_of_interest" GUID="3p4ZI0nkIUGZgb65FbROYA=="/>
         <POI MapID="218" xpos="408.01" ypos="165.85" zpos="341.127" type="tt.mc.cm.rm.points_of_interest" GUID="S3AK+HBhF02K3iKl5JxWtw=="/>
         <POI MapID="218" xpos="431.674" ypos="131.07" zpos="223.623" type="tt.mc.cm.rm.points_of_interest" GUID="rYvsjIuAAkuOdVO2R0gLMQ=="/>
-        <POI MapID="218" xpos="-5.60873" ypos="215.245" zpos="201.611" type="tt.mc.cm.mm.skyscale" GUID="ledNacrJAUmUWYVu6+Pixw=="/>
+        <POI MapID="218" xpos="-5.60873" ypos="215.245" zpos="201.611" type="tt.mc.cm.mm.skyscale" GUID="ledNacrJAUmUWYVu6+Pixw==" info="Route 1 -&gt; If you don't have skyscale follow trail of shame
+
+Route 2 -&gt; If you don't have skyscale use bunny into griffon from the edge"/>
         <POI MapID="218" xpos="-13.0705" ypos="165.339" zpos="81.7415" type="tt.mc.cm.rm.points_of_interest" GUID="U+d6t6F0+0OTLoy2nd/ZnQ=="/>
         <POI MapID="218" xpos="-16.0602" ypos="218.435" zpos="187.236" type="tt.mc.cm.rm.points_of_interest" GUID="Nj+J26lWOkW6pSDNQBGzGA=="/>
         <POI MapID="218" xpos="-16.1572" ypos="165.51" zpos="71.4087" type="tt.mc.cm.mm.griffon" GUID="iw1VAdCK/k657LCl2SJ6FA=="/>
@@ -1131,6 +1133,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="218" xpos="371.726" ypos="176.715" zpos="446.986" type="tt.mc.cm.mm.distogriff" GUID="PcjwXeDsH0CDMyYfpgDgoQ=="/>
         <POI MapID="218" xpos="256.208" ypos="136.182" zpos="344.284" type="tt.mc.cm.mm.raptor" GUID="v4jjvT382EKmv3jwZjgIbA=="/>
         <POI MapID="218" xpos="37.7177" ypos="173.514" zpos="217.854" type="tt.mc.cm.mm.skyscale" GUID="MZCsHLG1FkGYJQNVEcmT3g=="/>
+        <POI MapID="218" xpos="75.1435" ypos="168.586" zpos="51.3488" type="tt.mc.cm.mm.raptor" GUID="Fl5uWKOVXEyfclWI02GxVQ=="/>
+        <POI MapID="218" xpos="-13.7925" ypos="102.795" zpos="-76.2782" type="tt.mc.cm.mm.raptor" GUID="Jws4UnHHmEekeheSJSp16A=="/>
+        <POI MapID="218" xpos="162.073" ypos="167.44" zpos="254.551" type="tt.mc.cm.mm.raptor" GUID="X6oWc6w/aEe0KEjuA13X2g=="/>
+        <POI MapID="218" xpos="84.0622" ypos="168.214" zpos="248.65" type="tt.mc.cm.mm.raptor" GUID="X7NxDk04K0uKcNTUL534sQ=="/>
+        <POI MapID="218" xpos="-3.10086" ypos="217.057" zpos="210.079" type="tt.mc.cm.mm.skyscale" GUID="BLmzPthve0iXeZh4lLksGQ=="/>
+        <POI MapID="218" xpos="-33.9552" ypos="240.259" zpos="225.043" type="tt.mc.cm.mm.distogriff" GUID="VcS7e9zJOEWOgDbp0X+BOw=="/>
 			<!--===================================== ASH TRIBUNE QUARTERS MARKERS =====================================-->
 		<POI MapID="833" xpos="-21.1978" ypos="228.554" zpos="291.629" type="tt.mc.cm.rm.points_of_interest" GUID="7YkXBgmejUOC0LOPd82flg=="/>
 		<POI MapID="833" xpos="-23.9215" ypos="228.935" zpos="290.412" type="tt.mc.cm.wm.wpx" copy="[&amp;BK0DAAA=]" GUID="38kDIGZGGU+Zrkknra70Rw=="/>
@@ -1144,7 +1152,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="373" xpos="10.1422" ypos="245.178" zpos="183.007" type="tt.mc.cm.rm.exit_instance" GUID="pgrQD4rKOEuB70t3NrI31A=="/>
 		<POI MapID="373" xpos="12.2152" ypos="245.019" zpos="183.063" type="tt.mc.cm.rm.points_of_interest" GUID="g8rXeao4AU+87DqP2bWwmQ=="/>
 		<POI MapID="373" xpos="26.1331" ypos="245.5" zpos="224.415" type="tt.mc.cm.rm.points_of_interest" GUID="57augUiBHkC3kf5c7wGCJA=="/>
-		
+        <POI MapID="373" xpos="78.5916" ypos="228.913" zpos="223.239" type="tt.mc.cm.mm.raptor" GUID="85UxgkNNmk62X5CyJHq4gQ=="/>
+        <POI MapID="373" xpos="27.2429" ypos="245.498" zpos="220.502" type="tt.mc.cm.mm.griffon" GUID="OzYJ25OeF0ifONqWxkZoLQ=="/>
+
 		
 		<!--============================================= DIVINITY'S REACH MARKERS =============================================-->
         <POI MapID="18" xpos="66.7354" ypos="138.644" zpos="-118.338" type="tt.mc.cm.rm.points_of_interest" GUID="bh6dm7IW002lm+sWxZ+hfA=="/>
@@ -8772,10 +8782,10 @@ Not enough -&gt; Bring eggs to heart"/>
         <Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/SparkflyFenHeartZones.trl"/>
 		
 		<!-- SKYSCALE TRAILS -->
-		<Trail type="tt.mc.sst" trailData="Data/TehsTrails/TyriaTrails/skyscaletrails/BlackCitadelSkyscale.trl"/>
 		<Trail type="tt.mc.sst" trailData="Data/TehsTrails/TyriaTrails/skyscaletrails/RataSumSkyscale.trl"/>
 
 		<!-- TRAILS OF SHAME -->
+        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BlackCitadelTrailOfShame.trl"/>
         <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BloodtideCoastTrailOfShame.trl"/>
 		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/GendarranFieldsTrailOfShame.trl"/>
 		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/FrostgorgeSoundTrailOfShame.trl"/>
