@@ -1333,7 +1333,8 @@ Route 2 -&gt; If you don't have skyscale use bunny into griffon from the edge"/>
 		<POI MapID="375" xpos="80.7506" ypos="341.973" zpos="-325.688" type="tt.mc.cm.rm.exit_instance" GUID="pcJBZJeaUU2TxBEII5Bh1g=="/>
 		<POI MapID="375" xpos="82.3971" ypos="341.972" zpos="-322.971" type="tt.mc.cm.rm.points_of_interest" GUID="ecIcXdmaNUOHOgYTfBcUkQ=="/>
 			<!--===================================== KNUT WHITEBEAR'S LOFT MARKERS =====================================-->
-		<POI MapID="374" xpos="15.0729" ypos="394.168" zpos="-348.052" type="tt.mc.cm.wm.wparrow" GUID="IcCfKVDxG0+4M4YGP7vWOQ=="/>
+        <POI MapID="374" xpos="15.0729" ypos="394.168" zpos="-348.052" type="tt.mc.cm.rm.finish" GUID="IcCfKVDxG0+4M4YGP7vWOQ==" copy="[&amp;BBEEAAA=]"/>
+        <POI MapID="374" xpos="13.9127" ypos="394.163" zpos="-347.245" type="tt.mc.cm.rm.exit_instance" GUID="QrNl3iDVEkGp7bH8aYPcbg=="/>
 			<!--===================================== STONEWRIGHT'S STEADING MARKERS =====================================-->
 		<POI MapID="376" xpos="283.9734" ypos="386.034" zpos="-260.571" type="tt.mc.cm.wm.circle" GUID="Rq/nR1axkkeVJvWdqBX20A=="/>
 		<POI MapID="376" xpos="397.826" ypos="337.19" zpos="-335.023" type="tt.mc.cm.wm.wpcircle" copy="[&amp;BI4DAAA=]" GUID="jXRzvvhSyEyGA+5Or3I0Kw=="/>
