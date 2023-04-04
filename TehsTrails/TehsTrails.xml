@@ -5349,7 +5349,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
 		<POI MapID="26" xpos="-500.454" ypos="82.659" zpos="71.5261" type="tt.mc.h.chm.interact" GUID="zjkoIxcGdkiofaIHpP9Fjg==" />
 		<POI MapID="26" xpos="-495.489" ypos="82.1936" zpos="63.21" type="tt.mc.h.chm.interact" GUID="YS8qPnOwf0CqxqXg94Q0hg==" />
 		<POI MapID="26" xpos="-500.847" ypos="81.7247" zpos="48.3308" type="tt.mc.h.chm.start_heart" GUID="QZUhIVIvu0eVZCLXXgsWKA==" info="Kill Svanir, Icebrood" script-focus="Teh_Heart_Follower(o59HF64MikyLRGnd03Pv6w==)" />
-		<POI MapID="26" xpos="-w489.453" ypos="20.2104" zpos="-841.979" type="tt.mc.cm.mm.springer" GUID="Ibc3S9k8lUCKpjmm+wBqAA==" />
+		<POI MapID="26" xpos="-489.453" ypos="20.2104" zpos="-841.979" type="tt.mc.cm.mm.springer" GUID="Ibc3S9k8lUCKpjmm+wBqAA==" />
 		<POI MapID="26" xpos="-489.631" ypos="24.6321" zpos="-831.27" type="tt.mc.h.chm.arrow" GUID="cPVHI5qWlUeSHcfN4a7bCw==" />
 		<POI MapID="26" xpos="-486.169" ypos="24.2186" zpos="-837.808" type="tt.mc.h.chm.arrow" GUID="zWmE7vkb1Ey8/Gi0p0kmfA==" info="Use skill 3 (bubble) on markers. Stand behind turrets to avoid getting knocked back" infoRange="30" />
 		<POI MapID="26" xpos="-486.208" ypos="23.7241" zpos="-847.852" type="tt.mc.h.chm.arrow" GUID="dFT76mRc0k6H5KZYdeUCXw==" />
