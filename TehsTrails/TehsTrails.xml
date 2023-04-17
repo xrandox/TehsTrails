@@ -1228,8 +1228,8 @@ Route 2 -&gt; If you don't have skyscale use bunny into griffon from the edge"/>
         <POI MapID="18" xpos="-315.894" ypos="99.1392" zpos="162.616" type="tt.mc.cm.rm.waypoints" GUID="cFBFSAPzF0CDF/qLPGuA5g=="/>
         <POI MapID="18" xpos="-317.36" ypos="100.481" zpos="-265.537" type="tt.mc.cm.rm.waypoints" GUID="1VDlK8N/d0+vJmanq0Xh8Q=="/>
         <POI MapID="18" xpos="3385" ypos="0" zpos="-2405" type="tt.mc.cm.rm.exit_map_by_teleporting" GUID="8aDppi0lgE++2UVr5SAP6g=="/>
-        <POI MapID="18" xpos="415.44" ypos="102.667" zpos="-301.293" type="tt.mc.cm.mm.griffon" GUID="6/1sNuk7g0SUInGhXRsHcQ==" info="Don't try to griffon superspeed"/>
-        <POI MapID="18" xpos="19.7648" ypos="100.351" zpos="-470.552" type="tt.mc.cm.mm.griffon" GUID="q4pIPsGMgEGfKMkIohOdNg==" info="Don't try to griffon superspeed"/>
+        <POI MapID="18" xpos="415.44" ypos="102.667" zpos="-301.293" type="tt.mc.cm.mm.griffon" GUID="6/1sNuk7g0SUInGhXRsHcQ==" info="Don't try to griffon superdive"/>
+        <POI MapID="18" xpos="19.7648" ypos="100.351" zpos="-470.552" type="tt.mc.cm.mm.griffon" GUID="q4pIPsGMgEGfKMkIohOdNg==" info="Don't try to griffon superdive"/>
         <POI MapID="18" xpos="-222.385" ypos="79.4991" zpos="-289.474" type="tt.mc.cm.rm.dismount" GUID="L0Y/7VBEhUeTzcm4gxFXzw=="/>
         <POI MapID="18" xpos="-279.991" ypos="60.8509" zpos="-148.331" type="tt.mc.cm.mm.beetle" GUID="4DhzH4NuJkGLBHZYLnI+7g=="/>
         <POI MapID="18" xpos="36.1034" ypos="101.274" zpos="358.585" type="tt.mc.cm.mm.raptor" GUID="SA3ZJP6qIUmg6vSo0k7OJw=="/>
@@ -2493,7 +2493,7 @@ Route 2 -&gt; If you don't have skyscale use bunny into griffon from the edge"/>
 		<POI MapID="22" xpos="-218.779" ypos="42.2761" zpos="296.761" type="tt.mc.cm.rm.points_of_interest" GUID="Y89RHla+Z0uMtJ4Gg4v/2A==" />
 		<POI MapID="22" xpos="-217.573" ypos="21.3502" zpos="-294.5" type="tt.mc.cm.rm.waypoints" GUID="HEKK0A9CDEKdMZI/GPn3og==" />
 		<POI MapID="22" xpos="-215.478" ypos="85.5225" zpos="323.101" type="tt.mc.cm.rm.vistas" GUID="OD6DJ018dkiEfHvYvRJc3A==" />
-		<POI MapID="22" xpos="-215.872" ypos="85.1139" zpos="321.098" type="tt.mc.cm.mm.griffon" GUID="pwlobVC4OE+WP5Nbtg71jQ==" info="Don't try to griffon superspeed" />
+		<POI MapID="22" xpos="-215.872" ypos="85.1139" zpos="321.098" type="tt.mc.cm.mm.griffon" GUID="pwlobVC4OE+WP5Nbtg71jQ==" info="Don't try to griffon superdive" />
 		<POI MapID="22" xpos="-209.925" ypos="21.4637" zpos="-292.107" type="tt.mc.cm.wm.x" GUID="12yjylM63kim4MwAMHqm1g==" />
 		<POI MapID="22" xpos="-207.15" ypos="80.3879" zpos="318.931" type="tt.mc.cm.rm.bondoffaith" GUID="5/W4PDU+T0Sze1Mg17yyaQ==" />
 		<POI MapID="22" xpos="-203.333" ypos="23.0436" zpos="-136.957" type="tt.mc.cm.wm.wpx" GUID="hr7ML50TnEmHo6g6go0ZQw==" copy="[&amp;BBsCAAA=]" />
@@ -5883,7 +5883,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
 		<POI MapID="30" xpos="399.622" ypos="69.0919" zpos="-742.54" type="tt.mc.cm.mm.skyscale" GUID="QnbwC0ah7EGKC+Vq819yzw==" />
 		<POI MapID="30" xpos="412.682" ypos="72.7576" zpos="-254.638" type="tt.mc.cm.rm.ppr_m" GUID="t/kyLXRboUevZXLaTEh39g==" />
 		<POI MapID="30" xpos="415.6" ypos="73.1449" zpos="-256.543" type="tt.mc.cm.mm.beetle" GUID="sAak39/FFUiiBBpY/cU1ZQ==" />
-		<POI MapID="30" xpos="418.629" ypos="77.3765" zpos="-246.826" type="tt.mc.cm.mm.griffon" GUID="RDtHaKpxZka8L5xrL7/ZYQ==" info="Don't try to griffon superspeed" />
+		<POI MapID="30" xpos="418.629" ypos="77.3765" zpos="-246.826" type="tt.mc.cm.mm.griffon" GUID="RDtHaKpxZka8L5xrL7/ZYQ==" info="Don't try to griffon superdive" />
 		<POI MapID="30" xpos="452.437" ypos="44.0026" zpos="-212.392" type="tt.mc.cm.rm.points_of_interest" GUID="zNkWOu7AFkeWIF4JHCuAaQ==" />
 		<POI MapID="30" xpos="474.32" ypos="47.2442" zpos="-833.974" type="tt.mc.cm.mm.jackal" GUID="JqWKZZnZIEC7InyMsF3Lag==" />
 		<POI MapID="30" xpos="479.332" ypos="47.2871" zpos="-862.076" type="tt.mc.cm.rm.start" GUID="rWbP29m1SkeqhHw0G/MN2w==" />
@@ -6238,7 +6238,7 @@ Use executioner axe (or other bundle) to move faster and to weaponswap animation
 		<POI MapID="27" xpos="428.268" ypos="113.586" zpos="-938.178" type="tt.mc.cm.wm.wpcircle" GUID="vkQtI39ZS0+Tev6sY1lkCQ==" copy="[&amp;BOgAAAA=]" />
 		<POI MapID="27" xpos="430.327" ypos="163.511" zpos="1360.93" type="tt.mc.cm.rm.stealthmount" GUID="Qv2uOEeH4Ems0m3ShU+D4g==" />
 		<POI MapID="27" xpos="430.898" ypos="147.913" zpos="461.654" type="tt.mc.h.chm.interact" GUID="5/XCTDvTIk6yDEn01fFrSw==" />
-		<POI MapID="27" xpos="434.607" ypos="230.44" zpos="1084.84" type="tt.mc.cm.mm.griffon" GUID="CRT6q6h9Qkqn83pFWWkYrw==" info="Don't try to griffon superspeed" />
+		<POI MapID="27" xpos="434.607" ypos="230.44" zpos="1084.84" type="tt.mc.cm.mm.griffon" GUID="CRT6q6h9Qkqn83pFWWkYrw==" info="Don't try to griffon superdive" />
 		<POI MapID="27" xpos="447.122" ypos="165.041" zpos="317.838" type="tt.mc.cm.rm.waypoints" GUID="tQp5XvuQmUiGXTGRbclluA==" />
 		<POI MapID="27" xpos="451.135" ypos="152.633" zpos="452.311" type="tt.mc.h.chm.interact" GUID="HM8uzqtbMUyq1/Swa6v3Mg==" />
 		<POI MapID="27" xpos="452.603" ypos="219.363" zpos="1153.77" type="tt.mc.hp.hpm" GUID="sjX4A01GwES1o14Jh25fXQ==" />
