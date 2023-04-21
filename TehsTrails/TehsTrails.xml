@@ -77,7 +77,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="transp" DisplayName="Transparent Marker" iconFile="Data/TehsTrails/Markers/transparent.png"/>
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/TehsTrails/Markers/shoppinglist.png" iconSize="1.5"/>
 					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
-					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" iconSize="1" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map_by_teleporting" DisplayName="Exit Point Teleportation" iconFile="Data/TehsTrails/Markers/ExitMap.png" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="nem" DisplayName="Numbered Exit Map Markers" miniMapVisibility="1" mapVisibility="1">
 						<MarkerCategory name="exit_map_1" DisplayName="Exit Map 1" iconFile="Data/TehsTrails/Markers/ExitMap1.png"/>
