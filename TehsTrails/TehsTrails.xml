@@ -1896,7 +1896,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="32" xpos="-765.665" ypos="33.523" zpos="-300.574" type="tt.mc.h.chm.interact" GUID="77xpikQjwkiCUDrstWiMmQ==" />
 		<POI MapID="32" xpos="-753.502" ypos="79.3881" zpos="206.231" type="tt.mc.cm.rm.vistas" GUID="MF82ZoVoz0uhgDNZ8eqFcg==" />
 		<POI MapID="32" xpos="-749.99" ypos="79.3909" zpos="207.118" type="tt.mc.cm.mm.raptor" GUID="yF21L6l1Cky2mVpeET0mcg==" />
-		<POI MapID="32" xpos="-748.241" ypos="93.3705" zpos="377.515" type="tt.mc.h.chm.start_heart" GUID="1Pcwf2sB3UqQu+Et/NYf3Q==" info="Event -&gt; Kill walls &#xA;&#xA;Kill Dredge (not veterans) and machinery" script-focus="Teh_Heart_Follower_2(xXqcAEI5FUGzgHxiGbjc3w==,n0j531II0kiAHyPpSNuzyw==)" />
+		<POI MapID="32" xpos="-748.241" ypos="93.3705" zpos="377.515" type="tt.mc.h.chm.start_heart" GUID="1Pcwf2sB3UqQu+Et/NYf3Q==" info="Kill Dredge (not veterans) and machinery &#xA;&#xA;Event -&gt; Kill walls" script-focus="Teh_Heart_Follower_2(xXqcAEI5FUGzgHxiGbjc3w==,n0j531II0kiAHyPpSNuzyw==)" />
 		<POI MapID="32" xpos="-740.376" ypos="32.5899" zpos="-239.343" type="tt.mc.cm.mm.raptor" GUID="tW1b9k1iu0+GWAZgubc9PQ==" />
 		<POI MapID="32" xpos="-734.05" ypos="31.1601" zpos="-238.651" type="tt.mc.cm.wm.triangle" GUID="c60o37JbzUKrQbGwteJt7w==" />
 		<POI MapID="32" xpos="-731.053" ypos="49.9706" zpos="-238.318" type="tt.mc.cm.rm.waypoints" GUID="ag2LyqZYtkCXXzrZXYLJaw==" />
@@ -2112,7 +2112,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="32" xpos="396.313" ypos="38.1605" zpos="560.788" type="tt.mc.cm.rm.waypoints" GUID="x7BbDNt2sUiMu4W98i5wMA==" />
 		<POI MapID="32" xpos="408.437" ypos="36.1666" zpos="-268.391" type="tt.mc.h.chm.interact" GUID="VuTNPD4iMUOlqv3iRCu7RQ==" />
 		<POI MapID="32" xpos="408.766" ypos="2.4194" zpos="471.775" type="tt.mc.cm.mm.skyscale" GUID="ge7KtwbNSU6IfWY7rfdDEQ==" />
-		<POI MapID="32" xpos="409.214" ypos="33.1611" zpos="-284.695" type="tt.mc.h.chm.start_heart" GUID="qLYtRhRNpEejaGixKW37fQ==" info="Trebuchet event -&gt; Destroy Trebuchet (make sure you are in heart range) &#xA;&#xA;Otherwise -&gt; Kill Separatists, interact with suspicious piles" script-focus="Teh_Heart_Follower(U+oO2q6y8kerMWiB7Q4uUQ==)" />
+		<POI MapID="32" xpos="409.214" ypos="33.1611" zpos="-284.695" type="tt.mc.h.chm.start_heart" GUID="qLYtRhRNpEejaGixKW37fQ==" info="Kill Separatists, interact with suspicious piles &#xA;&#xA;Trebuchet event -&gt; Destroy Trebuchet (make sure you are in heart range)" script-focus="Teh_Heart_Follower(U+oO2q6y8kerMWiB7Q4uUQ==)" />
 		<POI MapID="32" xpos="411.695" ypos="36.0006" zpos="-259.28" type="tt.mc.h.chm.interact" GUID="AORbqPp0fEiiOleH+zqKKw==" />
 		<POI MapID="32" xpos="417.299" ypos="36.0822" zpos="-259.726" type="tt.mc.h.chm.interact" GUID="Oy7UhDZYzUCUx0foFWvPuQ==" />
 		<POI MapID="32" xpos="426.379" ypos="37.9657" zpos="-317.308" type="tt.mc.h.chm.interact" GUID="F8Jj64c6cUu5blKLSzq5yg==" />
@@ -2753,7 +2753,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="25" xpos="-227.588" ypos="42.9507" zpos="-735.897" type="tt.mc.h.chm.interact" GUID="3p8dcKCOMk2YjzNLa6FsVg==" />
         <POI MapID="25" xpos="-245.529" ypos="39.2446" zpos="-703.811" type="tt.mc.h.chm.interact" GUID="ERptweeZoUWuq7xPC442XQ==" />
         <POI MapID="25" xpos="-101.583" ypos="29.0748" zpos="-536.179" type="tt.mc.cm.rm.stealthmount" GUID="86SMs+Ur6E2a5UvvGYLbkA==" />
-        <POI MapID="25" xpos="367.943" ypos="4.01158" zpos="-1042.96" type="tt.mc.cm.wm.wpheart" GUID="VpenfZ2CG0iMpluGN8bkvQ==" info="If you don't have the WP unlocked -&gt; follow trail of shame" copy="[&amp;BIcBAAA=]" />
+        <POI MapID="25" xpos="367.943" ypos="4.01158" zpos="-1042.96" type="tt.mc.cm.wm.wpheart" GUID="VpenfZ2CG0iMpluGN8bkvQ==" info="If you don't have the WP unlocked follow trail of shame" copy="[&amp;BIcBAAA=]" />
         <POI MapID="25" xpos="38.0566" ypos="27.7254" zpos="-1371.23" type="tt.mc.cm.wm.heart" GUID="t3ZzeUlSfkm/ryt/mW8UtQ==" />
         <POI MapID="25" xpos="19.5637" ypos="27.8776" zpos="-1192.33" type="tt.mc.cm.mm.skyscale" GUID="8FgQD98mDUeh8JEGqDVf3A==" info="If you don't have skyscale do bunny into griffon from the rock" />
         <POI MapID="25" xpos="-184.347" ypos="8.7326" zpos="-1099.38" type="tt.mc.cm.mm.springer" GUID="GuuORQsDLUaOaHj3k82uGw==" />
@@ -2880,7 +2880,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="19" xpos="1116.27" ypos="16.5006" zpos="-476.414" type="tt.mc.cm.mm.beetle" GUID="M2JAtrMA1UmwjjxaoszOhA==" />
         <POI MapID="19" xpos="-262.693" ypos="35.9724" zpos="-161.819" type="tt.mc.h.chm.start_heart" GUID="JoVjaSkGmUmOi5QxEvYrog==" info="Talk to heart (2, 1). Get Moa under 50% health and repeatedly capture it (skill 4).&#xA;&#xA;If arena works, you can kill mobs." script-focus="Teh_Heart_Follower(xte7rw/+1kuBr+413F3DZQ==)" />
         <POI MapID="19" xpos="70.9679" ypos="40.4012" zpos="-257.687" type="tt.mc.h.chm.finish_heart" GUID="xte7rw/+1kuBr+413F3DZQ==" />
-        <POI MapID="19" xpos="1159.57" ypos="35.9556" zpos="265.189" type="tt.mc.cm.mm.skyscale" GUID="cnN31u/10UGikPeynDXwRQ==" info="If the gate is closed because of the event, follow trail of shame with skyscale/springer" infoRange="10" />
+        <POI MapID="19" xpos="1159.57" ypos="35.9556" zpos="265.189" type="tt.mc.cm.mm.skyscale" GUID="cnN31u/10UGikPeynDXwRQ==" info="If the gate is closed due to the event follow trail of shame with skyscale/springer" infoRange="10" />
         <POI MapID="19" xpos="-259.265" ypos="37.0641" zpos="-160.718" type="tt.mc.h.chm.talk" GUID="M7975yUUKUOu5AVyCxsFiA==" />
         <POI MapID="19" xpos="-62.8313" ypos="17.1004" zpos="-32.7599" type="tt.mc.h.chm.finish_heart" GUID="TPuY/nKHQUSFewuIFXB//Q==" />
         <POI MapID="19" xpos="58.7046" ypos="39.1166" zpos="487.822" type="tt.mc.h.chm.start_heart" GUID="qujo1cYSp0inMdwa3fAtPw==" info="Kill harpies and nests" script-focus="Teh_Heart_Follower(NUAqxs1MHEKn8rxVawtB1Q==)" />
@@ -2924,7 +2924,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="19" xpos="605.915" ypos="32.2969" zpos="-496.711" type="tt.mc.h.chm.finish_heart" GUID="N2nRNhiRzUKRHCsA1uIiag==" />
         <POI MapID="19" xpos="614.659" ypos="12.4401" zpos="183.266" type="tt.mc.cm.rm.waypoints" GUID="awLhc4NPckOIqz9iKjWmkQ==" />
         <POI MapID="19" xpos="621.107" ypos="12.7123" zpos="175.544" type="tt.mc.cm.wm.triangle" GUID="mzSk2mWIBEW1J7qMzsNpnw==" />
-        <POI MapID="19" xpos="621.981" ypos="-0.667626" zpos="-197.693" type="tt.mc.h.chm.start_heart" GUID="4BRysDKGY0eClRyeuROuyw==" info="Talk to heart (1, 2) -&gt; Grenades on dummies&#xA;&#xA;If not enough -&gt; Interact with machines" script-focus="Teh_Heart_Follower(yswq35dr4UOqYgSbSH2v+Q==)" />
+        <POI MapID="19" xpos="621.981" ypos="-0.667626" zpos="-197.693" type="tt.mc.h.chm.start_heart" GUID="4BRysDKGY0eClRyeuROuyw==" info="Talk to heart (1, 2) -&gt; Grenades on dummies&#xA;&#xA;Not enough -&gt; Interact with machines" script-focus="Teh_Heart_Follower(yswq35dr4UOqYgSbSH2v+Q==)" />
         <POI MapID="19" xpos="629.087" ypos="0.762158" zpos="-188.91" type="tt.mc.h.chm.kill" GUID="yV2eH6WGKEqZiknYNQMBOg==" />
         <POI MapID="19" xpos="666.91" ypos="34.1493" zpos="484.847" type="tt.mc.cm.rm.waypoints" GUID="jvXQ+mgxtUu15g2Pqqx5Uw==" />
         <POI MapID="19" xpos="673.617" ypos="25.1922" zpos="-503.274" type="tt.mc.h.chm.start_heart" GUID="XjYln3b7xEq7n4+ujtzxqA==" info="Interact with everything and kill Separatists" script-focus="Teh_Heart_Follower(N2nRNhiRzUKRHCsA1uIiag==)" />
@@ -3479,7 +3479,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="17" xpos="416.586" ypos="50.0169" zpos="473.913" type="tt.mc.h.chm.interact" GUID="dyUnX0b3lU2MJNU7q9UTfw==" />
 		<POI MapID="17" xpos="417.796" ypos="51.624" zpos="459.831" type="tt.mc.h.chm.interact" GUID="2euRW84QHECdCo+cVKLMNQ==" />
 		<POI MapID="17" xpos="419.824" ypos="50.303" zpos="477.186" type="tt.mc.h.chm.interact" GUID="DStQpnLFbUCgYzXFCmi5xQ==" />
-		<POI MapID="17" xpos="419.926" ypos="25.2871" zpos="-699.699" type="tt.mc.h.chm.start_heart" GUID="iYucrFHDYUiZGS0IACVWHQ==" info="Kill centaur, supplies and trebuchet | Event" script-focus="Teh_Heart_Follower(TuAFGGGbtEiwwA3RSg+TxA==)" />
+		<POI MapID="17" xpos="419.926" ypos="25.2871" zpos="-699.699" type="tt.mc.h.chm.start_heart" GUID="iYucrFHDYUiZGS0IACVWHQ==" info="Kill centaur, supplies and trebuchet &#xA;&#xA;Event -&gt; Do it" script-focus="Teh_Heart_Follower(TuAFGGGbtEiwwA3RSg+TxA==)" />
 		<POI MapID="17" xpos="421.144" ypos="52.6464" zpos="449.875" type="tt.mc.h.chm.talk" GUID="7zS7AqAxxU+b34vHz7Ii6A==" />
 		<POI MapID="17" xpos="421.175" ypos="51.7956" zpos="460.165" type="tt.mc.h.chm.interact" GUID="R2vDT57dyEuEwdTBSgWHbA==" />
 		<POI MapID="17" xpos="422.458" ypos="50.626" zpos="478.304" type="tt.mc.h.chm.interact" GUID="y3XZweLU5kS4/VNrnhyD7Q==" />
@@ -3654,7 +3654,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="23" xpos="-135.347" ypos="-1.07396" zpos="-74.6021" type="tt.mc.cm.rm.points_of_interest" GUID="+vIVJC+l1ka771lBP31/Mw==" />
 		<POI MapID="23" xpos="-133.749" ypos="-1.86527" zpos="-75.7638" type="tt.mc.cm.wm.wpcircle" GUID="dnO9sT06BEmHA9CRb7LCZA==" copy="[&amp;BBMAAAA=]" />
 		<POI MapID="23" xpos="-85.2584" ypos="121.592" zpos="322.641" type="tt.mc.cm.mm.distogriff" GUID="Q8P2LNzSD0ytnXwb8OQJhQ==" />
-		<POI MapID="23" xpos="-37.4857" ypos="4.69501" zpos="-144.18" type="tt.mc.h.chm.start_heart" GUID="fVLmxkyqAU6GJaU9FLFhZw==" info="Kill skale and Togatl (no veterans) &#xA;&#xA;If not enough -&gt; continue on path to kill grubs and ettins in cave" script-focus="Teh_Heart_Follower(kgMFKytyEUiRvfXzVlwqBg==)" />
+		<POI MapID="23" xpos="-37.4857" ypos="4.69501" zpos="-144.18" type="tt.mc.h.chm.start_heart" GUID="fVLmxkyqAU6GJaU9FLFhZw==" info="Kill skale and Togatl (no veterans) &#xA;&#xA;Not enough -&gt; continue on path to kill grubs and ettins in cave" script-focus="Teh_Heart_Follower(kgMFKytyEUiRvfXzVlwqBg==)" />
 		<POI MapID="23" xpos="-25.9906" ypos="85.805" zpos="346.802" type="tt.mc.cm.mm.skyscale" GUID="bofelxLYbU+jj9X7PFYF6g==" info="If you don't have skyscale use bunny into griffon" infoRange="30" />
 		<POI MapID="23" xpos="-1.66924" ypos="5.31206" zpos="-148.08" type="tt.mc.cm.rm.bondoffaith" GUID="5385vLQ4lkSSj8/+DOD7vg==" />
 		<POI MapID="23" xpos="10.2014" ypos="46.6438" zpos="515.714" type="tt.mc.cm.rm.points_of_interest" GUID="zyc6k6b2SE+w4WIQyjk2vQ==" />
@@ -3709,7 +3709,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="23" xpos="466.205" ypos="92.0365" zpos="-258.735" type="tt.mc.h.chm.interact" GUID="VEkoH35FrU+MggMQPFz6rQ==" />
 		<POI MapID="23" xpos="474.9" ypos="60.0499" zpos="402.703" type="tt.mc.h.chm.interact" GUID="Z/1TAjDGE0WlEEbvf8knoQ==" />
 		<POI MapID="23" xpos="481.097" ypos="50.8462" zpos="294.391" type="tt.mc.cm.mm.beetle" GUID="3hkWrERNE0SS7iD15GpRhA==" />
-		<POI MapID="23" xpos="483.401" ypos="60.8428" zpos="251.623" type="tt.mc.h.chm.start_heart" GUID="nefpaMD/u0yLzp4QA0jzQw==" info="Kill Tamini, destroy harathi flags and spike traps | Do event if up" script-focus="Teh_Heart_Follower(MpGJXSIzZEqp1QX/xyO7UA==)" />
+		<POI MapID="23" xpos="483.401" ypos="60.8428" zpos="251.623" type="tt.mc.h.chm.start_heart" GUID="nefpaMD/u0yLzp4QA0jzQw==" info="Kill Tamini, destroy harathi flags and spike traps&#xA;&#xA;Event -&gt; do it" script-focus="Teh_Heart_Follower(MpGJXSIzZEqp1QX/xyO7UA==)" />
 		<POI MapID="23" xpos="484.862" ypos="60.8428" zpos="248.912" type="tt.mc.cm.rm.vistas" GUID="uMZ6UjgP20ePH+oB9wL6Iw==" />
 		<POI MapID="23" xpos="487.687" ypos="52.4204" zpos="270.325" type="tt.mc.cm.mm.skyscale" GUID="ePJ2davugUOJ8UxfdgFR2Q==" />
 		<POI MapID="23" xpos="489.674" ypos="51.8376" zpos="265.199" type="tt.mc.h.chm.interact" GUID="cxQwnJCM+kic5VCshB6F2A==" />
@@ -4482,10 +4482,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="34" xpos="307.633" ypos="26.5157" zpos="-907.584" type="tt.mc.cm.rm.points_of_interest" GUID="tGv74O6z/EiVqZ9/iAKVKg==" />
         <POI MapID="34" xpos="309.619" ypos="28.05" zpos="-866.286" type="tt.mc.cm.wm.star" GUID="b7igrhvzDU+uM8yb00eT8w==" />
         <POI MapID="34" xpos="309.302" ypos="27.9868" zpos="-880.258" type="tt.mc.cm.rm.waypoints" GUID="KtbMh651J0SHbh2MQnPHGA==" />
-        <POI MapID="34" xpos="342.964" ypos="0.280577" zpos="-951.435" type="tt.mc.h.chm.start_heart" GUID="MwXfSk3GskaCQzb7iIk9ng==" info="Kill Risen, Interact with corpses
-
-
-No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqetRIVgneMjg==)" />
+        <POI MapID="34" xpos="342.964" ypos="0.280577" zpos="-951.435" type="tt.mc.h.chm.start_heart" GUID="MwXfSk3GskaCQzb7iIk9ng==" info="Kill Risen, Interact with corpses&#xA;&#xA;No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqetRIVgneMjg==)" />
         <POI MapID="34" xpos="329.722" ypos="48.5822" zpos="967.279" type="tt.mc.cm.rm.vistas" GUID="EY1Ea+yN6EuOdERm/1TQkw==" />
         <POI MapID="34" xpos="343.952" ypos="0.390549" zpos="-960.258" type="tt.mc.h.chm.finish_heart" GUID="UFVbfqoMgUqetRIVgneMjg==" />
         <POI MapID="34" xpos="342.262" ypos="0.644647" zpos="-960.598" type="tt.mc.cm.wm.wpstar" GUID="2enPGGytNEWkNRnaIps9sg==" copy="[&amp;BP4FAAA=]" />
@@ -4588,7 +4585,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
         <POI MapID="34" xpos="-196.416" ypos="9.29576" zpos="-150.422" type="tt.mc.cm.rm.points_of_interest" GUID="t8j6GOVjIk+ehddcf8AR2w==" />
         <POI MapID="34" xpos="-202.342" ypos="0.976905" zpos="-969.31" type="tt.mc.h.chm.finish_heart" GUID="qrbr9Ik4H0OkXwhdt4XWiQ==" />
         <POI MapID="34" xpos="-204.625" ypos="-0.0448171" zpos="-86.6224" type="tt.mc.h.chm.interact" GUID="COoBn0TYjU+7kLlMfLqQBg==" />
-        <POI MapID="34" xpos="-209.499" ypos="1.65489" zpos="-1004.98" type="tt.mc.h.chm.start_heart" GUID="7WvKEGRgZkuwbZbhnVeMQA==" info="Kick Trees  Not enough -&gt; Kill larva" script-focus="Teh_Heart_Follower(qrbr9Ik4H0OkXwhdt4XWiQ==)" />
+        <POI MapID="34" xpos="-209.499" ypos="1.65489" zpos="-1004.98" type="tt.mc.h.chm.start_heart" GUID="7WvKEGRgZkuwbZbhnVeMQA==" info="Kick Trees&#xA;&#xA;Not enough -&gt; Kill larva" script-focus="Teh_Heart_Follower(qrbr9Ik4H0OkXwhdt4XWiQ==)" />
         <POI MapID="34" xpos="-211.818" ypos="8.454" zpos="-166.853" type="tt.mc.h.chm.start_heart" GUID="nYPyxb6K3UKl0YCLJPweoQ==" info="Kill wave riders, Repair fish nets and crab traps" script-focus="Teh_Heart_Follower(BW7oeCECW02JVJGX57IpQg==)" />
         <POI MapID="34" xpos="-218.815" ypos="-0.463405" zpos="-978.685" type="tt.mc.h.chm.interact" GUID="wQkQodz2OUaFIG2e6povWQ==" />
         <POI MapID="34" xpos="-218.463" ypos="0.990656" zpos="-963.02" type="tt.mc.cm.rm.points_of_interest" GUID="eU+iSmYYHk6d6kT9o8lLxQ==" />
@@ -4893,7 +4890,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="35" xpos="-76.1739" ypos="25.2023" zpos="-175.546" type="tt.mc.h.chm.talk" GUID="MdwN8UhGfkmg7Me2augDLA==" />
 		<POI MapID="35" xpos="-76.5967" ypos="35.4787" zpos="-822.414" type="tt.mc.h.chm.talk" GUID="zgmhBw80jU+YJj+SAgOJjg==" />
 		<POI MapID="35" xpos="-77.6193" ypos="27.5932" zpos="893.304" type="tt.mc.cm.rm.waypoints" GUID="Byx7cdX0LEmXV7CJ8UuXYQ==" />
-		<POI MapID="35" xpos="-339.009" ypos="24.6111" zpos="731.067" type="tt.mc.h.chm.start_heart" GUID="k+77TY26RkSDWD+CFxTtKg==" info="Weaponswap chaos shards and kill everything, No veterans" script-focus="Teh_Heart_Follower(7ORJlozsC0GkXKfGo/DoCg==)" />
+		<POI MapID="35" xpos="-339.009" ypos="24.6111" zpos="731.067" type="tt.mc.h.chm.start_heart" GUID="k+77TY26RkSDWD+CFxTtKg==" info="Weaponswap chaos shards (need stunbreak), kill everything (no veterans)" script-focus="Teh_Heart_Follower(7ORJlozsC0GkXKfGo/DoCg==)" />
 		<POI MapID="35" xpos="-87.5631" ypos="36.0535" zpos="-817.309" type="tt.mc.h.chm.talk" GUID="wGy7K7FaxEua0Y6eyuu5Eg==" />
 		<POI MapID="35" xpos="-88.8004" ypos="20.7535" zpos="752.938" type="tt.mc.cm.rm.points_of_interest" GUID="rDTEiMKFuUSLr9wJ1kIp9g==" />
 		<POI MapID="35" xpos="-93.2205" ypos="64.2447" zpos="-783.153" type="tt.mc.cm.rm.vistas" GUID="uPYMS0P20EWXaf91ugzRzg==" />
@@ -5594,7 +5591,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="26" xpos="514.471" ypos="82.9179" zpos="-475.065" type="tt.mc.h.hsm.number1" GUID="mHmxQyo6G0O8KeJPYGmaFw==" />
 		<POI MapID="26" xpos="521.946" ypos="82.7937" zpos="-536.6" type="tt.mc.h.hsm.number3" GUID="UhMZlvquwUONTBQEE+UPUA==" />
 		<POI MapID="26" xpos="533.016" ypos="43.1201" zpos="-721.851" type="tt.mc.h.chm.interact" GUID="hqGOyhSUc0iLqL6u7I7W2g==" />
-		<POI MapID="26" xpos="540.129" ypos="76.1388" zpos="-550.086" type="tt.mc.h.chm.start_heart" GUID="RtQWu+E/W0KmCdILtViZ/g==" info="Answer tombstone questions &#xA;&#xA;If defense event -&gt; come back later or kill dredge" script-focus="Teh_Heart_Follower(t54hhOYPU0KTgnmhh6EGCw==)" />
+		<POI MapID="26" xpos="540.129" ypos="76.1388" zpos="-550.086" type="tt.mc.h.chm.start_heart" GUID="RtQWu+E/W0KmCdILtViZ/g==" info="Answer tombstone questions &#xA;&#xA;Defense event -&gt; come back later or kill dredge" script-focus="Teh_Heart_Follower(t54hhOYPU0KTgnmhh6EGCw==)" />
 		<POI MapID="26" xpos="545.606" ypos="83.2555" zpos="-491.525" type="tt.mc.h.hsm.number2" GUID="TzBeIZTwVUKn/Ws+pZU2lQ==" />
 		<POI MapID="26" xpos="565.518" ypos="33.4728" zpos="432.951" type="tt.mc.h.chm.interact" GUID="kW2cL10EaEG4348rHO6zPw==" />
 		<POI MapID="26" xpos="574.522" ypos="27.4693" zpos="409.78" type="tt.mc.h.chm.finish_heart" GUID="OKSTFoXnDEybOO+Qz8R/Bg==" />
@@ -5905,7 +5902,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="27" xpos="-495.681" ypos="161.039" zpos="645.962" type="tt.mc.cm.rm.points_of_interest" GUID="mtxJTZkRWEyIE5TWkfZ4Wg==" />
 		<POI MapID="27" xpos="-494.635" ypos="161.076" zpos="646.69" type="tt.mc.cm.wm.wpx" GUID="R1n6Cs/fkEGBQcRZ9/AUnw==" copy="[&amp;BOkAAAA=]" />
 		<POI MapID="27" xpos="-494.753" ypos="161.073" zpos="650.051" type="tt.mc.hp.hpm" GUID="xcxfU6Hc5E6LkMkN6hMZ0Q==" />
-		<POI MapID="27" xpos="-466.175" ypos="88.8062" zpos="-4.37198" type="tt.mc.cm.mm.skyscale" GUID="dM+GDD8QGEaQcqvjGJFsHg==" info="Follow trail of shame if you don't have skyscale or if you mess up during flight" infoRange="30" />
+		<POI MapID="27" xpos="-466.175" ypos="88.8062" zpos="-4.37198" type="tt.mc.cm.mm.skyscale" GUID="dM+GDD8QGEaQcqvjGJFsHg==" info="If you don't have skyscale or if you mess up during flight follow trail of shame" infoRange="30" />
 		<POI MapID="27" xpos="-458.501" ypos="80.2557" zpos="-6.75722" type="tt.mc.cm.rm.points_of_interest" GUID="fhlKmVyZi0GJ7X+YMgHqOg==" />
 		<POI MapID="27" xpos="-451.933" ypos="77.2766" zpos="-19.2596" type="tt.mc.cm.mm.beetle" GUID="EBpoNyGd1k+OpqYAr8PG4A==" />
 		<POI MapID="27" xpos="-445.671" ypos="61.0472" zpos="-223.381" type="tt.mc.cm.rm.points_of_interest" GUID="7kPm1mqyok+0D+A0nVE1eA==" />
@@ -6460,7 +6457,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="28" xpos="248.862" ypos="0.254725" zpos="-801.723" type="tt.mc.h.chm.interact" GUID="OTfTvCNZy0+L7ceaPI4sCg==" />
 		<POI MapID="28" xpos="262.415" ypos="73.7249" zpos="769.439" type="tt.mc.cm.rm.points_of_interest" GUID="N8y6FYU+k0umVhBPpjizmg==" />
 		<POI MapID="28" xpos="264.199" ypos="195.346" zpos="1229.45" type="tt.mc.cm.rm.waypoints" GUID="EfMn890oQ0OLHOu/p3Y6CA==" />
-		<POI MapID="28" xpos="264.594" ypos="73.8665" zpos="750.441" type="tt.mc.h.chm.start_heart" GUID="sDE+qMCV+0C934VtNrqyKA==" info="Catching kegs works -&gt; Catch kegs and give them to Hodir (sometimes standing slightly ahead of the indicated zone works) &#xA;&#xA;Otherwise -&gt; Kill wurms, Wake up passed out warriors with water, take kegs from cave -&gt; give them to Hodir, do wurm egg event" script-focus="Teh_Heart_Follower(ckS77QyGk0OD2ABBNSdFKQ==)" />
+		<POI MapID="28" xpos="264.594" ypos="73.8665" zpos="750.441" type="tt.mc.h.chm.start_heart" GUID="sDE+qMCV+0C934VtNrqyKA==" info="Catching kegs works -&gt; Catch kegs and give them to Hodir (sometimes standing slightly ahead of the indicated zone works)&#xA;&#xA;Otherwise -&gt; Kill wurms, Wake up passed out warriors with water, take kegs from cave -&gt; give them to Hodir, do wurm egg event" script-focus="Teh_Heart_Follower(ckS77QyGk0OD2ABBNSdFKQ==)" />
 		<POI MapID="28" xpos="267.2" ypos="0.129372" zpos="-801.287" type="tt.mc.h.chm.interact" GUID="0rnwQ48F3kqRr13x3LhAwA==" />
 		<POI MapID="28" xpos="268.325" ypos="0.049247" zpos="-776.681" type="tt.mc.h.chm.interact" GUID="hurtl+xCh0WS6kJ0rwvgZw==" />
 		<POI MapID="28" xpos="271.783" ypos="0.107379" zpos="-793.152" type="tt.mc.h.chm.interact" GUID="6AwzWUieVkSryl/6XltXSA==" />
@@ -6477,7 +6474,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="28" xpos="357.101" ypos="71.9646" zpos="653.006" type="tt.mc.h.chm.finish_heart" GUID="N365zbHID0OIh7fLErgRVg==" />
 		<POI MapID="28" xpos="385.999" ypos="103.87" zpos="-156.893" type="tt.mc.cm.rm.vistas" GUID="YBk275gzI0WN7lxjg6cA8A==" />
 		<POI MapID="28" xpos="416.867" ypos="76.8835" zpos="342.19" type="tt.mc.cm.rm.points_of_interest" GUID="xElQbc1k7UWC5Kg5TVAsoQ==" />
-		<POI MapID="28" xpos="400.385" ypos="99.4193" zpos="546.279" type="tt.mc.h.chm.start_heart" GUID="GnqMrP8i7kWXaiXR0oLvrg==" info="Kill wolves, corrupted ice and banners &#xA;&#xA;If not enough enemies -&gt; Kill Svanir And Icebrood" script-focus="Teh_Heart_Follower(N365zbHID0OIh7fLErgRVg==)" />
+		<POI MapID="28" xpos="400.385" ypos="99.4193" zpos="546.279" type="tt.mc.h.chm.start_heart" GUID="GnqMrP8i7kWXaiXR0oLvrg==" info="Kill wolves, corrupted ice and banners &#xA;&#xA;Not enough enemies -&gt; Kill Svanir And Icebrood" script-focus="Teh_Heart_Follower(N365zbHID0OIh7fLErgRVg==)" />
 		<POI MapID="28" xpos="416.226" ypos="82.6666" zpos="566.223" type="tt.mc.cm.rm.points_of_interest" GUID="hNVeAC1yCk+sOh9ZSPGKtQ==" />
 		<POI MapID="28" xpos="417.553" ypos="149.099" zpos="1194.94" type="tt.mc.cm.rm.points_of_interest" GUID="22V5GCx9x0qHjmu+1C5SPw==" />
 		<POI MapID="28" xpos="430.007" ypos="118.67" zpos="-128.841" type="tt.mc.cm.rm.points_of_interest" GUID="E/+Tr9nG/kuU+KI21pGVWQ==" />
@@ -6532,7 +6529,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="28" xpos="-222.519" ypos="101.623" zpos="-922.907" type="tt.mc.h.chm.start_heart" GUID="Kx3f4JmE80CCX9o9vCoWCw==" info="Talk to heart to transform -&gt; Talk to cubs -&gt; Skill 4 -&gt; Talk to them again" script-focus="Teh_Heart_Follower(VmAar8r4Y0aPiZO5+ngnTw==)" />
 		<POI MapID="28" xpos="-179.109" ypos="110.085" zpos="570.08" type="tt.mc.cm.rm.waypoints" GUID="u0p39i+baUGLTKm3rC1czA==" />
 		<POI MapID="28" xpos="-189.796" ypos="107.092" zpos="-952.01" type="tt.mc.h.chm.talk" GUID="A9rrsA3u4EOTghHW1SCi3w==" />
-		<POI MapID="28" xpos="-350.497" ypos="122.990" zpos="380.099" type="tt.mc.h.chm.start_heart" GUID="BD1gtq1ObkylPMjVC9uSjQ==" info="Kill Dredge and turrets, Do ore event &#xA;&#xA;If there are no dredge -&gt; return later" script-focus="Teh_Heart_Follower(WIvvDWP+l0KLNOwxo9twiA==)" />
+		<POI MapID="28" xpos="-350.497" ypos="122.990" zpos="380.099" type="tt.mc.h.chm.start_heart" GUID="BD1gtq1ObkylPMjVC9uSjQ==" info="Kill Dredge and turrets&#xA;&#xA;If there are no dredge -&gt; return later&#xA;&#xA;Ore event -&gt; do it" script-focus="Teh_Heart_Follower(WIvvDWP+l0KLNOwxo9twiA==)" />
 		<POI MapID="28" xpos="-205.911" ypos="106.841" zpos="-947.729" type="tt.mc.cm.rm.points_of_interest" GUID="z3KyTq3ZCEyUMwu2lzJD2g==" />
 		<POI MapID="28" xpos="-214.137" ypos="184.667" zpos="-410.59" type="tt.mc.cm.mm.griffon" GUID="GvFDDTekoESFkW29F4JuWQ==" />
 		<POI MapID="28" xpos="-219.609" ypos="91.6963" zpos="-622.214" type="tt.mc.cm.mm.beetle" GUID="SLrbtgV39EOIE7N/UCC2UA==" />
@@ -7068,7 +7065,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
         <POI MapID="53" xpos="272.6" ypos="10.4803" zpos="-343.792" type="tt.mc.h.chm.kill" GUID="9wE1C3F0dkCzcuowZmkTVQ==" />
         <POI MapID="53" xpos="282.874" ypos="13.4351" zpos="-332.297" type="tt.mc.h.chm.kill" GUID="9H4xoH+VFkWgDdgGcslG3g==" />
         <POI MapID="53" xpos="288.778" ypos="12.1366" zpos="-355.953" type="tt.mc.h.chm.kill" GUID="eFZpgY5UKE6gagAgg3DgnQ==" />
-        <POI MapID="53" xpos="321.151" ypos="3.45215" zpos="-489.592" type="tt.mc.h.chm.start_heart" GUID="i77tXli3A0ab0CVGblBPbA==" info="Kill ambient creatures, trolls and nightmare court, do event" script-focus="Teh_Heart_Follower(gh1CCNxbJkqsjK38ItIjGg==)" />
+        <POI MapID="53" xpos="321.151" ypos="3.45215" zpos="-489.592" type="tt.mc.h.chm.start_heart" GUID="i77tXli3A0ab0CVGblBPbA==" info="Kill ambient creatures, trolls and nightmare court, Event -&gt; Do it" script-focus="Teh_Heart_Follower(gh1CCNxbJkqsjK38ItIjGg==)" />
         <POI MapID="53" xpos="311.372" ypos="0.347829" zpos="-731.491" type="tt.mc.cm.rm.waypoints" GUID="A9uN/7G0KUq5ceWQu6H04g==" />
         <POI MapID="53" xpos="330.584" ypos="2.16625" zpos="-321.508" type="tt.mc.cm.wm.heart" GUID="nEp0YLRhkE+xuLWNkJvIEQ==" />
         <POI MapID="53" xpos="324.621" ypos="5.73905" zpos="-316.995" type="tt.mc.cm.rm.waypoints" GUID="h9PEV0eMY0KhVVZ5qEfEVQ==" />
@@ -7319,7 +7316,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="29" xpos="-471.584" ypos="48.4128" zpos="734.03" type="tt.mc.h.chm.interact" GUID="fsgZ/ojTdEOLLphqkFO5gQ==" />
 		<POI MapID="29" xpos="-466.53" ypos="48.4127" zpos="748.255" type="tt.mc.h.chm.interact" GUID="fKIiqlo300Wsn0tGZuK6Qg==" />
 		<POI MapID="29" xpos="-461.25" ypos="49.5154" zpos="748.327" type="tt.mc.h.chm.interact" GUID="7AcH0hCOcEiSjK+FwV8sJw==" />
-		<POI MapID="29" xpos="-460.14" ypos="46.8746" zpos="783.596" type="tt.mc.h.chm.start_heart" GUID="gj8Y1Pf20UGM/X1rlsCFhA==" info="Weaponswap kegs and toast/boast &#xA;&#xA;Event -&gt; kill drunk skritt" script-focus="Teh_Heart_Follower(GpdFoJi230iu43T9tfLrnQ==)" />
+		<POI MapID="29" xpos="-460.14" ypos="46.8746" zpos="783.596" type="tt.mc.h.chm.start_heart" GUID="gj8Y1Pf20UGM/X1rlsCFhA==" info="Weaponswap kegs and toast/boast &#xA;&#xA;Event -&gt; Kill drunk skritt" script-focus="Teh_Heart_Follower(GpdFoJi230iu43T9tfLrnQ==)" />
 		<POI MapID="29" xpos="-459.435" ypos="48.3886" zpos="755.807" type="tt.mc.h.chm.interact" GUID="s9dIO7Ii80W4uvxyGzA/kQ==" />
 		<POI MapID="29" xpos="-456.391" ypos="48.4151" zpos="737.059" type="tt.mc.h.chm.interact" GUID="FA2tSw3V+E+sTJJjcCh13g==" />
 		<POI MapID="29" xpos="-455.862" ypos="48.4129" zpos="711.507" type="tt.mc.h.chm.interact" GUID="UZvh9GWNkky2Jg3JHtuR7w==" />
@@ -7376,7 +7373,7 @@ No risen -&gt; Follow heart trail" script-focus="Teh_Heart_Follower(UFVbfqoMgUqe
 		<POI MapID="29" xpos="-370.521" ypos="3.49898" zpos="-212.104" type="tt.mc.h.chm.interact" GUID="bmGDoYCSGEKAPRNDQqPqtw==" />
 		<POI MapID="29" xpos="-368.763" ypos="2.02302" zpos="-788.932" type="tt.mc.h.chm.interact" GUID="gCSQat9Hc0GAJq0CpKBBYQ==" />
 		<POI MapID="29" xpos="-367.252" ypos="12.9745" zpos="-189.676" type="tt.mc.h.chm.interact" GUID="cM4oZ7bqMUmJIjc5b5FtKw==" />
-		<POI MapID="29" xpos="-357.154" ypos="-0.72315" zpos="-711.458" type="tt.mc.h.chm.start_heart" GUID="eiqIJ8KIhEih3es5/mM1KQ==" info="Burn corpses, kill risen &#xA;&#xA;Defend event -&gt; Kill risen spawned by the event" script-focus="Teh_Heart_Follower(yFuGi2FOFU6x1F1Y3jpJpQ==)" />
+		<POI MapID="29" xpos="-357.154" ypos="-0.72315" zpos="-711.458" type="tt.mc.h.chm.start_heart" GUID="eiqIJ8KIhEih3es5/mM1KQ==" info="Burn corpses, kill risen &#xA;&#xA;Defense event -&gt; Kill risen spawned by the event" script-focus="Teh_Heart_Follower(yFuGi2FOFU6x1F1Y3jpJpQ==)" />
 		<POI MapID="29" xpos="-357.715" ypos="0.155864" zpos="-266.482" type="tt.mc.h.chm.interact" GUID="tUZHaEt+VUuhMOQU+c2Wtg==" />
 		<POI MapID="29" xpos="-355.2" ypos="0.795234" zpos="-708.701" type="tt.mc.h.chm.interact" GUID="FcZYBA1QbEKPqeafAe6bTQ==" />
 		<POI MapID="29" xpos="-353.335" ypos="12.0445" zpos="-132.199" type="tt.mc.h.chm.interact" GUID="uapXCMJPSUqPQlqKpBqZFA==" />
