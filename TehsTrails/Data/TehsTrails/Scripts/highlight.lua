@@ -45,7 +45,7 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
         Teh.highlight.currentWaypoint = waypoint
         Teh.highlight.waypointHighlighted = true
         Teh.highlight.timeSinceStarted = 0
-        marker.TriggerRange = 0
+        --marker.TriggerRange = 0 TODO: Investigate if this is needed as it breaks texts on waypoint markers 
     end
 
 end
