@@ -4477,7 +4477,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="34" xpos="262.291" ypos="23.5107" zpos="-1002.05" type="tt.mc.cm.rm.vistas" GUID="qfp7BjVZVUKkcl0FF5bwvA==" />
         <POI MapID="34" xpos="263.162" ypos="24.3878" zpos="-999.037" type="tt.mc.cm.mm.raptor" GUID="HxLgNIfxQkyDrSGBhiglUg==" />
         <POI MapID="34" xpos="342.128" ypos="0.124134" zpos="1020.01" type="tt.mc.cm.mm.skyscale" GUID="zpf/2wjV/0Wv8NbTTg6IsA==" />
-        <POI MapID="34" xpos="299.266" ypos="8.73408" zpos="1031.94" type="tt.mc.cm.rm.waypoints" GUID="El54JKrS8U+FCjc2cFJyDQ==" />
+        <POI MapID="34" xpos="307.766" ypos="8.73408" zpos="1025.54" type="tt.mc.cm.rm.waypoints" GUID="El54JKrS8U+FCjc2cFJyDQ==" />
         <POI MapID="34" xpos="307.633" ypos="26.5157" zpos="-907.584" type="tt.mc.cm.rm.points_of_interest" GUID="tGv74O6z/EiVqZ9/iAKVKg==" />
         <POI MapID="34" xpos="309.619" ypos="28.05" zpos="-866.286" type="tt.mc.cm.wm.star" GUID="b7igrhvzDU+uM8yb00eT8w==" />
         <POI MapID="34" xpos="309.302" ypos="27.9868" zpos="-880.258" type="tt.mc.cm.rm.waypoints" GUID="KtbMh651J0SHbh2MQnPHGA==" />
@@ -4526,8 +4526,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="34" xpos="460.304" ypos="-58.2533" zpos="987.042" type="tt.mc.h.chm.kill" GUID="TYc2CaJM0UufLTNwokDlnQ==" />
         <POI MapID="34" xpos="462.113" ypos="3.63226" zpos="-131.073" type="tt.mc.cm.mm.skyscale" GUID="uTiXAEMEAkCtbf2gQ2m9bg==" />
         <POI MapID="34" xpos="467.492" ypos="-80.7082" zpos="546.937" type="tt.mc.h.chm.interact" GUID="Esu7KcxuMU2rKoj1cOs1OQ==" />
-        <POI MapID="34" xpos="463.962" ypos="-1.81661" zpos="984.432" type="tt.mc.h.chm.finish_heart" GUID="idTGB44Iw0W+qOXj/Cnoqg==" />
-        <POI MapID="34" xpos="445.624" ypos="-1.37022" zpos="869.855" type="tt.mc.h.chm.start_heart" GUID="Muhw9AMCV0mcJcwrZzhJig==" info="Destroy cells and kill Krait (slavers give most)" script-focus="Teh_Heart_Follower(idTGB44Iw0W+qOXj/Cnoqg==)" />
+        <POI MapID="34" xpos="432.262" ypos="-1.81661" zpos="986.632" type="tt.mc.h.chm.finish_heart" GUID="idTGB44Iw0W+qOXj/Cnoqg==" />
+        <POI MapID="34" xpos="445.624" ypos="-1.37022" zpos="869.855" type="tt.mc.h.chm.start_heart" GUID="Muhw9AMCV0mcJcwrZzhJig==" info="Destroy cells and kill Krait (Krait Slavers give most %)" script-focus="Teh_Heart_Follower(idTGB44Iw0W+qOXj/Cnoqg==)" />
         <POI MapID="34" xpos="480.01" ypos="-96.7932" zpos="583.089" type="tt.mc.h.chm.interact" GUID="pQS4bbq5akibNYTwwJ4Wmg==" />
         <POI MapID="34" xpos="481.34" ypos="-34.9637" zpos="977.837" type="tt.mc.cm.rm.points_of_interest" GUID="i4L02/eVhUymLlHfL7x6Ew==" />
         <POI MapID="34" xpos="485.953" ypos="-56.0079" zpos="956.828" type="tt.mc.h.chm.kill" GUID="Z0cZ8fN6AEqMH472NpCgPQ==" />
@@ -5748,7 +5748,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="30" xpos="-748.984" ypos="-58.8453" zpos="301.451" type="tt.mc.h.chm.interact" GUID="6uUQk3X0ZkOlsXlH08NVAw==" />
 		<POI MapID="30" xpos="-747.091" ypos="-67.1877" zpos="378.686" type="tt.mc.cm.rm.points_of_interest" GUID="aoo1a+g2NEi/k7iDZR/tOw==" />
 		<POI MapID="30" xpos="-729.178" ypos="6.14681" zpos="-753.052" type="tt.mc.h.chm.interact" GUID="loK1V7RsfEW26rHHPhl5rw==" />
-		<POI MapID="30" xpos="-728.291" ypos="-41.9041" zpos="377.212" type="tt.mc.h.chm.finish_heart" GUID="StzEAXLzdkW9djhe63uRZQ==" />
+		<POI MapID="30" xpos="-689.091" ypos="-1.1041" zpos="374.812" type="tt.mc.h.chm.finish_heart" GUID="StzEAXLzdkW9djhe63uRZQ==" />
 		<POI MapID="30" xpos="-728.399" ypos="66.4372" zpos="-750.314" type="tt.mc.h.chm.kill" GUID="04k5+FZ9R0K9/wde/ySEIw==" />
 		<POI MapID="30" xpos="-724.986" ypos="85.0372" zpos="-652.893" type="tt.mc.h.chm.interact" GUID="eYg2nazwtk+BmfYpKNrPSg==" />
 		<POI MapID="30" xpos="-722.157" ypos="72.4136" zpos="-793.522" type="tt.mc.h.chm.kill" GUID="XyZ6S8samEqR508/hk1zQw==" />
@@ -5795,7 +5795,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="30" xpos="-604.293" ypos="7.57864" zpos="-317.579" type="tt.mc.cm.mm.skyscale" GUID="zJQ47jN1v0qX10eUgVRwFg==" />
 		<POI MapID="30" xpos="-602.811" ypos="31.7774" zpos="-301.592" type="tt.mc.h.chm.interact" GUID="q3DY+maTuUinSlEtwnySQg==" />
 		<POI MapID="30" xpos="-598.364" ypos="36.5731" zpos="-826.164" type="tt.mc.h.chm.kill" GUID="BHV/wekoRk+Ar88rvuh94Q==" info="Follow heart trails and kill cannons &#xA;&#xA;If tons of players are nearby -&gt; Talk to heart -&gt; Kill dredge, Inspire near sympathizer + worker, Interact ground -&gt; Talk to dredge, Talk to skritt -&gt; again in 3 sec" infoRange="100" />
-		<POI MapID="30" xpos="-597.893" ypos="7.00443" zpos="-316.919" type="tt.mc.h.chm.start_heart" GUID="YPaQL90HdUGhGnwwPe+yYg==" info="Follow heart trail to: talk to Koda, interact shrines and books" script-focus="Teh_Heart_Follower(O261Ag4bb02id3ArP/yxTg==)" />
+		<POI MapID="30" xpos="-597.893" ypos="7.00443" zpos="-316.919" type="tt.mc.h.chm.start_heart" GUID="YPaQL90HdUGhGnwwPe+yYg==" info="Follow heart trail to: talk to Koda, interact shrines and books" triggerRange="8" script-focus="Teh_Heart_Follower(O261Ag4bb02id3ArP/yxTg==)" />
 		<POI MapID="30" xpos="-595.045" ypos="32.247" zpos="-433.571" type="tt.mc.h.hsm.number2" GUID="yfjw1LMFAUqOcfDWvXSf6A==" />
 		<POI MapID="30" xpos="-595.765" ypos="11.539" zpos="-341.801" type="tt.mc.cm.rm.waypoints" GUID="2EFn1ZQCGUehzUjZNy/QlA==" />
 		<POI MapID="30" xpos="-594.954" ypos="32.2461" zpos="-430.063" type="tt.mc.h.hsm.number1" GUID="t+T6THeXIkmYxON99XOkJA==" />
@@ -5809,7 +5809,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="30" xpos="-561.426" ypos="36.9283" zpos="-233.317" type="tt.mc.h.chm.interact" GUID="MiZQ5OM6aUCUeRVuNMAMZw==" />
 		<POI MapID="30" xpos="-559.483" ypos="42.4528" zpos="-328.106" type="tt.mc.h.chm.interact" GUID="dMV/YiTlWUqd9fzr+praBQ==" />
 		<POI MapID="30" xpos="-557.431" ypos="39.3416" zpos="-241.176" type="tt.mc.cm.mm.skyscale" GUID="eJIRpdsqOUefJOw8BJrjCw==" />
-		<POI MapID="30" xpos="-551.281" ypos="41.6087" zpos="-237.72" type="tt.mc.h.chm.finish_heart" GUID="O261Ag4bb02id3ArP/yxTg==" />
+		<POI MapID="30" xpos="-548.481" ypos="50.0087" zpos="-237.12" type="tt.mc.h.chm.finish_heart" GUID="O261Ag4bb02id3ArP/yxTg==" />
 		<POI MapID="30" xpos="-550.018" ypos="42.8704" zpos="-240.146" type="tt.mc.h.hsm.number3" GUID="/Of8ea1tD0uOcTi4rRoPmw==" />
 		<POI MapID="30" xpos="-548.993" ypos="31.8555" zpos="-774.826" type="tt.mc.h.chm.kill" GUID="cMdyzOXQpU6RCIS7L3tP3A==" />
 		<POI MapID="30" xpos="-544.589" ypos="48.7693" zpos="-283.053" type="tt.mc.h.chm.interact" GUID="cAELYNQ6b028iW8lkDAMXA==" />
