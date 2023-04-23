@@ -3122,7 +3122,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="24" xpos="-455.009" ypos="38.6257" zpos="480.516" type="tt.mc.cm.mm.beetle" GUID="6kgsr85SCE+VDpGxsfbUEA==" />
         <POI MapID="24" xpos="-715.801" ypos="24.5005" zpos="-1.04336" type="tt.mc.cm.mm.beetle" GUID="mslLDEReWUeEbYKHAPB6hA==" />
         <POI MapID="24" xpos="-345.088" ypos="5.21393" zpos="2.74699" type="tt.mc.cm.mm.skyscale" GUID="adv2kfuNv0yASZ41MPfITQ==" />
-        <POI MapID="24" xpos="-345.309" ypos="55.217" zpos="71.0129" type="tt.mc.cm.mm.skyscale" GUID="jbkRwL1sa0WIXLhKGkk+2Q==" info="If you don't have skyscale use bunny into griffon" />
+        <POI MapID="24" xpos="-345.309" ypos="55.217" zpos="71.0129" type="tt.mc.cm.mm.skyscale" GUID="jbkRwL1sa0WIXLhKGkk+2Q==" info="If you don't have skyscale use bunny into griffon" infoRange="10"/>
         <POI MapID="24" xpos="-365.044" ypos="51.4358" zpos="72.3688" type="tt.mc.cm.rm.vistas" GUID="aAxULlMPEUKf/1anXarsHQ==" />
         <POI MapID="24" xpos="17.968" ypos="-17.4974" zpos="27.9249" type="tt.mc.cm.rm.points_of_interest" GUID="97peq6hHEUqzsv51uywH2w==" />
         <POI MapID="24" xpos="110.941" ypos="19.123" zpos="80.0425" type="tt.mc.cm.mm.skimmer" GUID="vGpILQWqIk+B3+OHjoZCLw==" />
@@ -3157,11 +3157,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="24" xpos="278.158" ypos="0.561377" zpos="188.758" type="tt.mc.cm.rm.points_of_interest" GUID="96G5LChDGUW7EbdPP+llEg==" />
         <POI MapID="24" xpos="227.843" ypos="15.7621" zpos="-173.222" type="tt.mc.h.chm.finish_heart" GUID="o1wh98mVY0iH03AAtLoSDg==" />
         <POI MapID="24" xpos="375.559" ypos="10.9558" zpos="-153.186" type="tt.mc.cm.rm.waypoints" GUID="G85mfXDc5E2DVZ6Gu+BLLA==" />
-        <POI MapID="24" xpos="456.62" ypos="1.26017" zpos="348.17" type="tt.mc.h.chm.start_heart" GUID="lhTAHR/WGEuVxdI9Id+Ang==" info="Spam Pirate Plans with full inventory&#xA;&#xA;Weaponswap to cancel animation, Stay behind tent to avoid combat" infoRange="20" script-focus="Teh_Heart_Follower(whgSw6z2BEKQ1SEz8ibPYQ==)" />
+        <POI MapID="24" xpos="456.62" ypos="1.26017" zpos="348.17" type="tt.mc.h.chm.start_heart" GUID="lhTAHR/WGEuVxdI9Id+Ang==" info="Spam Pirate Plans with full inventory&#xA;&#xA;Weaponswap to cancel animation, Stay behind tent to avoid combat" infoRange="20" script-focus="Teh_Heart_Follower_2(whgSw6z2BEKQ1SEz8ibPYQ==,0BEyw6zrWUuZm0Uqcsf7qA==)" />
         <POI MapID="24" xpos="441.791" ypos="4.21569" zpos="331.653" type="tt.mc.cm.rm.points_of_interest" GUID="5LdOMDW2nUalN8fspVXKeQ==" />
         <POI MapID="24" xpos="452.347" ypos="77.7373" zpos="409.829" type="tt.mc.cm.mm.distogriff" GUID="wfc/Ys0fOUWoLznZbaU8Wg==" />
         <POI MapID="24" xpos="483.93" ypos="45.7287" zpos="387.434" type="tt.mc.cm.rm.vistas" GUID="6DJIhwAC3Ey0OZz5Dk0hRA==" />
-        <POI MapID="24" xpos="661.603" ypos="45.2426" zpos="-136.789" type="tt.mc.cm.mm.skyscale" GUID="qEZYnnCtNEG0U+yy5umHQg==" info="If you don't have skyscale -&gt; bunny into griffon from the top of building" />
+        <POI MapID="24" xpos="661.603" ypos="45.2426" zpos="-136.789" type="tt.mc.cm.mm.skyscale" GUID="qEZYnnCtNEG0U+yy5umHQg==" info="If you don't have skyscale use bunny into griffon from the top of building" />
         <POI MapID="24" xpos="662.778" ypos="44.8092" zpos="-135.977" type="tt.mc.cm.rm.vistas" GUID="eWEgcfrrKUyHH1Xeh7eFbQ==" />
         <POI MapID="24" xpos="672.528" ypos="17.0266" zpos="-74.5583" type="tt.mc.cm.rm.waypoints" GUID="6oU5bwK4HkCDAEKy7g1oLA==" />
         <POI MapID="24" xpos="688.369" ypos="10.6428" zpos="-299.856" type="tt.mc.cm.rm.points_of_interest" GUID="kdLfgi5TJ0SyQ7CJXBLNDA==" />
@@ -3177,14 +3177,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="24" xpos="955.879" ypos="27.8278" zpos="372.786" type="tt.mc.cm.rm.points_of_interest" GUID="WxMOinTQl0ui5pd/mcFnsA==" />
         <POI MapID="24" xpos="960.743" ypos="29.5882" zpos="269.382" type="tt.mc.h.chm.finish_heart" GUID="mq403691q0+APFrzkmf+Qg==" />
         <POI MapID="24" xpos="964.755" ypos="29.5956" zpos="267.426" type="tt.mc.h.chm.interact" GUID="eds10jqtZUiHHqYtvmfaew==" />
-        <POI MapID="24" xpos="968.128" ypos="29.5883" zpos="270.144" type="tt.mc.h.chm.start_heart" GUID="9U/2CgOJEEKm+A244p12aw==" info="Fight in Ring - Hard is fastest" script-focus="Teh_Heart_Follower(mq403691q0+APFrzkmf+Qg==)" />
+        <POI MapID="24" xpos="968.128" ypos="29.5883" zpos="270.144" type="tt.mc.h.chm.start_heart" GUID="9U/2CgOJEEKm+A244p12aw==" info="Fight in Ring - Hard is fastest" infoRange="30" triggerRange="30"/>
         <POI MapID="24" xpos="1052.49" ypos="72.9393" zpos="-491.979" type="tt.mc.cm.rm.waypoints" GUID="5gJuzPmVA0KwpyPsIjO98w==" />
         <POI MapID="24" xpos="1082.28" ypos="50.5898" zpos="53.9678" type="tt.mc.cm.rm.points_of_interest" GUID="3aERM52rW0WEx+B2lQCtyw==" />
         <POI MapID="24" xpos="1096.45" ypos="72.7238" zpos="-194.095" type="tt.mc.h.chm.finish_heart" GUID="EtuOwgzehk+2GXrVTseHnQ==" />
         <POI MapID="24" xpos="1094.98" ypos="69.3029" zpos="34.5385" type="tt.mc.h.chm.start_heart" GUID="dcV6/yvsNU6+dhe3hMa0GQ==" info="Kill dredge&#xA;&#xA;Not enough -&gt; take mining supplies -&gt; Interact burrow + Interact vein -&gt; bring ore to heart" script-focus="Teh_Heart_Follower(XGOStXN2C0i9J3EFzXR0Zg==)" />
         <POI MapID="24" xpos="1098.92" ypos="66.9366" zpos="-149.554" type="tt.mc.cm.rm.waypoints" GUID="vPU3pxJ8L02m9wnSqHe+QA==" />
         <POI MapID="24" xpos="1141.56" ypos="66.796" zpos="296.793" type="tt.mc.cm.rm.waypoints" GUID="ZYly/8U/VU6kyOIwX2LYzA==" />
-        <POI MapID="24" xpos="1119.16" ypos="48.8484" zpos="93.6926" type="tt.mc.h.chm.finish_heart" GUID="XGOStXN2C0i9J3EFzXR0Zg==" />
+        <POI MapID="24" xpos="1146.86" ypos="56.7484" zpos="119.1926" type="tt.mc.h.chm.finish_heart" GUID="XGOStXN2C0i9J3EFzXR0Zg==" />
         <POI MapID="24" xpos="1221.09" ypos="79.5221" zpos="-309.391" type="tt.mc.h.chm.start_heart" GUID="7sDmL+vB0kaibgpPfzTRSg==" info="Interact traps, bring food to heart" script-focus="Teh_Heart_Follower(EtuOwgzehk+2GXrVTseHnQ==)" />
         <POI MapID="24" xpos="1227.25" ypos="80.0759" zpos="-314.817" type="tt.mc.cm.rm.points_of_interest" GUID="irtFmUATBUu7PsT52Rm/wg==" />
         <POI MapID="24" xpos="-24.2497" ypos="17.9906" zpos="209.103" type="tt.mc.cm.rm.waypoints" GUID="llgPK9VpFEmIl2C3uvbHnw==" />
@@ -3200,7 +3200,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="24" xpos="-210.978" ypos="23.5103" zpos="550.595" type="tt.mc.cm.rm.finish" GUID="ZsBXRiNY9EmjeTSgDej+yA==" copy="[&amp;BOQAAAA=]" />
         <POI MapID="24" xpos="-341.741" ypos="5.25495" zpos="2.13193" type="tt.mc.cm.wm.x" GUID="AVGOOHf75kK69tlDGvzoqA==" />
         <POI MapID="24" xpos="-357.992" ypos="4.16513" zpos="4.58707" type="tt.mc.cm.rm.waypoints" GUID="noqQa+YTHU2eOsmpBefsvQ==" />
-        <POI MapID="24" xpos="-400.934" ypos="2.39093" zpos="-48.6693" type="tt.mc.h.chm.start_heart" GUID="53MbNphS50SIAmrBR/josw==" info="Challenge all brawlers (stack conditions - not necessary if enough)&#xA;&#xA;Centaurs in control: Is night -&gt; go north of vista -&gt; talk to fallen + interact tomb of the fallen; Is day -&gt; Kill centaurs or come back later" script-focus="Teh_Heart_Follower(GZFUbVKmw0S6IYeDuv7MkA==)" />
+        <POI MapID="24" xpos="-400.934" ypos="2.39093" zpos="-48.6693" type="tt.mc.h.chm.start_heart" GUID="53MbNphS50SIAmrBR/josw==" info="Challenge all brawlers (stack conditions - not necessary if enough)&#xA;&#xA;Centaurs in control:&#xA;Night -&gt; go north of vista -&gt; talk to fallen + interact tomb of the fallen&#xA;Day -&gt; Kill centaurs or come back later" script-focus="Teh_Heart_Follower(GZFUbVKmw0S6IYeDuv7MkA==)" />
         <POI MapID="24" xpos="-418.689" ypos="1.50647" zpos="-44.9983" type="tt.mc.h.chm.talk" GUID="UUxC1+IKAkqjZsf5dJAPmw==" />
         <POI MapID="24" xpos="-424.039" ypos="1.58816" zpos="-44.6217" type="tt.mc.h.chm.talk" GUID="LKstpmH8dkWdHXkJST8HyQ==" />
         <POI MapID="24" xpos="-422.304" ypos="1.27658" zpos="-335.331" type="tt.mc.cm.rm.points_of_interest" GUID="jMcIMWg0m0SO9giAhtVqHw==" />
@@ -3220,7 +3220,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="24" xpos="-552.592" ypos="51.5643" zpos="519.455" type="tt.mc.h.chm.interact" GUID="8ikshnqrL0uq+viZye7Yvg==" />
         <POI MapID="24" xpos="-552.977" ypos="51.7969" zpos="511.429" type="tt.mc.h.chm.interact" GUID="7j4yz4NdkECnqwEHmSKVlA==" />
         <POI MapID="24" xpos="-569.368" ypos="2.00698" zpos="-273.301" type="tt.mc.cm.rm.waypoints" GUID="YoXsYux4iUmJyXIZgNadaQ==" />
-        <POI MapID="24" xpos="-569.839" ypos="11.5658" zpos="128.318" type="tt.mc.h.chm.start_heart" GUID="enB010G/i0+oKRvd5/fEhQ==" info="Kill skelk, centaurs and rock dogs&#xA;&#xA;Not enough -&gt; Grab medkit -&gt; revive seraph -&gt; use medkit on them" script-focus="Teh_Heart_Follower(/sNcmDul0kiRZMX/ax2eWA==)" />
+        <POI MapID="24" xpos="-569.839" ypos="11.5658" zpos="128.318" type="tt.mc.h.chm.start_heart" GUID="enB010G/i0+oKRvd5/fEhQ==" info="Kill skelk, centaurs and rock dogs&#xA;&#xA;Not enough -&gt; Grab medkit -&gt; revive seraph -&gt; use medkit on them" script-focus="Teh_Heart_Follower(c3613vq0F0eFVtAhpRUKzg==)" />
         <POI MapID="24" xpos="-673.647" ypos="45.9325" zpos="556.592" type="tt.mc.cm.rm.waypoints" GUID="SlwcqDE2IkKkDd6eVrjm0A==" />
         <POI MapID="24" xpos="-681.669" ypos="15.2163" zpos="98.6277" type="tt.mc.h.chm.interact" GUID="D445YGCLRUC2DVZnmjZi4Q==" />
         <POI MapID="24" xpos="-753.183" ypos="34.8212" zpos="8.94374" type="tt.mc.h.chm.finish_heart" GUID="c3613vq0F0eFVtAhpRUKzg==" />
@@ -3316,7 +3316,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="24" xpos="-408.114" ypos="4.45086" zpos="-28.4016" type="tt.mc.h.chm.talk" GUID="FP7tVPbvJkiIGL5MoH6sRg==" />
         <POI MapID="24" xpos="-407.771" ypos="4.62995" zpos="-36.4046" type="tt.mc.h.chm.talk" GUID="s4Yv3CJr9UGxKhUyt2gDXw==" />
         <POI MapID="24" xpos="-334.003" ypos="13.4694" zpos="-111.441" type="tt.mc.h.chm.interact" GUID="aUszH3MFUEqys1iYiYkuZA==" />
-        <POI MapID="24" xpos="-348.236" ypos="55.9176" zpos="70.9341" type="tt.mc.h.chm.finish_heart" GUID="GZFUbVKmw0S6IYeDuv7MkA==" />
+        <POI MapID="24" xpos="-333.636" ypos="60.1176" zpos="67.7341" type="tt.mc.h.chm.finish_heart" GUID="GZFUbVKmw0S6IYeDuv7MkA==" />
         <POI MapID="24" xpos="-295.405" ypos="82.5578" zpos="60.5004" type="tt.mc.cm.mm.distogriff" GUID="EeRlsOCb2EioAscsMHtYuQ==" />
         <POI MapID="24" xpos="-277.124" ypos="16.8864" zpos="60.5993" type="tt.mc.cm.mm.beetle" GUID="Vm1LUJGARUWcesXyOr9jew==" />
         <POI MapID="24" xpos="-162.616" ypos="0.441767" zpos="452.096" type="tt.mc.cm.mm.raptor" GUID="bVgCw4hs1USn71CRBERSXA==" />
