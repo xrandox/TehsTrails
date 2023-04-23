@@ -7147,7 +7147,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="53" xpos="78.625" ypos="33.2637" zpos="467.596" type="tt.mc.h.chm.finish_heart" GUID="QiRabdfPX0iKIqFDpR3a7g==" />
         <POI MapID="53" xpos="117.139" ypos="4.28131" zpos="778.461" type="tt.mc.cm.rm.points_of_interest" GUID="D1PMRRxU9UmDnJtpHxsuuQ==" />
         <POI MapID="53" xpos="118.952" ypos="5.52209" zpos="780.788" type="tt.mc.h.chm.finish_heart" GUID="eATK1xvc4UyatbjCI7iLqg==" />
-        <POI MapID="53" xpos="116.495" ypos="9.26526" zpos="796.678" type="tt.mc.h.chm.start_heart" GUID="Uuhl5ayduUy6xt1Ij6Yumg==" info="Grab flamethrower and burn weeds (you get progress 2x with quickness)" script-focus="Teh_Heart_Follower(eATK1xvc4UyatbjCI7iLqg==)" />
+        <POI MapID="53" xpos="116.495" ypos="9.26526" zpos="796.678" type="tt.mc.h.chm.start_heart" GUID="Uuhl5ayduUy6xt1Ij6Yumg==" info="Grab flamethrower and burn weeds (you get progress 2x with quickness)" script-focus="Teh_Heart_Follower_2(eATK1xvc4UyatbjCI7iLqg==,I1FPrfUZk0iXCG6EUDecbw==)" />
         <POI MapID="53" xpos="133.014" ypos="3.10803" zpos="750.18" type="tt.mc.h.chm.gather" GUID="rcJVuIzpxEOR6Brkmp+X5w==" />
         <POI MapID="53" xpos="147.934" ypos="4.38603" zpos="750.877" type="tt.mc.h.chm.kill" GUID="cdSerGPaX0mjhQAShkMuJw==" />
         <POI MapID="53" xpos="150.364" ypos="2.01318" zpos="731.132" type="tt.mc.h.chm.kill" GUID="+PrcpsVEVkWv7go+EHjjmw==" />
@@ -7167,12 +7167,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="53" xpos="272.6" ypos="10.4803" zpos="-343.792" type="tt.mc.h.chm.kill" GUID="9wE1C3F0dkCzcuowZmkTVQ==" />
         <POI MapID="53" xpos="282.874" ypos="13.4351" zpos="-332.297" type="tt.mc.h.chm.kill" GUID="9H4xoH+VFkWgDdgGcslG3g==" />
         <POI MapID="53" xpos="288.778" ypos="12.1366" zpos="-355.953" type="tt.mc.h.chm.kill" GUID="eFZpgY5UKE6gagAgg3DgnQ==" />
-        <POI MapID="53" xpos="321.151" ypos="3.45215" zpos="-489.592" type="tt.mc.h.chm.start_heart" GUID="i77tXli3A0ab0CVGblBPbA==" info="Kill ambient creatures, trolls and nightmare court, Event -&gt; Do it" script-focus="Teh_Heart_Follower(gh1CCNxbJkqsjK38ItIjGg==)" />
+        <POI MapID="53" xpos="321.151" ypos="3.45215" zpos="-489.592" type="tt.mc.h.chm.start_heart" GUID="i77tXli3A0ab0CVGblBPbA==" info="Kill ambient creatures, trolls and nightmare court&#xA;&#xA;Inquest Event -&gt; Do it" script-focus="Teh_Heart_Follower(Z6ZPTyh3okiTgRnPpUCzow==)" />
         <POI MapID="53" xpos="311.372" ypos="0.347829" zpos="-731.491" type="tt.mc.cm.rm.waypoints" GUID="A9uN/7G0KUq5ceWQu6H04g==" />
         <POI MapID="53" xpos="330.584" ypos="2.16625" zpos="-321.508" type="tt.mc.cm.wm.heart" GUID="nEp0YLRhkE+xuLWNkJvIEQ==" />
         <POI MapID="53" xpos="324.621" ypos="5.73905" zpos="-316.995" type="tt.mc.cm.rm.waypoints" GUID="h9PEV0eMY0KhVVZ5qEfEVQ==" />
         <POI MapID="53" xpos="374.092" ypos="16.4071" zpos="606.333" type="tt.mc.cm.rm.points_of_interest" GUID="hBrurP84aUuuaJ3SqE5kPQ==" />
-        <POI MapID="53" xpos="307.546" ypos="10.9092" zpos="-331.35" type="tt.mc.h.chm.finish_heart" GUID="gh1CCNxbJkqsjK38ItIjGg==" />
+        <POI MapID="53" xpos="358.646" ypos="0.3092" zpos="-296.75" type="tt.mc.h.chm.finish_heart" GUID="gh1CCNxbJkqsjK38ItIjGg==" />
         <POI MapID="53" xpos="468.413" ypos="13.6501" zpos="-739.655" type="tt.mc.h.chm.finish_heart" GUID="Z6ZPTyh3okiTgRnPpUCzow==" />
         <POI MapID="53" xpos="494.15" ypos="40.748" zpos="544.176" type="tt.mc.cm.rm.waypoints" GUID="x2arYfW7b0O1cKR4nKwy+A==" />
         <POI MapID="53" xpos="513.09" ypos="0.173206" zpos="898.302" type="tt.mc.cm.rm.start" GUID="1jAwUkh5vEqyWP9/XIxsZA==" />
@@ -7186,7 +7186,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="53" xpos="13.3518" ypos="27.914" zpos="295.556" type="tt.mc.h.chm.start_heart" GUID="2q4siFjmVkiRCFkwHCBlEQ==" info="Follow heart trail to interact with everything" script-focus="Teh_Heart_Follower(ycreI1TI0kmoj2U1h44FEQ==)" />
         <POI MapID="53" xpos="-3.04619" ypos="19.024" zpos="269.334" type="tt.mc.h.chm.interact" GUID="v0Ox64E0OkmbmNfehF+Z1g==" />
         <POI MapID="53" xpos="-4.79979" ypos="0.267064" zpos="-571.848" type="tt.mc.h.chm.interact" GUID="M8Fs0asTVkS9Wnh60kYQJg==" />
-        <POI MapID="53" xpos="-53.9947" ypos="7.65635" zpos="217.113" type="tt.mc.h.chm.finish_heart" GUID="ycreI1TI0kmoj2U1h44FEQ==" />
+        <POI MapID="53" xpos="-61.8947" ypos="8.25635" zpos="203.513" type="tt.mc.h.chm.finish_heart" GUID="ycreI1TI0kmoj2U1h44FEQ==" />
         <POI MapID="53" xpos="-12.7849" ypos="14.528" zpos="255.138" type="tt.mc.h.chm.interact" GUID="2GERntBJ10G6acQeUmvCMw==" />
         <POI MapID="53" xpos="-18.9671" ypos="10.7722" zpos="171.989" type="tt.mc.h.chm.interact" GUID="MG+6spO+DkCerh681o3MAg==" />
         <POI MapID="53" xpos="-19.109" ypos="13.8988" zpos="231.498" type="tt.mc.h.chm.interact" GUID="Cb8aB5tMfEiSXBE0J2OELg==" />
@@ -7219,8 +7219,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="53" xpos="-237.358" ypos="32.293" zpos="-281.941" type="tt.mc.h.chm.deposit" GUID="hnZabWIIokKD3htZQNZ6Yg==" />
         <POI MapID="53" xpos="-237.858" ypos="31.2833" zpos="-416.075" type="tt.mc.cm.rm.points_of_interest" GUID="xh7E4ScflkiXJOC/at1Emw==" />
         <POI MapID="53" xpos="-243.877" ypos="32.6327" zpos="297.301" type="tt.mc.cm.rm.vistas" GUID="ptgN+gGVEkqr3rc0b12j8w==" />
-        <POI MapID="53" xpos="-250.559" ypos="34.5124" zpos="-288.777" type="tt.mc.h.chm.finish_heart" GUID="GHEj0O4YVUq6JceFXzoOlQ==" />
-        <POI MapID="53" xpos="-195.779" ypos="0.616951" zpos="206.387" type="tt.mc.h.chm.start_heart" GUID="UkpnEirupUiTP3QFXYw6Ng==" info="Interact with fish corpse, interact (or bring to heart) stumps, kill basilisks and risen" script-focus="Teh_Heart_Follower(ycreI1TI0kmoj2U1h44FEQ==)" />
+        <POI MapID="53" xpos="-255.159" ypos="35.4124" zpos="-297.977" type="tt.mc.h.chm.finish_heart" GUID="GHEj0O4YVUq6JceFXzoOlQ==" />
+        <POI MapID="53" xpos="-195.779" ypos="0.616951" zpos="206.387" type="tt.mc.h.chm.start_heart" GUID="UkpnEirupUiTP3QFXYw6Ng==" info="Interact with fish corpse, interact (or bring to heart) stumps, kill basilisks and risen" script-focus="Teh_Heart_Follower(1WIOgLhYSU22fEL2pFOS3A==)" />
         <POI MapID="53" xpos="-288.636" ypos="2.27813" zpos="-210.75" type="tt.mc.cm.mm.jackal" GUID="TSXOhuBtTkSCKiVTkKUoDQ==" />
         <POI MapID="53" xpos="-310.941" ypos="0.289631" zpos="381.828" type="tt.mc.h.chm.gather" GUID="V9MD81hif0qeW/MjMejqvA==" />
         <POI MapID="53" xpos="-328.094" ypos="-16.8506" zpos="-259.887" type="tt.mc.h.chm.interact" GUID="tDhLGhpfI029sPozI3NjcA==" />
@@ -7234,7 +7234,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="53" xpos="-386.122" ypos="4.94842" zpos="-753.006" type="tt.mc.cm.rm.waypoints" GUID="dOfg7dccKk6P3Dg6NqJQIw==" />
         <POI MapID="53" xpos="-395.357" ypos="5.5047" zpos="-619.846" type="tt.mc.cm.rm.points_of_interest" GUID="LL3dG8roQ0qHKvei6cL0wA==" />
         <POI MapID="53" xpos="-402.242" ypos="-21.7409" zpos="-181.076" type="tt.mc.h.chm.interact" GUID="rVgHzz2yyEK7MoI9Lcp2tg==" />
-        <POI MapID="53" xpos="-402.491" ypos="1.37639" zpos="-149.907" type="tt.mc.h.chm.start_heart" GUID="+9UK+EO/sEqSOMCw07TfsQ==" info="Kill risen or bring mines to heart (25% each)" script-focus="Teh_Heart_Follower(2qVMyVYhTkegMLeNgClbYQ==)" />
+        <POI MapID="53" xpos="-402.491" ypos="1.37639" zpos="-149.907" type="tt.mc.h.chm.start_heart" GUID="+9UK+EO/sEqSOMCw07TfsQ==" info="Kill risen or bring mines to heart (25% each)" script-focus="Teh_Heart_Follower(GHEj0O4YVUq6JceFXzoOlQ==)" />
         <POI MapID="53" xpos="-383.534" ypos="4.8543" zpos="-751.7" type="tt.mc.h.chm.start_heart" GUID="u5QVZK7Hf0uPBGGYS8N3eg==" info="Follow heart trail to interact scanners and talk to heart(1,1) -&gt; use skill 4 on enemy out of range, channel skill 5 (prepare condi cleanse/tank build)&#xA;&#xA;Come back later to do the same&#xA;&#xA;Defense Event -&gt; Kill krait" script-focus="Teh_Heart_Follower(bAhSlNvmYUOB1GHT926ojw==)" />
         <POI MapID="53" xpos="-409.523" ypos="1.08004" zpos="-626.959" type="tt.mc.h.chm.talk" GUID="xxiv683QB0KmAViKOP3NNw==" />
         <POI MapID="53" xpos="-364.641" ypos="5.70726" zpos="-736.574" type="tt.mc.h.chm.interact" GUID="QzmiaajZw0+dCi7tEgSFWA==" />
@@ -7246,7 +7246,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="53" xpos="-486.109" ypos="1.8417" zpos="-630.164" type="tt.mc.h.chm.interact" GUID="CVXb6IoulU+Q7FEJ4mIsKA==" />
         <POI MapID="53" xpos="-430.189" ypos="4.88033" zpos="-590.93" type="tt.mc.h.chm.interact" GUID="EhoZT4TeIEGNir+h6IEvKQ==" />
         <POI MapID="53" xpos="-458.143" ypos="2.187" zpos="-576.37" type="tt.mc.h.chm.interact" GUID="ta4cuWZS5UyeLANDYz/sGQ==" />
-        <POI MapID="53" xpos="-323.844" ypos="3.48997" zpos="781.438" type="tt.mc.h.chm.start_heart" GUID="d916x3d8+kyfJRCWH8x9LQ==" info="Interact turret -&gt; throw at hidden termite larva -&gt; repeat couple times -&gt; interact grub tails -&gt; kill all, Duel hunters&#xA;&#xA;Swap between turret types to not wait for CDs (wait till shot lands)" script-focus="Teh_Heart_Follower(BPHD5wbnpky5L76jmDrzOA==)" />
+        <POI MapID="53" xpos="-323.844" ypos="3.48997" zpos="781.438" type="tt.mc.h.chm.start_heart" GUID="d916x3d8+kyfJRCWH8x9LQ==" info="Interact turret -&gt; throw at hidden termite larva -&gt; repeat couple times -&gt; interact grub tails -&gt; kill all, Duel hunters&#xA;&#xA;Swap between turret types to not wait for CDs (wait till shot lands)" script-focus="Teh_Heart_Follower_2(BPHD5wbnpky5L76jmDrzOA==,85Im4tFxo02RDoQ9+XSSsQ==)" />
         <POI MapID="53" xpos="-438.305" ypos="4.17615" zpos="-608.524" type="tt.mc.h.chm.finish_heart" GUID="bAhSlNvmYUOB1GHT926ojw==" />
         <POI MapID="53" xpos="-448.73" ypos="0.41982" zpos="-746.08" type="tt.mc.cm.rm.points_of_interest" GUID="R+TF0Qw+gE+SdI8jDH/L8Q==" fadeNear="6500" fadeFar="8000" />
         <POI MapID="53" xpos="-460.406" ypos="45.4496" zpos="-535.688" type="tt.mc.cm.rm.vistas" GUID="08Psu91G9Eyi7c2BRH2Psw==" />
@@ -7259,7 +7259,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="53" xpos="-530.591" ypos="19.4044" zpos="883.905" type="tt.mc.cm.rm.waypoints" GUID="UhQ3ld6XN0yp51wweRGouQ==" />
         <POI MapID="53" xpos="-548.818" ypos="0.25089" zpos="-28.6571" type="tt.mc.cm.mm.skimmer" GUID="1e7wx7T0mkWXL0Xp3TMdag==" />
         <POI MapID="53" xpos="-548.531" ypos="-33.5071" zpos="-386.879" type="tt.mc.cm.rm.waypoints" GUID="Xyjm2C1TXU6xUlAHqIP/cw==" />
-        <POI MapID="53" xpos="-555.608" ypos="-33.0154" zpos="-396.362" type="tt.mc.h.chm.start_heart" GUID="yrK4Re92DEysqPgfTDhiKw==" info="Interact nets and chum buckets, Kill krait&#xA;&#xA;Not enough -&gt; Bring eggs to heart" script-focus="Teh_Heart_Follower(55jzT7Rd4EebVPtm4qGjfw==)" />
+        <POI MapID="53" xpos="-555.608" ypos="-33.0154" zpos="-396.362" type="tt.mc.h.chm.start_heart" GUID="yrK4Re92DEysqPgfTDhiKw==" info="Interact nets and chum buckets, Kill krait&#xA;&#xA;Not enough -&gt; Bring eggs to heart" script-focus="Teh_Heart_Follower_2(55jzT7Rd4EebVPtm4qGjfw==,ScoOZc1UOkmzP6np/J7/Uw==)" />
         <POI MapID="53" xpos="-551.411" ypos="-0.949676" zpos="-26.5014" type="tt.mc.h.chm.finish_heart" GUID="2qVMyVYhTkegMLeNgClbYQ==" />
         <POI MapID="53" xpos="-592.473" ypos="12.9278" zpos="60.9026" type="tt.mc.cm.rm.waypoints" GUID="MGbP3tPbyUuQaA2p/56AVQ==" />
         <POI MapID="53" xpos="-594.142" ypos="-0.703549" zpos="-2.96834" type="tt.mc.h.chm.kill" GUID="IyMiXfLQy0CBMrDVZRICvg==" />
