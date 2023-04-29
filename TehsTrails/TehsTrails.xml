@@ -9113,11 +9113,41 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 	<!--DRAGON STAND MARKERS-->
 
+    <!--BLOODSTONE FEN MARKERS-->
+        <POI MapID="1165" xpos="-62.1927" ypos="665.346" zpos="19.5694" type="tt.hot.cm.rm.waypoints" GUID="NomDJTYj/UmYHqXfGBcimQ=="/>
+        <POI MapID="1165" xpos="-59.3276" ypos="723.3" zpos="-61.9431" type="tt.hot.cm.rm.points_of_interest" GUID="scyXYw1yDUyFBO+sGcfQlg=="/>
+        <POI MapID="1165" xpos="-159.077" ypos="647.372" zpos="-36.2444" type="tt.hot.cm.rm.vistas" GUID="jbEkM0TAwU6wvI76E/MFlQ=="/>
+        <POI MapID="1165" xpos="-380.066" ypos="540.625" zpos="-106.985" type="tt.hot.cm.rm.points_of_interest" GUID="ZhPzjEdj6EmSz9K6Q2UoUw=="/>
+        <POI MapID="1165" xpos="-236.007" ypos="517.865" zpos="155.772" type="tt.hot.cm.rm.points_of_interest" GUID="iHU8Ydm7KEqgAX66OmFtRQ=="/>
+        <POI MapID="1165" xpos="2.35275" ypos="571.807" zpos="49.7562" type="tt.hot.cm.rm.points_of_interest" GUID="TrjvUtGkskqeb8J4E0yMLA=="/>
+        <POI MapID="1165" xpos="145.758" ypos="514.943" zpos="-6.17382" type="tt.hot.cm.rm.waypoints" GUID="VQ5fS8xurUCBstUScF9soQ=="/>
+        <POI MapID="1165" xpos="-38.2616" ypos="343.788" zpos="81.9861" type="tt.hot.cm.rm.waypoints" GUID="UdwjarT23kOlx+MAPSGkUw=="/>
+        <POI MapID="1165" xpos="-141.936" ypos="139.918" zpos="22.7534" type="tt.hot.cm.rm.vistas" GUID="xV/niEdUQkmHn4Lq1nTRmw=="/>
+        <POI MapID="1165" xpos="-228.102" ypos="91.1342" zpos="-13.4302" type="tt.hot.cm.rm.points_of_interest" GUID="CRscqALt7UG4lu20eQAFAw=="/>
+        <POI MapID="1165" xpos="219.58" ypos="792.524" zpos="26.137" type="tt.hot.cm.rm.points_of_interest" GUID="v5gdrQYGMUmcGWjv96bm6Q=="/>
+        <POI MapID="1165" xpos="295.809" ypos="656.048" zpos="110.715" type="tt.hot.cm.rm.vistas" GUID="RdcgE6FyA0KwuytmgRTNkg=="/>
+        <POI MapID="1165" xpos="75.4384" ypos="626.471" zpos="53.1809" type="tt.hot.cm.rm.points_of_interest" GUID="S6sAqUrs70+TkamworaoFQ=="/>
+        <POI MapID="1165" xpos="-204.765" ypos="764.195" zpos="90.4607" type="tt.hot.cm.mm.griffon" GUID="gHJ6kzyYqU6KSLb3hYA8rA=="/>
+        <POI MapID="1165" xpos="293.79" ypos="656.022" zpos="110.201" type="tt.hot.cm.mm.griffon" GUID="1eByDFp/dU+ppWp4mbZoeQ=="/>
+        <POI MapID="1165" xpos="-146.404" ypos="139.209" zpos="23.8671" type="tt.hot.cm.mm.griffon" GUID="DQYTFDZczkGnsCEtt5sGpQ=="/>
+        <POI MapID="1165" xpos="-249.639" ypos="90.8816" zpos="-23.3636" type="tt.hot.cm.wm.wparrow" GUID="cH5sQIdSKUynXOXmwmFsmA=="/>
+        <POI MapID="1165" xpos="-226.709" ypos="760.467" zpos="84.2609" type="tt.hot.cm.wm.arrow" GUID="1EiVOFEnAUWRqFcMrrYUAw=="/>
+        <POI MapID="1165" xpos="-202.521" ypos="765.032" zpos="91.1795" type="tt.hot.cm.rm.1" GUID="gA2RlW3e6kqpkm1KAu1Gsg=="/>
+        <POI MapID="1165" xpos="-205.43" ypos="764.734" zpos="85.2464" type="tt.hot.cm.rm.2" GUID="jjyNJ3/Ws0SSSR8zuEO4rQ=="/>
+        <POI MapID="1165" xpos="-149.937" ypos="657.889" zpos="-28.7622" type="tt.hot.cm.rm.dismount" GUID="fkafaCX3F02ZPxNHLVpKmQ=="/>
+        <POI MapID="1165" xpos="-160.619" ypos="648.616" zpos="-34.7026" type="tt.hot.cm.mm.griffon" GUID="/Nxi0dNV90iZ8AVvF5O6CQ=="/>
+        <POI MapID="1165" xpos="-382.669" ypos="541.953" zpos="-106.58" type="tt.hot.cm.rm.finish" GUID="rIncfniowEis/dBialRHuw=="/>
+        <POI MapID="1165" xpos="170.252" ypos="792.511" zpos="79.9019" type="tt.hot.cm.mm.griffon" GUID="nBzRAuYDikelWwrXsw9Y1g=="/>
+        <POI MapID="1165" xpos="163.627" ypos="733.442" zpos="80.9201" type="tt.hot.cm.rm.dismount" GUID="+ieGFAtusk6ywkJUGhLkPw=="/>
+        <POI MapID="1165" xpos="-226.709" ypos="760.467" zpos="84.2609" type="tt.mc.cm.nwm.wph" GUID="omEdN4k14kaRoRoI3rgyHw==" />
+        <POI MapID="1165" xpos="-249.639" ypos="90.8816" zpos="-23.3636" type="tt.mc.cm.nwm.tpm" GUID="Ey/hO+4tc0mfMkDJdn6l8Q==" script-focus="Teh_Highlight_Waypoint(omEdN4k14kaRoRoI3rgyHw==)" />
+        
 	<!--TRAILS-->
 		<Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HoTMCTrails/VB.trl"/>
 		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HoTMCTrails/VB_hp.trl"/>
 		<Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HoTMCTrails/AB.trl"/>
 		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HoTMCTrails/AB_hp.trl"/>
+        <Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HoTMCTrails/BloodstoneFen.trl"/>
 
 
 
