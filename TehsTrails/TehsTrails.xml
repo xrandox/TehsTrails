@@ -5846,7 +5846,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="30" xpos="-403.491" ypos="50.9802" zpos="-841.422" type="tt.mc.h.chm.interact" GUID="hT6iSrhWY0K0uIqHgIB8QQ==" />
 		<POI MapID="30" xpos="-399.151" ypos="36.0173" zpos="385.82" type="tt.mc.h.chm.deposit" GUID="7+yqSz8CY0OldH9mtwdmjQ==" />
 		<POI MapID="30" xpos="-393.726" ypos="33.6163" zpos="360.764" type="tt.mc.h.chm.deposit" GUID="VBIUgrxJEkm5W9oTsq38Rg==" />
-		<POI MapID="30" xpos="-389.899" ypos="43.1583" zpos="414.826" type="tt.mc.cm.rm.points_of_interest" GUID="Ozf2goT47kuJuHsbQd83Wg==" />
+		<POI MapID="30" xpos="-393.299" ypos="45.1583" zpos="422.926" type="tt.mc.cm.rm.points_of_interest" GUID="Ozf2goT47kuJuHsbQd83Wg==" />
 		<POI MapID="30" xpos="-387.104" ypos="39.6103" zpos="-637.519" type="tt.mc.h.chm.interact" GUID="y5w3VU8vIUyUbdRGRr4w0g==" />
 		<POI MapID="30" xpos="-386.864" ypos="33.1228" zpos="357.617" type="tt.mc.h.chm.finish_heart" GUID="9avekLOc4ky8AEGueXJ71w==" />
 		<POI MapID="30" xpos="-385.283" ypos="37.782" zpos="509.749" type="tt.mc.h.chm.interact" GUID="w1mXkkgtl0qagJXIlcKLSg==" />
