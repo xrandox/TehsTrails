@@ -77,7 +77,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="transp" DisplayName="Transparent Marker" iconFile="Data/TehsTrails/Markers/transparent.png"/>
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/TehsTrails/Markers/shoppinglist.png" iconSize="1.5"/>
 					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
-					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" iconSize="1" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" mapDisplaySize="45" iconSize="1" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map_by_teleporting" DisplayName="Exit Point Teleportation" iconFile="Data/TehsTrails/Markers/ExitMap.png" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="nem" DisplayName="Numbered Exit Map Markers" miniMapVisibility="1" mapVisibility="1">
 						<MarkerCategory name="exit_map_1" DisplayName="Exit Map 1" iconFile="Data/TehsTrails/Markers/ExitMap1.png"/>
@@ -136,7 +136,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--=======================================================================================================================================================================-->	
 			<MarkerCategory name="h" DisplayName="Hearts">
 				<!-- Heart Trails -->
-				<MarkerCategory name="ht" DisplayName="Heart Trails" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/HeartTrail.png" mapVisibility="1"/>
+				<MarkerCategory name="ht" DisplayName="Heart Trails" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/HeartTrail.png" mapVisibility="0"/>
 				<!-- Heart Zone Categories -->
 				<MarkerCategory name="hz" DisplayName="Heart Zones" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/HeartZone.png" iswall="1"/>
 				
@@ -2854,6 +2854,20 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="25" xpos="344.431" ypos="31.7446" zpos="-198.875" type="tt.mc.cm.wm.wpswirl" GUID="8J6dwOWTyki3+SFBPh6s+g==" copy="[&amp;BOoBAAA=]" />
         <POI MapID="25" xpos="500.325" ypos="79.0729" zpos="962.935" type="tt.mc.cm.mm.distogriff" GUID="K71KTdIBhEKXUAs5dcBpHA==" />
         <POI MapID="25" xpos="-149.292" ypos="21.8071" zpos="987.174" type="tt.mc.cm.mm.beetle" GUID="jxneHXSiPku5qrq5/Ao9RQ==" />
+        <POI MapID="25" xpos="226.344" ypos="4.37262" zpos="-751.187" type="tt.mc.h.chm.kill" GUID="NvT20FR4rEeZqddXUNrhmQ=="/>
+        <POI MapID="25" xpos="224.42" ypos="3.96389" zpos="-752.976" type="tt.mc.h.chm.kill" GUID="wOe21OJ6102yk3/sOrhJkA=="/>
+        <POI MapID="25" xpos="201.665" ypos="2.56848" zpos="-784.867" type="tt.mc.h.chm.kill" GUID="TQEGRt2AqUygA0rDci4BhA=="/>
+        <POI MapID="25" xpos="201.826" ypos="2.93395" zpos="-787.543" type="tt.mc.h.chm.kill" GUID="UsbUx32krkKsSSaWEqoqMw=="/>
+        <POI MapID="25" xpos="232.706" ypos="2.44475" zpos="-777.563" type="tt.mc.h.chm.kill" GUID="GzrcXUOb0EetCnm030bfwg=="/>
+        <POI MapID="25" xpos="244.865" ypos="3.4857" zpos="-769.907" type="tt.mc.h.chm.kill" GUID="fUGC1nlASUWSg8NIGFDbyQ=="/>
+        <POI MapID="25" xpos="269.461" ypos="3.68142" zpos="-778.216" type="tt.mc.h.chm.kill" GUID="H3Af+PIotkulPQTzWnLHdA=="/>
+        <POI MapID="25" xpos="273.126" ypos="3.71132" zpos="-782.344" type="tt.mc.h.chm.kill" GUID="V4Aeu+y/bEq6yeaPqfCn5Q=="/>
+        <POI MapID="25" xpos="271.647" ypos="3.54198" zpos="-785.788" type="tt.mc.h.chm.kill" GUID="iMt3dILy90yP+uCdFa9HEQ=="/>
+        <POI MapID="25" xpos="239.8" ypos="6.38145" zpos="-709.473" type="tt.mc.h.chm.kill" GUID="jQoY3nnNhk6wstUh8CIKAg=="/>
+        <POI MapID="25" xpos="224.935" ypos="5.94691" zpos="-711.807" type="tt.mc.h.chm.kill" GUID="/UM3I0MxPUqt7X2YMS9d+g=="/>
+        <POI MapID="25" xpos="222.382" ypos="5.95109" zpos="-712.662" type="tt.mc.h.chm.kill" GUID="dc3FLqN9+0C8vfSSBZD+tw=="/>
+        <POI MapID="25" xpos="222.77" ypos="5.45719" zpos="-710.569" type="tt.mc.h.chm.kill" GUID="K0CziaZoe0KkaUgM+YZvJg=="/>
+        <POI MapID="25" xpos="275.448" ypos="6.99853" zpos="-721.199" type="tt.mc.h.chm.kill" GUID="5Hk9Nzfz1UmTcweKSGpcwA=="/>
 
 
 		<!--============================================= PLAINS OF ASHFORD MARKERS =============================================-->
@@ -3992,7 +4006,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="15" xpos="373.739" ypos="37.1974" zpos="211.662" type="tt.mc.cm.rm.points_of_interest" GUID="6/YSUJRU0kqLfyG8DcbNSw==" />
 		<POI MapID="15" xpos="379" ypos="51.0736" zpos="156.972" type="tt.mc.cm.mm.beetle" GUID="E185de1xEkOL0jOBBdSvng==" />
 		<POI MapID="15" xpos="380.951" ypos="1.51604" zpos="-316.307" type="tt.mc.cm.mm.raptor" GUID="44zMKZttuUyg0u8IGCtyQQ==" />
-		<POI MapID="15" xpos="382.32" ypos="51.6621" zpos="151.785" type="tt.mc.cm.rm.vistas" GUID="RSl+8d6CpU60AZp9usm1/A==" />
+		<POI MapID="15" xpos="383.42" ypos="51.6621" zpos="150.785" type="tt.mc.cm.rm.vistas" GUID="RSl+8d6CpU60AZp9usm1/A==" />
 		<POI MapID="15" xpos="395.331" ypos="8.27873" zpos="-310.324" type="tt.mc.hp.hpm" GUID="xhXEKjHo9kKxexDnL/q0eQ==" />
 		<POI MapID="15" xpos="405.387" ypos="0.513618" zpos="-245.03" type="tt.mc.h.chm.kill" GUID="j6JbRT9Tr0m6CopJuZ/Apg==" />
 		<POI MapID="15" xpos="409.916" ypos="-0.359279" zpos="-472.951" type="tt.mc.cm.mm.beetle" GUID="eZDWKZTtQUWHL6tPT8smkA==" />
@@ -5367,8 +5381,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="51" xpos="621.15" ypos="27.8187" zpos="70.9698" type="tt.mc.cm.rm.exit_instance" GUID="i+TQVV6Iw0+nup2gTvzfWQ==" />
 		<POI MapID="51" xpos="642.974" ypos="4.63492" zpos="-135.181" type="tt.mc.cm.rm.waypoints" GUID="WEjkD8CFekik1wQCfrp0Wg==" />
 		<POI MapID="51" xpos="647.334" ypos="5.75646" zpos="-180.795" type="tt.mc.cm.rm.points_of_interest" GUID="UR/DUPDue0i0z2pFzv1QOw==" />
-		<POI MapID="51" xpos="711.166" ypos="5.65718" zpos="542.628" type="tt.mc.cm.rm.waypoints" GUID="3G7eINDRekie1ej82s9C6A==" />
-		<POI MapID="51" xpos="800.217" ypos="14.6147" zpos="450.806" type="tt.mc.cm.rm.points_of_interest" GUID="SJbsaLeopUGq2/6IhwYOfQ==" />
+		<POI MapID="51" xpos="711.166" ypos="23.65718" zpos="542.628" type="tt.mc.cm.rm.waypoints" GUID="3G7eINDRekie1ej82s9C6A==" />
+		<POI MapID="51" xpos="809.217" ypos="16.6147" zpos="441.106" type="tt.mc.cm.rm.points_of_interest" GUID="SJbsaLeopUGq2/6IhwYOfQ==" />
 		<POI MapID="51" xpos="852.589" ypos="2.6123" zpos="-309.345" type="tt.mc.cm.rm.points_of_interest" GUID="QTazQpfrIEqfVWxPPnYQxg==" />
 		<POI MapID="51" xpos="864.807" ypos="50.0425" zpos="-136.358" type="tt.mc.cm.mm.skyscale" GUID="G1n42i9k10S8QD/IpNAWSQ==" />
 		<POI MapID="51" xpos="891.097" ypos="22.4813" zpos="147.737" type="tt.mc.cm.rm.waypoints" GUID="CXutTgt+T0SoRnNoJY6iBA==" />
@@ -8081,8 +8095,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="-31.1177" ypos="36.5916" zpos="32.4459" type="tt.mc.cm.nwm.wph" GUID="FCxEGgeFNkOug2hJ8uUyIw==" />
 		<POI MapID="51" xpos="710.343" ypos="19.5584" zpos="114.558" type="tt.mc.cm.nwm.wph" GUID="U/pKeee5yEKUbmVyXFpEJg==" />
 		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.nwm.tpm" GUID="8ttl6ecooESgUaOYvG3hKA==" copy="[&amp;BO4CAAA=]" script-focus="Teh_Highlight_Waypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
-		<POI MapID="51" xpos="905.657" ypos="36.397" zpos="155.791" type="tt.mc.cm.nwm.wph" GUID="U/pKwww5yEKUbmVyXFpEJg==" />
-		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.nwm.tpm" GUID="XvZsrl4kBkew2hkGs2EPzg==" copy="[&amp;BO8CAAA=]" script-focus="Teh_Highlight_Waypoint(U/pKwww5yEKUbmVyXFpEJg==)" />
+		<POI MapID="51" xpos="905.657" ypos="36.397" zpos="155.791" type="tt.mc.cm.nwm.wph" GUID="MwkiWu4ZV0+xDwUXJL4JQQ==" />
+		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.nwm.tpm" GUID="XvZsrl4kBkew2hkGs2EPzg==" copy="[&amp;BO8CAAA=]" script-focus="Teh_Highlight_Waypoint(MwkiWu4ZV0+xDwUXJL4JQQ==)" />
 		<POI MapID="51" xpos="107.582" ypos="-65.6299" zpos="75.2393" type="tt.mc.cm.nwm.wph" GUID="fMriPHYyREm9RThZgcjzvg==" />
 		<POI MapID="51" xpos="187.815" ypos="21.8906" zpos="184.499" type="tt.mc.cm.nwm.tpm" GUID="RlJwvo08W0K62dTXkbAjsA==" copy="[&amp;BPICAAA=]" script-focus="Teh_Highlight_Waypoint(fMriPHYyREm9RThZgcjzvg==)" />
 		<POI MapID="51" xpos="509.031" ypos="72.0457" zpos="727.404" type="tt.mc.cm.nwm.wph" GUID="FqROF+MWoUONuwIFAejUog==" />
