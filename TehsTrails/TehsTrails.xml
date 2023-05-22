@@ -2147,13 +2147,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="32" xpos="745.324" ypos="19.0877" zpos="-380.653" type="tt.mc.h.chm.talk" GUID="OtflCSakUkS3JuQNWIKBzw==" />
 		<POI MapID="32" xpos="748.487" ypos="20.0044" zpos="-393.67" type="tt.mc.cm.mm.skyscale" GUID="jH7UNH7Z2EikNzvkWd7syQ==" />
 		<POI MapID="32" xpos="749.677" ypos="16.1509" zpos="-393.64" type="tt.mc.h.chm.finish_heart" GUID="VMpziyv3ZUaTsfPOIgPbVw==" />
-		<POI MapID="32" xpos="750.336" ypos="17.2977" zpos="-382.499" type="tt.mc.h.chm.start_heart" GUID="W3GcJ5FLl0KGRW7EzEUxUQ==" info="Talk to 2 skelk -&gt; When they start logging, alternate talking to both of them, weapon-swapping to interrupt the channel" infoRange="20" />
+		<POI MapID="32" xpos="750.336" ypos="17.2977" zpos="-382.499" type="tt.mc.h.chm.start_heart" GUID="W3GcJ5FLl0KGRW7EzEUxUQ==" info="Talk to 2 skelk -&gt; When they start logging, alternate talking to both of them" infoRange="20" />
 		<POI MapID="32" xpos="756.027" ypos="81.9433" zpos="-439.513" type="tt.mc.cm.mm.distogriff" GUID="Kr0ojYuU9EqRkXQg12hFPA==" />
 		<POI MapID="32" xpos="757.028" ypos="34.6663" zpos="430.778" type="tt.mc.cm.rm.waypoints" GUID="S6SAtbdrmUmkon1Bb8Y4yA==" />
 		<POI MapID="32" xpos="785.835" ypos="45.5233" zpos="477.739" type="tt.mc.h.chm.interact" GUID="my9mfl2gUUizbcMUOaDYJg==" />
 		<POI MapID="32" xpos="787.835" ypos="45.5233" zpos="477.739" type="tt.mc.h.hsm.fullinventory" GUID="QGE8nAD3DUCF0Av0ehglWg==" />
 		<POI MapID="32" xpos="825.181" ypos="28.8527" zpos="156.538" type="tt.mc.cm.mm.beetle" GUID="VUI2TXZOJkGlxroUSPOyDQ==" />
-		<POI MapID="32" xpos="826.468" ypos="10.0368" zpos="-615.885" type="tt.mc.cm.rm.waypoints" GUID="BivSi2ieKk2XhTQ9sH0Ncg==" />
+		<POI MapID="32" xpos="826.668" ypos="16.0368" zpos="-626.885" type="tt.mc.cm.rm.waypoints" GUID="BivSi2ieKk2XhTQ9sH0Ncg==" />
 		<POI MapID="32" xpos="827.151" ypos="40.5272" zpos="144.171" type="tt.mc.cm.rm.waypoints" GUID="UMbEHzEAiEmNjmQUdNKEjg==" />
 		<POI MapID="32" xpos="840.247" ypos="41.4792" zpos="143.245" type="tt.mc.cm.wm.circle" GUID="nS5y6QgDaEm4BMPaPXT8oA==" />
 		<POI MapID="32" xpos="871.035" ypos="44.5233" zpos="595.039" type="tt.mc.h.chm.interact" GUID="ky9mfl2gUUizbcMUOaDYJg==" />
