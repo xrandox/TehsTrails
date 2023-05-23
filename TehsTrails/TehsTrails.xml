@@ -5433,7 +5433,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="51" xpos="-631.88" ypos="53.5845" zpos="-213.673" type="tt.mc.cm.mm.skyscale" GUID="WZlI49KfFk6VCY/uV0UlEg==" />
 		<POI MapID="51" xpos="-651.522" ypos="106.243" zpos="-466.248" type="tt.mc.cm.rm.waypoints" GUID="QwUjffwzRUeQarEwozUmaA==" />
 		<POI MapID="51" xpos="-708.752" ypos="112.405" zpos="-544.757" type="tt.mc.cm.mm.griffon" GUID="LEubF9pKDECs+5z4sHKddQ==" />
-		<POI MapID="51" xpos="-712.746" ypos="-11.3308" zpos="416.037" type="tt.mc.cm.rm.waypoints" GUID="Mv7qNN4X90KPa0Zc8pzlCg==" />
+		<POI MapID="51" xpos="-724.546" ypos="-2.5308" zpos="421.237" type="tt.mc.cm.rm.waypoints" GUID="Mv7qNN4X90KPa0Zc8pzlCg==" />
 		<POI MapID="51" xpos="-777.338" ypos="32.8991" zpos="-60.3554" type="tt.mc.cm.rm.points_of_interest" GUID="F45jMiH7TEa4hiMYru35dQ==" />
 		<POI MapID="51" xpos="-790.24" ypos="0.367886" zpos="347.74" type="tt.mc.cm.mm.beetle" GUID="WZq0zd5HaU6iHAIXtmgYxw==" />
 		<POI MapID="51" xpos="-786.071" ypos="32.6943" zpos="-46.2794" type="tt.mc.cm.rm.waypoints" GUID="65ahiaTnvUKlTMGD3oKwiw==" />
