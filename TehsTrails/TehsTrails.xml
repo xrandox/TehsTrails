@@ -2270,7 +2270,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="21" xpos="-507.328" ypos="58.5307" zpos="-386.428" type="tt.mc.cm.mm.raptor" GUID="xwsLyWuyE06eWhJj9YJLXA==" />
 		<POI MapID="21" xpos="-501.438" ypos="51.7888" zpos="-644.115" type="tt.mc.h.chm.interact" GUID="k1m7FSzF2Uqhtff5Yn89gA==" />
 		<POI MapID="21" xpos="-480.295" ypos="57.3822" zpos="-612.62" type="tt.mc.h.chm.interact" GUID="LMyOv3bkYkiJRjoyU+QeRw==" />
-		<POI MapID="21" xpos="-471.269" ypos="68.6634" zpos="-434.685" type="tt.mc.h.chm.start_heart" GUID="B1ckwjQt5EudhT8RmAOSYA==" info="Weaponswap doors and interact with posters along the trail" script-focus="Teh_Heart_Follower(zksppCMkmUayAAgutzUV9A==)" />
+		<POI MapID="21" xpos="-471.269" ypos="68.6634" zpos="-434.685" type="tt.mc.h.chm.start_heart" GUID="B1ckwjQt5EudhT8RmAOSYA==" info="Weaponswap doors and interact with posters along the trail&#xA;&#xA;Event -&gt; Kill separatists" script-focus="Teh_Heart_Follower(zksppCMkmUayAAgutzUV9A==)" />
 		<POI MapID="21" xpos="-463.264" ypos="62.0694" zpos="-335.979" type="tt.mc.cm.rm.points_of_interest" GUID="AGC8ua05MEqNp+Si5fCnTg==" />
 		<POI MapID="21" xpos="-463.394" ypos="69.865" zpos="-457.737" type="tt.mc.h.chm.interact" GUID="jtAy+O5X30KDsJlZgMaxKg==" />
 		<POI MapID="21" xpos="-463.548" ypos="60.6514" zpos="-609.894" type="tt.mc.h.chm.interact" GUID="IwAm9z6na02+CXOS1RKswA==" />
@@ -2291,7 +2291,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="21" xpos="-394.33" ypos="69.3395" zpos="-611.39" type="tt.mc.cm.rm.waypoints" GUID="ygTUcgTCo0q7wJoIGFRYOw==" />
 		<POI MapID="21" xpos="-389.681" ypos="83.0722" zpos="-838.273" type="tt.mc.cm.rm.points_of_interest" GUID="Hm2IwiZGbUaxrhBAGUygBA==" />
 		<POI MapID="21" xpos="-385.307" ypos="72.7389" zpos="-842.205" type="tt.mc.cm.mm.griffon" GUID="aoMbYDzDB06Pc0tK+wRvtQ==" />
-		<POI MapID="21" xpos="-380.332" ypos="123.752" zpos="-231.262" type="tt.mc.cm.mm.griffon" GUID="ut5x0ReCuUKUGjifAPT5eQ==" />
 		<POI MapID="21" xpos="-341.629" ypos="33.7231" zpos="580.285" type="tt.mc.cm.rm.points_of_interest" GUID="R3HAKyfmu02RnbcnfE+rLw==" />
 		<POI MapID="21" xpos="-341.862" ypos="33.6392" zpos="585.06" type="tt.mc.cm.mm.springer" GUID="aodFFvi+H0GDd3rI161NOA==" />
 		<POI MapID="21" xpos="-337.589" ypos="54.7476" zpos="609.041" type="tt.mc.cm.rm.vistas" GUID="D+i/AnEJy0+bl61a39/GLA==" />
