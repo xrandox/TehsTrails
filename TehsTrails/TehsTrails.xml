@@ -6560,7 +6560,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="28" xpos="-124.619" ypos="90.8078" zpos="194.448" type="tt.mc.cm.mm.beetle" GUID="R79aQlYvsUSvGtaEj4f0PQ==" />
 		<POI MapID="28" xpos="14.4624" ypos="79.4585" zpos="122.652" type="tt.mc.cm.wm.swirl" GUID="OyD9cy/0lkOSE1lu9KwrYw==" />
 		<POI MapID="28" xpos="28.9837" ypos="83.1908" zpos="114.377" type="tt.mc.cm.rm.waypoints" GUID="Tm0ApJ/oskuyKh8x0qNLqg==" />
-		<POI MapID="28" xpos="22.2262" ypos="188.226" zpos="1182.88" type="tt.mc.cm.rm.points_of_interest" GUID="2DPO8rsqx0uWUuxLODcgVg==" />
+		<POI MapID="28" xpos="23.6262" ypos="188.226" zpos="1187.98" type="tt.mc.cm.rm.points_of_interest" GUID="2DPO8rsqx0uWUuxLODcgVg==" />
 		<POI MapID="28" xpos="38.0037" ypos="208.748" zpos="1071.59" type="tt.mc.cm.mm.griffon" GUID="YblQFtKBmEq25+vjk760gA==" />
 		<POI MapID="28" xpos="38.0196" ypos="186.181" zpos="1140.95" type="tt.mc.h.chm.start_heart" GUID="hEh7Xjvz20eRJcecn+9Iuw==" info="Kill Svanir and Icebrood" script-focus="Teh_Heart_Follower(/X3oGC8EIUK707EUo1IYOA==)" />
 		<POI MapID="28" xpos="38.1097" ypos="208.802" zpos="1069.19" type="tt.mc.cm.rm.vistas" GUID="mPGlrtybvkun5rLR8Urdew==" />
@@ -6587,7 +6587,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="28" xpos="231.055" ypos="48.1019" zpos="-661.472" type="tt.mc.cm.rm.vistas" GUID="Q4Kr+kO8skyf7boJ22Y/UQ==" />
 		<POI MapID="28" xpos="442.483" ypos="-0.83191" zpos="-826.579" type="tt.mc.cm.wm.wpx" GUID="zFyZXYGXC0SxSAemFpWh6Q==" copy="[&amp;BHQBAAA=]" />
 		<POI MapID="28" xpos="230.975" ypos="92.9185" zpos="519.1" type="tt.mc.cm.rm.waypoints" GUID="c1jV/wN84EqdosO+RaV6fw==" />
-		<POI MapID="28" xpos="287.42" ypos="101.132" zpos="907.645" type="tt.mc.h.chm.start_heart" GUID="HfRLngu4e0W7/WbmIfjPug==" info="Talk 3x with each calf -&gt; kill skelk that spawn after capture" script-focus="Teh_Heart_Follower(sovWA2jP3UWNYqndBEjp/w==)" />
+		<POI MapID="28" xpos="244.22" ypos="90.432" zpos="866.145" type="tt.mc.h.chm.start_heart" GUID="HfRLngu4e0W7/WbmIfjPug==" info="Talk 3x with each calf -&gt; kill skelk that spawn after capture" script-focus="Teh_Heart_Follower(sovWA2jP3UWNYqndBEjp/w==)" />
 		<POI MapID="28" xpos="304.055" ypos="149.178" zpos="1109.46" type="tt.mc.cm.rm.ppr_m" GUID="kxEpz9mXUk2k3DgktVQ/Ag==" />
 		<POI MapID="28" xpos="418.897" ypos="147.946" zpos="1196.88" type="tt.mc.cm.rm.ppr_r" GUID="HoG9xbwliUyGTCArSQv8QQ==" />
 		<POI MapID="28" xpos="242.238" ypos="0.217302" zpos="-754.405" type="tt.mc.h.chm.interact" GUID="+VDxgZmrzE2ow5UNFgSYVQ==" />
