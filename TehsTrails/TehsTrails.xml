@@ -1359,14 +1359,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="50" xpos="168.79" ypos="16.754" zpos="61.0025" type="tt.mc.cm.rm.vistas" GUID="G8BJQdPFfECtYOqS4rRirQ=="/>
         <POI MapID="50" xpos="169.91" ypos="16.6862" zpos="60.0521" type="tt.mc.cm.mm.griffon" GUID="3xwxFF0y4kWN/QZEukfmZA=="/>
         <POI MapID="50" xpos="170.401" ypos="39.5356" zpos="185.706" type="tt.mc.cm.rm.nem.exit_map_5" GUID="9BOIIpK3fk2DhTUInAqZBQ=="/>
-        <POI MapID="50" xpos="149.228" ypos="30.2529" zpos="-124.745" type="tt.mc.cm.rm.waypoints" GUID="QTwWcXLcnUO7HnL8L35QwA=="/>
         <POI MapID="50" xpos="179.836" ypos="39.3295" zpos="246.597" type="tt.mc.cm.rm.nem.exit_map_4" GUID="2anNDFtZq0OX+jZChiFDzw=="/>
-        <POI MapID="50" xpos="200.114" ypos="30.6726" zpos="-288.455" type="tt.mc.cm.mm.raptor" GUID="wDkmwuSlzUyFNnGFzqAo7A=="/>
-        <POI MapID="50" xpos="209.096" ypos="30.9986" zpos="-292.67" type="tt.mc.cm.rm.points_of_interest" GUID="T/NXblxjqUqQgzjB5yx6Bg=="/>
+        <POI MapID="50" xpos="207.514" ypos="30.6726" zpos="-329.055" type="tt.mc.cm.mm.raptor" GUID="wDkmwuSlzUyFNnGFzqAo7A=="/>
+        <POI MapID="50" xpos="207.896" ypos="30.9986" zpos="-298.37" type="tt.mc.cm.rm.points_of_interest" GUID="T/NXblxjqUqQgzjB5yx6Bg=="/>
         <POI MapID="50" xpos="228" ypos="100.209" zpos="-531" type="tt.mc.cm.rm.start" GUID="JHJ1l65esUePo3BLGXjJsQ=="/>
         <POI MapID="50" xpos="273.341" ypos="13.4813" zpos="104.448" type="tt.mc.cm.rm.vistas" GUID="LAbjnTzm+US7zQTiM1q05Q=="/>
         <POI MapID="50" xpos="274.944" ypos="13.8132" zpos="105.636" type="tt.mc.cm.wm.wparrow" GUID="/PyHf2tdcEi+hAHevSqTlQ==" copy="[&amp;BBEEAAA=]"/>
-        <POI MapID="50" xpos="282.571" ypos="34.0142" zpos="-333.773" type="tt.mc.cm.rm.waypoints" GUID="6B0PBLiwYkm5PZflPxSVGQ=="/>
+        <POI MapID="50" xpos="282.571" ypos="30.4142" zpos="-333.773" type="tt.mc.cm.rm.waypoints" GUID="6B0PBLiwYkm5PZflPxSVGQ=="/>
         <POI MapID="50" xpos="487.173" ypos="74.3718" zpos="-239.442" type="tt.mc.cm.rm.bondoffaith" GUID="16rWPmNV30+5MQ/GoX0jEg=="/>
         <POI MapID="50" xpos="376.393" ypos="26.1362" zpos="317.855" type="tt.mc.cm.wm.wpswirl" GUID="/I66WtXOeU2iXQc/6qir9w==" copy="[&amp;BA0EAAA=]"/>
         <POI MapID="50" xpos="472.777" ypos="20.0314" zpos="213.463" type="tt.mc.cm.wm.swirl" GUID="ZlCIEs8lZEW3P1rfF9LSiQ=="/>
@@ -1379,7 +1378,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="50" xpos="603.523" ypos="29.4804" zpos="38.8297" type="tt.mc.cm.mm.beetle" GUID="nHNOzcG8bk2xGrVInWp7YA=="/>
         <POI MapID="50" xpos="470.327" ypos="20.4815" zpos="210.2" type="tt.mc.cm.mm.skyscale" GUID="7S11ChEh9kqot2TaXroNVQ=="/>
         <POI MapID="50" xpos="435.06" ypos="32.3134" zpos="192.551" type="tt.mc.cm.rm.vistas" GUID="aJENJOSvEke2xzT+8zW13A=="/>
-        <POI MapID="50" xpos="438.47" ypos="35.4638" zpos="-4.61149" type="tt.mc.cm.rm.points_of_interest" GUID="+/Y99HiQ7EK3g1tkddsVyg=="/>
+        <POI MapID="50" xpos="438.147" ypos="40.5638" zpos="-10.61149" type="tt.mc.cm.rm.points_of_interest" GUID="+/Y99HiQ7EK3g1tkddsVyg=="/>
         <POI MapID="50" xpos="468.071" ypos="21.932" zpos="210.879" type="tt.mc.cm.rm.waypoints" GUID="8AlCTzsmLk6AIMPIW8N/NA=="/>
         <POI MapID="50" xpos="481.840" ypos="25.6648" zpos="171.750" type="tt.mc.cm.rm.points_of_interest" GUID="TsG3nY4tZke6hQYglYsI3g=="/>
         <POI MapID="50" xpos="490.754" ypos="25.4398" zpos="-123.435" type="tt.mc.cm.wm.circle" GUID="D8SV2DB0BkGiI1nTzvCH0g=="/>
@@ -1407,8 +1406,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="50" xpos="7719" ypos="100.209" zpos="-1977" type="tt.mc.cm.rm.start" GUID="+2tOb0tn7kWXBiufvu+35A=="/>
         <POI MapID="50" xpos="7914" ypos="100.209" zpos="139" type="tt.mc.cm.rm.start" GUID="cYvpBirNqEiLmcwj/2TEXQ=="/>
         <POI MapID="50" xpos="-3.81682" ypos="-33.7628" zpos="-99.3185" type="tt.mc.cm.rm.points_of_interest" GUID="DQ073+0tTUmDmdAIev9rvg=="/>
-        <POI MapID="50" xpos="-44.6929" ypos="24.003" zpos="158.397" type="tt.mc.cm.rm.points_of_interest" GUID="jbPCUx1cjU2sC8I9Atjm3A=="/>
-        <POI MapID="50" xpos="-50.7311" ypos="21.8608" zpos="359.75" type="tt.mc.cm.rm.waypoints" GUID="uy6R5s75r0CAStgp3R/s6Q=="/>
+        <POI MapID="50" xpos="-34.1929" ypos="24.003" zpos="180.397" type="tt.mc.cm.rm.points_of_interest" GUID="jbPCUx1cjU2sC8I9Atjm3A=="/>
+        <POI MapID="50" xpos="-45.7311" ypos="24.2608" zpos="367.75" type="tt.mc.cm.rm.waypoints" GUID="uy6R5s75r0CAStgp3R/s6Q=="/>
         <POI MapID="50" xpos="-89.9627" ypos="6.80584" zpos="-214.112" type="tt.mc.cm.rm.waypoints" GUID="CtV8qal4f0+cqN4ETGbjsA=="/>
         <POI MapID="50" xpos="-85.2038" ypos="11.7836" zpos="-234.332" type="tt.mc.cm.mm.raptor" GUID="+SGmGvSP/0G0z+moFooZ/A=="/>
         <POI MapID="50" xpos="-357.604" ypos="62.4836" zpos="197.932" type="tt.mc.cm.mm.raptor" GUID="T5CSwTFQNkCoeb23YKABDw=="/>
@@ -1416,7 +1415,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="50" xpos="-97.1734" ypos="23.1391" zpos="296.616" type="tt.mc.cm.rm.points_of_interest" GUID="il1kL1J+BUS/+cfEVpFZzg=="/>
         <POI MapID="50" xpos="-97.6456" ypos="31.5123" zpos="168.993" type="tt.mc.cm.rm.vistas" GUID="A0Iov2MXG0mlcohK5dz5bw=="/>
         <POI MapID="50" xpos="-122.163" ypos="-1.05664" zpos="-150.078" type="tt.mc.cm.mm.skimmer" GUID="gjuprAFqwEy2qa3w1us32w=="/>
-        <POI MapID="50" xpos="-125.11" ypos="17.946" zpos="205.679" type="tt.mc.cm.mm.griffon" GUID="FN7nglWmkESvrRvT249YpA=="/>
+        <POI MapID="50" xpos="-129.81" ypos="18.046" zpos="201.679" type="tt.mc.cm.mm.skyscale" GUID="FN7nglWmkESvrRvT249YpA=="/>
         <POI MapID="50" xpos="-126.124" ypos="-78.1127" zpos="-114.733" type="tt.mc.cm.rm.vistas" GUID="numfVxeqI0ipvAmlHYUE/Q=="/>
         <POI MapID="50" xpos="-130.46" ypos="23.375" zpos="399.783" type="tt.mc.cm.mm.beetle" GUID="VFRGSIwS90+93B91rR38iw=="/>
         <POI MapID="50" xpos="-133.858" ypos="23.3937" zpos="402.328" type="tt.mc.cm.rm.start" GUID="7F9Uq8QTKE2KMWVZr/udwA=="/>
@@ -1595,14 +1594,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="91" xpos="102.655" ypos="45.3313" zpos="-70.355" type="tt.mc.cm.mm.raptor" GUID="+9xETt8pPECtornP6YqZYQ=="/>
         <POI MapID="91" xpos="11.325" ypos="24.2476" zpos="3.33159" type="tt.mc.cm.rm.vistas" GUID="+1Jfv3dUYkStQvy4PBvOhw=="/>
         <POI MapID="91" xpos="15.7158" ypos="69.0096" zpos="5.89958" type="tt.mc.cm.wm.arrow" GUID="mIWuTO4KxUyu2Ke5iFyrHQ=="/>
-        <POI MapID="91" xpos="15.8157" ypos="39.1865" zpos="-49.4305" type="tt.mc.cm.rm.points_of_interest" GUID="wCyWXLpEkk675864hCsqzg=="/>
+        <POI MapID="91" xpos="5.4157" ypos="40.8865" zpos="-45.4305" type="tt.mc.cm.rm.points_of_interest" GUID="wCyWXLpEkk675864hCsqzg=="/>
         <POI MapID="91" xpos="7.07205" ypos="16.33" zpos="158.777" type="tt.mc.cm.rm.points_of_interest" GUID="sN7lvlxxDUS8BZOg+ve40g=="/>
         <POI MapID="91" xpos="30.4354" ypos="64.7841" zpos="38.1254" type="tt.mc.cm.rm.waypoints" GUID="XC+9VZjvPka/uxV7zSh+mQ=="/>
         <POI MapID="91" xpos="22.5655" ypos="47.0731" zpos="35.3749" type="tt.mc.cm.wm.circle" GUID="iY04q4SD4kiz3LnxXcnB7w=="/>
         <POI MapID="91" xpos="35.6327" ypos="0.965959" zpos="-72.4249" type="tt.mc.cm.rm.points_of_interest" GUID="Fwhw6/1+LkChO8vCLeLR7Q=="/>
         <POI MapID="91" xpos="39.372" ypos="67.4789" zpos="39.9703" type="tt.mc.cm.rm.points_of_interest" GUID="0v8cqdIpk02V46/9p1SVNA=="/>
         <POI MapID="91" xpos="46.7477" ypos="20.1235" zpos="29.0027" type="tt.mc.cm.rm.waypoints" GUID="0rA7Na+5qE2pVieuwH6jFQ=="/>
-        <POI MapID="91" xpos="54.0808" ypos="41.8252" zpos="-61.4161" type="tt.mc.cm.rm.points_of_interest" GUID="C1BHJq7DA0KJ1QWktzJhjQ=="/>
+        <POI MapID="91" xpos="62.4808" ypos="46.8252" zpos="-62.9161" type="tt.mc.cm.rm.points_of_interest" GUID="C1BHJq7DA0KJ1QWktzJhjQ=="/>
         <POI MapID="91" xpos="80.1769" ypos="28.2536" zpos="-22.2899" type="tt.mc.cm.rm.vistas" GUID="YGKgM2g9ykWLP7Kn5UYySg=="/>
         <POI MapID="91" xpos="90.7778" ypos="-0.637133" zpos="74.4538" type="tt.mc.cm.rm.points_of_interest" GUID="9uShTSEqXkq3mEKWpmccAw=="/>
         <POI MapID="91" xpos="31.2326" ypos="102.863" zpos="54.2282" type="tt.mc.cm.rm.points_of_interest" GUID="1OzFPEvMPEKsVUUTgolFLA=="/>
@@ -1628,12 +1627,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="91" xpos="145.32" ypos="82.3308" zpos="96.919" type="tt.mc.cm.wm.wparrow" GUID="R6W0kwIm9U2brfeCieeCJw==" copy="[&amp;BLoEAAA=]"/>
         <POI MapID="91" xpos="-0.427283" ypos="97.6404" zpos="262.715" type="tt.mc.cm.wm.wpcircle" GUID="KPckPoCyyEKmY1ah5zx75Q==" copy="[&amp;BLsEAAA=]"/>
         <POI MapID="91" xpos="-46.8439" ypos="25.2268" zpos="145.499" type="tt.mc.cm.mm.skyscale" GUID="X6CpX7sO7EGHstF2k8naew=="/>
-        <POI MapID="91" xpos="55.2224" ypos="1.41297" zpos="30.274" type="tt.mc.cm.mm.beetle" GUID="29//VEeIikyZVGAUdtCaJQ=="/>
+        <POI MapID="91" xpos="55.2224" ypos="1.41297" zpos="30.274" type="tt.mc.cm.mm.jackal" GUID="29//VEeIikyZVGAUdtCaJQ=="/>
         <POI MapID="91" xpos="47.4669" ypos="1.3594" zpos="34.3026" type="tt.mc.cm.wm.heart" GUID="ql0O7hF8LkWJ3BrCVrr4Pw=="/>
         <POI MapID="91" xpos="142.074" ypos="9.89811" zpos="42.802" type="tt.mc.cm.wm.wpheart" GUID="3x1j/4k6aEaOv0eYMClcFw==" copy="[&amp;BLwEAAA=]"/>
         <POI MapID="91" xpos="50.4602" ypos="1.13268" zpos="31.0809" type="tt.mc.cm.rm.1" GUID="JhqP1w8zDkyOaC539New4A=="/>
         <POI MapID="91" xpos="42.0482" ypos="1.31307" zpos="33.991" type="tt.mc.cm.rm.2" GUID="dOZJRyLpBkeIBaP/1nVa/g=="/>
-        <POI MapID="91" xpos="32.9227" ypos="0.686499" zpos="36.427" type="tt.mc.cm.mm.beetle" GUID="cIYLevx4ZEmI/LO2fs63jA==" info="Use bond of vigor" infoRange="10"/>
+        <POI MapID="91" xpos="32.9227" ypos="0.686499" zpos="36.427" type="tt.mc.cm.mm.jackal" GUID="cIYLevx4ZEmI/LO2fs63jA==" />
+        <POI MapID="91" xpos="-46.287" ypos="0.2331" zpos="-46.7747" type="tt.mc.cm.mm.jackal_launch" GUID="8gfK1pAjIUKie7p4idfG7Q==" />
         <POI MapID="91" xpos="36.5758" ypos="0.977859" zpos="-74.5188" type="tt.mc.cm.rm.finish" GUID="moAiwEW8eE6BUnCpGZXCGA==" copy="[&amp;BBEEAAA=]"/>
 		
 		
