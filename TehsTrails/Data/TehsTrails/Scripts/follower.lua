@@ -103,7 +103,8 @@ function Teh_Create_Follower(heartMarker, targetGuid)
         InGameVisibility = false,
         MiniMapVisibility = false,
         MapVisibility = false,
-        IconSize = 0.5
+        IconSize = 0.5,
+        Category = Teh.heartfollower.category
     })
 
     follower:SetTexture("Data/TehsTrails/Markers/Renown_Heart_empty.png")

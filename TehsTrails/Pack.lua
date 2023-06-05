@@ -2,9 +2,10 @@ Teh = {}
 
 Debug:Print("Loading Lua")
 
--- Hide script notification first thing
-Pack:Require("Data/TehsTrails/Scripts/hide.lua")
+-- Loading storage first
+Pack:Require("Data/TehsTrails/Scripts/storage.lua")
 
+Pack:Require("Data/TehsTrails/Scripts/hide.lua")
 Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
 Pack:Require("Data/TehsTrails/Scripts/reset.lua")
 Pack:Require("Data/TehsTrails/Scripts/follower.lua")
@@ -14,7 +15,7 @@ Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
 Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
 Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
 Pack:Require("Data/TehsTrails/Scripts/copy.lua")
---Pack:Require("Data/TehsTrails/Scripts/tehmenu.lua")
+Pack:Require("Data/TehsTrails/Scripts/tehmenu.lua")
 --Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua")
 
 function Teh_Tick_Handler(gameTime)

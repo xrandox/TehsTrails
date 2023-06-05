@@ -27,7 +27,8 @@ function Teh_Global_Marker()
             MapDisplaySize = 100,
             MapVisibility = true,
             InGameVisibility = false,
-            ScaleOnMapWithZoom = false
+            ScaleOnMapWithZoom = false,
+            Category = Teh.globalmarker.category
         }
 
         Teh.globalmarker.currentMarkers[i] = Pack:CreateMarker(attributes)

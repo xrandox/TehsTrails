@@ -35,7 +35,6 @@ function Teh_Highlight_Waypoint_2(marker, isfocused, markerguid, secondaryTarget
 end
 
 function Teh_Highlight_Waypoint_3(marker, isfocused, markerguid, optionalWaypoint)
-    Debug:Print(optionalWaypoint)
     Teh.highlight.optionalWaypoint = World:MarkerByGuid(optionalWaypoint)
     Teh.highlight.secondaryTarget = Teh.highlight.optionalWaypoint
     Teh_Highlight_Waypoint(marker, isfocused, markerguid)
@@ -54,7 +53,6 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
 
         -- If optional waypoint, we have to show that one too
         if (Teh.highlight.optionalWaypoint ~= nil) then
-            Debug:Print("Got there")
             Teh.highlight.optionalWaypoint:SetTexture("Data/TehsTrails/Markers/waypoint-highlight2.png")
             Teh.highlight.optionalWaypoint.MapVisibility = true
             Teh.highlight.optionalWaypoint.MiniMapVisibility = true
@@ -115,7 +113,6 @@ end
 function Teh_Validate_Highlight()
     local waypoint = Teh.highlight.currentWaypoint
     local secondaryTarget = Teh.highlight.secondaryTarget
-    local optionalWaypoint = Teh.highlight.optionalWaypoint
     if (waypoint.Focused) then
         Teh_Highlight_Reset()
         return false

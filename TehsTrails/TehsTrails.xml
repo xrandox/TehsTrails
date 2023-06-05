@@ -98,6 +98,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
 				  <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
+				  <MarkerCategory name="skyscaleNotifier" DisplayName="Skyscale Notifier (Script Use Only)" iconFile="Data/TehsTrails/Markers/Skyscale.png" mount="skyscale"/>
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
@@ -8280,6 +8281,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/2-shadow.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/3-shadow.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/waypoint-highlight2.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
 		<!--========== SCRIPTING MARKERS ==========-->
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" />
 		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="QEI9L5Q92ECHpi/qEeIfQQ==" type="tt.mc.cm.se" />
@@ -8312,6 +8314,38 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="co8l9cL0dkOIXDPOSVXiKg==" type="tt.mc.cm.se" />
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="yx+evYoC30i67RO/R5BF2g==" type="tt.mc.cm.se" />
 		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<!-- Skyscale Notifier Markers -->
+		<POI MapID="29" xpos="0" ypos="-1000" zpos="0" GUID="ugk0lmHCaU6lVjY1KAec2w==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="53" xpos="0" ypos="-1000" zpos="0" GUID="hCAJU52vrEGCKhkwW926Yg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="39" xpos="0" ypos="-1000" zpos="0" GUID="oxjqtO5je0Sau9OF35lpEg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="73" xpos="0" ypos="-1000" zpos="0" GUID="mMQutX51skKd8kWrk5gxqg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="28" xpos="0" ypos="-1000" zpos="0" GUID="DgqBFSNDVEKVqYaSbIf04g==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="31" xpos="0" ypos="-1000" zpos="0" GUID="KEvk03kipk+X531F5IQgsg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="27" xpos="0" ypos="-1000" zpos="0" GUID="UPmSWrQK4Eyv4fMwskmLtw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="30" xpos="0" ypos="-1000" zpos="0" GUID="7Kcxsr97Cki2cgDU4wfIiQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="26" xpos="0" ypos="-1000" zpos="0" GUID="tLfHcSady0Wxoy1MCj82OQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="51" xpos="0" ypos="-1000" zpos="0" GUID="E1y9ksGREUi/mhSTtKMA2A==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="62" xpos="0" ypos="-1000" zpos="0" GUID="xmTq1OQ7c0K1+5peQVPLwA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="35" xpos="0" ypos="-1000" zpos="0" GUID="nYjNVZ3yoUa5CPp0AEQfuw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="65" xpos="0" ypos="-1000" zpos="0" GUID="hYStbj2ZdUensV8AHC7k6A==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="34" xpos="0" ypos="-1000" zpos="0" GUID="T74uuxEZHE+r3kL8KKu9vw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="54" xpos="0" ypos="-1000" zpos="0" GUID="eqtUNk2vDkuraV3C+WXaWQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="15" xpos="0" ypos="-1000" zpos="0" GUID="7JCFmqsmKEiYfqBbfw0tgw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="23" xpos="0" ypos="-1000" zpos="0" GUID="PIKS6O+ux0yGx+5PnxXyYw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="17" xpos="0" ypos="-1000" zpos="0" GUID="QnBKJrTr+UWFVkd9zf+qow==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="24" xpos="0" ypos="-1000" zpos="0" GUID="jAHq4Bk7GUKaXfoogYN78Q==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="19" xpos="0" ypos="-1000" zpos="0" GUID="pQfhYjSCfUihBpQ3anHr0Q==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="25" xpos="0" ypos="-1000" zpos="0" GUID="iCWxsDhzdE2HTj+W4DGGHg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="22" xpos="0" ypos="-1000" zpos="0" GUID="t22oLHWtWkOLEXx1fW7ZjA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="21" xpos="0" ypos="-1000" zpos="0" GUID="uwhfr2Ye6ka9S89v/YXWEw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="32" xpos="0" ypos="-1000" zpos="0" GUID="/t/gxyB+JkyjP/9Mq9v8ew==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="20" xpos="0" ypos="-1000" zpos="0" GUID="GyuOjd7MmkuVsVNR4ijJxw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="91" xpos="0" ypos="-1000" zpos="0" GUID="SxAyu8ksH0irKFEtonHAFQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="139" xpos="0" ypos="-1000" zpos="0" GUID="lAtVQt2LykuCMx/Aw8eurQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="326" xpos="0" ypos="-1000" zpos="0" GUID="1lVaF6CH6Eu+f2g/McxQfg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="50" xpos="0" ypos="-1000" zpos="0" GUID="3tecWn8xhUCv8hqy7nfEdA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="18" xpos="0" ypos="-1000" zpos="0" GUID="Z5OlzXCrVUycSBFglkU57g==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="218" xpos="0" ypos="-1000" zpos="0" GUID="rdtWWytOjEG7bq9P1G5xmA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
 		<!-- DYNAMIC SETTINGS -->
 		<!--<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="l2D4EM4mIkuz4C3QWuo6hQ==" type="tt.mc.ds.stomm" />
 		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="TeoHc7G4CkaCwYuiBeGhzw==" type="tt.mc.ds.stomm" />
