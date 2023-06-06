@@ -834,11 +834,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="maptester6" DisplayName="Emikadon.8542" isseparator="1"/>
 				<MarkerCategory name="maptester7" DisplayName="Frenzy.6189" isseparator="1"/>
 				<MarkerCategory name="maptester8" DisplayName="iToPouch.5073" isseparator="1"/>
+				<MarkerCategory name="maptester23" DisplayName="Irda.4105" isseparator="1"/>
 				<MarkerCategory name="maptester9" DisplayName="justsoelmo.7068" isseparator="1"/>
 				<MarkerCategory name="maptester10" DisplayName="lokko.7534" isseparator="1"/>
 				<MarkerCategory name="maptester11" DisplayName="Lycart.5487" isseparator="1"/>
 				<MarkerCategory name="maptester12" DisplayName="Lyra.7082" isseparator="1"/>
 				<MarkerCategory name="maptester13" DisplayName="Mavrande.5849" isseparator="1"/>
+				<MarkerCategory name="maptester24" DisplayName="Nofeis.9763" isseparator="1"/>
 				<MarkerCategory name="maptester14" DisplayName="Pizzous.4783" isseparator="1"/>
 				<MarkerCategory name="maptester15" DisplayName="Predator.1430" isseparator="1"/>
 				<MarkerCategory name="maptester16" DisplayName="Scott Ware.7291" isseparator="1"/>
