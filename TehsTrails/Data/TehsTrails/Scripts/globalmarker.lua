@@ -3,13 +3,13 @@ Teh.globalmarker = {
     isVisible = false,
     rects = Teh.lookups.rects,
     coordinateTable = Teh.lookups.coordinateTable,
-    category = World:CategoryByType("tt.s.tgsp")
+    category = World:CategoryByType("tt.mc.cm.rm.points_of_interest")
 }
 
 Debug:Watch("Global_Marker", Teh.globalmarker)
 
 -- This function turns markers in the coordinate table to markers in the current map
-function Teh_Global_Marker()
+local function createGlobalMarkers()
 
     -- get lookup table for current map
     local map = Teh.globalmarker.rects[Mumble.CurrentMap.Id]
@@ -27,7 +27,8 @@ function Teh_Global_Marker()
             MapDisplaySize = 100,
             MapVisibility = true,
             InGameVisibility = false,
-            ScaleOnMapWithZoom = false
+            ScaleOnMapWithZoom = false,
+            Category = Teh.globalmarker.category
         }
 
         Teh.globalmarker.currentMarkers[i] = Pack:CreateMarker(attributes)
@@ -38,7 +39,7 @@ function Teh_Global_Marker()
 end
 
 -- This function hides removes the markers once the user turns them off
-function Teh_Hide_Global_Markers()
+local function removeGlobalMarkers()
     Teh.globalmarker.isVisible = false
 
     if (Teh.globalmarker.currentMarkers ~= {}) then
@@ -50,7 +51,13 @@ function Teh_Hide_Global_Markers()
     end
 end
 
--- Tick handler for global markers. Waits to see if 
-function Teh_Global_Marker_Handler(gameTime)
-
+function Teh_ToggleGlobalMarker()
+    if (Teh.storage.globalMarkersToggled == "true") then
+        createGlobalMarkers()
+    else
+        removeGlobalMarkers()
+    end
 end
+
+-- Initial load on startup
+Teh_ToggleGlobalMarker()

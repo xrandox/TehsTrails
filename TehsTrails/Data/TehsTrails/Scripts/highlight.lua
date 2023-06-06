@@ -6,6 +6,7 @@ Teh.highlight = {
     sizeGrowing = true,
     timeSinceStarted = 0,
     secondaryTarget = nil,
+    optionalWaypoint = nil,
     category = World:CategoryByType("tt.s.ewh")
 }
 
@@ -16,10 +17,16 @@ function Teh_Highlight_Reset()
     waypoint.MapVisibility = false
     waypoint.MiniMapVisibility = false
     waypoint.TriggerRange = 0
+    if (Teh.highlight.optionalWaypoint ~= nil) then
+        Teh.highlight.optionalWaypoint.MapVisibility = false
+        Teh.highlight.optionalWaypoint.MiniMapVisibility = false
+        Teh.highlight.optionalWaypoint.TriggerRange = 0
+    end
     Teh.highlight.currentTeleport.TriggerRange = 15
     Teh.highlight.currentTeleport = nil
     Teh.highlight.waypointHighlighted = false
     Teh.highlight.secondaryTarget = nil
+    Teh.highlight.optionalWaypoint = nil
 end
 
 function Teh_Highlight_Waypoint_2(marker, isfocused, markerguid, secondaryTarget)
@@ -27,9 +34,15 @@ function Teh_Highlight_Waypoint_2(marker, isfocused, markerguid, secondaryTarget
     Teh_Highlight_Waypoint(marker, isfocused, markerguid)
 end
 
+function Teh_Highlight_Waypoint_3(marker, isfocused, markerguid, optionalWaypoint)
+    Teh.highlight.optionalWaypoint = World:MarkerByGuid(optionalWaypoint)
+    Teh.highlight.secondaryTarget = Teh.highlight.optionalWaypoint
+    Teh_Highlight_Waypoint(marker, isfocused, markerguid)
+end
+
 --Sets the given marker GUID as the current waypoint and highlights it
 function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
-    if (not Teh.highlight.category:IsVisible()) then return end
+    if (Teh.storage.highlightToggled == "false") then return end
 
     local waypoint = World:MarkerByGuid(markerguid)
 
@@ -37,6 +50,15 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
         if (Teh.highlight.waypointHighlighted) then
             Teh_Highlight_Reset()
         end
+
+        -- If optional waypoint, we have to show that one too
+        if (Teh.highlight.optionalWaypoint ~= nil) then
+            Teh.highlight.optionalWaypoint:SetTexture("Data/TehsTrails/Markers/waypoint-highlight2.png")
+            Teh.highlight.optionalWaypoint.MapVisibility = true
+            Teh.highlight.optionalWaypoint.MiniMapVisibility = true
+            Teh.highlight.optionalWaypoint.TriggerRange = 15
+        end
+
         waypoint:SetTexture("Data/TehsTrails/Markers/waypoint-highlight.png")
         waypoint.MapVisibility = true
         waypoint.MiniMapVisibility = true
@@ -47,15 +69,20 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
         Teh.highlight.timeSinceStarted = 0
         marker.TriggerRange = 0
     end
-
 end
 
 --Grows or shrinks the highlight on the map
 function Teh_Tick_Highlight(gameTime)
-    if (not Teh.highlight.category:IsVisible()) then Teh_Highlight_Reset() return end
+    if (Teh.storage.highlightToggled == "false") then
+        Teh_Highlight_Reset()
+        return
+    end
     local elapsedSeconds = gameTime.ElapsedGameTime.TotalSeconds
     Teh.highlight.timeSinceStarted = Teh.highlight.timeSinceStarted + elapsedSeconds
-    if (Teh.highlight.timeSinceStarted > 300) then Teh_Highlight_Reset() return end
+    if (Teh.highlight.timeSinceStarted > 300) then
+        Teh_Highlight_Reset()
+        return
+    end
 
     local size = Teh.highlight.currentSize
     local growing = Teh.highlight.sizeGrowing
@@ -63,8 +90,11 @@ function Teh_Tick_Highlight(gameTime)
     local MIN_SIZE = 100
     local INTERVAL = 180 * elapsedSeconds
 
-    if (growing) then size = size + INTERVAL;
-    else size = size - INTERVAL; end
+    if (growing) then
+        size = size + INTERVAL;
+    else
+        size = size - INTERVAL;
+    end
     Teh.highlight.currentSize = size
 
     if (size > MAX_SIZE) then growing = false end
@@ -72,6 +102,10 @@ function Teh_Tick_Highlight(gameTime)
     Teh.highlight.sizeGrowing = growing
 
     Teh.highlight.currentWaypoint.MapDisplaySize = size
+    -- If optional waypoint, we have to grow/shrink that too
+    if (Teh.highlight.optionalWaypoint ~= nil) then
+        Teh.highlight.optionalWaypoint.MapDisplaySize = size
+    end
 end
 
 --Checks if highlighted waypoing is focused, if it is, stop highlighting it.
@@ -91,4 +125,3 @@ function Teh_Validate_Highlight()
     end
     return true
 end
-
