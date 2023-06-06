@@ -5,15 +5,14 @@ Teh.heartfollower = {
     target2 = nil,
     visible = false,
     originalMarker = nil,
-    category = World:CategoryByType("tt.s.ehif"),
-    category2 = World:CategoryByType("tt.s.ehif.evhp")
+    category = World:CategoryByType("tt.s.tgsp")
 }
 
 Debug:Watch("heartfollower", Teh.heartfollower)
 
 --Sets the given GUID as the target and creates a marker to point towards it and carrys around the info from the original marker
 function Teh_Heart_Follower(marker, isfocused, guid)
-    if (not Teh.heartfollower.category:IsVisible()) then return end
+    if (Teh.storage.followerInfoToggled == "false") then return end
 
     if (isfocused) then
         Teh_Create_Follower(marker, guid)
@@ -22,7 +21,7 @@ end
 
 --Same as Teh_Heart_Follower only it points to endGuid but doesnt disappear until in disappearGuid's focus
 function Teh_Heart_Follower_2(marker, isfocused, endGuid, disappearGuid)
-    if (not Teh.heartfollower.category:IsVisible()) then return end
+    if (Teh.storage.followerInfoToggled == "false") then return end
 
     if (isfocused) then
         Teh_Create_Follower(marker, endGuid)
@@ -36,12 +35,12 @@ function Teh_Tick_HeartFollower(gameTime)
     local follower = Teh.heartfollower.followMarker
 
     -- Visibility checks
-    if (not Teh.heartfollower.category:IsVisible()) then
+    if (Teh.storage.followerInfoToggled == "false") then
         Teh_Follower_Reset()
         return
     end
 
-    if (not Teh.heartfollower.category2:IsVisible()) then
+    if (Teh.storage.followerVisibleToggled == "false") then
         Teh.heartfollower.visible = false
         follower.InGameVisibility = false
     else
@@ -109,7 +108,7 @@ function Teh_Create_Follower(heartMarker, targetGuid)
 
     follower:SetTexture("Data/TehsTrails/Markers/Renown_Heart_empty.png")
 
-    if (not Teh.heartfollower.category2:IsVisible()) then
+    if (Teh.storage.followerVisibleToggled == "false") then
         follower.InGameVisibility = true
         Teh.heartfollower.visible = true
     end

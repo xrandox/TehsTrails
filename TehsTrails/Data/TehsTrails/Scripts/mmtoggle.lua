@@ -1,29 +1,20 @@
-local trailCategory = World:CategoryByType("tt.mc.ct.mapB")
-
--- Toggles the actual visibility 
-local function toggleMinimapVisibility()
-    local allTrails = trailCategory:GetMarkers(true);
-    if (Teh.storage.minimapToggled == "true") then
-        for index, value in ipairs(allTrails) do
-            value.MiniMapVisibility = true
-        end
-    else
-        for index, value in ipairs(allTrails) do
-            value.MiniMapVisibility = false
-        end
-    end
+-- Sets the 
+function Teh_SetMinimapVisibility()
+    local mainTrail = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Vg==")
+    mainTrail.MiniMapVisibility = Teh_Is_True("minimapToggled")
 end
 
--- Toggles the minimap
-function Teh_FlipMinimapToggle()
-    if (Teh.storage.minimapToggled == "true") then
-        saveValue("minimapToggled", "false")
-    else
-        saveValue("minimapToggled", "true")
-    end
-
-    toggleMinimapVisibility()
+function Teh_SetHeartZoneMapVisibility()
+    local heartZone = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Pg==")
+    heartZone.MapVisibility = Teh_Is_True("heartZonesOnMap")
 end
 
--- Check toggle on start up
-toggleMinimapVisibility()
+function Teh_SetHeartZoneMinimapVisibility()
+    local heartZone = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Pg==")
+    heartZone.MiniMapVisibility = Teh_Is_True("heartZonesOnMinimap")
+end
+
+-- Check toggles on start up
+Teh_SetMinimapVisibility()
+Teh_SetHeartZoneMapVisibility()
+Teh_SetHeartZoneMinimapVisibility()

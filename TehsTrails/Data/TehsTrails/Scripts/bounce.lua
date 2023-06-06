@@ -2,8 +2,7 @@ Teh.bounce = {
     currentTarget = nil,
     isBouncing = false,
     wasFocused = false,
-    timeSinceStarted = 0,
-    category = World:CategoryByType("tt.s.ermb")
+    timeSinceStarted = 0
 }
 
 Debug:Watch("bounce", Teh.bounce)
@@ -27,7 +26,7 @@ end
 -- Checks if the player enters the markers trigger range, if they do, waits for them to no longer be in the trigger range to stop it from bouncing
 function Teh_Tick_Bounce(gameTime)
     Teh.bounce.timeSinceStarted = Teh.bounce.timeSinceStarted + gameTime.ElapsedGameTime.TotalSeconds
-    if (not Teh.bounce.category:IsVisible()) then Teh_Bounce_Reset() return end
+    if (Teh.storage.bounceToggled == "false") then Teh_Bounce_Reset() return end
     if (Teh.bounce.timeSinceStarted > 300) then Teh_Bounce_Reset() return end
 
     if (Teh.bounce.wasFocused) then
@@ -44,8 +43,8 @@ end
 
 -- Makes the marker with the given guid bounce until you enter and leave it's trigger range
 function Teh_Bounce(marker, isAutoTrigger, guid)
-    if (not isAutoTrigger) then return end
-    if (not Teh.bounce.category:IsVisible()) then return end
+    --if (not isAutoTrigger) then return end
+    if (Teh.storage.bounceToggled == "false") then return end
 
     local target = World:MarkerByGuid(guid)
     local category = target.Category.Name

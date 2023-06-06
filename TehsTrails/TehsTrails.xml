@@ -6,48 +6,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                              CORE TYRIA                                                                           ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="sr" DisplayName="     [   RESET SCRIPTS   ]    " tip-description="Script bugging out? Click this to reset all active scripts" defaulttoggle="0" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0"/>
-	
 		<MarkerCategory name="mapcomp" DisplayName="     |=====Core Tyria=====|     " isseparator="1"/>
-		<MarkerCategory name="s" DisplayName="Script Functions (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="1" defaulttoggle="0" inGameVisibility="0">
-			<MarkerCategory name="tgsp" DisplayName="Toggle Global Starting Point Markers" tip-description="Shows the starting points for trails on all core Tyria maps" defaulttoggle="0"/>
-			<MarkerCategory name="ewh" DisplayName="Enable Waypoint Highlights" tip-description="Highlights the next waypoint you are supposed to teleport to" bh-defaulttoggle="1" defaulttoggle="0"/>
-			<MarkerCategory name="ermb" DisplayName="Enable Route Marker Bouncing" tip-description="Signifies which route you are supposed to use by making the respective marker bounce" bh-defaulttoggle="1" defaulttoggle="0"/>
-			<MarkerCategory name="ehif" DisplayName="Enable Heart Information Following" tip-description="Makes heart text sticky -- it will follow you around until you reach the finish_heart marker (Limited Use)" bh-defaulttoggle="1" defaulttoggle="0">
-				<MarkerCategory name="evhp" DisplayName="Enable Visible Heart Pointer" tip-description="Makes the empty heart follow your character and point to the finish heart marker" bh-defaulttoggle="1" defaulttoggle="0"/>
-			</MarkerCategory>
-		</MarkerCategory>
 		<!-- THE MAJORITY OF GLOBAL MARKER SETTINGS SHOULD BE SET HERE -->
 		<MarkerCategory name="mc" DisplayName="Map Completion"  fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20" iconSize="0.5" animSpeed="0.25" trailScale="1" mapDisplaySize="35" scaleOnMapWithZoom="0">
 		<!--=======================================================================================================================================================================-->	
-		<!--==                                                                              MAIN TRAILS                                                                          ==-->
+		<!--==                                                                              MAIN TRAIL                                                                           ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="0"/>
-				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" texture="Data/TehsTrails/Markers/RedTrail.png" defaulttoggle="0"/>
-				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" texture="Data/TehsTrails/Markers/GreyTrail.png" defaulttoggle="0"/>
-				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" texture="Data/TehsTrails/Markers/LightGreyTrail.png" defaulttoggle="0"/>
-				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" texture="Data/TehsTrails/Markers/OrangeTrail.png" defaulttoggle="0"/>
-				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" texture="Data/TehsTrails/Markers/PinkTrail.png" defaulttoggle="0"/>
-				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" texture="Data/TehsTrails/Markers/PepegaTrail.png" defaulttoggle="0"/>
-				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" defaulttoggle="0"/>
-				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" defaulttoggle="0"/>
-				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" texture="Data/TehsTrails/Markers/GreenTrail.png" defaulttoggle="0"/>
-				<!-- CUSTOM 
-				<MarkerCategory name="mapCustom" DisplayName="Click here to select your own color!" texture="Data/TehsTrails/Markers/LightGreyTrail.png" defaulttoggle="0"/>-->
-				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" texture="Data/TehsTrails/Markers/Trail.png"/>
-			</MarkerCategory>
-
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
 		<!--=======================================================================================================================================================================-->
@@ -219,12 +184,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--==                                                                             HOOP TRAILS                                                                           ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="gr" DisplayName="Guide Rings" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/ring.png" mapVisibility="0"/>
-		
-			<!--<MarkerCategory name="ds" DisplayName="Dynamic Settings (BHUD Only)" tip-description="You must enable scripting: Pathing Settings -> Script Options -> Enable Lua Scripts" bh-defaulttoggle="0" defaulttoggle="0" inGameVisibility="0">
-				<MarkerCategory name="stomm" DisplayName="Show Trails on Minimap" tip-description="Shows all trails on the minimap (excluding heart zones)" defaulttoggle="0"/>
-				<MarkerCategory name="shzomm" DisplayName="Show Heart Zones on Minimap" tip-description="Shows all heart zones on the minimap" defaulttoggle="0"/>
-				<MarkerCategory name="shzom" DisplayName="Show Heart Zones on Map" tip-description="Shows all heart zones on the map" defaulttoggle="0"/>
-			</MarkerCategory>-->
+
 		</MarkerCategory>
 
 
@@ -242,29 +202,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="hotsep" DisplayName="     |===Heart of Thorns===|     " isseparator="1"/>
 		<MarkerCategory name="hot" DisplayName="Map Completion (WIP)">
 
-			<MarkerCategory name="ct" DisplayName="Trails">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
-				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
-			</MarkerCategory>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
@@ -370,10 +308,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	
 		<MarkerCategory name="hothpt" DisplayName="Hero Points (WIP)">
 
-			<MarkerCategory name="ct" DisplayName="Trails">
-				<MarkerCategory name="mapGR" DisplayName="Griffon Trail" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
-				<MarkerCategory name="mapB" DisplayName="Main Trail" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
-			</MarkerCategory>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
 
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
@@ -447,29 +382,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="pofsep" DisplayName="     |===Path of Fire===|     " isseparator="1"/>
 		<MarkerCategory name="pof" DisplayName="Map Completion (Coming soon!)">
 
-			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
-				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
-			</MarkerCategory>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
@@ -637,29 +550,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="eodsep" DisplayName="     |===End of Dragons===|     " isseparator="1"/>
 		<MarkerCategory name="eod" DisplayName="Map Completion">
 
-			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
-				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
-			</MarkerCategory>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
@@ -756,29 +647,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 		<MarkerCategory name="eodl" DisplayName="Lanterns" defaulttoggle="0">
-			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
-				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
-			</MarkerCategory>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
 
 			<MarkerCategory name="lantern" DisplayName="Jade Lanterns" iconFile="Data/TehsTrails/Markers/lantern.png" scaleOnMapWithZoom="0" mapDisplaySize="40" iconSize="1" fadeNear="3000" fadeFar="3500" miniMapVisibility="1" mapVisibility="1"/>
 
@@ -838,29 +707,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 		<MarkerCategory name="eodhp" DisplayName="Hero Points Only" defaulttoggle="0">
 
-			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
-				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/RedTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/LightGreyTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/OrangeTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PinkTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/PepegaTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/GreenTrail.png" trailScale="1" miniMapVisibility="0" defaulttoggle="0"/>
-				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/Trail.png" trailScale="1" miniMapVisibility="0"/>
-			</MarkerCategory>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
 
 			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
 				<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png" iconSize="0.5"/>
@@ -8282,6 +8129,15 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/3-shadow.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/waypoint-highlight2.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/GreenTrail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/GreyTrail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/LightGreyTrail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/OrangeTrail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/PepegaTrail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/PinkTrail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/RedTrail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" iconFile="Data/TehsTrails/Markers/Trail.png" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
+		
 		<!--========== SCRIPTING MARKERS ==========-->
 		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="LOnk0IuO50GIyE7kJ8Zakg==" type="tt.mc.cm.se" />
 		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="QEI9L5Q92ECHpi/qEeIfQQ==" type="tt.mc.cm.se" />
@@ -8315,611 +8171,85 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="yx+evYoC30i67RO/R5BF2g==" type="tt.mc.cm.se" />
 		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
 		<!-- Skyscale Notifier Markers -->
-		<POI MapID="29" xpos="0" ypos="-1000" zpos="0" GUID="ugk0lmHCaU6lVjY1KAec2w==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="53" xpos="0" ypos="-1000" zpos="0" GUID="hCAJU52vrEGCKhkwW926Yg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="39" xpos="0" ypos="-1000" zpos="0" GUID="oxjqtO5je0Sau9OF35lpEg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="73" xpos="0" ypos="-1000" zpos="0" GUID="mMQutX51skKd8kWrk5gxqg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="28" xpos="0" ypos="-1000" zpos="0" GUID="DgqBFSNDVEKVqYaSbIf04g==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="31" xpos="0" ypos="-1000" zpos="0" GUID="KEvk03kipk+X531F5IQgsg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="27" xpos="0" ypos="-1000" zpos="0" GUID="UPmSWrQK4Eyv4fMwskmLtw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="30" xpos="0" ypos="-1000" zpos="0" GUID="7Kcxsr97Cki2cgDU4wfIiQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="26" xpos="0" ypos="-1000" zpos="0" GUID="tLfHcSady0Wxoy1MCj82OQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="51" xpos="0" ypos="-1000" zpos="0" GUID="E1y9ksGREUi/mhSTtKMA2A==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="62" xpos="0" ypos="-1000" zpos="0" GUID="xmTq1OQ7c0K1+5peQVPLwA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="35" xpos="0" ypos="-1000" zpos="0" GUID="nYjNVZ3yoUa5CPp0AEQfuw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="65" xpos="0" ypos="-1000" zpos="0" GUID="hYStbj2ZdUensV8AHC7k6A==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="34" xpos="0" ypos="-1000" zpos="0" GUID="T74uuxEZHE+r3kL8KKu9vw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="54" xpos="0" ypos="-1000" zpos="0" GUID="eqtUNk2vDkuraV3C+WXaWQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="15" xpos="0" ypos="-1000" zpos="0" GUID="7JCFmqsmKEiYfqBbfw0tgw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="23" xpos="0" ypos="-1000" zpos="0" GUID="PIKS6O+ux0yGx+5PnxXyYw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="17" xpos="0" ypos="-1000" zpos="0" GUID="QnBKJrTr+UWFVkd9zf+qow==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="24" xpos="0" ypos="-1000" zpos="0" GUID="jAHq4Bk7GUKaXfoogYN78Q==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="19" xpos="0" ypos="-1000" zpos="0" GUID="pQfhYjSCfUihBpQ3anHr0Q==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="25" xpos="0" ypos="-1000" zpos="0" GUID="iCWxsDhzdE2HTj+W4DGGHg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="22" xpos="0" ypos="-1000" zpos="0" GUID="t22oLHWtWkOLEXx1fW7ZjA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="21" xpos="0" ypos="-1000" zpos="0" GUID="uwhfr2Ye6ka9S89v/YXWEw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="32" xpos="0" ypos="-1000" zpos="0" GUID="/t/gxyB+JkyjP/9Mq9v8ew==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="20" xpos="0" ypos="-1000" zpos="0" GUID="GyuOjd7MmkuVsVNR4ijJxw==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="91" xpos="0" ypos="-1000" zpos="0" GUID="SxAyu8ksH0irKFEtonHAFQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="139" xpos="0" ypos="-1000" zpos="0" GUID="lAtVQt2LykuCMx/Aw8eurQ==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="326" xpos="0" ypos="-1000" zpos="0" GUID="1lVaF6CH6Eu+f2g/McxQfg==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="50" xpos="0" ypos="-1000" zpos="0" GUID="3tecWn8xhUCv8hqy7nfEdA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="18" xpos="0" ypos="-1000" zpos="0" GUID="Z5OlzXCrVUycSBFglkU57g==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<POI MapID="218" xpos="0" ypos="-1000" zpos="0" GUID="rdtWWytOjEG7bq9P1G5xmA==" script-tick="Teh_Skyscale()" type="tt.mc.cm.skyscaleNotifier" />
-		<!-- DYNAMIC SETTINGS -->
-		<!--<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="l2D4EM4mIkuz4C3QWuo6hQ==" type="tt.mc.ds.stomm" />
-		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="TeoHc7G4CkaCwYuiBeGhzw==" type="tt.mc.ds.stomm" />
-		<POI MapID="39" xpos="0" ypos="0" zpos="0" GUID="M6tZduJ+b0+QZZcL0Yl94g==" type="tt.mc.ds.stomm" />
-		<POI MapID="73" xpos="0" ypos="0" zpos="0" GUID="rxWkdq59F0yEKWCdkltB+Q==" type="tt.mc.ds.stomm" />
-		<POI MapID="28" xpos="0" ypos="0" zpos="0" GUID="G17bZjodAkCNUmxpG8KeRw==" type="tt.mc.ds.stomm" />
-		<POI MapID="31" xpos="0" ypos="0" zpos="0" GUID="Vdo1vDrRXUGKaXX31f/T6A==" type="tt.mc.ds.stomm" />
-		<POI MapID="27" xpos="0" ypos="0" zpos="0" GUID="LoFLDno0AUetLhCfDkFa6g==" type="tt.mc.ds.stomm" />
-		<POI MapID="30" xpos="0" ypos="0" zpos="0" GUID="VS+9g8KcNU2sSTSSaOqTKA==" type="tt.mc.ds.stomm" />
-		<POI MapID="26" xpos="0" ypos="0" zpos="0" GUID="ldSOfMwKekWpkOtF7lltQw==" type="tt.mc.ds.stomm" />
-		<POI MapID="51" xpos="0" ypos="0" zpos="0" GUID="9kblEkBFhkiokv1ik79OOg==" type="tt.mc.ds.stomm" />
-		<POI MapID="62" xpos="0" ypos="0" zpos="0" GUID="0sxyU6jMjU6GzZAwz6UJ1A==" type="tt.mc.ds.stomm" />
-		<POI MapID="35" xpos="0" ypos="0" zpos="0" GUID="KtNbi5sOQkSpw5QWhBBFtA==" type="tt.mc.ds.stomm" />
-		<POI MapID="65" xpos="0" ypos="0" zpos="0" GUID="4jB3kkyWiUG+3HT6PUBouQ==" type="tt.mc.ds.stomm" />
-		<POI MapID="34" xpos="0" ypos="0" zpos="0" GUID="18p+WCMeBkGdZTdxFvpELg==" type="tt.mc.ds.stomm" />
-		<POI MapID="54" xpos="0" ypos="0" zpos="0" GUID="9UvZM+TV3kOD9ErwBEEQNA==" type="tt.mc.ds.stomm" />
-		<POI MapID="15" xpos="0" ypos="0" zpos="0" GUID="b6MvABmg+kayca6lHpwafQ==" type="tt.mc.ds.stomm" />
-		<POI MapID="23" xpos="0" ypos="0" zpos="0" GUID="uiyLFCaHcUCY8RnxpKSXpg==" type="tt.mc.ds.stomm" />
-		<POI MapID="17" xpos="0" ypos="0" zpos="0" GUID="BpsOExsZJkuuf9jUKtfvAg==" type="tt.mc.ds.stomm" />
-		<POI MapID="24" xpos="0" ypos="0" zpos="0" GUID="0YhrFTAgcUWtNnJ0qohNvg==" type="tt.mc.ds.stomm" />
-		<POI MapID="19" xpos="0" ypos="0" zpos="0" GUID="ao00oNum4Eq9X8EvEfqxHQ==" type="tt.mc.ds.stomm" />
-		<POI MapID="25" xpos="0" ypos="0" zpos="0" GUID="m1KEeuq+i0Cu/psOg2F40g==" type="tt.mc.ds.stomm" />
-		<POI MapID="22" xpos="0" ypos="0" zpos="0" GUID="+Dzi85DzY0iVcRlmT5fX+g==" type="tt.mc.ds.stomm" />
-		<POI MapID="21" xpos="0" ypos="0" zpos="0" GUID="m11Vy3dXS0KvQxODRdRUgg==" type="tt.mc.ds.stomm" />
-		<POI MapID="32" xpos="0" ypos="0" zpos="0" GUID="jhQW6+VuPEy2b5iaz7OKOg==" type="tt.mc.ds.stomm" />
-		<POI MapID="20" xpos="0" ypos="0" zpos="0" GUID="3UZxzmygS0uG+vWsrG6Lrg==" type="tt.mc.ds.stomm" />
-		<POI MapID="91" xpos="0" ypos="0" zpos="0" GUID="TDCIV0+2TEemTxxWAWzbGA==" type="tt.mc.ds.stomm" />
-		<POI MapID="139" xpos="0" ypos="0" zpos="0" GUID="hcjlRs/JUE6q9jhPwUSRvw==" type="tt.mc.ds.stomm" />
-		<POI MapID="326" xpos="0" ypos="0" zpos="0" GUID="JKVdnfRQ4kWXQWG9250eTA==" type="tt.mc.ds.stomm" />
-		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="8m9Cts1pVkyb5KMfudLFxA==" type="tt.mc.ds.stomm" />
-		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="wqrg8Q2feECqLcffRhvPNg==" type="tt.mc.ds.stomm" />
-		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="CZG5pLr+pEeLkAJiTghaPg==" type="tt.mc.ds.stomm" />
-		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="aEEZGSEn30e9XW6ijWsFdg==" type="tt.mc.ds.shzomm" />
-		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="qLMFiCeIMki8O/rbEhmH3g==" type="tt.mc.ds.shzomm" />
-		<POI MapID="39" xpos="0" ypos="0" zpos="0" GUID="599awIn+Ikyq6RrG0GUBIw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="73" xpos="0" ypos="0" zpos="0" GUID="zFMm2A+dek6nvFyvsTFc5g==" type="tt.mc.ds.shzomm" />
-		<POI MapID="28" xpos="0" ypos="0" zpos="0" GUID="wGneRUYK8UmKJh8ohv9fKw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="31" xpos="0" ypos="0" zpos="0" GUID="BR5zp686KECTscWPnfcYvg==" type="tt.mc.ds.shzomm" />
-		<POI MapID="27" xpos="0" ypos="0" zpos="0" GUID="hc9kYkK9pEK1vVqhExqFOQ==" type="tt.mc.ds.shzomm" />
-		<POI MapID="30" xpos="0" ypos="0" zpos="0" GUID="xRHjnIH6kE+ugSSw1P6cGw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="26" xpos="0" ypos="0" zpos="0" GUID="4+mALWhFA0SmhZGKJNYAog==" type="tt.mc.ds.shzomm" />
-		<POI MapID="51" xpos="0" ypos="0" zpos="0" GUID="oNVLzmdtDk+/4SDmavdP4g==" type="tt.mc.ds.shzomm" />
-		<POI MapID="62" xpos="0" ypos="0" zpos="0" GUID="YkOwVCJ+ikW1ic1IFDj5bg==" type="tt.mc.ds.shzomm" />
-		<POI MapID="35" xpos="0" ypos="0" zpos="0" GUID="TL3+rw3fE0GTpN0aS0SHvw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="65" xpos="0" ypos="0" zpos="0" GUID="3toPwqqR3UmDzCcyYxt5zw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="34" xpos="0" ypos="0" zpos="0" GUID="F4Ybm3rBW0e8zQ9CD6S7Yw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="54" xpos="0" ypos="0" zpos="0" GUID="ERykwPRxnkKRh0Xgw60Knw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="15" xpos="0" ypos="0" zpos="0" GUID="29uegY8KnEinzSJyGPMTdA==" type="tt.mc.ds.shzomm" />
-		<POI MapID="23" xpos="0" ypos="0" zpos="0" GUID="dxOLoIEJ7ku/k92byLt5sA==" type="tt.mc.ds.shzomm" />
-		<POI MapID="17" xpos="0" ypos="0" zpos="0" GUID="EZIsUuisAUatP21dHSCkxg==" type="tt.mc.ds.shzomm" />
-		<POI MapID="24" xpos="0" ypos="0" zpos="0" GUID="Mr28nSBR5UGRzIm7GrDYhQ==" type="tt.mc.ds.shzomm" />
-		<POI MapID="19" xpos="0" ypos="0" zpos="0" GUID="qygpZz6vIkW2ZfL4jSDPBQ==" type="tt.mc.ds.shzomm" />
-		<POI MapID="25" xpos="0" ypos="0" zpos="0" GUID="HmCeJxus2UGqbZm//RXynQ==" type="tt.mc.ds.shzomm" />
-		<POI MapID="22" xpos="0" ypos="0" zpos="0" GUID="4WyZhNvsH0iyKQ7O5e2zRg==" type="tt.mc.ds.shzomm" />
-		<POI MapID="21" xpos="0" ypos="0" zpos="0" GUID="j7WwY60W/UqHV6r/eny2tg==" type="tt.mc.ds.shzomm" />
-		<POI MapID="32" xpos="0" ypos="0" zpos="0" GUID="VtTO03yPUU2wjWnd5Gv/Jw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="20" xpos="0" ypos="0" zpos="0" GUID="Cbk/y9U4f0OYDt9ycI6wJA==" type="tt.mc.ds.shzomm" />
-		<POI MapID="91" xpos="0" ypos="0" zpos="0" GUID="cGfLyfewY0iqVgplBbix6w==" type="tt.mc.ds.shzomm" />
-		<POI MapID="139" xpos="0" ypos="0" zpos="0" GUID="S7VM5rJVek6im/vNRQkB9A==" type="tt.mc.ds.shzomm" />
-		<POI MapID="326" xpos="0" ypos="0" zpos="0" GUID="WtQkz7Gp/EuHJLKOQFEL8Q==" type="tt.mc.ds.shzomm" />
-		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="NOA6K48Yp0KvSMMtaP9XGQ==" type="tt.mc.ds.shzomm" />
-		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="aPfA26FQz06Bm8XEkXEoOw==" type="tt.mc.ds.shzomm" />
-		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="1yhxeAL7G0amMJ8Yr3Ldww==" type="tt.mc.ds.shzomm" />
-		<POI MapID="29" xpos="0" ypos="0" zpos="0" GUID="M+qlpTsg8Eqm5YK3bUpBpw==" type="tt.mc.ds.shzom" />
-		<POI MapID="53" xpos="0" ypos="0" zpos="0" GUID="47ybXYwBkUGIwi6CBbyz+A==" type="tt.mc.ds.shzom" />
-		<POI MapID="39" xpos="0" ypos="0" zpos="0" GUID="pMR2Obp0w0SuV9b+0HIHwA==" type="tt.mc.ds.shzom" />
-		<POI MapID="73" xpos="0" ypos="0" zpos="0" GUID="LLPwNSSSGU+jES9dB1nYRQ==" type="tt.mc.ds.shzom" />
-		<POI MapID="28" xpos="0" ypos="0" zpos="0" GUID="DAtIyAjNCEmS55CToFyOVA==" type="tt.mc.ds.shzom" />
-		<POI MapID="31" xpos="0" ypos="0" zpos="0" GUID="l6LBBmmuo0yJDbq+24AXuw==" type="tt.mc.ds.shzom" />
-		<POI MapID="27" xpos="0" ypos="0" zpos="0" GUID="BdugVY3ClkqohHgI6ORazg==" type="tt.mc.ds.shzom" />
-		<POI MapID="30" xpos="0" ypos="0" zpos="0" GUID="s9DcY8OmY02suqeBVw4RVw==" type="tt.mc.ds.shzom" />
-		<POI MapID="26" xpos="0" ypos="0" zpos="0" GUID="vQCMjpPWgEq8iMSfz4S0DQ==" type="tt.mc.ds.shzom" />
-		<POI MapID="51" xpos="0" ypos="0" zpos="0" GUID="xjQLZRkymEGZj8QiMcvodw==" type="tt.mc.ds.shzom" />
-		<POI MapID="62" xpos="0" ypos="0" zpos="0" GUID="b2f8Q2xUvEiwWngi07NL3g==" type="tt.mc.ds.shzom" />
-		<POI MapID="35" xpos="0" ypos="0" zpos="0" GUID="4PucR25Y5ECrvQztLsKfYg==" type="tt.mc.ds.shzom" />
-		<POI MapID="65" xpos="0" ypos="0" zpos="0" GUID="DH0mWUIPJk6R6e/4J3aQqw==" type="tt.mc.ds.shzom" />
-		<POI MapID="34" xpos="0" ypos="0" zpos="0" GUID="J5B1GxU3rE2LbAdtus3JZA==" type="tt.mc.ds.shzom" />
-		<POI MapID="54" xpos="0" ypos="0" zpos="0" GUID="QtyVtxrJ8UieqZtKUY4VSw==" type="tt.mc.ds.shzom" />
-		<POI MapID="15" xpos="0" ypos="0" zpos="0" GUID="HDvpVzlE5E2cLPuAYk9ITA==" type="tt.mc.ds.shzom" />
-		<POI MapID="23" xpos="0" ypos="0" zpos="0" GUID="8CxRynITjEuHNL/DFAFmQg==" type="tt.mc.ds.shzom" />
-		<POI MapID="17" xpos="0" ypos="0" zpos="0" GUID="okCigndg0k6vohvr/Gc3CA==" type="tt.mc.ds.shzom" />
-		<POI MapID="24" xpos="0" ypos="0" zpos="0" GUID="0H+EvpHPHEy+NrVF9IAZUQ==" type="tt.mc.ds.shzom" />
-		<POI MapID="19" xpos="0" ypos="0" zpos="0" GUID="J6uafgPcRk2UFeG71acIlQ==" type="tt.mc.ds.shzom" />
-		<POI MapID="25" xpos="0" ypos="0" zpos="0" GUID="Z2ZdBwVk9km+4cjLy7bYxw==" type="tt.mc.ds.shzom" />
-		<POI MapID="22" xpos="0" ypos="0" zpos="0" GUID="U1uhyeExzkm8I2CsMF68uQ==" type="tt.mc.ds.shzom" />
-		<POI MapID="21" xpos="0" ypos="0" zpos="0" GUID="hbNCNuL8fUeXBNxn9Y/fzg==" type="tt.mc.ds.shzom" />
-		<POI MapID="32" xpos="0" ypos="0" zpos="0" GUID="N4EDdMUHJUCPDJA3Y/Kg/A==" type="tt.mc.ds.shzom" />
-		<POI MapID="20" xpos="0" ypos="0" zpos="0" GUID="KBaP8HXldkWwg/XMJPIIqQ==" type="tt.mc.ds.shzom" />
-		<POI MapID="91" xpos="0" ypos="0" zpos="0" GUID="lhaVhw2Hnkal2UwXwO97mQ==" type="tt.mc.ds.shzom" />
-		<POI MapID="139" xpos="0" ypos="0" zpos="0" GUID="dRiCZ44u20iWviLGlq6Tkg==" type="tt.mc.ds.shzom" />
-		<POI MapID="326" xpos="0" ypos="0" zpos="0" GUID="hXK2xddBE0qQ9JmOMcu/gw==" type="tt.mc.ds.shzom" />
-		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="vClvm0zhk02Ni3PCNDi81Q==" type="tt.mc.ds.shzom" />
-		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="bPeFUq4WU0Kp9slk26MS+g==" type="tt.mc.ds.shzom" />
-		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="CaHIqa5kFEm8gfoCMJnN5g==" type="tt.mc.ds.shzom" />-->
+		<POI MapID="29" xpos="0" ypos="-1000" zpos="0" GUID="ugk0lmHCaU6lVjY1KAec2w==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="53" xpos="0" ypos="-1000" zpos="0" GUID="hCAJU52vrEGCKhkwW926Yg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="39" xpos="0" ypos="-1000" zpos="0" GUID="oxjqtO5je0Sau9OF35lpEg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="73" xpos="0" ypos="-1000" zpos="0" GUID="mMQutX51skKd8kWrk5gxqg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="28" xpos="0" ypos="-1000" zpos="0" GUID="DgqBFSNDVEKVqYaSbIf04g==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="31" xpos="0" ypos="-1000" zpos="0" GUID="KEvk03kipk+X531F5IQgsg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="27" xpos="0" ypos="-1000" zpos="0" GUID="UPmSWrQK4Eyv4fMwskmLtw==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="30" xpos="0" ypos="-1000" zpos="0" GUID="7Kcxsr97Cki2cgDU4wfIiQ==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="26" xpos="0" ypos="-1000" zpos="0" GUID="tLfHcSady0Wxoy1MCj82OQ==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="51" xpos="0" ypos="-1000" zpos="0" GUID="E1y9ksGREUi/mhSTtKMA2A==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="62" xpos="0" ypos="-1000" zpos="0" GUID="xmTq1OQ7c0K1+5peQVPLwA==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="35" xpos="0" ypos="-1000" zpos="0" GUID="nYjNVZ3yoUa5CPp0AEQfuw==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="65" xpos="0" ypos="-1000" zpos="0" GUID="hYStbj2ZdUensV8AHC7k6A==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="34" xpos="0" ypos="-1000" zpos="0" GUID="T74uuxEZHE+r3kL8KKu9vw==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="54" xpos="0" ypos="-1000" zpos="0" GUID="eqtUNk2vDkuraV3C+WXaWQ==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="15" xpos="0" ypos="-1000" zpos="0" GUID="7JCFmqsmKEiYfqBbfw0tgw==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="23" xpos="0" ypos="-1000" zpos="0" GUID="PIKS6O+ux0yGx+5PnxXyYw==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="17" xpos="0" ypos="-1000" zpos="0" GUID="QnBKJrTr+UWFVkd9zf+qow==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="24" xpos="0" ypos="-1000" zpos="0" GUID="jAHq4Bk7GUKaXfoogYN78Q==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="19" xpos="0" ypos="-1000" zpos="0" GUID="pQfhYjSCfUihBpQ3anHr0Q==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="25" xpos="0" ypos="-1000" zpos="0" GUID="iCWxsDhzdE2HTj+W4DGGHg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="22" xpos="0" ypos="-1000" zpos="0" GUID="t22oLHWtWkOLEXx1fW7ZjA==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="21" xpos="0" ypos="-1000" zpos="0" GUID="uwhfr2Ye6ka9S89v/YXWEw==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="32" xpos="0" ypos="-1000" zpos="0" GUID="/t/gxyB+JkyjP/9Mq9v8ew==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="20" xpos="0" ypos="-1000" zpos="0" GUID="GyuOjd7MmkuVsVNR4ijJxw==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="91" xpos="0" ypos="-1000" zpos="0" GUID="SxAyu8ksH0irKFEtonHAFQ==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="139" xpos="0" ypos="-1000" zpos="0" GUID="lAtVQt2LykuCMx/Aw8eurQ==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="326" xpos="0" ypos="-1000" zpos="0" GUID="1lVaF6CH6Eu+f2g/McxQfg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="50" xpos="0" ypos="-1000" zpos="0" GUID="3tecWn8xhUCv8hqy7nfEdA==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="18" xpos="0" ypos="-1000" zpos="0" GUID="Z5OlzXCrVUycSBFglkU57g==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
+		<POI MapID="218" xpos="0" ypos="-1000" zpos="0" GUID="rdtWWytOjEG7bq9P1G5xmA==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                              TRAIL DATA                                                                           ==-->
 		<!--=======================================================================================================================================================================-->
-		
-		
-		<!--========== MAIN COLORED TRAILS ==========-->
 
-		<!-- CUSTOM COLOR TRAILS 
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" />
-		<Trail type="tt.mc.ct.mapCustom" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl" GUID="hLFbEBvADEyK1LMNZDW6Fg==" /> -->
-		<!-- GREY TRAILS -->
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- LIGHT GREY TRAILS -->
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl" GUID="hLFbEBvADEyK1LMNZDW6Fa=="/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapLG" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- ORANGE TRAILS -->
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapO" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- PINK TRAILS -->
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- PEPEGA TRAILS -->
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapPe" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- DARK BLUE TRAILS -->
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapDB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- RED TRAILS -->
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- DARK PURPLE TRAILS -->
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapDP" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-		<!-- GREEN TRAILS -->
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapGR" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
-
-		<!-- BLUE TRAILS (PRIORITY) -->
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.ct.mapB" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
+		<!-- COMPLETION TRAILS -->
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlazeridgeSteppes.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DiessaPlateau.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FieldsofRuin.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FireheartRise.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/IronMarches.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/PlainsofAshford.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadel.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance1.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance2.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance3.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BlackCitadelInstance4.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Hoelbrak.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance1.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance2.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HoelbrakInstance3.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSum.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance1.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance2.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/RataSumInstance3.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGrove.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TheGroveInstance1.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DivinitysReach.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LionsArch.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/GendarranFields.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/HarathiHinterlands.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/KessexHills.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/Queensdale.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MetricaProvince.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/CursedShore.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MalchorsLeap.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/StraitsofDevastation.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/FrostgorgeSound.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/LornarsPass.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SnowdenDrifts.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/WayfarerFoothills.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/BloodtideCoast.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/MountMaelstrom.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/SparkflyFen.trl"/>
+		<Trail type="tt.mc.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
 
 		<!-- HP TRAILS -->
 		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/BlazeridgeSteppes.trl"/>
@@ -8964,26 +8294,26 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/MetricaProvinceHeartTrails.trl"/>
        
 		<!-- HEART ZONES -->
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/BlazeridgeSteppesHeartZones.trl"/>
-        <Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/BloodtideCoastHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/DiessaPlateauHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/FieldsofRuinHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/FireheartRiseHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/IronMarchesHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/PlainsofAshfordHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/KessexHillsHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/QueensdaleHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/BrisbanWildlandsHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/CaledonForestHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/DredgehauntCliffsHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/FrostgorgeSoundHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/LornarsPassHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/SnowdenDriftsHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/WayfarerFoothillsHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/TimberlineFallsHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/GendarranFieldsHeartZones.trl"/>
-		<Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/HarathiHinterlandsHeartZones.trl"/>
-        <Trail type="tt.mc.h.hz" trailData="Data/TehsTrails/TyriaTrails/heartzones/SparkflyFenHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/BlazeridgeSteppesHeartZones.trl"/>
+        <Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/BloodtideCoastHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/DiessaPlateauHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/FieldsofRuinHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/FireheartRiseHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/IronMarchesHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/PlainsofAshfordHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/KessexHillsHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/QueensdaleHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/BrisbanWildlandsHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/CaledonForestHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/DredgehauntCliffsHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/FrostgorgeSoundHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/LornarsPassHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/SnowdenDriftsHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/WayfarerFoothillsHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/TimberlineFallsHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/GendarranFieldsHeartZones.trl"/>
+		<Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/HarathiHinterlandsHeartZones.trl"/>
+        <Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/SparkflyFenHeartZones.trl"/>
 
 		<!-- TRAILS OF SHAME -->
         <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BlackCitadelTrailOfShame.trl"/>
@@ -9248,11 +8578,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="1165" xpos="-249.639" ypos="90.8816" zpos="-23.3636" type="tt.mc.cm.nwm.tpm" GUID="Ey/hO+4tc0mfMkDJdn6l8Q==" script-focus="Teh_Highlight_Waypoint(omEdN4k14kaRoRoI3rgyHw==)" />
         
 	<!--TRAILS-->
-		<Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HoTMCTrails/VB.trl"/>
+		<Trail type="tt.hot.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTMCTrails/VB.trl"/>
 		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HoTMCTrails/VB_hp.trl"/>
-		<Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HoTMCTrails/AB.trl"/>
+		<Trail type="tt.hot.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTMCTrails/AB.trl"/>
 		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HoTMCTrails/AB_hp.trl"/>
-        <Trail type="tt.hot.ct.mapB" trailData="Data/TehsTrails/HoTMCTrails/BloodstoneFen.trl"/>
+        <Trail type="tt.hot.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTMCTrails/BloodstoneFen.trl"/>
 
 
 
@@ -9387,11 +8717,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 	<!--HEART OF THORNS TRAILS-->
-		<Trail type="tt.hothpt.ct.mapB" trailData="Data/TehsTrails/HoTHPTrails/VerdantBrink.trl"/>
+		<Trail type="tt.hothpt.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTHPTrails/VerdantBrink.trl"/>
 		<Trail type="tt.hothpt.ct.mapGR" trailData="Data/TehsTrails/HoTHPTrails/VerdantBrinkGriffTrail.trl"/>
-		<Trail type="tt.hothpt.ct.mapB" trailData="Data/TehsTrails/HoTHPTrails/AuricBasin.trl"/>
+		<Trail type="tt.hothpt.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTHPTrails/AuricBasin.trl"/>
 		<Trail type="tt.hothpt.ct.mapGR" trailData="Data/TehsTrails/HoTHPTrails/AuricBasinGriffTrail.trl"/>
-		<Trail type="tt.hothpt.ct.mapB" trailData="Data/TehsTrails/HoTHPTrails/TangledDepths.trl"/>
+		<Trail type="tt.hothpt.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTHPTrails/TangledDepths.trl"/>
 
 
 
@@ -9479,15 +8809,15 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	
 	
 	<!--PATH OF FIRE TRAILS-->
-		<Trail type="tt.pofhpt.ct.mapB" trailData="Data/TehsTrails/PoFHPTrails/CrystalOasis.trl"/>
+		<Trail type="tt.pofhpt.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/PoFHPTrails/CrystalOasis.trl"/>
 		<Trail type="tt.pofhpt.ct.mapGR" trailData="Data/TehsTrails/PoFHPTrails/CrystalOasisGriffonTrail.trl"/>
 		<Trail type="tt.pofhpt.ct.mapG" trailData="Data/TehsTrails/PoFHPTrails/COtoER.trl"/>
-		<Trail type="tt.pofhpt.ct.mapB" trailData="Data/TehsTrails/PoFHPTrails/DesertHighlands.trl"/>
+		<Trail type="tt.pofhpt.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/PoFHPTrails/DesertHighlands.trl"/>
 		<Trail type="tt.pofhpt.ct.mapGR" trailData="Data/TehsTrails/PoFHPTrails/DesertHighlandsGriffonTrail.trl"/>
 		<Trail type="tt.pofhpt.ct.mapR" trailData="Data/TehsTrails/PoFHPTrails/DesertHighlandsRaptorTrail.trl"/>
-		<Trail type="tt.pofhpt.ct.mapB" trailData="Data/TehsTrails/PoFHPTrails/ElonRiverlands.trl"/>
+		<Trail type="tt.pofhpt.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/PoFHPTrails/ElonRiverlands.trl"/>
 		<Trail type="tt.pofhpt.ct.mapR" trailData="Data/TehsTrails/PoFHPTrails/ElonRiverlandsRaptorTrail.trl"/>
-		<Trail type="tt.pofhpt.ct.mapB" trailData="Data/TehsTrails/PoFHPTrails/TheDesolation.trl"/>
+		<Trail type="tt.pofhpt.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/PoFHPTrails/TheDesolation.trl"/>
 		<Trail type="tt.pofhpt.ct.mapGR" trailData="Data/TehsTrails/PoFHPTrails/TheDesolationGriffonTrail.trl"/>
 		<Trail type="tt.pofhpt.ct.mapR" trailData="Data/TehsTrails/PoFHPTrails/TheDesolationRaptorTrail.trl"/>
 
@@ -9999,56 +9329,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1428" xpos="-817.376" ypos="2.12448" zpos="521.234" type="tt.eod.cm.rm.start" info="TehsTrails Map Comp starts here and goes NKC -> SP -> TEW -> DE. Good luck!" infoRange="30.0" GUID="dV0/NkfpV06Shilx5gLjIA=="/>
 		<POI MapID="1428" xpos="-826.531" ypos="2.02353" zpos="527.419" type="tt.eod.cm.mm.beetle" GUID="cQUbbxoe40SZ8KIQgvTvRg=="/>	
 	<!--END OF DRAGONS TRAILS-->
-		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapR" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapG" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapO" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapP" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
-		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
-		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
-		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
-		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
-		<Trail type="tt.eod.ct.mapB" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
+		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/SP.trl"/>
+		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/NKC.trl"/>
+		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/TEW.trl"/>
+		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
+		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.h.hz" trailData="Data/TehsTrails/EoDTrails/SPHeartZones.trl"/>
 
 	<!--=======================================================================================================================================================================-->	
@@ -10589,47 +9874,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1422" xpos="41.2942" ypos="162.18" zpos="-120.424" type="tt.eodl.lantern" achievementId="6369" achievementBit="4" GUID="0k4RXWU5nUmIp3gt7eB5ow=="/>
 		<POI MapID="1422" xpos="113.48" ypos="161.843" zpos="-110.475" type="tt.eodl.lantern" achievementId="6369" achievementBit="10" GUID="IO7ME3F6IkGMEp70kytAqw=="/>
 		<POI MapID="1422" xpos="-12.5507" ypos="170.236" zpos="-46.5511" type="tt.eodl.lantern" achievementId="6369" achievementBit="29" GUID="PhpUbcRXqkSIXKmr/ly1Sg=="/>
-	<!--LANTERN TRAILS-->
-		<Trail type="tt.eodl.ct.mapR" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapR" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapR" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapR" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapG" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapG" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapG" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapG" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapO" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapO" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapO" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapO" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapP" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapP" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapP" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapP" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>		
-		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
-		<Trail type="tt.eodl.ct.mapB" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
+	<!--LANTERN TRAILS-->		
+		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/NKCLanterns.trl"/>
+		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
+		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
+		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
 		
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                       END OF DRAGONS HERO POINTS                                                                  ==-->
@@ -10706,55 +9955,10 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1428" xpos="-817.805" ypos="2.11994" zpos="521.432" type="tt.eodhp.rm.start" GUID="ZI7FgNViLkOOgUuuqlEgvA=="/>
 		<POI MapID="1428" xpos="-831.778" ypos="1.96808" zpos="531.504" type="tt.eodhp.mm.beetle" GUID="ce6VPxgSL0yytSwws/y+Vg=="/>
 	<!--Hero Point Trails-->
-		<Trail type="tt.eodhp.ct.mapR" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapR" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapR" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapR" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapR" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapG" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapG" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapG" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapG" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapG" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapLG" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapO" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapO" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapO" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapO" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapO" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapP" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapP" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapP" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapP" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapP" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapPe" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDP" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapDB" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapGR" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapB" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapB" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapB" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapB" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
-		<Trail type="tt.eodhp.ct.mapB" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
+		<Trail type="tt.eodhp.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/SPHP.trl"/>
+		<Trail type="tt.eodhp.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/NKCHP.trl"/>
+		<Trail type="tt.eodhp.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/TEWHP.trl"/>
+		<Trail type="tt.eodhp.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/DEHP.trl"/>
+		<Trail type="tt.eodhp.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/ASHP.trl"/>
 	</POIs>
 </OverlayData>

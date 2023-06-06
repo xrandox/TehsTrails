@@ -1,71 +1,99 @@
-Teh.menu ={
-    colors = {
-        -- name, texturePath, menu reference
-        {"Red", "Data/TehsTrails/Markers/RedTrail.png", nil},
-        {"Grey", "Data/TehsTrails/Markers/GreyTrail.png", nil},
-        {"Light Grey", "Data/TehsTrails/Markers/LightGreyTrail.png", nil},
-        {"Orange", "Data/TehsTrails/Markers/OrangeTrail.png", nil},
-        {"Pink", "Data/TehsTrails/Markers/PinkTrail.png", nil},
-        {"Dark Purple", "Data/TehsTrails/Markers/DarkPurpleTrail.png", nil},
-        {"Dark Blue", "Data/TehsTrails/Markers/DarkBlueTrail.png", nil},
-        {"Green", "Data/TehsTrails/Markers/GreenTrail.png", nil},
-        {"Blue", "Data/TehsTrails/Markers/Trail.png", nil}
-    }
-}
+-- Click Functions
 
-Debug:Watch("Menu", Teh.menu)
-
-local function nothing() end
-
-local function changeColor(name, texturePath)
-    -- Uncheck all other colors
-    for index, value in ipairs(Teh.menu.colors) do
-        if (value[1] ~= name) then
+local function newColor(menu)
+    -- clear any other checked boxes
+    for index, value in ipairs(Teh.trailcolors.colors) do
+        if (value[1] ~= menu.Name) then
+            Debug:Print("Supposedly set " .. value[1] .. " to false")
             value[3].Checked = false
+        else
+            value[3].Checked = true
         end
     end
 
-    -- Change the actual trail color
-    local allTrails = World:CategoryByType("tt.mc.ct.mapB"):GetMarkers()
-    for key, value in pairs(allTrails) do
-        value:SetTexture(texturePath)
-    end
-    saveValue("trailColor", name)
+    -- change the color
+    Teh_ChangeColor(menu.Name)
 end
 
-function Teh_Create_Menu()
-    local mainMenu = Menu:Add("Tehs Trails", nothing())
-
-    -- Color menu
-    local currentColor = "Blue"
-
-    local colorMenu = mainMenu:Add("Select Trail Color", nothing())
-
-    for i, value in ipairs(Teh.trailcolors.colors) do
-
-        local checked = false
-        local name = value[1]
-        local texturePath = value[2]
-
-        if (currentColor == name) then
-            checked = true
-        end
-
-        -- Add in color switch function here
-        Teh.menu.colors[i][3] = colorMenu:Add(name, changeColor(name, texturePath), true, checked)
-    end
-
-    -- Heart follower menu
-    local heartFollower = mainMenu:Add("Enable Heart Info Followers", nothing(), true)
-    heartFollower:Add("Enable Visible Heart Pointer", nothing(), true)
-
-    -- Other script toggles
-    mainMenu:Add("Enable Waypoint Highlights", nothing(), true)
-    mainMenu:Add("Enable Bouncing Route Markers", nothing(), true)
-    mainMenu:Add("Toggle Trails on Minimap", nothing(), true)
-
-    -- Script reset
-    mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", nothing())
+local function startingPointMarkers(menu)
+    Teh_Toggle_Storage("globalMarkersToggled")
+    menu.Checked = Teh_Is_True("globalMarkersToggled")
+    Teh_ToggleGlobalMarker()
 end
 
-Teh_Create_Menu()
+local function minimapTrails(menu)
+    Teh_Toggle_Storage("minimapToggled")
+    menu.Checked = Teh_Is_True("minimapToggled")
+    Teh_SetMinimapVisibility()
+end
+
+local function mapZones(menu)
+    Teh_Toggle_Storage("heartZonesOnMap")
+    menu.Checked = Teh_Is_True("heartZonesOnMap")
+    Teh_SetHeartZoneMapVisibility()
+end
+
+local function minimapZones(menu)
+    Teh_Toggle_Storage("heartZonesOnMinimap")
+    menu.Checked = Teh_Is_True("heartZonesOnMinimap")
+    Teh_SetHeartZoneMinimapVisibility()
+end
+
+local function heartFollower(menu)
+    Teh_Toggle_Storage("followerInfoToggled")
+    menu.Checked = Teh_Is_True("followerInfoToggled")
+end
+
+local function heartPointer(menu)
+    Teh_Toggle_Storage("followerVisibleToggled")
+    menu.Checked = Teh_Is_True("followerVisibleToggled")
+end
+
+local function waypointHighlight(menu)
+    Teh_Toggle_Storage("highlightToggled")
+    menu.Checked = Teh_Is_True("highlightToggled")
+end
+
+local function routeMarkerHighlight(menu)
+    Teh_Toggle_Storage("bounceToggled")
+    menu.Checked = Teh_Is_True("bounceToggled")
+end
+
+local function resetClicked(menu)
+    Teh_Reset_Scripts()
+end
+
+-- Creating Menu
+local mainMenu = Menu:Add("Tehs Trails", nil)
+
+-- Color menu
+local colorMenu = mainMenu:Add("Select Trail Color", nil)
+
+for i, value in ipairs(Teh.trailcolors.colors) do
+    local name = value[1]
+    local checked = false
+    if (name == Teh.storage.trailColor) then
+        checked = true
+    end
+    Teh.trailcolors.colors[i][3] = colorMenu:Add(name, newColor, true, checked)
+end
+
+mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_Is_True("globalMarkersToggled"))
+
+-- Map menu
+local mapOptionMenu = mainMenu:Add("Map Visibility Options", nil)
+mapOptionMenu:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_Is_True("minimapToggled"))
+mapOptionMenu:Add("Show Heart Zones on Map", mapZones, true, Teh_Is_True("heartZonesOnMap"))
+mapOptionMenu:Add("Show Heart Zones on Minimap", minimapZones, true, Teh_Is_True("heartZonesOnMinimap"))
+
+-- Heart follower menu
+local heartFollowerMenu = mainMenu:Add("Heart Follower Options", nil)
+heartFollowerMenu:Add("Enable Heart Info Following", heartFollower, true, Teh_Is_True("followerInfoToggled"))
+heartFollowerMenu:Add("Enable Visible Heart Pointer", heartPointer, true, Teh_Is_True("followerVisibleToggled"))
+
+-- Other options
+mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_Is_True("highlightToggled"))
+mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_Is_True("bounceToggled"))
+
+-- Script reset
+mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked)

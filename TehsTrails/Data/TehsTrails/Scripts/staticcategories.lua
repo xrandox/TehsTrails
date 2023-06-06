@@ -30,11 +30,7 @@ Teh.static = {
             "tt.credits.k"
         },
         core = {
-            "tt.s.ehif.evhp",
-            "tt.s.ehif",
-            "tt.s.ermb",
-            "tt.s.ewh",
-            "tt.s.tgsp"
+
         },
         eod = {
 

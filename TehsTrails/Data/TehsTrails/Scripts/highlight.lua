@@ -42,7 +42,7 @@ end
 
 --Sets the given marker GUID as the current waypoint and highlights it
 function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
-    if (not Teh.highlight.category:IsVisible()) then return end
+    if (Teh.storage.highlightToggled == "false") then return end
 
     local waypoint = World:MarkerByGuid(markerguid)
 
@@ -73,7 +73,7 @@ end
 
 --Grows or shrinks the highlight on the map
 function Teh_Tick_Highlight(gameTime)
-    if (not Teh.highlight.category:IsVisible()) then
+    if (Teh.storage.highlightToggled == "false") then
         Teh_Highlight_Reset()
         return
     end
