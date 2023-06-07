@@ -30,7 +30,7 @@ end
 -- Checks if the 
 function Teh_VersionCheck()
     if (PathingVersion == nil) then
-        createAlert("< 1.2.1")
+        createAlert("<1.2.1")
         return false
     end
 
