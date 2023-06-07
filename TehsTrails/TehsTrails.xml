@@ -4329,7 +4329,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="34" xpos="52.6281" ypos="18.3444" zpos="-646.402" type="tt.mc.h.chm.interact" GUID="+31KiVw1UUCosFAGYBwk4g==" />
         <POI MapID="34" xpos="97.4732" ypos="3.25956" zpos="-685.677" type="tt.mc.h.chm.start_heart" GUID="qtH0aE52D0+lN7oLJVkCiw==" info="Interact with hands and territory markers, Kill Risen" script-focus="Teh_HeartFollower(5wYkcOMcdUuRG5Re6+kmRA==)" />
         <POI MapID="34" xpos="67.4971" ypos="10.498" zpos="-682.821" type="tt.mc.h.chm.interact" GUID="nAkPwGGz7UKY7VDksWVH2Q==" />
-        <POI MapID="34" xpos="68.9518" ypos="61.6967" zpos="486.768" type="tt.mc.cm.rm.points_of_interest" GUID="ypCqKG8Ny0aPQ1VGoGAy2w==" />
+        <POI MapID="34" xpos="71.9518" ypos="62.5967" zpos="498.368" type="tt.mc.cm.rm.points_of_interest" GUID="ypCqKG8Ny0aPQ1VGoGAy2w==" />
         <POI MapID="34" xpos="78.718" ypos="5.24358" zpos="-704.664" type="tt.mc.h.chm.interact" GUID="YolxyXHbhUqD8MYwcxiZkA==" />
         <POI MapID="34" xpos="95.3393" ypos="3.45258" zpos="-705.228" type="tt.mc.h.chm.interact" GUID="ACN8WhW5mkWMcgcEOD3cIw==" />
         <POI MapID="34" xpos="106.113" ypos="9.75568" zpos="-958.461" type="tt.mc.h.chm.start_heart" GUID="UOjMaOyDcU+FoUWSbFTSVQ==" info="Talk to pups and lost hounds (1), kill mosquitoes" script-focus="Teh_HeartFollower(sKyhauEzLkqmWCA59dCtyw==)" />
@@ -4443,7 +4443,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="34" xpos="-165.984" ypos="23.129" zpos="229.275" type="tt.mc.cm.mm.springer" GUID="OnrpP81CYEqZB+uMOt1G7w==" />
         <POI MapID="34" xpos="-166.188" ypos="23.9981" zpos="241.25" type="tt.mc.h.chm.interact" GUID="jI3PX6svHkKVcDONorw1Yw==" />
         <POI MapID="34" xpos="-166.318" ypos="23.4297" zpos="233.064" type="tt.mc.h.chm.interact" GUID="xZ8Dx8+dZEWZmtgvQF9Vmg==" />
-        <POI MapID="34" xpos="-167.053" ypos="69.2759" zpos="450.158" type="tt.mc.cm.mm.griffon" GUID="5BygN45FqkKDrlKZnq2uNg==" />
         <POI MapID="34" xpos="-172.981" ypos="48.7378" zpos="232.936" type="tt.mc.h.chm.finish_heart" GUID="2cPWmmf3MUiQEVYS94EeUA==" />
         <POI MapID="34" xpos="-172.849" ypos="6.18182" zpos="-1011.12" type="tt.mc.cm.rm.start" GUID="CTp8ejWdWEqKqzjN60J79A==" />
         <POI MapID="34" xpos="-171.504" ypos="21.9157" zpos="299.478" type="tt.mc.h.chm.interact" GUID="YS21eOyljU6tFtx11UrRgA==" />
@@ -4464,7 +4463,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="34" xpos="-218.815" ypos="-0.463405" zpos="-978.685" type="tt.mc.h.chm.interact" GUID="wQkQodz2OUaFIG2e6povWQ==" />
         <POI MapID="34" xpos="-218.463" ypos="0.990656" zpos="-963.02" type="tt.mc.cm.rm.points_of_interest" GUID="eU+iSmYYHk6d6kT9o8lLxQ==" />
         <POI MapID="34" xpos="-217.775" ypos="-0.353177" zpos="-1009.94" type="tt.mc.h.chm.interact" GUID="Ek2l0j9wIEOCf9A3vSWypg==" />
-        <POI MapID="34" xpos="-219.828" ypos="55.6548" zpos="442.527" type="tt.mc.cm.rm.waypoints" GUID="Sq/dey+76kqNlY86YNv8AA==" />
+        <POI MapID="34" xpos="-211.828" ypos="55.6548" zpos="465.527" type="tt.mc.cm.rm.waypoints" GUID="Sq/dey+76kqNlY86YNv8AA==" />
         <POI MapID="34" xpos="-218.921" ypos="31.8724" zpos="-699.486" type="tt.mc.cm.rm.waypoints" GUID="+oS3+Dz8NkWm57oMgWDbMw==" />
         <POI MapID="34" xpos="-220.701" ypos="-0.356826" zpos="-947.048" type="tt.mc.h.chm.interact" GUID="yV8jDXaGSEym8Yiyxg7Tmw==" />
         <POI MapID="34" xpos="-246.752" ypos="27.062" zpos="-663.846" type="tt.mc.h.chm.finish_heart" GUID="WJ2xyjzTpUOOtaMjuWJMgQ==" />
@@ -4586,7 +4585,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="34" xpos="422.007" ypos="0.474886" zpos="-86.345" type="tt.mc.cm.mm.raptor" GUID="G6JieNxpkkKQDutOYXvj+g==" />
         <POI MapID="34" xpos="-224.257" ypos="53.2486" zpos="465.189" type="tt.mc.cm.rm.bondoffaith" GUID="87+u9UUugUS2n+dC1zrWNA==" />
         <POI MapID="34" xpos="-192.918" ypos="54.948" zpos="467.23" type="tt.mc.cm.mm.skyscale" GUID="oU47hFyYUEOp1XY2wRPhhg==" />
-        <POI MapID="34" xpos="-113.157" ypos="50.9998" zpos="459.571" type="tt.mc.cm.mm.beetle" GUID="K3p15a2UCU6GCXvHUUZRYA==" />
+        <POI MapID="34" xpos="-147.157" ypos="55.9998" zpos="454.571" type="tt.mc.cm.mm.beetle" GUID="K3p15a2UCU6GCXvHUUZRYA==" />
         <POI MapID="34" xpos="169.371" ypos="32.9409" zpos="448.302" type="tt.mc.cm.mm.griffon" GUID="vXX70Irh70y14utbdt4O8A==" />
         <POI MapID="34" xpos="370.567" ypos="13.4292" zpos="254.163" type="tt.mc.cm.mm.raptor" GUID="A1dFNt/JZUmEd/QgPXJU4Q==" />
         <POI MapID="34" xpos="264.617" ypos="-0.25763" zpos="474.614" type="tt.mc.cm.mm.beetle" GUID="GEwWv9YLS0SZqYQRWDBKlA==" />
