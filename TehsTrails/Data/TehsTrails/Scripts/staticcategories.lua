@@ -1,5 +1,4 @@
 Teh.static = {
-    ran = false,
     -- List of the map ID's we have markers on in, split by area
     maps = {
         core = { 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 39, 50, 51, 53, 54, 62, 65, 73, 91, 139, 218, 326 },
@@ -46,9 +45,11 @@ Teh.static = {
 
 Debug:Watch("static", Teh.static)
 
+local mapID = Mumble.CurrentMap.Id
+
 -- Returns true if a map ID is in the table of ID's
 local function mapIsIn(table, val)
-    for i, v in ipairs(table) do
+    for _, v in ipairs(table) do
         if (v == val) then
             return true
         end
@@ -71,38 +72,34 @@ local function markerFromTable (table)
     }
 
     -- For each category, create a marker with that type
-    for i, category in ipairs(table) do
+    for _, category in ipairs(table) do
         attributes.type = category
         Pack:CreateMarker(attributes)
     end
 end
 
--- Creates markers from the respective categories if the current mapID is in the table
-function Teh_Static_Categories(mapID)
-    local maps = Teh.static.maps
-    local categories = Teh.static.categories
+-- Create markers from the respective categories if the current mapID is in the table
 
-    -- Core maps
-    if (mapIsIn(maps.core, mapID)) then
-        markerFromTable(categories.core)
-        markerFromTable(categories.all)
+local maps = Teh.static.maps
+local categories = Teh.static.categories
 
-    -- EoD maps
-    elseif (mapIsIn(maps.eod, mapID)) then
-        markerFromTable(categories.eod)
-        markerFromTable(categories.all)
+-- Core maps
+if (mapIsIn(maps.core, mapID)) then
+    markerFromTable(categories.core)
+    markerFromTable(categories.all)
 
-    -- HoT maps
-    elseif (mapIsIn(maps.hot, mapID)) then
-        markerFromTable(categories.hot)
-        markerFromTable(categories.all)
+-- EoD maps
+elseif (mapIsIn(maps.eod, mapID)) then
+    markerFromTable(categories.eod)
+    markerFromTable(categories.all)
 
-    -- PoF maps
-    elseif (mapIsIn(maps.pof, mapID)) then
-        markerFromTable(categories.pof)
-        markerFromTable(categories.all)
+-- HoT maps
+elseif (mapIsIn(maps.hot, mapID)) then
+    markerFromTable(categories.hot)
+    markerFromTable(categories.all)
 
-    end
-
-    Teh.static.ran = true
+-- PoF maps
+elseif (mapIsIn(maps.pof, mapID)) then
+    markerFromTable(categories.pof)
+    markerFromTable(categories.all)
 end

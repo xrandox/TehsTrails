@@ -11,8 +11,12 @@ Teh.highlight = {
 }
 
 Debug:Watch("highlight", Teh.highlight)
+local default = Teh.highlight
+local MAX_SIZE = 200
+local MIN_SIZE = 100
 
-function Teh_Highlight_Reset()
+-- Resets the highlight
+function Teh_HighlightReset()
     local waypoint = Teh.highlight.currentWaypoint
     waypoint.MapVisibility = false
     waypoint.MiniMapVisibility = false
@@ -23,32 +27,18 @@ function Teh_Highlight_Reset()
         Teh.highlight.optionalWaypoint.TriggerRange = 0
     end
     Teh.highlight.currentTeleport.TriggerRange = 15
-    Teh.highlight.currentTeleport = nil
-    Teh.highlight.waypointHighlighted = false
-    Teh.highlight.secondaryTarget = nil
-    Teh.highlight.optionalWaypoint = nil
-end
-
-function Teh_Highlight_Waypoint_2(marker, isfocused, markerguid, secondaryTarget)
-    Teh.highlight.secondaryTarget = World:MarkerByGuid(secondaryTarget)
-    Teh_Highlight_Waypoint(marker, isfocused, markerguid)
-end
-
-function Teh_Highlight_Waypoint_3(marker, isfocused, markerguid, optionalWaypoint)
-    Teh.highlight.optionalWaypoint = World:MarkerByGuid(optionalWaypoint)
-    Teh.highlight.secondaryTarget = Teh.highlight.optionalWaypoint
-    Teh_Highlight_Waypoint(marker, isfocused, markerguid)
+    Teh.highlight = default
 end
 
 --Sets the given marker GUID as the current waypoint and highlights it
-function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
-    if (Teh.storage.highlightToggled == "false") then return end
+function Teh_HighlightWaypoint(marker, isfocused, markerguid)
+    if (not Teh_GetBool("highlightToggled")) then return end
 
     local waypoint = World:MarkerByGuid(markerguid)
 
     if (isfocused) then
         if (Teh.highlight.waypointHighlighted) then
-            Teh_Highlight_Reset()
+            Teh_HighlightReset()
         end
 
         -- If optional waypoint, we have to show that one too
@@ -66,28 +56,38 @@ function Teh_Highlight_Waypoint(marker, isfocused, markerguid)
         Teh.highlight.currentTeleport = marker
         Teh.highlight.currentWaypoint = waypoint
         Teh.highlight.waypointHighlighted = true
-        Teh.highlight.timeSinceStarted = 0
         marker.TriggerRange = 0
     end
 end
 
---Grows or shrinks the highlight on the map
-function Teh_Tick_Highlight(gameTime)
-    if (Teh.storage.highlightToggled == "false") then
-        Teh_Highlight_Reset()
+-- Highlights the given marker guid, but also sets a secondary target that will clear the waypoint when focused
+function Teh_HighlightWaypoint2(marker, isfocused, markerguid, secondaryTarget)
+    Teh.highlight.secondaryTarget = World:MarkerByGuid(secondaryTarget)
+    Teh_HighlightWaypoint(marker, isfocused, markerguid)
+end
+
+-- Highlights the given marker guid, but also highlights a second waypoint in blue, reaching either will clear it
+function Teh_HighlightWaypoint3(marker, isfocused, markerguid, optionalWaypoint)
+    Teh.highlight.optionalWaypoint = World:MarkerByGuid(optionalWaypoint)
+    Teh.highlight.secondaryTarget = Teh.highlight.optionalWaypoint
+    Teh_HighlightWaypoint(marker, isfocused, markerguid)
+end
+
+-- Animates the highlight on the map
+function Teh_HighlightTickHandler(gameTime)
+    if (not Teh_GetBool("highlightToggled")) then
+        Teh_HighlightReset()
         return
     end
     local elapsedSeconds = gameTime.ElapsedGameTime.TotalSeconds
     Teh.highlight.timeSinceStarted = Teh.highlight.timeSinceStarted + elapsedSeconds
     if (Teh.highlight.timeSinceStarted > 300) then
-        Teh_Highlight_Reset()
+        Teh_HighlightReset()
         return
     end
 
     local size = Teh.highlight.currentSize
     local growing = Teh.highlight.sizeGrowing
-    local MAX_SIZE = 200
-    local MIN_SIZE = 100
     local INTERVAL = 180 * elapsedSeconds
 
     if (growing) then
@@ -110,18 +110,16 @@ end
 
 --Checks if highlighted waypoing is focused, if it is, stop highlighting it.
 --Returns true if the waypoint is still highlighted
-function Teh_Validate_Highlight()
+function Teh_ValidateHighlight()
     local waypoint = Teh.highlight.currentWaypoint
     local secondaryTarget = Teh.highlight.secondaryTarget
     if (waypoint.Focused) then
-        Teh_Highlight_Reset()
+        Teh_HighlightReset()
         return false
     end
-    if (secondaryTarget ~= nil) then
-        if (secondaryTarget.Focused) then
-            Teh_Highlight_Reset()
-            return false
-        end
+    if (secondaryTarget ~= nil and secondaryTarget.Focused) then
+        Teh_HighlightReset()
+        return false
     end
     return true
 end

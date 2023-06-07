@@ -1,6 +1,6 @@
 Teh.trailcolors = {
     colors = {
-        -- name, texturePath
+        -- Name, Color, Menu Reference
         {"Light Blue [Default]", I:Color(74, 213, 255), nil},
         {"Dark Blue", I:Color(19, 30, 182), nil},
         {"Dark Purple", I:Color(114, 31, 103), nil},
@@ -23,22 +23,17 @@ Teh.trailcolors = {
 Debug:Watch("Trail Colors", Teh.trailcolors)
 
 local mainTrail = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Vg==")
+local texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")
 
--- Preload trail texture as a marker so we can reference it, this paired with a transparent default texture in the XML allows us to avoid "loading" the right color on map change
-local marker = Pack:CreateMarker()
-marker:SetPos(0,-10000,0)
-marker:SetTexture("Data/TehsTrails/Markers/trailwhite.png")
-marker.InGameVisibility = false
-marker.MiniMapVisibility = false
-marker.MapVisibility = false
-
+-- Change the color of the main trail to the requested color name
 function Teh_ChangeColor(name)
-    for index, value in ipairs(Teh.trailcolors.colors) do
+    for _, value in ipairs(Teh.trailcolors.colors) do
         if (value[1] == name) then
             mainTrail.Tint = value[2]
-            mainTrail.Texture = marker.Texture
+            mainTrail.Texture = texture
+            mainTrail.TrailSampleColor = value[2]
             mainTrail.InGameVisibility = true
-            saveValue("trailColor", name)
+            Teh_SaveValue("trailColor", name)
         end
     end
 end

@@ -8,9 +8,10 @@ Teh.globalmarker = {
 
 Debug:Watch("Global_Marker", Teh.globalmarker)
 
+local texture = I:Texture(Pack, "Data/TehsTrails/Markers/waypoint-highlight.png")
+
 -- This function turns markers in the coordinate table to markers in the current map
 local function createGlobalMarkers()
-
     -- get lookup table for current map
     local map = Teh.globalmarker.rects[Mumble.CurrentMap.Id]
 
@@ -28,17 +29,17 @@ local function createGlobalMarkers()
             MapVisibility = true,
             InGameVisibility = false,
             ScaleOnMapWithZoom = false,
-            Category = Teh.globalmarker.category
+            Category = Teh.globalmarker.category,
+            Texture = texture
         }
 
         Teh.globalmarker.currentMarkers[i] = Pack:CreateMarker(attributes)
-        Teh.globalmarker.currentMarkers[i]:SetTexture("Data/TehsTrails/Markers/waypoint-highlight.png")
     end
 
     Teh.globalmarker.isVisible = true
 end
 
--- This function hides removes the markers once the user turns them off
+-- Removes the markers once the user turns them off
 local function removeGlobalMarkers()
     Teh.globalmarker.isVisible = false
 
@@ -51,8 +52,9 @@ local function removeGlobalMarkers()
     end
 end
 
+-- Toggles global markers on and off
 function Teh_ToggleGlobalMarker()
-    if (Teh.storage.globalMarkersToggled == "true") then
+    if (Teh_GetBool("globalMarkersToggled")) then
         createGlobalMarkers()
     else
         removeGlobalMarkers()

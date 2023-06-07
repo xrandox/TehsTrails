@@ -8,10 +8,10 @@ Debug:Watch("Skyscale Info", Teh.skyscale)
 local skyscaleMarkers = World:CategoryByType("tt.mc.cm.mm.skyscale"):GetMarkers()
 
 local function hideInfo()
-    for index, value in ipairs(skyscaleMarkers) do
+    for _, value in ipairs(skyscaleMarkers) do
         value.TriggerRange = 0
     end
-    saveValue("hasSkyscale", "true")
+    Teh_SaveValue("hasSkyscale", "true")
     Teh.skyscale.triggerRangeReduced = true
 end
 

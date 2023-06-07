@@ -7,31 +7,33 @@ Teh.bounce = {
 
 Debug:Watch("bounce", Teh.bounce)
 
+local default = Teh.bounce
+
 -- Reset the bouncing marker to normal
-function Teh_Bounce_Reset()
+function Teh_BounceReset()
     local target = Teh.bounce.currentTarget
     local bounce = target:GetBehavior("BounceModifier")
     bounce.BounceHeight = 0
-    Teh.bounce.isBouncing = false
     local category = target.Category.Name
     if (category == "1") then
         target:SetTexture("Data/TehsTrails/Markers/1.png")
     elseif (category == "2") then
         target:SetTexture("Data/TehsTrails/Markers/2.png")
-    elseif (category == "3") then
+    else
         target:SetTexture("Data/TehsTrails/Markers/3.png")
     end
+    Teh.bounce = default
 end
 
 -- Checks if the player enters the markers trigger range, if they do, waits for them to no longer be in the trigger range to stop it from bouncing
-function Teh_Tick_Bounce(gameTime)
+function Teh_BounceTickHandler(gameTime)
+    if (not Teh_GetBool("bounceToggled")) then Teh_BounceReset() return end
     Teh.bounce.timeSinceStarted = Teh.bounce.timeSinceStarted + gameTime.ElapsedGameTime.TotalSeconds
-    if (Teh.storage.bounceToggled == "false") then Teh_Bounce_Reset() return end
-    if (Teh.bounce.timeSinceStarted > 300) then Teh_Bounce_Reset() return end
+    if (Teh.bounce.timeSinceStarted > 300) then Teh_BounceReset() return end
 
     if (Teh.bounce.wasFocused) then
         if (not Teh.bounce.currentTarget.Focused) then
-                Teh_Bounce_Reset()
+                Teh_BounceReset()
             return
         end
         return
@@ -43,8 +45,7 @@ end
 
 -- Makes the marker with the given guid bounce until you enter and leave it's trigger range
 function Teh_Bounce(marker, isAutoTrigger, guid)
-    --if (not isAutoTrigger) then return end
-    if (Teh.storage.bounceToggled == "false") then return end
+    if (not Teh_GetBool("bounceToggled")) then return end
 
     local target = World:MarkerByGuid(guid)
     local category = target.Category.Name
@@ -56,11 +57,9 @@ function Teh_Bounce(marker, isAutoTrigger, guid)
         target:SetTexture("Data/TehsTrails/Markers/1-shadow.png")
     elseif (category == "2") then
         target:SetTexture("Data/TehsTrails/Markers/2-shadow.png")
-    elseif (category == "3") then
+    else
         target:SetTexture("Data/TehsTrails/Markers/3-shadow.png")
     end
     Teh.bounce.currentTarget = target
     Teh.bounce.isBouncing = true
-    Teh.bounce.wasFocused = false
-    Teh.bounce.timeSinceStarted = 0
 end

@@ -12,25 +12,20 @@ Teh.copy = {
         ["bhud"] = nil,
         ["ign"] = nil,
         ["kofi"] = nil
-    },
-    preloaded = false
+    }
 }
 
 Debug:Watch("copy", Teh.copy)
 
--- Preloads the visibility values to our internal table
-function Teh_Preload_Copy()
+-- Preload the visibility values to our internal table
+local c = Teh.copy.categoriesToWatch
 
-    local c = Teh.copy.categoriesToWatch
+Teh.copy.visibility["tt"] = c["tt"]:IsVisible()
+Teh.copy.visibility["overflow"] = c["overflow"]:IsVisible()
+Teh.copy.visibility["bhud"] = c["bhud"]:IsVisible()
+Teh.copy.visibility["ign"] = c["ign"]:IsVisible()
+Teh.copy.visibility["kofi"] = c["kofi"]:IsVisible()
 
-    Teh.copy.visibility["tt"] = c["tt"]:IsVisible()
-    Teh.copy.visibility["overflow"] = c["overflow"]:IsVisible()
-    Teh.copy.visibility["bhud"] = c["bhud"]:IsVisible()
-    Teh.copy.visibility["ign"] = c["ign"]:IsVisible()
-    Teh.copy.visibility["kofi"] = c["kofi"]:IsVisible()
-
-    Teh.copy.preloaded = true
-end
 
 -- Copies the display name of the given category to the clipboard
 function Teh_Copy(category)
@@ -38,7 +33,7 @@ function Teh_Copy(category)
 end
 
 -- Handles listening for visibility changes in the watched categories
-function Teh_Copy_Tick_Handler()
+function Teh_CopyTickHandler()
     -- For each watched category
     for key, value in pairs(Teh.copy.categoriesToWatch) do
         -- Get the current visibility

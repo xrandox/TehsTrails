@@ -14,54 +14,31 @@ Teh.storage = {
 
 Debug:Watch("Storage", Teh.storage)
 
--- Load Values on startup
-for key, value in pairs(Teh.storage) do
+-- Load defaults on startup
+for key, _ in pairs(Teh.storage) do
     local storedValue = Storage:ReadValue("tehstrails", key)
     if (storedValue ~= nil) then
         Teh.storage[key] = storedValue
     end
 end
 
--- Check if the given key exists in the storage table
-local function storageKeyExists(key)
-    for k, _ in pairs(Teh.storage) do
-        if (k == key) then
-            return true
-        end
-    end
-    return false
+-- Saves the the value into storage
+function Teh_SaveValue(key, value)
+    Storage:UpsertValue("tehstrails", key, tostring(value))
+    Teh.storage[key] = value
 end
 
--- Saves the given value for the given key in the storage, as long as the key is valid
-function saveValue(key, value)
-    if (storageKeyExists(key)) then
-        Storage:UpsertValue("tehstrails", key, tostring(value))
-        Teh.storage[key] = value
-    end
-end
-
--- Returns the boolean value of the stored string
-function Teh_Is_True(key)
-    for k, value in pairs(Teh.storage) do
-        if (k == key) then
-            if (value == "true") then
-                return true
-            else return false end
-        end
-    end
+-- Returns the boolean value of the stored keys string value
+function Teh_GetBool(key)
+    if (Teh.storage[key] == "true") then return true
+    else return false end
 end
 
 -- Toggles the boolean value of the given setting
-function Teh_Toggle_Storage(key)
-    for k, value in pairs(Teh.storage) do
-        if (k == key) then
-            if (value == "true") then
-                saveValue(key, "false")
-                return
-            else
-                saveValue(key, "true")
-                return
-            end
-        end
+function Teh_ToggleStorage(key)
+    if (Teh_GetBool(key)) then
+        Teh_SaveValue(key, "false")
+    else
+        Teh_SaveValue(key, "true")
     end
 end
