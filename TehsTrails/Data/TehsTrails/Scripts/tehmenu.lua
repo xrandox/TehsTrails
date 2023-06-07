@@ -4,7 +4,6 @@ local function newColor(menu)
     -- clear any other checked boxes
     for index, value in ipairs(Teh.trailcolors.colors) do
         if (value[1] ~= menu.Name) then
-            Debug:Print("Supposedly set " .. value[1] .. " to false")
             value[3].Checked = false
         else
             value[3].Checked = true
@@ -16,58 +15,62 @@ local function newColor(menu)
 end
 
 local function startingPointMarkers(menu)
-    Teh_Toggle_Storage("globalMarkersToggled")
-    menu.Checked = Teh_Is_True("globalMarkersToggled")
+    Teh_ToggleStorage("globalMarkersToggled")
+    menu.Checked = Teh_GetBool("globalMarkersToggled")
     Teh_ToggleGlobalMarker()
 end
 
 local function minimapTrails(menu)
-    Teh_Toggle_Storage("minimapToggled")
-    menu.Checked = Teh_Is_True("minimapToggled")
+    Teh_ToggleStorage("minimapToggled")
+    menu.Checked = Teh_GetBool("minimapToggled")
     Teh_SetMinimapVisibility()
 end
 
 local function mapZones(menu)
-    Teh_Toggle_Storage("heartZonesOnMap")
-    menu.Checked = Teh_Is_True("heartZonesOnMap")
+    Teh_ToggleStorage("heartZonesOnMap")
+    menu.Checked = Teh_GetBool("heartZonesOnMap")
     Teh_SetHeartZoneMapVisibility()
 end
 
 local function minimapZones(menu)
-    Teh_Toggle_Storage("heartZonesOnMinimap")
-    menu.Checked = Teh_Is_True("heartZonesOnMinimap")
+    Teh_ToggleStorage("heartZonesOnMinimap")
+    menu.Checked = Teh_GetBool("heartZonesOnMinimap")
     Teh_SetHeartZoneMinimapVisibility()
 end
 
 local function heartFollower(menu)
-    Teh_Toggle_Storage("followerInfoToggled")
-    menu.Checked = Teh_Is_True("followerInfoToggled")
+    Teh_ToggleStorage("followerInfoToggled")
+    menu.Checked = Teh_GetBool("followerInfoToggled")
 end
 
 local function heartPointer(menu)
-    Teh_Toggle_Storage("followerVisibleToggled")
-    menu.Checked = Teh_Is_True("followerVisibleToggled")
+    Teh_ToggleStorage("followerVisibleToggled")
+    menu.Checked = Teh_GetBool("followerVisibleToggled")
 end
 
 local function waypointHighlight(menu)
-    Teh_Toggle_Storage("highlightToggled")
-    menu.Checked = Teh_Is_True("highlightToggled")
+    Teh_ToggleStorage("highlightToggled")
+    menu.Checked = Teh_GetBool("highlightToggled")
 end
 
 local function routeMarkerHighlight(menu)
-    Teh_Toggle_Storage("bounceToggled")
-    menu.Checked = Teh_Is_True("bounceToggled")
+    Teh_ToggleStorage("bounceToggled")
+    menu.Checked = Teh_GetBool("bounceToggled")
 end
 
 local function resetClicked(menu)
-    Teh_Reset_Scripts()
+    if (Teh.bounce.isBouncing) then Teh_BounceReset() end
+    if (Teh.heartfollower.isFollowing) then Teh_FollowerReset() end
+    if (Teh.highlight.waypointHighlighted) then Teh_HighlightReset() end
+    Teh_SaveValue("hasSkyscale", "false")
 end
 
 -- Creating Menu
 local mainMenu = Menu:Add("Tehs Trails", nil)
 
 -- Color menu
-local colorMenu = mainMenu:Add("Select Trail Color", nil)
+local colorMenu = mainMenu:Add("Select Trail Color", nil, false, false)
+colorMenu.Tooltip =  "Changes the color of the main trail!"
 
 for i, value in ipairs(Teh.trailcolors.colors) do
     local name = value[1]
@@ -78,22 +81,31 @@ for i, value in ipairs(Teh.trailcolors.colors) do
     Teh.trailcolors.colors[i][3] = colorMenu:Add(name, newColor, true, checked)
 end
 
-mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_Is_True("globalMarkersToggled"))
+local spm = mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_GetBool("globalMarkersToggled"))
+spm.Tooltip = "Shows a highlight over the starting point for all zones (Core Tyria Only)"
 
 -- Map menu
 local mapOptionMenu = mainMenu:Add("Map Visibility Options", nil)
-mapOptionMenu:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_Is_True("minimapToggled"))
-mapOptionMenu:Add("Show Heart Zones on Map", mapZones, true, Teh_Is_True("heartZonesOnMap"))
-mapOptionMenu:Add("Show Heart Zones on Minimap", minimapZones, true, Teh_Is_True("heartZonesOnMinimap"))
+local mtom = mapOptionMenu:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_GetBool("minimapToggled"))
+mtom.Tooltip = "Draw the main trail on the minimap"
+local hzom = mapOptionMenu:Add("Show Heart Zones on Map", mapZones, true, Teh_GetBool("heartZonesOnMap"))
+hzom.Tooltip = "Draw heart zones on the Map"
+local hzomm = mapOptionMenu:Add("Show Heart Zones on Minimap", minimapZones, true, Teh_GetBool("heartZonesOnMinimap"))
+hzomm.Tooltip = "Draw heart zones on the Minimap"
 
 -- Heart follower menu
 local heartFollowerMenu = mainMenu:Add("Heart Follower Options", nil)
-heartFollowerMenu:Add("Enable Heart Info Following", heartFollower, true, Teh_Is_True("followerInfoToggled"))
-heartFollowerMenu:Add("Enable Visible Heart Pointer", heartPointer, true, Teh_Is_True("followerVisibleToggled"))
+local him = heartFollowerMenu:Add("Enable Heart Info Following", heartFollower, true, Teh_GetBool("followerInfoToggled"))
+him.Tooltip = "Makes it so that the information for hearts stays with you until you reach the end of the heart"
+local vhp = heartFollowerMenu:Add("Enable Visible Heart Pointer", heartPointer, true, Teh_GetBool("followerVisibleToggled"))
+vhp.Tooltip = "Points to the end of the heart to make it easier to get back on the trail after finishing a heart"
 
 -- Other options
-mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_Is_True("highlightToggled"))
-mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_Is_True("bounceToggled"))
+local ewh = mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_GetBool("highlightToggled"))
+ewh.Tooltip = "Adds a highlight around the waypoint you are supposed to teleport to. Highly recommended to leave this on"
+local rmh = mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_GetBool("bounceToggled"))
+rmh.Tooltip = "Adds a highlight and bounce effect to the route marker you are supposed to follow"
 
 -- Script reset
-mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked)
+local ras = mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked)
+ras.Tooltip = "Resets all currently running scripts in case there is a malfunction"
