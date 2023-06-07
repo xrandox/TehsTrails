@@ -4,8 +4,10 @@
 ---@class Marker
 ---@field Alpha number # The opacity of the marker (0 - 1).
 ---@field AutoTrigger boolean
+---@field BehaviorFiltered boolean # [READ-ONLY] Indicates if the marker is actively filtered by a behavior.
+---@field Behaviors IBehavior[]
 ---@field CanFade boolean
----@field Category Category
+---@field Category Category # [READ-ONLY]
 ---@field CullDirection integer
 ---@field DistanceToPlayer number
 ---@field DrawOrder number
@@ -17,14 +19,14 @@
 ---@field InGameVisibility any
 ---@field InvertBehavior boolean
 ---@field MapDisplaySize number
----@field MapId integer
+---@field MapId integer # [READ-ONLY]
 ---@field MapVisibility boolean
 ---@field MaxSize number
 ---@field MiniMapVisibility boolean
 ---@field MinSize number
 ---@field Position Vector3
 ---@field ResetLength number
----@field Rotation Vector3
+---@field RotationXyz Vector3
 ---@field ScaleOnMapWithZoom boolean
 ---@field Size number
 ---@field Texture Texture
@@ -85,11 +87,18 @@ function Marker.SetRotY(this, y) end
 ---@param z number
 function Marker.SetRotZ(this, z) end
 
+---Removes the marker.
+function Marker.Remove(this) end
+
 ---Sets the texture of the marker.
 ---@param texturePath string # The relative path to the texture (relative to the root of the marker pack).
 function Marker.SetTexture(this, texturePath) end
 
----Returns any matching behavior by its type name..
+---Sets the texture of the marker using an asset from the public CDN.
+---@param textureId integer # The relative path to the texture (relative to the root of the marker pack).
+function Marker.SetTexture(this, textureId) end
+
+---Returns any matching behavior by its type name.
 ---@param behaviorName string # The name of the behavior type.
 ---@return IBehavior behavior
 function Marker.GetBehavior(this, behaviorName) end

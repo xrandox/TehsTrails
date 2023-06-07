@@ -15,11 +15,12 @@ local Category = {}
 
 ---Returns the requested category by namespace if one exists or creates one and returns it.
 ---@param namespace string # The namespace of the category to return.
+---@return Category category # The existing or created category.
 function Category.GetOrAddCategoryFromNamespace(this, namespace) end
 
 --#region Extension Functions
 
----Indiciates if the category is currently enabled by the user.
+---Indicates if the category is currently enabled by the user.
 ---@return boolean visible # True if the user has enabled this category.  Otherwise false.
 function Category.IsVisible(this) end
 
