@@ -5210,7 +5210,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="51" xpos="743.215" ypos="29.1086" zpos="114.429" type="tt.mc.cm.rm.points_of_interest" GUID="mDQp7Jnf5USYyGPIFMboHw==" />
 		<POI MapID="51" xpos="513.433" ypos="16.564" zpos="564.188" type="tt.mc.cm.rm.waypoints" GUID="K08amHuqxEWSdtbX6yiPag==" />
 		<POI MapID="51" xpos="860.6" ypos="24.2854" zpos="124.327" type="tt.mc.cm.mm.springer" GUID="AiH73aHW6kyHZ5OkrDFzfw==" />
-		<POI MapID="51" xpos="905.657" ypos="36.397" zpos="155.791" type="tt.mc.cm.wm.star" GUID="U/pKwww5yEKUbmVyXFpEJg==" />
+		<POI MapID="51" xpos="908.657" ypos="30.197" zpos="147.791" type="tt.mc.cm.wm.star" GUID="U/pKwww5yEKUbmVyXFpEJg==" />
 		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.wm.wpsquare" GUID="DHceInOciUaNGPkdzQw0Jg==" copy="[&amp;BO4CAAA=]" />
 		<POI MapID="51" xpos="710.343" ypos="19.5584" zpos="114.558" type="tt.mc.cm.wm.square" GUID="EgJa0JEs40aRae9+l9myiA==" />
 		<POI MapID="51" xpos="703.564" ypos="19.5044" zpos="108.674" type="tt.mc.hp.hpm" GUID="R5JltmC1x02A9fBhfJS3Qw==" />
@@ -8004,7 +8004,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="-31.1177" ypos="36.5916" zpos="32.4459" type="tt.mc.cm.nwm.wph" GUID="FCxEGgeFNkOug2hJ8uUyIw==" />
 		<POI MapID="51" xpos="710.343" ypos="19.5584" zpos="114.558" type="tt.mc.cm.nwm.wph" GUID="U/pKeee5yEKUbmVyXFpEJg==" />
 		<POI MapID="51" xpos="603.435" ypos="3.39805" zpos="204.033" type="tt.mc.cm.nwm.tpm" GUID="8ttl6ecooESgUaOYvG3hKA==" copy="[&amp;BO4CAAA=]" script-focus="Teh_HighlightWaypoint(U/pKeee5yEKUbmVyXFpEJg==)" />
-		<POI MapID="51" xpos="905.657" ypos="36.397" zpos="155.791" type="tt.mc.cm.nwm.wph" GUID="MwkiWu4ZV0+xDwUXJL4JQQ==" />
+		<POI MapID="51" xpos="908.657" ypos="30.397" zpos="147.791" type="tt.mc.cm.nwm.wph" GUID="MwkiWu4ZV0+xDwUXJL4JQQ==" />
 		<POI MapID="51" xpos="853.598" ypos="2.56563" zpos="-312.398" type="tt.mc.cm.nwm.tpm" GUID="XvZsrl4kBkew2hkGs2EPzg==" copy="[&amp;BO8CAAA=]" script-focus="Teh_HighlightWaypoint(MwkiWu4ZV0+xDwUXJL4JQQ==)" />
 		<POI MapID="51" xpos="107.582" ypos="-65.6299" zpos="75.2393" type="tt.mc.cm.nwm.wph" GUID="fMriPHYyREm9RThZgcjzvg==" />
 		<POI MapID="51" xpos="187.815" ypos="21.8906" zpos="184.499" type="tt.mc.cm.nwm.tpm" GUID="RlJwvo08W0K62dTXkbAjsA==" copy="[&amp;BPICAAA=]" script-focus="Teh_HighlightWaypoint(fMriPHYyREm9RThZgcjzvg==)" />
