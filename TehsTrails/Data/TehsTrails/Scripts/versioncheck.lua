@@ -16,18 +16,18 @@ local function splitVersion(version)
     return tonumber(major), tonumber(minor), tonumber(patch)
 end
 
+-- Creates an alert marker to tell the user to update their pathing module
 local function createAlert(version)
     Pack:CreateMarker({
         Position = Mumble.PlayerCharacter.Position,
         info = "I've detected that you are currently running TehsTrails on Pathing version " .. version .. ". TehsTrails requires at least version 1.2.1 to run correctly. Please update your Pathing module.",
         TriggerRange = 10000,
         iconFile = "Data/TehsTrails/Markers/caution.png",
-        bounce = "bounce",
         AutoTrigger = true
     })
 end
 
--- Checks if the 
+-- Checks if the current version is high enough to run the pack
 function Teh_VersionCheck()
     if (PathingVersion == nil) then
         createAlert("<1.2.1")
