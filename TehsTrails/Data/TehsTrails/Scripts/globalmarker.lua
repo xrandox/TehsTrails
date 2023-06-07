@@ -8,8 +8,6 @@ Teh.globalmarker = {
 
 Debug:Watch("Global_Marker", Teh.globalmarker)
 
-local texture = I:Texture(Pack, "Data/TehsTrails/Markers/waypoint-highlight.png")
-
 -- This function turns markers in the coordinate table to markers in the current map
 local function createGlobalMarkers()
     -- get lookup table for current map
@@ -30,7 +28,7 @@ local function createGlobalMarkers()
             InGameVisibility = false,
             ScaleOnMapWithZoom = false,
             Category = Teh.globalmarker.category,
-            Texture = texture
+            iconFile = "Data/TehsTrails/Markers/waypoint-highlight.png"
         }
 
         Teh.globalmarker.currentMarkers[i] = Pack:CreateMarker(attributes)

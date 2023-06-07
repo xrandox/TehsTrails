@@ -10,7 +10,6 @@ Teh.heartfollower = {
 Debug:Watch("heartfollower", Teh.heartfollower)
 
 local category = World:CategoryByType("tt.s.tgsp")
-local texture = I:Texture(Pack, "Data/TehsTrails/Markers/Renown_Heart_empty.png")
 local default = Teh.heartfollower
 
 --Creates a follower targeting the specified target GUID
@@ -29,7 +28,7 @@ local function createFollower(heartMarker, targetGuid)
         MapVisibility = false,
         IconSize = 0.5,
         Category = category,
-        Texture = texture
+        iconFile = "Data/TehsTrails/Markers/Renown_Heart_empty.png"
     })
 
     if (Teh_GetBool("followerVisibleToggled")) then
