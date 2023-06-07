@@ -18,13 +18,14 @@ end
 
 -- Creates an alert marker to tell the user to update their pathing module
 local function createAlert(version)
-    Pack:CreateMarker({
-        Position = Mumble.PlayerCharacter.Position,
+    local pos = Mumble.PlayerCharacter.Position
+    local alert = Pack:CreateMarker({
         info = "I've detected that you are currently running TehsTrails on Pathing version " .. version .. ". TehsTrails requires at least version 1.2.1 to run correctly. Please update your Pathing module.",
         TriggerRange = 10000,
-        iconFile = "Data/TehsTrails/Markers/caution.png",
         AutoTrigger = true
     })
+    alert:SetTexture("Data/TehsTrails/Markers/caution.png")
+    alert:SetPos(pos)
 end
 
 -- Checks if the current version is high enough to run the pack
