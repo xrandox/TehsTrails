@@ -69,8 +69,7 @@ end
 local mainMenu = Menu:Add("Tehs Trails", nil)
 
 -- Color menu
-local colorMenu = mainMenu:Add("Select Trail Color", nil, false, false)
-colorMenu.Tooltip =  "Changes the color of the main trail!"
+local colorMenu = mainMenu:Add("Select Trail Color", nil, false, false, "Changes the color of the main trail")
 
 for i, value in ipairs(Teh.trailcolors.colors) do
     local name = value[1]
@@ -81,31 +80,22 @@ for i, value in ipairs(Teh.trailcolors.colors) do
     Teh.trailcolors.colors[i][3] = colorMenu:Add(name, newColor, true, checked)
 end
 
-local spm = mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_GetBool("globalMarkersToggled"))
-spm.Tooltip = "Shows a highlight over the starting point for all zones (Core Tyria Only)"
+mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_GetBool("globalMarkersToggled"), "Shows a highlight over the starting point for all zones (Core Tyria Only)")
 
 -- Map menu
 local mapOptionMenu = mainMenu:Add("Map Visibility Options", nil)
-local mtom = mapOptionMenu:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_GetBool("minimapToggled"))
-mtom.Tooltip = "Draw the main trail on the minimap"
-local hzom = mapOptionMenu:Add("Show Heart Zones on Map", mapZones, true, Teh_GetBool("heartZonesOnMap"))
-hzom.Tooltip = "Draw heart zones on the Map"
-local hzomm = mapOptionMenu:Add("Show Heart Zones on Minimap", minimapZones, true, Teh_GetBool("heartZonesOnMinimap"))
-hzomm.Tooltip = "Draw heart zones on the Minimap"
+mapOptionMenu:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_GetBool("minimapToggled"), "Draw the main trail on the minimap")
+mapOptionMenu:Add("Show Heart Zones on Map", mapZones, true, Teh_GetBool("heartZonesOnMap"), "Draw heart zones on the Map")
+mapOptionMenu:Add("Show Heart Zones on Minimap", minimapZones, true, Teh_GetBool("heartZonesOnMinimap"), "Draw heart zones on the Minimap")
 
 -- Heart follower menu
 local heartFollowerMenu = mainMenu:Add("Heart Follower Options", nil)
-local him = heartFollowerMenu:Add("Enable Heart Info Following", heartFollower, true, Teh_GetBool("followerInfoToggled"))
-him.Tooltip = "Makes it so that the information for hearts stays with you until you reach the end of the heart"
-local vhp = heartFollowerMenu:Add("Enable Visible Heart Pointer", heartPointer, true, Teh_GetBool("followerVisibleToggled"))
-vhp.Tooltip = "Points to the end of the heart to make it easier to get back on the trail after finishing a heart"
+heartFollowerMenu:Add("Enable Heart Info Following", heartFollower, true, Teh_GetBool("followerInfoToggled"), "Makes it so that the information for hearts stays with you until you reach the end of the heart")
+heartFollowerMenu:Add("Enable Visible Heart Pointer", heartPointer, true, Teh_GetBool("followerVisibleToggled"), "Points to the end of the heart to make it easier to get back on the trail after finishing a heart")
 
 -- Other options
-local ewh = mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_GetBool("highlightToggled"))
-ewh.Tooltip = "Adds a highlight around the waypoint you are supposed to teleport to. Highly recommended to leave this on"
-local rmh = mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_GetBool("bounceToggled"))
-rmh.Tooltip = "Adds a highlight and bounce effect to the route marker you are supposed to follow"
+local ewh = mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_GetBool("highlightToggled"), "Adds a highlight around the waypoint you are supposed to teleport to. Highly recommended to leave this on")
+local rmh = mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_GetBool("bounceToggled"), "Adds a highlight and bounce effect to the route marker you are supposed to follow")
 
 -- Script reset
-local ras = mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked)
-ras.Tooltip = "Resets all currently running scripts in case there is a malfunction"
+local ras = mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked, false, false, "Resets all currently running scripts in case there is a malfunction")
