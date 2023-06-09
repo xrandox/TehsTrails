@@ -4652,7 +4652,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="124.2" ypos="1.54803" zpos="-608.608" type="tt.mc.h.chm.interact" GUID="SHg4nAe1ZE+vH0xX9GY+lw==" />
         <POI MapID="35" xpos="145.533" ypos="0.535793" zpos="-654.946" type="tt.mc.h.chm.interact" GUID="4rnH9ThU10K7dNqRcISzMQ==" />
         <POI MapID="35" xpos="147.24" ypos="18.3101" zpos="-893.206" type="tt.mc.cm.rm.waypoints" GUID="z0m/Jby8G0m5dIt6JiXhfg==" />
-        <POI MapID="35" xpos="160.514" ypos="-0.474081" zpos="-673.371" type="tt.mc.h.chm.start_heart" GUID="OzBKP35uR0i8YCDG0jUxLw==" info="Kill Crazed Hyleks (they change randomly) and Inquest, Interact with ampoules  Hylek boss Event -&gt; Kill all crazed hyleks around, then kill boss" script-focus="Teh_HeartFollower(lKBPHJdaEkyKUfnxrV73uw==)" />
+        <POI MapID="35" xpos="160.514" ypos="-0.474081" zpos="-673.371" type="tt.mc.h.chm.start_heart" GUID="OzBKP35uR0i8YCDG0jUxLw==" info="Kill Crazed Hyleks (they change randomly) and Inquest, Interact with ampoules&#xA;&#xA;Hylek boss Event -&gt; Kill all crazed hyleks around, then kill boss" script-focus="Teh_HeartFollower(lKBPHJdaEkyKUfnxrV73uw==)" />
         <POI MapID="35" xpos="156.796" ypos="33.5481" zpos="272.515" type="tt.mc.cm.mm.skyscale" GUID="WG4LquDxbkuqembOhIx+zQ==" />
         <POI MapID="35" xpos="182.783" ypos="29.3098" zpos="256.227" type="tt.mc.cm.rm.waypoints" GUID="RidkViY7AUyyuA2MKEDXGg==" />
         <POI MapID="35" xpos="200.301" ypos="22.1358" zpos="589.26" type="tt.mc.h.chm.start_heart" GUID="Nn/UXCYHz02xnXDJa0g5dw==" info="Interact and kill everything" script-focus="Teh_HeartFollower(Eu4ffXUizEOaCoc0wmPKeg==)" />
@@ -4660,7 +4660,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="206.249" ypos="2.77057" zpos="-149.66" type="tt.mc.cm.rm.waypoints" GUID="h3Luad24yEaTm0ILjt/IlA==" />
         <POI MapID="35" xpos="228.828" ypos="12.491" zpos="-901.896" type="tt.mc.cm.rm.points_of_interest" GUID="2l+Da6S1TUqMulrvVekKHQ==" />
         <POI MapID="35" xpos="249.737" ypos="-13.2238" zpos="-768.699" type="tt.mc.cm.rm.points_of_interest" GUID="ojVTGNe/1UK5es9MID4eBw==" />
-        <POI MapID="35" xpos="237.392" ypos="8.40378" zpos="-188.775" type="tt.mc.h.chm.start_heart" GUID="2OWwhd9hdE2Vkzkaz/TVsw==" info="Kill ooze and containers  Event -&gt; Kill oozes/boss" script-focus="Teh_HeartFollower(M1D3xM64ck28UPsQBwbWkg==)" />
+        <POI MapID="35" xpos="237.392" ypos="8.40378" zpos="-188.775" type="tt.mc.h.chm.start_heart" GUID="2OWwhd9hdE2Vkzkaz/TVsw==" info="Kill ooze and containers&#xA;&#xA;Event -&gt; Kill oozes/boss" script-focus="Teh_HeartFollower(M1D3xM64ck28UPsQBwbWkg==)" />
         <POI MapID="35" xpos="255.344" ypos="43.3747" zpos="-279.624" type="tt.mc.h.chm.kill" GUID="a8EUTK4G40ujo8ptRz3b3w==" />
         <POI MapID="35" xpos="260.126" ypos="36.6744" zpos="460.319" type="tt.mc.cm.rm.points_of_interest" GUID="Etk3YP1ytEGyLjzW0zlkEw==" />
         <POI MapID="35" xpos="274.35" ypos="28.7241" zpos="-215.557" type="tt.mc.h.chm.kill" GUID="TBwaMawah0+9kBlS+tTsFA==" />
@@ -4694,7 +4694,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="368.781" ypos="50.9462" zpos="851.901" type="tt.mc.h.chm.finish_heart" GUID="eB5om3dlJEK1HVLdZUOfnw==" />
         <POI MapID="35" xpos="394.747" ypos="2.96276" zpos="127.599" type="tt.mc.h.chm.kill" GUID="675YUJmTZ0CLfHO32/TIBQ==" />
         <POI MapID="35" xpos="373.686" ypos="23.3527" zpos="-362.447" type="tt.mc.h.chm.finish_heart" GUID="M1D3xM64ck28UPsQBwbWkg==" />
-        <POI MapID="35" xpos="401.368" ypos="46.2835" zpos="758.024" type="tt.mc.h.chm.start_heart" GUID="BGJ+deqg4UOcx+L5D/1rmQ==" info="Kill Inquest and destroy equipment  Not enough -&gt; Finish it later on the path" script-focus="Teh_HeartFollower(eB5om3dlJEK1HVLdZUOfnw==)" />
+        <POI MapID="35" xpos="401.368" ypos="46.2835" zpos="758.024" type="tt.mc.h.chm.start_heart" GUID="BGJ+deqg4UOcx+L5D/1rmQ==" info="Kill Inquest and destroy equipment&#xA;&#xA;Not enough -&gt; Finish it later on the path" script-focus="Teh_HeartFollower(eB5om3dlJEK1HVLdZUOfnw==)" />
         <POI MapID="35" xpos="368.158" ypos="22.8668" zpos="-347.716" type="tt.mc.cm.mm.beetle" GUID="n+sNB7lbdUOztsjnOT3rrA==" />
         <POI MapID="35" xpos="405.446" ypos="82.1387" zpos="835.21" type="tt.mc.cm.mm.griffon" GUID="/a3HHr5t10yWQiyuHoqzeA==" />
         <POI MapID="35" xpos="398.057" ypos="42.9231" zpos="-717.764" type="tt.mc.h.chm.start_heart" GUID="ul/o4Hsq5EWZ50uaAb77/Q==" info="Keep following heart trail to repeatedly: talk to projections -&gt; kill oozes" script-focus="Teh_HeartFollower(HbFkPUH0pkqt3vAHJngXCg==)" />
@@ -4705,14 +4705,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="426.831" ypos="6.75558" zpos="122.474" type="tt.mc.h.chm.kill" GUID="ozlQymho3UqImYLGJKOwQw==" />
         <POI MapID="35" xpos="459.545" ypos="17.3226" zpos="-503.647" type="tt.mc.cm.rm.waypoints" GUID="og2SH4yf9Em9Ul72fdHQAg==" />
         <POI MapID="35" xpos="473.684" ypos="43.6305" zpos="-555.684" type="tt.mc.cm.rm.vistas" GUID="lA6jf0aD9EesBSidUx61Qg==" />
-        <POI MapID="35" xpos="476.133" ypos="43.5039" zpos="-561.288" type="tt.mc.h.chm.start_heart" GUID="FwUXM5rZ/USRykJfUllALQ==" info="Kill Skritt, collect gate pieces  Event -&gt; turn in gate pieces at Parnna" script-focus="Teh_HeartFollower(d7twpzOYUkmMIZwhD3xaVA==)" />
+        <POI MapID="35" xpos="476.133" ypos="43.5039" zpos="-561.288" type="tt.mc.h.chm.start_heart" GUID="FwUXM5rZ/USRykJfUllALQ==" info="Kill Skritt, collect gate pieces&#xA;&#xA;Event -&gt; turn in gate pieces at Parnna" script-focus="Teh_HeartFollower(d7twpzOYUkmMIZwhD3xaVA==)" />
         <POI MapID="35" xpos="489.551" ypos="50.909" zpos="-649.665" type="tt.mc.h.chm.gather" GUID="RJNtJyfRTk6q+18vV/n3KA==" />
         <POI MapID="35" xpos="510.549" ypos="33.8343" zpos="673.611" type="tt.mc.cm.rm.waypoints" GUID="y2eBz6qtz0m/BRbu70FvPw==" />
         <POI MapID="35" xpos="544.635" ypos="33.1592" zpos="-668.208" type="tt.mc.h.chm.gather" GUID="jZwoe/hRaEqm9Sco1RU4Vw==" />
         <POI MapID="35" xpos="545.308" ypos="30.0108" zpos="-686.894" type="tt.mc.h.chm.gather" GUID="ngeUbLt8Yk6v9OqlmkaquA==" />
         <POI MapID="35" xpos="558.787" ypos="30.1265" zpos="-694.078" type="tt.mc.h.chm.gather" GUID="F2hS799idUmc0bE1QOpH5w==" />
         <POI MapID="35" xpos="568.146" ypos="29.9478" zpos="-691.924" type="tt.mc.h.chm.gather" GUID="f99Zc3SMj0e/5/9D+xo7Vw==" />
-        <POI MapID="35" xpos="489.112" ypos="35.2085" zpos="98.7201" type="tt.mc.h.chm.start_heart" GUID="6mkrbTHXvEGsrbj2Gptl7A==" info="Kill Hylek and turrets  Boss event -&gt; Kill boss" script-focus="Teh_HeartFollower(K6IFz9CuEkC94vb2h1f+Gw==)" />
+        <POI MapID="35" xpos="489.112" ypos="35.2085" zpos="98.7201" type="tt.mc.h.chm.start_heart" GUID="6mkrbTHXvEGsrbj2Gptl7A==" info="Kill Hylek and turrets&#xA;&#xA;Boss event -&gt; Kill boss" script-focus="Teh_HeartFollower(K6IFz9CuEkC94vb2h1f+Gw==)" />
         <POI MapID="35" xpos="568.134" ypos="23.7452" zpos="35.2917" type="tt.mc.cm.rm.waypoints" GUID="wQpquBo7IUm4R4rNTyL64A==" />
         <POI MapID="35" xpos="578.85" ypos="63.9654" zpos="952.702" type="tt.mc.cm.rm.points_of_interest" GUID="fjYuI5t810axmDKSuCULeQ==" />
         <POI MapID="35" xpos="580.014" ypos="28.178" zpos="-676.212" type="tt.mc.h.chm.gather" GUID="OKkPwkg5tUOrXx/9/9NunQ==" />
@@ -4743,12 +4743,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="-88.8004" ypos="20.7535" zpos="752.938" type="tt.mc.cm.rm.points_of_interest" GUID="rDTEiMKFuUSLr9wJ1kIp9g==" />
         <POI MapID="35" xpos="-93.0228" ypos="64.2447" zpos="-783.153" type="tt.mc.cm.rm.vistas" GUID="uPYMS0P20EWXaf91ugzRzg==" />
         <POI MapID="35" xpos="-96.8342" ypos="46.5648" zpos="-158.319" type="tt.mc.cm.rm.vistas" GUID="5goRhTD/00mvBK5OuCdJfQ==" />
-        <POI MapID="35" xpos="-56.6757" ypos="38.919" zpos="-780.786" type="tt.mc.h.chm.start_heart" GUID="IcTbGTzxTUaimg/ouPIO2Q==" info="Interact Apparatuses (ignore enemies), Talk to impressionable progenies  Mosquito Event -&gt; Kill mosquitoes" script-focus="Teh_HeartFollower(o/zDmLwITEC8mAV0xvlH6w==)" />
+        <POI MapID="35" xpos="-56.6757" ypos="38.919" zpos="-780.786" type="tt.mc.h.chm.start_heart" GUID="IcTbGTzxTUaimg/ouPIO2Q==" info="Interact Apparatuses (ignore enemies), Talk to impressionable progenies&#xA;&#xA;Mosquito Event -&gt; Kill mosquitoes" script-focus="Teh_HeartFollower(o/zDmLwITEC8mAV0xvlH6w==)" />
         <POI MapID="35" xpos="-97.1282" ypos="25.7601" zpos="-161.957" type="tt.mc.h.chm.talk" GUID="tKXVc1Hhfk+h8W+/P1W/Ew==" />
-        <POI MapID="35" xpos="-39.312" ypos="-0.263903" zpos="42.2228" type="tt.mc.h.chm.start_heart" GUID="+gxubT62zE+q/TPWuxa9PQ==" info="Kill dragonflies and skelk  Event -&gt; Kill cuatl  Don't forget WP" script-focus="Teh_HeartFollower(W1Wiqn1vvk+6v/x0taNHag==)" />
+        <POI MapID="35" xpos="-39.312" ypos="-0.263903" zpos="42.2228" type="tt.mc.h.chm.start_heart" GUID="+gxubT62zE+q/TPWuxa9PQ==" info="Kill dragonflies and skelk  Event -&gt; Kill cuatl&#xA;&#xA;Don't forget WP" script-focus="Teh_HeartFollower(W1Wiqn1vvk+6v/x0taNHag==)" />
         <POI MapID="35" xpos="-98.2767" ypos="35.2515" zpos="-817.02" type="tt.mc.h.chm.interact" GUID="55HyVPyPvk2cfOo8uLgKyA==" />
         <POI MapID="35" xpos="-102.658" ypos="25.9766" zpos="-157.17" type="tt.mc.h.chm.talk" GUID="/U8tR2OcjkqCGXFNetu/Tw==" />
-        <POI MapID="35" xpos="-100.445" ypos="46.086" zpos="-158.698" type="tt.mc.h.chm.start_heart" GUID="55Q7tJZe2U2vmTxlHKuMlw==" info="Talk to IQ Test Subjects (spam 1), talk to captivated skritt -&gt; kill (can repeat when regenning), Interact monitors  Don't forget PoI" script-focus="Teh_HeartFollower(iZQyNp1SnE21ziAYkHqDtQ==)" />
+        <POI MapID="35" xpos="-100.445" ypos="46.086" zpos="-158.698" type="tt.mc.h.chm.start_heart" GUID="55Q7tJZe2U2vmTxlHKuMlw==" info="Talk to IQ Test Subjects (spam 1), talk to captivated skritt -&gt; kill (can repeat when regenning), Interact monitors&#xA;&#xA;Don't forget PoI" script-focus="Teh_HeartFollower(iZQyNp1SnE21ziAYkHqDtQ==)" />
         <POI MapID="35" xpos="-120.877" ypos="27.712" zpos="-133.323" type="tt.mc.cm.rm.1" GUID="p9nwhzmg9E+aouhLTC7Paw==" />
         <POI MapID="35" xpos="-121.583" ypos="28.0175" zpos="-126.968" type="tt.mc.cm.rm.2" GUID="ogKtcn2IT066t1IPVL/2vg==" />
         <POI MapID="35" xpos="-122.834" ypos="28.0651" zpos="-129.858" type="tt.mc.cm.wm.arrow" GUID="ffXka+OG+kKZZwoj55mhlw==" />
@@ -4767,7 +4767,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="-514.887" ypos="35.1243" zpos="370.057" type="tt.mc.h.chm.start_heart" GUID="ExiQjRe9DkmUHVlgx174Bg==" info="Find a Concerned Skritt Forager -&gt; repeatedly talk spam 1" script-focus="Teh_HeartFollower(arcIM/pcHUW5bK0MVojJJQ==)" />
         <POI MapID="35" xpos="-326.277" ypos="8.89238" zpos="-418.552" type="tt.mc.h.chm.talk" GUID="0Daj2xaKZkSqkX3NQbOnHA==" />
         <POI MapID="35" xpos="-341.708" ypos="7.55648" zpos="-335.161" type="tt.mc.cm.rm.waypoints" GUID="ryCcBqUEDUCzWHhfmfOjSg==" />
-        <POI MapID="35" xpos="-343.352" ypos="7.67265" zpos="-333.182" type="tt.mc.h.chm.start_heart" GUID="Rk+JzcCdd06KSvQZNihJ2Q==" info="Talk to Suspicious Salvage Specialists -&gt; kill  Not enough -&gt; follow heart trail -&gt; kill all + interact danger signs behind gate" script-focus="Teh_HeartFollower2(rhY0tTm41EalYS/i4vKkIQ==,hlZiN5BDT0K9brmBzJB4/w==)" />
+        <POI MapID="35" xpos="-343.352" ypos="7.67265" zpos="-333.182" type="tt.mc.h.chm.start_heart" GUID="Rk+JzcCdd06KSvQZNihJ2Q==" info="Talk to Suspicious Salvage Specialists -&gt; kill&#xA;&#xA;Not enough -&gt; follow heart trail -&gt; kill all + interact danger signs behind gate" script-focus="Teh_HeartFollower2(rhY0tTm41EalYS/i4vKkIQ==,hlZiN5BDT0K9brmBzJB4/w==)" />
         <POI MapID="35" xpos="-343.605" ypos="8.47234" zpos="-354.995" type="tt.mc.h.chm.talk" GUID="F2Tgp/oSKUOy5MNm/fK51Q==" />
         <POI MapID="35" xpos="-350.634" ypos="8.83936" zpos="-340.95" type="tt.mc.cm.wm.wparrow" GUID="0qSojZnceEa0UyDqembcTQ==" copy="[&amp;BEMAAAA=]" />
         <POI MapID="35" xpos="-351.658" ypos="8.96766" zpos="-339.161" type="tt.mc.h.chm.finish_heart" GUID="rhY0tTm41EalYS/i4vKkIQ==" />
