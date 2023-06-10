@@ -11,7 +11,6 @@ Teh.highlight = {
 }
 
 Debug:Watch("highlight", Teh.highlight)
-local default = Teh.highlight
 local MAX_SIZE = 200
 local MIN_SIZE = 100
 
@@ -27,7 +26,14 @@ function Teh_HighlightReset()
         Teh.highlight.optionalWaypoint.TriggerRange = 0
     end
     Teh.highlight.currentTeleport.TriggerRange = 15
-    Teh.highlight = default
+    Teh.highlight.currentWaypoint = nil
+    Teh.highlight.currentTeleport = nil
+    Teh.highlight.waypointHighlighted = false
+    Teh.highlight.currentSize = 100
+    Teh.highlight.sizeGrowing = true
+    Teh.highlight.timeSinceStarted = 0
+    Teh.highlight.secondaryTarget = nil
+    Teh.highlight.optionalWaypoint = nil
 end
 
 --Sets the given marker GUID as the current waypoint and highlights it
