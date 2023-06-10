@@ -10,7 +10,6 @@ Teh.heartfollower = {
 Debug:Watch("heartfollower", Teh.heartfollower)
 
 local category = World:CategoryByType("tt.s.tgsp")
-local default = Teh.heartfollower
 
 --Creates a follower targeting the specified target GUID
 local function createFollower(heartMarker, targetGuid)
@@ -112,5 +111,10 @@ function Teh_FollowerReset()
     Teh.heartfollower.currentTarget.TriggerRange = 0
     Teh.heartfollower.originalMarker.TriggerRange = 15
     Teh.heartfollower.followMarker:Remove()
-    Teh.heartfollower = default
+    Teh.heartfollower.currentTarget = nil
+    Teh.heartfollower.isFollowing = false
+    Teh.heartfollower.followMarker = nil
+    Teh.heartfollower.target2 = nil
+    Teh.heartfollower.visible = false
+    Teh.heartfollower.originalMarker = nil
 end
