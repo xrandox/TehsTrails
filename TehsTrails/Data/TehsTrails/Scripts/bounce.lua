@@ -21,6 +21,9 @@ function Teh_BounceReset()
     elseif (category == "3") then
         target:SetTexture("Data/TehsTrails/Markers/3.png")
     end
+    Teh.bounce.currentTarget = nil
+    Teh.bounce.wasFocused = false
+    Teh.bounce.timeSinceStarted = 0
 end
 
 -- Checks if the player enters the markers trigger range, if they do, waits for them to no longer be in the trigger range to stop it from bouncing
