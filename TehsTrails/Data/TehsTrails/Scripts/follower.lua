@@ -26,7 +26,7 @@ local function createFollower(heartMarker, targetGuid)
         InGameVisibility = false,
         MiniMapVisibility = false,
         MapVisibility = false,
-        IconSize = 0.5,
+        IconSize = "0.5",
         Category = category,
         iconFile = "Data/TehsTrails/Markers/Renown_Heart_empty.png"
     })
