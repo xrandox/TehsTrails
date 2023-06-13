@@ -26,6 +26,13 @@ function Teh_Skyscale(marker, gameTime)
     end
 end
 
+function Teh_SkyscaleOptionalMarker(marker, gameTime)
+    -- If they have a skyscale, hide the optional markers
+    if (Teh.skyscale.triggerRangeReduced) then
+        marker.InGameVisibility = false
+    end
+end
+
 if (Teh.storage.hasSkyscale == true) then
     hideInfo()
 end
