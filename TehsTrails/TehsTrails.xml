@@ -827,6 +827,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 			<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors">
 				<MarkerCategory name="maptester0" DisplayName="Alatar.7364" isseparator="1"/>
 				<MarkerCategory name="maptester1" DisplayName="Ank.9537" isseparator="1"/>
+				<MarkerCategory name="maptester23" DisplayName="bird.6987" isseparator="1"/>
 				<MarkerCategory name="maptester2" DisplayName="Blood.5607" isseparator="1"/>
 				<MarkerCategory name="maptester3" DisplayName="choco.5918" isseparator="1"/>
 				<MarkerCategory name="maptester4" DisplayName="Deekay.1579" isseparator="1"/>
