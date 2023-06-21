@@ -4238,7 +4238,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="54" xpos="560.46" ypos="60.9469" zpos="354.433" type="tt.mc.cm.wm.wparrow" GUID="vdeJpg5CH0yc8Yy0CZ1eRg==" copy="[&amp;BGAAAAA=]" />
         <POI MapID="54" xpos="560.614" ypos="60.8937" zpos="352.326" type="tt.mc.h.chm.finish_heart" GUID="Q5US58UNiU6kATrQEpt50w==" />
         <POI MapID="54" xpos="568.757" ypos="-0.257942" zpos="-268.119" type="tt.mc.h.chm.interact" GUID="zE6NjQsZ50mj0NT839fvgw==" />
-        <POI MapID="54" xpos="568.789" ypos="62.1262" zpos="352.951" type="tt.mc.h.chm.start_heart" GUID="dUMtp8DVb0uXbS2RbbhTTg==" info="Kill destroyers" script-focus="Teh_HeartFollower2(Q5US58UNiU6kATrQEpt50w==,85+3AhmIKU2jpegzj9C+bw==)" />
+        <POI MapID="54" xpos="568.789" ypos="62.1262" zpos="352.951" type="tt.mc.h.chm.start_heart" GUID="dUMtp8DVb0uXbS2RbbhTTg==" info="Kill destroyers, weaponswap shifting rocks" script-focus="Teh_HeartFollower2(Q5US58UNiU6kATrQEpt50w==,85+3AhmIKU2jpegzj9C+bw==)" />
         <POI MapID="54" xpos="569.509" ypos="52.3722" zpos="180.439" type="tt.mc.cm.rm.waypoints" GUID="BADhDiqBJkWf6I1riewvGw==" />
         <POI MapID="54" xpos="582.227" ypos="54.9929" zpos="165.887" type="tt.mc.cm.wm.arrow" GUID="HxixbKaSlkSzGOEczDzS7g==" />
         <POI MapID="54" xpos="589.814" ypos="56.7317" zpos="165.75" type="tt.mc.cm.mm.skyscale" GUID="KhmM2MRQfka2xlR1bJh+bw==" />
