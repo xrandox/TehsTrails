@@ -2136,6 +2136,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="21" xpos="-418.469" ypos="16.357" zpos="230.254" type="tt.mc.cm.wm.wpstar" GUID="1N+Jjva6gkK4DTUMWXjAjw==" copy="[&amp;BE0BAAA=]" />
 		<POI MapID="21" xpos="-417.794" ypos="16.3813" zpos="232.621" type="tt.mc.cm.rm.points_of_interest" GUID="NQf9jBstnECpihYT5otLXw==" />
 		<POI MapID="21" xpos="-408.473" ypos="69.8983" zpos="-605.4" type="tt.mc.h.chm.interact" GUID="oqMcJmEgO0C9qAfQ/kqnqA==" />
+        <POI MapID="21" xpos="-424.572" ypos="69.9089" zpos="-552.21" type="tt.mc.h.chm.interact" GUID="dP+BdHgLF0y3mJiRcBUMEw==" />
 		<POI MapID="21" xpos="-406.093" ypos="69.1668" zpos="-542.102" type="tt.mc.cm.rm.points_of_interest" GUID="DgZbyRGGw0ygVDjLalM2SA==" />
 		<POI MapID="21" xpos="-402.42" ypos="84.4449" zpos="-842.425" type="tt.mc.hp.hpm" GUID="yMmp2p8wu0OT2FtqeJa0AA==" />
 		<POI MapID="21" xpos="-394.33" ypos="69.3395" zpos="-611.39" type="tt.mc.cm.rm.waypoints" GUID="ygTUcgTCo0q7wJoIGFRYOw==" />
@@ -8272,7 +8273,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!-- HEART TRAILS -->
 		<Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/PirateLootHeart.trl"/>
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/HelpAlbinChroniclerHeart.trl"/>
-        <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/HelpThePeopleOfEbonhawk.trl"/>
+        <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/FieldsofRuinHeartTrails.trl"/>
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/FrostgorgeSoundHeartTrails.trl"/>
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/DiessaPlateauHeartTrails.trl"/>
         <Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/BlazeridgeSteppesHeartTrails.trl"/>
