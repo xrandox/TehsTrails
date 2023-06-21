@@ -4647,6 +4647,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="-354.247" ypos="24.0646" zpos="709.756" type="tt.mc.h.chm.interact" GUID="kD8bfPH4tEK5/c67AuikDA==" />
         <POI MapID="35" xpos="-354.634" ypos="10.989" zpos="-434.333" type="tt.mc.h.chm.talk" GUID="PUi7PrsQkUK274+Eun4n+A==" />
         <POI MapID="35" xpos="-352.89" ypos="24.6112" zpos="729.61" type="tt.mc.cm.rm.finish" GUID="cd5+be2OI0CQr7ANzHPJcg==" triggerRange="50" copy="[&amp;BEcAAAA=]" />
+        <POI MapID="35" xpos="-298.89" ypos="0.1112" zpos="877.01" type="tt.mc.cm.rm.finish" GUID="uRflcJgiTE+T7zapIlxIlg==" triggerRange="20" copy="[&amp;BEcAAAA=]" />
         <POI MapID="35" xpos="-352.593" ypos="24.6112" zpos="731.248" type="tt.mc.h.chm.finish_heart" GUID="7ORJlozsC0GkXKfGo/DoCg==" />
         <POI MapID="35" xpos="-351.658" ypos="8.96766" zpos="-339.161" type="tt.mc.h.chm.finish_heart" GUID="rhY0tTm41EalYS/i4vKkIQ==" />
         <POI MapID="35" xpos="-350.634" ypos="8.83936" zpos="-340.95" type="tt.mc.cm.wm.wparrow" GUID="0qSojZnceEa0UyDqembcTQ==" copy="[&amp;BEMAAAA=]" />
@@ -4675,7 +4676,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="-175.111" ypos="29.8802" zpos="-818.587" type="tt.mc.cm.mm.beetle" GUID="W/bQBcA2nkWIgaoij3nSfA==" />
         <POI MapID="35" xpos="-172.481" ypos="28.7445" zpos="-818.557" type="tt.mc.h.chm.finish_heart" GUID="4eKXDwlKiUikrOlRmtcsdA==" />
         <POI MapID="35" xpos="-170.472" ypos="28.8172" zpos="-828.013" type="tt.mc.h.chm.interact" GUID="l3S6hWtaNkm7dl7iL/WThw==" />
-        <POI MapID="35" xpos="-163.821" ypos="5.71764" zpos="815.58" type="tt.mc.hp.hpm" GUID="07nG+b7YTE2D/3XBMcbeHQ==" />
+        <POI MapID="35" xpos="-349.821" ypos="23.91764" zpos="730.78" type="tt.mc.hp.hpm" GUID="07nG+b7YTE2D/3XBMcbeHQ==" />
         <POI MapID="35" xpos="-148.954" ypos="9.28173" zpos="118.039" type="tt.mc.cm.rm.waypoints" GUID="zZswYt0YEEa9MTQi/44uqw==" />
         <POI MapID="35" xpos="-133.036" ypos="11.1104" zpos="115.998" type="tt.mc.cm.mm.raptor" GUID="GrTcu02CM0CGO9iuPp1Jsw==" />
         <POI MapID="35" xpos="-132.025" ypos="40.941" zpos="666.839" type="tt.mc.cm.mm.griffon" GUID="zG9F0lAj50yjqXt6HeaI7Q==" />
