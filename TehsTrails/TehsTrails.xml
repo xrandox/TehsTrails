@@ -4920,7 +4920,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="35" xpos="615.529" ypos="67.9751" zpos="987.83" type="tt.mc.h.chm.start_heart" GUID="0Q4GsEAFhEqbBPJQWUgM4w==" info="If you haven't finished inquest killing heart -&gt; complete it here" script-focus="Teh_HeartFollower(k+wyVi1/10C6KJERLSghxA==)" />
         <POI MapID="35" xpos="649.409" ypos="23.5685" zpos="-179.935" type="tt.mc.cm.mm.jackal" GUID="1NnXOb2wPU6Rf7/qr74klg==" />
         <POI MapID="35" xpos="652.207" ypos="22.7097" zpos="-184.617" type="tt.mc.cm.rm.points_of_interest" GUID="H8mcJFMM60O4H4yg70qTRw==" />
-
+        <POI MapID="35" xpos="609.243" ypos="67.6528" zpos="981.16" type="tt.mc.cm.rm.stealthmount" GUID="EZrahFkizUm9TGS6uTHUjQ==" />
 
 
 
