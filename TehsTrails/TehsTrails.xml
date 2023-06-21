@@ -4241,9 +4241,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="54" xpos="568.789" ypos="62.1262" zpos="352.951" type="tt.mc.h.chm.start_heart" GUID="dUMtp8DVb0uXbS2RbbhTTg==" info="Kill destroyers" script-focus="Teh_HeartFollower2(Q5US58UNiU6kATrQEpt50w==,85+3AhmIKU2jpegzj9C+bw==)" />
         <POI MapID="54" xpos="569.509" ypos="52.3722" zpos="180.439" type="tt.mc.cm.rm.waypoints" GUID="BADhDiqBJkWf6I1riewvGw==" />
         <POI MapID="54" xpos="582.227" ypos="54.9929" zpos="165.887" type="tt.mc.cm.wm.arrow" GUID="HxixbKaSlkSzGOEczDzS7g==" />
-        <POI MapID="54" xpos="589.614" ypos="59.7317" zpos="162.75" type="tt.mc.cm.mm.skyscale" GUID="KhmM2MRQfka2xlR1bJh+bw==" />
+        <POI MapID="54" xpos="589.814" ypos="56.7317" zpos="165.75" type="tt.mc.cm.mm.skyscale" GUID="KhmM2MRQfka2xlR1bJh+bw==" />
         <POI MapID="54" xpos="603.782" ypos="90.0598" zpos="188.901" type="tt.mc.cm.mm.raptor" GUID="/7hm5/VWK0KvmMNwBpniFg==" />
-        <POI MapID="54" xpos="614.032" ypos="66.2671" zpos="200.852" type="tt.mc.cm.mm.springer" GUID="Zr51TrigEkyohNyR2Mt2Ag==" />
         <POI MapID="54" xpos="615.348" ypos="61.2121" zpos="-32.1931" type="tt.mc.cm.rm.waypoints" GUID="izVrGryTPUS+unaadbXgng==" />
         <POI MapID="54" xpos="628.655" ypos="16.0576" zpos="-255.865" type="tt.mc.h.chm.start_heart" GUID="DQnLN17t+k2t+W9RPikINA==" info="Kill grubs, later deposit their meat" script-focus="Teh_HeartFollower(GFM/uqdy9EG18fw5pSuqDw==)" />
         <POI MapID="54" xpos="632.15" ypos="13.9081" zpos="-254.084" type="tt.mc.cm.mm.raptor" GUID="b5waqazTAUOdsHQq/FR9GA==" />
