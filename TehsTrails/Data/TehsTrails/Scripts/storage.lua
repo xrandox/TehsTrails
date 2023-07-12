@@ -9,7 +9,8 @@ Teh.storage = {
     bounceToggled = "true",
     highlightToggled = "true",
     hasSkyscale = "false",
-    trailColor = "Light Blue [Default]"
+    trailColor = "Light Blue [Default]",
+    firstLaunch = "true"
 }
 
 Debug:Watch("Storage", Teh.storage)
