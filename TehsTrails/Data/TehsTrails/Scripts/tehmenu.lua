@@ -1,4 +1,7 @@
 -- Click Functions
+local function toggleTutorial(menu)
+    Teh_ToggleTutorial()
+end
 
 local function newColor(menu)
     -- clear any other checked boxes
@@ -58,6 +61,15 @@ local function routeMarkerHighlight(menu)
     menu.Checked = Teh_GetBool("bounceToggled")
 end
 
+local function alternateMounts(menu)
+    Teh_AlternateMounts()
+    menu.Checked = Teh_GetBool("alternateMounts")
+end
+
+local function openShoppingList(menu)
+    Teh_ToggleShoppingList()
+end
+
 local function resetClicked(menu)
     if (Teh.bounce.isBouncing) then Teh_BounceReset() end
     if (Teh.heartfollower.isFollowing) then Teh_FollowerReset() end
@@ -67,6 +79,8 @@ end
 
 -- Creating Menu
 local mainMenu = Menu:Add("Tehs Trails", nil)
+
+local stut = mainMenu:Add("Show/Hide Tutorial", toggleTutorial, false, false, "Shows/Hides the pack tutorial. Make sure you're in a flat, open space!")
 
 -- Color menu
 local colorMenu = mainMenu:Add("Select Trail Color", nil, false, false, "Changes the color of the main trail")
@@ -96,6 +110,7 @@ heartFollowerMenu:Add("Enable Visible Heart Pointer", heartPointer, true, Teh_Ge
 -- Other options
 local ewh = mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_GetBool("highlightToggled"), "Adds a highlight around the waypoint you are supposed to teleport to. Highly recommended to leave this on")
 local rmh = mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_GetBool("bounceToggled"), "Adds a highlight and bounce effect to the route marker you are supposed to follow")
-
+local ami = mainMenu:Add("Enable Alternate Mount Icons", alternateMounts, true, Teh_GetBool("alternateMounts"), "Switches out the custom mount icons for the Anet icons")
+local ssl = mainMenu:Add("Open/Close Shopping List", openShoppingList, false, false, "Opens/Closes the shopping list with the items to buy for trading post hearts. Open away from NPCs!")
 -- Script reset
 local ras = mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked, false, false, "Resets all currently running scripts in case there is a malfunction")

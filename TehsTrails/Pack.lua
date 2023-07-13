@@ -23,6 +23,8 @@ if (Teh_VersionCheck()) then
     Pack:Require("Data/TehsTrails/Scripts/hpmarker.lua")
     Pack:Require("Data/TehsTrails/Scripts/follower.lua")
     Pack:Require("Data/TehsTrails/Scripts/tutorial.lua")
+    Pack:Require("Data/TehsTrails/Scripts/alternatemounts.lua")
+    Pack:Require("Data/TehsTrails/Scripts/shoppinglist.lua")
     Pack:Require("Data/TehsTrails/Scripts/tehmenu.lua")
     --Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua") used only when generating lookups
 
