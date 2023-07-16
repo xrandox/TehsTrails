@@ -58,6 +58,11 @@ local function mapIsIn(table, val)
     return false
 end
 
+-- Globally accessible version of above
+function Teh_MapIsIn(table, val)
+    return mapIsIn(table, val)
+end
+
 -- Creates invisable markers with the categories from a given table
 local function markerFromTable (table)
     -- Attributes to use for all the markers
