@@ -43,8 +43,6 @@ Teh.static = {
     }
 }
 
-Debug:Watch("static", Teh.static)
-
 local mapID = Mumble.CurrentMap.Id
 
 -- Returns true if a map ID is in the table of ID's

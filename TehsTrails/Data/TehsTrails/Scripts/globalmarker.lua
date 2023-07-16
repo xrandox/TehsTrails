@@ -6,7 +6,7 @@ Teh.globalmarker = {
     category = World:CategoryByType("tt.mc.cm.rm.points_of_interest")
 }
 
-Debug:Watch("Global_Marker", Teh.globalmarker)
+Debug:Watch("Teh_GlobalMarker", Teh.globalmarker)
 
 -- This function turns markers in the coordinate table to markers in the current map
 local function createGlobalMarkers()

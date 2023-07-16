@@ -3,7 +3,7 @@ Teh.versioncheck = {
     isGoodVersion = false
 }
 
-Debug:Watch("Version Check", Teh.versioncheck)
+Debug:Watch("Teh_VersionCheck", Teh.versioncheck)
 
 -- Minimum version numbers required
 local minMajor = 1

@@ -3,7 +3,7 @@ Teh.hpmarkers = {
     hpCategory = World:CategoryByType("tt.mc.hp")
 }
 
-Debug:Watch("HP Markers", Teh.hpmarkers)
+Debug:Watch("Teh_HPMarkers", Teh.hpmarkers)
 
 function Teh_HPMarker(marker, gameTime)
     if (Teh.hpmarkers.hpCategory:IsVisible() == false) then

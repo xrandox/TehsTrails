@@ -20,7 +20,7 @@ Teh.trailcolors = {
     }
 }
 
-Debug:Watch("Trail Colors", Teh.trailcolors)
+Debug:Watch("Teh_TrailColors", Teh.trailcolors)
 
 local mainTrail = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Vg==")
 local texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")

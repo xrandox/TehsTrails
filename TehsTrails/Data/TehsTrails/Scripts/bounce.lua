@@ -5,7 +5,7 @@ Teh.bounce = {
     timeSinceStarted = 0
 }
 
-Debug:Watch("bounce", Teh.bounce)
+Debug:Watch("Teh_Bounce", Teh.bounce)
 
 -- Reset the bouncing marker to normal
 function Teh_BounceReset()

@@ -10,7 +10,7 @@ Teh.highlight = {
     category = World:CategoryByType("tt.s.ewh")
 }
 
-Debug:Watch("highlight", Teh.highlight)
+Debug:Watch("Teh_Highlight", Teh.highlight)
 local MAX_SIZE = 200
 local MIN_SIZE = 100
 

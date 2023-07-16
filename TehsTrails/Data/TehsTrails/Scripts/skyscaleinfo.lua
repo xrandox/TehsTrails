@@ -3,7 +3,7 @@ Teh.skyscale = {
     notOnSkyscale = true
 }
 
-Debug:Watch("Skyscale Info", Teh.skyscale)
+Debug:Watch("Teh_SkyscaleInfo", Teh.skyscale)
 
 local skyscaleMarkers = World:CategoryByType("tt.mc.cm.mm.skyscale"):GetMarkers()
 

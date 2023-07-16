@@ -7,7 +7,7 @@ Teh.heartfollower = {
     originalMarker = nil,
 }
 
-Debug:Watch("heartfollower", Teh.heartfollower)
+Debug:Watch("Teh_HeartFollower", Teh.heartfollower)
 
 local category = World:CategoryByType("tt.s.tgsp")
 

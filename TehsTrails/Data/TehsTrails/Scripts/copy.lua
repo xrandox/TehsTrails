@@ -15,7 +15,7 @@ Teh.copy = {
     }
 }
 
-Debug:Watch("copy", Teh.copy)
+Debug:Watch("Teh_Copy", Teh.copy)
 
 -- Preload the visibility values to our internal table
 local c = Teh.copy.categoriesToWatch

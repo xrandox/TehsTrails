@@ -14,7 +14,7 @@ Teh.storage = {
     alternateMounts = "false"
 }
 
-Debug:Watch("Storage", Teh.storage)
+Debug:Watch("Teh_Storage", Teh.storage)
 
 -- Load defaults on startup
 for key, _ in pairs(Teh.storage) do

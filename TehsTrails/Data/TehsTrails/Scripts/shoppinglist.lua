@@ -22,7 +22,7 @@ Teh.shoppinglist = {
     shown = false
 }
 
-Debug:Watch("shoppinglist", Teh.shoppinglist)
+Debug:Watch("Teh_ShoppingList", Teh.shoppinglist)
 
 local function spawnShoppingList()
     local pPos = Mumble.PlayerCharacter.Position

@@ -16,7 +16,7 @@ Teh.alternatemounts = {
     isSwitched = false
 }
 
-Debug:Watch("alternatemounts", Teh.alternatemounts)
+Debug:Watch("Teh_AlternateMounts", Teh.alternatemounts)
 
 -- Function to actually change the mount icons
 local function switchMounts()
