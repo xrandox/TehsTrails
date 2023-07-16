@@ -27,6 +27,11 @@ local texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")
 
 -- Change the color of the main trail to the requested color name
 function Teh_ChangeColor(name)
+    if (mainTrail == nil) then
+        Debug:Error("Failed to change trail color: Could not get reference to main trail")
+        return
+    end
+
     for _, value in ipairs(Teh.trailcolors.colors) do
         if (value[1] == name) then
             mainTrail.Tint = value[2]
