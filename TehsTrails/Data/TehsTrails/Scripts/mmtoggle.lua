@@ -2,6 +2,10 @@ local mainTrail = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Vg==")
 local heartZone = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Pg==")
 
 function Teh_SetMinimapVisibility()
+    if (mainTrail == nil) then
+        Debug:Warn("Could not find reference to Main Trail on the current map: " .. Mumble.CurrentMap.Id)
+        return
+    end
     mainTrail.MiniMapVisibility = Teh_GetBool("minimapToggled")
 end
 
