@@ -13,6 +13,7 @@ local MARKER_CATALOG = {
         iconFile = { "Data/TehsTrails/Markers/Start.png", "Data/TehsTrails/Markers/ExitMap.png", "Data/TehsTrails/Markers/Start.png" },
         iconSize = { 1, 1, 1 },
         copy = { "", "", "https://github.com/xrandox/TehsTrails/wiki/Map-Starting-Points-and-%22Intended%22-Map-Order" },
+        copyMessage = "Wiki link copied to clipboard",
         maxPages = 3
     },
     {
@@ -23,6 +24,7 @@ local MARKER_CATALOG = {
         iconFile = { "Data/TehsTrails/Markers/scripts.png", "Data/TehsTrails/Markers/scripts.png" },
         iconSize = { 1, 1 },
         copy = { "", "" },
+        copyMessage = "",
         maxPages = 2
     },
     {
@@ -34,6 +36,7 @@ local MARKER_CATALOG = {
         iconFile = { "Data/TehsTrails/Markers/Renown_Heart_empty.png", "Data/TehsTrails/Markers/HeartZone.png", "Data/TehsTrails/Markers/HeartTrail.png"},
         iconSize = { 0.8, 0.8, 1 },
         copy = { "", "", "" },
+        copyMessage = "",
         maxPages = 3
     },
     {
@@ -46,6 +49,7 @@ local MARKER_CATALOG = {
         iconFile = { "Data/TehsTrails/Markers/skyscale.png", "Data/TehsTrails/Markers/DismountToGriff.png", "Data/TehsTrails/Markers/glidebooster.png", "Data/TehsTrails/Markers/StealthMount.png" },
         iconSize = { 1.2, 1.5, 1, 1 },
         copy = { "", "", "", "" },
+        copyMessage = "",
         maxPages = 4
     },
     {
@@ -57,6 +61,7 @@ local MARKER_CATALOG = {
         iconFile = { "Data/TehsTrails/Markers/BunnyToGriff.png", "Data/TehsTrails/Markers/BunnyToGriff.png", "Data/TehsTrails/Markers/BunnyToGriff.png"},
         iconSize = { 1.5, 1.5, 1.5 },
         copy = { "", "", "https://streamable.com/6udtba" },
+        copyMessage = "Video link copied to clipboard",
         maxPages = 3
     },
     {
@@ -68,6 +73,7 @@ local MARKER_CATALOG = {
         iconFile = {"Data/TehsTrails/Markers/JackalLaunch.png", "Data/TehsTrails/Markers/JLTut.png", "Data/TehsTrails/Markers/JackalLaunch.png"},
         iconSize = { 1.5, 2.5, 1.5 },
         copy = { "", "", "https://www.youtube.com/watch?v=BsFiWgqBnPA" },
+        copyMessage = "Video link copied to clipboard",
         maxPages = 3
     },
     {
@@ -78,6 +84,7 @@ local MARKER_CATALOG = {
         iconFile = {"Data/TehsTrails/Markers/Trading_Post.png", "Data/TehsTrails/Markers/Trading_Post.png"},
         iconSize = { 1.2, 1.2 },
         copy = { "", "" },
+        copyMessage = "",
         maxPages = 2
     },
     {
@@ -89,6 +96,7 @@ local MARKER_CATALOG = {
         iconFile = {"Data/TehsTrails/Markers/deadeye.png", "Data/TehsTrails/Markers/deadeye.png", "Data/TehsTrails/Markers/deadeye.png"},
         iconSize = { 1.2, 1.2, 1.2 },
         copy = { "[&DQUcLiMbOioKAQAAMwEAAFgBAABYAAAAnwEAAAAAAAAAAAAAAAAAAAAAAAA=]", "", "" },
+        copyMessage = "Build Template code copied to clipboard",
         maxPages = 3
     },
     {
@@ -100,6 +108,7 @@ local MARKER_CATALOG = {
         iconFile = {"Data/TehsTrails/Markers/condistacking.png", "Data/TehsTrails/Markers/condistacking.png", "Data/TehsTrails/Markers/condistacking.png"},
         iconSize = { 1, 1, 1 },
         copy = { "", "", "[&DQUcGyw9OikKAQoBLwEvAT4BPgELAVgBnwEoAAAAAAAAAAAAAAAAAAAAAAA=]" },
+        copyMessage = "Build Template code copied to clipboard",
         maxPages = 3
     },
     {
@@ -109,6 +118,7 @@ local MARKER_CATALOG = {
         iconFile = {"Data/TehsTrails/Markers/discord.png"},
         iconSize = { 0.9 },
         copy = { "https://discord.gg/bJV6VXT" },
+        copyMessage = "Discord link copied to clipboard",
         maxPages = 1
     },
     {
@@ -121,6 +131,7 @@ local MARKER_CATALOG = {
         iconFile = {"Data/TehsTrails/Markers/Trail.png", "Data/TehsTrails/Markers/Trail.png", "Data/TehsTrails/Markers/Trail.png", "Data/TehsTrails/Markers/Trail.png" },
         iconSize = { 0.6, 0.6, 0.6, 0.6 },
         copy = { "", "", "", "" },
+        copyMessage = "",
         maxPages = 4
     },
 }
@@ -163,6 +174,7 @@ local function showTutorial()
             InfoRange = INFO_RANGE,
             type = MARKER_CATEGORY,
             copy = MARKER_CATALOG[i].copy[1],
+            ["copy-message"] = MARKER_CATALOG[i].copyMessage,
             ["script-trigger"] = "Teh_Infoflip(" .. i .. ")"
         }
 
@@ -218,3 +230,13 @@ function Teh_ToggleTutorial()
         showTutorial()
     end
 end
+
+local function tutorialTickHandler(gametime)
+    if (Teh.tutorial.shown) then
+        if ((Mumble.PlayerCharacter.Position - Teh.tutorial.origin):Length() > 35) then
+            hideTutorial()
+        end
+    end
+end
+
+Event:OnTick(tutorialTickHandler)
