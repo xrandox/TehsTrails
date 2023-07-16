@@ -1,23 +1,27 @@
 Teh = {}
+TehsTrailsVersion = "Beta v6"
+
+Debug:Print("Pathing Version: v" .. PathingVersion)
+Debug:Print("TehsTrails Version: " .. TehsTrailsVersion)
+Debug:Print("Map: " .. Mumble.CurrentMap.Id)
 
 -- First, hide the script reminders category (if the script runs, that means you have scripts enabled and dont need a reminder!)
-World.CategoryByType("tt.mc.cm.se"):Hide()
+World:CategoryByType("tt.mc.cm.se"):Hide()
 
 -- Very next thing: do a version check
 Pack:Require("Data/TehsTrails/Scripts/versioncheck.lua")
 
 -- If the version check is good, then we load everything else
-
 if (Teh_VersionCheck()) then
     -- Load storage first
     Pack:Require("Data/TehsTrails/Scripts/storage.lua")
     Pack:Require("Data/TehsTrails/Scripts/trailcolors.lua")
     Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
+    Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
     Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
     Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
     Pack:Require("Data/TehsTrails/Scripts/mmtoggle.lua")
     Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
-    Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
     Pack:Require("Data/TehsTrails/Scripts/copy.lua")
     Pack:Require("Data/TehsTrails/Scripts/skyscaleinfo.lua")
     Pack:Require("Data/TehsTrails/Scripts/hpmarker.lua")
