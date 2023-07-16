@@ -52,6 +52,10 @@ end
 
 -- Toggles global markers on and off
 function Teh_ToggleGlobalMarker()
+    if (Teh_MapIsIn(Teh.static.maps.core, Mumble.CurrentMap.Id) == false) then
+        Debug:Warn("Could not manipulate global markers, current map " .. Mumble.CurrentMap.Id .. " is not in Core Tyria")
+        return
+    end
     if (Teh_GetBool("globalMarkersToggled")) then
         createGlobalMarkers()
     else
