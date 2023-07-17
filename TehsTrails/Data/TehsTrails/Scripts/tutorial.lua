@@ -95,7 +95,7 @@ local MARKER_CATALOG = {
         },
         iconFile = {"Data/TehsTrails/Markers/deadeye.png", "Data/TehsTrails/Markers/deadeye.png", "Data/TehsTrails/Markers/deadeye.png"},
         iconSize = { 1.2, 1.2, 1.2 },
-        copy = { "[&DQUcLiMbOioKAQAAMwEAAFgBAABYAAAAnwEAAAAAAAAAAAAAAAAAAAAAAAA=]", "", "" },
+        copy = { "[&DQUcLiw7OioMAQoBMwEzAVgBWAFYABkBnwEoAAAAAAAAAAAAAAAAAAAAAAACVQBrAAA=]", "", "" },
         copyMessage = "Build Template code copied to clipboard",
         maxPages = 3
     },
