@@ -6,6 +6,7 @@ local MOUNT_IDS = {
     ["skimmer"] = 2179791,
     ["skyscale"] = 2141699,
     ["springer"] = 2179790,
+    ["griffon"] = 1824207
 }
 
 local PARENT_CATEGORIES = { "tt.mc.cm.mm.", "tt.hot.cm.mm.", "tt.pof.cm.mm.", "tt.eod.cm.mm." }
