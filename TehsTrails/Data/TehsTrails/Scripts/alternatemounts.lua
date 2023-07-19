@@ -8,7 +8,7 @@ local MOUNT_IDS = {
     ["springer"] = 2179790,
 }
 
-local PARENT_CATEGORY = "tt.mc.cm.mm."
+local PARENT_CATEGORIES = { "tt.mc.cm.mm.", "tt.hot.cm.mm.", "tt.pof.cm.mm.", "tt.eod.cm.mm." }
 local PARENT_PATH = "Data/TehsTrails/Markers/"
 local PATH_END = ".png"
 
@@ -20,15 +20,17 @@ Debug:Watch("Teh_AlternateMounts", Teh.alternatemounts)
 
 -- Function to actually change the mount icons
 local function switchMounts()
-    for mountName, id in pairs(MOUNT_IDS) do
-        local mountCategory = World:CategoryByType(PARENT_CATEGORY .. mountName)
-        local mountMarkers = mountCategory:GetMarkers()
-        if (mountMarkers ~= nil) then
-            for _, marker in pairs(mountMarkers) do
-                if (Teh.alternatemounts.isSwitched) then
-                    marker:SetTexture(id)
-                else
-                    marker:SetTexture(PARENT_PATH .. mountName .. PATH_END)
+    for _, value in ipairs(PARENT_CATEGORIES) do
+        for mountName, id in pairs(MOUNT_IDS) do
+            local mountCategory = World:CategoryByType(value .. mountName)
+            local mountMarkers = mountCategory:GetMarkers()
+            if (mountMarkers ~= nil) then
+                for _, marker in pairs(mountMarkers) do
+                    if (Teh.alternatemounts.isSwitched) then
+                        marker:SetTexture(id)
+                    else
+                        marker:SetTexture(PARENT_PATH .. mountName .. PATH_END)
+                    end
                 end
             end
         end
