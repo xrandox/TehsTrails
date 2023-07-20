@@ -5,15 +5,14 @@ Currently contains trails for:
 - Core Tyria Map Completion
 - End of Dragons Map Completion
 - End of Dragons Lanterns
-- End of Dragons Hero Points
 - Heart of Thorns Map Completion (VB/AB Only)
-- Rough Trails for HoT/PoF HP trails
 
 In the works:
+- Revamp of Core Tyria
+
+Shelved until further notice:
 - Heart of Thorns Map Completion (2/4 remaining)
-- Proper release of HoT/PoF HP Trails
 - Path of Fire Map Completion
-- Revamp of Core Tyria for new EoD masteries
 
 ### Latest Pack Download Link: [TehsTrails.taco](https://github.com/xrandox/TehsTrails/raw/main/TehsTrails/TehsTrails.taco)
 
@@ -45,17 +44,6 @@ With EoD we got a new way to do repeatable map comp -- Jade Lanterns. Lanterns a
 - The Echovald Wilds: ~25 min
 - Dragons End: ~20 min
 
-***
-
-### End of Dragons Hero Points Only
-This routing is for those who want to quickly unlock elite specs. It provides trails to all HP's in EoD. Stealth is highly recommended to stealth commune and not need to fight the elites that guard most HP's. Otherwise, bring a decent single target build to nuke the elites before you commune. 
-
-***
-
-### Hero Point Trails
-*Warning! This pack is still very rough, I haven't had a chance to give it much attention since I created it over two years ago.*
-
-A collection of trails for the routes I used to use for my Hero Point Trains in HoT and PoF maps. Path of Fire can easily be used to quickly get an elite spec solo (~1-2 hours). It's recommend to bring some friends if you intend to do the Heart of Thorns HP's, as some can be difficult to solo. 
 
 ***
 
