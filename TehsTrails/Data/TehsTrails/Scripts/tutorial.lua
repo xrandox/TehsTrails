@@ -41,9 +41,9 @@ local MARKER_CATALOG = {
     },
     {
         info = {
-            "Skyscale is used frequently to gain height for griffon dives\n\nThere's no real trick behind this since Anet made the change to allow midair dismounting\n\nDodges (and bond of vigor) can be used to gain slightly higher altitude quicker than you could by just flying up, that's about it\n\n(Press F to flip to the next page)",
+            "Skyscale is used frequently to gain height for griffon dives\n\nThere's no real trick behind this since Anet made the change to allow midair dismounting\n\nSpamming dodges with your camera angled up while also holding spacebar to climb can be used to gain slightly higher altitude quicker than you could by just flying up, that's about it\n\n(Press F to flip to the next page)",
             "This marker signifies when you should dismount from Skyscale and swap to griffon\n\nThis allows you to superdive where you might not otherwise have the clearance\n\n(Press F to flip to the next page)",
-            "For the most part, you can usually substitute B2G (see marker to left) in place of Skyscale, although not always\n\nYou can also make use of Glide Booster (Jade Bot required) to gain even more height if needed, or in place of B2G if you have T3\n\nWe recommend using Glide Booster and Mount Energy upgrades for your jade bot if possible. They make a big difference!\n\n(Press F to flip to the next page)",
+            "If you dont have skyscale you can usually use B2G (see marker to left) instead, although not always\n\nYou can also make use of Glide Booster (Jade Bot required) to gain even more height if needed, or in place of B2G if you have T3\n\nWe recommend using Glide Booster and Mount Energy upgrades for your jade bot if possible. They make a big difference!\n\n(Press F to flip to the next page)",
             "Finally, you may occasionally see this marker in places with lots of enemies where you don't want to be put in combat. It just means to use the Stealth mount mastery\n\n(Press F to return to the first page)"
         },
         iconFile = { "Data/TehsTrails/Markers/skyscale.png", "Data/TehsTrails/Markers/DismountToGriff.png", "Data/TehsTrails/Markers/glidebooster.png", "Data/TehsTrails/Markers/StealthMount.png" },
@@ -233,7 +233,7 @@ end
 
 local function tutorialTickHandler(gametime)
     if (Teh.tutorial.shown) then
-        if ((Mumble.PlayerCharacter.Position - Teh.tutorial.origin):Length() > 35) then
+        if ((Mumble.PlayerCharacter.Position - Teh.tutorial.origin):Length() > 50) then
             hideTutorial()
         end
     end
