@@ -42,3 +42,5 @@ function Teh_ChangeColor(name)
         end
     end
 end
+
+Teh_ChangeColor(Teh.storage.trailColor)

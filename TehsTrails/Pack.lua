@@ -32,8 +32,6 @@ if (Teh_VersionCheck()) then
     Pack:Require("Data/TehsTrails/Scripts/tehmenu.lua")
     --Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua") used only when generating lookups
 
-    Teh_ChangeColor(Teh.storage.trailColor)
-
     local function tickHandler(gameTime)
 
         if (Teh.highlight.waypointHighlighted) then
