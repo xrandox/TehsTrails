@@ -11,8 +11,8 @@ Teh.highlight = {
 }
 
 Debug:Watch("Teh_Highlight", Teh.highlight)
-local MAX_SIZE = 200
-local MIN_SIZE = 100
+local MAX_SIZE = 150
+local MIN_SIZE = 75
 
 -- Resets the highlight
 function Teh_HighlightReset()
@@ -107,10 +107,10 @@ function Teh_HighlightTickHandler(gameTime)
     if (size < MIN_SIZE) then growing = true end
     Teh.highlight.sizeGrowing = growing
 
-    Teh.highlight.currentWaypoint.MapDisplaySize = size
+    Teh.highlight.currentWaypoint.MapDisplaySize = size * Mumble.UI.MapScale
     -- If optional waypoint, we have to grow/shrink that too
     if (Teh.highlight.optionalWaypoint ~= nil) then
-        Teh.highlight.optionalWaypoint.MapDisplaySize = size
+        Teh.highlight.optionalWaypoint.MapDisplaySize = size * Mumble.UI.MapScale
     end
 end
 
