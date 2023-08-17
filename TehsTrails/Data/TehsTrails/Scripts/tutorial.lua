@@ -30,14 +30,15 @@ local MARKER_CATALOG = {
     {
         info = {
             "This marker shows you when you should start completing a heart\n\nAlmost always, there will be a textbox with it telling you the fastest ways to complete the heart\n\nIt will follow you around and point to the finish marker so you can easily get back on track. This can be toggled in the script menu\n\n(Press F to flip to next page)",
+            "You may see this marker occasionally at hearts. Many heart interactables can have their channel time interrupted by weaponswapping, and still grant credit. This allows you to interact with an object, weaponswap, and move on to the next one without needing to wait for the channel to complete\n\n(Press F to flip to next page)",
             "Sometimes you will see areas outlined with walls that look like this, these are hotspots to complete hearts\n\n(Press F to flip to next page)",
             "Some hearts also have separate trails, which look like this, to follow when completing the heart\n\n(Press F to return to the first page)"
         },
-        iconFile = { "Data/TehsTrails/Markers/Renown_Heart_empty.png", "Data/TehsTrails/Markers/HeartZone.png", "Data/TehsTrails/Markers/HeartTrail.png"},
-        iconSize = { 0.8, 0.8, 1 },
-        copy = { "", "", "" },
+        iconFile = { "Data/TehsTrails/Markers/Renown_Heart_empty.png", "Data/TehsTrails/Markers/WeaponSwap.png", "Data/TehsTrails/Markers/HeartZone.png", "Data/TehsTrails/Markers/HeartTrail.png"},
+        iconSize = { 0.8, 0.8, 0.8, 1 },
+        copy = { "", "", "", "" },
         copyMessage = "",
-        maxPages = 3
+        maxPages = 4
     },
     {
         info = {
