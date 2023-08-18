@@ -21,9 +21,7 @@ Teh.trailcolors = {
 }
 
 Debug:Watch("Teh_TrailColors", Teh.trailcolors)
-
 local mainTrail = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Vg==")
-local texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")
 
 -- Change the color of the main trail to the requested color name
 function Teh_ChangeColor(name)
@@ -35,7 +33,7 @@ function Teh_ChangeColor(name)
     for _, value in ipairs(Teh.trailcolors.colors) do
         if (value[1] == name) then
             mainTrail.Tint = value[2]
-            mainTrail.Texture = texture
+            mainTrail.Texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")
             mainTrail.TrailSampleColor = value[2]
             mainTrail.InGameVisibility = true
             Teh_SaveValue("trailColor", name)

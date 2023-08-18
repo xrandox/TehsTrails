@@ -14,6 +14,11 @@ Debug:Watch("Teh_Highlight", Teh.highlight)
 local MAX_SIZE = 150
 local MIN_SIZE = 75
 
+local cat = World:CategoryByType("tt.mc.cm.nwm")
+if (cat:IsVisible() == false) then
+    cat:Show()
+end
+
 -- Resets the highlight
 function Teh_HighlightReset()
     local waypoint = Teh.highlight.currentWaypoint

@@ -1,5 +1,5 @@
 Teh = {}
-TehsTrailsVersion = "Release v4.0.0"
+TehsTrailsVersion = "Release v4.0.1"
 
 Debug:Print("Pathing Version: v" .. PathingVersion)
 Debug:Print("TehsTrails Version: " .. TehsTrailsVersion)
@@ -14,12 +14,18 @@ Pack:Require("Data/TehsTrails/Scripts/versioncheck.lua")
 -- If the version check is good, then we load everything else
 if (Teh_VersionCheck()) then
     -- Load storage first
+    Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
+
+    if (Teh_MapIsIn(Teh.static.maps.all, Mumble.CurrentMap.Id) == false) then
+        Debug:Print('Not in a map the pack is in. Stopped loading TehsTrails scripts.')
+        return
+    end
+
     Pack:Require("Data/TehsTrails/Scripts/storage.lua")
     Pack:Require("Data/TehsTrails/Scripts/trailcolors.lua")
     Pack:Require("Data/TehsTrails/Scripts/alternatemounts.lua")
     Pack:Require("Data/TehsTrails/Scripts/mmtoggle.lua")
     Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
-    Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
     Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
     Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
     Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
@@ -50,6 +56,7 @@ if (Teh_VersionCheck()) then
 
         Teh_CopyTickHandler()
 
+        Teh_TutorialTickHandler(gameTime)
     end
 
     --Teh_Convert_Markers() used only when generating lookups
