@@ -9,7 +9,7 @@ Teh.heartfollower = {
 
 Debug:Watch("Teh_HeartFollower", Teh.heartfollower)
 
-local category = World:CategoryByType("tt.s.tgsp")
+local category = World:CategoryByType("tt.mc")
 
 --Creates a follower targeting the specified target GUID
 local function createFollower(heartMarker, targetGuid)
