@@ -232,12 +232,10 @@ function Teh_ToggleTutorial()
     end
 end
 
-local function tutorialTickHandler(gametime)
+function Teh_TutorialTickHandler(gametime)
     if (Teh.tutorial.shown) then
         if ((Mumble.PlayerCharacter.Position - Teh.tutorial.origin):Length() > 50) then
             hideTutorial()
         end
     end
 end
-
-Event:OnTick(tutorialTickHandler)

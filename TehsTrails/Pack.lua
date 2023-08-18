@@ -56,6 +56,7 @@ if (Teh_VersionCheck()) then
 
         Teh_CopyTickHandler()
 
+        Teh_TutorialTickHandler(gameTime)
     end
 
     --Teh_Convert_Markers() used only when generating lookups
