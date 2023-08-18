@@ -14,12 +14,18 @@ Pack:Require("Data/TehsTrails/Scripts/versioncheck.lua")
 -- If the version check is good, then we load everything else
 if (Teh_VersionCheck()) then
     -- Load storage first
+    Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
+
+    if (Teh_MapIsIn(Teh.static.maps.all, Mumble.CurrentMap.Id) == false) then
+        Debug:Print('Not in a map the pack is in. Stopped loading TehsTrails scripts.')
+        return
+    end
+
     Pack:Require("Data/TehsTrails/Scripts/storage.lua")
     Pack:Require("Data/TehsTrails/Scripts/trailcolors.lua")
     Pack:Require("Data/TehsTrails/Scripts/alternatemounts.lua")
     Pack:Require("Data/TehsTrails/Scripts/mmtoggle.lua")
     Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
-    Pack:Require("Data/TehsTrails/Scripts/staticcategories.lua")
     Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
     Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
     Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
