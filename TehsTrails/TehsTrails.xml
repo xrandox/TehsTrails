@@ -550,6 +550,70 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		</MarkerCategory>
 
 
+	<!--=======================================================================================================================================================================-->	
+	<!--==                                                                        SECRETS OF THE OBSCURE MAP COMP                                                            ==-->
+	<!--=======================================================================================================================================================================-->
+	<MarkerCategory name="sotos" DisplayName="     |===Secrets of the Obscure===|     " isseparator="1"/>
+	<MarkerCategory name="soto" DisplayName="Map Completion (BHUD Only)">
+
+		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                        Marker Organization                                                                        ==-->
+	<!--=======================================================================================================================================================================-->
+		<MarkerCategory name="cm" DisplayName="Common Markers">
+		
+			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
+				<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
+				<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
+				<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1" triggerRange="25" />
+				<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
+				<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
+				<MarkerCategory name="bov" DisplayName="Bond of Vigor" iconFile="Data/TehsTrails/Markers/BondofVigor.png" iconSize="0.8"/>
+				<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
+				<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
+				<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" iconSize="0.5"/>
+				<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" iconSize="0.5"/>
+				<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" iconSize="0.5"/>
+				<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
+				<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+				<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+				<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+				<MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png" iconSize="0.5"/>
+				<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
+				<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" iconSize="0.5"/>
+				<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+				<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+			</MarkerCategory>
+
+			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
+				 <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
+				 <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
+				<MarkerCategory name="skimmer" DisplayName="Skimmer" iconFile="Data/TehsTrails/Markers/Skimmer.png"/>
+				 <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
+				 <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
+				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
+				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
+				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+			</MarkerCategory>
+
+			<MarkerCategory name="wm" DisplayName="Waypoint Markers (Requires Scripts)" autoTrigger="1">
+				<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1" mapVisibility="0" miniMapVisibility="0"/>
+				<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
+	<!--=======================================================================================================================================================================-->
+		<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
+		<MarkerCategory name="caution" DisplayName="Caution Trail" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0" iswall="1" texture="Data/TehsTrails/Markers/caution.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
+	</MarkerCategory>
+
+
 
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                               CREDITS                                                                             ==-->
@@ -9435,5 +9499,131 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
 		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
 		
+
+	<!--=======================================================================================================================================================================-->	
+	<!--==                                                                 SECRETS OF THE OBSCURE MAP COMP                                                                   ==-->
+	<!--=======================================================================================================================================================================-->
+	<!--SKYWATCH ARCHIPELAGO MARKERS-->
+		<POI MapID="1510" xpos="886.561" ypos="133.644" zpos="-356.871" type="tt.soto.cm.rm.start" GUID="M2g/9ZZ5qUm9zPoWhV09fw==" info="This is the start of Teh's Trails - SotO - Map Completion!&#xA;&#xA;Please note: this pack is very griffon and skyscale intensive. You MUST have those two mounts. You also need Jade Waypoint and prototype position rewinder. The routing is very fast, but can be challenging if you are not a skilled griffon flier. Good luck!"/>
+		<POI MapID="1510" xpos="879.456" ypos="133.548" zpos="-387.338" type="tt.soto.cm.mm.skyscale" GUID="yScYbUN86E6AzEgQMWDUgQ=="/>
+		<POI MapID="1510" xpos="850.867" ypos="158.33" zpos="-487.401" type="tt.soto.cm.rm.points_of_interest" GUID="G1+RpKfIgkqk1sodHQr1EQ=="/>
+		<POI MapID="1510" xpos="856.139" ypos="158.33" zpos="-480.614" type="tt.soto.cm.mm.jackal" GUID="6+81s4ZITkivjFe9qgQMLA=="/>
+		<POI MapID="1510" xpos="954.033" ypos="128.296" zpos="-486.141" type="tt.soto.cm.rm.points_of_interest" GUID="t4SGg8K2SketBdksXSz4sw=="/>
+		<POI MapID="1510" xpos="960.094" ypos="134.182" zpos="-449.922" type="tt.soto.cm.mm.skyscale" GUID="2wyiOu8eNk2HVLMTkZq1Zg=="/>
+		<POI MapID="1510" xpos="979.743" ypos="144.156" zpos="-452.8" type="tt.soto.cm.mm.jackal" GUID="8/wvklFq5EeWGmsK0ZYtag=="/>
+		<POI MapID="1510" xpos="1026.33" ypos="143.752" zpos="-427.78" type="tt.soto.cm.rm.points_of_interest" GUID="bGnOd4FD+U2WQddRYZO4rg=="/>
+		<POI MapID="1510" xpos="981.067" ypos="144.475" zpos="-417.137" type="tt.soto.cm.mm.skyscale" GUID="38uKAiS0B02fC/nZ51RPkQ=="/>
+		<POI MapID="1510" xpos="983.454" ypos="143.777" zpos="-408.056" type="tt.soto.cm.rm.points_of_interest" GUID="Da6dVqsHqE+GKmSvAjOeZQ=="/>
+		<POI MapID="1510" xpos="988.255" ypos="176.593" zpos="-340.419" type="tt.soto.cm.rm.vistas" GUID="JjrAZDMYeUGGu1Brbjv6Tw=="/>
+		<POI MapID="1510" xpos="985.115" ypos="175.701" zpos="-339.481" type="tt.soto.cm.mm.skyscale" GUID="OA+yz2FW10+FTiCzRjKsMw=="/>
+		<POI MapID="1510" xpos="795.066" ypos="208.644" zpos="-264.865" type="tt.soto.cm.rm.ppr_m" GUID="v0RQXxglG0aJLPjzaRGKqQ=="/>
+		<POI MapID="1510" xpos="780.404" ypos="75.9814" zpos="-225.45" type="tt.soto.cm.rm.points_of_interest" GUID="oAZIj9ELuECzAhmyfs29Hw=="/>
+		<POI MapID="1510" xpos="783.388" ypos="76.1693" zpos="-224.851" type="tt.soto.cm.rm.ppr_r" GUID="P7jEINdsdESJ7w+S2fUhAg=="/>
+		<POI MapID="1510" xpos="800.659" ypos="208.644" zpos="-262.824" type="tt.soto.cm.mm.skyscale" GUID="qvKQVtqDB061Aye2kzdSWQ==" info="Save your Bond of Vigor until you see the marker for it"/>
+		<POI MapID="1510" xpos="627.836" ypos="244.062" zpos="-134.37" type="tt.soto.cm.rm.points_of_interest" GUID="tlvcTPsrFUKeF1VMCyMpZQ=="/>
+		<POI MapID="1510" xpos="798.78" ypos="208.788" zpos="-288.609" type="tt.soto.cm.rm.points_of_interest" GUID="+JA/IZmuck6cLhWhFy4SRg=="/>
+		<POI MapID="1510" xpos="504.312" ypos="276.432" zpos="-56.7841" type="tt.soto.cm.rm.points_of_interest" GUID="MOGE6SjLKk2DD/FgnfTmNQ=="/>
+		<POI MapID="1510" xpos="498.524" ypos="386.476" zpos="16.3374" type="tt.soto.cm.rm.vistas" GUID="3ktvRmugcku4vkKxkuobWg=="/>
+		<POI MapID="1510" xpos="497.736" ypos="385.837" zpos="14.3824" type="tt.soto.cm.mm.skyscale" GUID="G/QGj+WUZ0iKJxpby+0AYQ=="/>
+		<POI MapID="1510" xpos="456.588" ypos="425.712" zpos="-75.2076" type="tt.soto.cm.mm.skyscale" GUID="5kWs3iJTnEOMlCFAy+a6og==" info="Wait for full endurance. Double dodge -> BoV -> Double dodge"/>
+		<POI MapID="1510" xpos="467.083" ypos="449.514" zpos="-194.293" type="tt.soto.cm.rm.bov" GUID="zSn1qjVCs0e2EJygRGRG7A=="/>
+		<POI MapID="1510" xpos="420.622" ypos="523.554" zpos="-264.605" type="tt.soto.cm.rm.points_of_interest" GUID="JRpwvFKW1Eyv7T5/Uk3uuA=="/>
+		<POI MapID="1510" xpos="479.869" ypos="538.629" zpos="-168.223" type="tt.soto.cm.mm.griffon" GUID="g8nVL8BmtUyjUEpAor9hcQ==" info="Hey, listen!&#xA;&#xA;This is the first use of an 'oob' warp. If you go out of bounds, the game teleports you back to the last place you were touching the ground. We can use that to have extremely long griffon flights and then teleport right back to where we started, which is very useful in maps like this.&#xA;&#xA;It is VERY important that you don't touch the ground! You can place a PPR just in case you bonk at the very beginning, but it won't last long enough to save you if you bonk later on!&#xA;&#xA;No pressure!"/>
+		<POI MapID="1510" xpos="607.795" ypos="347.21" zpos="-0.841406" type="tt.soto.cm.rm.points_of_interest" GUID="lOe8gM3ieEK94t4iBgHQKA=="/>
+		<POI MapID="1510" xpos="770.018" ypos="313.753" zpos="59.388" type="tt.soto.cm.rm.points_of_interest" GUID="KotoTr35GE2IzooroCvrPw=="/>
+		<POI MapID="1510" xpos="825.86" ypos="349.553" zpos="267.28" type="tt.soto.cm.rm.points_of_interest" GUID="8/vRHPbmME2NkCzfzYY8Xg=="/>
+		<POI MapID="1510" xpos="1022.6" ypos="339.266" zpos="330.287" type="tt.soto.cm.rm.points_of_interest" GUID="tg1ZMmkG7kim4m4QyRcmAA=="/>
+		<POI MapID="1510" xpos="970.676" ypos="273.73" zpos="23.0841" type="tt.soto.cm.rm.points_of_interest" GUID="m1rYHo7BqE66D7lU5HqyEA=="/>
+		<POI MapID="1510" xpos="985.703" ypos="198.382" zpos="-90.1805" type="tt.soto.cm.rm.points_of_interest" GUID="YxVOUDl1wkKumCbIvPbh3g=="/>
+		<POI MapID="1510" xpos="975.609" ypos="193.433" zpos="-111.51" type="tt.soto.cm.rm.waypoints" GUID="Fr04RkgdYU6SnSlHqE8iaQ=="/>
+		<POI MapID="1510" xpos="430.108" ypos="549.623" zpos="-190.828" type="tt.soto.cm.mm.skyscale" GUID="pXQ5s2rlc0W/bhq4AYdxhw=="/>
+		<POI MapID="1510" xpos="337.84" ypos="598.742" zpos="-119.371" type="tt.soto.cm.mm.distogriff" GUID="tLLSS0CN9Eydq7eGVHoeag=="/>
+		<POI MapID="1510" xpos="165.582" ypos="577.049" zpos="183.986" type="tt.soto.cm.mm.skyscale" GUID="5u4oXn2zA0uPFi1Mn20SOA=="/>
+		<POI MapID="1510" xpos="124.351" ypos="812.037" zpos="96.6025" type="tt.soto.cm.mm.distogriff" GUID="TU7x9tUYKE+6VP/ZzeL+dg=="/>
+		<POI MapID="1510" xpos="77.9269" ypos="778.56" zpos="53.9428" type="tt.soto.cm.mm.griffon" GUID="A6m9+mXvM0OREtNF24zIHQ=="/>
+		<POI MapID="1510" xpos="81.0728" ypos="778.085" zpos="54.924" type="tt.soto.cm.rm.ppr_m" GUID="ASS7rN+sSUKnfv0nGgNzUw=="/>
+		<POI MapID="1510" xpos="77.7425" ypos="782.239" zpos="45.6507" type="tt.soto.cm.mm.griffon" GUID="OCY3zVQMiUyi2d9CkXwU8g=="/>
+		<POI MapID="1510" xpos="77.1769" ypos="780.867" zpos="48.3394" type="tt.soto.cm.rm.1" GUID="0l4LtiVm2EmYFvop8gZx1Q=="/>
+		<POI MapID="1510" xpos="79.8076" ypos="779.664" zpos="54.03" type="tt.soto.cm.rm.2" GUID="CG9XELha+EaTHvFCFex9Yg=="/>
+		<POI MapID="1510" xpos="88.1545" ypos="781.992" zpos="43.6983" type="tt.soto.cm.rm.3" GUID="Jmi5NYJWe02KvSk8ioshvg=="/>
+		<POI MapID="1510" xpos="86.462" ypos="782.925" zpos="44.5291" type="tt.soto.cm.mm.skyscale" GUID="o1FElgQHrEecB9ncBY/9gQ=="/>
+		<POI MapID="1510" xpos="73.1172" ypos="777.287" zpos="54.3514" type="tt.soto.cm.rm.jadewp" GUID="CvOTi7OsmESh4lT+349vuw=="/>
+		<POI MapID="1510" xpos="82.8802" ypos="639.322" zpos="53.398" type="tt.soto.cm.rm.points_of_interest" GUID="sFTdBtz1AkCag19Fbkq3Yw=="/>
+		<POI MapID="1510" xpos="79.8682" ypos="639.322" zpos="51.9553" type="tt.soto.cm.rm.ppr_r" GUID="xD3nLbE50k2Ys+F5ok2tHA=="/>
+		<POI MapID="1510" xpos="77.0306" ypos="718.969" zpos="100.452" type="tt.soto.cm.rm.ppr_m" GUID="y0zqyG1RR0SGlTwnV89hHA=="/>
+		<POI MapID="1510" xpos="72.2172" ypos="720.966" zpos="99.3518" type="tt.soto.cm.mm.skyscale" GUID="2m83cvB810mjpXHZFRxBGQ=="/>
+		<POI MapID="1510" xpos="82.8131" ypos="717.539" zpos="96.8636" type="tt.soto.cm.mm.griffon" GUID="IOZMtHugR0Kw59FfyyZs7A=="/>
+		<POI MapID="1510" xpos="-629.095" ypos="598.811" zpos="-355.44" type="tt.soto.cm.rm.points_of_interest" GUID="D0eIhhv2PUm3MOMwBXQQcA=="/>
+		<POI MapID="1510" xpos="-860.926" ypos="447.367" zpos="-187.165" type="tt.soto.cm.rm.points_of_interest" GUID="HI1jbYi+J0u37JppHPtLLw=="/>
+		<POI MapID="1510" xpos="-800.615" ypos="569.129" zpos="212.379" type="tt.soto.cm.rm.points_of_interest" GUID="FsC6qz71Q0++cbO0IAU9aw=="/>
+		<POI MapID="1510" xpos="-666.431" ypos="563.772" zpos="155.743" type="tt.soto.cm.rm.points_of_interest" GUID="eLC6BDW1OEK6DAL4b7W2CQ=="/>
+		<POI MapID="1510" xpos="-394.617" ypos="550.912" zpos="169.277" type="tt.soto.cm.rm.points_of_interest" GUID="0Ong8p7ElUG7nTZS3um4pA=="/>
+		<POI MapID="1510" xpos="-571.155" ypos="541.928" zpos="-21.7882" type="tt.soto.cm.rm.points_of_interest" GUID="JVGFxePxdE6RUE9dzNzNAA=="/>
+		<POI MapID="1510" xpos="-363.781" ypos="527.274" zpos="-108.513" type="tt.soto.cm.rm.points_of_interest" GUID="+YXs3xtIVEuKDy7KM/LoZA=="/>
+		<POI MapID="1510" xpos="-206.73" ypos="416.578" zpos="-76.5608" type="tt.soto.cm.rm.points_of_interest" GUID="881JaFfdk0CwyZzvsjBITg=="/>
+		<POI MapID="1510" xpos="-71.2164" ypos="410.271" zpos="89.857" type="tt.soto.cm.rm.points_of_interest" GUID="dELEAIMJ3kaN4byCWsVXBQ=="/>
+		<POI MapID="1510" xpos="70.1292" ypos="406.727" zpos="-30.6898" type="tt.soto.cm.rm.points_of_interest" GUID="Sln2J4z/iEeeizp9rkMRNg=="/>
+		<POI MapID="1510" xpos="18.7937" ypos="405.421" zpos="-76.9651" type="tt.soto.cm.rm.waypoints" GUID="5AF7H2enrEmDqdoz3pJb0A=="/>
+		<POI MapID="1510" xpos="183.574" ypos="355.085" zpos="-170.726" type="tt.soto.cm.rm.points_of_interest" GUID="L8xateKFgkmLGLRG2aKAqQ=="/>
+		<POI MapID="1510" xpos="266.768" ypos="265.061" zpos="-215.619" type="tt.soto.cm.rm.waypoints" GUID="2asu3p5MH0yiy2p51A5oEg=="/>
+		<POI MapID="1510" xpos="63.2661" ypos="286.481" zpos="-397.919" type="tt.soto.cm.rm.points_of_interest" GUID="zKQL5qG/NkKF78uRKJ4y+Q=="/>
+		<POI MapID="1510" xpos="48.0291" ypos="320.801" zpos="-542.265" type="tt.soto.cm.rm.points_of_interest" GUID="gHNgEQJFL0qRE16CEByBKw=="/>
+		<POI MapID="1510" xpos="-198.785" ypos="281.835" zpos="-494.982" type="tt.soto.cm.rm.points_of_interest" GUID="eFO46AQcTUCHKVv6kGt2rA=="/>
+		<POI MapID="1510" xpos="-342.261" ypos="279.763" zpos="-218.051" type="tt.soto.cm.rm.points_of_interest" GUID="KLaY2y1ssECi1e3XpWcUGQ=="/>
+		<POI MapID="1510" xpos="-513.924" ypos="283.658" zpos="-386.881" type="tt.soto.cm.rm.points_of_interest" GUID="CeSPQLeLnkyafMvvdF+RBw=="/>
+		<POI MapID="1510" xpos="-332.825" ypos="284.255" zpos="-478.875" type="tt.soto.cm.wm.tpm" script-focus="Teh_ChooseWaypointTrigger()" GUID="iMSAtxii/U6e5cfowQKxlg=="/>
+		<POI MapID="1510" xpos="796.715" ypos="651.939" zpos="572.461" type="tt.soto.cm.rm.points_of_interest" GUID="fjwWGV/28kmU6USoL+RGIg=="/>
+		<POI MapID="1510" xpos="589.049" ypos="326.483" zpos="438.43" type="tt.soto.cm.rm.waypoints" GUID="RVWb6tAY1E+cMqHGZDdxsQ=="/>
+		<POI MapID="1510" xpos="496.075" ypos="324.959" zpos="434.317" type="tt.soto.cm.rm.points_of_interest" GUID="jG43SVNdlUi6wjOfQcUuRw=="/>
+		<POI MapID="1510" xpos="325.572" ypos="368.578" zpos="530.84" type="tt.soto.cm.rm.points_of_interest" GUID="n9OsN6BPa0mYZlxkaMCM2Q=="/>
+		<POI MapID="1510" xpos="268.411" ypos="367.85" zpos="457.689" type="tt.soto.cm.rm.points_of_interest" GUID="rAPk4nx33UiSBxGFRixHfA=="/>
+		<POI MapID="1510" xpos="113.119" ypos="364.367" zpos="407.851" type="tt.soto.cm.rm.points_of_interest" GUID="ZxPCuVOXvUqLPC+OlAyoAQ=="/>
+		<POI MapID="1510" xpos="124.46" ypos="450.159" zpos="562.505" type="tt.soto.cm.rm.waypoints" GUID="HoruTQHEAkuZKUYobFWYVA=="/>
+		<POI MapID="1510" xpos="-114.472" ypos="503.678" zpos="477.15" type="tt.soto.cm.rm.points_of_interest" GUID="uzaoYs86F0aF6K09F43vmQ=="/>
+		<POI MapID="1510" xpos="-185.39" ypos="528.009" zpos="354.401" type="tt.soto.cm.rm.points_of_interest" GUID="seSCgAFPYUqE58p2+MKY0w=="/>
+		<POI MapID="1510" xpos="-262.966" ypos="538.03" zpos="438.168" type="tt.soto.cm.rm.points_of_interest" GUID="zKF2rfW6nEi6sC65mMO+HQ=="/>
+		<POI MapID="1510" xpos="-321.648" ypos="569.566" zpos="433.412" type="tt.soto.cm.rm.vistas" GUID="FWfDqGhpQUKprPnaFGEu+Q=="/>
+		<POI MapID="1510" xpos="-321.448" ypos="569.566" zpos="436.115" type="tt.soto.cm.rm.ppr_r" GUID="R0civ+4Guki4UrQ+SFcrcQ=="/>
+		<POI MapID="1510" xpos="-11.9149" ypos="851.419" zpos="98.848" type="tt.soto.cm.rm.bov" GUID="qxzzt/4ke0+LIWq/Acsauw=="/>
+		<POI MapID="1510" xpos="-44.4614" ypos="861.482" zpos="118.009" type="tt.soto.cm.mm.distogriff" GUID="ej2uYywlQU6rNY/2q+CqIg=="/>
+		<POI MapID="1510" xpos="-783.084" ypos="829.92" zpos="425.591" type="tt.soto.cm.rm.points_of_interest" GUID="/ebbCudmQkCDeqJxdNcjmQ=="/>
+		<POI MapID="1510" xpos="-950.799" ypos="823.137" zpos="425.724" type="tt.soto.cm.rm.vistas" GUID="uZXGpCyC6UislEtNc52trQ=="/>
+		<POI MapID="1510" xpos="-949.636" ypos="822.716" zpos="421.639" type="tt.soto.cm.wm.tpm" script-focus="Teh_ChooseWaypointTrigger()" GUID="3Uwqhueru0ixp7pcWsnXPQ=="/>
+		<POI MapID="1510" xpos="8.43936" ypos="400.875" zpos="-74.1154" type="tt.soto.cm.mm.skyscale" GUID="Ru1WDjBu7kaNIv7P5j3Ljg=="/>
+		<POI MapID="1510" xpos="-43.7884" ypos="430.26" zpos="-57.4007" type="tt.soto.cm.rm.bov" GUID="MqrTcfXKi0KxWbRaByc3dQ=="/>
+		<POI MapID="1510" xpos="-92.4198" ypos="455.259" zpos="-31.2423" type="tt.soto.cm.mm.griffon" GUID="cLunLXdpi0icyLtkCYPBeg=="/>
+		<POI MapID="1510" xpos="-102.932" ypos="455.376" zpos="-28.7124" type="tt.soto.cm.mm.beetle" GUID="BfMvx04j8EOtAnIb30VZDA=="/>
+		<POI MapID="1510" xpos="-188.927" ypos="462.336" zpos="135.84" type="tt.soto.cm.rm.points_of_interest" GUID="oIDlEGFAy0mMl8thN3dJxA=="/>
+		<POI MapID="1510" xpos="-230.607" ypos="455.293" zpos="80.3" type="tt.soto.cm.mm.skyscale" GUID="A6WE3JqLaUmMizXSzMfq4Q=="/>
+		<POI MapID="1510" xpos="-252.491" ypos="500.644" zpos="3.82253" type="tt.soto.cm.rm.vistas" GUID="UXvN7DE4dkaX1sdvIoABCA=="/>
+		<POI MapID="1510" xpos="-251.809" ypos="500.645" zpos="1.57918" type="tt.soto.cm.wm.tpm" script-focus="Teh_ChooseWaypointTrigger()" GUID="PkJcrS2kgEKEsETflYd0aA=="/>
+		<POI MapID="1510" xpos="-330.819" ypos="283.705" zpos="-476.688" type="tt.soto.cm.rm.vistas" GUID="8cq+jcKBKk6bSfZvDNoNAw=="/>
+		<POI MapID="1510" xpos="580.15" ypos="311.773" zpos="447.553" type="tt.soto.cm.rm.1" GUID="cNnk/o2D9EOXhKNHY6gQQg=="/>
+		<POI MapID="1510" xpos="583.455" ypos="311.773" zpos="447.021" type="tt.soto.cm.mm.jackal" GUID="gM7UuOZWb0Ogr2OGCkFggg=="/>
+		<POI MapID="1510" xpos="625.69" ypos="344.114" zpos="509.505" type="tt.soto.cm.rm.points_of_interest" GUID="nZ5W08e0hUaCqlrx59/Scg=="/>
+		<POI MapID="1510" xpos="615.295" ypos="343.654" zpos="299.727" type="tt.soto.cm.rm.points_of_interest" GUID="AEJsKgMyr0CR4dexmZKRbA=="/>
+		<POI MapID="1510" xpos="616.423" ypos="343.697" zpos="297.089" type="tt.soto.cm.wm.tpm" script-focus="Teh_ChooseWaypointTrigger()" GUID="FNwIKxSnYUepdslTvC8dJw=="/>
+		<POI MapID="1510" xpos="573.577" ypos="311.775" zpos="441.639" type="tt.soto.cm.rm.2" GUID="Fueg/Guq90KXLyqTJbL++A=="/>
+		<POI MapID="1510" xpos="576.122" ypos="311.777" zpos="437.84" type="tt.soto.cm.mm.beetle" GUID="+eoI1wPzREmSnLOUDQL0cw=="/>
+		<POI MapID="1510" xpos="490.223" ypos="311.52" zpos="278.962" type="tt.soto.cm.mm.skyscale" GUID="noVVb9baLU6QTDvf/i6ViA=="/>
+		<POI MapID="1510" xpos="366.862" ypos="400.962" zpos="269.985" type="tt.soto.cm.rm.vistas" GUID="oWxl+Ji5X0qybckFKQzPrw=="/>
+		<POI MapID="1510" xpos="366.282" ypos="401.129" zpos="267.614" type="tt.soto.cm.wm.tpm" script-focus="Teh_ChooseWaypointTrigger()" GUID="eIdxnPXvhkStO4kikZI0Hw=="/>
+		<POI MapID="1510" xpos="-648.002" ypos="561.153" zpos="156.812" type="tt.soto.cm.rm.waypoints" GUID="avL6KAYydkyJ5vxCo/wkJg=="/>
+		<POI MapID="1510" xpos="-645.189" ypos="549.624" zpos="158.891" type="tt.soto.cm.rm.1" GUID="YhgyRrAk2UW7tI8SdzF2Lw=="/>
+		<POI MapID="1510" xpos="-648.543" ypos="549.408" zpos="160.339" type="tt.soto.cm.mm.raptor" GUID="WE3W1cGbUk2FfZHzqHQnMg=="/>
+		<POI MapID="1510" xpos="-725.404" ypos="549.056" zpos="64.4836" type="tt.soto.cm.rm.bondoffaith" GUID="rUnT7gO1CE21+Raf3oNC6Q=="/>
+		<POI MapID="1510" xpos="-736.446" ypos="551.612" zpos="52.6789" type="tt.soto.cm.rm.points_of_interest" GUID="ABbJr8oCMEyMBYPLm84UEQ=="/>
+		<POI MapID="1510" xpos="-756.947" ypos="551.093" zpos="50.082" type="tt.soto.cm.mm.skyscale" GUID="J7nZPc0NOUa56//iSSrToQ=="/>
+		<POI MapID="1510" xpos="-885.141" ypos="553.667" zpos="92.0568" type="tt.soto.cm.rm.points_of_interest" GUID="opqBCCJhxU++F98hyWSyjw=="/>
+		<POI MapID="1510" xpos="-885.142" ypos="553.677" zpos="96.2925" type="tt.soto.cm.wm.tpm" script-focus="Teh_ChooseWaypointTrigger()" GUID="uPqSsOy7S0O7jz8w1eyczg=="/>
+		<POI MapID="1510" xpos="-648.221" ypos="549.621" zpos="165.616" type="tt.soto.cm.mm.skyscale" GUID="tEqWkyc9Z0+I3KBXSpcsSg=="/>
+		<POI MapID="1510" xpos="-645.61" ypos="549.671" zpos="167.904" type="tt.soto.cm.rm.2" GUID="wu+ji1eEi0ePjP7WGH84Ag=="/>
+		<POI MapID="1510" xpos="-561.482" ypos="558.874" zpos="212.278" type="tt.soto.cm.rm.points_of_interest" GUID="r0N4xRlKrEK1V6WGCJvDbg=="/>
+		<POI MapID="1510" xpos="578.674" ypos="311.775" zpos="443.935" type="tt.soto.cm.wm.wph" script-once="Teh_ChooseWaypointMarker()" GUID="r3jHswE1rkOkpxhpKj0Y3Q=="/>
+		<POI MapID="1510" xpos="12.2396" ypos="400.59" zpos="-76.5278" type="tt.soto.cm.wm.wph" script-once="Teh_ChooseWaypointMarker()" GUID="tqFOv1RP6EaPDmyvH6OQFQ=="/>
+		<POI MapID="1510" xpos="-643.043" ypos="549.675" zpos="164.013" type="tt.soto.cm.wm.wph" script-once="Teh_ChooseWaypointMarker()" GUID="03Cb1JiTtkisWtwiYkWY3w=="/>
+	<!--SKYWATCH ARCHIPELAGO TRAILS-->
+		<Trail type="tt.soto.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/SotOTrails/SA.trl"/>
+		<Trail type="tt.soto.caution" GUID="gu1HNYP2vkq2mle4NxVEMg==" trailData="Data/TehsTrails/SotOTrails/SAwarning.trl"/>
 	</POIs>
 </OverlayData>

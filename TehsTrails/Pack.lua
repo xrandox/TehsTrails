@@ -28,6 +28,7 @@ if (Teh_VersionCheck()) then
     Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
     Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
     Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
+    Pack:Require("Data/TehsTrails/Script/choosewaypoint.lua")
     Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
     Pack:Require("Data/TehsTrails/Scripts/copy.lua")
     Pack:Require("Data/TehsTrails/Scripts/skyscaleinfo.lua")
