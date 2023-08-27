@@ -40,6 +40,9 @@ Teh.static = {
         },
         pof = {
 
+        },
+        soto = {
+
         }
     }
 }

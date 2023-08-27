@@ -21,7 +21,7 @@ local function stopWatcher(marker)
     Teh.choosewaypoint.isRunning = false
     Teh.choosewaypoint.currentSize = MIN_SIZE
     Teh.choosewaypoint.sizeGrowing = true
-    table.remove(Teh.choosewaypoint.chooseableWaypoints, marker.GUID)
+    Teh.choosewaypoint.chooseableWaypoints[marker.Guid] = nil
     marker:Remove()
 
     for _, m in pairs(Teh.choosewaypoint.chooseableWaypoints) do
@@ -70,7 +70,7 @@ local function chooseWaypointTickHandler(gameTime)
 end
 
 function Teh_ChooseWaypointMarker(marker)
-    table.insert(Teh.choosewaypoint.chooseableWaypoints, marker, marker.GUID)
+    Teh.choosewaypoint.chooseableWaypoints[marker.Guid] = marker
 end
 
 function Teh_ChooseWaypointTrigger(marker, isfocused)
