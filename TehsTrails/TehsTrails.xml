@@ -611,6 +611,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
 		<MarkerCategory name="caution" DisplayName="Caution Trail" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0" iswall="1" texture="Data/TehsTrails/Markers/caution.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
+		<MarkerCategory name="hoops" DisplayName="Guide Hoops" fadeNear="4000" fadeFar="4500" texture="Data/TehsTrails/Markers/ring.png" iswall="1" animSpeed="0" mapVisibility="0" miniMapVisibility="0"/>
 	</MarkerCategory>
 
 
@@ -9555,7 +9556,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1510" xpos="82.8131" ypos="717.539" zpos="96.8636" type="tt.soto.cm.mm.griffon" GUID="IOZMtHugR0Kw59FfyyZs7A=="/>
 		<POI MapID="1510" xpos="-629.095" ypos="598.811" zpos="-355.44" type="tt.soto.cm.rm.points_of_interest" GUID="D0eIhhv2PUm3MOMwBXQQcA=="/>
 		<POI MapID="1510" xpos="-860.926" ypos="447.367" zpos="-187.165" type="tt.soto.cm.rm.points_of_interest" GUID="HI1jbYi+J0u37JppHPtLLw=="/>
-		<POI MapID="1510" xpos="-800.615" ypos="569.129" zpos="212.379" type="tt.soto.cm.rm.points_of_interest" GUID="FsC6qz71Q0++cbO0IAU9aw=="/>
+		<POI MapID="1510" xpos="-800.615" ypos="569.129" zpos="212.379" type="tt.soto.cm.rm.points_of_interest" info="Make sure to get through the hoop to unlock POI" infoRange="50" GUID="FsC6qz71Q0++cbO0IAU9aw=="/>
 		<POI MapID="1510" xpos="-666.431" ypos="563.772" zpos="155.743" type="tt.soto.cm.rm.points_of_interest" GUID="eLC6BDW1OEK6DAL4b7W2CQ=="/>
 		<POI MapID="1510" xpos="-394.617" ypos="550.912" zpos="169.277" type="tt.soto.cm.rm.points_of_interest" GUID="0Ong8p7ElUG7nTZS3um4pA=="/>
 		<POI MapID="1510" xpos="-571.155" ypos="541.928" zpos="-21.7882" type="tt.soto.cm.rm.points_of_interest" GUID="JVGFxePxdE6RUE9dzNzNAA=="/>
@@ -9566,11 +9567,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1510" xpos="18.7937" ypos="405.421" zpos="-76.9651" type="tt.soto.cm.rm.waypoints" GUID="5AF7H2enrEmDqdoz3pJb0A=="/>
 		<POI MapID="1510" xpos="183.574" ypos="355.085" zpos="-170.726" type="tt.soto.cm.rm.points_of_interest" GUID="L8xateKFgkmLGLRG2aKAqQ=="/>
 		<POI MapID="1510" xpos="266.768" ypos="265.061" zpos="-215.619" type="tt.soto.cm.rm.waypoints" GUID="2asu3p5MH0yiy2p51A5oEg=="/>
-		<POI MapID="1510" xpos="63.2661" ypos="286.481" zpos="-397.919" type="tt.soto.cm.rm.points_of_interest" GUID="zKQL5qG/NkKF78uRKJ4y+Q=="/>
+		<POI MapID="1510" xpos="63.2661" ypos="286.481" zpos="-397.919" type="tt.soto.cm.rm.points_of_interest" info="Pull up a bit so you don't get abducted by the leyline!" infoRange="75" GUID="zKQL5qG/NkKF78uRKJ4y+Q=="/>
 		<POI MapID="1510" xpos="48.0291" ypos="320.801" zpos="-542.265" type="tt.soto.cm.rm.points_of_interest" GUID="gHNgEQJFL0qRE16CEByBKw=="/>
-		<POI MapID="1510" xpos="-198.785" ypos="281.835" zpos="-494.982" type="tt.soto.cm.rm.points_of_interest" GUID="eFO46AQcTUCHKVv6kGt2rA=="/>
+		<POI MapID="1510" xpos="-201.968" ypos="294.693" zpos="-486.188" type="tt.soto.cm.rm.points_of_interest" info="Careful of the leyline! But don't go too high!" infoRange="75" GUID="eFO46AQcTUCHKVv6kGt2rA=="/>
 		<POI MapID="1510" xpos="-342.261" ypos="279.763" zpos="-218.051" type="tt.soto.cm.rm.points_of_interest" GUID="KLaY2y1ssECi1e3XpWcUGQ=="/>
-		<POI MapID="1510" xpos="-513.924" ypos="283.658" zpos="-386.881" type="tt.soto.cm.rm.points_of_interest" GUID="CeSPQLeLnkyafMvvdF+RBw=="/>
+		<POI MapID="1510" xpos="-531.803" ypos="282.573" zpos="-394.097" type="tt.soto.cm.rm.points_of_interest" GUID="CeSPQLeLnkyafMvvdF+RBw=="/>
 		<POI MapID="1510" xpos="-332.825" ypos="284.255" zpos="-478.875" type="tt.soto.cm.rm.jadewp" info="Teleport to your Jade WP" GUID="iMSAtxii/U6e5cfowQKxlg=="/>
 		<POI MapID="1510" xpos="796.715" ypos="651.939" zpos="572.461" type="tt.soto.cm.rm.points_of_interest" GUID="fjwWGV/28kmU6USoL+RGIg=="/>
 		<POI MapID="1510" xpos="589.049" ypos="326.483" zpos="438.43" type="tt.soto.cm.rm.waypoints" GUID="RVWb6tAY1E+cMqHGZDdxsQ=="/>
@@ -9631,6 +9632,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.soto.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/SotOTrails/SA.trl"/>
 		<Trail type="tt.soto.caution" GUID="gu1HNYP2vkq2mle4NxVEMg==" trailData="Data/TehsTrails/SotOTrails/SAwarning.trl"/>
 		<Trail trailData="Data/TehsTrails/SotOTrails/SAToS.trl" GUID="gu2HNYP2vkq2mle4NxVEMg=="  type="tt.soto.tos" />
+		<Trail trailData="Data/TehsTrails/SotOTrails/SAHoops.trl" type="tt.soto.hoops" />
 	<!--AMNYTAS MARKERS-->
 		<POI MapID="1517" xpos="-75.4809" ypos="270.219" zpos="-417.427" type="tt.soto.cm.rm.start" GUID="4D8y/T8nKUGgIX5ndFGr4Q=="/>
 		<POI MapID="1517" xpos="-64.0892" ypos="270.219" zpos="-375.565" type="tt.soto.cm.rm.portal" info="Meta Going On? Take the portal here to skip the beginning portion. Otherwise continue to follow the trail." GUID="yVPgfHPHzkawAsqdCGjZnw=="/>
@@ -9666,11 +9668,10 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1517" xpos="107.226" ypos="806.725" zpos="69.6773" type="tt.soto.cm.mm.raptor" GUID="PQV+N4DQN0qLgv/l6mCKLg=="/>
 		<POI MapID="1517" xpos="35.011" ypos="806.728" zpos="42.651" type="tt.soto.cm.rm.jadewp" infoRange="20" info="There are several oob warps here. It's recommended to take the time to drop a Jade WP here as a backup in case you mess any of them up. It'll give you a single 'extra life' in case you bonk somewhere!&#xA;&#xA;If meta is happening and there's a giant tentacle monster ahead, follow the red trail" GUID="uXrJC+a+LEqW/UC38Que5A=="/>
 		<POI MapID="1517" xpos="-35.181" ypos="806.669" zpos="85.0178" type="tt.soto.cm.mm.griffon" infoRange="10" info="Left (first) is an oob warp. Right (second) is a normal path that TPs out." GUID="pbuZ0PxOd0aKtLIpLEwITQ=="/>
-		<POI MapID="1517" xpos="-156.449" ypos="657.403" zpos="38.2999" type="tt.soto.cm.rm.points_of_interest" GUID="N+jJgkyr3UmN3TcY2PU18Q=="/>
+		<POI MapID="1517" xpos="-209.309" ypos="370.571" zpos="-99.322" type="tt.soto.cm.rm.points_of_interest" GUID="N+jJgkyr3UmN3TcY2PU18Q=="/>
 		<POI MapID="1517" xpos="-414.741" ypos="652.122" zpos="65.7266" type="tt.soto.cm.rm.points_of_interest" GUID="LXDPICo8ZkSg1avm9m+LLw=="/>
 		<POI MapID="1517" xpos="-531.081" ypos="623.507" zpos="-122.176" type="tt.soto.cm.rm.points_of_interest" GUID="2JUIqoM3NUSqqkbSxxI86A=="/>
 		<POI MapID="1517" xpos="-436.854" ypos="564.608" zpos="-83.7243" type="tt.soto.cm.rm.points_of_interest" GUID="GBC6fRA38EiYIE+Bs1amWA=="/>
-		<POI MapID="1517" xpos="-213.63" ypos="373.244" zpos="-109.28" type="tt.soto.cm.rm.points_of_interest" GUID="t9FA52uuskKDseX8RV1ovg=="/>
 		<POI MapID="1517" xpos="-195.459" ypos="377.317" zpos="-461.51" type="tt.soto.cm.rm.points_of_interest" GUID="o3z0Z/QQP0OsB6VwBxT59w=="/>
 		<POI MapID="1517" xpos="-611.97" ypos="389.076" zpos="-680.444" type="tt.soto.cm.rm.points_of_interest" GUID="v/ZRpewVmUuXEA5eueB4qQ=="/>
 		<POI MapID="1517" xpos="-663.503" ypos="266.437" zpos="-506.151" type="tt.soto.cm.rm.points_of_interest" GUID="16GEnmVBS0uNTXUgFsivOQ=="/>
@@ -9761,5 +9762,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail trailData="Data/TehsTrails/SotOTrails/ADispTrail3.trl" type="tt.soto.ct" GUID="c36VPxgSL0yytSwws/y+Vg==" />
 		<Trail trailData="Data/TehsTrails/SotOTrails/ADispTrail4.trl" type="tt.soto.ct" GUID="c46VPxgSL0yytSwws/y+Vg==" />
 		<Trail trailData="Data/TehsTrails/SotOTrails/AToS.trl" GUID="gu3HNYP2vkq2mle4NxVEMg=="  type="tt.soto.tos" />
+		<Trail trailData="Data/TehsTrails/SotOTrails/AHoops.trl" type="tt.soto.hoops" />
 	</POIs>
 </OverlayData>
