@@ -1,5 +1,5 @@
 Teh = {}
-TehsTrailsVersion = "Release v4.0.1"
+TehsTrailsVersion = "Beta v5.0.0"
 
 Debug:Print("Pathing Version: v" .. PathingVersion)
 Debug:Print("TehsTrails Version: " .. TehsTrailsVersion)
@@ -28,6 +28,7 @@ if (Teh_VersionCheck()) then
     Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
     Pack:Require("Data/TehsTrails/Scripts/bounce.lua")
     Pack:Require("Data/TehsTrails/Scripts/highlight.lua")
+    Pack:Require("Data/TehsTrails/Scripts/choosewaypoint.lua")
     Pack:Require("Data/TehsTrails/Scripts/globalmarker.lua")
     Pack:Require("Data/TehsTrails/Scripts/copy.lua")
     Pack:Require("Data/TehsTrails/Scripts/skyscaleinfo.lua")
@@ -35,6 +36,7 @@ if (Teh_VersionCheck()) then
     Pack:Require("Data/TehsTrails/Scripts/follower.lua")
     Pack:Require("Data/TehsTrails/Scripts/tutorial.lua")
     Pack:Require("Data/TehsTrails/Scripts/shoppinglist.lua")
+    Pack:Require("Data/TehsTrails/Scripts/disappearingtrail.lua")
     Pack:Require("Data/TehsTrails/Scripts/tehmenu.lua")
     --Pack:Require("Data/TehsTrails/Scripts/globalconverter.lua") used only when generating lookups
 

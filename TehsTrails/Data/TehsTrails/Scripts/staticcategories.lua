@@ -5,7 +5,8 @@ Teh.static = {
         eod = { 1422, 1428, 1438, 1442, 1452 },
         hot = { 1043, 1045, 1052 },
         pof = { 1210, 1211, 1226, 1228 },
-        all = { 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 39, 50, 51, 53, 54, 62, 65, 73, 91, 139, 218, 326, 1043, 1045, 1052, 1210, 1211, 1226, 1228, 1422, 1428, 1438, 1442, 1452 }
+        soto = { 1510, 1517 },
+        all = { 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 39, 50, 51, 53, 54, 62, 65, 73, 91, 139, 218, 326, 1043, 1045, 1052, 1210, 1211, 1226, 1228, 1422, 1428, 1438, 1442, 1452, 1510, 1517 }
     },
     -- Category types we want shown always, according to which areas they should be shown in
     categories = {
@@ -38,6 +39,9 @@ Teh.static = {
 
         },
         pof = {
+
+        },
+        soto = {
 
         }
     }
@@ -104,5 +108,10 @@ elseif (mapIsIn(maps.hot, mapID)) then
 -- PoF maps
 elseif (mapIsIn(maps.pof, mapID)) then
     markerFromTable(categories.pof)
+    markerFromTable(categories.all)
+
+-- SotO maps
+elseif (mapIsIn(maps.soto, mapID)) then
+    markerFromTable(categories.soto)
     markerFromTable(categories.all)
 end

@@ -9,7 +9,7 @@ local MOUNT_IDS = {
     ["griffon"] = 1824207
 }
 
-local PARENT_CATEGORIES = { "tt.mc.cm.mm.", "tt.hot.cm.mm.", "tt.pof.cm.mm.", "tt.eod.cm.mm." }
+local PARENT_CATEGORIES = { "tt.mc.cm.mm.", "tt.hot.cm.mm.", "tt.pof.cm.mm.", "tt.eod.cm.mm.", "tt.soto.cm.mm." }
 local PARENT_PATH = "Data/TehsTrails/Markers/"
 local PATH_END = ".png"
 

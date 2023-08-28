@@ -145,7 +145,7 @@ Teh.tutorial = {
     shown = false
 }
 
-Debug:Watch("tutorial", Teh.tutorial)
+Debug:Watch("Teh_Tutorial", Teh.tutorial)
 
 local function showTutorial()
     -- First we make the outer markers
