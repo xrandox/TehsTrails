@@ -4,6 +4,10 @@ Teh.disappearingtrails = {
         "c26VPxgSL0yytSwws/y+Vg==",
         "c36VPxgSL0yytSwws/y+Vg==",
         "c46VPxgSL0yytSwws/y+Vg==",
+        "a16VPxgSL0yytSwws/y+Vg==",
+        "a26VPxgSL0yytSwws/y+Vg==",
+        "a36VPxgSL0yytSwws/y+Vg==",
+        "a46VPxgSL0yytSwws/y+Vg=="
     },
     colors = {}
 }
@@ -23,7 +27,7 @@ function Teh_DisappearingTrailTrigger(marker, isfocused, guid)
 end
 
 function Teh_ColorizeDisappearingTrails()
-    local colorIndex = 1;
+    local colorIndex = 13;
     for i, guid in ipairs(Teh.disappearingtrails.trailGuids) do
         local trail = World:TrailByGuid(guid)
         local mainColor = Teh.storage.trailColor
@@ -32,6 +36,9 @@ function Teh_ColorizeDisappearingTrails()
 
             if (thisColor[1] == mainColor) then
                 colorIndex = colorIndex + 1
+                if colorIndex > 16 then
+                    colorIndex = 1
+                end
                 thisColor = Teh.trailcolors.colors[colorIndex]
             end
 
@@ -41,6 +48,9 @@ function Teh_ColorizeDisappearingTrails()
             trail.InGameVisibility = true
             Teh.disappearingtrails.colors[i] = thisColor
             colorIndex = colorIndex + 1
+            if colorIndex > 16 then
+                colorIndex = 1
+            end
         end
     end
 end
