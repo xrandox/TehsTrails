@@ -93,7 +93,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 				</MarkerCategory>
 
-				<MarkerCategory name="se" DisplayName="Enable Scripting Reminder (BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but you don't have scripts enabled.&#xA;&#xA;In order to properly use the waypoint system you must turn scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;Alternatively, if you wish to use the legacy system, you must enable it in the Map Completion -> Common Markers category"/>
+				<MarkerCategory name="se" DisplayName="Enable Scripting Reminder (BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but scripts are not running.&#xA;&#xA;In order to properly use the pack you must have LUA scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;If that does not fix the problem, please ensure you are on the latest version of the Pathing, delete this pack, and redownload it. Downloading the pack on old versions of the Pathing module can strip the scripts from the pack, resulting in this issue.&#xA;&#xA;If you need help troubleshooting this message, please visit the BlishHUD discord!"/>
 			</MarkerCategory>
 			
 
@@ -624,7 +624,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="cm" DisplayName="Common Markers">
 		
 			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
-				<MarkerCategory name="stl" DisplayName="Starlight Lantern" iconFile="Data/TehsTrails/Markers/StarlightLantern.png" iconSize="1"/>
+				<MarkerCategory name="stl" DisplayName="Starlight Lantern" iconFile="Data/TehsTrails/Markers/StarlightLantern.png" iconSize="0.7" alpha="0.7"/>
 				<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
 				<MarkerCategory name="bov" DisplayName="Bond of Vigor" iconFile="Data/TehsTrails/Markers/BondofVigor.png" iconSize="0.8"/>
 				<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
@@ -734,6 +734,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="maptester13" DisplayName="Mavrande.5849" isseparator="1"/>
 				<MarkerCategory name="maptester26" DisplayName="Mean Mann.8376" isseparator="1"/>
 				<MarkerCategory name="maptester28" DisplayName="Mi Rae.6028" isseparator="1"/>
+				<MarkerCategory name="maptester29" DisplayName="mumic.1065" isseparator="1"/>
 				<MarkerCategory name="maptester24" DisplayName="Nofeis.9763" isseparator="1"/>
 				<MarkerCategory name="maptester14" DisplayName="Pizzous.4783" isseparator="1"/>
 				<MarkerCategory name="maptester15" DisplayName="Predator.1430" isseparator="1"/>
@@ -9563,7 +9564,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1510" xpos="456.588" ypos="425.712" zpos="-75.2076" type="tt.soto.cm.mm.skyscale" GUID="5kWs3iJTnEOMlCFAy+a6og==" info="Wait for full endurance. Double dodge -> BoV -> Double dodge"/>
 		<POI MapID="1510" xpos="467.083" ypos="449.514" zpos="-194.293" type="tt.soto.cm.rm.bov" GUID="zSn1qjVCs0e2EJygRGRG7A=="/>
 		<POI MapID="1510" xpos="420.622" ypos="523.554" zpos="-264.605" type="tt.soto.cm.rm.points_of_interest" GUID="JRpwvFKW1Eyv7T5/Uk3uuA=="/>
-		<POI MapID="1510" xpos="479.869" ypos="538.629" zpos="-168.223" type="tt.soto.cm.mm.griffon" GUID="g8nVL8BmtUyjUEpAor9hcQ==" info="Hey, listen!&#xA;&#xA;This is the first use of an 'oob' warp. If you go out of bounds, the game teleports you back to the last place you were touching the ground. We can use that to have extremely long griffon flights and then teleport right back to where we started, which is very useful in maps like this.&#xA;&#xA;It is VERY important that you don't touch the ground! You can place a PPR just in case you bonk at the very beginning, but it won't last long enough to save you if you bonk later on!&#xA;&#xA;No pressure!"/>
+		<POI MapID="1510" xpos="479.869" ypos="538.629" zpos="-168.223" type="tt.soto.cm.mm.griffon" GUID="g8nVL8BmtUyjUEpAor9hcQ==" info="Hey, listen!&#xA;&#xA;This is the first use of an 'OOB' warp. If you go out of bounds, the game teleports you back to the last place you were touching the ground. We can use that to have extremely long griffon flights and then teleport right back to where we started, which is very useful in maps like this.&#xA;&#xA;It is VERY important that you don't touch the ground! You can place a PPR just in case you bonk at the very beginning, but it won't last long enough to save you if you bonk later on!&#xA;&#xA;No pressure!"/>
 		<POI MapID="1510" xpos="607.795" ypos="347.21" zpos="-0.841406" type="tt.soto.cm.rm.points_of_interest" GUID="lOe8gM3ieEK94t4iBgHQKA=="/>
 		<POI MapID="1510" xpos="770.018" ypos="313.753" zpos="59.388" type="tt.soto.cm.rm.points_of_interest" GUID="KotoTr35GE2IzooroCvrPw=="/>
 		<POI MapID="1510" xpos="825.86" ypos="349.553" zpos="267.28" type="tt.soto.cm.rm.points_of_interest" GUID="8/vRHPbmME2NkCzfzYY8Xg=="/>
@@ -9578,11 +9579,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1510" xpos="77.9269" ypos="778.56" zpos="53.9428" type="tt.soto.cm.mm.griffon" GUID="A6m9+mXvM0OREtNF24zIHQ=="/>
 		<POI MapID="1510" xpos="81.0728" ypos="778.085" zpos="54.924" type="tt.soto.cm.rm.ppr_m" GUID="ASS7rN+sSUKnfv0nGgNzUw=="/>
 		<POI MapID="1510" xpos="77.7425" ypos="782.239" zpos="45.6507" type="tt.soto.cm.mm.griffon" GUID="OCY3zVQMiUyi2d9CkXwU8g=="/>
-		<POI MapID="1510" xpos="77.1769" ypos="780.867" zpos="48.3394" type="tt.soto.cm.rm.1" info="This is a very long griffon flight, but is NOT an oob warp. That said, try your very best not to bonk, because it'll slow you down a lot and you'll really struggle to follow the trail if you do. Save your Bond of Vigor until you see the marker for it" infoRange="4" GUID="0l4LtiVm2EmYFvop8gZx1Q=="/>
+		<POI MapID="1510" xpos="77.1769" ypos="780.867" zpos="48.3394" type="tt.soto.cm.rm.1" info="This is a very long griffon flight, but is NOT an OOB warp. That said, try your very best not to bonk, because it'll slow you down a lot and you'll really struggle to follow the trail if you do. Save your Bond of Vigor until you see the marker for it" infoRange="4" GUID="0l4LtiVm2EmYFvop8gZx1Q=="/>
 		<POI MapID="1510" xpos="79.8076" ypos="779.664" zpos="54.03" type="tt.soto.cm.rm.2" info="This is an EXTREMELY tight rewinder. With good flying, you'll have seconds to interact with the poi and rewind. If you're unsure if you can make it, you can rewind and then go again but skip straight to the vista. There is a backup trail to get back up here, but it's slow" infoRange="4" GUID="CG9XELha+EaTHvFCFex9Yg=="/>
 		<POI MapID="1510" xpos="88.1545" ypos="781.992" zpos="43.6983" type="tt.soto.cm.rm.3" info="Very straightfoward flight, just keep your speed up and pull up at the end." infoRange="4" GUID="Jmi5NYJWe02KvSk8ioshvg=="/>
 		<POI MapID="1510" xpos="86.462" ypos="782.925" zpos="44.5291" type="tt.soto.cm.mm.skyscale" GUID="o1FElgQHrEecB9ncBY/9gQ=="/>
-		<POI MapID="1510" xpos="73.1172" ypos="777.287" zpos="54.3514" type="tt.soto.cm.rm.jadewp" info="Hey, listen!&#xA;&#xA;Place your Jade Waypoint. You need to return to that JWP later, so it is imperative that you don't fail any of these flights. This first one is another oob warp, so be very careful not to bonk and touch the ground anywhere!" infoRange="5" GUID="CvOTi7OsmESh4lT+349vuw=="/>
+		<POI MapID="1510" xpos="73.1172" ypos="777.287" zpos="54.3514" type="tt.soto.cm.rm.jadewp" info="Hey, listen!&#xA;&#xA;Place your Jade Waypoint. You need to return to that JWP later, so it is imperative that you don't fail any of these flights. This first one is another OOB warp, so be very careful not to bonk and touch the ground anywhere!" infoRange="5" GUID="CvOTi7OsmESh4lT+349vuw=="/>
 		<POI MapID="1510" xpos="82.8802" ypos="639.322" zpos="53.398" type="tt.soto.cm.rm.points_of_interest" GUID="sFTdBtz1AkCag19Fbkq3Yw=="/>
 		<POI MapID="1510" xpos="79.8682" ypos="639.322" zpos="51.9553" type="tt.soto.cm.rm.ppr_r" GUID="xD3nLbE50k2Ys+F5ok2tHA=="/>
 		<POI MapID="1510" xpos="77.0306" ypos="718.969" zpos="100.452" type="tt.soto.cm.rm.ppr_m" GUID="y0zqyG1RR0SGlTwnV89hHA=="/>
@@ -9680,10 +9681,10 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1517" xpos="35.2348" ypos="648.153" zpos="-153.079" type="tt.soto.cm.rm.points_of_interest" GUID="43UjTiKShUC4w1eUgHRxoA=="/>
 		<POI MapID="1517" xpos="24.7456" ypos="806.728" zpos="-35.3254" type="tt.soto.cm.mm.raptor" GUID="D3DyGC5UMkWHcGnn5FbGMg=="/>
 		<POI MapID="1517" xpos="-68.8905" ypos="655.77" zpos="-88.6522" type="tt.soto.cm.mm.skyscale" GUID="GhE+bUmySUGxozkVDZfNhg=="/>
-		<POI MapID="1517" xpos="41.3649" ypos="806.726" zpos="125.408" type="tt.soto.cm.mm.griffon" info="This is an oob warp and can be pretty tight going between doors, so do your best not to bonk!" infoRange="4" GUID="D9ciIO5mY0+4zMLW/ef8nQ=="/>
+		<POI MapID="1517" xpos="41.3649" ypos="806.726" zpos="125.408" type="tt.soto.cm.mm.griffon" info="This is an OOB warp and can be pretty tight going between doors, so do your best not to bonk!" infoRange="4" GUID="D9ciIO5mY0+4zMLW/ef8nQ=="/>
 		<POI MapID="1517" xpos="38.9746" ypos="689.454" zpos="261.491" type="tt.soto.cm.rm.points_of_interest" GUID="HmO3n9M5zEGciyHdPdk2Eg=="/>
 		<POI MapID="1517" xpos="38.2759" ypos="690.019" zpos="298.883" type="tt.soto.cm.rm.waypoints" GUID="7NJI8QjDmUK5cVR5avnsHg=="/>
-		<POI MapID="1517" xpos="53.9753" ypos="806.726" zpos="123.987" type="tt.soto.cm.mm.griffon" info="Another oob warp, don't bonk!" infoRange="4" GUID="b1LPpvsX90WE/HRiZux+7g=="/>
+		<POI MapID="1517" xpos="53.9753" ypos="806.726" zpos="123.987" type="tt.soto.cm.mm.griffon" info="Another OOB warp, don't bonk!" infoRange="4" GUID="b1LPpvsX90WE/HRiZux+7g=="/>
 		<POI MapID="1517" xpos="24.988" ypos="468.608" zpos="469.415" type="tt.soto.cm.rm.points_of_interest" GUID="jesjfIBVKUKE1qMhUkQZkQ=="/>
 		<POI MapID="1517" xpos="-82.7014" ypos="490.823" zpos="679.426" type="tt.soto.cm.rm.points_of_interest" GUID="pwqYfM3x0UqBq79UwkRbJA=="/>
 		<POI MapID="1517" xpos="-320.778" ypos="464.067" zpos="585.4" type="tt.soto.cm.rm.points_of_interest" GUID="Ki+NUrG0Q0eDQt2bpDrb6w=="/>
@@ -9694,14 +9695,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1517" xpos="619.893" ypos="369.444" zpos="213.856" type="tt.soto.cm.rm.points_of_interest" GUID="y41Hf25IHkqdlPzQQie4aQ=="/>
 		<POI MapID="1517" xpos="698.761" ypos="393.871" zpos="195.29" type="tt.soto.cm.rm.waypoints" GUID="akvkgRDNjEm9YUiN1RMDIA=="/>
 		<POI MapID="1517" xpos="346.266" ypos="478.319" zpos="542.737" type="tt.soto.cm.rm.points_of_interest" GUID="U8w5YnQC6UGa5ka54S5PqA=="/>
-		<POI MapID="1517" xpos="114.319" ypos="806.726" zpos="83.1943" type="tt.soto.cm.mm.griffon" info="You guessed it...oob warp. Careful flying!" infoRange="4" GUID="aqFdvYrSZEC9sAin2BdGjg=="/>
+		<POI MapID="1517" xpos="114.319" ypos="806.726" zpos="83.1943" type="tt.soto.cm.mm.griffon" info="You guessed it...OOB warp. Careful flying!" infoRange="4" GUID="aqFdvYrSZEC9sAin2BdGjg=="/>
 		<POI MapID="1517" xpos="266.397" ypos="660.022" zpos="29.4154" type="tt.soto.cm.rm.points_of_interest" GUID="9PBBMpSFYE6p+oz40xs3Iw=="/>
 		<POI MapID="1517" xpos="681.368" ypos="396.997" zpos="-422.291" type="tt.soto.cm.rm.points_of_interest" GUID="RCgfILIcJkayWhzv0JAzeA=="/>
 		<POI MapID="1517" xpos="508.135" ypos="326.902" zpos="-362.99" type="tt.soto.cm.rm.points_of_interest" GUID="AME0IuOfQ0OWEAeUjyWexA=="/>
 		<POI MapID="1517" xpos="695.793" ypos="297.312" zpos="-370.737" type="tt.soto.cm.rm.waypoints" GUID="lnArY2yvAUW6B1fAfGF6Zw=="/>
 		<POI MapID="1517" xpos="107.226" ypos="806.725" zpos="69.6773" type="tt.soto.cm.mm.raptor" GUID="PQV+N4DQN0qLgv/l6mCKLg=="/>
-		<POI MapID="1517" xpos="35.011" ypos="806.728" zpos="42.651" type="tt.soto.cm.rm.jadewp" infoRange="20" info="There are several oob warps here. It's recommended to take the time to drop a Jade WP here as a backup in case you mess any of them up. It'll give you a single 'extra life' in case you bonk somewhere!&#xA;&#xA;If meta is happening and there's a giant tentacle monster ahead, follow the red trail" GUID="uXrJC+a+LEqW/UC38Que5A=="/>
-		<POI MapID="1517" xpos="-35.181" ypos="806.669" zpos="85.0178" type="tt.soto.cm.mm.griffon" infoRange="10" info="Left (first) is an oob warp. Right (second) is a normal path that TPs out." GUID="pbuZ0PxOd0aKtLIpLEwITQ=="/>
+		<POI MapID="1517" xpos="35.011" ypos="806.728" zpos="42.651" type="tt.soto.cm.rm.jadewp" infoRange="20" info="There are several OOB warps here. It's recommended to take the time to drop a Jade WP here as a backup in case you mess any of them up. It'll give you a single 'extra life' in case you bonk somewhere!&#xA;&#xA;If meta is happening and there's a giant tentacle monster ahead, follow the red trail" GUID="uXrJC+a+LEqW/UC38Que5A=="/>
+		<POI MapID="1517" xpos="-35.181" ypos="806.669" zpos="85.0178" type="tt.soto.cm.mm.griffon" infoRange="10" info="Left (first) is an OOB warp. Right (second) is a normal path that TPs out." GUID="pbuZ0PxOd0aKtLIpLEwITQ=="/>
 		<POI MapID="1517" xpos="-209.309" ypos="370.571" zpos="-99.322" type="tt.soto.cm.rm.points_of_interest" GUID="N+jJgkyr3UmN3TcY2PU18Q=="/>
 		<POI MapID="1517" xpos="-414.741" ypos="652.122" zpos="65.7266" type="tt.soto.cm.rm.points_of_interest" GUID="LXDPICo8ZkSg1avm9m+LLw=="/>
 		<POI MapID="1517" xpos="-531.081" ypos="623.507" zpos="-122.176" type="tt.soto.cm.rm.points_of_interest" GUID="2JUIqoM3NUSqqkbSxxI86A=="/>
@@ -9721,7 +9722,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1517" xpos="-495.498" ypos="503.903" zpos="-80.1887" type="tt.soto.cm.rm.points_of_interest" GUID="2ZM7Qr9QEE+gxIpcwkdJQQ=="/>
 		<POI MapID="1517" xpos="-495.527" ypos="503.94" zpos="-74.4247" type="tt.soto.cm.wm.tpm" script-focus="Teh_HighlightWaypoint(2pZeTM5/Q06dEWLEfdbvcQ==)" GUID="uSCyvIyvlEeyDXNp7P4DbA=="/>
 		<POI MapID="1517" xpos="43.2297" ypos="677.443" zpos="303.3" type="tt.soto.cm.mm.griffon" GUID="YrGtv02uXk6j5KcsORHy3A=="/>
-		<POI MapID="1517" xpos="38.0585" ypos="677.561" zpos="302.412" type="tt.soto.cm.mm.skyscale" info="You can do these colored trails in any order. Once you finish one, it'll disappear so you don't get confused on which you have and haven't done. None of these are oob warps, but still try not to crash!&#xA;&#xA;Once you have no more paths left, you should be done with the map!" infoRange="10" GUID="MTNm7Ttv4km2tO+mC/QQGw=="/>
+		<POI MapID="1517" xpos="38.0585" ypos="677.561" zpos="302.412" type="tt.soto.cm.mm.skyscale" info="You can do these colored trails in any order. Once you finish one, it'll disappear so you don't get confused on which you have and haven't done. None of these are OOB warps, but still try not to crash!&#xA;&#xA;Once you have no more paths left, you should be done with the map!" infoRange="10" GUID="MTNm7Ttv4km2tO+mC/QQGw=="/>
 		<POI MapID="1517" xpos="44.1995" ypos="677.24" zpos="294.607" type="tt.soto.cm.mm.skyscale" GUID="9sT0A9GOt0eoJ94TcLOpjQ=="/>
 		<POI MapID="1517" xpos="0.871717" ypos="707.607" zpos="352.732" type="tt.soto.cm.mm.distogriff" GUID="bbNb+1DFdE6CaJs/wU1imA=="/>
 		<POI MapID="1517" xpos="42.6687" ypos="716.987" zpos="373.327" type="tt.soto.cm.mm.distogriff" GUID="n/xb5hrXIEqo3by1eGuY9A=="/>
