@@ -664,6 +664,73 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 	<!--=======================================================================================================================================================================-->	
+	<!--==                                                                        JANTHIR WILDS MAP COMP                                                                     ==-->
+	<!--=======================================================================================================================================================================-->
+	<MarkerCategory name="jwmc" DisplayName="     |===Janthir Wilds===|     " isseparator="1"/>
+	<MarkerCategory name="jw" DisplayName="Map Completion (BHUD Only)">
+
+		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="4500" fadeFar="5500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                        Marker Organization                                                                        ==-->
+	<!--=======================================================================================================================================================================-->
+		<MarkerCategory name="cm" DisplayName="Common Markers">
+		
+			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
+				<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
+				<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
+				<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1" triggerRange="25" />
+				<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
+				<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
+				<MarkerCategory name="bov" DisplayName="Bond of Vigor" iconFile="Data/TehsTrails/Markers/BondofVigor.png" iconSize="0.8"/>
+				<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
+				<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
+				<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" iconSize="0.5"/>
+				<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" iconSize="0.5"/>
+				<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" iconSize="0.5"/>
+				<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
+				<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+				<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+				<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+				<MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png" iconSize="0.5"/>
+				<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
+				<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" iconSize="0.5"/>
+				<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+				<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+			</MarkerCategory>
+
+			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
+				 <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
+				 <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
+				<MarkerCategory name="skimmer" DisplayName="Skimmer" iconFile="Data/TehsTrails/Markers/Skimmer.png"/>
+				 <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
+				 <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
+				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
+				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
+				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+				<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+			</MarkerCategory>
+
+			<MarkerCategory name="wm" DisplayName="Waypoint Markers (Requires Scripts)" autoTrigger="1">
+				<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1" mapVisibility="0" miniMapVisibility="0"/>
+				<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0"/>
+			</MarkerCategory>
+		</MarkerCategory>
+		
+	<!--=======================================================================================================================================================================-->
+	<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
+	<!--=======================================================================================================================================================================-->
+		<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
+		<MarkerCategory name="caution" DisplayName="Caution Trail" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0" iswall="1" texture="Data/TehsTrails/Markers/caution.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
+		<MarkerCategory name="hoops" DisplayName="Guide Hoops" fadeNear="4000" fadeFar="4500" texture="Data/TehsTrails/Markers/ring.png" iswall="1" animSpeed="0" mapVisibility="0" miniMapVisibility="0" canfade="0"/>
+	</MarkerCategory>
+
+
+
+
+	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                               CREDITS                                                                             ==-->
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="other" DisplayName="     |=======Other=======|     " isseparator="1"/>
