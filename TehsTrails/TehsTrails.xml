@@ -10085,7 +10085,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1517" xpos="754.055" ypos="273.527" zpos="-76.1088" type="tt.sotol.cm.rm.stl" GUID="qVJ9H32SCk6mB//3SunG3Q=="/>
 		<POI MapID="1517" xpos="627.774" ypos="379.747" zpos="167.08" type="tt.sotol.cm.rm.stl" GUID="K9/Wnhm11kGNuePOII3Mag=="/>
 		<POI MapID="1517" xpos="470.155" ypos="335.216" zpos="240.301" type="tt.sotol.cm.rm.stl" GUID="RWAHg6+MB0Wdg/wsapF1Eg=="/>
-		<POI MapID="1517" xpos="534.727" ypos="379.714" zpos="426.446" type="tt.sotol.cm.rm.stl" GUID="8bP8RP+JnEWZgzXToAYQ/Q=="/>
+		<POI MapID="1517" xpos="375.0108" ypos="380.5062" zpos="463.0782" type="tt.sotol.cm.rm.stl" GUID="8bP8RP+JnEWZgzXToAYQ/Q=="/>
 		<POI MapID="1517" xpos="390.851" ypos="397.772" zpos="405.433" type="tt.sotol.cm.rm.stl" script-focus="Teh_DisappearingTrailTrigger(a36VPxgSL0yytSwws/y+Vg==)" GUID="81xFAFF+EEir8nksaqAK2A=="/>
 		<POI MapID="1517" xpos="401.453" ypos="379.656" zpos="675.498" type="tt.sotol.cm.rm.stl" GUID="+RXjHmguzk6MCAsrowumoQ=="/>
 		<POI MapID="1517" xpos="435.021" ypos="379.656" zpos="708.382" type="tt.sotol.cm.rm.stl" GUID="EHzs90z5AU6adL84xX1Q6w=="/>
@@ -10095,10 +10095,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1517" xpos="-581.111" ypos="613.004" zpos="-115.06" type="tt.sotol.cm.rm.stl" GUID="BYdgUuQehU2q0Ztu9cTxMQ=="/>
 		<POI MapID="1517" xpos="-368.19" ypos="612.209" zpos="14.2855" type="tt.sotol.cm.rm.stl" GUID="kWBoR1s54kK0e+RV7mPKwg=="/>
 		<POI MapID="1517" xpos="-451.966" ypos="544.766" zpos="-94.5334" type="tt.sotol.cm.rm.stl" GUID="WAbY2U/GRUmp0jiYbyFUNw=="/>
-		<POI MapID="1517" xpos="605.348" ypos="274.372" zpos="-99.6295" type="tt.sotol.cm.rm.stl" GUID="xnk8Ai97GkqvzHTs4WEFpQ=="/>
+		<POI MapID="1517" xpos="599.8391" ypos="274.3718" zpos="-98.99773" type="tt.sotol.cm.rm.stl" GUID="xnk8Ai97GkqvzHTs4WEFpQ=="/>
+		<POI MapID="1517" xpos="-344.1107" ypos="457.6254" zpos="692.7325" type="tt.sotol.cm.rm.stl" GUID="mN3KmV5uEUuUawJQb536Mg=="/>
 		<POI MapID="1517" xpos="118.682" ypos="242.346" zpos="-508.33" type="tt.sotol.cm.rm.stl" GUID="lR2nuecCa0SlOwfwCJYwCQ=="/>
 		<POI MapID="1517" xpos="299.645" ypos="295.352" zpos="-524.707" type="tt.sotol.cm.rm.stl" GUID="byktvYD0Yk6oiLMWr/eBkA=="/>
-		<POI MapID="1517" xpos="682.642" ypos="275.636" zpos="-573.319" type="tt.sotol.cm.rm.stl" GUID="3w2kTw2NK0mRyD03QcpJEA=="/>
+		<POI MapID="1517" xpos="582.5914" ypos="270.478" zpos="-480.3709" type="tt.sotol.cm.rm.stl" GUID="3w2kTw2NK0mRyD03QcpJEA=="/>
 		<POI MapID="1517" xpos="-75.273" ypos="270.219" zpos="-417.372" type="tt.sotol.cm.rm.start" GUID="9CeEtWIvykyPauXZi7YmDQ=="/>
 		<POI MapID="1517" xpos="-71.0905" ypos="270.301" zpos="-414.352" type="tt.sotol.cm.mm.jackal" GUID="lcljz8tlxEOv7yYZmxpoJQ=="/>
 		<POI MapID="1517" xpos="-80.14" ypos="221.645" zpos="-599.203" type="tt.sotol.cm.wm.tpm" info="Go to any of the highlighted waypoints to continue the trail. Hopefully at least one isn't contested!" script-focus="Teh_ChooseWaypointTrigger(3)" GUID="FVSS6Mf63UCfHh/X6Wwntg=="/>
@@ -10118,7 +10119,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1517" xpos="-165.342" ypos="394.771" zpos="575.205" type="tt.sotol.cm.wm.wph" script-once="Teh_ChooseWaypointMarker(3)" GUID="/Y8+ZIjkU0yefxhz0GsAow=="/>
 		<POI MapID="1517" xpos="-166.505" ypos="394.981" zpos="526.952" type="tt.sotol.cm.mm.skyscale" GUID="PhhzIzGEIUix1LEjrkvshw=="/>
 		<POI MapID="1517" xpos="-268.397" ypos="419.792" zpos="399.721" type="tt.sotol.cm.wm.tpm" info="Go to any of the highlighted waypoints to continue the trail. Hopefully at least one isn't contested!" script-focus="Teh_ChooseWaypointTrigger(3)" GUID="EihKI0CknkyTqaJoJdUf9A=="/>
-		<POI MapID="1517" xpos="681.628" ypos="275.603" zpos="-574.469" type="tt.sotol.cm.wm.tpm" script-focus="Teh_HighlightWaypoint(ns7qL83Yv0Km5T/TRZ0qga==)" GUID="IzSyil+rlEiklQiUhJ9bmg=="/>
+		<POI MapID="1517" xpos="582.945" ypos="270.478" zpos="-478.8104" type="tt.sotol.cm.wm.tpm" script-focus="Teh_HighlightWaypoint(ns7qL83Yv0Km5T/TRZ0qga==)" GUID="IzSyil+rlEiklQiUhJ9bmg=="/>
 		<POI MapID="1517" xpos="39.0676" ypos="677.24" zpos="298.885" type="tt.sotol.cm.wm.wph" GUID="AkKsZ7g6w06leMCc8LTD7A=="/>
 		<POI MapID="1517" xpos="39.311" ypos="677.24" zpos="302.929" type="tt.sotol.cm.mm.skyscale" GUID="OaLwtWDIzEW7ivmA2au4Gg=="/>
 		<POI MapID="1517" xpos="18.7982" ypos="677.257" zpos="301.579" type="tt.sotol.cm.mm.skyscale" GUID="fGW3MQljVEGwpCplHHgzrw=="/>
