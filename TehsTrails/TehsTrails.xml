@@ -2,13 +2,14 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD https://raw.githubusercontent.com/xrandox/Gw2_Marker_Pack_DTD_XSD/main/GW2MarkerPack.xsd"
 xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
-	<MarkerCategory name="tt" DisplayName="Teh's Trails - Map Completion">
+	<!-- THE MAJORITY OF GLOBAL MARKER SETTINGS SHOULD BE SET HERE -->
+	<MarkerCategory name="tt" DisplayName="Teh's Trails - Map Completion" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20" iconSize="0.5" animSpeed="0.25" trailScale="1" mapDisplaySize="35" scaleOnMapWithZoom="0">
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                              CORE TYRIA                                                                           ==-->
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="mapcomp" DisplayName="     |=====Core Tyria=====|     " isseparator="1"/>
-		<!-- THE MAJORITY OF GLOBAL MARKER SETTINGS SHOULD BE SET HERE -->
-		<MarkerCategory name="mc" DisplayName="Map Completion"  fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20" iconSize="0.5" animSpeed="0.25" trailScale="1" mapDisplaySize="35" scaleOnMapWithZoom="0">
+		
+		<MarkerCategory name="mc" DisplayName="Map Completion">
 		<!--=======================================================================================================================================================================-->	
 		<!--==                                                                              MAIN TRAIL                                                                           ==-->
 		<!--=======================================================================================================================================================================-->
@@ -41,7 +42,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
 					<MarkerCategory name="transp" DisplayName="Transparent Marker" iconFile="Data/TehsTrails/Markers/transparent.png"/>
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/TehsTrails/Markers/shoppinglist.png" iconSize="1.5"/>
-					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
+					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" />
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" mapDisplaySize="45" iconSize="1" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map_by_teleporting" DisplayName="Exit Point Teleportation" iconFile="Data/TehsTrails/Markers/ExitMap.png" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="nem" DisplayName="Numbered Exit Map Markers" miniMapVisibility="1" mapVisibility="1">
@@ -202,36 +203,36 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="hotsep" DisplayName="     |===Heart of Thorns===|     " isseparator="1"/>
 		<MarkerCategory name="hot" DisplayName="Map Completion (WIP)">
 
-			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				<MarkerCategory name="rm" DisplayName="Route Markers">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
-					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
+					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" />
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
 					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1" triggerRange="25" />
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
 					<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
-					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
-					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
-					<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" iconSize="0.5"/>
-					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" iconSize="0.5"/>
-					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" iconSize="0.5"/>
+					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" />
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" />
+					<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" />
+					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" />
+					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" />
 					<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
 					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
 					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
-					<MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png" iconSize="0.5"/>
-					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
-					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" iconSize="0.5"/>
-					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
-					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png" />
+					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" />
+					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" />
+					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5">
 				  	<MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				 	<MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				 	<MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -244,65 +245,48 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerRange="25" autoTrigger="1" infoRange="20">
-				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" infoRange="20">
+				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" triggerRange="15"/>
+				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" triggerRange="15"/>
+				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" triggerRange="15"/>
+				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" triggerRange="15"/>
+				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" triggerRange="15"/>
+				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" triggerRange="15"/>
 				</MarkerCategory>
 
-				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
+				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
 					<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1"/>
 					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 				</MarkerCategory>
 
-			</MarkerCategory>
-
-			<MarkerCategory name="h" DisplayName="Hearts">
-			
-				<!-- Common Heart Markers -->
-				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
-					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="80"/>
-					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
-					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png"/>
-					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/TehsTrails/Markers/Talk.png" iconSize="0.75"/>
-					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
-					<MarkerCategory name="kill" DisplayName="Kill" iconFile="Data/TehsTrails/Markers/Kill.png"/>
-					<MarkerCategory name="gather" DisplayName="Gather" iconFile="Data/TehsTrails/Markers/Gather.png"/>
-					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png"/>
-					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
-					<MarkerCategory name="tradingpost" DisplayName="Trading Post Heart" iconFile="Data/TehsTrails/Markers/Trading_Post.png"/>
-				</MarkerCategory>
-
+				<MarkerCategory name="se" DisplayName="Enable Scripting Reminder (BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but scripts are not running.&#xA;&#xA;In order to properly use the pack you must have LUA scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;If that does not fix the problem, please ensure you are on the latest version of the Pathing, delete this pack, and redownload it. Downloading the pack on old versions of the Pathing module can strip the scripts from the pack, resulting in this issue.&#xA;&#xA;If you need help troubleshooting this message, please visit the BlishHUD discord!"/>
 			</MarkerCategory>
 			
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                            HERO POINTS                                                                            ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
-				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
-				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20"/>
+				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/HPTrail.png" mapVisibility="1"/>
+				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png"/>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/SkyscaleTrail.png" trailScale="1" miniMapVisibility="0"/>
+			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/SkyscaleTrail.png" mapVisibility="1"/>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
+			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/TrailOfShame.png" mapVisibility="1"/>
 		
 		</MarkerCategory>
 
@@ -400,36 +384,36 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="eodsep" DisplayName="     |===End of Dragons===|     " isseparator="1"/>
 		<MarkerCategory name="eod" DisplayName="Map Completion">
 
-			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				<MarkerCategory name="rm" DisplayName="Route Markers">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
-					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
+					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" />
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
 					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1" triggerRange="25" />
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
-					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
-					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
-					<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" iconSize="0.5"/>
-					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" iconSize="0.5"/>
-					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" iconSize="0.5"/>
-					<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
-					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
-					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
-					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
-					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" iconSize="0.5"/>
-					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
-					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" />
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" />
+					<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" />
+					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" />
+					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" />
+					<MarkerCategory name="1" DisplayName="One" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+					<MarkerCategory name="2" DisplayName="Two" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+					<MarkerCategory name="3" DisplayName="Three" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" />
+					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" />
+					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="zip" DisplayName="Zipline" iconFile="Data/TehsTrails/Markers/zip.png" iconSize="0.8"/>
-					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
+					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" />
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -442,27 +426,28 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerRange="25" autoTrigger="1" infoRange="20">
-				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" iconSize="1">
+				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" triggerRange="15"/>
+				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" triggerRange="15"/>
+				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" triggerRange="15"/>
+				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" triggerRange="15"/>
+				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" triggerRange="15"/>
+				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" triggerRange="15"/>
 				</MarkerCategory>
 
-				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
+				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/TehsTrails/Markers/hp.png" />
+
+				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
 					<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1"/>
 					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 				</MarkerCategory>
@@ -471,11 +456,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 			<MarkerCategory name="h" DisplayName="Hearts">
 
-				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0" iswall="1"/>
+				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/HeartZone.png" iswall="1"/>
 				
 				<!-- Common Heart Markers -->
-				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
-					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" infoRange="80"/>
+				<MarkerCategory name="chm" DisplayName="Common Heart Markers">
+					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/TehsTrails/Markers/Renown_Heart_empty.png" triggerRange="15" infoRange="80" bh-infoRange="20"/>
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/TehsTrails/Markers/Renown_Heart.png"/>
 					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/Arrow.png"/>
 					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/TehsTrails/Markers/Talk.png" iconSize="0.75"/>
@@ -485,7 +470,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png"/>
 					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/TehsTrails/Markers/Deposit.png"/>
 					<MarkerCategory name="fish" DisplayName="Fish" iconFile="Data/TehsTrails/Markers/fish.png"/>
-					<MarkerCategory name="scan" DisplayName="Scan" iconFile="Data/TehsTrails/Markers/scan.png" iconSize="0.5"/>
+					<MarkerCategory name="scan" DisplayName="Scan" iconFile="Data/TehsTrails/Markers/scan.png" />
 					<MarkerCategory name="deactivate" DisplayName="Deactivate Jade Bot" iconFile="Data/TehsTrails/Markers/deactivate.png" iconSize="0.8"/>
 					<MarkerCategory name="return" DisplayName="Return" iconFile="Data/TehsTrails/Markers/return.png" iconSize="0.8"/>
 					<MarkerCategory name="spice" DisplayName="Spice" iconFile="Data/TehsTrails/Markers/spices.png" iconSize="0.8"/>
@@ -502,29 +487,29 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 		<MarkerCategory name="eodl" DisplayName="Lanterns" defaulttoggle="0">
-			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
 
-			<MarkerCategory name="lantern" DisplayName="Jade Lanterns" iconFile="Data/TehsTrails/Markers/lantern.png" scaleOnMapWithZoom="0" mapDisplaySize="40" iconSize="1" fadeNear="3000" fadeFar="3500" miniMapVisibility="1" mapVisibility="1"/>
+			<MarkerCategory name="lantern" DisplayName="Jade Lanterns" iconFile="Data/TehsTrails/Markers/lantern.png" iconSize="1" miniMapVisibility="1" mapVisibility="1"/>
 
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
-					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png" iconSize="0.5"/>
-					<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
-					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
-					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+				<MarkerCategory name="rm" DisplayName="Route Markers">
+					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/TehsTrails/Markers/Interact.png" />
+					<MarkerCategory name="1" DisplayName="One" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+					<MarkerCategory name="2" DisplayName="Two" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+					<MarkerCategory name="3" DisplayName="Three" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
 					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1" triggerRange="25" />
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
-					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
-					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
-					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
-					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" />
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" />
+					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" />
+					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" miniMapVisibility="1" mapVisibility="1" iconSize="1"/>
 					<MarkerCategory name="zip" DisplayName="Zipline" iconFile="Data/TehsTrails/Markers/zip.png" iconSize="0.8"/>
-					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" iconSize="0.5"/>
-					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
+					<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" />
+					<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" />
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -536,26 +521,26 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" fadeNear="3500" fadeFar="4000" triggerRange="25" autoTrigger="1" infoRange="20">
-				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
-				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" miniMapVisibility="0" mapVisibility="0"/>
-				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" iconSize="1">
+				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" miniMapVisibility="1" mapVisibility="1"/>
+				  <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" triggerRange="15"/>
+				  <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" triggerRange="15"/>
+				  <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" triggerRange="15"/>
+				  <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" triggerRange="15"/>
+				  <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" triggerRange="15"/>
+				  <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" triggerRange="15"/>
+				  <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" triggerRange="15"/>
 				</MarkerCategory>
 
-				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
+				<MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
 					<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1"/>
 					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 				</MarkerCategory>
@@ -571,38 +556,38 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	<MarkerCategory name="sotos" DisplayName="     |===Secrets of the Obscure===|     " isseparator="1"/>
 	<MarkerCategory name="soto" DisplayName="Map Completion (BHUD Only)">
 
-		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="4500" fadeFar="5500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="4500" fadeFar="5500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
 
 	<!--=======================================================================================================================================================================-->
 	<!--==                                                                        Marker Organization                                                                        ==-->
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="cm" DisplayName="Common Markers">
 		
-			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+			<MarkerCategory name="rm" DisplayName="Route Markers">
 				<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
-				<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" iconSize="0.5"/>
+				<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png"/>
 				<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
 				<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1" triggerRange="25" />
 				<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
 				<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
 				<MarkerCategory name="bov" DisplayName="Bond of Vigor" iconFile="Data/TehsTrails/Markers/BondofVigor.png" iconSize="0.8"/>
-				<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
-				<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
-				<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" iconSize="0.5"/>
-				<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" iconSize="0.5"/>
-				<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" iconSize="0.5"/>
-				<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png" iconSize="0.5"/>
-				<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
-				<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
-				<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
-				<MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png" iconSize="0.5"/>
-				<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
-				<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" iconSize="0.5"/>
-				<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
-				<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+				<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png"/>
+				<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png"/>
+				<MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png"/>
+				<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png"/>
+				<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png"/>
+				<MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png"/>
+				<MarkerCategory name="1" DisplayName="One" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+				<MarkerCategory name="2" DisplayName="Two" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+				<MarkerCategory name="3" DisplayName="Three" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+				<MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png"/>
+				<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png"/>
+				<MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png"/>
+				<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" miniMapVisibility="1" mapVisibility="1" iconSize="1"/>
+				<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" miniMapVisibility="1" mapVisibility="1" iconSize="1"/>
 			</MarkerCategory>
 
-			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+			<MarkerCategory name="mm" DisplayName="Mount Markers">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				 <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				 <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -616,42 +601,42 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 			</MarkerCategory>
 
 			<MarkerCategory name="wm" DisplayName="Waypoint Markers (Requires Scripts)" autoTrigger="1">
-				<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1" mapVisibility="0" miniMapVisibility="0"/>
-				<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0"/>
+				<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1"/>
+				<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 			</MarkerCategory>
 		</MarkerCategory>
 		
 	<!--=======================================================================================================================================================================-->
 	<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
 	<!--=======================================================================================================================================================================-->
-		<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/TehsTrails/Markers/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
-		<MarkerCategory name="caution" DisplayName="Caution Trail" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0" iswall="1" texture="Data/TehsTrails/Markers/caution.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
-		<MarkerCategory name="hoops" DisplayName="Guide Hoops" fadeNear="4000" fadeFar="4500" texture="Data/TehsTrails/Markers/ring.png" iswall="1" animSpeed="0" mapVisibility="0" miniMapVisibility="0" canfade="0"/>
+		<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/TrailOfShame.png" mapVisibility="1"/>
+		<MarkerCategory name="caution" DisplayName="Caution Trail" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0" iswall="1" texture="Data/TehsTrails/Markers/caution.png" />
+		<MarkerCategory name="hoops" DisplayName="Guide Hoops" fadeNear="4000" fadeFar="4500" texture="Data/TehsTrails/Markers/ring.png" iswall="1" canfade="0"/>
 	</MarkerCategory>
 
 	<MarkerCategory name="sotol" DisplayName="Lanterns (BHUD Only)">
 
-		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="4500" fadeFar="5500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="4500" fadeFar="5500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
 
 	<!--=======================================================================================================================================================================-->
 	<!--==                                                                        Marker Organization                                                                        ==-->
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="cm" DisplayName="Common Markers">
 		
-			<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+			<MarkerCategory name="rm" DisplayName="Route Markers">
 				<MarkerCategory name="stl" DisplayName="Starlight Lantern" iconFile="Data/TehsTrails/Markers/StarlightLantern.png" iconSize="0.7" alpha="0.7"/>
 				<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
 				<MarkerCategory name="bov" DisplayName="Bond of Vigor" iconFile="Data/TehsTrails/Markers/BondofVigor.png" iconSize="0.8"/>
-				<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" iconSize="0.5"/>
-				<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" iconSize="0.5"/>
-				<MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
-				<MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
-				<MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
-				<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" iconSize="0.5"/>
-				<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+				<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png"/>
+				<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png"/>
+				<MarkerCategory name="1" DisplayName="One" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+				<MarkerCategory name="2" DisplayName="Two" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+				<MarkerCategory name="3" DisplayName="Three" bounce="bounce" bounce-height="0" bounce-duration="1" bounce-delay="0" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+				<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png"/>
+				<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" miniMapVisibility="1" mapVisibility="1" iconSize="1"/>
 			</MarkerCategory>
 
-			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0" infoRange="20">
+			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				 <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				 <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
@@ -664,9 +649,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
 			</MarkerCategory>
 
-			<MarkerCategory name="wm" DisplayName="Waypoint Markers (Requires Scripts)" autoTrigger="1" fadeNear="3500" fadeFar="4000">
-				<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1" mapVisibility="0" miniMapVisibility="0"/>
-				<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0"/>
+			<MarkerCategory name="wm" DisplayName="Waypoint Markers (Requires Scripts)" autoTrigger="1">
+				<MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1"/>
+				<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 			</MarkerCategory>
 		</MarkerCategory>
 	</MarkerCategory>
