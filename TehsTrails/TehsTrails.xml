@@ -404,6 +404,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 			</MarkerCategory>
 
+			<MarkerCategory name="se" DisplayName="Enable Scripting Reminder (BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but scripts are not running.&#xA;&#xA;In order to properly use the pack you must have LUA scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;If that does not fix the problem, please ensure you are on the latest version of the Pathing, delete this pack, and redownload it. Downloading the pack on old versions of the Pathing module can strip the scripts from the pack, resulting in this issue.&#xA;&#xA;If you need help troubleshooting this message, please visit the BlishHUD discord!"/>
+
 		</MarkerCategory>
 
 
@@ -467,6 +469,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 					<MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
 				</MarkerCategory>
 
+				<MarkerCategory name="se" DisplayName="Enable Scripting Reminder (BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but scripts are not running.&#xA;&#xA;In order to properly use the pack you must have LUA scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;If that does not fix the problem, please ensure you are on the latest version of the Pathing, delete this pack, and redownload it. Downloading the pack on old versions of the Pathing module can strip the scripts from the pack, resulting in this issue.&#xA;&#xA;If you need help troubleshooting this message, please visit the BlishHUD discord!"/>
 			</MarkerCategory>
 
 		</MarkerCategory>
@@ -7968,6 +7971,16 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="co8l9cL0dkOIXDPOSVXiKg==" type="tt.mc.cm.se" />
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="yx+evYoC30i67RO/R5BF2g==" type="tt.mc.cm.se" />
 		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1452" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1442" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1438" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1428" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1422" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1052" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1045" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1043" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1517" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1510" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
 		<!-- Skyscale Notifier Markers -->
 		<POI MapID="29" xpos="0" ypos="-1000" zpos="0" GUID="ugk0lmHCaU6lVjY1KAec2w==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
 		<POI MapID="53" xpos="0" ypos="-1000" zpos="0" GUID="hCAJU52vrEGCKhkwW926Yg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
