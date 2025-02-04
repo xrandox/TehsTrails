@@ -3,9 +3,9 @@ local function toggleTutorial(menu)
     Teh_ToggleTutorial()
 end
 
-local function newColor(menu)
+local function newToSColor(menu)
     -- clear any other checked boxes
-    for index, value in ipairs(Teh.trailcolors.colors) do
+    for index, value in ipairs(Teh.trailcolors.trailtypes["tos"]["colors"]) do
         if (value[1] ~= menu.Name) then
             value[3].Checked = false
         else
@@ -14,7 +14,49 @@ local function newColor(menu)
     end
 
     -- change the color
-    Teh_ChangeColor(menu.Name)
+    Teh_ChangeColor("tos", menu.Name)
+end
+
+local function newMainColor(menu)
+    -- clear any other checked boxes
+    for index, value in ipairs(Teh.trailcolors.trailtypes["main"]["colors"]) do
+        if (value[1] ~= menu.Name) then
+            value[3].Checked = false
+        else
+            value[3].Checked = true
+        end
+    end
+
+    -- change the color
+    Teh_ChangeColor("main", menu.Name)
+end
+
+local function newHPColor(menu)
+    -- clear any other checked boxes
+    for index, value in ipairs(Teh.trailcolors.trailtypes["hp"]["colors"]) do
+        if (value[1] ~= menu.Name) then
+            value[3].Checked = false
+        else
+            value[3].Checked = true
+        end
+    end
+
+    -- change the color
+    Teh_ChangeColor("hp", menu.Name)
+end
+
+local function newHeartColor(menu)
+    -- clear any other checked boxes
+    for index, value in ipairs(Teh.trailcolors.trailtypes["heart"]["colors"]) do
+        if (value[1] ~= menu.Name) then
+            value[3].Checked = false
+        else
+            value[3].Checked = true
+        end
+    end
+
+    -- change the color
+    Teh_ChangeColor("heart", menu.Name)
 end
 
 local function newTransparency(menu)
@@ -97,15 +139,26 @@ local mainMenu = Menu:Add("Tehs Trails", nil)
 local stut = mainMenu:Add("Show/Hide Tutorial", toggleTutorial, false, false, "Shows/Hides the pack tutorial. Make sure you're in a flat, open space!")
 
 -- Color menu
-local colorMenu = mainMenu:Add("Select Trail Color", nil, false, false, "Changes the color of the main trail")
+local colorMenu = mainMenu:Add("Select Trail Colors", nil, false, false, "Select colors for each of the different trail types")
 
-for i, value in ipairs(Teh.trailcolors.colors) do
-    local name = value[1]
-    local checked = false
-    if (name == Teh.storage.trailColor) then
-        checked = true
+for trailType, typeTable in pairs(Teh.trailcolors.trailtypes) do
+    local newColorMenu = colorMenu:Add(typeTable["menuName"], nil, false, false, typeTable["menuDescription"])
+    local func = newToSColor
+    if (trailType == "main") then
+        func = newMainColor
+    elseif (trailType == "hp") then
+        func = newHPColor
+    elseif (trailType == "heart") then
+        func = newHeartColor
     end
-    Teh.trailcolors.colors[i][3] = colorMenu:Add(name, newColor, true, checked)
+    for i, colorTable in ipairs(typeTable["colors"]) do
+        local name = colorTable[1]
+        local checked = false
+        if (name == Teh.storage.trailColors[trailType]) then
+            checked = true
+        end
+        Teh.trailcolors.trailtypes[trailType]["colors"][i][3] = newColorMenu:Add(colorTable[1], func, true, checked)
+    end
 end
 
 local transparencyMenu = mainMenu:Add("Set Trail Transparency", nil, false, false, "Changes the transparency of all trails in the pack, does not affect marker transparency or other packs")

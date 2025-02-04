@@ -411,7 +411,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 		<MarkerCategory name="eodl" DisplayName="Lanterns" defaulttoggle="0">
-			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
+			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
 
 			<MarkerCategory name="lantern" DisplayName="Jade Lanterns" iconFile="Data/TehsTrails/Markers/lantern.png" iconSize="1" miniMapVisibility="1" mapVisibility="1"/>
 

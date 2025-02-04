@@ -9,7 +9,12 @@ Teh.storage = {
     bounceToggled = "true",
     highlightToggled = "true",
     hasSkyscale = "false",
-    trailColor = "Light Blue [Default]",
+    trailColors = {
+        ["main"] = "Light Blue [Default]",
+        ["hp"] = "Yellow [Default]",
+        ["heart"] = "Yellow and Black [Default]",
+        ["tos"] = "Red [Default]"
+    },
     firstLaunch = "true",
     alternateMounts = "false",
     transparency = "100%"
