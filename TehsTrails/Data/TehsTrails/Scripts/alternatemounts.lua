@@ -9,7 +9,7 @@ local MOUNT_IDS = {
     ["griffon"] = 1824207
 }
 
-local PARENT_CATEGORIES = { "tt.mc.cm.mm.", "tt.hot.cm.mm.", "tt.pof.cm.mm.", "tt.eod.cm.mm.", "tt.soto.cm.mm." }
+local PARENT_CATEGORIES = { "tt.mc.cm.mm.", "tt.hot.cm.mm.", "tt.pof.cm.mm.", "tt.eod.cm.mm.", "tt.eodl.cm.mm.", "tt.soto.cm.mm." }
 local PARENT_PATH = "Data/TehsTrails/Markers/"
 local PATH_END = ".png"
 
@@ -24,13 +24,15 @@ local function switchMounts()
     for _, value in ipairs(PARENT_CATEGORIES) do
         for mountName, id in pairs(MOUNT_IDS) do
             local mountCategory = World:CategoryByType(value .. mountName)
-            local mountMarkers = mountCategory:GetMarkers()
-            if (mountMarkers ~= nil) then
-                for _, marker in pairs(mountMarkers) do
-                    if (Teh.alternatemounts.isSwitched) then
-                        marker:SetTexture(id)
-                    else
-                        marker:SetTexture(PARENT_PATH .. mountName .. PATH_END)
+            if (mountCategory ~= nil) then
+                local mountMarkers = mountCategory:GetMarkers()
+                if (mountMarkers ~= nil) then
+                    for _, marker in pairs(mountMarkers) do
+                        if (Teh.alternatemounts.isSwitched) then
+                            marker:SetTexture(id)
+                        else
+                            marker:SetTexture(PARENT_PATH .. mountName .. PATH_END)
+                        end
                     end
                 end
             end
