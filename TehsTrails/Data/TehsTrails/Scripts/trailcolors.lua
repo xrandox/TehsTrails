@@ -21,7 +21,6 @@ Teh.trailcolors = {
 }
 
 Debug:Watch("Teh_TrailColors", Teh.trailcolors)
-local mainTrail = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Vg==")
 local mainTrails = World:PathablesByGuid("cb6VPxgSL0yytSwws/y+Vg==")
 
 -- Change the color of the main trail to the requested color name
