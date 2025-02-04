@@ -17,6 +17,20 @@ local function newColor(menu)
     Teh_ChangeColor(menu.Name)
 end
 
+local function newTransparency(menu)
+    -- clear any other checked boxes
+    for index, value in ipairs(Teh.trailtransparency.transparencies) do
+        if (value[1] ~= menu.Name) then
+            value[3].Checked = false
+        else
+            value[3].Checked = true
+        end
+    end
+
+    -- change the transparency
+    Teh_ChangeTransparency(menu.Name)
+end
+
 local function startingPointMarkers(menu)
     Teh_ToggleStorage("globalMarkersToggled")
     menu.Checked = Teh_GetBool("globalMarkersToggled")
@@ -92,6 +106,17 @@ for i, value in ipairs(Teh.trailcolors.colors) do
         checked = true
     end
     Teh.trailcolors.colors[i][3] = colorMenu:Add(name, newColor, true, checked)
+end
+
+local transparencyMenu = mainMenu:Add("Set Trail Transparency", nil, false, false, "Changes the transparency of all trails in the pack, does not affect marker transparency or other packs")
+
+for i, value in ipairs(Teh.trailtransparency.transparencies) do
+    local name = value[1]
+    local checked = false
+    if (name == Teh.storage.transparency) then
+        checked = true
+    end
+    Teh.trailtransparency.transparencies[i][3] = transparencyMenu:Add(name, newTransparency, true, checked)
 end
 
 mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_GetBool("globalMarkersToggled"), "Shows a highlight over the starting point for all zones (Core Tyria Only)")
