@@ -64,7 +64,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
 				  <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
 				  <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
-				  <MarkerCategory name="skyscaleNotifier" DisplayName="Skyscale Notifier (Script Use Only)" iconFile="Data/TehsTrails/Markers/Skyscale.png" mount="skyscale"/>
+				  <MarkerCategory name="skyscaleNotifier" DisplayName="Skyscale Notifier (Script Use Only)" iconFile="Data/TehsTrails/Markers/transparent.png" mount="skyscale"/>
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
