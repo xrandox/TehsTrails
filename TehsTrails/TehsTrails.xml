@@ -9073,6 +9073,20 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/DE.trl"/>
 		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.h.hz" trailData="Data/TehsTrails/EoDTrails/SPHeartZones.trl"/>
+	<!--NEW WAYPOINT MARKERS-->
+		<POI MapID="1442" xpos="68.2197" ypos="114.078" zpos="251.611" type="tt.eod.cm.wm.nwm.wph" GUID="qhWRH8BkJ064CzsY7Oxv3A==" />
+		<POI MapID="1442" xpos="-439.325" ypos="39.4979" zpos="536.692" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="TMVFV6e6fkeRxElyO5xWtg==" script-focus="Teh_Highlight_Waypoint(qhWRH8BkJ064CzsY7Oxv3A==)" />
+		<POI MapID="1442" xpos="-315.793" ypos="2.99111" zpos="-215.691" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="1yLBvgXNJEGe1aGixaZWKQ==" script-focus="Teh_Highlight_Waypoint(qhWRH8BkJ064CzsY7Oxv3A==)" />
+		<POI MapID="1442" xpos="-79.0016" ypos="14.3336" zpos="-183.805" type="tt.eod.cm.wm.nwm.wph" GUID="L+/N6hmvnUWAAA0bbxYnRg==" />
+		<POI MapID="1442" xpos="-414.81" ypos="3.20503" zpos="-575.829" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BKgMAAA=]" GUID="QLTSOOrKGUWscL6UdXllYA==" script-focus="Teh_Highlight_Waypoint(L+/N6hmvnUWAAA0bbxYnRg==)" />
+		<POI MapID="1452" xpos="-127.37" ypos="162.828" zpos="709.964" type="tt.eod.cm.wm.nwm.wph" GUID="Td/FM6owXUuEmtMZyIMpJA==" />
+		<POI MapID="1452" xpos="-543.009" ypos="-3.05889" zpos="-700.664" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="YuQa2RjKQEiOtm+IOf5wgA==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
+		<POI MapID="1452" xpos="-571.671" ypos="163.187" zpos="597.411" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="McHpZcjCxU6IDhJcrpnQxA==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
+		<POI MapID="1452" xpos="644.73" ypos="0.599559" zpos="90.9128" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="UBtsZphFlUavblLihDscpQ==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
+		<POI MapID="1452" xpos="1058.74" ypos="7.6427" zpos="-524.164" type="tt.eod.cm.wm.nwm.wph" GUID="z1FiMLmN5Eu6mBLcdcj9vw==" />
+		<POI MapID="1452" xpos="144.749" ypos="0.889556" zpos="-692.21" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BMcMAAA=]" GUID="JCJmqDxiNkKms5Vc18n7hg==" script-focus="Teh_Highlight_Waypoint(z1FiMLmN5Eu6mBLcdcj9vw==)" />
+		<POI MapID="1422" xpos="-197.841" ypos="176.314" zpos="837.965" type="tt.eod.cm.wm.nwm.wph" info="Stop! Two things before you continue past this waypoint: 1) Your personal waypoint must be off cooldown 2) Meta cannot be happening.       If you must, come back later. It'll just be a waste of time if you try and do it." GUID="QjLOJH43sUCCRIaK2SH4pQ==" />
+		<POI MapID="1422" xpos="-84.9918" ypos="7.52475" zpos="-750.646" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BKIMAAA=]" GUID="A0GvX1VuV0SDQmxC4dlmMA==" script-focus="Teh_Highlight_Waypoint(QjLOJH43sUCCRIaK2SH4pQ==)" />
 
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                        END OF DRAGONS LANTERNS                                                                    ==-->
