@@ -7971,16 +7971,16 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="50" xpos="0" ypos="0" zpos="0" GUID="co8l9cL0dkOIXDPOSVXiKg==" type="tt.mc.cm.se" />
 		<POI MapID="18" xpos="0" ypos="0" zpos="0" GUID="yx+evYoC30i67RO/R5BF2g==" type="tt.mc.cm.se" />
 		<POI MapID="218" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1452" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1442" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1438" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1428" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1422" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1052" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1045" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1043" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1517" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
-		<POI MapID="1510" xpos="0" ypos="0" zpos="0" GUID="2u9Z3QhpCkmgVBQdr10xIg==" type="tt.mc.cm.se" />
+		<POI MapID="1452" xpos="0" ypos="0" zpos="0" GUID="RE6CiWTP+keHUjzJCejYsg==" type="tt.mc.cm.se" />
+		<POI MapID="1442" xpos="0" ypos="0" zpos="0" GUID="NQ9QKU3e20iO2Rj8G1gNAg==" type="tt.mc.cm.se" />
+		<POI MapID="1438" xpos="0" ypos="0" zpos="0" GUID="YB2jGi0V20izForiDT+Xvw==" type="tt.mc.cm.se" />
+		<POI MapID="1428" xpos="0" ypos="0" zpos="0" GUID="4Ym97ir5hk6/JZxHWoTCnQ==" type="tt.mc.cm.se" />
+		<POI MapID="1422" xpos="0" ypos="0" zpos="0" GUID="6T0aoWoflke5cxn4i0xfug==" type="tt.mc.cm.se" />
+		<POI MapID="1052" xpos="0" ypos="0" zpos="0" GUID="dJM/oQ/+AEqTBvQCo6MVzQ==" type="tt.mc.cm.se" />
+		<POI MapID="1045" xpos="0" ypos="0" zpos="0" GUID="Ya1rnvDEJUi5zZBNaTBBiw==" type="tt.mc.cm.se" />
+		<POI MapID="1043" xpos="0" ypos="0" zpos="0" GUID="OSQOoPDsyEWQ8D8f0BDuOQ==" type="tt.mc.cm.se" />
+		<POI MapID="1517" xpos="0" ypos="0" zpos="0" GUID="WEAUxTfXTU61872MvwsI7A==" type="tt.mc.cm.se" />
+		<POI MapID="1510" xpos="0" ypos="0" zpos="0" GUID="uuOGx2CFqkecs56/7VqzrQ==" type="tt.mc.cm.se" />
 		<!-- Skyscale Notifier Markers -->
 		<POI MapID="29" xpos="0" ypos="-1000" zpos="0" GUID="ugk0lmHCaU6lVjY1KAec2w==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
 		<POI MapID="53" xpos="0" ypos="-1000" zpos="0" GUID="hCAJU52vrEGCKhkwW926Yg==" script-tick="Teh_Skyscale()" mount="skyscale" type="tt.mc.cm.skyscaleNotifier" />
