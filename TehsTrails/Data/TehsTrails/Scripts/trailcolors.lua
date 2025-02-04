@@ -22,20 +22,24 @@ Teh.trailcolors = {
 
 Debug:Watch("Teh_TrailColors", Teh.trailcolors)
 local mainTrail = World:TrailByGuid("cb6VPxgSL0yytSwws/y+Vg==")
+local mainTrails = World:PathablesByGuid("cb6VPxgSL0yytSwws/y+Vg==")
 
 -- Change the color of the main trail to the requested color name
 function Teh_ChangeColor(name)
-    if (mainTrail == nil) then
+    if (mainTrails == nil) then
         Debug:Error("Failed to change trail color: Could not get reference to main trail")
         return
     end
 
     for _, value in ipairs(Teh.trailcolors.colors) do
         if (value[1] == name) then
-            mainTrail.Tint = value[2]
-            mainTrail.Texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")
-            mainTrail.TrailSampleColor = value[2]
-            mainTrail.InGameVisibility = true
+            for _, trail in ipairs(mainTrails) do
+                Debug:Print("Changing trail color to " .. name)
+                trail.Tint = value[2]
+                trail.Texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")
+                trail.TrailSampleColor = value[2]
+                trail.InGameVisibility = true
+            end
             Teh_SaveValue("trailColor", name)
         end
     end
