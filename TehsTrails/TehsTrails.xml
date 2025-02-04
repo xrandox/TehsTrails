@@ -9084,19 +9084,19 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.eod.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/AS.trl"/>
 		<Trail type="tt.eod.h.hz" trailData="Data/TehsTrails/EoDTrails/SPHeartZones.trl"/>
 	<!--NEW WAYPOINT MARKERS-->
-		<POI MapID="1442" xpos="68.2197" ypos="114.078" zpos="251.611" type="tt.eod.cm.wm.nwm.wph" GUID="qhWRH8BkJ064CzsY7Oxv3A==" />
-		<POI MapID="1442" xpos="-439.325" ypos="39.4979" zpos="536.692" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="TMVFV6e6fkeRxElyO5xWtg==" script-focus="Teh_Highlight_Waypoint(qhWRH8BkJ064CzsY7Oxv3A==)" />
-		<POI MapID="1442" xpos="-315.793" ypos="2.99111" zpos="-215.691" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="1yLBvgXNJEGe1aGixaZWKQ==" script-focus="Teh_Highlight_Waypoint(qhWRH8BkJ064CzsY7Oxv3A==)" />
-		<POI MapID="1442" xpos="-79.0016" ypos="14.3336" zpos="-183.805" type="tt.eod.cm.wm.nwm.wph" GUID="L+/N6hmvnUWAAA0bbxYnRg==" />
-		<POI MapID="1442" xpos="-414.81" ypos="3.20503" zpos="-575.829" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BKgMAAA=]" GUID="QLTSOOrKGUWscL6UdXllYA==" script-focus="Teh_Highlight_Waypoint(L+/N6hmvnUWAAA0bbxYnRg==)" />
-		<POI MapID="1452" xpos="-127.37" ypos="162.828" zpos="709.964" type="tt.eod.cm.wm.nwm.wph" GUID="Td/FM6owXUuEmtMZyIMpJA==" />
-		<POI MapID="1452" xpos="-543.009" ypos="-3.05889" zpos="-700.664" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="YuQa2RjKQEiOtm+IOf5wgA==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
-		<POI MapID="1452" xpos="-571.671" ypos="163.187" zpos="597.411" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="McHpZcjCxU6IDhJcrpnQxA==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
-		<POI MapID="1452" xpos="644.73" ypos="0.599559" zpos="90.9128" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="UBtsZphFlUavblLihDscpQ==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
-		<POI MapID="1452" xpos="1058.74" ypos="7.6427" zpos="-524.164" type="tt.eod.cm.wm.nwm.wph" GUID="z1FiMLmN5Eu6mBLcdcj9vw==" />
-		<POI MapID="1452" xpos="144.749" ypos="0.889556" zpos="-692.21" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BMcMAAA=]" GUID="JCJmqDxiNkKms5Vc18n7hg==" script-focus="Teh_Highlight_Waypoint(z1FiMLmN5Eu6mBLcdcj9vw==)" />
-		<POI MapID="1422" xpos="-197.841" ypos="176.314" zpos="837.965" type="tt.eod.cm.wm.nwm.wph" info="Stop! Two things before you continue past this waypoint: 1) Your personal waypoint must be off cooldown 2) Meta cannot be happening.       If you must, come back later. It'll just be a waste of time if you try and do it." GUID="QjLOJH43sUCCRIaK2SH4pQ==" />
-		<POI MapID="1422" xpos="-84.9918" ypos="7.52475" zpos="-750.646" type="tt.eod.cm.wm.nwm.tpm" copy="[&amp;BKIMAAA=]" GUID="A0GvX1VuV0SDQmxC4dlmMA==" script-focus="Teh_Highlight_Waypoint(QjLOJH43sUCCRIaK2SH4pQ==)" />
+		<POI MapID="1442" xpos="68.2197" ypos="114.078" zpos="251.611" type="tt.eod.cm.nwm.wph" GUID="qhWRH8BkJ064CzsY7Oxv3A==" />
+		<POI MapID="1442" xpos="-439.325" ypos="39.4979" zpos="536.692" type="tt.eod.cm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="TMVFV6e6fkeRxElyO5xWtg==" script-focus="Teh_Highlight_Waypoint(qhWRH8BkJ064CzsY7Oxv3A==)" />
+		<POI MapID="1442" xpos="-315.793" ypos="2.99111" zpos="-215.691" type="tt.eod.cm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="1yLBvgXNJEGe1aGixaZWKQ==" script-focus="Teh_Highlight_Waypoint(qhWRH8BkJ064CzsY7Oxv3A==)" />
+		<POI MapID="1442" xpos="-79.0016" ypos="14.3336" zpos="-183.805" type="tt.eod.cm.nwm.wph" GUID="L+/N6hmvnUWAAA0bbxYnRg==" />
+		<POI MapID="1442" xpos="-414.81" ypos="3.20503" zpos="-575.829" type="tt.eod.cm.nwm.tpm" copy="[&amp;BKgMAAA=]" GUID="QLTSOOrKGUWscL6UdXllYA==" script-focus="Teh_Highlight_Waypoint(L+/N6hmvnUWAAA0bbxYnRg==)" />
+		<POI MapID="1452" xpos="-127.37" ypos="162.828" zpos="709.964" type="tt.eod.cm.nwm.wph" GUID="Td/FM6owXUuEmtMZyIMpJA==" />
+		<POI MapID="1452" xpos="-543.009" ypos="-3.05889" zpos="-700.664" type="tt.eod.cm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="YuQa2RjKQEiOtm+IOf5wgA==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
+		<POI MapID="1452" xpos="-571.671" ypos="163.187" zpos="597.411" type="tt.eod.cm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="McHpZcjCxU6IDhJcrpnQxA==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
+		<POI MapID="1452" xpos="644.73" ypos="0.599559" zpos="90.9128" type="tt.eod.cm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="UBtsZphFlUavblLihDscpQ==" script-focus="Teh_Highlight_Waypoint(Td/FM6owXUuEmtMZyIMpJA==)" />
+		<POI MapID="1452" xpos="1058.74" ypos="7.6427" zpos="-524.164" type="tt.eod.cm.nwm.wph" GUID="z1FiMLmN5Eu6mBLcdcj9vw==" />
+		<POI MapID="1452" xpos="144.749" ypos="0.889556" zpos="-692.21" type="tt.eod.cm.nwm.tpm" copy="[&amp;BMcMAAA=]" GUID="JCJmqDxiNkKms5Vc18n7hg==" script-focus="Teh_Highlight_Waypoint(z1FiMLmN5Eu6mBLcdcj9vw==)" />
+		<POI MapID="1422" xpos="-197.841" ypos="176.314" zpos="837.965" type="tt.eod.cm.nwm.wph" info="Stop! Two things before you continue past this waypoint: 1) Your personal waypoint must be off cooldown 2) Meta cannot be happening.       If you must, come back later. It'll just be a waste of time if you try and do it." GUID="QjLOJH43sUCCRIaK2SH4pQ==" />
+		<POI MapID="1422" xpos="-84.9918" ypos="7.52475" zpos="-750.646" type="tt.eod.cm.nwm.tpm" copy="[&amp;BKIMAAA=]" GUID="A0GvX1VuV0SDQmxC4dlmMA==" script-focus="Teh_Highlight_Waypoint(QjLOJH43sUCCRIaK2SH4pQ==)" />
 
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                        END OF DRAGONS LANTERNS                                                                    ==-->
@@ -9641,7 +9641,36 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/SPLanterns.trl"/>
 		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/TEWLanterns.trl"/>
 		<Trail type="tt.eodl.ct" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/EoDTrails/DELanterns.trl"/>
-		
+	<!--NEW WAYPOINT MARKERS-->
+		<POI MapID="1442" xpos="68.1280" ypos="114.214" zpos="249.117" type="tt.eodl.cm.nwm.wph" GUID="2+H3mg8qmUaFVrLUC5ilwQ==" />
+		<POI MapID="1442" xpos="-985.919" ypos="134.972" zpos="408.702" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="vxPghmMK4U2V3XZ42HO0dw==" script-focus="Teh_Highlight_Waypoint(2+H3mg8qmUaFVrLUC5ilwQ==)" />
+		<POI MapID="1442" xpos="904.86" ypos="0.598811" zpos="-615.736" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BGUNAAA=]" GUID="2uoRvm//Ak6cPUbTnDi1LQ==" script-focus="Teh_Highlight_Waypoint(2+H3mg8qmUaFVrLUC5ilwQ==)" />
+		<POI MapID="1442" xpos="-78.8084" ypos="14.3559" zpos="-183.939" type="tt.eodl.cm.nwm.wph" GUID="R4+UUm+y0U6VvOZUu/bqOg==" />
+		<POI MapID="1442" xpos="-43.7079" ypos="13.5056" zpos="-176.83" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BJ4MAAA=]" GUID="Nu/y6RF400efiNeCTcFA4Q==" script-focus="Teh_Highlight_Waypoint(R4+UUm+y0U6VvOZUu/bqOg==)" />
+		<POI MapID="1442" xpos="-417.838" ypos="5.41046" zpos="-632.55" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BJ4MAAA=]" GUID="z4IA/ATRuUOIWlUga4/A4w==" script-focus="Teh_Highlight_Waypoint(R4+UUm+y0U6VvOZUu/bqOg==)" />
+		<POI MapID="1442" xpos="489.871" ypos="24.8497" zpos="-19.8885" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BJ4MAAA=]" GUID="Q6+puX3peEi3J82v6lyq9w==" script-focus="Teh_Highlight_Waypoint(R4+UUm+y0U6VvOZUu/bqOg==)" />
+		<POI MapID="1442" xpos="-857.28" ypos="115.926" zpos="-117.54" type="tt.eodl.cm.nwm.wph" GUID="Selwzf0G/UiFIevH92VCGw==" />
+		<POI MapID="1442" xpos="-430.746" ypos="2.7525" zpos="195.97" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BL8MAAA=]" GUID="b4S4YK00LEyNQhp6grhMDg==" script-focus="Teh_Highlight_Waypoint(Selwzf0G/UiFIevH92VCGw==)" />
+		<POI MapID="1438" xpos="-149.816" ypos="2.62128" zpos="-35.5133" type="tt.eodl.cm.nwm.wph" GUID="VXdUmINHzkyiHN2tzfzqlA==" />
+		<POI MapID="1438" xpos="219.927" ypos="2.63877" zpos="443.191" type="tt.eodl.cm.nwm.tpm" info="If not contested, waypoint" infoRange="30" copy="[&amp;BBkNAAA=]" GUID="rqKFAEy3tUSPEPa4eNeODQ==" script-focus="Teh_Highlight_Waypoint(VXdUmINHzkyiHN2tzfzqlA==)" />
+		<POI MapID="1438" xpos="-593.734" ypos="207.659" zpos="455.367" type="tt.eodl.cm.nwm.wph" GUID="sJ2FFk4vJ0qFh6rrTsatCw==" />
+		<POI MapID="1438" xpos="-534.232" ypos="17.4758" zpos="672.351" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BBYNAAA=]" GUID="ILKJk4MdlEC6wZSQpjY/Zg==" script-focus="Teh_Highlight_Waypoint(sJ2FFk4vJ0qFh6rrTsatCw==)" />
+		<POI MapID="1438" xpos="-882.23" ypos="2.83998" zpos="-129.012" type="tt.eodl.cm.nwm.wph" GUID="YWb/4paq1kiUV8IjgY5FXw==" />
+		<POI MapID="1438" xpos="-869.811" ypos="1.40501" zpos="-622.02" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BMYMAAA=]" GUID="FJfk6UuE5k+KkE8D1HemCA==" script-focus="Teh_Highlight_Waypoint(YWb/4paq1kiUV8IjgY5FXw==)" />
+		<POI MapID="1452" xpos="-127.159" ypos="162.828" zpos="710.272" type="tt.eodl.cm.nwm.wph" info="TEW Lantern Trail starts here.      Please note, there is no trail leading to the two lanterns inside Aspenwood Research Facility, as they are locked behind the meta event. You must get those lanterns on your own.      You will also need to have unlocked the story step 'Empty' with the character you are on in order to get to the lantern in Secret Cavern. The trail does lead to this lantern, but you may choose to come back and get it after." infoRange="35.0" GUID="FgCw0ZJkNEGj2PyJ7Z+XUw==" />
+		<POI MapID="1452" xpos="-528.771" ypos="1.26957" zpos="-683.546" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="yNCfklmJ0kuKTX6KZQhpGQ==" script-focus="Teh_Highlight_Waypoint(FgCw0ZJkNEGj2PyJ7Z+XUw==)" />
+		<POI MapID="1452" xpos="617.418" ypos="11.5619" zpos="97.1282" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BIsMAAA=]" GUID="xNwElAGxhEK9df8zETKw+g==" script-focus="Teh_Highlight_Waypoint(FgCw0ZJkNEGj2PyJ7Z+XUw==)" />
+		<POI MapID="1452" xpos="149.487" ypos="216.279" zpos="676.549" type="tt.eodl.cm.nwm.wph" GUID="bi4itkFAIUShpAufHCDQSQ==" />
+		<POI MapID="1452" xpos="957.452" ypos="68.8302" zpos="515.827" type="tt.eodl.cm.nwm.wph" GUID="tELY8gxUVEK5FdQ7jp2byQ==" />
+		<POI MapID="1452" xpos="1028.71" ypos="3.94337" zpos="737.077" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BNQMAAA=]" info="If the waypoint is contested, skimmer to the other side" GUID="M8CFKwV+1EKsLe/lNZwU9Q==" script-focus="Teh_Highlight_Waypoint(tELY8gxUVEK5FdQ7jp2byQ==)" />
+		<POI MapID="1452" xpos="1013.41" ypos="88.8307" zpos="38.3545" type="tt.eodl.cm.nwm.wph" GUID="t0T7F4roj0iQgo7HwCIAbw==" />
+		<POI MapID="1452" xpos="1071.99" ypos="29.4976" zpos="-92.1245" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BPkMAAA=]" info="If the waypoint is contested or you are caught in combat, use the zipline just outside the cave" GUID="S9hbXZXgV0y/6vnBjDAOsQ==" script-focus="Teh_Highlight_Waypoint(t0T7F4roj0iQgo7HwCIAbw==)" />
+		<POI MapID="1452" xpos="1058.74" ypos="7.6427" zpos="-524.164" type="tt.eodl.cm.nwm.wph" GUID="VbYc3m/57kOZ1HpP22WqYw==" />
+		<POI MapID="1452" xpos="767.371" ypos="89.9649" zpos="-66.2848" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BMcMAAA=]" GUID="6wD8er3IGE+JsVrzuBw06g==" script-focus="Teh_Highlight_Waypoint(VbYc3m/57kOZ1HpP22WqYw==)" />
+		<POI MapID="1422" xpos="-198.084" ypos="176.314" zpos="837.946" type="tt.eodl.cm.nwm.wph" GUID="52mtEz0UNUKiK5K3bHiBBw==" />
+		<POI MapID="1422" xpos="-74.8356" ypos="10.9718" zpos="-753.709" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BKIMAAA=]" GUID="8FcVPUusp0u+IZXEcLZslA==" script-focus="Teh_Highlight_Waypoint(52mtEz0UNUKiK5K3bHiBBw==)" />
+		<POI MapID="1422" xpos="-14.6345" ypos="198.329" zpos="-951.435" type="tt.eodl.cm.nwm.wph" GUID="uQqaVqW630mht3y5TgnpIw==" />
+		<POI MapID="1422" xpos="385.93" ypos="165.218" zpos="-144.914" type="tt.eodl.cm.nwm.tpm" copy="[&amp;BPEMAAA=]" GUID="2ESfJZIAWEGdhRykWhfRCg==" script-focus="Teh_Highlight_Waypoint(uQqaVqW630mht3y5TgnpIw==)" />
 
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                 SECRETS OF THE OBSCURE MAP COMP                                                                   ==-->
