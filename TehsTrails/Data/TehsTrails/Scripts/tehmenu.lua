@@ -3,6 +3,42 @@ local function toggleTutorial(menu)
     Teh_ToggleTutorial()
 end
 
+local function enableTrailHighlighting(menu)
+    Teh_ToggleStorage("trailHighlighting")
+    menu.Checked = Teh_GetBool("trailHighlighting")
+    Teh_ToggleTrailHighlighting()
+end
+
+local function transparentTrail(menu)
+    Teh_ToggleStorage("trailHighlightingTransparency")
+    menu.Checked = Teh_GetBool("trailHighlightingTransparency")
+    Teh_TrailHighlightTransparency()
+end
+
+local function grayOutTrail(menu)
+    Teh_ToggleStorage("trailHighlightingGray")
+    menu.Checked = Teh_GetBool("trailHighlightingGray")
+    Teh_TrailHighlightGray()
+end
+
+local function invisibleTrail(menu)
+    Teh_ToggleStorage("trailHighlightingInvisible")
+    menu.Checked = Teh_GetBool("trailHighlightingInvisible")
+    Teh_TrailHighightInvisible()
+end
+
+local function resetTrailHighlighting(menu)
+    Teh_ResetHighlightTrailSegment()
+end
+
+local function nextTrailHighlight(menu)
+    Teh_ChangeHighlightTrailSegment(1)
+end
+
+local function previousTrailHighlight(menu)
+    Teh_ChangeHighlightTrailSegment(-1)
+end
+
 local function newColor(menu)
     -- clear any other checked boxes
     for index, value in ipairs(Teh.trailcolors.colors) do
@@ -81,6 +117,18 @@ end
 local mainMenu = Menu:Add("Tehs Trails", nil)
 
 local stut = mainMenu:Add("Show/Hide Tutorial", toggleTutorial, false, false, "Shows/Hides the pack tutorial. Make sure you're in a flat, open space!")
+
+local trailHighlighting = mainMenu:Add("Trail Highlighting", nil, false, false, "Change various settings for trail highlighting")
+local eth = trailHighlighting:Add("Enable Trail Highlighting", enableTrailHighlighting, true, Teh_GetBool("trailHighlighting"), "Enables/Disables the trail highlighting feature")
+local highlightSettings = trailHighlighting:Add("Highlight Settings", nil, false, false, "Settings for the trail highlighting feature")
+local transparency = highlightSettings:Add("Transparency", transparentTrail, true, Teh_GetBool("trailHighlightingTransparency"), "When enabled, the trail will be transparent except for the highlighted segment")
+local grayed = highlightSettings:Add("Gray Out Trail", grayOutTrail, true, Teh_GetBool("trailHighlightingGray"), "When enabled, the trail will be grayed out except for the highlighted segment")
+local invisible = highlightSettings:Add("Invisible Trail", invisibleTrail, true, Teh_GetBool("trailHighlightingInvisible"), "When enabled, the trail will be invisible except for the highlighted segment")
+local highlightFunctions = trailHighlighting:Add("Highlight Functions", nil, false, false, "Functions to help with trail highlighting")
+local rth = highlightFunctions:Add("Reset Trail Highlighting", resetTrailHighlighting, false, false, "Resets the trail highlighting feature to the beginning of the trail")
+local nth = highlightFunctions:Add("Next Trail Highlight", nextTrailHighlight, false, false, "Cycles the highlighted trail to next trail segment (not always in the expected order)")
+local pth = highlightFunctions:Add("Previous Trail Highlight", previousTrailHighlight, false, false, "Cycles the highlighted trail to previous trail segment (not always in the expected order)")
+
 
 -- Color menu
 local colorMenu = mainMenu:Add("Select Trail Color", nil, false, false, "Changes the color of the main trail")

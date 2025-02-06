@@ -11,7 +11,11 @@ Teh.storage = {
     hasSkyscale = "false",
     trailColor = "Light Blue [Default]",
     firstLaunch = "true",
-    alternateMounts = "false"
+    alternateMounts = "false",
+    trailHighlighting = "true",
+    trailHighlightingTransparency = "true",
+    trailHighlightingGray = "false",
+    trailHighlightingInvisible = "false",
 }
 
 Debug:Watch("Teh_Storage", Teh.storage)
