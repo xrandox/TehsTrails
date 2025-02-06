@@ -9,13 +9,19 @@ Teh.storage = {
     bounceToggled = "true",
     highlightToggled = "true",
     hasSkyscale = "false",
-    trailColor = "Light Blue [Default]",
+    trailColors = {
+        ["main"] = "Light Blue [Default]",
+        ["hp"] = "Yellow [Default]",
+        ["heart"] = "Yellow and Black [Default]",
+        ["tos"] = "Red [Default]"
+    },
     firstLaunch = "true",
     alternateMounts = "false",
     trailHighlighting = "true",
     trailHighlightingTransparency = "true",
     trailHighlightingGray = "false",
     trailHighlightingInvisible = "false",
+    transparency = "100%"
 }
 
 Debug:Watch("Teh_Storage", Teh.storage)
