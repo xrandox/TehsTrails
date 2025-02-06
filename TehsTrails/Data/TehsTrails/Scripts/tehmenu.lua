@@ -12,19 +12,25 @@ end
 local function transparentTrail(menu)
     Teh_ToggleStorage("trailHighlightingTransparency")
     menu.Checked = Teh_GetBool("trailHighlightingTransparency")
-    Teh_TrailHighlightTransparency()
+    Teh_TryHighlightActiveTrail()
 end
 
 local function grayOutTrail(menu)
     Teh_ToggleStorage("trailHighlightingGray")
     menu.Checked = Teh_GetBool("trailHighlightingGray")
-    Teh_TrailHighlightGray()
+    Teh_TryHighlightActiveTrail()
 end
 
 local function invisibleTrail(menu)
     Teh_ToggleStorage("trailHighlightingInvisible")
     menu.Checked = Teh_GetBool("trailHighlightingInvisible")
-    Teh_TrailHighightInvisible()
+    Teh_TryHighlightActiveTrail()
+end
+
+local function trailShowOnMapStill(menu)
+    Teh_ToggleStorage("trailHighlightingShowOnMapStill")
+    menu.Checked = Teh_GetBool("trailHighlightingShowOnMapStill")
+    Teh_TryHighlightActiveTrail()
 end
 
 local function resetTrailHighlighting(menu)
@@ -180,6 +186,7 @@ local highlightSettings = trailHighlighting:Add("Highlight Settings", nil, false
 local transparency = highlightSettings:Add("Transparency", transparentTrail, true, Teh_GetBool("trailHighlightingTransparency"), "When enabled, the trail will be transparent except for the highlighted segment")
 local grayed = highlightSettings:Add("Gray Out Trail", grayOutTrail, true, Teh_GetBool("trailHighlightingGray"), "When enabled, the trail will be grayed out except for the highlighted segment")
 local invisible = highlightSettings:Add("Invisible Trail", invisibleTrail, true, Teh_GetBool("trailHighlightingInvisible"), "When enabled, the trail will be invisible except for the highlighted segment")
+local showOnMap = highlightSettings:Add("Show Unhighlighted Trails on Map", trailShowOnMapStill, true, Teh_GetBool("trailHighlightingShowOnMapStill"), "When enabled, the non-highlighted segments will still be shown on the map")
 local highlightFunctions = trailHighlighting:Add("Highlight Functions", nil, false, false, "Functions to help with trail highlighting")
 local rth = highlightFunctions:Add("Reset Trail Highlighting", resetTrailHighlighting, false, false, "Resets the trail highlighting feature to the beginning of the trail")
 local nth = highlightFunctions:Add("Next Trail Highlight", nextTrailHighlight, false, false, "Cycles the highlighted trail to next trail segment (not always in the expected order)")

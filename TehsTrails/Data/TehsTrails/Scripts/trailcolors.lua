@@ -3,7 +3,8 @@ Teh.trailcolors = {
         ["main"] = {
             ["menuName"] = "Main Trail Color",
             ["menuDescription"] = "Change the color of all main trails",
-            ["categoryTypes"] = {"tt.mc.ct", "tt.hot.ct", "tt.eod.ct", "tt.eodl.ct", "tt.soto.ct", "tt.sotol.ct"},
+            ["categoryTypes"] = {"tt.mc.mt.nt", "tt.hot.mt.nt", "tt.eod.mt.nt", "tt.eodl.mt.nt", "tt.soto.mt.nt", "tt.sotol.mt.nt", 
+                                 "tt.mc.mt.th", "tt.hot.mt.th", "tt.eod.mt.th", "tt.eodl.mt.th", "tt.soto.mt.th", "tt.sotol.mt.th"},
             ["texturePath"] = "Data/TehsTrails/Markers/trailwhite.png",
             ["defaultPath"] = "Data/TehsTrails/Markers/trailwhite.png",
             ["trails"] = {},
@@ -116,7 +117,7 @@ for trailType, typeTable in pairs(Teh.trailcolors.trailtypes) do
         local category = World:CategoryByType(categoryType)
         if (category ~= nil) then
             Debug:Print("Found category " .. categoryType)
-            local trails = category:GetTrails()
+            local trails = category:GetTrails(true)
             if (trails ~= nil) then
                 for _, trail in ipairs(trails) do
                     Debug:Print("Found trail " .. trail.Guid)

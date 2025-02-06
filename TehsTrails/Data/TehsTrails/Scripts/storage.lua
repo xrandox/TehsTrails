@@ -21,6 +21,7 @@ Teh.storage = {
     trailHighlightingTransparency = "true",
     trailHighlightingGray = "false",
     trailHighlightingInvisible = "false",
+    trailHighlightingShowOnMapStill = "false",
     transparency = "100%"
 }
 
