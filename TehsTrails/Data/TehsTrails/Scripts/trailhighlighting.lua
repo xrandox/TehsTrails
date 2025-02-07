@@ -1,7 +1,7 @@
 Teh.trailhighlighting = {
-    trailCategories = { "tt.eod.mt.th", "tt.hot.mt.th", "tt.mc.mt.th", "tt.soto.mt.th", "tt.eodl.mt.th", "tt.sotol.mt.th" },
-    firstTrailCategories = { "tt.eod.mt.th.t1", "tt.hot.mt.th.t1", "tt.mc.mt.th.t1", "tt.soto.mt.th.t1", "tt.eodl.mt.th.t1", "tt.sotol.mt.th.t1" },
-    mainTrailCategories = { "tt.eod.mt.nt", "tt.hot.mt.nt", "tt.mc.mt.nt", "tt.soto.mt.nt", "tt.eodl.mt.nt", "tt.sotol.mt.nt" },
+    trailCategories = { "tt.eod.mt.th", "tt.hot.mt.th", "tt.mc.mt.th", "tt.soto.mt.th" },
+    firstTrailCategories = { "tt.eod.mt.th.t1", "tt.hot.mt.th.t1", "tt.mc.mt.th.t1", "tt.soto.mt.th.t1" },
+    mainTrailCategories = { "tt.eod.mt.nt", "tt.hot.mt.nt", "tt.mc.mt.nt", "tt.soto.mt.nt" },
     allTrails = {},
     firstTrail = {},
     activeTrail = nil,
