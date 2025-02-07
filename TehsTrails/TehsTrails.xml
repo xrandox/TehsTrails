@@ -547,7 +547,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" miniMapVisibility="1" mapVisibility="1" iconSize="1"/>
 			</MarkerCategory>
 
-			<MarkerCategory name="mm" DisplayName="Mount Markers">
+			<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
 				 <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
 				 <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
