@@ -188,9 +188,9 @@ local grayed = highlightSettings:Add("Gray Out Trail", grayOutTrail, true, Teh_G
 local invisible = highlightSettings:Add("Invisible Trail", invisibleTrail, true, Teh_GetBool("trailHighlightingInvisible"), "When enabled, the trail will be invisible except for the highlighted segment")
 local showOnMap = highlightSettings:Add("Show Unhighlighted Trails on Map", trailShowOnMapStill, true, Teh_GetBool("trailHighlightingShowOnMapStill"), "When enabled, the non-highlighted segments will still be shown on the map")
 local highlightFunctions = trailHighlighting:Add("Highlight Functions", nil, false, false, "Functions to help with trail highlighting")
-local rth = highlightFunctions:Add("Reset Trail Highlighting", resetTrailHighlighting, false, false, "Resets the trail highlighting feature to the beginning of the trail")
-local nth = highlightFunctions:Add("Next Trail Highlight", nextTrailHighlight, false, false, "Cycles the highlighted trail to next trail segment (not always in the expected order)")
-local pth = highlightFunctions:Add("Previous Trail Highlight", previousTrailHighlight, false, false, "Cycles the highlighted trail to previous trail segment (not always in the expected order)")
+local rth = highlightFunctions:Add("Reset Trail Highlighting", resetTrailHighlighting, true, false, "Resets the trail highlighting feature to the beginning of the trail")
+local nth = highlightFunctions:Add("Next Trail Highlight", nextTrailHighlight, true, false, "Cycles the highlighted trail to next trail segment (not always in the expected order)")
+local pth = highlightFunctions:Add("Previous Trail Highlight", previousTrailHighlight, true, false, "Cycles the highlighted trail to previous trail segment (not always in the expected order)")
 
 
 -- Color menu
