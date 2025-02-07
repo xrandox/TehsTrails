@@ -210,7 +210,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="hotsep" DisplayName="     |===Heart of Thorns===|     " isseparator="1"/>
 		<MarkerCategory name="hot" DisplayName="Map Completion (WIP)">
 
-			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
+			<MarkerCategory name="mt" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png">
+				<MarkerCategory name="nt" DisplayName="Normal Trail (Disable if using trail highlighting)" bh-defaulttoggle="0" defaulttoggle="1"/>
+				<MarkerCategory name="th" DisplayName="Trail Highlighting">
+					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
+					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+				</MarkerCategory>
+			</MarkerCategory>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
@@ -313,7 +320,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="eodsep" DisplayName="     |===End of Dragons===|     " isseparator="1"/>
 		<MarkerCategory name="eod" DisplayName="Map Completion">
 
-			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
+			<MarkerCategory name="mt" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png">
+				<MarkerCategory name="nt" DisplayName="Normal Trail (Disable if using trail highlighting)" bh-defaulttoggle="0" defaulttoggle="1"/>
+				<MarkerCategory name="th" DisplayName="Trail Highlighting">
+					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
+					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+				</MarkerCategory>
+			</MarkerCategory>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
@@ -418,7 +432,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 		<MarkerCategory name="eodl" DisplayName="Lanterns" defaulttoggle="0">
-			<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png"/>
+			<MarkerCategory name="mt" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png">
+				<MarkerCategory name="nt" DisplayName="Normal Trail (Disable if using trail highlighting)" bh-defaulttoggle="0" defaulttoggle="1"/>
+				<MarkerCategory name="th" DisplayName="Trail Highlighting">
+					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
+					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+				</MarkerCategory>
+			</MarkerCategory>
 
 			<MarkerCategory name="lantern" DisplayName="Jade Lanterns" iconFile="Data/TehsTrails/Markers/lantern.png" iconSize="1" miniMapVisibility="1" mapVisibility="1"/>
 
@@ -483,12 +504,19 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 	<!--=======================================================================================================================================================================-->	
-	<!--==                                                                        SECRETS OF THE OBSCURE MAP COMP                                                            ==-->
+	<!--==                                                               SECRETS OF THE OBSCURE MAP COMP                                                                     ==-->
 	<!--=======================================================================================================================================================================-->
 	<MarkerCategory name="sotos" DisplayName="     |===Secrets of the Obscure===|     " isseparator="1"/>
 	<MarkerCategory name="soto" DisplayName="Map Completion (BHUD Only)">
 
-		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="4500" fadeFar="5500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
+			<MarkerCategory name="mt" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png">
+				<MarkerCategory name="nt" DisplayName="Normal Trail (Disable if using trail highlighting)" bh-defaulttoggle="0" defaulttoggle="1"/>
+				<MarkerCategory name="th" DisplayName="Trail Highlighting">
+					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
+					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+				</MarkerCategory>
+			</MarkerCategory>
 
 	<!--=======================================================================================================================================================================-->
 	<!--==                                                                        Marker Organization                                                                        ==-->
@@ -546,9 +574,20 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<MarkerCategory name="hoops" DisplayName="Guide Hoops" fadeNear="4000" fadeFar="4500" texture="Data/TehsTrails/Markers/ring.png" iswall="1" canfade="0"/>
 	</MarkerCategory>
 
+
+	<!--=======================================================================================================================================================================-->	
+	<!--==                                                                 SECRETS OF THE OBSCURE LANTERNS                                                                   ==-->
+	<!--=======================================================================================================================================================================-->
 	<MarkerCategory name="sotol" DisplayName="Lanterns (BHUD Only)">
 
-		<MarkerCategory name="ct" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="4500" fadeFar="5500" scaleOnMapWithZoom="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png"/>
+			<MarkerCategory name="mt" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png">
+				<MarkerCategory name="nt" DisplayName="Normal Trail (Disable if using trail highlighting)" bh-defaulttoggle="0" defaulttoggle="1"/>
+				<MarkerCategory name="th" DisplayName="Trail Highlighting">
+					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
+					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+				</MarkerCategory>
+			</MarkerCategory>
 
 	<!--=======================================================================================================================================================================-->
 	<!--==                                                                        Marker Organization                                                                        ==-->
