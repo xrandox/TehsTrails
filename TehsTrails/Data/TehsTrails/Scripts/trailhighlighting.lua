@@ -97,6 +97,7 @@ local function highlightActiveTrail()
         Debug:Print("Show on map still disabled")
         for _, trail in pairs(Teh.trailhighlighting.allTrails) do
             trail.MapVisibility = false
+            trail.MiniMapVisibility = false
         end
     end
 

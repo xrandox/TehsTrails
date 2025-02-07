@@ -7,6 +7,7 @@ function Teh_SetMinimapVisibility()
         return
     end
     mainTrail.MiniMapVisibility = Teh_GetBool("minimapToggled")
+    Teh_TryHighlightActiveTrail()
 end
 
 function Teh_SetHeartZoneMapVisibility()
