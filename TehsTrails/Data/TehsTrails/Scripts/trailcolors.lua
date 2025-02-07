@@ -154,15 +154,15 @@ function Teh_ChangeColor(trailType, colorName)
                 trail.Texture = I:Texture(Pack, texturePath)
                 trail.TrailSampleColor = colorTable[2]
             end
-            local savedColors = Teh.storage.trailColors
+            local savedColors = Teh.storage.trailColorTable
             savedColors[trailType] = colorName
-            Teh_SaveValue("trailColor", savedColors)
+            Teh_SaveTable("trailColorTable", savedColors)
             return
         end
     end
 end
 
-Teh_ChangeColor("main", Teh.storage.trailColors["main"])
-Teh_ChangeColor("hp", Teh.storage.trailColors["hp"])
-Teh_ChangeColor("heart", Teh.storage.trailColors["heart"])
-Teh_ChangeColor("tos", Teh.storage.trailColors["tos"])
+Teh_ChangeColor("main", Teh.storage.trailColorTable["main"])
+Teh_ChangeColor("hp", Teh.storage.trailColorTable["hp"])
+Teh_ChangeColor("heart", Teh.storage.trailColorTable["heart"])
+Teh_ChangeColor("tos", Teh.storage.trailColorTable["tos"])

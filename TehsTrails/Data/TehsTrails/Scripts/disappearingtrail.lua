@@ -30,7 +30,7 @@ function Teh_ColorizeDisappearingTrails()
     local colorIndex = 13;
     for i, guid in ipairs(Teh.disappearingtrails.trailGuids) do
         local trail = World:TrailByGuid(guid)
-        local mainColor = Teh.storage.trailColors["main"]
+        local mainColor = Teh.storage.trailColorTable["main"]
         if (trail ~= nil) then
             local thisColor = Teh.trailcolors.trailtypes["main"]["colors"][colorIndex]
 

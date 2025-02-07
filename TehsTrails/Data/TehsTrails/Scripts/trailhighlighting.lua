@@ -43,6 +43,37 @@ local function getActiveTrailNumber()
     end
 end
 
+local function loadStorage()
+    local mapId = tostring(Mumble.CurrentMap.Id)
+    local playerName = Mumble.PlayerCharacter.Name
+
+    -- Check if the mapId and playerName exist in the table
+    if Teh.storage.trailHighlightingStates[mapId] and Teh.storage.trailHighlightingStates[mapId][playerName] then
+        local guid = Teh.storage.trailHighlightingStates[mapId][playerName]
+        Teh.trailhighlighting.activeTrail = World:TrailByGuid(guid)
+    else
+        Teh.trailhighlighting.activeTrail = Teh.trailhighlighting.firstTrail[1]
+    end
+
+    Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
+end
+
+local function saveStorage()
+    local guid = Teh.trailhighlighting.activeTrail.Guid:ToBase64()
+    local mapId = tostring(Mumble.CurrentMap.Id)
+    local playerName = Mumble.PlayerCharacter.Name
+
+    -- Check if the mapId already exists in the table
+    if not Teh.storage.trailHighlightingStates[mapId] then
+        Teh.storage.trailHighlightingStates[mapId] = {}  -- Create a new table for this map if it doesn't exist
+    end
+    
+    -- Store the guid for the player under the mapId
+    Teh.storage.trailHighlightingStates[mapId][playerName] = guid
+
+    Teh_SaveTable('trailHighlightingStates', Teh.storage.trailHighlightingStates)
+end
+
 local function highlightActiveTrail()
     Debug:Print("Highlighting active trail -- begin")
     if (Teh_GetBool('trailHighlighting') == false) then
@@ -77,7 +108,7 @@ local function highlightActiveTrail()
         end
     else
         Debug:Print("Gray highlighting disabled")
-        Teh_ChangeColor("main", Teh.storage.trailColors["main"])
+        Teh_ChangeColor("main", Teh.storage.trailColorTable["main"])
     end
 
     if (Teh_GetBool('trailHighlightingInvisible') == true) then
@@ -114,7 +145,7 @@ local function highlightActiveTrail()
     end
 
     Debug:Print("Highlighting active trail -- setting color")
-    local color = Teh.storage.trailColors["main"]
+    local color = Teh.storage.trailColorTable["main"]
     local colorTable = Teh.trailcolors.trailtypes["main"]["colors"]
     Debug:Print("Got color table")
     local colorValue = colorTable[1][2]
@@ -134,6 +165,7 @@ local function highlightActiveTrail()
     activeTrail.MapVisibility = true
     activeTrail.MiniMapVisibility = Teh_GetBool('minimapToggled')
     Debug:Print("Highlighting active trail -- done")
+    saveStorage()
 end
 
 --#endregion
@@ -176,14 +208,14 @@ function Teh_ResetHighlightTrailSegment()
     Debug:Print("Resetting highlighted trail segment")
     Teh.trailhighlighting.activeTrail = Teh.trailhighlighting.firstTrail[1]
     Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
-
     highlightActiveTrail()
 end
 
 function Teh_ToggleTrailHighlighting()
     Debug:Print("Toggling trail highlighting")
     if (Teh_GetBool('trailHighlighting') == true) then
-        Teh_ResetHighlightTrailSegment()
+        loadStorage()
+        highlightActiveTrail()
     else
         for _, trail in pairs(Teh.trailhighlighting.allTrails) do
             trail.InGameVisibility = false
@@ -196,6 +228,8 @@ function Teh_ToggleTrailHighlighting()
             trail.MapVisibility = true
             trail.MiniMapVisibility = Teh_GetBool('minimapToggled')
         end
+
+        saveStorage()
     end
 end
 
@@ -204,7 +238,8 @@ end
 --#region FINAL INIT
 
 if (Teh_GetBool('trailHighlighting') == true) then
-    Teh_ResetHighlightTrailSegment()
+    loadStorage()
+    highlightActiveTrail()
 end
 
 --#endregion

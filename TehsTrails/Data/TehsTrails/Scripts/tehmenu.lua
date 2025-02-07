@@ -209,7 +209,7 @@ for trailType, typeTable in pairs(Teh.trailcolors.trailtypes) do
     for i, colorTable in ipairs(typeTable["colors"]) do
         local name = colorTable[1]
         local checked = false
-        if (name == Teh.storage.trailColors[trailType]) then
+        if (name == Teh.storage.trailColorTable[trailType]) then
             checked = true
         end
         Teh.trailcolors.trailtypes[trailType]["colors"][i][3] = newColorMenu:Add(colorTable[1], func, true, checked)
