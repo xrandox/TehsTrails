@@ -28,7 +28,7 @@ local function createGlobalMarkers()
             InGameVisibility = false,
             ScaleOnMapWithZoom = false,
             Category = Teh.globalmarker.category,
-            iconFile = "Data/TehsTrails/Markers/waypoint-highlight.png"
+            iconFile = "Data/TehsTrails/Markers/Start.png"
         }
 
         Teh.globalmarker.currentMarkers[i] = Pack:CreateMarker(attributes)
