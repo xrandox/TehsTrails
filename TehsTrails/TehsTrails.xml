@@ -10396,10 +10396,10 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1510" xpos="229.646" ypos="461.3467" zpos="670.4768" type="tt.soto.mt.th.m" GUID="8rhKCiTAhkegD7K3uG1h0g==" script-trigger="Teh_HighlightTrailSegment(KhjOhyoT8k63mli0Lpq9pg==)" />
 		<POI MapID="1510" xpos="-332.7499" ypos="283.8925" zpos="-477.3988" type="tt.soto.mt.th.m" GUID="aNUiQhareE6k4/Cyg97e1A==" script-trigger="Teh_HighlightTrailSegment(ha728HZIYEeDNY9/bEqlug==)" />
 		<POI MapID="1510" xpos="-320.1915" ypos="569.5662" zpos="434.2453" type="tt.soto.mt.th.m" GUID="erjbu/4wKEu/TWaZoYjV6g==" script-trigger="Teh_HighlightTrailSegment(NT/BIZxCI0myBAVhCfbFJQ==)" />
-		<POI MapID="1510" xpos="-953.2797" ypos="822.1503" zpos="423.3613" type="tt.soto.mt.th.m" GUID="4do6tc4Fx0a8PbZShThQgA==" script-trigger="Teh_HighlightTrailSegment(gpdUYybDs06CDWNxRMtGHw==)" />
+		<POI MapID="1510" xpos="-643.043" ypos="549.573" zpos="164.012" triggerRange="1" type="tt.soto.mt.th.m" GUID="4do6tc4Fx0a8PbZShThQgA==" script-trigger="Teh_HighlightTrailSegment(gpdUYybDs06CDWNxRMtGHw==)" />
+		<POI MapID="1510" xpos="1.809" ypos="401.004" zpos="-75.672" triggerRange="2" type="tt.soto.mt.th.m" GUID="jitscFoMOUaC0BBWizGbTw==" script-trigger="Teh_HighlightTrailSegment(nj+RUtQuekiJLtJgvTnl6Q==)" />
+		<POI MapID="1510" xpos="577.269" ypos="311.771" zpos="448.086" triggerRange="2" type="tt.soto.mt.th.m" GUID="nL49xcf6EEelDAFIDTf/4A==" script-trigger="Teh_HighlightTrailSegment(C+Dd3Mnal0e+MjbAemZNRg==)" />
 		<POI MapID="1510" xpos="-884.8026" ypos="553.6754" zpos="93.89656" type="tt.soto.mt.th.m" GUID="wC/r8PEahEi+Wl4A+TK9DQ==" script-trigger="Teh_HighlightTrailSegment(kdFY0z244Ei3Bhnl+o+fdw==)" />
-		<POI MapID="1510" xpos="-736.8951" ypos="467.7299" zpos="287.1164" type="tt.soto.mt.th.m" GUID="5iNOdz5/TEC3grNzgWXv2Q==" script-trigger="Teh_HighlightTrailSegment(nj+RUtQuekiJLtJgvTnl6Q==)" />
-		<POI MapID="1510" xpos="-253.4374" ypos="500.6096" zpos="2.140557" type="tt.soto.mt.th.m" GUID="bLWIuc4pjE63MYSJ1WmUxQ==" script-trigger="Teh_HighlightTrailSegment(C+Dd3Mnal0e+MjbAemZNRg==)" />
 		<POI MapID="1510" xpos="632.6412" ypos="346.0487" zpos="505.5541" type="tt.soto.mt.th.m" GUID="XtLZCynVp0qsbmcGst4IhA==" script-trigger="Teh_HighlightTrailSegment(k6bgux2NCUW5svDKqQ6iJw==)" />
 		<POI MapID="1510" xpos="616.3533" ypos="343.5435" zpos="298.6691" type="tt.soto.mt.th.m" GUID="TQ9FHzOqN0uOCHDwkdLCJg==" script-trigger="Teh_HighlightTrailSegment(4IxG6eAvBkSFAi2j40JeRQ==)" />
 		<!--========= Highlight Trail Segments for SA =========-->
