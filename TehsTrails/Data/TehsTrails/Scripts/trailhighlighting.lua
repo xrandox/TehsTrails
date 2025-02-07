@@ -15,15 +15,11 @@ Debug:Watch('Teh_TrailHighlighting', Teh.trailhighlighting)
 local function preload(categoryTypes, luaTable)
     Debug:Print("Preloading trails for highlighting")
     for _, categoryType in ipairs(categoryTypes) do
-        Debug:Print("Preloading trails for category: " .. categoryType)
         local category = World:CategoryByType(categoryType)
         if (category ~= nil) then
-            Debug:Print("Category found: " .. category.Name)
             local trails = category:GetTrails(true)
             if (trails ~= nil) then
-                Debug:Print("Trails found: " .. #trails)
                 for _, trail in pairs(trails) do
-                    Debug:Print("Trail found: " .. trail.Guid)
                     table.insert(luaTable, trail)
                 end
             end
