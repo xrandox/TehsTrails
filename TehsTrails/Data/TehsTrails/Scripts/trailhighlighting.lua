@@ -6,7 +6,8 @@ Teh.trailhighlighting = {
     firstTrail = {},
     activeTrail = nil,
     activeTrailNumber = 1,
-    mainTrails = {}
+    mainTrails = {},
+    consumed = {}
 }
 
 Debug:Watch('Teh_TrailHighlighting', Teh.trailhighlighting)
@@ -183,11 +184,21 @@ function Teh_HighlightTrailSegment(marker, isAutoTrigger, guid)
         Debug:Print("Trail highlighting is disabled, ignoring")
         return
     end
+
+    for _, m in ipairs(Teh.trailhighlighting.consumed) do
+        if (m == marker) then
+            Debug:Print("Trail segment marker already consumed, ignoring")
+            return
+        end
+    end
+
     Debug:Print("Highlighting trail with guid: " .. guid)
 
     Teh.trailhighlighting.activeTrail = World:TrailByGuid(guid)
     Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
     highlightActiveTrail()
+
+    table.insert(Teh.trailhighlighting.consumed, marker)
 end
 
 function Teh_ChangeHighlightTrailSegment(amount)
