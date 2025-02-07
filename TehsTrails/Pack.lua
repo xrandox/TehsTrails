@@ -1,5 +1,5 @@
 Teh = {}
-TehsTrailsVersion = "BETA v6.0.0"
+TehsTrailsVersion = "BETA v6.0.0a"
 
 Debug:Print("Pathing Version: v" .. PathingVersion)
 Debug:Print("TehsTrails Version: " .. TehsTrailsVersion)
@@ -22,7 +22,6 @@ if (Teh_VersionCheck()) then
     end
 
     Pack:Require("Data/TehsTrails/Scripts/storage.lua")
-    
     Pack:Require("Data/TehsTrails/Scripts/alternatemounts.lua")
     Pack:Require("Data/TehsTrails/Scripts/mmtoggle.lua")
     Pack:Require("Data/TehsTrails/Scripts/lookups.lua")
