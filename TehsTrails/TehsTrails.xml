@@ -10400,131 +10400,131 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.hot.mt.th.t" GUID="v3upvVd27U+bX7X+YUmlqA==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-7.trl" />
 		<Trail type="tt.hot.mt.th.t" GUID="hc3s542+dkCx77UOyszjBg==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-8.trl" />
 		<!--========= Trail Highlight Markers for A =========-->
-		<POI MapID="1517" xpos="-64.01521" ypos="270.3015" zpos="-374.6167" type="tt.mc.mt.th.m" GUID="PQ/D17ldXU6n7rFUuCJvew==" script-trigger="Teh_HighlightTrailSegment(vS6JAA3/40SoMHpcTpB8qw==)" />
-		<POI MapID="1517" xpos="-818.9303" ypos="455.3606" zpos="690.8492" type="tt.mc.mt.th.m" GUID="7mhXYjlC10KiTWE4ME+4QQ==" script-trigger="Teh_HighlightTrailSegment(JejKlFIpAkW12T82XPvpPQ==)" />
-		<POI MapID="1517" xpos="903.6577" ypos="379.2025" zpos="178.2025" type="tt.mc.mt.th.m" GUID="TnvUX85ngk2BjJ9l0PtTcg==" script-trigger="Teh_HighlightTrailSegment(mdJNYDUJi0WZp+34cPtDCQ==)" />
-		<POI MapID="1517" xpos="896.8322" ypos="296.3009" zpos="-367.5264" type="tt.mc.mt.th.m" GUID="jql0W3WZSEy9DSVeULE3TQ==" script-trigger="Teh_HighlightTrailSegment(djxuoTGNx0aZetCjx1jR/A==)" />
-		<POI MapID="1517" xpos="-39.555" ypos="222.0357" zpos="-809.3985" type="tt.mc.mt.th.m" GUID="Kji2uWCW2Uy8iTCcOscgKw==" script-trigger="Teh_HighlightTrailSegment(Z6qyF917HEi/S4uWpEXeqA==)" />
-		<POI MapID="1517" xpos="-495.7524" ypos="503.9044" zpos="-76.75379" type="tt.mc.mt.th.m" GUID="qwoRugxW40CIYOcRTPpTQw==" script-trigger="Teh_HighlightTrailSegment(6K23GqTcnEWjRXbrFb3EGw==)" />
-		<POI MapID="1517" xpos="-387.8402" ypos="458.3434" zpos="702.3315" type="tt.mc.mt.th.m" GUID="0YOPGQnUX0WFwwNAFWDFbQ==" script-trigger="Teh_HighlightTrailSegment(r/sl8JC0MEWYhYf2VGJhUg==)" />
-		<POI MapID="1517" xpos="-389.7792" ypos="452.7057" zpos="701.227" type="tt.mc.mt.th.m" GUID="aj/H9glTrUaZR5qc7Nr1mA==" script-trigger="Teh_HighlightTrailSegment(MnGTu9oOUUeBuu2SveCmVw==)" />
-		<POI MapID="1517" xpos="386.6182" ypos="385.677" zpos="409.176" type="tt.mc.mt.th.m" GUID="jGpRAhzdmEKeTLC8u+G7xQ==" script-trigger="Teh_HighlightTrailSegment(BHz2DlEhKUCQyhZTl+srDw==)" />
-		<POI MapID="1517" xpos="791.4449" ypos="288.6768" zpos="-275.4958" type="tt.mc.mt.th.m" GUID="Zp2jGMvBZE+TwBR4fTKsiA==" script-trigger="Teh_HighlightTrailSegment(EuRiCgHvcE+szAzhnsWstQ==)" />
-		<POI MapID="1517" xpos="641.5132" ypos="275.6582" zpos="-572.7988" type="tt.mc.mt.th.m" GUID="TB8vqbBCHEGOcFR2x6Px/w==" script-trigger="Teh_HighlightTrailSegment(yPex/Lp7wkmWLQ3VO7YT1g==)" />
+		<POI MapID="1517" xpos="-64.01521" ypos="270.3015" zpos="-374.6167" type="tt.soto.mt.th.m" GUID="PQ/D17ldXU6n7rFUuCJvew==" script-trigger="Teh_HighlightTrailSegment(vS6JAA3/40SoMHpcTpB8qw==)" />
+		<POI MapID="1517" xpos="-818.9303" ypos="455.3606" zpos="690.8492" type="tt.soto.mt.th.m" GUID="7mhXYjlC10KiTWE4ME+4QQ==" script-trigger="Teh_HighlightTrailSegment(JejKlFIpAkW12T82XPvpPQ==)" />
+		<POI MapID="1517" xpos="903.6577" ypos="379.2025" zpos="178.2025" type="tt.soto.mt.th.m" GUID="TnvUX85ngk2BjJ9l0PtTcg==" script-trigger="Teh_HighlightTrailSegment(mdJNYDUJi0WZp+34cPtDCQ==)" />
+		<POI MapID="1517" xpos="896.8322" ypos="296.3009" zpos="-367.5264" type="tt.soto.mt.th.m" GUID="jql0W3WZSEy9DSVeULE3TQ==" script-trigger="Teh_HighlightTrailSegment(djxuoTGNx0aZetCjx1jR/A==)" />
+		<POI MapID="1517" xpos="-39.555" ypos="222.0357" zpos="-809.3985" type="tt.soto.mt.th.m" GUID="Kji2uWCW2Uy8iTCcOscgKw==" script-trigger="Teh_HighlightTrailSegment(Z6qyF917HEi/S4uWpEXeqA==)" />
+		<POI MapID="1517" xpos="-495.7524" ypos="503.9044" zpos="-76.75379" type="tt.soto.mt.th.m" GUID="qwoRugxW40CIYOcRTPpTQw==" script-trigger="Teh_HighlightTrailSegment(6K23GqTcnEWjRXbrFb3EGw==)" />
+		<POI MapID="1517" xpos="-387.8402" ypos="458.3434" zpos="702.3315" type="tt.soto.mt.th.m" GUID="0YOPGQnUX0WFwwNAFWDFbQ==" script-trigger="Teh_HighlightTrailSegment(r/sl8JC0MEWYhYf2VGJhUg==)" />
+		<POI MapID="1517" xpos="-389.7792" ypos="452.7057" zpos="701.227" type="tt.soto.mt.th.m" GUID="aj/H9glTrUaZR5qc7Nr1mA==" script-trigger="Teh_HighlightTrailSegment(MnGTu9oOUUeBuu2SveCmVw==)" />
+		<POI MapID="1517" xpos="386.6182" ypos="385.677" zpos="409.176" type="tt.soto.mt.th.m" GUID="jGpRAhzdmEKeTLC8u+G7xQ==" script-trigger="Teh_HighlightTrailSegment(BHz2DlEhKUCQyhZTl+srDw==)" />
+		<POI MapID="1517" xpos="791.4449" ypos="288.6768" zpos="-275.4958" type="tt.soto.mt.th.m" GUID="Zp2jGMvBZE+TwBR4fTKsiA==" script-trigger="Teh_HighlightTrailSegment(EuRiCgHvcE+szAzhnsWstQ==)" />
+		<POI MapID="1517" xpos="641.5132" ypos="275.6582" zpos="-572.7988" type="tt.soto.mt.th.m" GUID="TB8vqbBCHEGOcFR2x6Px/w==" script-trigger="Teh_HighlightTrailSegment(yPex/Lp7wkmWLQ3VO7YT1g==)" />
 		<!--========= Highlight Trail Segments for A =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="cRlvlYbJPkeXAAs2m7nZBA==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-0.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="vS6JAA3/40SoMHpcTpB8qw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-1.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="JejKlFIpAkW12T82XPvpPQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-2.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="mdJNYDUJi0WZp+34cPtDCQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-3.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="djxuoTGNx0aZetCjx1jR/A==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-4.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="Z6qyF917HEi/S4uWpEXeqA==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-5.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="6K23GqTcnEWjRXbrFb3EGw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-6.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="r/sl8JC0MEWYhYf2VGJhUg==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-7.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="MnGTu9oOUUeBuu2SveCmVw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-8.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="BHz2DlEhKUCQyhZTl+srDw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-9.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="EuRiCgHvcE+szAzhnsWstQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-10.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="yPex/Lp7wkmWLQ3VO7YT1g==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-11.trl" />
+		<Trail type="tt.soto.mt.th.t1" GUID="cRlvlYbJPkeXAAs2m7nZBA==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-0.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="vS6JAA3/40SoMHpcTpB8qw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-1.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="JejKlFIpAkW12T82XPvpPQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-2.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="mdJNYDUJi0WZp+34cPtDCQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-3.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="djxuoTGNx0aZetCjx1jR/A==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-4.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="Z6qyF917HEi/S4uWpEXeqA==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-5.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="6K23GqTcnEWjRXbrFb3EGw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-6.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="r/sl8JC0MEWYhYf2VGJhUg==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-7.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="MnGTu9oOUUeBuu2SveCmVw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-8.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="BHz2DlEhKUCQyhZTl+srDw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-9.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="EuRiCgHvcE+szAzhnsWstQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-10.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="yPex/Lp7wkmWLQ3VO7YT1g==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-11.trl" />
 		<!--========= Trail Highlight Markers for ADispTrail1 =========-->
 		<!--========= Highlight Trail Segments for ADispTrail1 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="ltfL6ua8WUmqGuvRK3exBA==" trailData="Data\TehsTrails\SotOTrails\ADispTrail1\ADispTrail1-Segment-0.trl" />
+		<Trail type="tt.soto.mt.th.t1" GUID="ltfL6ua8WUmqGuvRK3exBA==" trailData="Data\TehsTrails\SotOTrails\ADispTrail1\ADispTrail1-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for ADispTrail2 =========-->
 		<!--========= Highlight Trail Segments for ADispTrail2 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="aHW0SF1Jt0CegzdewqSXwg==" trailData="Data\TehsTrails\SotOTrails\ADispTrail2\ADispTrail2-Segment-0.trl" />
+		<Trail type="tt.soto.mt.th.t1" GUID="aHW0SF1Jt0CegzdewqSXwg==" trailData="Data\TehsTrails\SotOTrails\ADispTrail2\ADispTrail2-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for ADispTrail3 =========-->
 		<!--========= Highlight Trail Segments for ADispTrail3 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="41TUQ97cfk22rL/j6bmWgQ==" trailData="Data\TehsTrails\SotOTrails\ADispTrail3\ADispTrail3-Segment-0.trl" />
+		<Trail type="tt.soto.mt.th.t1" GUID="41TUQ97cfk22rL/j6bmWgQ==" trailData="Data\TehsTrails\SotOTrails\ADispTrail3\ADispTrail3-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for ADispTrail4 =========-->
 		<!--========= Highlight Trail Segments for ADispTrail4 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="CyazwQWxmEerDmtVlBKogw==" trailData="Data\TehsTrails\SotOTrails\ADispTrail4\ADispTrail4-Segment-0.trl" />
+		<Trail type="tt.soto.mt.th.t1" GUID="CyazwQWxmEerDmtVlBKogw==" trailData="Data\TehsTrails\SotOTrails\ADispTrail4\ADispTrail4-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for ALanterns =========-->
-		<POI MapID="1517" xpos="-79.32137" ypos="221.65736" zpos="-596.6267" type="tt.mc.mt.th.m" GUID="uWgLGDdyHUuNwqETPAlkAQ==" script-trigger="Teh_HighlightTrailSegment(OHsNc9QdAUqm611Toko5Bg==)" />
-		<POI MapID="1517" xpos="682.2518" ypos="275.6028" zpos="-572.9932" type="tt.mc.mt.th.m" GUID="0eGyMOaa60SfeJ+KMALftw==" script-trigger="Teh_HighlightTrailSegment(Eo5GuTNcY0KTOVBl4K9EZQ==)" />
-		<POI MapID="1517" xpos="470.2816" ypos="335.1792" zpos="239.8835" type="tt.mc.mt.th.m" GUID="025aHPCHIU6n6ImT7WMBWg==" script-trigger="Teh_HighlightTrailSegment(GbUdgPDwtEuzCDfzlDAxpg==)" />
-		<POI MapID="1517" xpos="-266.2809" ypos="420.1459" zpos="398.8011" type="tt.mc.mt.th.m" GUID="hYGmE8s2uUa1oiX1hSEGyg==" script-trigger="Teh_HighlightTrailSegment(rPmb2BrOwEShCvcBmjdHFA==)" />
-		<POI MapID="1517" xpos="-485.8282" ypos="503.9277" zpos="-95.19991" type="tt.mc.mt.th.m" GUID="eHdpf0Q3F0u3JY8+OZaxEg==" script-trigger="Teh_HighlightTrailSegment(bg0fVKORX0eagJeA/jum2g==)" />
-		<POI MapID="1517" xpos="-343.6213" ypos="516.1279" zpos="218.5895" type="tt.mc.mt.th.m" GUID="iIYqkIarKkyJr8TwAp0+dA==" script-trigger="Teh_HighlightTrailSegment(03jQiho6uECha2SZPB5Nrg==)" />
-		<POI MapID="1517" xpos="390.7404" ypos="397.7723" zpos="404.7195" type="tt.mc.mt.th.m" GUID="UQjYmF2NJ0aagyKzslq6JA==" script-trigger="Teh_HighlightTrailSegment(3Lo/qO3j5EOxXnl0+Fm5NQ==)" />
+		<POI MapID="1517" xpos="-79.32137" ypos="221.65736" zpos="-596.6267" type="tt.sotol.mt.th.m" GUID="uWgLGDdyHUuNwqETPAlkAQ==" script-trigger="Teh_HighlightTrailSegment(OHsNc9QdAUqm611Toko5Bg==)" />
+		<POI MapID="1517" xpos="682.2518" ypos="275.6028" zpos="-572.9932" type="tt.sotol.mt.th.m" GUID="0eGyMOaa60SfeJ+KMALftw==" script-trigger="Teh_HighlightTrailSegment(Eo5GuTNcY0KTOVBl4K9EZQ==)" />
+		<POI MapID="1517" xpos="470.2816" ypos="335.1792" zpos="239.8835" type="tt.sotol.mt.th.m" GUID="025aHPCHIU6n6ImT7WMBWg==" script-trigger="Teh_HighlightTrailSegment(GbUdgPDwtEuzCDfzlDAxpg==)" />
+		<POI MapID="1517" xpos="-266.2809" ypos="420.1459" zpos="398.8011" type="tt.sotol.mt.th.m" GUID="hYGmE8s2uUa1oiX1hSEGyg==" script-trigger="Teh_HighlightTrailSegment(rPmb2BrOwEShCvcBmjdHFA==)" />
+		<POI MapID="1517" xpos="-485.8282" ypos="503.9277" zpos="-95.19991" type="tt.sotol.mt.th.m" GUID="eHdpf0Q3F0u3JY8+OZaxEg==" script-trigger="Teh_HighlightTrailSegment(bg0fVKORX0eagJeA/jum2g==)" />
+		<POI MapID="1517" xpos="-343.6213" ypos="516.1279" zpos="218.5895" type="tt.sotol.mt.th.m" GUID="iIYqkIarKkyJr8TwAp0+dA==" script-trigger="Teh_HighlightTrailSegment(03jQiho6uECha2SZPB5Nrg==)" />
+		<POI MapID="1517" xpos="390.7404" ypos="397.7723" zpos="404.7195" type="tt.sotol.mt.th.m" GUID="UQjYmF2NJ0aagyKzslq6JA==" script-trigger="Teh_HighlightTrailSegment(3Lo/qO3j5EOxXnl0+Fm5NQ==)" />
 		<!--========= Highlight Trail Segments for ALanterns =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="lB151FpqY0y3RoMiFf801Q==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-0.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="OHsNc9QdAUqm611Toko5Bg==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-1.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="Eo5GuTNcY0KTOVBl4K9EZQ==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-2.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="GbUdgPDwtEuzCDfzlDAxpg==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-3.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="rPmb2BrOwEShCvcBmjdHFA==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-4.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="bg0fVKORX0eagJeA/jum2g==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-5.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="03jQiho6uECha2SZPB5Nrg==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-6.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="3Lo/qO3j5EOxXnl0+Fm5NQ==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-7.trl" />
+		<Trail type="tt.sotol.mt.th.t1" GUID="lB151FpqY0y3RoMiFf801Q==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-0.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="OHsNc9QdAUqm611Toko5Bg==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-1.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="Eo5GuTNcY0KTOVBl4K9EZQ==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-2.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="GbUdgPDwtEuzCDfzlDAxpg==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-3.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="rPmb2BrOwEShCvcBmjdHFA==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-4.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="bg0fVKORX0eagJeA/jum2g==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-5.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="03jQiho6uECha2SZPB5Nrg==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-6.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="3Lo/qO3j5EOxXnl0+Fm5NQ==" trailData="Data\TehsTrails\SotOTrails\ALanterns\ALanterns-Segment-7.trl" />
 		<!--========= Trail Highlight Markers for ALDT1 =========-->
 		<!--========= Highlight Trail Segments for ALDT1 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="/Z4nTfsZskij4usBYDguhA==" trailData="Data\TehsTrails\SotOTrails\ALDT1\ALDT1-Segment-0.trl" />
+		<Trail type="tt.sotol.mt.th.t1" GUID="/Z4nTfsZskij4usBYDguhA==" trailData="Data\TehsTrails\SotOTrails\ALDT1\ALDT1-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for ALDT2 =========-->
 		<!--========= Highlight Trail Segments for ALDT2 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="YoSEOApVFUyTZzjeOivNcg==" trailData="Data\TehsTrails\SotOTrails\ALDT2\ALDT2-Segment-0.trl" />
+		<Trail type="tt.sotol.mt.th.t1" GUID="YoSEOApVFUyTZzjeOivNcg==" trailData="Data\TehsTrails\SotOTrails\ALDT2\ALDT2-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for ALDT3 =========-->
 		<!--========= Highlight Trail Segments for ALDT3 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="h5dibiB/PkiO7w9Ou/JCBA==" trailData="Data\TehsTrails\SotOTrails\ALDT3\ALDT3-Segment-0.trl" />
+		<Trail type="tt.sotol.mt.th.t1" GUID="h5dibiB/PkiO7w9Ou/JCBA==" trailData="Data\TehsTrails\SotOTrails\ALDT3\ALDT3-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for ALDT4 =========-->
 		<!--========= Highlight Trail Segments for ALDT4 =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="2c4cmHtqjEmVvzUp6tPrhQ==" trailData="Data\TehsTrails\SotOTrails\ALDT4\ALDT4-Segment-0.trl" />
+		<Trail type="tt.sotol.mt.th.t1" GUID="2c4cmHtqjEmVvzUp6tPrhQ==" trailData="Data\TehsTrails\SotOTrails\ALDT4\ALDT4-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for SA =========-->
-		<POI MapID="1510" xpos="781.965" ypos="76.30852" zpos="-226.87" type="tt.mc.mt.th.m" GUID="aSOBzgR7j0afuyU5PLdDLA==" script-trigger="Teh_HighlightTrailSegment(FczXiqKLUEuO1K5e2w0M9A==)" />
-		<POI MapID="1510" xpos="1151.993" ypos="163.3001" zpos="-138.9718" type="tt.mc.mt.th.m" GUID="UXlp8JpoLkSislWC5u5kJg==" script-trigger="Teh_HighlightTrailSegment(BKfeLJqq1Uax8cMj8PqQ1Q==)" />
-		<POI MapID="1510" xpos="81.09866" ypos="639.3218" zpos="52.98714" type="tt.mc.mt.th.m" GUID="5Zwvyi8mrkWu42gCaBRN/A==" script-trigger="Teh_HighlightTrailSegment(XUpla1bDyUKEc+BB2qtEcQ==)" />
-		<POI MapID="1510" xpos="229.646" ypos="461.3467" zpos="670.4768" type="tt.mc.mt.th.m" GUID="8rhKCiTAhkegD7K3uG1h0g==" script-trigger="Teh_HighlightTrailSegment(KhjOhyoT8k63mli0Lpq9pg==)" />
-		<POI MapID="1510" xpos="-332.7499" ypos="283.8925" zpos="-477.3988" type="tt.mc.mt.th.m" GUID="aNUiQhareE6k4/Cyg97e1A==" script-trigger="Teh_HighlightTrailSegment(ha728HZIYEeDNY9/bEqlug==)" />
-		<POI MapID="1510" xpos="-320.1915" ypos="569.5662" zpos="434.2453" type="tt.mc.mt.th.m" GUID="erjbu/4wKEu/TWaZoYjV6g==" script-trigger="Teh_HighlightTrailSegment(NT/BIZxCI0myBAVhCfbFJQ==)" />
-		<POI MapID="1510" xpos="-953.2797" ypos="822.1503" zpos="423.3613" type="tt.mc.mt.th.m" GUID="4do6tc4Fx0a8PbZShThQgA==" script-trigger="Teh_HighlightTrailSegment(gpdUYybDs06CDWNxRMtGHw==)" />
-		<POI MapID="1510" xpos="-884.8026" ypos="553.6754" zpos="93.89656" type="tt.mc.mt.th.m" GUID="wC/r8PEahEi+Wl4A+TK9DQ==" script-trigger="Teh_HighlightTrailSegment(kdFY0z244Ei3Bhnl+o+fdw==)" />
-		<POI MapID="1510" xpos="-736.8951" ypos="467.7299" zpos="287.1164" type="tt.mc.mt.th.m" GUID="5iNOdz5/TEC3grNzgWXv2Q==" script-trigger="Teh_HighlightTrailSegment(nj+RUtQuekiJLtJgvTnl6Q==)" />
-		<POI MapID="1510" xpos="-253.4374" ypos="500.6096" zpos="2.140557" type="tt.mc.mt.th.m" GUID="bLWIuc4pjE63MYSJ1WmUxQ==" script-trigger="Teh_HighlightTrailSegment(C+Dd3Mnal0e+MjbAemZNRg==)" />
-		<POI MapID="1510" xpos="632.6412" ypos="346.0487" zpos="505.5541" type="tt.mc.mt.th.m" GUID="XtLZCynVp0qsbmcGst4IhA==" script-trigger="Teh_HighlightTrailSegment(k6bgux2NCUW5svDKqQ6iJw==)" />
-		<POI MapID="1510" xpos="616.3533" ypos="343.5435" zpos="298.6691" type="tt.mc.mt.th.m" GUID="TQ9FHzOqN0uOCHDwkdLCJg==" script-trigger="Teh_HighlightTrailSegment(4IxG6eAvBkSFAi2j40JeRQ==)" />
+		<POI MapID="1510" xpos="781.965" ypos="76.30852" zpos="-226.87" type="tt.soto.mt.th.m" GUID="aSOBzgR7j0afuyU5PLdDLA==" script-trigger="Teh_HighlightTrailSegment(FczXiqKLUEuO1K5e2w0M9A==)" />
+		<POI MapID="1510" xpos="1151.993" ypos="163.3001" zpos="-138.9718" type="tt.soto.mt.th.m" GUID="UXlp8JpoLkSislWC5u5kJg==" script-trigger="Teh_HighlightTrailSegment(BKfeLJqq1Uax8cMj8PqQ1Q==)" />
+		<POI MapID="1510" xpos="81.09866" ypos="639.3218" zpos="52.98714" type="tt.soto.mt.th.m" GUID="5Zwvyi8mrkWu42gCaBRN/A==" script-trigger="Teh_HighlightTrailSegment(XUpla1bDyUKEc+BB2qtEcQ==)" />
+		<POI MapID="1510" xpos="229.646" ypos="461.3467" zpos="670.4768" type="tt.soto.mt.th.m" GUID="8rhKCiTAhkegD7K3uG1h0g==" script-trigger="Teh_HighlightTrailSegment(KhjOhyoT8k63mli0Lpq9pg==)" />
+		<POI MapID="1510" xpos="-332.7499" ypos="283.8925" zpos="-477.3988" type="tt.soto.mt.th.m" GUID="aNUiQhareE6k4/Cyg97e1A==" script-trigger="Teh_HighlightTrailSegment(ha728HZIYEeDNY9/bEqlug==)" />
+		<POI MapID="1510" xpos="-320.1915" ypos="569.5662" zpos="434.2453" type="tt.soto.mt.th.m" GUID="erjbu/4wKEu/TWaZoYjV6g==" script-trigger="Teh_HighlightTrailSegment(NT/BIZxCI0myBAVhCfbFJQ==)" />
+		<POI MapID="1510" xpos="-953.2797" ypos="822.1503" zpos="423.3613" type="tt.soto.mt.th.m" GUID="4do6tc4Fx0a8PbZShThQgA==" script-trigger="Teh_HighlightTrailSegment(gpdUYybDs06CDWNxRMtGHw==)" />
+		<POI MapID="1510" xpos="-884.8026" ypos="553.6754" zpos="93.89656" type="tt.soto.mt.th.m" GUID="wC/r8PEahEi+Wl4A+TK9DQ==" script-trigger="Teh_HighlightTrailSegment(kdFY0z244Ei3Bhnl+o+fdw==)" />
+		<POI MapID="1510" xpos="-736.8951" ypos="467.7299" zpos="287.1164" type="tt.soto.mt.th.m" GUID="5iNOdz5/TEC3grNzgWXv2Q==" script-trigger="Teh_HighlightTrailSegment(nj+RUtQuekiJLtJgvTnl6Q==)" />
+		<POI MapID="1510" xpos="-253.4374" ypos="500.6096" zpos="2.140557" type="tt.soto.mt.th.m" GUID="bLWIuc4pjE63MYSJ1WmUxQ==" script-trigger="Teh_HighlightTrailSegment(C+Dd3Mnal0e+MjbAemZNRg==)" />
+		<POI MapID="1510" xpos="632.6412" ypos="346.0487" zpos="505.5541" type="tt.soto.mt.th.m" GUID="XtLZCynVp0qsbmcGst4IhA==" script-trigger="Teh_HighlightTrailSegment(k6bgux2NCUW5svDKqQ6iJw==)" />
+		<POI MapID="1510" xpos="616.3533" ypos="343.5435" zpos="298.6691" type="tt.soto.mt.th.m" GUID="TQ9FHzOqN0uOCHDwkdLCJg==" script-trigger="Teh_HighlightTrailSegment(4IxG6eAvBkSFAi2j40JeRQ==)" />
 		<!--========= Highlight Trail Segments for SA =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="IML/llr/JkKWFah5okL2iw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-0.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="FczXiqKLUEuO1K5e2w0M9A==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-1.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="BKfeLJqq1Uax8cMj8PqQ1Q==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-2.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="XUpla1bDyUKEc+BB2qtEcQ==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-3.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="KhjOhyoT8k63mli0Lpq9pg==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-4.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="ha728HZIYEeDNY9/bEqlug==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-5.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="NT/BIZxCI0myBAVhCfbFJQ==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-6.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="gpdUYybDs06CDWNxRMtGHw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-7.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="kdFY0z244Ei3Bhnl+o+fdw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-8.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="nj+RUtQuekiJLtJgvTnl6Q==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-9.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="C+Dd3Mnal0e+MjbAemZNRg==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-10.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="k6bgux2NCUW5svDKqQ6iJw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-11.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="4IxG6eAvBkSFAi2j40JeRQ==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-12.trl" />
+		<Trail type="tt.soto.mt.th.t1" GUID="IML/llr/JkKWFah5okL2iw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-0.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="FczXiqKLUEuO1K5e2w0M9A==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-1.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="BKfeLJqq1Uax8cMj8PqQ1Q==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-2.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="XUpla1bDyUKEc+BB2qtEcQ==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-3.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="KhjOhyoT8k63mli0Lpq9pg==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-4.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="ha728HZIYEeDNY9/bEqlug==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-5.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="NT/BIZxCI0myBAVhCfbFJQ==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-6.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="gpdUYybDs06CDWNxRMtGHw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-7.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="kdFY0z244Ei3Bhnl+o+fdw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-8.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="nj+RUtQuekiJLtJgvTnl6Q==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-9.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="C+Dd3Mnal0e+MjbAemZNRg==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-10.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="k6bgux2NCUW5svDKqQ6iJw==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-11.trl" />
+		<Trail type="tt.soto.mt.th.t" GUID="4IxG6eAvBkSFAi2j40JeRQ==" trailData="Data\TehsTrails\SotOTrails\SA\SA-Segment-12.trl" />
 		<!--========= Trail Highlight Markers for SALanterns =========-->
-		<POI MapID="1510" xpos="749.3768" ypos="97.60553" zpos="-217.631" type="tt.mc.mt.th.m" GUID="vvAls9OH6EqTTNaLE5XI5w==" script-trigger="Teh_HighlightTrailSegment(WixKoiavXkuKS4JDjpVKCg==)" />
-		<POI MapID="1510" xpos="1016.506" ypos="179.7521" zpos="-115.6214" type="tt.mc.mt.th.m" GUID="aVovqfFv5k6rYmNO/7VklQ==" script-trigger="Teh_HighlightTrailSegment(0YuCRBVFskGR+DX+By4MVQ==)" />
-		<POI MapID="1510" xpos="-30.10916" ypos="345.4882" zpos="560.1459" type="tt.mc.mt.th.m" GUID="ILvtD+sAdkWzCE8YzxXEMg==" script-trigger="Teh_HighlightTrailSegment(HPDNo8N8kEy3NPPuPhiD5g==)" />
-		<POI MapID="1510" xpos="407.7308" ypos="523.5214" zpos="-339.6001" type="tt.mc.mt.th.m" GUID="tzSp/mfJEk+oeRckR0Qaww==" script-trigger="Teh_HighlightTrailSegment(kCt+lzDny0KBPZ4De2w+AA==)" />
-		<POI MapID="1510" xpos="-623.2498" ypos="585.0886" zpos="-382.5215" type="tt.mc.mt.th.m" GUID="PJzyERqUWE+wbQlRP9e9og==" script-trigger="Teh_HighlightTrailSegment(M6S9Z+ut0EOuZX3/INFPGA==)" />
-		<POI MapID="1510" xpos="991.3607" ypos="267.5024" zpos="18.47873" type="tt.mc.mt.th.m" GUID="ERBhV+lEA0y8eBysyEamsg==" script-trigger="Teh_HighlightTrailSegment(cX4fwju7gk2Qbq5uIxsvOA==)" />
-		<POI MapID="1510" xpos="642.0555" ypos="244.0946" zpos="-153.8296" type="tt.mc.mt.th.m" GUID="xjwolPZknkO9F2QjIk5svQ==" script-trigger="Teh_HighlightTrailSegment(UlVTNMaHkE+2NPLOit36ag==)" />
-		<POI MapID="1510" xpos="633.0814" ypos="346.7158" zpos="505.0304" type="tt.mc.mt.th.m" GUID="xr2E43F2KUG2Mn/0R9yqdQ==" script-trigger="Teh_HighlightTrailSegment(YhSL3QKCK06CMwt0pU5waw==)" />
-		<POI MapID="1510" xpos="619.8215" ypos="365.11" zpos="301.0536" type="tt.mc.mt.th.m" GUID="yWS9QgiN0EKbjPfRojn+Kw==" script-trigger="Teh_HighlightTrailSegment(WPL7NJNuDk6kQr/SnkgoDg==)" />
-		<POI MapID="1510" xpos="387.2212" ypos="366.9531" zpos="472.5363" type="tt.mc.mt.th.m" GUID="v+XfbqoWv0ecqnwGR156JA==" script-trigger="Teh_HighlightTrailSegment(mfpI9KWDeE64hVcPuMQR9g==)" />
-		<POI MapID="1510" xpos="-82.42146" ypos="401.3989" zpos="-18.49231" type="tt.mc.mt.th.m" GUID="4ts9IYobb0Co+TvUBBbl1w==" script-trigger="Teh_HighlightTrailSegment(J9OoeuuEg0qCyVH7z2u/mw==)" />
-		<POI MapID="1510" xpos="327.8856" ypos="240.3997" zpos="-234.0816" type="tt.mc.mt.th.m" GUID="AM2BoFPV8U6uGWRGozyGYw==" script-trigger="Teh_HighlightTrailSegment(wyXQrT8Q9USVdz1P6xHBaw==)" />
-		<POI MapID="1510" xpos="-557.9653" ypos="248.43" zpos="-433.3603" type="tt.mc.mt.th.m" GUID="eWl47AGUHk6mho9L5rZ8QQ==" script-trigger="Teh_HighlightTrailSegment(HsIhv/Q4nkaus9YNfLaFnQ==)" />
-		<POI MapID="1510" xpos="-820.6885" ypos="442.1433" zpos="-185.9553" type="tt.mc.mt.th.m" GUID="UFMi7HwzmE+FBhwE9WhzUQ==" script-trigger="Teh_HighlightTrailSegment(J+eknW9P1Uih2uME+GPJCg==)" />
-		<POI MapID="1510" xpos="-778.9819" ypos="461.4815" zpos="266.2377" type="tt.mc.mt.th.m" GUID="pPEklgmGcE23qDTzOxt4ew==" script-trigger="Teh_HighlightTrailSegment(OUohLbvTZ0eR3/JdXskPuA==)" />
+		<POI MapID="1510" xpos="749.3768" ypos="97.60553" zpos="-217.631" type="tt.sotol.mt.th.m" GUID="vvAls9OH6EqTTNaLE5XI5w==" script-trigger="Teh_HighlightTrailSegment(WixKoiavXkuKS4JDjpVKCg==)" />
+		<POI MapID="1510" xpos="1016.506" ypos="179.7521" zpos="-115.6214" type="tt.sotol.mt.th.m" GUID="aVovqfFv5k6rYmNO/7VklQ==" script-trigger="Teh_HighlightTrailSegment(0YuCRBVFskGR+DX+By4MVQ==)" />
+		<POI MapID="1510" xpos="-30.10916" ypos="345.4882" zpos="560.1459" type="tt.sotol.mt.th.m" GUID="ILvtD+sAdkWzCE8YzxXEMg==" script-trigger="Teh_HighlightTrailSegment(HPDNo8N8kEy3NPPuPhiD5g==)" />
+		<POI MapID="1510" xpos="407.7308" ypos="523.5214" zpos="-339.6001" type="tt.sotol.mt.th.m" GUID="tzSp/mfJEk+oeRckR0Qaww==" script-trigger="Teh_HighlightTrailSegment(kCt+lzDny0KBPZ4De2w+AA==)" />
+		<POI MapID="1510" xpos="-623.2498" ypos="585.0886" zpos="-382.5215" type="tt.sotol.mt.th.m" GUID="PJzyERqUWE+wbQlRP9e9og==" script-trigger="Teh_HighlightTrailSegment(M6S9Z+ut0EOuZX3/INFPGA==)" />
+		<POI MapID="1510" xpos="991.3607" ypos="267.5024" zpos="18.47873" type="tt.sotol.mt.th.m" GUID="ERBhV+lEA0y8eBysyEamsg==" script-trigger="Teh_HighlightTrailSegment(cX4fwju7gk2Qbq5uIxsvOA==)" />
+		<POI MapID="1510" xpos="642.0555" ypos="244.0946" zpos="-153.8296" type="tt.sotol.mt.th.m" GUID="xjwolPZknkO9F2QjIk5svQ==" script-trigger="Teh_HighlightTrailSegment(UlVTNMaHkE+2NPLOit36ag==)" />
+		<POI MapID="1510" xpos="633.0814" ypos="346.7158" zpos="505.0304" type="tt.sotol.mt.th.m" GUID="xr2E43F2KUG2Mn/0R9yqdQ==" script-trigger="Teh_HighlightTrailSegment(YhSL3QKCK06CMwt0pU5waw==)" />
+		<POI MapID="1510" xpos="619.8215" ypos="365.11" zpos="301.0536" type="tt.sotol.mt.th.m" GUID="yWS9QgiN0EKbjPfRojn+Kw==" script-trigger="Teh_HighlightTrailSegment(WPL7NJNuDk6kQr/SnkgoDg==)" />
+		<POI MapID="1510" xpos="387.2212" ypos="366.9531" zpos="472.5363" type="tt.sotol.mt.th.m" GUID="v+XfbqoWv0ecqnwGR156JA==" script-trigger="Teh_HighlightTrailSegment(mfpI9KWDeE64hVcPuMQR9g==)" />
+		<POI MapID="1510" xpos="-82.42146" ypos="401.3989" zpos="-18.49231" type="tt.sotol.mt.th.m" GUID="4ts9IYobb0Co+TvUBBbl1w==" script-trigger="Teh_HighlightTrailSegment(J9OoeuuEg0qCyVH7z2u/mw==)" />
+		<POI MapID="1510" xpos="327.8856" ypos="240.3997" zpos="-234.0816" type="tt.sotol.mt.th.m" GUID="AM2BoFPV8U6uGWRGozyGYw==" script-trigger="Teh_HighlightTrailSegment(wyXQrT8Q9USVdz1P6xHBaw==)" />
+		<POI MapID="1510" xpos="-557.9653" ypos="248.43" zpos="-433.3603" type="tt.sotol.mt.th.m" GUID="eWl47AGUHk6mho9L5rZ8QQ==" script-trigger="Teh_HighlightTrailSegment(HsIhv/Q4nkaus9YNfLaFnQ==)" />
+		<POI MapID="1510" xpos="-820.6885" ypos="442.1433" zpos="-185.9553" type="tt.sotol.mt.th.m" GUID="UFMi7HwzmE+FBhwE9WhzUQ==" script-trigger="Teh_HighlightTrailSegment(J+eknW9P1Uih2uME+GPJCg==)" />
+		<POI MapID="1510" xpos="-778.9819" ypos="461.4815" zpos="266.2377" type="tt.sotol.mt.th.m" GUID="pPEklgmGcE23qDTzOxt4ew==" script-trigger="Teh_HighlightTrailSegment(OUohLbvTZ0eR3/JdXskPuA==)" />
 		<!--========= Highlight Trail Segments for SALanterns =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="/+06zJLz906osI+6PdPnyA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-0.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="WixKoiavXkuKS4JDjpVKCg==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-1.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="0YuCRBVFskGR+DX+By4MVQ==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-2.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="HPDNo8N8kEy3NPPuPhiD5g==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-3.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="kCt+lzDny0KBPZ4De2w+AA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-4.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="M6S9Z+ut0EOuZX3/INFPGA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-5.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="cX4fwju7gk2Qbq5uIxsvOA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-6.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="UlVTNMaHkE+2NPLOit36ag==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-7.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="YhSL3QKCK06CMwt0pU5waw==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-8.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="WPL7NJNuDk6kQr/SnkgoDg==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-9.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="mfpI9KWDeE64hVcPuMQR9g==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-10.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="J9OoeuuEg0qCyVH7z2u/mw==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-11.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="wyXQrT8Q9USVdz1P6xHBaw==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-12.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="HsIhv/Q4nkaus9YNfLaFnQ==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-13.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="J+eknW9P1Uih2uME+GPJCg==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-14.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="OUohLbvTZ0eR3/JdXskPuA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-15.trl" />
+		<Trail type="tt.sotol.mt.th.t1" GUID="/+06zJLz906osI+6PdPnyA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-0.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="WixKoiavXkuKS4JDjpVKCg==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-1.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="0YuCRBVFskGR+DX+By4MVQ==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-2.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="HPDNo8N8kEy3NPPuPhiD5g==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-3.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="kCt+lzDny0KBPZ4De2w+AA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-4.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="M6S9Z+ut0EOuZX3/INFPGA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-5.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="cX4fwju7gk2Qbq5uIxsvOA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-6.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="UlVTNMaHkE+2NPLOit36ag==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-7.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="YhSL3QKCK06CMwt0pU5waw==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-8.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="WPL7NJNuDk6kQr/SnkgoDg==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-9.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="mfpI9KWDeE64hVcPuMQR9g==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-10.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="J9OoeuuEg0qCyVH7z2u/mw==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-11.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="wyXQrT8Q9USVdz1P6xHBaw==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-12.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="HsIhv/Q4nkaus9YNfLaFnQ==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-13.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="J+eknW9P1Uih2uME+GPJCg==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-14.trl" />
+		<Trail type="tt.sotol.mt.th.t" GUID="OUohLbvTZ0eR3/JdXskPuA==" trailData="Data\TehsTrails\SotOTrails\SALanterns\SALanterns-Segment-15.trl" />
 		<!--========= Trail Highlight Markers for BlackCitadel =========-->
 		<POI MapID="218" xpos="-287.0483" ypos="43.95746" zpos="99.74577" type="tt.mc.mt.th.m" GUID="MfqWMwgt+k2D83383b+cfg==" script-trigger="Teh_HighlightTrailSegment(x2S5kdUdmkukpGDD9ME9+Q==)" />
 		<POI MapID="218" xpos="256.9219" ypos="176.9511" zpos="-22.4253" type="tt.mc.mt.th.m" GUID="vNPwwLZbZkqGG7gt4kiTtg==" script-trigger="Teh_HighlightTrailSegment(pwId7/m6Dk6E5382j0wpzQ==)" />
