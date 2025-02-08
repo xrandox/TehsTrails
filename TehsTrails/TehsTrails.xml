@@ -10772,16 +10772,16 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="sgD6WD9MTEy2VKtBpfqdqQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\LionsArch\LionsArch-Segment-8.trl" />
 		<!--========= Trail Highlight Markers for LornarsPass =========-->
 		<POI MapID="27" xpos="-76.79351" ypos="85.8912" zpos="1016.032" type="tt.mc.mt.th.m" GUID="fCmRUu9JEEO3LZblrZjtTg==" script-trigger="Teh_HighlightTrailSegment(JE25H2sipES61p7SIN83QA==)" />
-		<POI MapID="27" xpos="-317.1087" ypos="32.23014" zpos="-672.0951" type="tt.mc.mt.th.m" GUID="Z7IsjASo9U2mvchZ0dh4vA==" script-trigger="Teh_HighlightTrailSegment(oGDS+uXsK0as+xvDB2L1BQ==)" />
+		<POI MapID="27" xpos="-317.1087" ypos="32.23014" zpos="-672.0951" type="tt.mc.mt.th.m" GUID="Z7IsjASo9U2mvchZ0dh4vA==" script-trigger="Teh_HighlightTrailSegment(XC9TmIS7BUu80zHypGBMxA==)" />
 		<POI MapID="27" xpos="-128.5948" ypos="-16.13062" zpos="-647.5594" type="tt.mc.mt.th.m" GUID="NxhLuEgtyUWz/Tvbnq4AdQ==" script-trigger="Teh_HighlightTrailSegment(Hq75eDkUTEyxpWUEAP1Y8A==)" />
-		<POI MapID="27" xpos="-67.88262" ypos="105.7267" zpos="-187.2631" type="tt.mc.mt.th.m" GUID="A0LRKQvE9ku1JLO+FO2k1A==" script-trigger="Teh_HighlightTrailSegment(GuHTV1M0iUaJXvm9QD/aAw==)" />
+		<POI MapID="27" xpos="-67.88262" ypos="105.7267" zpos="-187.2631" type="tt.mc.mt.th.m" GUID="A0LRKQvE9ku1JLO+FO2k1A==" script-trigger="Teh_HighlightTrailSegment(cvQsJruDA0CH4453G5Y1sg==)" />
 		<POI MapID="27" xpos="-158.3784" ypos="58.66682" zpos="935.065" type="tt.mc.mt.th.m" GUID="HIuOvymHW0KLXlVjCaM3Iw==" script-trigger="Teh_HighlightTrailSegment(D3fT4+mZL0WdC7RcX44Sog==)" />
 		<POI MapID="27" xpos="-118.9249" ypos="98.14463" zpos="725.1964" type="tt.mc.mt.th.m" GUID="rTVG7aDce06kCn1CTU4XMw==" script-trigger="Teh_HighlightTrailSegment(PDa4yrU3bEKDAiz2CQY23g==)" />
 		<POI MapID="27" xpos="459.6714" ypos="123.6451" zpos="-61.52199" type="tt.mc.mt.th.m" GUID="8dj9PXf+hEW/6ShSzxmCsg==" script-trigger="Teh_HighlightTrailSegment(p+vCg3EXWE60V6eh1nJULA==)" />
 		<POI MapID="27" xpos="194.4121" ypos="95.0831" zpos="41.69082" type="tt.mc.mt.th.m" GUID="CQ6ngfbOGECazUvMOY8PpQ==" script-trigger="Teh_HighlightTrailSegment(/nCk7o6AkEuvlQBqdap11A==)" />
-		<POI MapID="27" xpos="66.34391" ypos="50.05659" zpos="-444.5116" type="tt.mc.mt.th.m" GUID="tkSUUTtY40m+gE8cZyvMKw==" script-trigger="Teh_HighlightTrailSegment(cvQsJruDA0CH4453G5Y1sg==)" />
+		<POI MapID="27" xpos="426.1884" ypos="113.774" zpos="-939.3305" type="tt.mc.mt.th.m" GUID="tkSUUTtY40m+gE8cZyvMKw==" script-trigger="Teh_HighlightTrailSegment(oGDS+uXsK0as+xvDB2L1BQ==)" />
 		<POI MapID="27" xpos="-496.7745" ypos="161.0337" zpos="648.0516" type="tt.mc.mt.th.m" GUID="szVrSVuXVkWi0BjCr9RPYQ==" script-trigger="Teh_HighlightTrailSegment(u/7gOYPIXEK58XuLEtpiCg==)" />
-		<POI MapID="27" xpos="-511.6934" ypos="82.5442" zpos="542.8785" type="tt.mc.mt.th.m" GUID="yWGBE2/8fEakazEjxL3IhQ==" script-trigger="Teh_HighlightTrailSegment(XC9TmIS7BUu80zHypGBMxA==)" />
+		<POI MapID="27" xpos="-511.6934" ypos="82.5442" zpos="542.8785" type="tt.mc.mt.th.m" GUID="yWGBE2/8fEakazEjxL3IhQ==" script-trigger="Teh_HighlightTrailSegment(GuHTV1M0iUaJXvm9QD/aAw==)" />
 		<POI MapID="27" xpos="-260.7769" ypos="-0.969328" zpos="-937.3138" type="tt.mc.mt.th.m" GUID="CwqDg0jrtka3RZFqR9AxOQ==" script-trigger="Teh_HighlightTrailSegment(+nJ/ACFXiEaixW/GG8F9Ag==)" />
 		<!--========= Highlight Trail Segments for LornarsPass =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="M2ifpArF+U2KtSIKpBYf3g==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\LornarsPass\LornarsPass-Segment-0.trl" />
