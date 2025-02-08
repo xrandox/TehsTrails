@@ -10461,11 +10461,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Highlight Trail Segments for BlackCitadelInstance4 =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="CYhQMW4YzEGxv5nAnjVlRw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlackCitadelInstance4\BlackCitadelInstance4-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for BlazeridgeSteppes =========-->
-		<POI MapID="20" xpos="502.528" ypos="55.79751" zpos="-752.3292" type="tt.mc.mt.th.m" GUID="1g4ud9XFJUCYG3qMb/eQvQ==" script-trigger="Teh_HighlightTrailSegment(MPt6+tTCDE6tFesocExIKA==)" />
-		<POI MapID="20" xpos="102.346" ypos="19.12223" zpos="-229.5855" type="tt.mc.mt.th.m" GUID="GRl5NaNS1ECMByQ9RNA4Dg==" script-trigger="Teh_HighlightTrailSegment(4oNLy3KoMkirFJH1rMlJtw==)" />
-		<POI MapID="20" xpos="475.7618" ypos="45.39602" zpos="179.9745" type="tt.mc.mt.th.m" GUID="zowWu81q+E+5T1ZuBJVuTg==" script-trigger="Teh_HighlightTrailSegment(13FvJcewqE+DwFfKZnaFsQ==)" />
-		<POI MapID="20" xpos="490.2293" ypos="42.56372" zpos="184.2683" type="tt.mc.mt.th.m" GUID="S/m6LiErpUCveyIUVFwa4Q==" script-trigger="Teh_HighlightTrailSegment(X5pqLoV+hkWnIPlpREcvfQ==)" />
-		<POI MapID="20" xpos="-517.0923" ypos="19.63412" zpos="994.6335" type="tt.mc.mt.th.m" GUID="aBa9JMU70Ey4VxDjzCzO0g==" script-trigger="Teh_HighlightTrailSegment(LCmB2HH8vEmqaQzppr6Vdg==)" />
+		<POI MapID="20" xpos="502.528" ypos="55.79751" zpos="-752.3292" type="tt.mc.mt.th.m" GUID="1g4ud9XFJUCYG3qMb/eQvQ==" script-trigger="Teh_HighlightTrailSegment(LCmB2HH8vEmqaQzppr6Vdg==)" />
+		<POI MapID="20" xpos="102.346" ypos="19.12223" zpos="-229.5855" type="tt.mc.mt.th.m" GUID="GRl5NaNS1ECMByQ9RNA4Dg==" script-trigger="Teh_HighlightTrailSegment(13FvJcewqE+DwFfKZnaFsQ==)" />
+		<POI MapID="20" xpos="475.7618" ypos="45.39602" zpos="179.9745" type="tt.mc.mt.th.m" triggerRange="2" GUID="zowWu81q+E+5T1ZuBJVuTg==" script-trigger="Teh_HighlightTrailSegment(MPt6+tTCDE6tFesocExIKA==)" />
+		<POI MapID="20" xpos="490.2293" ypos="42.56372" zpos="184.2683" type="tt.mc.mt.th.m" triggerRange="2" GUID="S/m6LiErpUCveyIUVFwa4Q==" script-trigger="Teh_HighlightTrailSegment(X5pqLoV+hkWnIPlpREcvfQ==)" />
+		<POI MapID="20" xpos="360.6098" ypos="38.72856" zpos="1047.073" type="tt.mc.mt.th.m" GUID="aBa9JMU70Ey4VxDjzCzO0g==" script-trigger="Teh_HighlightTrailSegment(4oNLy3KoMkirFJH1rMlJtw==)" />
 		<POI MapID="20" xpos="-413.4054" ypos="6.821589" zpos="-898.8977" type="tt.mc.mt.th.m" GUID="kXDJpKMSRka7n1cAP7TU1g==" script-trigger="Teh_HighlightTrailSegment(5jEth/ld1EefHyYGK5RtNQ==)" />
 		<!--========= Highlight Trail Segments for BlazeridgeSteppes =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="qdlRvd19vU2BJySSzlkgzQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlazeridgeSteppes\BlazeridgeSteppes-Segment-0.trl" />
