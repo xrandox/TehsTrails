@@ -220,6 +220,7 @@ function Teh_ResetHighlightTrailSegment()
     Debug:Print("Resetting highlighted trail segment")
     Teh.trailhighlighting.activeTrail = Teh.trailhighlighting.firstTrail[1]
     Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
+    Teh.trailhighlighting.consumed = {}
     highlightActiveTrail()
 end
 
