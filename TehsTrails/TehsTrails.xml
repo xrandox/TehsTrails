@@ -10981,8 +10981,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="KgSNg3BcoES8HINZpCLZug==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\TimberlineFalls\TimberlineFalls-Segment-4.trl" />
 		<!--========= Trail Highlight Markers for WayfarerFoothills =========-->
 		<POI MapID="28" xpos="-465.8238" ypos="32.78972" zpos="-1256.897" type="tt.mc.mt.th.m" GUID="8jzziupKkkqjnrAhFQ96ng==" script-trigger="Teh_HighlightTrailSegment(zfU4knc2jkubjfKKkAbWag==)" />
-		<POI MapID="28" xpos="232.2924" ypos="48.04396" zpos="-661.9515" type="tt.mc.mt.th.m" GUID="Ok9QFDvamEGfTiOXgAOA/w==" script-trigger="Teh_HighlightTrailSegment(z//tVKEkIUCCAdGm+5vKlw==)" />
-		<POI MapID="28" xpos="441.7828" ypos="-0.6805467" zpos="-823.3734" type="tt.mc.mt.th.m" GUID="8m+MZcHzX06mV7QS/Ksdag==" script-trigger="Teh_HighlightTrailSegment(LrvS0SGyqkGn5I4SGc7wvg==)" />
+		<POI MapID="28" xpos="232.2924" ypos="48.04396" zpos="-661.9515" type="tt.mc.mt.th.m" GUID="Ok9QFDvamEGfTiOXgAOA/w==" script-trigger="Teh_HighlightTrailSegment(LrvS0SGyqkGn5I4SGc7wvg==)" />
+		<POI MapID="28" xpos="441.7828" ypos="-0.6805467" zpos="-823.3734" type="tt.mc.mt.th.m" GUID="8m+MZcHzX06mV7QS/Ksdag==" script-trigger="Teh_HighlightTrailSegment(z//tVKEkIUCCAdGm+5vKlw==)" />
 		<POI MapID="28" xpos="483.0828" ypos="15.64589" zpos="-1049.126" type="tt.mc.mt.th.m" GUID="9Q0t78iHgEiIU41wwkQG5Q==" script-trigger="Teh_HighlightTrailSegment(iHgfjP4QzUOzp+0HiLq7aA==)" />
 		<POI MapID="28" xpos="49.65531" ypos="95.89803" zpos="286.3901" type="tt.mc.mt.th.m" GUID="Svu8b8maH0Sp0hciWyF++Q==" script-trigger="Teh_HighlightTrailSegment(s9gDZEGqWk6KfUPe2Ll7Zw==)" />
 		<POI MapID="28" xpos="418.8605" ypos="148.0801" zpos="1197.36" type="tt.mc.mt.th.m" GUID="QmROQ8dO2ESPZAHZ3u7ZLg==" script-trigger="Teh_HighlightTrailSegment(hWp43PZMlk+OgrqNAJ+HxQ==)" />
