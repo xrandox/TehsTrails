@@ -10634,10 +10634,10 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="NJlhdSX4XEK5pcErmfHXcg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FireheartRise\FireheartRise-Segment-5.trl" />
 		<!--========= Trail Highlight Markers for FrostgorgeSound =========-->
 		<POI MapID="30" xpos="741.8621" ypos="8.021229" zpos="-642.4832" type="tt.mc.mt.th.m" GUID="OmUp0U6wOk+PWgmCbF5y1g==" script-trigger="Teh_HighlightTrailSegment(cyQXTnJzz0q0Ekp/qpL3Aw==)" />
-		<POI MapID="30" xpos="-863.5596" ypos="36.43415" zpos="-368.887" type="tt.mc.mt.th.m" GUID="utdT1P5pV0W/CjpPbO6Org==" script-trigger="Teh_HighlightTrailSegment(69QYsJ7Fr06IKoQVd3mLAQ==)" />
-		<POI MapID="30" xpos="549.1901" ypos="30.8229" zpos="-121.8915" type="tt.mc.mt.th.m" GUID="Re32yocJxkOwyPu2g+mUwA==" script-trigger="Teh_HighlightTrailSegment(RfWm1DO0XUimOaaA14KLmA==)" />
-		<POI MapID="30" xpos="297.0915" ypos="-120.1316" zpos="654.0679" type="tt.mc.mt.th.m" GUID="mGY5/OUtPEujvAm15kffiw==" script-trigger="Teh_HighlightTrailSegment(8S9xx5q36kqQkwc5kXgnqw==)" />
-		<POI MapID="30" xpos="735.5807" ypos="126.2179" zpos="758.262" type="tt.mc.mt.th.m" GUID="btn9i+4TuUqe5Kgxy8a3hg==" script-trigger="Teh_HighlightTrailSegment(qSkHJK/TxUuxLC3vn/eEmA==)" />
+		<POI MapID="30" xpos="-863.5596" ypos="36.43415" zpos="-368.887" type="tt.mc.mt.th.m" GUID="utdT1P5pV0W/CjpPbO6Org==" script-trigger="Teh_HighlightTrailSegment(qSkHJK/TxUuxLC3vn/eEmA==)" />
+		<POI MapID="30" xpos="549.1901" ypos="30.8229" zpos="-121.8915" type="tt.mc.mt.th.m" GUID="Re32yocJxkOwyPu2g+mUwA==" script-trigger="Teh_HighlightTrailSegment(8S9xx5q36kqQkwc5kXgnqw==)" />
+		<POI MapID="30" xpos="297.0915" ypos="-120.1316" zpos="654.0679" type="tt.mc.mt.th.m" GUID="mGY5/OUtPEujvAm15kffiw==" script-trigger="Teh_HighlightTrailSegment(69QYsJ7Fr06IKoQVd3mLAQ==)" />
+		<POI MapID="30" xpos="-50.42797" ypos="-41.14981" zpos="168.1465" type="tt.mc.mt.th.m" GUID="btn9i+4TuUqe5Kgxy8a3hg==" script-trigger="Teh_HighlightTrailSegment(RfWm1DO0XUimOaaA14KLmA==)" />
 		<POI MapID="30" xpos="-227.1786" ypos="53.13269" zpos="-828.69183" type="tt.mc.mt.th.m" GUID="A5oaNV0w5UmNBcLJNcH6Rw==" script-trigger="Teh_HighlightTrailSegment(ELsTqa9JSkKFQ3VW3A1dIQ==)" />
 		<POI MapID="30" xpos="-630.1804" ypos="-93.97076" zpos="-639.9044" type="tt.mc.mt.th.m" GUID="1l6hrxn5skmxgrce3TNkig==" script-trigger="Teh_HighlightTrailSegment(QbnszL8EHUCmYFOAQXlv6A==)" />
 		<POI MapID="30" xpos="-889.6003" ypos="13.81726" zpos="878.6307" type="tt.mc.mt.th.m" GUID="B+MpzCOeKkGfoENJBOtQeQ==" script-trigger="Teh_HighlightTrailSegment(Wtfs8ZwgHE+GJ0ejrDDI9w==)" />
