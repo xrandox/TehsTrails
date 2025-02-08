@@ -10546,14 +10546,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="FDk+As7qAEuw0E3fuXdXLw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\CursedShore\CursedShore-Segment-5.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="1zD7KGCUw0OM2AsfWDn3OQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\CursedShore\CursedShore-Segment-6.trl" />
 		<!--========= Trail Highlight Markers for DiessaPlateau =========-->
-		<POI MapID="32" xpos="225.7693" ypos="37.7854" zpos="-101.3928" type="tt.mc.mt.th.m" GUID="GnNilHm/nkWyWecGFYJIVQ==" script-trigger="Teh_HighlightTrailSegment(GzHe8L52hUO11bv3fd4N9A==)" />
+		<POI MapID="32" xpos="225.7693" ypos="37.7854" zpos="-101.3928" type="tt.mc.mt.th.m" GUID="GnNilHm/nkWyWecGFYJIVQ==" script-trigger="Teh_HighlightTrailSegment(x3NHzLtTu0+JCexOms22SA==)" />
 		<POI MapID="32" xpos="-150.2461" ypos="2.257065" zpos="80.56173" type="tt.mc.mt.th.m" GUID="G272k6EPDUmmxYsrFAYUhQ==" script-trigger="Teh_HighlightTrailSegment(hxEGPxbmaUaM9+LziPFiKA==)" />
-		<POI MapID="32" xpos="-43.55005" ypos="39.12693" zpos="-243.8496" type="tt.mc.mt.th.m" GUID="XZpZDFmp00+pa5s7s4cX0Q==" script-trigger="Teh_HighlightTrailSegment(x3NHzLtTu0+JCexOms22SA==)" />
-		<POI MapID="32" xpos="-773.425" ypos="95.08729" zpos="497.8428" type="tt.mc.mt.th.m" GUID="Jf8bsnORUUaxuBbWJKHrqg==" script-trigger="Teh_HighlightTrailSegment(th3wvZ2xr0+zsVjhUBWUHQ==)" />
-		<POI MapID="32" xpos="-1002.89" ypos="69.53363" zpos="-551.1996" type="tt.mc.mt.th.m" GUID="OddDKefzB06s9EcvQru3Hg==" script-trigger="Teh_HighlightTrailSegment(giA13ForrkuoyQ8PdD3cFQ==)" />
-		<POI MapID="32" xpos="288.4874" ypos="24.39483" zpos="-607.336" type="tt.mc.mt.th.m" GUID="ao8TkDefH0ukcnvn3kclNg==" script-trigger="Teh_HighlightTrailSegment(iaNu6oN9UUWG9PTftbZk5Q==)" />
-		<POI MapID="32" xpos="-994.991" ypos="91.5599" zpos="-172.0406" type="tt.mc.mt.th.m" GUID="lhRfKHTKGkacJqHqOehk7Q==" script-trigger="Teh_HighlightTrailSegment(0xHdwjKP30+WOY8BuQGVXw==)" />
-		<POI MapID="32" xpos="-402.1553" ypos="49.16605" zpos="-595.8764" type="tt.mc.mt.th.m" GUID="LlmXTkPqxkKWsPmlupdJTw==" script-trigger="Teh_HighlightTrailSegment(uPlu4iT95kGVUhYO0snzFw==)" />
+		<POI MapID="32" xpos="-43.55005" ypos="39.12693" zpos="-243.8496" type="tt.mc.mt.th.m" GUID="XZpZDFmp00+pa5s7s4cX0Q==" script-trigger="Teh_HighlightTrailSegment(th3wvZ2xr0+zsVjhUBWUHQ==)" />
+		<POI MapID="32" xpos="318.3241" ypos="64.03074" zpos="572.962" type="tt.mc.mt.th.m" GUID="Jf8bsnORUUaxuBbWJKHrqg==" script-trigger="Teh_HighlightTrailSegment(iaNu6oN9UUWG9PTftbZk5Q==)" />
+		<POI MapID="32" xpos="-1002.89" ypos="69.53363" zpos="-551.1996" type="tt.mc.mt.th.m" GUID="OddDKefzB06s9EcvQru3Hg==" script-trigger="Teh_HighlightTrailSegment(0xHdwjKP30+WOY8BuQGVXw==)" />
+		<POI MapID="32" xpos="288.4874" ypos="24.39483" zpos="-607.336" type="tt.mc.mt.th.m" GUID="ao8TkDefH0ukcnvn3kclNg==" script-trigger="Teh_HighlightTrailSegment(uPlu4iT95kGVUhYO0snzFw==)" />
+		<POI MapID="32" xpos="-402.1553" ypos="49.16605" zpos="-595.8764" type="tt.mc.mt.th.m" GUID="LlmXTkPqxkKWsPmlupdJTw==" script-trigger="Teh_HighlightTrailSegment(giA13ForrkuoyQ8PdD3cFQ==)" />
 		<POI MapID="32" xpos="382.6619" ypos="53.47781" zpos="-558.1267" type="tt.mc.mt.th.m" GUID="po3F5utkrECZzAPBxhAQcQ==" script-trigger="Teh_HighlightTrailSegment(WXW5SoEo9kK/t88ZW6ifmA==)" />
 		<POI MapID="32" xpos="955.6576" ypos="-10.87441" zpos="-445.1829" type="tt.mc.mt.th.m" GUID="MeEqTF/mR0eH8o3xtwzXtw==" script-trigger="Teh_HighlightTrailSegment(XRvEVzuE1E6N+nal1AeghA==)" />
 		<POI MapID="32" xpos="935.1024" ypos="61.22113" zpos="555.5869" type="tt.mc.mt.th.m" GUID="FKfhMsLiE02sfwXY2qxh4Q==" script-trigger="Teh_HighlightTrailSegment(SdCw74kxSk2lAwurcxfrDQ==)" />
