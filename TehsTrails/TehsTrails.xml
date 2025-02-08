@@ -18,7 +18,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
 				</MarkerCategory>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
@@ -215,7 +215,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -325,7 +325,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -437,7 +437,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -514,7 +514,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -585,7 +585,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="15" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
