@@ -10669,24 +10669,22 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="7CMR9LF0BUy4GG5eW+/3ew==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\GendarranFields\GendarranFields-Segment-5.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="cIq8e4rGJkWJVTA3qnHR/A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\GendarranFields\GendarranFields-Segment-6.trl" />
 		<!--========= Trail Highlight Markers for HarathiHinterlands =========-->
-		<POI MapID="17" xpos="-118.8996" ypos="34.66881" zpos="-55.92368" type="tt.mc.mt.th.m" GUID="nXadXnPdtE259fBrWTrZXw==" script-trigger="Teh_HighlightTrailSegment(w2FBLBcK/0O/HoHi5QTbyA==)" />
+		<POI MapID="17" xpos="-118.8996" ypos="34.66881" zpos="-55.92368" type="tt.mc.mt.th.m" GUID="nXadXnPdtE259fBrWTrZXw==" script-trigger="Teh_HighlightTrailSegment(QNvabM7CM0O/4OgFfCnr8A==)" />
 		<POI MapID="17" xpos="-110.566" ypos="6.008839" zpos="-700.5872" type="tt.mc.mt.th.m" GUID="9O402FmarkyIuqtDpusKQg==" script-trigger="Teh_HighlightTrailSegment(TDFBpEm+GEmWYDxMAkf7jQ==)" />
 		<POI MapID="17" xpos="-483.1708" ypos="116.3193" zpos="-752.3925" type="tt.mc.mt.th.m" GUID="6pCZTEYf+0OjdpgpTQl1yg==" script-trigger="Teh_HighlightTrailSegment(s29PonJ+X0G7JtSimcX0vA==)" />
 		<POI MapID="17" xpos="-836.6279" ypos="122.5299" zpos="-682.8495" type="tt.mc.mt.th.m" GUID="fa439n+oCUOO2aQl+JNgtA==" script-trigger="Teh_HighlightTrailSegment(ByfHXwG2SkKnj5Goht8x1w==)" />
-		<POI MapID="17" xpos="107.6041" ypos="51.84379" zpos="349.7302" type="tt.mc.mt.th.m" GUID="gCATg4/GY0i48SPFnR8IPw==" script-trigger="Teh_HighlightTrailSegment(QNvabM7CM0O/4OgFfCnr8A==)" />
-		<POI MapID="17" xpos="-529.9573" ypos="54.60654" zpos="-70.70994" type="tt.mc.mt.th.m" GUID="YVLQ4CnYcEWaXWYKLpE89A==" script-trigger="Teh_HighlightTrailSegment(CfnmVv75e0mDBeC+Kx/WWg==)" />
+		<POI MapID="17" xpos="107.6041" ypos="51.84379" zpos="349.7302" type="tt.mc.mt.th.m" GUID="gCATg4/GY0i48SPFnR8IPw==" script-trigger="Teh_HighlightTrailSegment(CfnmVv75e0mDBeC+Kx/WWg==)" />
 		<POI MapID="17" xpos="497.6553" ypos="45.90539" zpos="262.1053" type="tt.mc.mt.th.m" GUID="C68uK6tRAUanP4P9CVKduQ==" script-trigger="Teh_HighlightTrailSegment(Ydapige/IEOmNFJISooUIA==)" />
-		<POI MapID="17" xpos="905.866" ypos="175.3988" zpos="579.0959" type="tt.mc.mt.th.m" GUID="fVMn7lyF7EevaMipGxF/7w==" script-trigger="Teh_HighlightTrailSegment(hkU5q6YA4keN8ET96ZUvVw==)" />
+		<POI MapID="17" xpos="905.866" ypos="175.3988" zpos="579.0959" type="tt.mc.mt.th.m" GUID="fVMn7lyF7EevaMipGxF/7w==" script-trigger="Teh_HighlightTrailSegment(Om8w2tQAAUq4yy/mWnTOtA==)" />
 		<!--========= Highlight Trail Segments for HarathiHinterlands =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="Om8w2tQAAUq4yy/mWnTOtA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-0.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="w2FBLBcK/0O/HoHi5QTbyA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-1.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="Om8w2tQAAUq4yy/mWnTOtA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-0.trl" />
+		<Trail type="tt.mc.mt.th.t1" GUID="w2FBLBcK/0O/HoHi5QTbyA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-1.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="TDFBpEm+GEmWYDxMAkf7jQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-2.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="s29PonJ+X0G7JtSimcX0vA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-3.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="ByfHXwG2SkKnj5Goht8x1w==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-4.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="QNvabM7CM0O/4OgFfCnr8A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-5.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="CfnmVv75e0mDBeC+Kx/WWg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-6.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="Ydapige/IEOmNFJISooUIA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-7.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="hkU5q6YA4keN8ET96ZUvVw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-8.trl" />
 		<!--========= Trail Highlight Markers for Hoelbrak =========-->
 		<POI MapID="326" xpos="467.7343" ypos="321.0706" zpos="-306.3983" type="tt.mc.mt.th.m" GUID="3mwKhQtV5ku9ObDdj9Kubg==" script-trigger="Teh_HighlightTrailSegment(ZFQ5RlxqskCqShk2fLkECQ==)" />
 		<POI MapID="326" xpos="-406.4377" ypos="294.0178" zpos="41.38559" type="tt.mc.mt.th.m" GUID="AuZfLXk/G0K3yA+Hiljx3g==" script-trigger="Teh_HighlightTrailSegment(bDkn/e16cUm239TkWGYDLQ==)" />
