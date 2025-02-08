@@ -10685,8 +10685,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="Ydapige/IEOmNFJISooUIA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-7.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="hkU5q6YA4keN8ET96ZUvVw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-8.trl" />
 		<!--========= Trail Highlight Markers for Hoelbrak =========-->
-		<POI MapID="326" xpos="467.7343" ypos="321.0706" zpos="-306.3983" type="tt.mc.mt.th.m" GUID="3mwKhQtV5ku9ObDdj9Kubg==" script-trigger="Teh_HighlightTrailSegment(bDkn/e16cUm239TkWGYDLQ==)" />
-		<POI MapID="326" xpos="14.862073" ypos="382.57202" zpos="-347.70587" type="tt.mc.mt.th.m" GUID="AuZfLXk/G0K3yA+Hiljx3g==" script-trigger="Teh_HighlightTrailSegment(ZFQ5RlxqskCqShk2fLkECQ==)" />
+		<POI MapID="326" xpos="467.7343" ypos="321.0706" zpos="-306.3983" type="tt.mc.mt.th.m" GUID="3mwKhQtV5ku9ObDdj9Kubg==" script-trigger="Teh_HighlightTrailSegment(ZFQ5RlxqskCqShk2fLkECQ==)" />
+		<POI MapID="326" xpos="-406.4377" ypos="294.0178" zpos="41.38559" type="tt.mc.mt.th.m" GUID="AuZfLXk/G0K3yA+Hiljx3g==" script-trigger="Teh_HighlightTrailSegment(bDkn/e16cUm239TkWGYDLQ==)" />
 		<POI MapID="326" xpos="436.2728" ypos="244.8519" zpos="-111.7985" type="tt.mc.mt.th.m" GUID="XyiNZHjaykCTs7+WZaghLQ==" script-trigger="Teh_HighlightTrailSegment(q+ddxsweDkyMGgyf61Xx3Q==)" />
 		<POI MapID="326" xpos="344.2615" ypos="250.7157" zpos="477.2154" type="tt.mc.mt.th.m" GUID="ovrmBQxajEqSmQxvsslq/w==" script-trigger="Teh_HighlightTrailSegment(4M80DsgyhUmmft5FuC7RQw==)" />
 		<POI MapID="326" xpos="602.75256" ypos="204.06075" zpos="435.7553" type="tt.mc.mt.th.m" GUID="DeRKkHdsLEyf5g1oH+nu2A==" script-trigger="Teh_HighlightTrailSegment(qXdUsTVux0qEZAGp5wD4SQ==)" />
