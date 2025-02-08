@@ -10589,13 +10589,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="iIqK30PqcUiupFVMlsvKYQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\DivinitysReach\DivinitysReach-Segment-7.trl" />
 		<!--========= Trail Highlight Markers for DredgehauntCliffs =========-->
 		<POI MapID="26" xpos="575.9138" ypos="27.90958" zpos="410.4069" type="tt.mc.mt.th.m" GUID="3PSNf6O23k+a3LexrqrK4A==" script-trigger="Teh_HighlightTrailSegment(f8pfoiefhkuy6oEi+FMIhg==)" />
-		<POI MapID="26" xpos="-592.2863" ypos="92.09809" zpos="-372.8847" type="tt.mc.mt.th.m" GUID="BfhSsveykkmob++qnaogMw==" script-trigger="Teh_HighlightTrailSegment(PumztfGH0kK0I3RgHFbh0w==)" />
-		<POI MapID="26" xpos="-518.8692" ypos="0.0544" zpos="759.0089" type="tt.mc.mt.th.m" GUID="eDXJ1B/W30m47fW6TEJ7MQ==" script-trigger="Teh_HighlightTrailSegment(JYmM6aaKxUqxi+PFtpfxZg==)" />
+		<POI MapID="26" xpos="-592.2863" ypos="92.09809" zpos="-372.8847" type="tt.mc.mt.th.m" GUID="BfhSsveykkmob++qnaogMw==" script-trigger="Teh_HighlightTrailSegment(JYmM6aaKxUqxi+PFtpfxZg==)" />
+		<POI MapID="26" xpos="-518.8692" ypos="0.0544" zpos="759.0089" type="tt.mc.mt.th.m" GUID="eDXJ1B/W30m47fW6TEJ7MQ==" script-trigger="Teh_HighlightTrailSegment(/03a8nuX90KAYCNx4ffDxA==)" />
 		<POI MapID="26" xpos="-504.5517" ypos="-0.3340845" zpos="-653.5693" type="tt.mc.mt.th.m" GUID="WEAFCKyS+ku8EDm6sViSOg==" script-trigger="Teh_HighlightTrailSegment(f0k8bRJrHkOl3Cc9IB/Y6A==)" />
 		<POI MapID="26" xpos="152.9637" ypos="68.17943" zpos="-432.1771" type="tt.mc.mt.th.m" GUID="nSbZ+R4qZ0Kf1Kiu8BYg/A==" script-trigger="Teh_HighlightTrailSegment(yhnPW8NipkmeD9/XXwrDjA==)" />
-		<POI MapID="26" xpos="-52.57013" ypos="147.6365" zpos="-36.84106" type="tt.mc.mt.th.m" GUID="FmSzLqmiFUe5usWPij6aEA==" script-trigger="Teh_HighlightTrailSegment(/03a8nuX90KAYCNx4ffDxA==)" />
+		<POI MapID="26" xpos="-52.57013" ypos="147.6365" zpos="-36.84106" type="tt.mc.mt.th.m" GUID="FmSzLqmiFUe5usWPij6aEA==" script-trigger="Teh_HighlightTrailSegment(d3EOUF5eo06S3bMfXmvynQ==)" />
 		<POI MapID="26" xpos="82.80166" ypos="97.80416" zpos="980.5953" type="tt.mc.mt.th.m" GUID="2jDY5vW0a0KQ0oFtYJlkqQ==" script-trigger="Teh_HighlightTrailSegment(q/uoahKzdE6fV4j8s3el2w==)" />
-		<POI MapID="26" xpos="-81.93164" ypos="77.72592" zpos="546.8499" type="tt.mc.mt.th.m" GUID="Qsc91SQB/EWotqtCRxohvw==" script-trigger="Teh_HighlightTrailSegment(d3EOUF5eo06S3bMfXmvynQ==)" />
+		<POI MapID="26" xpos="-574.3981" ypos="67.55511" zpos="313.4798" type="tt.mc.mt.th.m" GUID="Qsc91SQB/EWotqtCRxohvw==" script-trigger="Teh_HighlightTrailSegment(PumztfGH0kK0I3RgHFbh0w==)" />
 		<!--========= Highlight Trail Segments for DredgehauntCliffs =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="VOR+B1Qd6EO2dDk5Ah0pTg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\DredgehauntCliffs\DredgehauntCliffs-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="f8pfoiefhkuy6oEi+FMIhg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\DredgehauntCliffs\DredgehauntCliffs-Segment-1.trl" />
