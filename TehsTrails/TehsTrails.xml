@@ -10476,15 +10476,15 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="LCmB2HH8vEmqaQzppr6Vdg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlazeridgeSteppes\BlazeridgeSteppes-Segment-5.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="5jEth/ld1EefHyYGK5RtNQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlazeridgeSteppes\BlazeridgeSteppes-Segment-6.trl" />
 		<!--========= Trail Highlight Markers for BloodtideCoast =========-->
-		<POI MapID="73" xpos="736.5417" ypos="32.13101" zpos="527.9514" type="tt.mc.mt.th.m" GUID="9dyVhebyxkCPAfbTsXj24A==" script-trigger="Teh_HighlightTrailSegment(j9j02cBIGUWePPLSRL53ww==)" />
+		<POI MapID="73" xpos="736.5417" ypos="32.13101" zpos="527.9514" type="tt.mc.mt.th.m" GUID="9dyVhebyxkCPAfbTsXj24A==" script-trigger="Teh_HighlightTrailSegment(WPcPdMK2uUCv8gfxXu6ODQ==)" />
 		<POI MapID="73" xpos="490.41367" ypos="20.659775" zpos="123.86418" type="tt.mc.mt.th.m" GUID="KuFUB5xFBEyNqM/p9kvc/Q==" script-trigger="Teh_HighlightTrailSegment(Ej9OV+tHUkm4N9DC40hkbw==)" />
-		<POI MapID="73" xpos="206.9342" ypos="-0.06652471" zpos="565.5386" type="tt.mc.mt.th.m" GUID="TtVU2DLZmUSFFk7DJXxz6w==" script-trigger="Teh_HighlightTrailSegment(WPcPdMK2uUCv8gfxXu6ODQ==)" />
-		<POI MapID="73" xpos="-285.5426" ypos="-67.94185" zpos="626.5359" type="tt.mc.mt.th.m" GUID="nrWQTty7xUap7xv32Vnw/Q==" script-trigger="Teh_HighlightTrailSegment(4Qt8OiqbLEavOkzvGrx0xg==)" />
-		<POI MapID="73" xpos="696.4061" ypos="4.976312" zpos="-195.103" type="tt.mc.mt.th.m" GUID="KHpGCPMGnE+0I1NP/NU4gA==" script-trigger="Teh_HighlightTrailSegment(EZ8JLnljB0OdO1xp9G08fQ==)" />
-		<POI MapID="73" xpos="295.5242" ypos="0.652826" zpos="110.7473" type="tt.mc.mt.th.m" GUID="+FlQ+WbLbESkQf9iYdqopg==" script-trigger="Teh_HighlightTrailSegment(huF8lupHuUGDsibLFP66/A==)" />
-		<POI MapID="73" xpos="528.6208" ypos="4.095803" zpos="-825.8799" type="tt.mc.mt.th.m" GUID="UTGAQkf8MEGODn8JgxDOCg==" script-trigger="Teh_HighlightTrailSegment(ZWjTH42oykm/Eu1EQsSeNg==)" />
+		<POI MapID="73" xpos="206.9342" ypos="-0.06652471" zpos="565.5386" type="tt.mc.mt.th.m" GUID="TtVU2DLZmUSFFk7DJXxz6w==" script-trigger="Teh_HighlightTrailSegment(4Qt8OiqbLEavOkzvGrx0xg==)" />
+		<POI MapID="73" xpos="-285.5426" ypos="-67.94185" zpos="626.5359" type="tt.mc.mt.th.m" GUID="nrWQTty7xUap7xv32Vnw/Q==" script-trigger="Teh_HighlightTrailSegment(j9j02cBIGUWePPLSRL53ww==)" />
+		<POI MapID="73" xpos="696.4061" ypos="4.976312" zpos="-195.103" type="tt.mc.mt.th.m" GUID="KHpGCPMGnE+0I1NP/NU4gA==" script-trigger="Teh_HighlightTrailSegment(oNXIdJIUWkm1i5Dcdfju/w==)" />
+		<POI MapID="73" xpos="295.5242" ypos="0.652826" zpos="110.7473" type="tt.mc.mt.th.m" GUID="+FlQ+WbLbESkQf9iYdqopg==" script-trigger="Teh_HighlightTrailSegment(ZWjTH42oykm/Eu1EQsSeNg==)" />
+		<POI MapID="73" xpos="-475.3227" ypos="-48.65398" zpos="163.9879" type="tt.mc.mt.th.m" GUID="UTGAQkf8MEGODn8JgxDOCg==" script-trigger="Teh_HighlightTrailSegment(EZ8JLnljB0OdO1xp9G08fQ==)" />
 		<POI MapID="73" xpos="-80.49086" ypos="-126.9967" zpos="-624.4741" type="tt.mc.mt.th.m" GUID="z1k3Qe7ddUCoFfSASnSSCQ==" script-trigger="Teh_HighlightTrailSegment(SuHxRITYgk6yvmCPFM43cA==)" />
-		<POI MapID="73" xpos="-489.566" ypos="37.19215" zpos="-548.7047" type="tt.mc.mt.th.m" GUID="3FHamhpWi0SXBK1Qq5IvrA==" script-trigger="Teh_HighlightTrailSegment(oNXIdJIUWkm1i5Dcdfju/w==)" />
+		<POI MapID="73" xpos="-489.566" ypos="37.19215" zpos="-548.7047" type="tt.mc.mt.th.m" GUID="3FHamhpWi0SXBK1Qq5IvrA==" script-trigger="Teh_HighlightTrailSegment(huF8lupHuUGDsibLFP66/A==)" />
 		<!--========= Highlight Trail Segments for BloodtideCoast =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="YYL2CWQmCUOvuucB2msdRQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BloodtideCoast\BloodtideCoast-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="j9j02cBIGUWePPLSRL53ww==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BloodtideCoast\BloodtideCoast-Segment-1.trl" />
