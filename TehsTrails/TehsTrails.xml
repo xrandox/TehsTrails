@@ -10517,9 +10517,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="34" xpos="342.7372" ypos="1.601915" zpos="-949.8466" type="tt.mc.mt.th.m" GUID="BtoNB+hMsUGhfLKpw0nh4Q==" script-trigger="Teh_HighlightTrailSegment(MVAiMf+5Q0qb2xlrjVmaZg==)" />
 		<POI MapID="34" xpos="544.4073" ypos="1.696863" zpos="-411.4406" type="tt.mc.mt.th.m" GUID="Esz/L1/AfUmD//qQ73KcFA==" script-trigger="Teh_HighlightTrailSegment(7zmrPqRrb0mI3UMoSrnohw==)" />
 		<POI MapID="34" xpos="-455.3439" ypos="31.4868" zpos="-893.9793" type="tt.mc.mt.th.m" GUID="1imvDZwK7EeoU4WvjQbYWw==" script-trigger="Teh_HighlightTrailSegment(UiWLmR8ICUCGbpqSqHYAlg==)" />
-		<POI MapID="34" xpos="37.49609" ypos="32.35143" zpos="-314.8454" type="tt.mc.mt.th.m" GUID="QJ4elrFPWEy8iG9qs5sHIQ==" script-trigger="Teh_HighlightTrailSegment(bv4P+gz2fkG3hXJ3BnmMWg==)" />
-		<POI MapID="34" xpos="456.1127" ypos="19.79612" zpos="-240.2589" type="tt.mc.mt.th.m" GUID="Ai0MhYJl7EuWyNnmJLrKQg==" script-trigger="Teh_HighlightTrailSegment(dJtVdGnlC023d2W2ZYd9ww==)" />
-		<POI MapID="34" xpos="-173.72" ypos="48.57076" zpos="229.5121" type="tt.mc.mt.th.m" GUID="zAMGPFcotEGJyd9SppVRbw==" script-trigger="Teh_HighlightTrailSegment(OmNf1qjv/UiDILQrA7AKGg==)" />
+		<POI MapID="34" xpos="37.49609" ypos="32.35143" zpos="-314.8454" type="tt.mc.mt.th.m" GUID="QJ4elrFPWEy8iG9qs5sHIQ==" script-trigger="Teh_HighlightTrailSegment(dJtVdGnlC023d2W2ZYd9ww==)" />
+		<POI MapID="34" xpos="456.1127" ypos="19.79612" zpos="-240.2589" type="tt.mc.mt.th.m" GUID="Ai0MhYJl7EuWyNnmJLrKQg==" script-trigger="Teh_HighlightTrailSegment(OmNf1qjv/UiDILQrA7AKGg==)" />
+		<POI MapID="34" xpos="-173.72" ypos="48.57076" zpos="229.5121" type="tt.mc.mt.th.m" GUID="zAMGPFcotEGJyd9SppVRbw==" script-trigger="Teh_HighlightTrailSegment(bv4P+gz2fkG3hXJ3BnmMWg==)" />
 		<POI MapID="34" xpos="-422.0384" ypos="0.172642" zpos="530.4876" type="tt.mc.mt.th.m" GUID="uxKgVtTDRkeidFdT+hpHjA==" script-trigger="Teh_HighlightTrailSegment(4JBDkd6wwUyMeoDFDyrLxg==)" />
 		<!--========= Highlight Trail Segments for CaledonForest =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="Y0m1whedhkuCDfzCydsZdw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\CaledonForest\CaledonForest-Segment-0.trl" />
