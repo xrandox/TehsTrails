@@ -1245,7 +1245,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="139" xpos="42.0417" ypos="333.415" zpos="153.522" type="tt.mc.cm.wm.wpsquare" GUID="tQO0Efk1VkOBHJCdI66qHA=="/>
         <POI MapID="139" xpos="43.5735" ypos="333.097" zpos="152.623" type="tt.mc.cm.rm.vistas" GUID="S8UxSxqAyk+70ih0vlZCqg=="/>
         <POI MapID="139" xpos="44.5346" ypos="385.791" zpos="152.153" type="tt.mc.cm.mm.raptor" GUID="3NAoFq9n+UijR2dlwP3Yjg=="/>
-        <POI MapID="139" xpos="45.6498" ypos="386.108" zpos="168.118" type="tt.mc.cm.rm.exit_instance" GUID="XQDY4Q6kjUCFIlG0m6kFpw=="/>
+        <POI MapID="139" xpos="45.6498" ypos="386.108" zpos="168.118" type="tt.mc.cm.rm.exit_instance" info="Make sure to go in the instance to get the POI" infoRange="15" GUID="XQDY4Q6kjUCFIlG0m6kFpw=="/>
         <POI MapID="139" xpos="46.8505" ypos="384.264" zpos="168.964" type="tt.mc.cm.rm.waypoints" GUID="zoYY/qKsO0OUkfx3Az30Uw=="/>
         <POI MapID="139" xpos="50.7798" ypos="339.407" zpos="78.7004" type="tt.mc.cm.mm.raptor" GUID="PdoUHDeGg0uDX984PmdFtg=="/>
         <POI MapID="139" xpos="51.5549" ypos="363.558" zpos="30.7601" type="tt.mc.cm.rm.points_of_interest" GUID="6NR0yPnoPEmyfxA7axWSiw=="/>
@@ -10882,8 +10882,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="139" xpos="-66.79852" ypos="382.7287" zpos="134.4916" type="tt.mc.mt.th.m" GUID="cPoqpmsrIkaAFLZWk2yr2w==" script-trigger="Teh_HighlightTrailSegment(/ZDqidubgkeQCqYl2QyAFg==)" />
 		<POI MapID="139" xpos="-70.4389" ypos="382.5757" zpos="118.337" type="tt.mc.mt.th.m" GUID="pHYh7CS3akquphxkzUE4LQ==" script-trigger="Teh_HighlightTrailSegment(xLG5Ryfjc0KlmeYVIrfuvA==)" />
 		<POI MapID="139" xpos="44.59994" ypos="386.105" zpos="168.7891" type="tt.mc.mt.th.m" GUID="0yDtSYBdcEK0KRK6I4q8LA==" script-trigger="Teh_HighlightTrailSegment(gj+8n1C0/kSGXTCFkv+/xg==)" />
-		<POI MapID="139" xpos="-12.70486" ypos="363.7354" zpos="51.64103" type="tt.mc.mt.th.m" GUID="j9Bjng15M0eksRUIQEHFjQ==" script-trigger="Teh_HighlightTrailSegment(JFQsFzuV+0iW1MkCNhrsYA==)" />
-		<POI MapID="139" xpos="46.6543" ypos="385.8929" zpos="154.3448" type="tt.mc.mt.th.m" GUID="t6kkc95ZfkydrzdI8Xy7bg==" script-trigger="Teh_HighlightTrailSegment(/fo1CDoOHU+P7NSEVRAksQ==)" />
+		<POI MapID="139" xpos="-12.70486" ypos="363.7354" zpos="51.64103" type="tt.mc.mt.th.m" GUID="j9Bjng15M0eksRUIQEHFjQ==" script-trigger="Teh_HighlightTrailSegment(/fo1CDoOHU+P7NSEVRAksQ==)"/>
 		<POI MapID="139" xpos="42.39849" ypos="334.09818" zpos="152.31712" type="tt.mc.mt.th.m" GUID="BC1kf/MHdkSDEfRCVDCyMQ==" script-trigger="Teh_HighlightTrailSegment(Hn0yR3tmI0OXLNu1suas8Q==)" />
 		<POI MapID="139" xpos="23.060465" ypos="339.53406" zpos="41.10733" type="tt.mc.mt.th.m" GUID="3ubo4y96SU6GzVzcsU8lXw==" script-trigger="Teh_HighlightTrailSegment(611nTnwt1Uq6x1ZG5ru0kQ==)" />
 		<!--========= Highlight Trail Segments for RataSum =========-->
@@ -10894,7 +10893,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="/ZDqidubgkeQCqYl2QyAFg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\RataSum\RataSum-Segment-4.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="xLG5Ryfjc0KlmeYVIrfuvA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\RataSum\RataSum-Segment-5.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="gj+8n1C0/kSGXTCFkv+/xg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\RataSum\RataSum-Segment-6.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="JFQsFzuV+0iW1MkCNhrsYA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\RataSum\RataSum-Segment-7.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="/fo1CDoOHU+P7NSEVRAksQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\RataSum\RataSum-Segment-8.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="Hn0yR3tmI0OXLNu1suas8Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\RataSum\RataSum-Segment-9.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="611nTnwt1Uq6x1ZG5ru0kQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\RataSum\RataSum-Segment-10.trl" />
