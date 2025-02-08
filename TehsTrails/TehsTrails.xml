@@ -10654,9 +10654,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="Wtfs8ZwgHE+GJ0ejrDDI9w==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-8.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="wAfJcbFrz02zKRd3n3J5Hg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-9.trl" />
 		<!--========= Trail Highlight Markers for GendarranFields =========-->
-		<POI MapID="24" xpos="454.3254" ypos="0.665176" zpos="356.877" type="tt.mc.mt.th.m" GUID="0JnUNUAIl0Gmefz0C7L5MA==" script-trigger="Teh_HighlightTrailSegment(BAr6TVGnz0eg5kZLO+hKkw==)" />
-		<POI MapID="24" xpos="-73.72069" ypos="43.05035" zpos="-600.0638" type="tt.mc.mt.th.m" GUID="gaa5DK/lEE27VUhAkiGX4w==" script-trigger="Teh_HighlightTrailSegment(y76aQ6syp0q8poFkdnouqg==)" />
-		<POI MapID="24" xpos="-212.7171" ypos="-23.15686" zpos="-243.9285" type="tt.mc.mt.th.m" GUID="6ZT3YJEqmU+NX0r8+Oo7mg==" script-trigger="Teh_HighlightTrailSegment(CJyJkwnkakS0fexkttRj+g==)" />
+		<POI MapID="24" xpos="454.3254" ypos="0.665176" zpos="356.877" type="tt.mc.mt.th.m" GUID="0JnUNUAIl0Gmefz0C7L5MA==" script-trigger="Teh_HighlightTrailSegment(y76aQ6syp0q8poFkdnouqg==)" />
+		<POI MapID="24" xpos="-73.72069" ypos="43.05035" zpos="-600.0638" type="tt.mc.mt.th.m" GUID="gaa5DK/lEE27VUhAkiGX4w==" script-trigger="Teh_HighlightTrailSegment(CJyJkwnkakS0fexkttRj+g==)" />
+		<POI MapID="24" xpos="-212.7171" ypos="-23.15686" zpos="-243.9285" type="tt.mc.mt.th.m" GUID="6ZT3YJEqmU+NX0r8+Oo7mg==" script-trigger="Teh_HighlightTrailSegment(BAr6TVGnz0eg5kZLO+hKkw==)" />
 		<POI MapID="24" xpos="-1197.859" ypos="25.84149" zpos="-411.4552" type="tt.mc.mt.th.m" GUID="atgW+6kjMEefhVzoIk+9+g==" script-trigger="Teh_HighlightTrailSegment(EIH1+DLSxEyYWkZNBp/Q9Q==)" />
 		<POI MapID="24" xpos="-425.2581" ypos="1.399233" zpos="-57.06054" type="tt.mc.mt.th.m" GUID="eOJErpeBu0OsnqFe8OqRUg==" script-trigger="Teh_HighlightTrailSegment(7CMR9LF0BUy4GG5eW+/3ew==)" />
 		<POI MapID="24" xpos="-208.6176" ypos="24.05182" zpos="551.4688" type="tt.mc.mt.th.m" GUID="ZZ96CfX6cU6RZcJBYWvQLw==" script-trigger="Teh_HighlightTrailSegment(cIq8e4rGJkWJVTA3qnHR/A==)" />
