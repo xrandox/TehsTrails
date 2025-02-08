@@ -10804,8 +10804,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="-846.0457" ypos="-12.21006" zpos="288.41" type="tt.mc.mt.th.m" GUID="LepKkxBT40iiuX/8zYfETQ==" script-trigger="Teh_HighlightTrailSegment(aZ3U/C3ZjEmwU9BM44qAOw==)" />
 		<POI MapID="65" xpos="-647.1923" ypos="-44.95599" zpos="-231.3638" type="tt.mc.mt.th.m" GUID="1qK7JCeQc0eHa/lA4AiiHw==" script-trigger="Teh_HighlightTrailSegment(jk2625mtWkysX6fziUEXjw==)" />
 		<POI MapID="65" xpos="-1044.342" ypos="-36.95583" zpos="-38.21969" type="tt.mc.mt.th.m" GUID="SoLaNwMDB0SfrR751++ZHA==" script-trigger="Teh_HighlightTrailSegment(0V3AaPMLS0itSn2grspUxQ==)" />
-		<POI MapID="65" xpos="-532.7515" ypos="-40.35956" zpos="293.9528" type="tt.mc.mt.th.m" GUID="rkxSv1CMo0WHGG54eeuGtA==" script-trigger="Teh_HighlightTrailSegment(8pyS+TaFb0iI6NbyuWb+wA==)" />
-		<POI MapID="65" xpos="261.9248" ypos="39.43958" zpos="-413.6695" type="tt.mc.mt.th.m" GUID="WcK7tS+KhU2CSEOsGf+b3w==" script-trigger="Teh_HighlightTrailSegment(tVYqeikeJE6QyCEKz4I7dA==)" />
+		<POI MapID="65" xpos="-532.7515" ypos="-40.35956" zpos="293.9528" type="tt.mc.mt.th.m" GUID="rkxSv1CMo0WHGG54eeuGtA==" script-trigger="Teh_HighlightTrailSegment(tVYqeikeJE6QyCEKz4I7dA==)" />
+		<POI MapID="65" xpos="261.9248" ypos="39.43958" zpos="-413.6695" type="tt.mc.mt.th.m" GUID="WcK7tS+KhU2CSEOsGf+b3w==" script-trigger="Teh_HighlightTrailSegment(8pyS+TaFb0iI6NbyuWb+wA==)" />
 		<POI MapID="65" xpos="-406.304" ypos="25.65666" zpos="-445.9427" type="tt.mc.mt.th.m" GUID="5mQkI2jOU0COexvJzqXT9g==" script-trigger="Teh_HighlightTrailSegment(VAZMRes2S0Oiwf8LnW8UAA==)" />
 		<!--========= Highlight Trail Segments for MalchorsLeap =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="oT7rkSfV1EOPm288Xhlp5A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\MalchorsLeap\MalchorsLeap-Segment-0.trl" />
