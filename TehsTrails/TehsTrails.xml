@@ -10841,10 +10841,10 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="39" xpos="-1084.173" ypos="20.78473" zpos="-470.5435" type="tt.mc.mt.th.m" GUID="zy96y3pnBEm1w36iJEKkmQ==" script-trigger="Teh_HighlightTrailSegment(n07ae7Ev8k6l83S1njnucg==)" />
 		<POI MapID="39" xpos="-75.42215" ypos="47.38783" zpos="-237.0226" type="tt.mc.mt.th.m" GUID="3egoMPRMv0WeUZqoxrkmyg==" script-trigger="Teh_HighlightTrailSegment(6BJ3F8asGE+iV3zRlxSNOw==)" />
 		<POI MapID="39" xpos="283.7865" ypos="43.97554" zpos="632.9218" type="tt.mc.mt.th.m" GUID="bulAxv+RnUyz2EevW7MdCA==" script-trigger="Teh_HighlightTrailSegment(PjbtQ07a3kaHsxKEk/wmEA==)" />
-		<POI MapID="39" xpos="752.4572" ypos="-1.051297" zpos="439.5379" type="tt.mc.mt.th.m" GUID="EUmGwleTTECsvW1jYWC8GA==" script-trigger="Teh_HighlightTrailSegment(2WDpthH+sUGhmrFf9W/jAg==)" />
-		<POI MapID="39" xpos="1087.488" ypos="7.926789" zpos="87.01062" type="tt.mc.mt.th.m" GUID="pJHyyRKdhUm4iCseTmsBbg==" script-trigger="Teh_HighlightTrailSegment(AZ71kHHA406GHyojs4HxXQ==)" />
+		<POI MapID="39" xpos="752.4572" ypos="-1.051297" zpos="439.5379" type="tt.mc.mt.th.m" GUID="EUmGwleTTECsvW1jYWC8GA==" script-trigger="Teh_HighlightTrailSegment(AZ71kHHA406GHyojs4HxXQ==)" />
+		<POI MapID="39" xpos="1087.488" ypos="7.926789" zpos="87.01062" type="tt.mc.mt.th.m" GUID="pJHyyRKdhUm4iCseTmsBbg==" script-trigger="Teh_HighlightTrailSegment(5JZs7AH/jEGeVCdnojuquw==)" />
 		<POI MapID="39" xpos="222.2133" ypos="-42.57045" zpos="-348.5358" type="tt.mc.mt.th.m" GUID="EVcz8piXr0egOzfTtCIUQg==" script-trigger="Teh_HighlightTrailSegment(WYe5Ot3Z3kyFu85U5L8Vvw==)" />
-		<POI MapID="39" xpos="453.5614" ypos="-48.15685" zpos="-106.899" type="tt.mc.mt.th.m" GUID="tZczGN0iaUG/euIvTX4X4A==" script-trigger="Teh_HighlightTrailSegment(5JZs7AH/jEGeVCdnojuquw==)" />
+		<POI MapID="39" xpos="453.5614" ypos="-48.15685" zpos="-106.899" type="tt.mc.mt.th.m" GUID="tZczGN0iaUG/euIvTX4X4A==" script-trigger="Teh_HighlightTrailSegment(2WDpthH+sUGhmrFf9W/jAg==)" />
 		<POI MapID="39" xpos="-300.2475" ypos="10.46915" zpos="-284.5611" type="tt.mc.mt.th.m" GUID="NYzQU1vvvECx9+k84Tj3uw==" script-trigger="Teh_HighlightTrailSegment(8u4ceQNiDUuRKVULDGHlqg==)" />
 		<!--========= Highlight Trail Segments for MountMaelstrom =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="ifL3UN75I0O/JVqzBob+1Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\MountMaelstrom\MountMaelstrom-Segment-0.trl" />
