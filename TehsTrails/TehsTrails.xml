@@ -10859,15 +10859,15 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="19" xpos="-311.6032" ypos="68.58356" zpos="92.44691" type="tt.mc.mt.th.m" GUID="Krx7KIx8+kqqcUuCE8UsQg==" script-trigger="Teh_HighlightTrailSegment(mYv8C7cPOke0baU98XmcAg==)" />
 		<POI MapID="19" xpos="1.154497" ypos="49.777607" zpos="154.47754" type="tt.mc.mt.th.m" GUID="2nfWqGWPDkm96ghUM3gIyA==" script-trigger="Teh_HighlightTrailSegment(YbYwxBjQlUqt6QIhpQgpMw==)" />
 		<POI MapID="19" xpos="495.4686" ypos="0.741573" zpos="-298.2446" type="tt.mc.mt.th.m" GUID="keiDcWetNUylrbVqTeFmQg==" script-trigger="Teh_HighlightTrailSegment(h/NP9JhNY0ewQrSLjXnymw==)" />
-		<POI MapID="19" xpos="-827.8245" ypos="53.01759" zpos="-501.3555" type="tt.mc.mt.th.m" GUID="KgG3mSS09kK2hU3hOsNAVA==" script-trigger="Teh_HighlightTrailSegment(XeN/oeFw9kew1dcxSH4riw==)" />
-		<POI MapID="19" xpos="-577.0932" ypos="0.3871562" zpos="60.75156" type="tt.mc.mt.th.m" GUID="HH5VGh24h0mtREtAsPqEHA==" script-trigger="Teh_HighlightTrailSegment(RxSlxTchu0O6ZRzXk3T3yg==)" />
+		<POI MapID="19" xpos="-827.8245" ypos="53.01759" zpos="-501.3555" type="tt.mc.mt.th.m" GUID="KgG3mSS09kK2hU3hOsNAVA==" script-trigger="Teh_HighlightTrailSegment(RxSlxTchu0O6ZRzXk3T3yg==)" />
+		<POI MapID="19" xpos="-577.0932" ypos="0.3871562" zpos="60.75156" type="tt.mc.mt.th.m" GUID="HH5VGh24h0mtREtAsPqEHA==" script-trigger="Teh_HighlightTrailSegment(zm0QQgzxm0exFBzzIV/dog==)" />
 		<POI MapID="19" xpos="-62.31987" ypos="18.26995" zpos="-32.79432" type="tt.mc.mt.th.m" GUID="9DMPN9i8sEqWydcAnyhi1w==" script-trigger="Teh_HighlightTrailSegment(pykO/JbDh02iac92/Rs0+A==)" />
 		<!--========= Highlight Trail Segments for PlainsofAshford =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="zm0QQgzxm0exFBzzIV/dog==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-0.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="zm0QQgzxm0exFBzzIV/dog==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="mYv8C7cPOke0baU98XmcAg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-1.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="YbYwxBjQlUqt6QIhpQgpMw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-2.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="h/NP9JhNY0ewQrSLjXnymw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-3.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="XeN/oeFw9kew1dcxSH4riw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-4.trl" />
+		<Trail type="tt.mc.mt.th.t1" GUID="XeN/oeFw9kew1dcxSH4riw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-4.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="RxSlxTchu0O6ZRzXk3T3yg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-5.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="pykO/JbDh02iac92/Rs0+A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-6.trl" />
 		<!--========= Trail Highlight Markers for Queensdale =========-->
