@@ -7,7 +7,8 @@ Teh.trailhighlighting = {
     activeTrail = nil,
     activeTrailNumber = 1,
     mainTrails = {},
-    consumed = {}
+    consumed = {},
+    warningmarker = nil
 }
 
 Debug:Watch('Teh_TrailHighlighting', Teh.trailhighlighting)
@@ -75,6 +76,25 @@ local function saveStorage()
     Teh_SaveTable('trailHighlightingStates', Teh.storage.trailHighlightingStates)
 end
 
+local function createWarningMarker()
+    local playerPos = Mumble.PlayerCharacter.Position
+    local attributes = {
+        MapVisibility = false,
+        MiniMapVisibility = false,
+        InGameVisibility = true,
+        xpos = playerPos.X,
+        ypos = playerPos.Z,
+        zpos = playerPos.Y,
+        info = "It seems there was an issue highlighting the trail. Recommendation:\n\nClick Pathing Icon -> Scripts -> TehsTrails -> Trail Highlighting -> Highlight Functions -> Reset Trail Highlighting\n\n If problems persist, please report them to im.null on Discord",
+        infoRange = 30,
+        iconFile = "Data/TehsTrails/Markers/caution.png",
+        type = "tt",
+        name = "Warning",
+        Guid = I:Guid("7EKux8QGH0SnuQ/ztQr/tQ==")
+    }
+    Teh.trailhighlighting.warningmarker = Pack:CreateMarker(attributes)
+end
+
 local function highlightActiveTrail()
     Debug:Print("Highlighting active trail -- begin")
     if (Teh_GetBool('trailHighlighting') == false) then
@@ -137,6 +157,12 @@ local function highlightActiveTrail()
 
     Debug:Print("Highlighting active trail -- setting attributes")
     local activeTrail = Teh.trailhighlighting.activeTrail
+
+    if (activeTrail == nil) then
+        Debug:Print("Active trail is nil, returning")
+        createWarningMarker()
+        return
+    end
 
     Debug:Print("Highlighting active trail -- setting transparency")
     local transparency = Teh.storage.transparency
@@ -222,6 +248,10 @@ function Teh_ResetHighlightTrailSegment()
     Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
     Teh.trailhighlighting.consumed = {}
     highlightActiveTrail()
+    if Teh.trailhighlighting.warningmarker then
+        Teh.trailhighlighting.warningmarker.InGameVisibility = false
+        Teh.trailhighlighting.warningmarker:Remove()
+    end
 end
 
 function Teh_ToggleTrailHighlighting()
