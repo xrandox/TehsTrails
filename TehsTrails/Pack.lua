@@ -1,5 +1,5 @@
 Teh = {}
-TehsTrailsVersion = "BETA v6.0.0g"
+TehsTrailsVersion = "BETA v6.0.0h"
 
 Debug:Print("Pathing Version: v" .. PathingVersion)
 Debug:Print("TehsTrails Version: " .. TehsTrailsVersion)
