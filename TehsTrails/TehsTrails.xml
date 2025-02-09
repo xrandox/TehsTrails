@@ -10422,13 +10422,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="218" xpos="205.6644" ypos="137.0016" zpos="325.3528" type="tt.mc.mt.th.m" GUID="dkPhgq6lsUeYRJLW+7ZDuA==" script-trigger="Teh_HighlightTrailSegment(UrX5mKApG0eUMBgKuN332g==)" />
 		<POI MapID="218" xpos="23.44709" ypos="170.4059" zpos="320.7406" type="tt.mc.mt.th.m" GUID="/4vIhcf7I0q8JVrqKK53cg==" script-trigger="Teh_HighlightTrailSegment(cY7ckAZkzUCDJP11mbE3PQ==)" />
 		<POI MapID="218" xpos="-22.128" ypos="25.867" zpos="262.7648" type="tt.mc.mt.th.m" GUID="ffU6JaxkmUKCVeQDa2F+2g==" script-trigger="Teh_HighlightTrailSegment(ZjTOd2bvmUCgNaYIZWLOMw==)" />
-		<!--cY7ckAZkzUCDJP11mbE3PQ==
-		f0OeMRk5oUG8tjOBTQRsmg==
-		
-		 - memorial waypoint
-		<POI MapID="218" xpos="77.57523" ypos="168.5862" zpos="50.00336" type="tt.mc.mt.th.m" GUID="dPOwt9x6NkSzwAXmmcguJQ==" script-trigger="Teh_HighlightTrailSegment(3tKaTViBcEi8b+q/mbAy6Q==)" />
-		//<POI MapID="218" xpos="77.43254" ypos="168.5867" zpos="45.55697" type="tt.mc.mt.th.m" GUID="Pt4D/RhHWUax8V5AzGqmhw==" script-trigger="Teh_HighlightTrailSegment(k3wuUtFfD0W6TWe2ICf+TQ==)" />
-		-->
 		<POI MapID="218" xpos="-13.72688" ypos="169.2007" zpos="49.74193" type="tt.mc.mt.th.m" GUID="GO2j0xhXuk+C7+yIjiZcVA==" script-trigger="Teh_HighlightTrailSegment(l3djQlbkQEqY9iF5moPfbA==)" />
 		<POI MapID="218" xpos="-312.74" ypos="13.42662" zpos="-250.2698" type="tt.mc.mt.th.m" GUID="pCrJmF4GVUmwGhNqw1lnKg==" script-trigger="Teh_HighlightTrailSegment(pwId7/m6Dk6E5382j0wpzQ==)" />
 		<POI MapID="218" xpos="76.47379" ypos="166.0714" zpos="245.0767" type="tt.mc.mt.th.m" GUID="pGIWOTfHj0KlYk8NEAAtoA==" script-trigger="Teh_HighlightTrailSegment(tajX8Hor80S5o8ubyprt9w==)" />
