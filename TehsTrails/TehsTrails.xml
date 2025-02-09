@@ -10419,15 +10419,15 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Trail Highlight Markers for BlackCitadel =========-->
 		<POI MapID="218" xpos="-287.0483" ypos="43.95746" zpos="99.74577" type="tt.mc.mt.th.m" GUID="MfqWMwgt+k2D83383b+cfg==" script-trigger="Teh_HighlightTrailSegment(x2S5kdUdmkukpGDD9ME9+Q==)" />
 		<POI MapID="218" xpos="256.9219" ypos="176.9511" zpos="-22.4253" type="tt.mc.mt.th.m" GUID="vNPwwLZbZkqGG7gt4kiTtg==" script-trigger="Teh_HighlightTrailSegment(k3wuUtFfD0W6TWe2ICf+TQ==)" /> 
-		<POI MapID="218" xpos="205.6644" ypos="137.0016" zpos="325.3528" type="tt.mc.mt.th.m" GUID="dkPhgq6lsUeYRJLW+7ZDuA==" script-trigger="Teh_HighlightTrailSegment(UrX5mKApG0eUMBgKuN332g==)" />
-		<POI MapID="218" xpos="23.44709" ypos="170.4059" zpos="320.7406" type="tt.mc.mt.th.m" GUID="/4vIhcf7I0q8JVrqKK53cg==" script-trigger="Teh_HighlightTrailSegment(cY7ckAZkzUCDJP11mbE3PQ==)" />
-		<POI MapID="218" xpos="-22.128" ypos="25.867" zpos="262.7648" type="tt.mc.mt.th.m" GUID="ffU6JaxkmUKCVeQDa2F+2g==" script-trigger="Teh_HighlightTrailSegment(ZjTOd2bvmUCgNaYIZWLOMw==)" />
 		<POI MapID="218" xpos="-13.72688" ypos="169.2007" zpos="49.74193" type="tt.mc.mt.th.m" GUID="GO2j0xhXuk+C7+yIjiZcVA==" script-trigger="Teh_HighlightTrailSegment(l3djQlbkQEqY9iF5moPfbA==)" />
 		<POI MapID="218" xpos="-312.74" ypos="13.42662" zpos="-250.2698" type="tt.mc.mt.th.m" GUID="pCrJmF4GVUmwGhNqw1lnKg==" script-trigger="Teh_HighlightTrailSegment(pwId7/m6Dk6E5382j0wpzQ==)" />
+		<POI MapID="218" xpos="205.6644" ypos="137.0016" zpos="325.3528" type="tt.mc.mt.th.m" GUID="dkPhgq6lsUeYRJLW+7ZDuA==" script-trigger="Teh_HighlightTrailSegment(UrX5mKApG0eUMBgKuN332g==)" />
 		<POI MapID="218" xpos="76.47379" ypos="166.0714" zpos="245.0767" type="tt.mc.mt.th.m" GUID="pGIWOTfHj0KlYk8NEAAtoA==" script-trigger="Teh_HighlightTrailSegment(tajX8Hor80S5o8ubyprt9w==)" />
 		<POI MapID="218" xpos="17.40975" ypos="198.8197" zpos="205.0247" type="tt.mc.mt.th.m" GUID="S+jHvJSjXkOASASDHW0S1w==" script-trigger="Teh_HighlightTrailSegment(c8/68PY6hUeUAfdsOxGTvw==)" />
-		<POI MapID="218" xpos="223.5946" ypos="133.5166" zpos="481.8476" type="tt.mc.mt.th.m" GUID="uluKU9SJO0yFX8LfpHldLQ==" script-trigger="Teh_HighlightTrailSegment(f0OeMRk5oUG8tjOBTQRsmg==)" />
 		<POI MapID="218" xpos="16.36816" ypos="245.0329" zpos="183.2743" type="tt.mc.mt.th.m" GUID="UNMIp6DKhkSjADMmLmDlCA==" script-trigger="Teh_HighlightTrailSegment(EID6tbTXjkS6RLqhz1sNCA==)" />
+		<POI MapID="218" xpos="223.5946" ypos="133.5166" zpos="481.8476" type="tt.mc.mt.th.m" GUID="uluKU9SJO0yFX8LfpHldLQ==" script-trigger="Teh_HighlightTrailSegment(f0OeMRk5oUG8tjOBTQRsmg==)" />
+		<POI MapID="218" xpos="23.44709" ypos="170.4059" zpos="320.7406" type="tt.mc.mt.th.m" GUID="/4vIhcf7I0q8JVrqKK53cg==" script-trigger="Teh_HighlightTrailSegment(cY7ckAZkzUCDJP11mbE3PQ==)" />
+		<POI MapID="218" xpos="-22.128" ypos="25.867" zpos="262.7648" type="tt.mc.mt.th.m" GUID="ffU6JaxkmUKCVeQDa2F+2g==" script-trigger="Teh_HighlightTrailSegment(ZjTOd2bvmUCgNaYIZWLOMw==)" />
 		<!--========= Highlight Trail Segments for BlackCitadel =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="Mgfp6q5moUin1URPwGOYAA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlackCitadel\BlackCitadel-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="x2S5kdUdmkukpGDD9ME9+Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlackCitadel\BlackCitadel-Segment-1.trl" />
@@ -10455,11 +10455,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t1" GUID="CYhQMW4YzEGxv5nAnjVlRw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlackCitadelInstance4\BlackCitadelInstance4-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for BlazeridgeSteppes =========-->
 		<POI MapID="20" xpos="502.528" ypos="55.79751" zpos="-752.3292" type="tt.mc.mt.th.m" GUID="1g4ud9XFJUCYG3qMb/eQvQ==" script-trigger="Teh_HighlightTrailSegment(LCmB2HH8vEmqaQzppr6Vdg==)" />
-		<POI MapID="20" xpos="102.346" ypos="19.12223" zpos="-229.5855" type="tt.mc.mt.th.m" GUID="GRl5NaNS1ECMByQ9RNA4Dg==" script-trigger="Teh_HighlightTrailSegment(13FvJcewqE+DwFfKZnaFsQ==)" />
-		<POI MapID="20" xpos="475.7618" ypos="45.39602" zpos="179.9745" type="tt.mc.mt.th.m" triggerRange="2" GUID="zowWu81q+E+5T1ZuBJVuTg==" script-trigger="Teh_HighlightTrailSegment(MPt6+tTCDE6tFesocExIKA==)" />
-		<POI MapID="20" xpos="490.2293" ypos="42.56372" zpos="184.2683" type="tt.mc.mt.th.m" triggerRange="2" GUID="S/m6LiErpUCveyIUVFwa4Q==" script-trigger="Teh_HighlightTrailSegment(X5pqLoV+hkWnIPlpREcvfQ==)" />
-		<POI MapID="20" xpos="360.6098" ypos="38.72856" zpos="1047.073" type="tt.mc.mt.th.m" GUID="aBa9JMU70Ey4VxDjzCzO0g==" script-trigger="Teh_HighlightTrailSegment(4oNLy3KoMkirFJH1rMlJtw==)" />
 		<POI MapID="20" xpos="-413.4054" ypos="6.821589" zpos="-898.8977" type="tt.mc.mt.th.m" GUID="kXDJpKMSRka7n1cAP7TU1g==" script-trigger="Teh_HighlightTrailSegment(5jEth/ld1EefHyYGK5RtNQ==)" />
+		<POI MapID="20" xpos="360.6098" ypos="38.72856" zpos="1047.073" type="tt.mc.mt.th.m" GUID="aBa9JMU70Ey4VxDjzCzO0g==" script-trigger="Teh_HighlightTrailSegment(4oNLy3KoMkirFJH1rMlJtw==)" />
+		<POI MapID="20" xpos="475.7618" ypos="45.39602" zpos="179.9745" type="tt.mc.mt.th.m" triggerRange="2" GUID="zowWu81q+E+5T1ZuBJVuTg==" script-trigger="Teh_HighlightTrailSegment(MPt6+tTCDE6tFesocExIKA==)" />
+		<POI MapID="20" xpos="102.346" ypos="19.12223" zpos="-229.5855" type="tt.mc.mt.th.m" GUID="GRl5NaNS1ECMByQ9RNA4Dg==" script-trigger="Teh_HighlightTrailSegment(13FvJcewqE+DwFfKZnaFsQ==)" />
+		<POI MapID="20" xpos="490.2293" ypos="42.56372" zpos="184.2683" type="tt.mc.mt.th.m" triggerRange="2" GUID="S/m6LiErpUCveyIUVFwa4Q==" script-trigger="Teh_HighlightTrailSegment(X5pqLoV+hkWnIPlpREcvfQ==)" />
 		<!--========= Highlight Trail Segments for BlazeridgeSteppes =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="qdlRvd19vU2BJySSzlkgzQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlazeridgeSteppes\BlazeridgeSteppes-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="MPt6+tTCDE6tFesocExIKA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlazeridgeSteppes\BlazeridgeSteppes-Segment-1.trl" />
@@ -10470,12 +10470,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="5jEth/ld1EefHyYGK5RtNQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\BlazeridgeSteppes\BlazeridgeSteppes-Segment-6.trl" />
 		<!--========= Trail Highlight Markers for BloodtideCoast =========-->
 		<POI MapID="73" xpos="736.5417" ypos="32.13101" zpos="527.9514" type="tt.mc.mt.th.m" GUID="9dyVhebyxkCPAfbTsXj24A==" script-trigger="Teh_HighlightTrailSegment(WPcPdMK2uUCv8gfxXu6ODQ==)" />
+		<POI MapID="73" xpos="-285.5426" ypos="-67.94185" zpos="626.5359" type="tt.mc.mt.th.m" GUID="nrWQTty7xUap7xv32Vnw/Q==" script-trigger="Teh_HighlightTrailSegment(j9j02cBIGUWePPLSRL53ww==)" />
 		<POI MapID="73" xpos="490.41367" ypos="20.659775" zpos="123.86418" type="tt.mc.mt.th.m" GUID="KuFUB5xFBEyNqM/p9kvc/Q==" script-trigger="Teh_HighlightTrailSegment(Ej9OV+tHUkm4N9DC40hkbw==)" />
 		<POI MapID="73" xpos="206.9342" ypos="-0.06652471" zpos="565.5386" type="tt.mc.mt.th.m" GUID="TtVU2DLZmUSFFk7DJXxz6w==" script-trigger="Teh_HighlightTrailSegment(4Qt8OiqbLEavOkzvGrx0xg==)" />
-		<POI MapID="73" xpos="-285.5426" ypos="-67.94185" zpos="626.5359" type="tt.mc.mt.th.m" GUID="nrWQTty7xUap7xv32Vnw/Q==" script-trigger="Teh_HighlightTrailSegment(j9j02cBIGUWePPLSRL53ww==)" />
 		<POI MapID="73" xpos="696.4061" ypos="4.976312" zpos="-195.103" type="tt.mc.mt.th.m" GUID="KHpGCPMGnE+0I1NP/NU4gA==" script-trigger="Teh_HighlightTrailSegment(oNXIdJIUWkm1i5Dcdfju/w==)" />
-		<POI MapID="73" xpos="295.5242" ypos="0.652826" zpos="110.7473" type="tt.mc.mt.th.m" GUID="+FlQ+WbLbESkQf9iYdqopg==" script-trigger="Teh_HighlightTrailSegment(ZWjTH42oykm/Eu1EQsSeNg==)" />
 		<POI MapID="73" xpos="-475.3227" ypos="-48.65398" zpos="163.9879" type="tt.mc.mt.th.m" GUID="UTGAQkf8MEGODn8JgxDOCg==" script-trigger="Teh_HighlightTrailSegment(EZ8JLnljB0OdO1xp9G08fQ==)" />
+		<POI MapID="73" xpos="295.5242" ypos="0.652826" zpos="110.7473" type="tt.mc.mt.th.m" GUID="+FlQ+WbLbESkQf9iYdqopg==" script-trigger="Teh_HighlightTrailSegment(ZWjTH42oykm/Eu1EQsSeNg==)" />
 		<POI MapID="73" xpos="-80.49086" ypos="-126.9967" zpos="-624.4741" type="tt.mc.mt.th.m" GUID="z1k3Qe7ddUCoFfSASnSSCQ==" script-trigger="Teh_HighlightTrailSegment(SuHxRITYgk6yvmCPFM43cA==)" />
 		<POI MapID="73" xpos="-489.566" ypos="37.19215" zpos="-548.7047" type="tt.mc.mt.th.m" GUID="3FHamhpWi0SXBK1Qq5IvrA==" script-trigger="Teh_HighlightTrailSegment(huF8lupHuUGDsibLFP66/A==)" />
 		<!--========= Highlight Trail Segments for BloodtideCoast =========-->
@@ -10511,8 +10511,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="34" xpos="544.4073" ypos="1.696863" zpos="-411.4406" type="tt.mc.mt.th.m" GUID="Esz/L1/AfUmD//qQ73KcFA==" script-trigger="Teh_HighlightTrailSegment(7zmrPqRrb0mI3UMoSrnohw==)" />
 		<POI MapID="34" xpos="-455.3439" ypos="31.4868" zpos="-893.9793" type="tt.mc.mt.th.m" GUID="1imvDZwK7EeoU4WvjQbYWw==" script-trigger="Teh_HighlightTrailSegment(UiWLmR8ICUCGbpqSqHYAlg==)" />
 		<POI MapID="34" xpos="37.49609" ypos="32.35143" zpos="-314.8454" type="tt.mc.mt.th.m" GUID="QJ4elrFPWEy8iG9qs5sHIQ==" script-trigger="Teh_HighlightTrailSegment(dJtVdGnlC023d2W2ZYd9ww==)" />
+		<POI MapID="34" xpos="-173.72" ypos="48.57076" zpos="229.5121" type="tt.mc.mt.th.m" GUID="zAMGPFcotEGJyd9SppVRbw==" script-trigger="Teh_HighlightTrailSegment(bv4P+gz2fkG3hXJ3BnmMWg==)" />		
 		<POI MapID="34" xpos="456.1127" ypos="19.79612" zpos="-240.2589" type="tt.mc.mt.th.m" GUID="Ai0MhYJl7EuWyNnmJLrKQg==" script-trigger="Teh_HighlightTrailSegment(OmNf1qjv/UiDILQrA7AKGg==)" />
-		<POI MapID="34" xpos="-173.72" ypos="48.57076" zpos="229.5121" type="tt.mc.mt.th.m" GUID="zAMGPFcotEGJyd9SppVRbw==" script-trigger="Teh_HighlightTrailSegment(bv4P+gz2fkG3hXJ3BnmMWg==)" />
 		<POI MapID="34" xpos="-422.0384" ypos="0.172642" zpos="530.4876" type="tt.mc.mt.th.m" GUID="uxKgVtTDRkeidFdT+hpHjA==" script-trigger="Teh_HighlightTrailSegment(4JBDkd6wwUyMeoDFDyrLxg==)" />
 		<!--========= Highlight Trail Segments for CaledonForest =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="Y0m1whedhkuCDfzCydsZdw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\CaledonForest\CaledonForest-Segment-0.trl" />
@@ -10540,15 +10540,16 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="1zD7KGCUw0OM2AsfWDn3OQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\CursedShore\CursedShore-Segment-6.trl" />
 		<!--========= Trail Highlight Markers for DiessaPlateau =========-->
 		<POI MapID="32" xpos="225.7693" ypos="37.7854" zpos="-101.3928" type="tt.mc.mt.th.m" GUID="GnNilHm/nkWyWecGFYJIVQ==" script-trigger="Teh_HighlightTrailSegment(x3NHzLtTu0+JCexOms22SA==)" />
+		<POI MapID="32" xpos="-773.0444" ypos="95.08881" zpos="497.8467" type="tt.mc.mt.th.m" GUID="X9R2RMSuD0mPhx4wQ6sQdQ==" script-trigger="Teh_HighlightTrailSegment(GzHe8L52hUO11bv3fd4N9A==)" />
 		<POI MapID="32" xpos="-150.2461" ypos="2.257065" zpos="80.56173" type="tt.mc.mt.th.m" GUID="G272k6EPDUmmxYsrFAYUhQ==" script-trigger="Teh_HighlightTrailSegment(hxEGPxbmaUaM9+LziPFiKA==)" />
 		<POI MapID="32" xpos="-43.55005" ypos="39.12693" zpos="-243.8496" type="tt.mc.mt.th.m" GUID="XZpZDFmp00+pa5s7s4cX0Q==" script-trigger="Teh_HighlightTrailSegment(th3wvZ2xr0+zsVjhUBWUHQ==)" />
-		<POI MapID="32" xpos="318.3241" ypos="64.03074" zpos="572.962" type="tt.mc.mt.th.m" GUID="Jf8bsnORUUaxuBbWJKHrqg==" script-trigger="Teh_HighlightTrailSegment(iaNu6oN9UUWG9PTftbZk5Q==)" />
 		<POI MapID="32" xpos="-1002.89" ypos="69.53363" zpos="-551.1996" type="tt.mc.mt.th.m" GUID="OddDKefzB06s9EcvQru3Hg==" script-trigger="Teh_HighlightTrailSegment(0xHdwjKP30+WOY8BuQGVXw==)" />
-		<POI MapID="32" xpos="288.4874" ypos="24.39483" zpos="-607.336" type="tt.mc.mt.th.m" GUID="ao8TkDefH0ukcnvn3kclNg==" script-trigger="Teh_HighlightTrailSegment(uPlu4iT95kGVUhYO0snzFw==)" />
 		<POI MapID="32" xpos="-402.1553" ypos="49.16605" zpos="-595.8764" type="tt.mc.mt.th.m" GUID="LlmXTkPqxkKWsPmlupdJTw==" script-trigger="Teh_HighlightTrailSegment(giA13ForrkuoyQ8PdD3cFQ==)" />
+		<POI MapID="32" xpos="288.4874" ypos="24.39483" zpos="-607.336" type="tt.mc.mt.th.m" GUID="ao8TkDefH0ukcnvn3kclNg==" script-trigger="Teh_HighlightTrailSegment(uPlu4iT95kGVUhYO0snzFw==)" />
 		<POI MapID="32" xpos="382.6619" ypos="53.47781" zpos="-558.1267" type="tt.mc.mt.th.m" GUID="po3F5utkrECZzAPBxhAQcQ==" script-trigger="Teh_HighlightTrailSegment(WXW5SoEo9kK/t88ZW6ifmA==)" />
 		<POI MapID="32" xpos="955.6576" ypos="-10.87441" zpos="-445.1829" type="tt.mc.mt.th.m" GUID="MeEqTF/mR0eH8o3xtwzXtw==" script-trigger="Teh_HighlightTrailSegment(XRvEVzuE1E6N+nal1AeghA==)" />
 		<POI MapID="32" xpos="935.1024" ypos="61.22113" zpos="555.5869" type="tt.mc.mt.th.m" GUID="FKfhMsLiE02sfwXY2qxh4Q==" script-trigger="Teh_HighlightTrailSegment(SdCw74kxSk2lAwurcxfrDQ==)" />
+		<POI MapID="32" xpos="318.3241" ypos="64.03074" zpos="572.962" type="tt.mc.mt.th.m" GUID="Jf8bsnORUUaxuBbWJKHrqg==" script-trigger="Teh_HighlightTrailSegment(iaNu6oN9UUWG9PTftbZk5Q==)" />
 		<!--========= Highlight Trail Segments for DiessaPlateau =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="tscWkB07AUGAqjKCj9V+5Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\DiessaPlateau\DiessaPlateau-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="GzHe8L52hUO11bv3fd4N9A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\DiessaPlateau\DiessaPlateau-Segment-1.trl" />
@@ -10582,12 +10583,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Trail Highlight Markers for DredgehauntCliffs =========-->
 		<POI MapID="26" xpos="575.9138" ypos="27.90958" zpos="410.4069" type="tt.mc.mt.th.m" GUID="3PSNf6O23k+a3LexrqrK4A==" script-trigger="Teh_HighlightTrailSegment(f8pfoiefhkuy6oEi+FMIhg==)" />
 		<POI MapID="26" xpos="-592.2863" ypos="92.09809" zpos="-372.8847" type="tt.mc.mt.th.m" GUID="BfhSsveykkmob++qnaogMw==" script-trigger="Teh_HighlightTrailSegment(JYmM6aaKxUqxi+PFtpfxZg==)" />
-		<POI MapID="26" xpos="-518.8692" ypos="0.0544" zpos="759.0089" type="tt.mc.mt.th.m" GUID="eDXJ1B/W30m47fW6TEJ7MQ==" script-trigger="Teh_HighlightTrailSegment(/03a8nuX90KAYCNx4ffDxA==)" />
 		<POI MapID="26" xpos="-504.5517" ypos="-0.3340845" zpos="-653.5693" type="tt.mc.mt.th.m" GUID="WEAFCKyS+ku8EDm6sViSOg==" script-trigger="Teh_HighlightTrailSegment(f0k8bRJrHkOl3Cc9IB/Y6A==)" />
 		<POI MapID="26" xpos="152.9637" ypos="68.17943" zpos="-432.1771" type="tt.mc.mt.th.m" GUID="nSbZ+R4qZ0Kf1Kiu8BYg/A==" script-trigger="Teh_HighlightTrailSegment(yhnPW8NipkmeD9/XXwrDjA==)" />
 		<POI MapID="26" xpos="-52.57013" ypos="147.6365" zpos="-36.84106" type="tt.mc.mt.th.m" GUID="FmSzLqmiFUe5usWPij6aEA==" script-trigger="Teh_HighlightTrailSegment(d3EOUF5eo06S3bMfXmvynQ==)" />
-		<POI MapID="26" xpos="82.80166" ypos="97.80416" zpos="980.5953" type="tt.mc.mt.th.m" GUID="2jDY5vW0a0KQ0oFtYJlkqQ==" script-trigger="Teh_HighlightTrailSegment(q/uoahKzdE6fV4j8s3el2w==)" />
 		<POI MapID="26" xpos="-574.3981" ypos="67.55511" zpos="313.4798" type="tt.mc.mt.th.m" GUID="Qsc91SQB/EWotqtCRxohvw==" script-trigger="Teh_HighlightTrailSegment(PumztfGH0kK0I3RgHFbh0w==)" />
+		<POI MapID="26" xpos="-518.8692" ypos="0.0544" zpos="759.0089" type="tt.mc.mt.th.m" GUID="eDXJ1B/W30m47fW6TEJ7MQ==" script-trigger="Teh_HighlightTrailSegment(/03a8nuX90KAYCNx4ffDxA==)" />
+		<POI MapID="26" xpos="82.80166" ypos="97.80416" zpos="980.5953" type="tt.mc.mt.th.m" GUID="2jDY5vW0a0KQ0oFtYJlkqQ==" script-trigger="Teh_HighlightTrailSegment(q/uoahKzdE6fV4j8s3el2w==)" />
 		<!--========= Highlight Trail Segments for DredgehauntCliffs =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="VOR+B1Qd6EO2dDk5Ah0pTg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\DredgehauntCliffs\DredgehauntCliffs-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="f8pfoiefhkuy6oEi+FMIhg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\DredgehauntCliffs\DredgehauntCliffs-Segment-1.trl" />
@@ -10627,13 +10628,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Trail Highlight Markers for FrostgorgeSound =========-->
 		<POI MapID="30" xpos="741.8621" ypos="8.021229" zpos="-642.4832" type="tt.mc.mt.th.m" GUID="OmUp0U6wOk+PWgmCbF5y1g==" script-trigger="Teh_HighlightTrailSegment(cyQXTnJzz0q0Ekp/qpL3Aw==)" />
 		<POI MapID="30" xpos="-863.5596" ypos="36.43415" zpos="-368.887" type="tt.mc.mt.th.m" GUID="utdT1P5pV0W/CjpPbO6Org==" script-trigger="Teh_HighlightTrailSegment(qSkHJK/TxUuxLC3vn/eEmA==)" />
-		<POI MapID="30" xpos="549.1901" ypos="30.8229" zpos="-121.8915" type="tt.mc.mt.th.m" GUID="Re32yocJxkOwyPu2g+mUwA==" script-trigger="Teh_HighlightTrailSegment(8S9xx5q36kqQkwc5kXgnqw==)" />
-		<POI MapID="30" xpos="297.0915" ypos="-120.1316" zpos="654.0679" type="tt.mc.mt.th.m" GUID="mGY5/OUtPEujvAm15kffiw==" script-trigger="Teh_HighlightTrailSegment(69QYsJ7Fr06IKoQVd3mLAQ==)" />
-		<POI MapID="30" xpos="-50.42797" ypos="-41.14981" zpos="168.1465" type="tt.mc.mt.th.m" GUID="btn9i+4TuUqe5Kgxy8a3hg==" script-trigger="Teh_HighlightTrailSegment(RfWm1DO0XUimOaaA14KLmA==)" />
 		<POI MapID="30" xpos="-227.1786" ypos="53.13269" zpos="-828.69183" type="tt.mc.mt.th.m" GUID="A5oaNV0w5UmNBcLJNcH6Rw==" script-trigger="Teh_HighlightTrailSegment(ELsTqa9JSkKFQ3VW3A1dIQ==)" />
 		<POI MapID="30" xpos="-630.1804" ypos="-93.97076" zpos="-639.9044" type="tt.mc.mt.th.m" GUID="1l6hrxn5skmxgrce3TNkig==" script-trigger="Teh_HighlightTrailSegment(QbnszL8EHUCmYFOAQXlv6A==)" />
 		<POI MapID="30" xpos="-889.6003" ypos="13.81726" zpos="878.6307" type="tt.mc.mt.th.m" GUID="B+MpzCOeKkGfoENJBOtQeQ==" script-trigger="Teh_HighlightTrailSegment(Wtfs8ZwgHE+GJ0ejrDDI9w==)" />
 		<POI MapID="30" xpos="-301.7408" ypos="1.591536" zpos="496.3492" type="tt.mc.mt.th.m" GUID="U7H/tGDzWU+yzc1rcCtFGg==" script-trigger="Teh_HighlightTrailSegment(wAfJcbFrz02zKRd3n3J5Hg==)" />
+		<POI MapID="30" xpos="-50.42797" ypos="-41.14981" zpos="168.1465" type="tt.mc.mt.th.m" GUID="btn9i+4TuUqe5Kgxy8a3hg==" script-trigger="Teh_HighlightTrailSegment(RfWm1DO0XUimOaaA14KLmA==)" />
+		<POI MapID="30" xpos="549.1901" ypos="30.8229" zpos="-121.8915" type="tt.mc.mt.th.m" GUID="Re32yocJxkOwyPu2g+mUwA==" script-trigger="Teh_HighlightTrailSegment(8S9xx5q36kqQkwc5kXgnqw==)" />
+		<POI MapID="30" xpos="297.0915" ypos="-120.1316" zpos="654.0679" type="tt.mc.mt.th.m" GUID="mGY5/OUtPEujvAm15kffiw==" script-trigger="Teh_HighlightTrailSegment(69QYsJ7Fr06IKoQVd3mLAQ==)" />
 		<!--========= Highlight Trail Segments for FrostgorgeSound =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="U0jiPZPOy0u37QqbLiLXhg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="cyQXTnJzz0q0Ekp/qpL3Aw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-1.trl" />
@@ -10647,8 +10648,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="wAfJcbFrz02zKRd3n3J5Hg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-9.trl" />
 		<!--========= Trail Highlight Markers for GendarranFields =========-->
 		<POI MapID="24" xpos="454.3254" ypos="0.665176" zpos="356.877" type="tt.mc.mt.th.m" GUID="0JnUNUAIl0Gmefz0C7L5MA==" script-trigger="Teh_HighlightTrailSegment(y76aQ6syp0q8poFkdnouqg==)" />
-		<POI MapID="24" xpos="-73.72069" ypos="43.05035" zpos="-600.0638" type="tt.mc.mt.th.m" GUID="gaa5DK/lEE27VUhAkiGX4w==" script-trigger="Teh_HighlightTrailSegment(CJyJkwnkakS0fexkttRj+g==)" />
 		<POI MapID="24" xpos="-212.7171" ypos="-23.15686" zpos="-243.9285" type="tt.mc.mt.th.m" GUID="6ZT3YJEqmU+NX0r8+Oo7mg==" script-trigger="Teh_HighlightTrailSegment(BAr6TVGnz0eg5kZLO+hKkw==)" />
+		<POI MapID="24" xpos="-73.72069" ypos="43.05035" zpos="-600.0638" type="tt.mc.mt.th.m" GUID="gaa5DK/lEE27VUhAkiGX4w==" script-trigger="Teh_HighlightTrailSegment(CJyJkwnkakS0fexkttRj+g==)" />
 		<POI MapID="24" xpos="-1197.859" ypos="25.84149" zpos="-411.4552" type="tt.mc.mt.th.m" GUID="atgW+6kjMEefhVzoIk+9+g==" script-trigger="Teh_HighlightTrailSegment(EIH1+DLSxEyYWkZNBp/Q9Q==)" />
 		<POI MapID="24" xpos="-425.2581" ypos="1.399233" zpos="-57.06054" type="tt.mc.mt.th.m" GUID="eOJErpeBu0OsnqFe8OqRUg==" script-trigger="Teh_HighlightTrailSegment(7CMR9LF0BUy4GG5eW+/3ew==)" />
 		<POI MapID="24" xpos="-208.6176" ypos="24.05182" zpos="551.4688" type="tt.mc.mt.th.m" GUID="ZZ96CfX6cU6RZcJBYWvQLw==" script-trigger="Teh_HighlightTrailSegment(cIq8e4rGJkWJVTA3qnHR/A==)" />
@@ -10661,13 +10662,13 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="7CMR9LF0BUy4GG5eW+/3ew==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\GendarranFields\GendarranFields-Segment-5.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="cIq8e4rGJkWJVTA3qnHR/A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\GendarranFields\GendarranFields-Segment-6.trl" />
 		<!--========= Trail Highlight Markers for HarathiHinterlands =========-->
-		<POI MapID="17" xpos="-118.8996" ypos="34.66881" zpos="-55.92368" type="tt.mc.mt.th.m" GUID="nXadXnPdtE259fBrWTrZXw==" script-trigger="Teh_HighlightTrailSegment(QNvabM7CM0O/4OgFfCnr8A==)" />
 		<POI MapID="17" xpos="-110.566" ypos="6.008839" zpos="-700.5872" type="tt.mc.mt.th.m" GUID="9O402FmarkyIuqtDpusKQg==" script-trigger="Teh_HighlightTrailSegment(TDFBpEm+GEmWYDxMAkf7jQ==)" />
 		<POI MapID="17" xpos="-483.1708" ypos="116.3193" zpos="-752.3925" type="tt.mc.mt.th.m" GUID="6pCZTEYf+0OjdpgpTQl1yg==" script-trigger="Teh_HighlightTrailSegment(s29PonJ+X0G7JtSimcX0vA==)" />
 		<POI MapID="17" xpos="-836.6279" ypos="122.5299" zpos="-682.8495" type="tt.mc.mt.th.m" GUID="fa439n+oCUOO2aQl+JNgtA==" script-trigger="Teh_HighlightTrailSegment(ByfHXwG2SkKnj5Goht8x1w==)" />
 		<POI MapID="17" xpos="107.6041" ypos="51.84379" zpos="349.7302" type="tt.mc.mt.th.m" GUID="gCATg4/GY0i48SPFnR8IPw==" script-trigger="Teh_HighlightTrailSegment(CfnmVv75e0mDBeC+Kx/WWg==)" />
 		<POI MapID="17" xpos="497.6553" ypos="45.90539" zpos="262.1053" type="tt.mc.mt.th.m" GUID="C68uK6tRAUanP4P9CVKduQ==" script-trigger="Teh_HighlightTrailSegment(Ydapige/IEOmNFJISooUIA==)" />
 		<POI MapID="17" xpos="905.866" ypos="175.3988" zpos="579.0959" type="tt.mc.mt.th.m" GUID="fVMn7lyF7EevaMipGxF/7w==" script-trigger="Teh_HighlightTrailSegment(Om8w2tQAAUq4yy/mWnTOtA==)" />
+		<POI MapID="17" xpos="-118.8996" ypos="34.66881" zpos="-55.92368" type="tt.mc.mt.th.m" GUID="nXadXnPdtE259fBrWTrZXw==" script-trigger="Teh_HighlightTrailSegment(QNvabM7CM0O/4OgFfCnr8A==)" />
 		<!--========= Highlight Trail Segments for HarathiHinterlands =========-->
 		<Trail type="tt.mc.mt.th.t" GUID="Om8w2tQAAUq4yy/mWnTOtA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t1" GUID="w2FBLBcK/0O/HoHi5QTbyA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-1.trl" />
@@ -10679,14 +10680,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="Ydapige/IEOmNFJISooUIA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HarathiHinterlands\HarathiHinterlands-Segment-7.trl" />
 		<!--========= Trail Highlight Markers for Hoelbrak =========-->
 		<POI MapID="326" xpos="467.7343" ypos="321.0706" zpos="-306.3983" type="tt.mc.mt.th.m" GUID="3mwKhQtV5ku9ObDdj9Kubg==" script-trigger="Teh_HighlightTrailSegment(ZFQ5RlxqskCqShk2fLkECQ==)" />
-		<POI MapID="326" xpos="-406.4377" ypos="294.0178" zpos="41.38559" type="tt.mc.mt.th.m" GUID="AuZfLXk/G0K3yA+Hiljx3g==" script-trigger="Teh_HighlightTrailSegment(bDkn/e16cUm239TkWGYDLQ==)" />
 		<POI MapID="326" xpos="436.2728" ypos="244.8519" zpos="-111.7985" type="tt.mc.mt.th.m" GUID="XyiNZHjaykCTs7+WZaghLQ==" script-trigger="Teh_HighlightTrailSegment(q+ddxsweDkyMGgyf61Xx3Q==)" />
 		<POI MapID="326" xpos="344.2615" ypos="250.7157" zpos="477.2154" type="tt.mc.mt.th.m" GUID="ovrmBQxajEqSmQxvsslq/w==" script-trigger="Teh_HighlightTrailSegment(4M80DsgyhUmmft5FuC7RQw==)" />
-		<POI MapID="326" xpos="602.75256" ypos="204.06075" zpos="435.7553" type="tt.mc.mt.th.m" GUID="DeRKkHdsLEyf5g1oH+nu2A==" script-trigger="Teh_HighlightTrailSegment(qXdUsTVux0qEZAGp5wD4SQ==)" />
+		<POI MapID="326" xpos="602.75256" ypos="204.06075" zpos="435.7553" type="tt.mc.mt.th.m" GUID="DeRKkHdsLEyf5g1oH+nu2A==" script-trigger="Teh_HighlightTrailSegment(qXdUsTVux0qEZAGp5wD4SQ==)" />		
 		<POI MapID="326" xpos="518.595" ypos="209.7546" zpos="207.8865" type="tt.mc.mt.th.m" GUID="Ziu7Ik9pskOMO2D01aKcRQ==" script-trigger="Teh_HighlightTrailSegment(Oxeu3BQ+40KGe1w6HOi2Rw==)" />
 		<POI MapID="326" xpos="204.7922" ypos="257.3433" zpos="335.2363" type="tt.mc.mt.th.m" GUID="MvVCOzl/K06zCK2zVEZ5lw==" script-trigger="Teh_HighlightTrailSegment(FT0gA5/ufEahyGPRMzIOXA==)" />
 		<POI MapID="326" xpos="-48.61865" ypos="240.9845" zpos="153.7351" type="tt.mc.mt.th.m" GUID="kd91Tr0oz0O6YUDnichrEA==" script-trigger="Teh_HighlightTrailSegment(js73d8gLZEGqkGlBLIXkkA==)" />
 		<POI MapID="326" xpos="-43.95" ypos="258.5519" zpos="426.9945" type="tt.mc.mt.th.m" GUID="r8lWyXBLg0aH/Y0xr4jzqw==" script-trigger="Teh_HighlightTrailSegment(aeDmCfHIz0KCISuw7T9MxA==)" />
+		<POI MapID="326" xpos="-406.4377" ypos="294.0178" zpos="41.38559" type="tt.mc.mt.th.m" GUID="AuZfLXk/G0K3yA+Hiljx3g==" script-trigger="Teh_HighlightTrailSegment(bDkn/e16cUm239TkWGYDLQ==)" />
 		<!--========= Highlight Trail Segments for Hoelbrak =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="CokV7DRzx0aBAs1DbhyLZw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\Hoelbrak\Hoelbrak-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="bDkn/e16cUm239TkWGYDLQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\Hoelbrak\Hoelbrak-Segment-1.trl" />
@@ -10708,11 +10709,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Highlight Trail Segments for HoelbrakInstance3 =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="4xgx25j3kkiRC6fpGUPhVQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\HoelbrakInstance3\HoelbrakInstance3-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for IronMarches =========-->
+		<POI MapID="25" xpos="232.7897" ypos="4.302843" zpos="-772.584" type="tt.mc.mt.th.m" GUID="ww7+EoTpakyKhhfHZGKCpA==" script-trigger="Teh_HighlightTrailSegment(NX004PLbs06zyhsw45tvVQ==)" />
 		<POI MapID="25" xpos="369.6949" ypos="4.521076" zpos="-1043.162" type="tt.mc.mt.th.m" GUID="Y1Q/+w/NxUOhnf3x7A8rIw==" script-trigger="Teh_HighlightTrailSegment(PuuYnKhFOEKz8DVQeG1SoA==)" />
 		<POI MapID="25" xpos="337.7957" ypos="-70.38879" zpos="134.5649" type="tt.mc.mt.th.m" GUID="4AIVSXumuUeT4662+qlSig==" script-trigger="Teh_HighlightTrailSegment(wIDdv4D03UeUnZfsvGcA2g==)" />
 		<POI MapID="25" xpos="345.8354" ypos="32.30843" zpos="-199.494" type="tt.mc.mt.th.m" GUID="Y5ozuDfO3UWHeldGIClhIA==" script-trigger="Teh_HighlightTrailSegment(KTDsU3qlWkaT/mUUBPy1nw==)" />
 		<POI MapID="25" xpos="571.3881" ypos="-0.2245756" zpos="1166.953" type="tt.mc.mt.th.m" GUID="+lnWOJaxyEmcU41tubFF1Q==" script-trigger="Teh_HighlightTrailSegment(oi53dw8jzEaKhKimM1uXOw==)" />
-		<POI MapID="25" xpos="232.7897" ypos="4.302843" zpos="-772.584" type="tt.mc.mt.th.m" GUID="ww7+EoTpakyKhhfHZGKCpA==" script-trigger="Teh_HighlightTrailSegment(NX004PLbs06zyhsw45tvVQ==)" />
 		<POI MapID="25" xpos="-273.0965" ypos="-1.063684" zpos="1192.267" type="tt.mc.mt.th.m" GUID="t4aGa6yq+0S0smBvWbiHsQ==" script-trigger="Teh_HighlightTrailSegment(gN7+2IrWjk27KVqJQNIw3A==)" />
 		<POI MapID="25" xpos="-416.4984" ypos="44.91639" zpos="1073.975" type="tt.mc.mt.th.m" GUID="4fPk1AGjE06TYfgn45SQYg==" script-trigger="Teh_HighlightTrailSegment(bkfquQQb4EWLTYDoERuF0w==)" />
 		<POI MapID="25" xpos="64.89011" ypos="7.343918" zpos="1143.736" type="tt.mc.mt.th.m" GUID="d6SIFc/X7EaJFnBc14q0qg==" script-trigger="Teh_HighlightTrailSegment(UT3QRIVXxkuPYVfZPwwWZg==)" />
@@ -10765,16 +10766,16 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Trail Highlight Markers for LornarsPass =========-->
 		<POI MapID="27" xpos="-76.79351" ypos="85.8912" zpos="1016.032" type="tt.mc.mt.th.m" GUID="fCmRUu9JEEO3LZblrZjtTg==" script-trigger="Teh_HighlightTrailSegment(JE25H2sipES61p7SIN83QA==)" />
 		<POI MapID="27" xpos="-317.1087" ypos="32.23014" zpos="-672.0951" type="tt.mc.mt.th.m" GUID="Z7IsjASo9U2mvchZ0dh4vA==" script-trigger="Teh_HighlightTrailSegment(XC9TmIS7BUu80zHypGBMxA==)" />
+		<POI MapID="27" xpos="-260.7769" ypos="-0.969328" zpos="-937.3138" type="tt.mc.mt.th.m" GUID="CwqDg0jrtka3RZFqR9AxOQ==" script-trigger="Teh_HighlightTrailSegment(+nJ/ACFXiEaixW/GG8F9Ag==)" />
+		<POI MapID="27" xpos="426.1884" ypos="113.774" zpos="-939.3305" type="tt.mc.mt.th.m" GUID="tkSUUTtY40m+gE8cZyvMKw==" script-trigger="Teh_HighlightTrailSegment(oGDS+uXsK0as+xvDB2L1BQ==)" />
 		<POI MapID="27" xpos="-128.5948" ypos="-16.13062" zpos="-647.5594" type="tt.mc.mt.th.m" GUID="NxhLuEgtyUWz/Tvbnq4AdQ==" script-trigger="Teh_HighlightTrailSegment(Hq75eDkUTEyxpWUEAP1Y8A==)" />
 		<POI MapID="27" xpos="-67.88262" ypos="105.7267" zpos="-187.2631" type="tt.mc.mt.th.m" GUID="A0LRKQvE9ku1JLO+FO2k1A==" script-trigger="Teh_HighlightTrailSegment(cvQsJruDA0CH4453G5Y1sg==)" />
+		<POI MapID="27" xpos="-496.7745" ypos="161.0337" zpos="648.0516" type="tt.mc.mt.th.m" GUID="szVrSVuXVkWi0BjCr9RPYQ==" script-trigger="Teh_HighlightTrailSegment(u/7gOYPIXEK58XuLEtpiCg==)" />
+		<POI MapID="27" xpos="-511.6934" ypos="82.5442" zpos="542.8785" type="tt.mc.mt.th.m" GUID="yWGBE2/8fEakazEjxL3IhQ==" script-trigger="Teh_HighlightTrailSegment(GuHTV1M0iUaJXvm9QD/aAw==)" />
 		<POI MapID="27" xpos="-158.3784" ypos="58.66682" zpos="935.065" type="tt.mc.mt.th.m" GUID="HIuOvymHW0KLXlVjCaM3Iw==" script-trigger="Teh_HighlightTrailSegment(D3fT4+mZL0WdC7RcX44Sog==)" />
 		<POI MapID="27" xpos="-118.9249" ypos="98.14463" zpos="725.1964" type="tt.mc.mt.th.m" GUID="rTVG7aDce06kCn1CTU4XMw==" script-trigger="Teh_HighlightTrailSegment(PDa4yrU3bEKDAiz2CQY23g==)" />
 		<POI MapID="27" xpos="459.6714" ypos="123.6451" zpos="-61.52199" type="tt.mc.mt.th.m" GUID="8dj9PXf+hEW/6ShSzxmCsg==" script-trigger="Teh_HighlightTrailSegment(p+vCg3EXWE60V6eh1nJULA==)" />
 		<POI MapID="27" xpos="194.4121" ypos="95.0831" zpos="41.69082" type="tt.mc.mt.th.m" GUID="CQ6ngfbOGECazUvMOY8PpQ==" script-trigger="Teh_HighlightTrailSegment(/nCk7o6AkEuvlQBqdap11A==)" />
-		<POI MapID="27" xpos="426.1884" ypos="113.774" zpos="-939.3305" type="tt.mc.mt.th.m" GUID="tkSUUTtY40m+gE8cZyvMKw==" script-trigger="Teh_HighlightTrailSegment(oGDS+uXsK0as+xvDB2L1BQ==)" />
-		<POI MapID="27" xpos="-496.7745" ypos="161.0337" zpos="648.0516" type="tt.mc.mt.th.m" GUID="szVrSVuXVkWi0BjCr9RPYQ==" script-trigger="Teh_HighlightTrailSegment(u/7gOYPIXEK58XuLEtpiCg==)" />
-		<POI MapID="27" xpos="-511.6934" ypos="82.5442" zpos="542.8785" type="tt.mc.mt.th.m" GUID="yWGBE2/8fEakazEjxL3IhQ==" script-trigger="Teh_HighlightTrailSegment(GuHTV1M0iUaJXvm9QD/aAw==)" />
-		<POI MapID="27" xpos="-260.7769" ypos="-0.969328" zpos="-937.3138" type="tt.mc.mt.th.m" GUID="CwqDg0jrtka3RZFqR9AxOQ==" script-trigger="Teh_HighlightTrailSegment(+nJ/ACFXiEaixW/GG8F9Ag==)" />
 		<!--========= Highlight Trail Segments for LornarsPass =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="M2ifpArF+U2KtSIKpBYf3g==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\LornarsPass\LornarsPass-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="JE25H2sipES61p7SIN83QA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\LornarsPass\LornarsPass-Segment-1.trl" />
@@ -10798,8 +10799,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="65" xpos="-647.1923" ypos="-44.95599" zpos="-231.3638" type="tt.mc.mt.th.m" GUID="1qK7JCeQc0eHa/lA4AiiHw==" script-trigger="Teh_HighlightTrailSegment(jk2625mtWkysX6fziUEXjw==)" />
 		<POI MapID="65" xpos="-1044.342" ypos="-36.95583" zpos="-38.21969" type="tt.mc.mt.th.m" GUID="SoLaNwMDB0SfrR751++ZHA==" script-trigger="Teh_HighlightTrailSegment(0V3AaPMLS0itSn2grspUxQ==)" />
 		<POI MapID="65" xpos="-532.7515" ypos="-40.35956" zpos="293.9528" type="tt.mc.mt.th.m" GUID="rkxSv1CMo0WHGG54eeuGtA==" script-trigger="Teh_HighlightTrailSegment(tVYqeikeJE6QyCEKz4I7dA==)" />
-		<POI MapID="65" xpos="261.9248" ypos="39.43958" zpos="-413.6695" type="tt.mc.mt.th.m" GUID="WcK7tS+KhU2CSEOsGf+b3w==" script-trigger="Teh_HighlightTrailSegment(8pyS+TaFb0iI6NbyuWb+wA==)" />
 		<POI MapID="65" xpos="-406.304" ypos="25.65666" zpos="-445.9427" type="tt.mc.mt.th.m" GUID="5mQkI2jOU0COexvJzqXT9g==" script-trigger="Teh_HighlightTrailSegment(VAZMRes2S0Oiwf8LnW8UAA==)" />
+		<POI MapID="65" xpos="261.9248" ypos="39.43958" zpos="-413.6695" type="tt.mc.mt.th.m" GUID="WcK7tS+KhU2CSEOsGf+b3w==" script-trigger="Teh_HighlightTrailSegment(8pyS+TaFb0iI6NbyuWb+wA==)" />		
 		<!--========= Highlight Trail Segments for MalchorsLeap =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="oT7rkSfV1EOPm288Xhlp5A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\MalchorsLeap\MalchorsLeap-Segment-0.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="+4AFDVZjDkeB4HIqv8hf9A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\MalchorsLeap\MalchorsLeap-Segment-1.trl" />
@@ -10834,9 +10835,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="39" xpos="-75.42215" ypos="47.38783" zpos="-237.0226" type="tt.mc.mt.th.m" GUID="3egoMPRMv0WeUZqoxrkmyg==" script-trigger="Teh_HighlightTrailSegment(6BJ3F8asGE+iV3zRlxSNOw==)" />
 		<POI MapID="39" xpos="283.7865" ypos="43.97554" zpos="632.9218" type="tt.mc.mt.th.m" GUID="bulAxv+RnUyz2EevW7MdCA==" script-trigger="Teh_HighlightTrailSegment(PjbtQ07a3kaHsxKEk/wmEA==)" />
 		<POI MapID="39" xpos="752.4572" ypos="-1.051297" zpos="439.5379" type="tt.mc.mt.th.m" GUID="EUmGwleTTECsvW1jYWC8GA==" script-trigger="Teh_HighlightTrailSegment(AZ71kHHA406GHyojs4HxXQ==)" />
-		<POI MapID="39" xpos="1087.488" ypos="7.926789" zpos="87.01062" type="tt.mc.mt.th.m" GUID="pJHyyRKdhUm4iCseTmsBbg==" script-trigger="Teh_HighlightTrailSegment(5JZs7AH/jEGeVCdnojuquw==)" />
 		<POI MapID="39" xpos="222.2133" ypos="-42.57045" zpos="-348.5358" type="tt.mc.mt.th.m" GUID="EVcz8piXr0egOzfTtCIUQg==" script-trigger="Teh_HighlightTrailSegment(WYe5Ot3Z3kyFu85U5L8Vvw==)" />
 		<POI MapID="39" xpos="453.5614" ypos="-48.15685" zpos="-106.899" type="tt.mc.mt.th.m" GUID="tZczGN0iaUG/euIvTX4X4A==" script-trigger="Teh_HighlightTrailSegment(2WDpthH+sUGhmrFf9W/jAg==)" />
+		<POI MapID="39" xpos="1087.488" ypos="7.926789" zpos="87.01062" type="tt.mc.mt.th.m" GUID="pJHyyRKdhUm4iCseTmsBbg==" script-trigger="Teh_HighlightTrailSegment(5JZs7AH/jEGeVCdnojuquw==)" />
 		<POI MapID="39" xpos="-300.2475" ypos="10.46915" zpos="-284.5611" type="tt.mc.mt.th.m" GUID="NYzQU1vvvECx9+k84Tj3uw==" script-trigger="Teh_HighlightTrailSegment(8u4ceQNiDUuRKVULDGHlqg==)" />
 		<!--========= Highlight Trail Segments for MountMaelstrom =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="ifL3UN75I0O/JVqzBob+1Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\MountMaelstrom\MountMaelstrom-Segment-0.trl" />
@@ -10849,11 +10850,11 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="5JZs7AH/jEGeVCdnojuquw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\MountMaelstrom\MountMaelstrom-Segment-7.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="8u4ceQNiDUuRKVULDGHlqg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\MountMaelstrom\MountMaelstrom-Segment-8.trl" />
 		<!--========= Trail Highlight Markers for PlainsofAshford =========-->
+		<POI MapID="19" xpos="-577.0932" ypos="0.3871562" zpos="60.75156" type="tt.mc.mt.th.m" GUID="HH5VGh24h0mtREtAsPqEHA==" script-trigger="Teh_HighlightTrailSegment(zm0QQgzxm0exFBzzIV/dog==)" />
 		<POI MapID="19" xpos="-311.6032" ypos="68.58356" zpos="92.44691" type="tt.mc.mt.th.m" GUID="Krx7KIx8+kqqcUuCE8UsQg==" script-trigger="Teh_HighlightTrailSegment(mYv8C7cPOke0baU98XmcAg==)" />
 		<POI MapID="19" xpos="1.154497" ypos="49.777607" zpos="154.47754" type="tt.mc.mt.th.m" GUID="2nfWqGWPDkm96ghUM3gIyA==" script-trigger="Teh_HighlightTrailSegment(YbYwxBjQlUqt6QIhpQgpMw==)" />
 		<POI MapID="19" xpos="495.4686" ypos="0.741573" zpos="-298.2446" type="tt.mc.mt.th.m" GUID="keiDcWetNUylrbVqTeFmQg==" script-trigger="Teh_HighlightTrailSegment(h/NP9JhNY0ewQrSLjXnymw==)" />
 		<POI MapID="19" xpos="-827.8245" ypos="53.01759" zpos="-501.3555" type="tt.mc.mt.th.m" GUID="KgG3mSS09kK2hU3hOsNAVA==" script-trigger="Teh_HighlightTrailSegment(RxSlxTchu0O6ZRzXk3T3yg==)" />
-		<POI MapID="19" xpos="-577.0932" ypos="0.3871562" zpos="60.75156" type="tt.mc.mt.th.m" GUID="HH5VGh24h0mtREtAsPqEHA==" script-trigger="Teh_HighlightTrailSegment(zm0QQgzxm0exFBzzIV/dog==)" />
 		<POI MapID="19" xpos="-62.31987" ypos="18.26995" zpos="-32.79432" type="tt.mc.mt.th.m" GUID="9DMPN9i8sEqWydcAnyhi1w==" script-trigger="Teh_HighlightTrailSegment(pykO/JbDh02iac92/Rs0+A==)" />
 		<!--========= Highlight Trail Segments for PlainsofAshford =========-->
 		<Trail type="tt.mc.mt.th.t" GUID="zm0QQgzxm0exFBzzIV/dog==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\PlainsofAshford\PlainsofAshford-Segment-0.trl" />
@@ -10950,8 +10951,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Trail Highlight Markers for TheGrove =========-->
 		<POI MapID="91" xpos="90.53969" ypos="1.115495" zpos="74.14912" type="tt.mc.mt.th.m" GUID="iKLJcRzSb06okIdvH2s3UA==" script-trigger="Teh_HighlightTrailSegment(ctp02kGxt0Kn7fMBIQ1bUw==)" />
 		<POI MapID="91" xpos="144.2045" ypos="82.6075" zpos="97.52908" type="tt.mc.mt.th.m" GUID="JN7+6iPEKUu1h5WC/DAz4g==" script-trigger="Teh_HighlightTrailSegment(CqWcOzsfek6rEJK0miEZbQ==)" />
-		<POI MapID="91" xpos="7.037696" ypos="17.15234" zpos="158.2913" type="tt.mc.mt.th.m" GUID="aq2niodqKke76oUnGnB8Kg==" script-trigger="Teh_HighlightTrailSegment(RiKG1Yd5cUS/ZT4wwvWBYg==)" />
 		<POI MapID="91" xpos="-0.8010582" ypos="97.66109" zpos="262.9936" type="tt.mc.mt.th.m" GUID="XIcYO2PAUUSwIwNz9qlpCQ==" script-trigger="Teh_HighlightTrailSegment(D+NqB19vmUC9BxKLS/VLtQ==)" />
+		<POI MapID="91" xpos="7.037696" ypos="17.15234" zpos="158.2913" type="tt.mc.mt.th.m" GUID="aq2niodqKke76oUnGnB8Kg==" script-trigger="Teh_HighlightTrailSegment(RiKG1Yd5cUS/ZT4wwvWBYg==)" />
 		<POI MapID="91" xpos="142.0742" ypos="9.898105" zpos="42.80198" type="tt.mc.mt.th.m" GUID="mEKCW0Lp8U65FEzA0v/n7Q==" script-trigger="Teh_HighlightTrailSegment(ZU6Sfc6YYkSZ4ID9Z3E8CQ==)" />
 		<!--========= Highlight Trail Segments for TheGrove =========-->
 		<Trail type="tt.mc.mt.th.t1" GUID="A64BcOHBaEmnk/BXKfBjPA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\TheGrove\TheGrove-Segment-0.trl" />
@@ -10974,8 +10975,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<!--========= Trail Highlight Markers for WayfarerFoothills =========-->
 		<POI MapID="28" xpos="-465.8238" ypos="32.78972" zpos="-1256.897" type="tt.mc.mt.th.m" GUID="8jzziupKkkqjnrAhFQ96ng==" script-trigger="Teh_HighlightTrailSegment(zfU4knc2jkubjfKKkAbWag==)" />
 		<POI MapID="28" xpos="232.2924" ypos="48.04396" zpos="-661.9515" type="tt.mc.mt.th.m" GUID="Ok9QFDvamEGfTiOXgAOA/w==" script-trigger="Teh_HighlightTrailSegment(LrvS0SGyqkGn5I4SGc7wvg==)" />
-		<POI MapID="28" xpos="441.7828" ypos="-0.6805467" zpos="-823.3734" type="tt.mc.mt.th.m" GUID="8m+MZcHzX06mV7QS/Ksdag==" script-trigger="Teh_HighlightTrailSegment(z//tVKEkIUCCAdGm+5vKlw==)" />
 		<POI MapID="28" xpos="483.0828" ypos="15.64589" zpos="-1049.126" type="tt.mc.mt.th.m" GUID="9Q0t78iHgEiIU41wwkQG5Q==" script-trigger="Teh_HighlightTrailSegment(iHgfjP4QzUOzp+0HiLq7aA==)" />
+		<POI MapID="28" xpos="441.7828" ypos="-0.6805467" zpos="-823.3734" type="tt.mc.mt.th.m" GUID="8m+MZcHzX06mV7QS/Ksdag==" script-trigger="Teh_HighlightTrailSegment(z//tVKEkIUCCAdGm+5vKlw==)" />
 		<POI MapID="28" xpos="49.65531" ypos="95.89803" zpos="286.3901" type="tt.mc.mt.th.m" GUID="Svu8b8maH0Sp0hciWyF++Q==" script-trigger="Teh_HighlightTrailSegment(s9gDZEGqWk6KfUPe2Ll7Zw==)" />
 		<POI MapID="28" xpos="418.8605" ypos="148.0801" zpos="1197.36" type="tt.mc.mt.th.m" GUID="QmROQ8dO2ESPZAHZ3u7ZLg==" script-trigger="Teh_HighlightTrailSegment(hWp43PZMlk+OgrqNAJ+HxQ==)" />
 		<!--========= Highlight Trail Segments for WayfarerFoothills =========-->
