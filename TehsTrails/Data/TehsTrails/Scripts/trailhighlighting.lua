@@ -42,7 +42,7 @@ if (#Teh.trailhighlighting.allTrails == 0) then
         Debug:Warn("Main trails found, switching to default mode")
         for _, trail in pairs(Teh.trailhighlighting.mainTrails) do
             trail.InGameVisibility = true
-            trail.MapVisibility = true
+            trail.MapVisibility = Teh_GetBool('mapToggled')
             trail.MiniMapVisibility = Teh_GetBool('minimapToggled')
         end
     end
@@ -126,7 +126,7 @@ local function highlightActiveTrail()
     if (Teh_GetBool('trailHighlightingShowOnMapStill') == true) then
         Debug:Print("Show on map still enabled")
         for _, trail in pairs(Teh.trailhighlighting.allTrails) do
-            trail.MapVisibility = true
+            trail.MapVisibility = Teh_GetBool('mapToggled')
             trail.MiniMapVisibility = Teh_GetBool('minimapToggled')
         end
     else
@@ -205,7 +205,7 @@ local function highlightActiveTrail()
     activeTrail.Texture = I:Texture(Pack, "Data/TehsTrails/Markers/trailwhite.png")
     activeTrail.TrailSampleColor = colorValue
     activeTrail.InGameVisibility = true
-    activeTrail.MapVisibility = true
+    activeTrail.MapVisibility = Teh_GetBool('mapToggled')
     activeTrail.MiniMapVisibility = Teh_GetBool('minimapToggled')
     Debug:Print("Highlighting active trail -- done")
     saveStorage()
@@ -283,7 +283,7 @@ function Teh_ToggleTrailHighlighting()
 
         for _, trail in pairs(Teh.trailhighlighting.mainTrails) do
             trail.InGameVisibility = true
-            trail.MapVisibility = true
+            trail.MapVisibility = Teh_GetBool('mapToggled')
             trail.MiniMapVisibility = Teh_GetBool('minimapToggled')
         end
 

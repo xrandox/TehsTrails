@@ -8,11 +8,14 @@ local hpTrail = World:TrailByGuid("cBjdPjPzKUCzvLBRSwAogQ==")
 local tosTrail = World:TrailByGuid("e5IfDBZwtkC6VYNhUxXhng==")
 
 function Teh_SetMinimapVisibility()
-    if (mainTrail == nil) then
-        Debug:Warn("Could not find reference to Main Trail on the current map: " .. Mumble.CurrentMap.Id)
-        return
-    end
+    if (mainTrail == nil) then return end
     mainTrail.MiniMapVisibility = Teh_GetBool("minimapToggled")
+    Teh_TryHighlightActiveTrail()
+end
+
+function Teh_SetMapVisibility()
+    if (mainTrail == nil) then return end
+    mainTrail.MapVisibility = Teh_GetBool("mapToggled")
     Teh_TryHighlightActiveTrail()
 end
 

@@ -131,6 +131,12 @@ local function minimapTrails(menu)
     Teh_SetMinimapVisibility()
 end
 
+local function mapTrails(menu)
+    Teh_ToggleStorage("mapToggled")
+    menu.Checked = Teh_GetBool("mapToggled")
+    Teh_SetMapVisibility()
+end
+
 local function mapZones(menu)
     Teh_ToggleStorage("heartZonesOnMap")
     menu.Checked = Teh_GetBool("heartZonesOnMap")
@@ -260,6 +266,7 @@ mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_Ge
 -- Map menu
 local mapOptionMenu = mainMenu:Add("Map Visibility Options", nil, false, false, "Requires Default for Show Trails on Map in Pathing Settings to work properly")
 local mto = mapOptionMenu:Add("Main Trail Options", nil, false, false, "Options for the main trail")
+mto:Add("Show Main Trail on Map", mapTrails, true, Teh_GetBool("mapToggled"), "Draw the main trail on the map")
 mto:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_GetBool("minimapToggled"), "Draw the main trail on the minimap")
 local hpto = mapOptionMenu:Add("Hero Point Trail Options", nil, false, false, "Options for the hero point trails")
 hpto:Add("Show Hero Point Trails on Minimap", minimapHeroPointTrails, true, Teh_GetBool("hpTrailsOnMinimap"), "Draw the hero point trails on the minimap")

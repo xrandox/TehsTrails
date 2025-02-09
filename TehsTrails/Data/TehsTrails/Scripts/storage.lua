@@ -1,6 +1,7 @@
 Teh.storage = {
     --These are the default values
     minimapToggled = "false",
+    mapToggled = "true",
     heartZonesOnMap = "false",
     heartZonesOnMinimap = "false",
     globalMarkersToggled = "false",
