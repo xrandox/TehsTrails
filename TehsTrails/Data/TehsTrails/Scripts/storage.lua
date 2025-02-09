@@ -24,6 +24,10 @@ Teh.storage = {
     trailHighlightingShowOnMapStill = "false",
     transparency = "100%",
     trailHighlightingStates = {},
+    hpTrailsOnMap = "true",
+    hpTrailsOnMinimap = "false",
+    tosTrailsOnMap = "true",
+    tosTrailsOnMinimap = "false",
 }
 
 Debug:Watch("Teh_Storage", Teh.storage)

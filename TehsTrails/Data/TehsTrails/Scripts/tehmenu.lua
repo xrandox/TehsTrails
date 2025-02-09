@@ -139,6 +139,30 @@ local function minimapZones(menu)
     Teh_SetHeartZoneMinimapVisibility()
 end
 
+local function mapHeroPointTrails(menu)
+    Teh_ToggleStorage("hpTrailsOnMap")
+    menu.Checked = Teh_GetBool("hpTrailsOnMap")
+    Teh_SetHPTrailMapVisibility()
+end
+
+local function minimapHeroPointTrails(menu)
+    Teh_ToggleStorage("hpTrailsOnMinimap")
+    menu.Checked = Teh_GetBool("hpTrailsOnMinimap")
+    Teh_SetHPTrailMinimapVisibility()
+end
+
+local function mapTosTrails(menu)
+    Teh_ToggleStorage("tosTrailsOnMap")
+    menu.Checked = Teh_GetBool("tosTrailsOnMap")
+    Teh_SetTosTrailMapVisibility()
+end
+
+local function minimapTosTrails(menu)
+    Teh_ToggleStorage("tosTrailsOnMinimap")
+    menu.Checked = Teh_GetBool("tosTrailsOnMinimap")
+    Teh_SetTosTrailMinimapVisibility()
+end
+
 local function heartFollower(menu)
     Teh_ToggleStorage("followerInfoToggled")
     menu.Checked = Teh_GetBool("followerInfoToggled")
@@ -231,9 +255,17 @@ mainMenu:Add("Toggle Starting Point Markers", startingPointMarkers, true, Teh_Ge
 
 -- Map menu
 local mapOptionMenu = mainMenu:Add("Map Visibility Options", nil, false, false, "Requires Default for Show Trails on Map in Pathing Settings to work properly")
-mapOptionMenu:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_GetBool("minimapToggled"), "Draw the main trail on the minimap")
-mapOptionMenu:Add("Show Heart Zones on Map", mapZones, true, Teh_GetBool("heartZonesOnMap"), "Draw heart zones on the Map")
-mapOptionMenu:Add("Show Heart Zones on Minimap", minimapZones, true, Teh_GetBool("heartZonesOnMinimap"), "Draw heart zones on the Minimap")
+local mto = mapOptionMenu:Add("Main Trail Options", nil, false, false, "Options for the main trail")
+mto:Add("Show Main Trail on Minimap", minimapTrails, true, Teh_GetBool("minimapToggled"), "Draw the main trail on the minimap")
+local hpto = mapOptionMenu:Add("Hero Point Trail Options", nil, false, false, "Options for the hero point trails")
+hpto:Add("Show Hero Point Trails on Minimap", minimapHeroPointTrails, true, Teh_GetBool("hpTrailsOnMinimap"), "Draw the hero point trails on the minimap")
+hpto:Add("Show Hero Point Trails on Map", mapHeroPointTrails, true, Teh_GetBool("hpTrailsOnMap"), "Draw the hero point trails on the map")
+local mzo = mapOptionMenu:Add("Heart Zone Options", nil, false, false, "Options for the heart zones")
+mzo:Add("Show Heart Zones on Map", mapZones, true, Teh_GetBool("heartZonesOnMap"), "Draw heart zones on the Map")
+mzo:Add("Show Heart Zones on Minimap", minimapZones, true, Teh_GetBool("heartZonesOnMinimap"), "Draw heart zones on the Minimap")
+local tos = mapOptionMenu:Add("Trails of Shame Options", nil, false, false, "Options for the trails of shame")
+tos:Add("Show Trails of Shame on Map", mapTosTrails, true, Teh_GetBool("tosTrailsOnMap"), "Draw the trails of shame on the map")
+tos:Add("Show Trails of Shame on Minimap", minimapTosTrails, true, Teh_GetBool("tosTrailsOnMinimap"), "Draw the trails of shame on the minimap")
 
 -- Heart follower menu
 local heartFollowerMenu = mainMenu:Add("Heart Follower Options", nil)

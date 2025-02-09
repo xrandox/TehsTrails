@@ -8111,31 +8111,31 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.nt" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/TimberlineFalls.trl"/>
 
 		<!-- HP TRAILS -->
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/BlazeridgeSteppes.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/DiessaPlateau.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/FieldsofRuin.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/FireheartRise.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/IronMarches.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/PlainsofAshford.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/GendarranFields.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/HarathiHinterlands.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/KessexHills.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/Queensdale.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/BrisbanWildlands.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/CaledonForest.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/MetricaProvince.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/CursedShore.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/MalchorsLeap.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/StraitsofDevastation.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/DredgehauntCliffs.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/FrostgorgeSound.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/LornarsPass.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/SnowdenDrifts.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/WayfarerFoothills.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/BloodtideCoast.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/MountMaelstrom.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/SparkflyFen.trl"/>
-		<Trail type="tt.mc.hp.hpt" trailData="Data/TehsTrails/TyriaTrails/hptrails/TimberlineFalls.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/BlazeridgeSteppes.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/DiessaPlateau.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/FieldsofRuin.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/FireheartRise.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/IronMarches.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/PlainsofAshford.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/GendarranFields.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/HarathiHinterlands.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/KessexHills.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/Queensdale.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/MetricaProvince.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/CursedShore.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/MalchorsLeap.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/StraitsofDevastation.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/DredgehauntCliffs.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/FrostgorgeSound.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/LornarsPass.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/SnowdenDrifts.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/WayfarerFoothills.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/BloodtideCoast.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/MountMaelstrom.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/SparkflyFen.trl"/>
+		<Trail type="tt.mc.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/TyriaTrails/hptrails/TimberlineFalls.trl"/>
 		
 		<!-- HEART TRAILS -->
 		<Trail type="tt.mc.h.ht" trailData="Data/TehsTrails/TyriaTrails/hearttrails/PirateLootHeart.trl"/>
@@ -8175,25 +8175,25 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <Trail type="tt.mc.h.hz" GUID="cb6VPxgSL0yytSwws/y+Pg==" trailData="Data/TehsTrails/TyriaTrails/heartzones/SparkflyFenHeartZones.trl"/>
 
 		<!-- TRAILS OF SHAME -->
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BlackCitadelTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BloodtideCoastTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BrisbanWildlandsTrailOfShame.trl"/>
-		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/GendarranFieldsTrailOfShame.trl"/>
-		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/FrostgorgeSoundTrailOfShame.trl"/>
-		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/LornarsPassTrailOfShame.trl"/>
-		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/StraitsofDevastationTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/MalchorsLeapTrailOfShame.trl"/>
-		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/CursedShoreTrailOfShame.trl"/>
-		<Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/LionsArchTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/MountMaelstromTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/WayfarerFoothillsTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/DredgehauntCliffsTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/HarathiHinterlandsTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/HoelbrakTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/PlainsOfAshfordTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/IronMarchesTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/SnowdenDriftsTrailOfShame.trl"/>
-        <Trail type="tt.mc.tos" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/CaledonForestTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BlackCitadelTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BloodtideCoastTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/BrisbanWildlandsTrailOfShame.trl"/>
+		<Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/GendarranFieldsTrailOfShame.trl"/>
+		<Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/FrostgorgeSoundTrailOfShame.trl"/>
+		<Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/LornarsPassTrailOfShame.trl"/>
+		<Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/StraitsofDevastationTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/MalchorsLeapTrailOfShame.trl"/>
+		<Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/CursedShoreTrailOfShame.trl"/>
+		<Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/LionsArchTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/MountMaelstromTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/WayfarerFoothillsTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/DredgehauntCliffsTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/HarathiHinterlandsTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/HoelbrakTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/PlainsOfAshfordTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/IronMarchesTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/SnowdenDriftsTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/CaledonForestTrailOfShame.trl"/>
         
 		<!-- GUIDANCE HOOP TRAILS -->
 		<Trail type="tt.mc.gr" trailData="Data/TehsTrails/TyriaTrails/hooptrails/StraitsOfDevastationHoops.trl"/>
@@ -8506,9 +8506,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         
 	<!--TRAILS-->
 		<Trail type="tt.hot.mt.nt" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTMCTrails/VB.trl"/>
-		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HoTMCTrails/VB_hp.trl"/>
+		<Trail type="tt.hot.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/HoTMCTrails/VB_hp.trl"/>
 		<Trail type="tt.hot.mt.nt" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTMCTrails/AB.trl"/>
-		<Trail type="tt.hot.hp.hpt" trailData="Data/TehsTrails/HoTMCTrails/AB_hp.trl"/>
+		<Trail type="tt.hot.hp.hpt" GUID="cBjdPjPzKUCzvLBRSwAogQ==" trailData="Data/TehsTrails/HoTMCTrails/AB_hp.trl"/>
         <Trail type="tt.hot.mt.nt" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HoTMCTrails/BloodstoneFen.trl"/>
 		<Trail type="tt.hot.mt.nt" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/HotMCTrails/TD.trl"/>
 
@@ -9772,7 +9772,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 	<!--SKYWATCH ARCHIPELAGO TRAILS-->
 		<Trail type="tt.soto.mt.nt" GUID="cb6VPxgSL0yytSwws/y+Vg==" trailData="Data/TehsTrails/SotOTrails/SA.trl"/>
 		<Trail type="tt.soto.caution" GUID="gu1HNYP2vkq2mle4NxVEMg==" trailData="Data/TehsTrails/SotOTrails/SAwarning.trl"/>
-		<Trail trailData="Data/TehsTrails/SotOTrails/SAToS.trl" GUID="gu2HNYP2vkq2mle4NxVEMg=="  type="tt.soto.tos" />
+		<Trail trailData="Data/TehsTrails/SotOTrails/SAToS.trl" GUID="e5IfDBZwtkC6VYNhUxXhng==" type="tt.soto.tos" />
 		<Trail trailData="Data/TehsTrails/SotOTrails/SAHoops.trl" type="tt.soto.hoops" />
 	<!--AMNYTAS MARKERS-->
 		<POI MapID="1517" xpos="-75.4809" ypos="270.219" zpos="-417.427" type="tt.soto.cm.rm.start" GUID="4D8y/T8nKUGgIX5ndFGr4Q=="/>
@@ -9902,7 +9902,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail trailData="Data/TehsTrails/SotOTrails/ADispTrail2.trl" type="tt.soto.mt.nt" GUID="c26VPxgSL0yytSwws/y+Vg==" />
 		<Trail trailData="Data/TehsTrails/SotOTrails/ADispTrail3.trl" type="tt.soto.mt.nt" GUID="c36VPxgSL0yytSwws/y+Vg==" />
 		<Trail trailData="Data/TehsTrails/SotOTrails/ADispTrail4.trl" type="tt.soto.mt.nt" GUID="c46VPxgSL0yytSwws/y+Vg==" />
-		<Trail trailData="Data/TehsTrails/SotOTrails/AToS.trl" GUID="gu3HNYP2vkq2mle4NxVEMg=="  type="tt.soto.tos" />
+		<Trail trailData="Data/TehsTrails/SotOTrails/AToS.trl" GUID="e5IfDBZwtkC6VYNhUxXhng==" type="tt.soto.tos" />
 		<Trail trailData="Data/TehsTrails/SotOTrails/AHoops.trl" type="tt.soto.hoops" />
 
 	<!--=======================================================================================================================================================================-->	
