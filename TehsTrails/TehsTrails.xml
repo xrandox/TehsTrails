@@ -6660,7 +6660,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="73" xpos="629.947" ypos="1.76455" zpos="-743.784" type="tt.mc.h.hsm.number1" GUID="PX+L7TCmEUu6O2LvQPzl/Q==" />
         <POI MapID="73" xpos="635.523" ypos="-1.7981" zpos="-779.358" type="tt.mc.h.hsm.number1" GUID="JB0WqG4WUUGnnBFYZDzOFA==" />
         <POI MapID="73" xpos="636.921" ypos="-1.57935" zpos="-805.55" type="tt.mc.h.hsm.number2" GUID="smkyw7gYhEmJLy3LIoWJLg==" />
-        <POI MapID="73" xpos="642.546" ypos="2.17405" zpos="-734.09" type="tt.mc.h.chm.start_heart" GUID="9GfeAwla+ki7Dh6XvX3f2Q==" info="Create potions with ingredients:&#xA;1: Fern, Coral, Mushroom&#xA;2: Vine, Coral, Mushroom&#xA;Deposit each to Cesseila -&gt; Interact cage -&gt; Kill spider" script-focus="Teh_HeartFollower(0gEtXxEG3EawXQ6UQc0dhw==)" />
+        <POI MapID="73" xpos="642.546" ypos="2.17405" zpos="-734.09" type="tt.mc.h.chm.start_heart" GUID="9GfeAwla+ki7Dh6XvX3f2Q==" info="Create potions with ingredients:&#xA;1: Fern, Coral, Mushroom&#xA;2: Vine, Coral, Mushroom&#xA;Deposit each to Cesseila -&gt; Interact cage -&gt; Kill massive spider" script-focus="Teh_HeartFollower(0gEtXxEG3EawXQ6UQc0dhw==)" />
         <POI MapID="73" xpos="673.525" ypos="-30.7835" zpos="-160.085" type="tt.mc.cm.wm.wpcircle" GUID="BC498apSKE+xTX4hnj/G4w==" copy="[&amp;BKgBAAA=]" />
         <POI MapID="73" xpos="679.754" ypos="50.6289" zpos="-670.297" type="tt.mc.cm.mm.jackal" GUID="DmtjBZtFNUeHzumyjbnTLw==" />
         <POI MapID="73" xpos="680.195" ypos="46.8192" zpos="-651.612" type="tt.mc.cm.rm.bondoffaith" GUID="OEBulTsTjk2CBM0J8P90nw==" />
