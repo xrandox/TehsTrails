@@ -6448,7 +6448,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="73" xpos="-480.904" ypos="1.37749" zpos="-138.557" type="tt.mc.cm.rm.waypoints" GUID="Z2hNEvfjaU6PtiYIuazX1w==" />
         <POI MapID="73" xpos="-475.854" ypos="-49.1174" zpos="163.147" type="tt.mc.cm.rm.points_of_interest" GUID="qMAXtbgtMkibN0XEJhab3Q==" />
         <POI MapID="73" xpos="-473.875" ypos="-48.8742" zpos="164.812" type="tt.mc.cm.wm.wpheart" GUID="SHVscZVgS0SW5sSbcTpcoA==" copy="[&amp;BKUBAAA=]" />
-        <POI MapID="73" xpos="-470.757" ypos="1.43648" zpos="-142.663" type="tt.mc.h.chm.start_heart" GUID="eNqgP7owkUahjOtSscoNKg==" info="Interact Quaggans, Kill skale, Kill groups of crows with AoE (Raptor 1)&#xA;&#xA;Not enough -&gt; continue on the trail and return right after picking up PoI" script-focus="Teh_HeartFollower(VRkLHC+xgk6DkJrY6i+hjA==)" />
+        <POI MapID="73" xpos="-470.757" ypos="1.43648" zpos="-142.663" type="tt.mc.h.chm.start_heart" GUID="eNqgP7owkUahjOtSscoNKg==" info="Interact Quaggans, Kill skale, Kill groups of crows by dashing through them with Warclaw if you have Wild Claws Mastery, or with Raptor 1 if you dont&#xA;&#xA;Not enough -&gt; continue on the trail and return right after picking up PoI" script-focus="Teh_HeartFollower(VRkLHC+xgk6DkJrY6i+hjA==)" />
         <POI MapID="73" xpos="-469.137" ypos="-0.307265" zpos="14.3546" type="tt.mc.h.chm.finish_heart" GUID="VRkLHC+xgk6DkJrY6i+hjA==" />
         <POI MapID="73" xpos="-469.983" ypos="0.177299" zpos="-11.6018" type="tt.mc.h.chm.interact" GUID="TVFIJxPlrUOlI5pD9+vhdA==" />
         <POI MapID="73" xpos="-467.286" ypos="-0.303519" zpos="9.79356" type="tt.mc.cm.mm.skimmer" GUID="zFOcf1u6D0aaG3U8t/DWUA==" />
