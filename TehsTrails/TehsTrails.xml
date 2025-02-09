@@ -1104,7 +1104,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="50" xpos="-270.84" ypos="-40.2104" zpos="-118.144" type="tt.mc.cm.rm.points_of_interest" GUID="TQ+J0dtjDkqKS6vKUmp5NQ=="/>
         <POI MapID="50" xpos="-257.412" ypos="37.2373" zpos="-356.816" type="tt.mc.cm.rm.points_of_interest" GUID="Os7W/CZm7E64U2NdEvbA7g=="/>
         <POI MapID="50" xpos="-177.523" ypos="20.8412" zpos="197.398" type="tt.mc.cm.rm.points_of_interest" GUID="riFwY/f62EWrWZtY9S0S/g=="/>
-        <POI MapID="50" xpos="-172.847" ypos="22.2342" zpos="191.532" type="tt.mc.cm.rm.shoppinglist" GUID="DI7sKnF7fE+bDiG0WihhWQ=="/>
         <POI MapID="50" xpos="-152.77" ypos="22.6334" zpos="264.867" type="tt.mc.cm.rm.points_of_interest" GUID="mJGbAoVcSk2Bc7Ksi8/KgQ=="/>
         <POI MapID="50" xpos="-133.858" ypos="23.3937" zpos="402.328" type="tt.mc.cm.rm.start" GUID="7F9Uq8QTKE2KMWVZr/udwA=="/>
         <POI MapID="50" xpos="-130.46" ypos="23.375" zpos="399.783" type="tt.mc.cm.mm.beetle" GUID="VFRGSIwS90+93B91rR38iw=="/>
@@ -1184,34 +1183,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="50" xpos="7710" ypos="100.209" zpos="1677" type="tt.mc.cm.rm.start" GUID="WHqm5gU59kOrzaI7zLXwUQ=="/>
         <POI MapID="50" xpos="7719" ypos="100.209" zpos="-1977" type="tt.mc.cm.rm.start" GUID="+2tOb0tn7kWXBiufvu+35A=="/>
         <POI MapID="50" xpos="7914" ypos="100.209" zpos="139" type="tt.mc.cm.rm.start" GUID="cYvpBirNqEiLmcwj/2TEXQ=="/>
-		
-		<!--============================================= MISTLOCK SANCTUARY MARKERS =============================================-->
-		<POI MapID="1206" xpos="-67.445" ypos="119.33" zpos="-45.0761" type="tt.mc.cm.rm.shoppinglist" GUID="6RvjfJwiuk2C3IoVxNCJFw=="/>
-		<POI MapID="1206" xpos="742" ypos="100.209" zpos="3668" type="tt.mc.cm.rm.start" GUID="swBX4FRbS0G5MOuFE38SVw=="/>
-		<POI MapID="1206" xpos="850.715" ypos="100.209" zpos="2485.07" type="tt.mc.cm.rm.start" GUID="YTgntnhJdEmlIelRwv6NCg=="/>
-		<POI MapID="1206" xpos="1368" ypos="100.209" zpos="1338" type="tt.mc.cm.rm.start" GUID="FcK8Ztf6EEKqiyDA2YOOZQ=="/>
-		<POI MapID="1206" xpos="1498" ypos="100.209" zpos="-2724" type="tt.mc.cm.rm.start" GUID="94B9p8yHmkSor4FAtvrqMw=="/>
-		<POI MapID="1206" xpos="1741" ypos="100.209" zpos="-766" type="tt.mc.cm.rm.start" GUID="YoDUOBYkLEmFQFGe7mHm/w=="/>
-		<POI MapID="1206" xpos="2093" ypos="100.209" zpos="-2185" type="tt.mc.cm.rm.start" GUID="ZCi6z/2bp0WgZJMUI1sq/Q=="/>
-		<POI MapID="1206" xpos="2763" ypos="100.209" zpos="2832" type="tt.mc.cm.rm.start" GUID="u1+Isyswq0yb41fWGcjHPg=="/>
-		<POI MapID="1206" xpos="2853" ypos="100.209" zpos="-120" type="tt.mc.cm.rm.start" GUID="b7ySZwDyOkKEPFMejyjamg=="/>
-		<POI MapID="1206" xpos="3841" ypos="100.209" zpos="1759" type="tt.mc.cm.rm.start" GUID="th/K3nxt00yrDXioIErJEw=="/>
-		<POI MapID="1206" xpos="4295" ypos="100.209" zpos="4010" type="tt.mc.cm.rm.start" GUID="n0G8gfVkx0KfkSW8oFfENw=="/>
-		<POI MapID="1206" xpos="4723" ypos="100.209" zpos="2231" type="tt.mc.cm.rm.start" GUID="gDhEiAAmSkKSANN6638t7w=="/>
-		<POI MapID="1206" xpos="5202" ypos="100.209" zpos="4350" type="tt.mc.cm.rm.start" GUID="sl2rQrwJ0E6kEH/ypSo38g=="/>
-		<POI MapID="1206" xpos="5642" ypos="100.209" zpos="3768" type="tt.mc.cm.rm.start" GUID="h+gQ6Nv7mEGDqRK/uVYR2w=="/>
-		<POI MapID="1206" xpos="5806" ypos="100.209" zpos="5149" type="tt.mc.cm.rm.start" GUID="vFTRU4jTWkC5PY29Wgbvjw=="/>
-		<POI MapID="1206" xpos="6608" ypos="100.209" zpos="2460" type="tt.mc.cm.rm.start" GUID="GbzbQLJrC06iiYZNST5SqQ=="/>
-		<POI MapID="1206" xpos="8850" ypos="100.209" zpos="3546" type="tt.mc.cm.rm.start" GUID="/ablmuHuukytauFD3s3xPA=="/>
-		<POI MapID="1206" xpos="8859" ypos="100.209" zpos="-108" type="tt.mc.cm.rm.start" GUID="zbqvPNV5TEmQiBVWbQRAEQ=="/>
-		<POI MapID="1206" xpos="9054" ypos="100.209" zpos="2008" type="tt.mc.cm.rm.start" GUID="uoZZBr6O/EaSXabKMFC9zA=="/>
-		<POI MapID="1206" xpos="-150" ypos="100.209" zpos="-3980" type="tt.mc.cm.rm.start" GUID="A8rb2SmVQkC4C7Q64qmoIQ=="/>
-		<POI MapID="1206" xpos="-1285.72" ypos="100.209" zpos="2357.07" type="tt.mc.cm.rm.start" GUID="gDenphN490SzQgpulMcJLg=="/>
-		<POI MapID="1206" xpos="-1676" ypos="100.209" zpos="-4422" type="tt.mc.cm.rm.start" GUID="1Hh1lHWf3k6Z+0RMboU3rA=="/>
-		<POI MapID="1206" xpos="-2160.72" ypos="100.209" zpos="3620.07" type="tt.mc.cm.rm.start" GUID="wyin3StQl0exO1eBfXJsyg=="/>
-		<POI MapID="1206" xpos="-2775.72" ypos="100.209" zpos="-1015.07" type="tt.mc.cm.rm.start" GUID="jeQ2fIgBOUmf2dVD5DSAVg=="/>
-		<POI MapID="1206" xpos="-3989.72" ypos="100.209" zpos="765.07" type="tt.mc.cm.rm.start" GUID="Fj8nbSgM2EWo75azjgSv3w=="/>
-		<POI MapID="1206" xpos="-4331.72" ypos="100.209" zpos="-1127.07" type="tt.mc.cm.rm.start" GUID="QFRuPkwfHk6H76umhyBlVA=="/>
 		
 		
 		<!--============================================= RATA SUM MARKERS =============================================-->
