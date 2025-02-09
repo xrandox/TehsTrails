@@ -10595,26 +10595,26 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="cCQS9odwAESszFcF99T7Pg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FireheartRise\FireheartRise-Segment-4.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="NJlhdSX4XEK5pcErmfHXcg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FireheartRise\FireheartRise-Segment-5.trl" />
 		<!--========= Trail Highlight Markers for FrostgorgeSound =========-->
-		<POI MapID="30" xpos="741.8621" ypos="8.021229" zpos="-642.4832" type="tt.mc.mt.th.m" GUID="msF9WjfcWEab7eG4RuV70w==" script-trigger="Teh_HighlightTrailSegment(S8+gxAkSIUepm3HWrVu0Rw==)" />
-		<POI MapID="30" xpos="-863.5596" ypos="36.43415" zpos="-368.887" type="tt.mc.mt.th.m" GUID="BeYjmIxHR0KtdA9PYK3O1A==" script-trigger="Teh_HighlightTrailSegment(S4jGnQB3K0u9D6z4Mfu4nQ==)" />
-		<POI MapID="30" xpos="-227.1786" ypos="53.13269" zpos="-828.69183" type="tt.mc.mt.th.m" GUID="ufCV+i5jI0iKvU1AaMnx9A==" script-trigger="Teh_HighlightTrailSegment(NvFolX9OYUqpFKK9XTuAoA==)" />
-		<POI MapID="30" xpos="-630.1804" ypos="-93.97076" zpos="-639.9044" type="tt.mc.mt.th.m" GUID="ZNJaHwSxNk6SRkTKs5UKJg==" script-trigger="Teh_HighlightTrailSegment(YGdhxZ2fI0mpfUomCJe4Kg==)" />
-		<POI MapID="30" xpos="-889.6003" ypos="13.81726" zpos="878.6307" type="tt.mc.mt.th.m" GUID="gcScya+EFEGgGvtV+36Ybw==" script-trigger="Teh_HighlightTrailSegment(QqnBF3pdfkqx7S4Y7k4DiQ==)" />
-		<POI MapID="30" xpos="-301.7408" ypos="1.591536" zpos="496.3492" type="tt.mc.mt.th.m" GUID="mSvxdrmvWU+g1n49F+SttA==" script-trigger="Teh_HighlightTrailSegment(CFFWx2zcaEGYCv6m2R9Lbg==)" />
-		<POI MapID="30" xpos="-52.61195" ypos="-39.32774" zpos="168.426" type="tt.mc.mt.th.m" GUID="e/2gMdCrxEajycde03WScw==" script-trigger="Teh_HighlightTrailSegment(QwFExhqLHUylbiZbNyvq+A==)" />
-		<POI MapID="30" xpos="297.0915" ypos="-120.1316" zpos="654.0679" type="tt.mc.mt.th.m" GUID="ui7jZbUAdkezSbqFKvu4Og==" script-trigger="Teh_HighlightTrailSegment(brAcp1wJ0E26/eY2K4BLUg==)" />
-		<POI MapID="30" xpos="735.5807" ypos="126.2179" zpos="758.262" type="tt.mc.mt.th.m" GUID="5Lj40chz9ESFEBVoqGRCCA==" script-trigger="Teh_HighlightTrailSegment(Nzm3NK7M0EC8NHHHalq/7Q==)" />
+		<POI MapID="30" xpos="741.8621" ypos="8.021229" zpos="-642.4832" type="tt.mc.mt.th.m" GUID="3ZvOGAo9LES5F9CwPCsDDg==" script-trigger="Teh_HighlightTrailSegment(79C19KzOgUukcFMN8KTgjQ==)" />
+		<POI MapID="30" xpos="-863.5596" ypos="36.43415" zpos="-368.887" type="tt.mc.mt.th.m" GUID="J4PfLGQDTkyTNakZyI4hRg==" script-trigger="Teh_HighlightTrailSegment(usALW4SdB0SfXW6291AH+g==)" />
+		<POI MapID="30" xpos="-227.1786" ypos="53.13269" zpos="-828.69183" type="tt.mc.mt.th.m" GUID="ygzbm4c2N0OraTqvfK+nnQ==" script-trigger="Teh_HighlightTrailSegment(Wkq3XtrNtEWg3JGhUcu4KA==)" />
+		<POI MapID="30" xpos="-630.1804" ypos="-93.97076" zpos="-639.9044" type="tt.mc.mt.th.m" GUID="h59mKTX7CE+0bhvx3kkZkQ==" script-trigger="Teh_HighlightTrailSegment(RKnsuxa14U2nRX1KxH019Q==)" />
+		<POI MapID="30" xpos="-889.6003" ypos="13.81726" zpos="878.6307" type="tt.mc.mt.th.m" GUID="ZKbC3Zr0fEmQdvMmwnOJQw==" script-trigger="Teh_HighlightTrailSegment(5fOfTR37aEaU6uc4M41Yww==)" />
+		<POI MapID="30" xpos="-301.7408" ypos="1.591536" zpos="496.3492" type="tt.mc.mt.th.m" GUID="GlHn5rsqc0KBnHb94ZuYgQ==" script-trigger="Teh_HighlightTrailSegment(U9njYba/ZE+7R6Zh2KTaSA==)" />
+		<POI MapID="30" xpos="-52.61195" ypos="-39.32774" zpos="168.426" type="tt.mc.mt.th.m" GUID="De4Ylo5XGEKIVWQS4KSLKA==" script-trigger="Teh_HighlightTrailSegment(hCETMv7ojkiw0EsygkZWaQ==)" />
+		<POI MapID="30" xpos="297.0915" ypos="-120.1316" zpos="654.0679" type="tt.mc.mt.th.m" GUID="GUAr+M0NgkqzdTBYyVpltg==" script-trigger="Teh_HighlightTrailSegment(TxmPuDffc0aFWxhitIuplg==)" />
+		<POI MapID="30" xpos="549.1901" ypos="30.8229" zpos="-121.8915" type="tt.mc.mt.th.m" GUID="iBkF0KDN2EOg4MFI5YAGzQ==" script-trigger="Teh_HighlightTrailSegment(PQCtWiJqB0mw56//YUjnYQ==)" />
 		<!--========= Highlight Trail Segments for FrostgorgeSound =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="Up7TT/FE5EqykqtByv7vCg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-0.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="S8+gxAkSIUepm3HWrVu0Rw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-1.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="S4jGnQB3K0u9D6z4Mfu4nQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-2.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="NvFolX9OYUqpFKK9XTuAoA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-3.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="YGdhxZ2fI0mpfUomCJe4Kg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-4.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="QqnBF3pdfkqx7S4Y7k4DiQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-5.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="CFFWx2zcaEGYCv6m2R9Lbg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-6.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="QwFExhqLHUylbiZbNyvq+A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-7.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="brAcp1wJ0E26/eY2K4BLUg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-8.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="Nzm3NK7M0EC8NHHHalq/7Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-9.trl" />
+		<Trail type="tt.mc.mt.th.t1" GUID="CeIEgSlQRkWcKP+LUvGp2Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-0.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="79C19KzOgUukcFMN8KTgjQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-1.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="usALW4SdB0SfXW6291AH+g==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-2.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="Wkq3XtrNtEWg3JGhUcu4KA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-3.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="RKnsuxa14U2nRX1KxH019Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-4.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="5fOfTR37aEaU6uc4M41Yww==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-5.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="U9njYba/ZE+7R6Zh2KTaSA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-6.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="hCETMv7ojkiw0EsygkZWaQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-7.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="TxmPuDffc0aFWxhitIuplg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-8.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="PQCtWiJqB0mw56//YUjnYQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\FrostgorgeSound\FrostgorgeSound-Segment-9.trl" />
 		<!--========= Trail Highlight Markers for GendarranFields =========-->
 		<POI MapID="24" xpos="454.3254" ypos="0.665176" zpos="356.877" type="tt.mc.mt.th.m" GUID="3QJajpfqiEGrlamPhyurQA==" script-trigger="Teh_HighlightTrailSegment(7cBaESjn50S+G6Hnp519QQ==)" />
 		<POI MapID="24" xpos="-212.7171" ypos="-23.15686" zpos="-243.9285" type="tt.mc.mt.th.m" GUID="MZLQoKYWvkO75QfNYUXN/w==" script-trigger="Teh_HighlightTrailSegment(0dGUSQa0l0+sETuR33Z78A==)" />
