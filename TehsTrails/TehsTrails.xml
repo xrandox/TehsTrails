@@ -10802,7 +10802,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="39" xpos="283.7865" ypos="43.97554" zpos="632.9218" type="tt.mc.mt.th.m" GUID="9Kam2A2kDEKa+lZx9cHO7Q==" script-trigger="Teh_HighlightTrailSegment(9ZdQ6OQUTEeypFuYQYPO+w==)" />
 		<POI MapID="39" xpos="752.4572" ypos="-1.051297" zpos="439.5379" type="tt.mc.mt.th.m" GUID="z1zOxYvizUS379OClUkgOQ==" script-trigger="Teh_HighlightTrailSegment(AGGsAJu+LUqQ/4ow2N3uPQ==)" />
 		<POI MapID="39" xpos="222.2133" ypos="-42.57045" zpos="-348.5358" type="tt.mc.mt.th.m" GUID="LEH2r2uBe0qrS8FAs2QkNg==" script-trigger="Teh_HighlightTrailSegment(R9RJspAbqE2LM3YufU7lPg==)" />
-		<POI MapID="39" xpos="453.5614" ypos="-48.15685" zpos="-106.899" type="tt.mc.mt.th.m" GUID="j5V4ZQwpsUmyYVROBBZx1Q==" script-trigger="Teh_HighlightTrailSegment(8ysihi/ULUqGUsHXURYOeA==)" />
+		<POI MapID="39" xpos="453.5614" ypos="-48.15685" zpos="-106.899" triggerRange="25" type="tt.mc.mt.th.m" GUID="j5V4ZQwpsUmyYVROBBZx1Q==" script-trigger="Teh_HighlightTrailSegment(8ysihi/ULUqGUsHXURYOeA==)" />
 		<POI MapID="39" xpos="1087.488" ypos="7.926789" zpos="87.01062" type="tt.mc.mt.th.m" GUID="drWCWaZgV0uQbQM+LOkZow==" script-trigger="Teh_HighlightTrailSegment(ahB/+j4CeUSzWLZOH24d7g==)" />
 		<POI MapID="39" xpos="-300.2475" ypos="10.46915" zpos="-284.5611" type="tt.mc.mt.th.m" GUID="9eHGknKRcUaVnG1+5iE4EA==" script-trigger="Teh_HighlightTrailSegment(DpTbqaG33EWZiC4dEsXjmg==)" />
 		<!--========= Highlight Trail Segments for MountMaelstrom =========-->
