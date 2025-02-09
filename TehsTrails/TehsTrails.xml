@@ -10936,19 +10936,20 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="Vy/R1mRd0kqyfs7uDTsm9A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\TimberlineFalls\TimberlineFalls-Segment-3.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="8EfawPHsRUG3Rvyu+eNtww==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\TimberlineFalls\TimberlineFalls-Segment-4.trl" />
 		<!--========= Trail Highlight Markers for WayfarerFoothills =========-->
-		<POI MapID="28" xpos="-465.8238" ypos="32.78972" zpos="-1256.897" type="tt.mc.mt.th.m" GUID="OW1wZyq8UEC0pH5Hup2e+A==" script-trigger="Teh_HighlightTrailSegment(QTe2YgWGK0aGHtt+/LEqew==)" />
-		<POI MapID="28" xpos="232.2924" ypos="48.04396" zpos="-661.9515" type="tt.mc.mt.th.m" GUID="HMRPeom8okuWm24MuPosWA==" script-trigger="Teh_HighlightTrailSegment(U5tPtOV42USpnkQ2z5eYgA==)" />
-		<POI MapID="28" xpos="483.0828" ypos="15.64589" zpos="-1049.126" type="tt.mc.mt.th.m" GUID="D+JJdeHpP0+opLZaGXCnNg==" script-trigger="Teh_HighlightTrailSegment(a7zuYoAKzkyCEYh5m9HWIg==)" />
-		<POI MapID="28" xpos="49.65531" ypos="95.89803" zpos="286.3901" type="tt.mc.mt.th.m" GUID="hwJFbxUIYE6+5T5UNXBPTw==" script-trigger="Teh_HighlightTrailSegment(1z0lbjb1d0isoiFoDfwepQ==)" />
-		<POI MapID="28" xpos="441.7828" ypos="-0.6805467" zpos="-823.3734" type="tt.mc.mt.th.m" GUID="8fP0NMMU4EaTdB+CUE18aw==" script-trigger="Teh_HighlightTrailSegment(/BKZUdAHmUqNOZd1U4O6zQ==)" />
-		<POI MapID="28" xpos="418.8605" ypos="148.0801" zpos="1197.36" type="tt.mc.mt.th.m" GUID="RVfy6sFJqEi2Kl33NgOQUQ==" script-trigger="Teh_HighlightTrailSegment(dFPot4nql0O5M/VOkqSwxg==)" />
+		<POI MapID="28" xpos="-465.8238" ypos="32.78972" zpos="-1256.897" type="tt.mc.mt.th.m" GUID="5lMWfQ4FMkKRlQ4CcGRxzQ==" script-trigger="Teh_HighlightTrailSegment(R0NLp82vvUW+RJdzvOvObw==)" />
+		<POI MapID="28" xpos="232.2924" ypos="48.04396" zpos="-661.9515" type="tt.mc.mt.th.m" GUID="PekScpGN4EiY2DzNzFpuoA==" script-trigger="Teh_HighlightTrailSegment(PX4lZq5EE02PUmfY71vv7Q==)" />
+		<POI MapID="28" xpos="483.0828" ypos="15.64589" zpos="-1049.126" type="tt.mc.mt.th.m" GUID="rDOK++OF6Um3Ho+zzGRSjQ==" script-trigger="Teh_HighlightTrailSegment(dWTPVRTU5keYmD3/xp3z1A==)" />
+		<POI MapID="28" xpos="441.7828" ypos="-0.6805467" zpos="-823.3734" type="tt.mc.mt.th.m" GUID="M+IUQ5jol0qIBhtfdBgVrA==" script-trigger="Teh_HighlightTrailSegment(/CGrITm2bUSbKf8QRU0GWw==)" />
+		<POI MapID="28" xpos="49.65531" ypos="95.89803" zpos="286.3901" type="tt.mc.mt.th.m" GUID="htSR+HYIf0ajDt+0nfb4yA==" script-trigger="Teh_HighlightTrailSegment(c9WW+5wV3EK/Ug7Ya468CA==)" />
+		<POI MapID="28" xpos="418.8605" ypos="148.0801" zpos="1197.36" type="tt.mc.mt.th.m" GUID="QXPkaJoLb0S8TpPIjB1Z7A==" script-trigger="Teh_HighlightTrailSegment(sasi1/ERq02pJtNTiR/dbA==)" />
 		<!--========= Highlight Trail Segments for WayfarerFoothills =========-->
-		<Trail type="tt.mc.mt.th.t1" GUID="sRwV2kI4P0akKk6K4vk2wg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-0.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="QTe2YgWGK0aGHtt+/LEqew==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-1.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="U5tPtOV42USpnkQ2z5eYgA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-2.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="a7zuYoAKzkyCEYh5m9HWIg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-3.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="1z0lbjb1d0isoiFoDfwepQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-4.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="/BKZUdAHmUqNOZd1U4O6zQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-5.trl" />
-		<Trail type="tt.mc.mt.th.t" GUID="dFPot4nql0O5M/VOkqSwxg==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-6.trl" />
+		<Trail type="tt.mc.mt.th.t1" GUID="ufHLeWEGiEu9Vdo9ypp3HQ==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-0.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="R0NLp82vvUW+RJdzvOvObw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-1.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="PX4lZq5EE02PUmfY71vv7Q==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-2.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="dWTPVRTU5keYmD3/xp3z1A==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-3.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="/CGrITm2bUSbKf8QRU0GWw==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-4.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="c9WW+5wV3EK/Ug7Ya468CA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-5.trl" />
+		<Trail type="tt.mc.mt.th.t" GUID="sasi1/ERq02pJtNTiR/dbA==" trailData="Data\TehsTrails\TyriaTrails\completiontrails\WayfarerFoothills\WayfarerFoothills-Segment-6.trl" />
+
 	</POIs>
 </OverlayData>
