@@ -33,6 +33,21 @@ preload(Teh.trailhighlighting.trailCategories, Teh.trailhighlighting.allTrails)
 preload(Teh.trailhighlighting.firstTrailCategories, Teh.trailhighlighting.firstTrail)
 preload(Teh.trailhighlighting.mainTrailCategories, Teh.trailhighlighting.mainTrails)
 
+if (#Teh.trailhighlighting.allTrails == 0) then
+    Debug:Warn("No trails found for highlighting on the current map: " .. Mumble.CurrentMap.Id)
+
+    if (#Teh.trailhighlighting.mainTrails == 0) then
+        Debug:Warn("No main trails found either")
+    else
+        Debug:Warn("Main trails found, switching to default mode")
+        for _, trail in pairs(Teh.trailhighlighting.mainTrails) do
+            trail.InGameVisibility = true
+            trail.MapVisibility = true
+            trail.MiniMapVisibility = Teh_GetBool('minimapToggled')
+        end
+    end
+    return
+end
 --#endregion
 
 --#region LOCAL FUNCTIONS
