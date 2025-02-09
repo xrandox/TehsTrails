@@ -1,5 +1,6 @@
 -- Constants
 local CATEGORY = "tt.mc.cm.rm.shoppinglist"
+local worldCategory = World:CategoryByType(CATEGORY)
 local ITEM_NAMES = {
     "Caledon Lavender",
     "Hylek Armor",
@@ -40,6 +41,7 @@ local function spawnShoppingList()
         copy = ITEM_NAMES[i],
         ["copy-message"] = "Shopping list item copied to clipboard"
     }
+    worldCategory:Show()
     Teh.shoppinglist.currentMarker = Pack:CreateMarker(attributes)
     Teh.shoppinglist.currentMarker:SetTexture("Data/TehsTrails/Markers/shoppinglist.png")
     Teh.shoppinglist.shown = true
@@ -50,6 +52,7 @@ local function removeShoppingList()
     Teh.shoppinglist.currentMarker = nil
     Teh.shoppinglist.currentItem = 1
     Teh.shoppinglist.shown = false
+    worldCategory:Hide()
 end
 
 function Teh_ShoppingList(marker, autoTriggered)
