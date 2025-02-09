@@ -110,23 +110,6 @@ Teh.trailcolors = {
 }
 
 Debug:Watch("Teh_TrailColors", Teh.trailcolors)
-for trailType, typeTable in pairs(Teh.trailcolors.trailtypes) do
-    Debug:Print("Checking for trails of type " .. typeTable["menuName"])
-    for _, categoryType in ipairs(typeTable["categoryTypes"]) do
-        Debug:Print("Checking category " .. categoryType)
-        local category = World:CategoryByType(categoryType)
-        if (category ~= nil) then
-            Debug:Print("Found category " .. categoryType)
-            local trails = category:GetTrails(true)
-            if (trails ~= nil) then
-                for _, trail in ipairs(trails) do
-                    Debug:Print("Found trail " .. trail.Guid)
-                    table.insert(Teh.trailcolors.trailtypes[trailType]["trails"], trail)
-                end
-            end
-        end
-    end
-end
 
 -- Change the color of the main trail to the requested color name
 function Teh_ChangeColor(trailType, colorName)
@@ -162,7 +145,23 @@ function Teh_ChangeColor(trailType, colorName)
     end
 end
 
-Teh_ChangeColor("main", Teh.storage.trailColorTable["main"])
-Teh_ChangeColor("hp", Teh.storage.trailColorTable["hp"])
-Teh_ChangeColor("heart", Teh.storage.trailColorTable["heart"])
-Teh_ChangeColor("tos", Teh.storage.trailColorTable["tos"])
+for trailType, typeTable in pairs(Teh.trailcolors.trailtypes) do
+    local foundTrail = false
+    for _, categoryType in ipairs(typeTable["categoryTypes"]) do
+        local category = World:CategoryByType(categoryType)
+        if (category ~= nil) then
+            local trails = category:GetTrails(true)
+            if (trails ~= nil) then
+                for _, trail in ipairs(trails) do
+                    table.insert(Teh.trailcolors.trailtypes[trailType]["trails"], trail)
+                    foundTrail = true
+                end
+            end
+        end
+    end
+    if (not foundTrail) then
+        Debug:Warn("No trails found for " .. trailType)
+    else
+        Teh_ChangeColor(trailType, Teh.storage.trailColorTable[trailType])
+    end
+end
