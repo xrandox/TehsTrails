@@ -45,6 +45,10 @@ local function previousTrailHighlight(menu)
     Teh_ChangeHighlightTrailSegment(-1)
 end
 
+local function resetCharacterTrailHighlighting(menu)
+    Teh_ResetAllMapTrailsForCharacter()
+end
+
 local function newToSColor(menu)
     -- clear any other checked boxes
     for index, value in ipairs(Teh.trailcolors.trailtypes["tos"]["colors"]) do
@@ -212,10 +216,10 @@ local grayed = highlightSettings:Add("Gray Out Trail", grayOutTrail, true, Teh_G
 local invisible = highlightSettings:Add("Invisible Trail", invisibleTrail, true, Teh_GetBool("trailHighlightingInvisible"), "When enabled, the trail will be invisible except for the highlighted segment")
 local showOnMap = highlightSettings:Add("Show Unhighlighted Trails on Map", trailShowOnMapStill, true, Teh_GetBool("trailHighlightingShowOnMapStill"), "When enabled, the non-highlighted segments will still be shown on the map")
 local highlightFunctions = trailHighlighting:Add("Highlight Functions", nil, false, false, "Functions to help with trail highlighting")
-local rth = highlightFunctions:Add("Reset Trail Highlighting", resetTrailHighlighting, true, false, "Resets the trail highlighting feature to the beginning of the trail")
-local nth = highlightFunctions:Add("Next Trail Highlight", nextTrailHighlight, true, false, "Cycles the highlighted trail to next trail segment (not always in the expected order)")
-local pth = highlightFunctions:Add("Previous Trail Highlight", previousTrailHighlight, true, false, "Cycles the highlighted trail to previous trail segment (not always in the expected order)")
-
+highlightFunctions:Add("Reset Trail Highlighting", resetTrailHighlighting, true, false, "Resets the trail highlighting feature to the beginning of the trail")
+highlightFunctions:Add("Next Trail Highlight", nextTrailHighlight, true, false, "Cycles the highlighted trail to next trail segment (not always in the expected order)")
+highlightFunctions:Add("Previous Trail Highlight", previousTrailHighlight, true, false, "Cycles the highlighted trail to previous trail segment (not always in the expected order)")
+highlightFunctions:Add("Reset Trail Highlight for " .. Mumble.PlayerCharacter.Name, resetCharacterTrailHighlighting, true, false, "WARNING: Resets trail highlighting on ALL maps for the current character")
 
 -- Color menu
 local colorMenu = mainMenu:Add("Select Trail Colors", nil, false, false, "Select colors for each of the different trail types")

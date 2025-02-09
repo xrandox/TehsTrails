@@ -246,6 +246,25 @@ function Teh_ToggleTrailHighlighting()
     end
 end
 
+function Teh_ResetAllMapTrailsForCharacter()
+    Debug:Print("Resetting all map trails for character")
+    local playerName = Mumble.PlayerCharacter.Name
+
+    for _, map in pairs(Teh.storage.trailHighlightingStates) do
+        if (map[playerName]) then
+            map[playerName] = nil
+        end
+    end
+
+    Teh.trailhighlighting.activeTrail = Teh.trailhighlighting.firstTrail[1]
+    Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
+    highlightActiveTrail()
+    if Teh.trailhighlighting.warningmarker then
+        Teh.trailhighlighting.warningmarker.InGameVisibility = false
+        Teh.trailhighlighting.warningmarker:Remove()
+    end
+end
+
 --#endregion
 
 --#region FINAL INIT
