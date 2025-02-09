@@ -206,15 +206,15 @@ end
 -- Creating Menu
 local mainMenu = Menu:Add("Tehs Trails", nil)
 
-local stut = mainMenu:Add("Show/Hide Tutorial", toggleTutorial, false, false, "Shows/Hides the pack tutorial. Make sure you're in a flat, open space!")
+mainMenu:Add("Show/Hide Tutorial", toggleTutorial, false, false, "Shows/Hides the pack tutorial. Make sure you're in a flat, open space!")
 
 local trailHighlighting = mainMenu:Add("Trail Highlighting", nil, false, false, "Change various settings for trail highlighting")
-local eth = trailHighlighting:Add("Enable Trail Highlighting", enableTrailHighlighting, true, Teh_GetBool("trailHighlighting"), "Enables/Disables the trail highlighting feature")
+trailHighlighting:Add("Enable Trail Highlighting", enableTrailHighlighting, true, Teh_GetBool("trailHighlighting"), "Enables/Disables the trail highlighting feature")
 local highlightSettings = trailHighlighting:Add("Highlight Settings", nil, false, false, "Settings for the trail highlighting feature")
-local transparency = highlightSettings:Add("Transparency", transparentTrail, true, Teh_GetBool("trailHighlightingTransparency"), "When enabled, the trail will be transparent except for the highlighted segment")
-local grayed = highlightSettings:Add("Gray Out Trail", grayOutTrail, true, Teh_GetBool("trailHighlightingGray"), "When enabled, the trail will be grayed out except for the highlighted segment")
-local invisible = highlightSettings:Add("Invisible Trail", invisibleTrail, true, Teh_GetBool("trailHighlightingInvisible"), "When enabled, the trail will be invisible except for the highlighted segment")
-local showOnMap = highlightSettings:Add("Show Unhighlighted Trails on Map", trailShowOnMapStill, true, Teh_GetBool("trailHighlightingShowOnMapStill"), "When enabled, the non-highlighted segments will still be shown on the map")
+highlightSettings:Add("Transparency", transparentTrail, true, Teh_GetBool("trailHighlightingTransparency"), "When enabled, the trail will be transparent except for the highlighted segment")
+highlightSettings:Add("Gray Out Trail", grayOutTrail, true, Teh_GetBool("trailHighlightingGray"), "When enabled, the trail will be grayed out except for the highlighted segment")
+highlightSettings:Add("Invisible Trail", invisibleTrail, true, Teh_GetBool("trailHighlightingInvisible"), "When enabled, the trail will be invisible except for the highlighted segment")
+highlightSettings:Add("Show Unhighlighted Trails on Map", trailShowOnMapStill, true, Teh_GetBool("trailHighlightingShowOnMapStill"), "When enabled, the non-highlighted segments will still be shown on the map")
 local highlightFunctions = trailHighlighting:Add("Highlight Functions", nil, false, false, "Functions to help with trail highlighting")
 highlightFunctions:Add("Reset Trail Highlighting", resetTrailHighlighting, true, false, "Resets the trail highlighting feature to the beginning of the trail")
 highlightFunctions:Add("Next Trail Highlight", nextTrailHighlight, true, false, "Cycles the highlighted trail to next trail segment (not always in the expected order)")
@@ -277,9 +277,9 @@ heartFollowerMenu:Add("Enable Heart Info Following", heartFollower, true, Teh_Ge
 heartFollowerMenu:Add("Enable Visible Heart Pointer", heartPointer, true, Teh_GetBool("followerVisibleToggled"), "Points to the end of the heart to make it easier to get back on the trail after finishing a heart")
 
 -- Other options
-local ewh = mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_GetBool("highlightToggled"), "Adds a highlight around the waypoint you are supposed to teleport to. Highly recommended to leave this on")
-local rmh = mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_GetBool("bounceToggled"), "Adds a highlight and bounce effect to the route marker you are supposed to follow")
-local ami = mainMenu:Add("Enable Alternate Mount Icons", alternateMounts, true, Teh_GetBool("alternateMounts"), "Switches out the custom mount icons for the Anet icons")
-local ssl = mainMenu:Add("Open/Close Shopping List", openShoppingList, false, false, "Opens/Closes the shopping list with the items to buy for trading post hearts. Open away from NPCs!")
+mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_GetBool("highlightToggled"), "Adds a highlight around the waypoint you are supposed to teleport to. Highly recommended to leave this on")
+mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_GetBool("bounceToggled"), "Adds a highlight and bounce effect to the route marker you are supposed to follow")
+mainMenu:Add("Enable Alternate Mount Icons", alternateMounts, true, Teh_GetBool("alternateMounts"), "Switches out the custom mount icons for the Anet icons")
+mainMenu:Add("Open/Close Shopping List", openShoppingList, false, false, "Opens/Closes the shopping list with the items to buy for trading post hearts. Open away from NPCs!")
 -- Script reset
-local ras = mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked, false, false, "Resets all currently running scripts in case there is a malfunction")
+mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked, false, false, "Resets all currently running scripts in case there is a malfunction")
