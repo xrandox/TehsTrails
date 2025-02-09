@@ -764,6 +764,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 	<POIs>
+		<!-- Mistlock Sanctuary Marker to load texture for Global Start Markers -->
+		<POI MapID="1206" xpos="0" ypos="0" zpos="0" GUID="9f+xNo17zk6YraZD9bTzcQ==" type="tt.mc.cm.rm.start" mapVisibility="0" miniMapVisibility="0" inGameVisibility="0" />
 	<!--=======================================================================================================================================================================-->	
 	<!--==                                                                              CORE TYRIA                                                                           ==-->
 	<!--=======================================================================================================================================================================-->

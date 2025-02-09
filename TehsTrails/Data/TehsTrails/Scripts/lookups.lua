@@ -585,5 +585,23 @@ Teh.lookups = {
                 Height = 39936
             }
         },
+        [1206] = {
+            ContinentRect = {
+                BottomRight = { x = 48416, y = 35568},
+                BottomLeft = { x = 46368, y = 35568},
+                TopLeft = { x = 46368, y = 33520 },
+                TopRight = { x = 48416, y = 33520},
+                Width = 2048,
+                Height = 2048,
+            },
+            MapRect = {
+                BottomLeft = { x = -12288, y = -12288 },
+                BottomRight = { x = 12288, y = -12288 },
+                TopRight = { x = 12288, y = 12288 },
+                TopLeft = { x = -12288, y = 12288 },
+                Width = 24576,
+                Height = 24576,
+            },
+        },
     }
 }
