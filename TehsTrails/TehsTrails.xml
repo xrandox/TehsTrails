@@ -10819,7 +10819,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="19" xpos="-577.0932" ypos="0.3871562" zpos="60.75156" type="tt.mc.mt.th.m" GUID="kSXKMOE5WkGoF6UOVdJ8hg==" script-trigger="Teh_HighlightTrailSegment(aHj0+OZyp024bTND53pMYg==)" />
 		<POI MapID="19" xpos="-311.6032" ypos="68.58356" zpos="92.44691" type="tt.mc.mt.th.m" GUID="EDL/odGStkWIwWnT3rTHBA==" script-trigger="Teh_HighlightTrailSegment(SqyGPsKCT0upFHIkBw8vmw==)" />
 		<POI MapID="19" xpos="1.154497" ypos="49.777607" zpos="154.47754" type="tt.mc.mt.th.m" GUID="+bdxu5jKxEacceyUpqrYMA==" script-trigger="Teh_HighlightTrailSegment(xDxxd5siO0CHmojfT8lbQw==)" />
-		<POI MapID="19" xpos="495.4686" ypos="0.741573" zpos="-298.2446" type="tt.mc.mt.th.m" GUID="PZ1QPqNjq0ytw4CdPTsCfg==" script-trigger="Teh_HighlightTrailSegment(fTNiu2vaakO5Fw6EuEXsWA==)" />
+		<POI MapID="19" xpos="495.4686" ypos="0.741573" zpos="-298.2446" type="tt.mc.mt.th.m" triggerRange="35" GUID="PZ1QPqNjq0ytw4CdPTsCfg==" script-trigger="Teh_HighlightTrailSegment(fTNiu2vaakO5Fw6EuEXsWA==)" />
 		<POI MapID="19" xpos="-827.8245" ypos="53.01759" zpos="-501.3555" type="tt.mc.mt.th.m" GUID="x8mLaUrfXU+B4KVVl26lvw==" script-trigger="Teh_HighlightTrailSegment(hRymD+wwPkSerh47iJ+2qw==)" />
 		<POI MapID="19" xpos="-62.31987" ypos="18.26995" zpos="-32.79432" type="tt.mc.mt.th.m" GUID="yzT4C78sQkmF9pEtsjzYbQ==" script-trigger="Teh_HighlightTrailSegment(h/w7cqWick6zHwpL9HbdFQ==)" />
 		<!--========= Highlight Trail Segments for PlainsofAshford =========-->
