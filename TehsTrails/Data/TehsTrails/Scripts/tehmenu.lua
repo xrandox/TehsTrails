@@ -288,5 +288,11 @@ mainMenu:Add("Enable Waypoint Highlights", waypointHighlight, true, Teh_GetBool(
 mainMenu:Add("Enable Route Marker Highlights", routeMarkerHighlight, true, Teh_GetBool("bounceToggled"), "Adds a highlight and bounce effect to the route marker you are supposed to follow")
 mainMenu:Add("Enable Alternate Mount Icons", alternateMounts, true, Teh_GetBool("alternateMounts"), "Switches out the custom mount icons for the Anet icons")
 mainMenu:Add("Open/Close Shopping List", openShoppingList, false, false, "Opens/Closes the shopping list with the items to buy for trading post hearts. Open away from NPCs!")
+
+local copyMenu = mainMenu:Add("Copy Links", nil, false, false, "This menu contains links to various Teh's Trails resources, clicking them will copy them to your clipboard")
+copyMenu:Add("Teh's Trails Discord", function(menu) User.SetClipboard("https://discord.gg/bJV6VXT") end, false, false, "Copy the link to the Teh's Trails discord server")
+copyMenu:Add("BlishHUD Discord", function(menu) User.SetClipboard("https://discord.gg/FYKN3qh") end, false, false, "Copy the link to the BlishHUD discord server")
+copyMenu:Add("Teh's Ko-fi", function(menu) User.SetClipboard("https://ko-fi.com/im_xteh") end, false, false, "Copy the link to Teh's Ko-fi page")
+
 -- Script reset
 mainMenu:Add("  [  RESET ALL SCRIPTS  ]  ", resetClicked, false, false, "Resets all currently running scripts in case there is a malfunction")
