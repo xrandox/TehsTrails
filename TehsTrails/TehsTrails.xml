@@ -10323,43 +10323,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.hot.mt.th.t" GUID="knqX0fxbFEu1kz5+VBFoMQ==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-5.trl" />
 		<Trail type="tt.hot.mt.th.t" GUID="wSKLm8+UMUyba5Q1P20aeA==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-6.trl" />
 		<Trail type="tt.hot.mt.th.t" GUID="4tR2FUxUcECa0yeUBsXUcw==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-7.trl" />
-		<!--========= Trail Highlight Markers for A =========-->
-		<POI MapID="1517" xpos="-64.01521" ypos="270.3015" zpos="-374.6167" type="tt.soto.mt.th.m" GUID="PQ/D17ldXU6n7rFUuCJvew==" script-trigger="Teh_HighlightTrailSegment(vS6JAA3/40SoMHpcTpB8qw==)" />
-		<POI MapID="1517" xpos="-818.9303" ypos="455.3606" zpos="690.8492" type="tt.soto.mt.th.m" GUID="7mhXYjlC10KiTWE4ME+4QQ==" script-trigger="Teh_HighlightTrailSegment(JejKlFIpAkW12T82XPvpPQ==)" />
-		<POI MapID="1517" xpos="903.6577" ypos="379.2025" zpos="178.2025" type="tt.soto.mt.th.m" GUID="TnvUX85ngk2BjJ9l0PtTcg==" script-trigger="Teh_HighlightTrailSegment(mdJNYDUJi0WZp+34cPtDCQ==)" />
-		<POI MapID="1517" xpos="896.8322" ypos="296.3009" zpos="-367.5264" type="tt.soto.mt.th.m" GUID="jql0W3WZSEy9DSVeULE3TQ==" script-trigger="Teh_HighlightTrailSegment(djxuoTGNx0aZetCjx1jR/A==)" />
-		<POI MapID="1517" xpos="-39.555" ypos="222.0357" zpos="-809.3985" type="tt.soto.mt.th.m" GUID="Kji2uWCW2Uy8iTCcOscgKw==" script-trigger="Teh_HighlightTrailSegment(Z6qyF917HEi/S4uWpEXeqA==)" />
-		<POI MapID="1517" xpos="-495.7524" ypos="503.9044" zpos="-76.75379" type="tt.soto.mt.th.m" GUID="qwoRugxW40CIYOcRTPpTQw==" script-trigger="Teh_HighlightTrailSegment(6K23GqTcnEWjRXbrFb3EGw==)" />
-		<POI MapID="1517" xpos="-387.8402" ypos="458.3434" zpos="702.3315" type="tt.soto.mt.th.m" GUID="0YOPGQnUX0WFwwNAFWDFbQ==" script-trigger="Teh_HighlightTrailSegment(r/sl8JC0MEWYhYf2VGJhUg==)" />
-		<POI MapID="1517" xpos="-389.7792" ypos="452.7057" zpos="701.227" type="tt.soto.mt.th.m" GUID="aj/H9glTrUaZR5qc7Nr1mA==" script-trigger="Teh_HighlightTrailSegment(MnGTu9oOUUeBuu2SveCmVw==)" />
-		<POI MapID="1517" xpos="386.6182" ypos="385.677" zpos="409.176" type="tt.soto.mt.th.m" GUID="jGpRAhzdmEKeTLC8u+G7xQ==" script-trigger="Teh_HighlightTrailSegment(BHz2DlEhKUCQyhZTl+srDw==)" />
-		<POI MapID="1517" xpos="791.4449" ypos="288.6768" zpos="-275.4958" type="tt.soto.mt.th.m" GUID="Zp2jGMvBZE+TwBR4fTKsiA==" script-trigger="Teh_HighlightTrailSegment(EuRiCgHvcE+szAzhnsWstQ==)" />
-		<POI MapID="1517" xpos="641.5132" ypos="275.6582" zpos="-572.7988" type="tt.soto.mt.th.m" GUID="TB8vqbBCHEGOcFR2x6Px/w==" script-trigger="Teh_HighlightTrailSegment(yPex/Lp7wkmWLQ3VO7YT1g==)" />
-		<!--========= Highlight Trail Segments for A =========-->
-		<Trail type="tt.soto.mt.th.t1" GUID="cRlvlYbJPkeXAAs2m7nZBA==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-0.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="vS6JAA3/40SoMHpcTpB8qw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-1.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="JejKlFIpAkW12T82XPvpPQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-2.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="mdJNYDUJi0WZp+34cPtDCQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-3.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="djxuoTGNx0aZetCjx1jR/A==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-4.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="Z6qyF917HEi/S4uWpEXeqA==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-5.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="6K23GqTcnEWjRXbrFb3EGw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-6.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="r/sl8JC0MEWYhYf2VGJhUg==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-7.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="MnGTu9oOUUeBuu2SveCmVw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-8.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="BHz2DlEhKUCQyhZTl+srDw==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-9.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="EuRiCgHvcE+szAzhnsWstQ==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-10.trl" />
-		<Trail type="tt.soto.mt.th.t" GUID="yPex/Lp7wkmWLQ3VO7YT1g==" trailData="Data\TehsTrails\SotOTrails\A\A-Segment-11.trl" />
-		<!--========= Trail Highlight Markers for ADispTrail1 =========-->
-		<!--========= Highlight Trail Segments for ADispTrail1 =========-->
-		<Trail type="tt.soto.mt.th.t1" GUID="ltfL6ua8WUmqGuvRK3exBA==" trailData="Data\TehsTrails\SotOTrails\ADispTrail1\ADispTrail1-Segment-0.trl" />
-		<!--========= Trail Highlight Markers for ADispTrail2 =========-->
-		<!--========= Highlight Trail Segments for ADispTrail2 =========-->
-		<Trail type="tt.soto.mt.th.t1" GUID="aHW0SF1Jt0CegzdewqSXwg==" trailData="Data\TehsTrails\SotOTrails\ADispTrail2\ADispTrail2-Segment-0.trl" />
-		<!--========= Trail Highlight Markers for ADispTrail3 =========-->
-		<!--========= Highlight Trail Segments for ADispTrail3 =========-->
-		<Trail type="tt.soto.mt.th.t1" GUID="41TUQ97cfk22rL/j6bmWgQ==" trailData="Data\TehsTrails\SotOTrails\ADispTrail3\ADispTrail3-Segment-0.trl" />
-		<!--========= Trail Highlight Markers for ADispTrail4 =========-->
-		<!--========= Highlight Trail Segments for ADispTrail4 =========-->
-		<Trail type="tt.soto.mt.th.t1" GUID="CyazwQWxmEerDmtVlBKogw==" trailData="Data\TehsTrails\SotOTrails\ADispTrail4\ADispTrail4-Segment-0.trl" />
 		<!--========= Trail Highlight Markers for SA =========-->
 		<POI MapID="1510" xpos="781.965" ypos="76.30852" zpos="-226.87" type="tt.soto.mt.th.m" GUID="aSOBzgR7j0afuyU5PLdDLA==" script-trigger="Teh_HighlightTrailSegment(FczXiqKLUEuO1K5e2w0M9A==)" />
 		<POI MapID="1510" xpos="1151.993" ypos="163.3001" zpos="-138.9718" type="tt.soto.mt.th.m" GUID="UXlp8JpoLkSislWC5u5kJg==" script-trigger="Teh_HighlightTrailSegment(BKfeLJqq1Uax8cMj8PqQ1Q==)" />
