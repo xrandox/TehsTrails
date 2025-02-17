@@ -33,21 +33,6 @@ preload(Teh.trailhighlighting.trailCategories, Teh.trailhighlighting.allTrails)
 preload(Teh.trailhighlighting.firstTrailCategories, Teh.trailhighlighting.firstTrail)
 preload(Teh.trailhighlighting.mainTrailCategories, Teh.trailhighlighting.mainTrails)
 
-if (#Teh.trailhighlighting.allTrails == 0) then
-    Debug:Warn("No trails found for highlighting on the current map: " .. Mumble.CurrentMap.Id)
-
-    if (#Teh.trailhighlighting.mainTrails == 0) then
-        Debug:Warn("No main trails found either")
-    else
-        Debug:Warn("Main trails found, switching to default mode")
-        for _, trail in pairs(Teh.trailhighlighting.mainTrails) do
-            trail.InGameVisibility = true
-            trail.MapVisibility = Teh_GetBool('mapToggled')
-            trail.MiniMapVisibility = Teh_GetBool('minimapToggled')
-        end
-    end
-    return
-end
 --#endregion
 
 --#region LOCAL FUNCTIONS
@@ -216,7 +201,25 @@ end
 --#region GLOBAL FUNCTIONS
 
 function Teh_TryHighlightActiveTrail()
-    highlightActiveTrail()
+    if (#Teh.trailhighlighting.allTrails == 0) then
+        Debug:Warn("No trails found for highlighting on the current map: " .. Mumble.CurrentMap.Id)
+
+        if (#Teh.trailhighlighting.mainTrails == 0) then
+            Debug:Warn("No main trails found either")
+        else
+            Debug:Warn("Main trails found, switching to default mode")
+            for _, category in ipairs(Teh.trailhighlighting.mainTrailCategories) do
+                World:CategoryByType(category):Show()
+            end
+            for _, trail in pairs(Teh.trailhighlighting.mainTrails) do
+                trail.InGameVisibility = true
+                trail.MapVisibility = Teh_GetBool('mapToggled')
+                trail.MiniMapVisibility = Teh_GetBool('minimapToggled')
+            end
+        end
+    else
+        highlightActiveTrail()
+    end
 end
 
 function Teh_HighlightTrailSegment(marker, isAutoTrigger, guid)
@@ -237,7 +240,7 @@ function Teh_HighlightTrailSegment(marker, isAutoTrigger, guid)
 
     Teh.trailhighlighting.activeTrail = World:TrailByGuid(guid)
     Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
-    highlightActiveTrail()
+    Teh_TryHighlightActiveTrail()
 
     table.insert(Teh.trailhighlighting.consumed, marker)
 end
@@ -254,7 +257,7 @@ function Teh_ChangeHighlightTrailSegment(amount)
     Teh.trailhighlighting.activeTrail = Teh.trailhighlighting.allTrails[nextTrailNumber]
     Teh.trailhighlighting.activeTrailNumber = nextTrailNumber
 
-    highlightActiveTrail()
+    Teh_TryHighlightActiveTrail()
 end
 
 function Teh_ResetHighlightTrailSegment()
@@ -262,7 +265,7 @@ function Teh_ResetHighlightTrailSegment()
     Teh.trailhighlighting.activeTrail = Teh.trailhighlighting.firstTrail[1]
     Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
     Teh.trailhighlighting.consumed = {}
-    highlightActiveTrail()
+    Teh_TryHighlightActiveTrail()
     if Teh.trailhighlighting.warningmarker then
         Teh.trailhighlighting.warningmarker.InGameVisibility = false
         Teh.trailhighlighting.warningmarker:Remove()
@@ -273,7 +276,7 @@ function Teh_ToggleTrailHighlighting()
     Debug:Print("Toggling trail highlighting")
     if (Teh_GetBool('trailHighlighting') == true) then
         loadStorage()
-        highlightActiveTrail()
+        Teh_TryHighlightActiveTrail()
     else
         for _, trail in pairs(Teh.trailhighlighting.allTrails) do
             trail.InGameVisibility = false
@@ -303,7 +306,7 @@ function Teh_ResetAllMapTrailsForCharacter()
 
     Teh.trailhighlighting.activeTrail = Teh.trailhighlighting.firstTrail[1]
     Teh.trailhighlighting.activeTrailNumber = getActiveTrailNumber()
-    highlightActiveTrail()
+    Teh_TryHighlightActiveTrail()
     if Teh.trailhighlighting.warningmarker then
         Teh.trailhighlighting.warningmarker.InGameVisibility = false
         Teh.trailhighlighting.warningmarker:Remove()
@@ -316,7 +319,7 @@ end
 
 if (Teh_GetBool('trailHighlighting') == true) then
     loadStorage()
-    highlightActiveTrail()
+    Teh_TryHighlightActiveTrail()
 end
 
 --#endregion
