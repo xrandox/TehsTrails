@@ -10187,16 +10187,14 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.eod.mt.th.t" GUID="enULM4Wc7Eu6xzPEK3uzgQ==" trailData="Data\TehsTrails\EoDTrails\DE\DE-Segment-4.trl" />
 		<Trail type="tt.eod.mt.th.t" GUID="JvU9KzxsHUOcrY14X0I09A==" trailData="Data\TehsTrails\EoDTrails\DE\DE-Segment-5.trl" />
 		<!--========= Trail Highlight Markers for NKC =========-->
-		<POI MapID="1438" xpos="507.6577" ypos="2.623" zpos="34.41507" type="tt.eod.mt.th.m" GUID="aEpOlnjjkkWgVsc32w6eYw==" script-trigger="Teh_HighlightTrailSegment(gabJYhwB+Ui+ijnjjwBDBg==)" />
-		<POI MapID="1438" xpos="585.1694" ypos="89.50857" zpos="73.87897" type="tt.eod.mt.th.m" GUID="mI6wVPF6oUqAXdAyDdi6tg==" script-trigger="Teh_HighlightTrailSegment(64H2llxKzEieAVoT95+uzA==)" />
+		<POI MapID="1438" xpos="507.6577" ypos="2.623" zpos="34.41507" type="tt.eod.mt.th.m" GUID="aEpOlnjjkkWgVsc32w6eYw==" script-trigger="Teh_HighlightTrailSegment(64H2llxKzEieAVoT95+uzA==)" />
 		<POI MapID="1438" xpos="936.8337" ypos="-54.01402" zpos="579.5723" type="tt.eod.mt.th.m" GUID="akYgcGwR6katw3aSltsuww==" script-trigger="Teh_HighlightTrailSegment(BKMdC1iVmEma8rI0XCo1Zg==)" />
 		<POI MapID="1438" xpos="-506.7803" ypos="273.0102" zpos="368.7681" type="tt.eod.mt.th.m" GUID="IaOo3cx9DkO52PbFnR6Eww==" script-trigger="Teh_HighlightTrailSegment(97TWac9JDUK1Yy+78hUoAA==)" />
 		<!--========= Highlight Trail Segments for NKC =========-->
 		<Trail type="tt.eod.mt.th.t1" GUID="UrNm6LcG1U+oCgPV1kNK6Q==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-0.trl" />
-		<Trail type="tt.eod.mt.th.t" GUID="gabJYhwB+Ui+ijnjjwBDBg==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-1.trl" />
-		<Trail type="tt.eod.mt.th.t" GUID="64H2llxKzEieAVoT95+uzA==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-2.trl" />
-		<Trail type="tt.eod.mt.th.t" GUID="BKMdC1iVmEma8rI0XCo1Zg==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-3.trl" />
-		<Trail type="tt.eod.mt.th.t" GUID="97TWac9JDUK1Yy+78hUoAA==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-4.trl" />
+		<Trail type="tt.eod.mt.th.t" GUID="64H2llxKzEieAVoT95+uzA==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-1.trl" />
+		<Trail type="tt.eod.mt.th.t" GUID="BKMdC1iVmEma8rI0XCo1Zg==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-2.trl" />
+		<Trail type="tt.eod.mt.th.t" GUID="97TWac9JDUK1Yy+78hUoAA==" trailData="Data\TehsTrails\EoDTrails\NKC\NKC-Segment-3.trl" />
 		<!--========= Trail Highlight Markers for SP =========-->
 		<POI MapID="1442" xpos="558.5107" ypos="4.105331" zpos="343.4211" type="tt.eod.mt.th.m" GUID="5Hi4SlEFekW2dxfVBWmBmg==" script-trigger="Teh_HighlightTrailSegment(zAhIzIxuk0an/zpSIjlurw==)" />
 		<POI MapID="1442" xpos="-617.8403" ypos="4.678342" zpos="539.6782" type="tt.eod.mt.th.m" GUID="TbMYPrVOB0qm4V0A0Ph3WQ==" script-trigger="Teh_HighlightTrailSegment(o5dbyrzlC0q5FeCZvg6IzQ==)" />
