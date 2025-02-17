@@ -29,6 +29,7 @@ Teh.storage = {
     hpTrailsOnMinimap = "false",
     tosTrailsOnMap = "true",
     tosTrailsOnMinimap = "false",
+    versionSixFirstLaunch = "true",
 }
 
 Debug:Watch("Teh_Storage", Teh.storage)

@@ -207,6 +207,7 @@ local function resetClicked(menu)
     if (Teh.heartfollower.isFollowing) then Teh_FollowerReset() end
     if (Teh.highlight.waypointHighlighted) then Teh_HighlightReset() end
     Teh_SaveValue("hasSkyscale", "false")
+    Teh_SaveValue("versionSixFirstLaunch", "true")
 end
 
 -- Creating Menu
