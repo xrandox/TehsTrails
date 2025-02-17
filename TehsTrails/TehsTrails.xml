@@ -8821,7 +8821,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1452" xpos="-176.33" ypos="181.443" zpos="342.633" type="tt.eod.h.chm.interact" info="Grab battery if you have less than 2 charges" infoRange="50.0" GUID="kFKvcTbjkkCFrDr4MmPeqA=="/>
 		<POI MapID="1452" xpos="-278.835" ypos="214.349" zpos="346.493" type="tt.eod.h.chm.interact" GUID="HkXin0GvQUuVoeWjDtJRJA=="/>
 		<POI MapID="1452" xpos="-278.917" ypos="211.758" zpos="380.97" type="tt.eod.cm.mm.beetle" GUID="nsa/mpXXNkOkK27jdWK6Dw=="/>
-		<POI MapID="1452" xpos="-279.824" ypos="216.458" zpos="296.759" type="tt.eod.cm.rm.points_of_interest" GUID="FDVR78FS/Ee2ESUhPMATig=="/>
+		<POI MapID="1452" xpos="-279.824" ypos="216.458" zpos="296.759" type="tt.eod.cm.rm.points_of_interest" info="Get POI, grab battery charges, then exit back through teleporter" infoRange="10" GUID="FDVR78FS/Ee2ESUhPMATig=="/>
 		<POI MapID="1452" xpos="-183.669" ypos="152.249" zpos="102.01" type="tt.eod.cm.rm.points_of_interest" GUID="uuxjNyx0CEuoXIWeG3jOLA=="/>
 		<POI MapID="1452" xpos="-94.5334" ypos="147.668" zpos="96.3889" type="tt.eod.cm.mm.skyscale" GUID="PpHzmNV9tkqqAKrkBpOqpQ=="/>
 		<POI MapID="1452" xpos="-72.9437" ypos="159.359" zpos="109.737" type="tt.eod.cm.rm.points_of_interest" GUID="ftQy2uJ9DkyU6V1qGR0TEQ=="/>
@@ -8845,7 +8845,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1452" xpos="86.4017" ypos="219.94" zpos="-493.984" type="tt.eod.cm.rm.points_of_interest" GUID="yytKk4uu1UCHJ03VhxyTfg=="/>
 		<POI MapID="1452" xpos="69.7034" ypos="223.086" zpos="-276.489" type="tt.eod.cm.rm.points_of_interest" GUID="RAsCdzRb20egE0ZZDkyN1w=="/>
 		<POI MapID="1452" xpos="261.26" ypos="195.694" zpos="-284.873" type="tt.eod.h.chm.interact" GUID="WI8ghh04zUKtKwA59s7kpQ=="/>
-		<POI MapID="1452" xpos="287.874" ypos="137.185" zpos="-247.032" type="tt.eod.cm.rm.points_of_interest" GUID="lO3vxfSfqUqQ5S3uxR1BwQ=="/>
+		<POI MapID="1452" xpos="287.874" ypos="137.185" zpos="-247.032" type="tt.eod.cm.rm.points_of_interest" info="Get POI, grab battery charges, then exit back through teleporter" infoRange="10" GUID="lO3vxfSfqUqQ5S3uxR1BwQ=="/>
 		<POI MapID="1452" xpos="270.913" ypos="195.181" zpos="-308.065" type="tt.eod.cm.mm.griffon" GUID="Fd1wO0XWQU2XXrauUV8FGg=="/>
 		<POI MapID="1452" xpos="396.063" ypos="72.7926" zpos="-319.878" type="tt.eod.cm.rm.points_of_interest" GUID="cVTp8HAB3Ei7/zCwx9urCg=="/>
 		<POI MapID="1452" xpos="483.713" ypos="33.7091" zpos="-100.025" type="tt.eod.cm.rm.points_of_interest" GUID="kLtVmbAeyk62o/GhVpRGgw=="/>
