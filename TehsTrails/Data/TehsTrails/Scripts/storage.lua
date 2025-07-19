@@ -30,6 +30,7 @@ Teh.storage = {
     tosTrailsOnMap = "true",
     tosTrailsOnMinimap = "false",
     versionSixFirstLaunch = "true",
+    trailHighlightMarkers = "false",
 }
 
 Debug:Watch("Teh_Storage", Teh.storage)

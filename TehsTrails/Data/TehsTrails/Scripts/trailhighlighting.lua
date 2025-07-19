@@ -294,6 +294,14 @@ function Teh_ToggleTrailHighlighting()
     end
 end
 
+function Teh_ToggleTrailHighlightMarkers()
+    Debug:Print("Toggling trail highlight markers")
+    local category = World:CategoryByType("tt.hot.mt.th.m")
+    for _, markers in pairs(category:GetMarkers()) do
+        markers.InGameVisibility = Teh_GetBool("trailHighlightMarkers")
+    end
+end
+
 function Teh_ResetAllMapTrailsForCharacter()
     Debug:Print("Resetting all map trails for character")
     local playerName = Mumble.PlayerCharacter.Name
@@ -321,5 +329,7 @@ if (Teh_GetBool('trailHighlighting') == true) then
     loadStorage()
     Teh_TryHighlightActiveTrail()
 end
+
+Teh_ToggleTrailHighlightMarkers()
 
 --#endregion

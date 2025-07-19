@@ -9,6 +9,12 @@ local function enableTrailHighlighting(menu)
     Teh_ToggleTrailHighlighting()
 end
 
+local function enableTrailHighlightMarkers(menu)
+    Teh_ToggleStorage("trailHighlightMarkers")
+    menu.Checked = Teh_GetBool("trailHighlightMarkers")
+    Teh_ToggleTrailHighlightMarkers()
+end
+
 local function transparentTrail(menu)
     Teh_ToggleStorage("trailHighlightingTransparency")
     menu.Checked = Teh_GetBool("trailHighlightingTransparency")
@@ -217,6 +223,7 @@ mainMenu:Add("Show/Hide Tutorial", toggleTutorial, false, false, "Shows/Hides th
 
 local trailHighlighting = mainMenu:Add("Trail Highlighting", nil, false, false, "Change various settings for trail highlighting")
 trailHighlighting:Add("Enable Trail Highlighting", enableTrailHighlighting, true, Teh_GetBool("trailHighlighting"), "Enables/Disables the trail highlighting feature")
+trailHighlighting:Add("Show Highlight Trigger Markers", enableTrailHighlightMarkers, true, Teh_GetBool("trailHighlightMarkers"), "Enables/Disables the markers that show where the trail highlighting switches to the next trail. Useful for testing purposes or if you miss a trigger")
 local highlightSettings = trailHighlighting:Add("Highlight Settings", nil, false, false, "Settings for the trail highlighting feature")
 highlightSettings:Add("Transparency", transparentTrail, true, Teh_GetBool("trailHighlightingTransparency"), "When enabled, the trail will be transparent except for the highlighted segment")
 highlightSettings:Add("Gray Out Trail", grayOutTrail, true, Teh_GetBool("trailHighlightingGray"), "When enabled, the trail will be grayed out except for the highlighted segment")

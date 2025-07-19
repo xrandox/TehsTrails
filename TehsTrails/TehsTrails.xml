@@ -18,7 +18,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="0" miniMapVisibility="0" iconFile="Data/TehsTrails/Markers/tht.png" mapVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
@@ -215,7 +215,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="0" miniMapVisibility="0" iconFile="Data/TehsTrails/Markers/tht.png" mapVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -325,7 +325,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="0" miniMapVisibility="0" iconFile="Data/TehsTrails/Markers/tht.png" mapVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -437,7 +437,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="0" miniMapVisibility="0" iconFile="Data/TehsTrails/Markers/tht.png" mapVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -514,7 +514,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="0" miniMapVisibility="0" iconFile="Data/TehsTrails/Markers/tht.png" mapVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -585,7 +585,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="th" DisplayName="Trail Highlighting">
 					<MarkerCategory name="t1" DisplayName="First Trail Segment"/>
 					<MarkerCategory name="t" DisplayName="Main Trail Segments"/>
-					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="1" miniMapVisibility="1" iconFile="Data/TehsTrails/Markers/caution.png" mapVisibility="1"/>
+					<MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="0" miniMapVisibility="0" iconFile="Data/TehsTrails/Markers/tht.png"  mapVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 
@@ -8203,7 +8203,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1052" xpos="222.609" ypos="507.174" zpos="-334.373" type="tt.hot.cm.rm.dismount" GUID="1g6Ixgj/y0WUowNnUeRGDg=="/>
 		<POI MapID="1052" xpos="225.279" ypos="614.951" zpos="299.613" type="tt.hot.cm.rm.points_of_interest" GUID="4OhWbsAXvk2LvIE3iNMTGA=="/>
 		<POI MapID="1052" xpos="237.107" ypos="522.847" zpos="-332.219" type="tt.hot.cm.rm.points_of_interest" GUID="HVVvTEjKuE29SL770LZXiA=="/>
-		<POI MapID="1052" xpos="288.52" ypos="841.911" zpos="-150.193" type="tt.hot.cm.mm.griffon" GUID="BkqwL82TLUC+uLpUFsPg9w=="/>
+		<POI MapID="1052" xpos="288.52" ypos="841.911" zpos="-150.193" type="tt.hot.cm.mm.skyscale" GUID="BkqwL82TLUC+uLpUFsPg9w=="/>
 		<POI MapID="1052" xpos="358.986" ypos="164.465" zpos="142.302" type="tt.hot.cm.wm.wpcircle" GUID="yWyROn7JG0ybrvSGK9mlog=="/>
 		<POI MapID="1052" xpos="376.257" ypos="434.822" zpos="-387.978" type="tt.hot.cm.rm.waypoints" GUID="sIplKuvLVEuRkUD86b0qBA=="/>
 		<POI MapID="1052" xpos="394.195" ypos="671.535" zpos="202.084" type="tt.hot.cm.rm.points_of_interest" GUID="lxBc4nsrJEuC3S6oNLudPQ=="/>
@@ -8448,6 +8448,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1045" xpos="440.675" ypos="14.7514" zpos="152.912" type="tt.hot.cm.rm.points_of_interest" GUID="DX8Mejppfk6XGOHo48x6YQ=="/>
 		<POI MapID="1045" xpos="413.966" ypos="65.8858" zpos="-113.6" type="tt.hot.cm.rm.points_of_interest" GUID="C4sfIxc6qEWRDBY6RQ4wqA=="/>
 		<POI MapID="1045" xpos="346.605" ypos="21.0508" zpos="-53.3757" type="tt.hot.cm.rm.points_of_interest" GUID="IN0CyTacDUa9ys25QUsBug=="/>
+		<POI MapID="1045" xpos="-812.6974" ypos="16.87885" zpos="-546.1147" GUID="IN0CyTacDUa9ys25QUsBig==" type="tt.hot.cm.rm.finish" />
 	<!--DRAGON STAND MARKERS-->
 
     <!--BLOODSTONE FEN MARKERS-->
@@ -8517,7 +8518,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1043" xpos="73.2509" ypos="227.935" zpos="-746.947" type="tt.hot.cm.nwm.tpm" GUID="AdzhxGmjCkaqFYOtBWJiZA==" script-focus="Teh_HighlightWaypoint(6+RbgBurykGsu01TpIv4fA==)" />
 		<POI MapID="1045" xpos="-489.881" ypos="79.5003" zpos="115.345" type="tt.hot.cm.nwm.tpm" script-trigger="Teh_Bounce(Cov9lh0Os0eeYlj842SyAA==)" script-focus="Teh_HighlightWaypoint(uLiMbGH1/0e/IgIJpwps/A==)" GUID="bRWe9dmxQEmwrAM5GpINrw=="/>
 		<POI MapID="1045" xpos="-710.818" ypos="241.623" zpos="206.231" type="tt.hot.cm.nwm.wph" GUID="uLiMbGH1/0e/IgIJpwps/A=="/>
-		<POI MapID="1045" xpos="-812.416" ypos="18.6827" zpos="-545.284" type="tt.hot.cm.nwm.tpm" GUID="qdSIU85KlEmZEuvBNHJwPg=="/>
 		<POI MapID="1045" xpos="765.446" ypos="30.9387" zpos="-103.446" type="tt.hot.cm.nwm.tpm" script-trigger="Teh_Bounce(vX5EvaDAYU+BqACyclTBOw==)" script-focus="Teh_HighlightWaypoint(+aECa4wM9kGAz+EHtSphAQ==)" GUID="OyWh+I51yUakUpILTCRgqA=="/>
 		<POI MapID="1045" xpos="28.903" ypos="125.661" zpos="377.668" type="tt.hot.cm.nwm.wph" GUID="+aECa4wM9kGAz+EHtSphAQ=="/>
 		<POI MapID="1045" xpos="-1.60676" ypos="45.0551" zpos="434.587" type="tt.hot.cm.nwm.tpm" script-trigger="Teh_Bounce(N/7D02MxCEe8Q52tSZfWlw==)" script-focus="Teh_HighlightWaypoint(+aECa4wM9kGAz+EHtSphAQ==)" GUID="0JxFQcFa1UetNUQ1r7WgNQ=="/>
@@ -10291,8 +10291,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<POI MapID="1045" xpos="765.6929" ypos="30.88449" zpos="-100.7441" type="tt.hot.mt.th.m" GUID="5WbcU/BkvUG/4jFOV3k70g==" script-trigger="Teh_HighlightTrailSegment(E3CvugWcC06DgrylA4c+uA==)" />
 		<POI MapID="1045" xpos="-0.994298" ypos="45.52515" zpos="431.9803" type="tt.hot.mt.th.m" GUID="kcizfwcGRk+Y7Df80x9/wA==" script-trigger="Teh_HighlightTrailSegment(KQhCJ0wpHk2ED60BnIM2cg==)" />
 		<POI MapID="1045" xpos="346.5221" ypos="21.07286" zpos="-56.10522" type="tt.hot.mt.th.m" GUID="P5ULD7lklEaNVTziaJ9JvA==" script-trigger="Teh_HighlightTrailSegment(BSMVtzOc60uKyshq9CISSQ==)" />
-		<POI MapID="1045" xpos="-641.2792" ypos="208.522" zpos="-53.72111" type="tt.hot.mt.th.m" GUID="pQffmlIxwEOXGkZK/KU2Qw==" script-trigger="Teh_HighlightTrailSegment(wdLNfjrnVUKpsuHJiprMxw==)" />
-		<POI MapID="1045" xpos="-809.5563" ypos="19.58812" zpos="-545.3589" type="tt.hot.mt.th.m" GUID="lM1cYFKRM0am+CJUpTr+pw==" script-trigger="Teh_HighlightTrailSegment(IlpMXqCnpUyga2Y2uS0iRw==)" />
+		<POI MapID="1045" xpos="-489.1146" ypos="79.45382" zpos="115.2569" type="tt.hot.mt.th.m" GUID="lM1cYFKRM0am+CJUpTr+pw==" script-trigger="Teh_HighlightTrailSegment(wdLNfjrnVUKpsuHJiprMxw==)" />
+		<POI MapID="1045" xpos="-641.2792" ypos="208.522" zpos="-53.72111" type="tt.hot.mt.th.m" GUID="pQffmlIxwEOXGkZK/KU2Qw==" script-trigger="Teh_HighlightTrailSegment(IlpMXqCnpUyga2Y2uS0iRw==)" />
+
 		<!--========= Highlight Trail Segments for TD =========-->
 		<Trail type="tt.hot.mt.th.t1" GUID="7+gmCE1lYEOjOOp013MiXw==" trailData="Data/TehsTrails/HoTMCTrails/TD/TD-Segment-0.trl" />
 		<Trail type="tt.hot.mt.th.t" GUID="SVQDnzoneE2613WI7Jgl0A==" trailData="Data/TehsTrails/HoTMCTrails/TD/TD-Segment-1.trl" />
