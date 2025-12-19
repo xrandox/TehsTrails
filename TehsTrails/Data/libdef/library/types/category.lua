@@ -35,4 +35,9 @@ function Category.Hide(this) end
 ---@return Marker[] markers
 function Category.GetMarkers(this, getAll) end
 
+---Returns all trails directly within the category.
+---@param getAll? boolean # If true, all child trails are returned. If false or not provided, only the trails directly within the category are returned.
+---@return Trail[] trails
+function Category.GetTrails(this, getAll) end
+
 --#endregion

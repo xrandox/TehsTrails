@@ -1,6 +1,7 @@
 Teh.storage = {
     --These are the default values
     minimapToggled = "false",
+    mapToggled = "true",
     heartZonesOnMap = "false",
     heartZonesOnMinimap = "false",
     globalMarkersToggled = "false",
@@ -9,9 +10,27 @@ Teh.storage = {
     bounceToggled = "true",
     highlightToggled = "true",
     hasSkyscale = "false",
-    trailColor = "Light Blue [Default]",
+    trailColorTable = {
+        ["main"] = "Light Blue [Default]",
+        ["hp"] = "Yellow [Default]",
+        ["heart"] = "Yellow and Black [Default]",
+        ["tos"] = "Red [Default]"
+    },
     firstLaunch = "true",
-    alternateMounts = "false"
+    alternateMounts = "false",
+    trailHighlighting = "true",
+    trailHighlightingTransparency = "true",
+    trailHighlightingGray = "false",
+    trailHighlightingInvisible = "false",
+    trailHighlightingShowOnMapStill = "false",
+    transparency = "100%",
+    trailHighlightingStates = {},
+    hpTrailsOnMap = "true",
+    hpTrailsOnMinimap = "false",
+    tosTrailsOnMap = "true",
+    tosTrailsOnMinimap = "false",
+    versionSixFirstLaunch = "true",
+    trailHighlightMarkers = "false",
 }
 
 Debug:Watch("Teh_Storage", Teh.storage)
@@ -20,7 +39,11 @@ Debug:Watch("Teh_Storage", Teh.storage)
 for key, _ in pairs(Teh.storage) do
     local storedValue = Storage:ReadValue("tehstrails", key)
     if (storedValue ~= nil) then
-        Teh.storage[key] = storedValue
+        if (key == "trailHighlightingStates" or key == "trailColorTable") then
+            Teh.storage[key] = table.FromLson(storedValue)
+        else
+            Teh.storage[key] = storedValue
+        end
     end
 end
 
@@ -43,4 +66,10 @@ function Teh_ToggleStorage(key)
     else
         Teh_SaveValue(key, "true")
     end
+end
+
+function Teh_SaveTable(key, tableToSave)
+    local str = table.ToLson(tableToSave)
+    Storage:UpsertValue("tehstrails", key, str)
+    Teh.storage[key] = tableToSave
 end

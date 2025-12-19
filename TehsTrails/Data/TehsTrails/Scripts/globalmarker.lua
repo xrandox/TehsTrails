@@ -3,7 +3,7 @@ Teh.globalmarker = {
     isVisible = false,
     rects = Teh.lookups.rects,
     coordinateTable = Teh.lookups.coordinateTable,
-    category = World:CategoryByType("tt.mc.cm.rm.points_of_interest")
+    category = World:CategoryByType("tt.mc.cm.rm.start")
 }
 
 Debug:Watch("Teh_GlobalMarker", Teh.globalmarker)
@@ -23,12 +23,12 @@ local function createGlobalMarkers()
             xpos = x,
             ypos = 0,
             zpos = y,
-            MapDisplaySize = 100,
+            MapDisplaySize = 50,
             MapVisibility = true,
             InGameVisibility = false,
             ScaleOnMapWithZoom = false,
             Category = Teh.globalmarker.category,
-            iconFile = "Data/TehsTrails/Markers/waypoint-highlight.png"
+            iconFile = "Data/TehsTrails/Markers/Start.png"
         }
 
         Teh.globalmarker.currentMarkers[i] = Pack:CreateMarker(attributes)
