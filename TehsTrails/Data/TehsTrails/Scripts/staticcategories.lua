@@ -17,6 +17,7 @@ Teh.static = {
             "tt.credits.foxe.foxe3",
             "tt.credits.odeh.odeh1",
             "tt.credits.radd.radd0",
+            "tt.credits.arek.arek1",
             "tt.credits.orig.orig2",
             "tt.credits.maptesters.contributor",
             "tt.credits.assets.assets0",

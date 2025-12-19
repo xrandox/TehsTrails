@@ -677,6 +677,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				<MarkerCategory name="radd0" DisplayName="Orange Turtle.3546"/>
 			</MarkerCategory>
 
+			<MarkerCategory name="arek" DisplayName="The Unpaid QA Department">
+				<MarkerCategory name="arek" DisplayName="Who tested the latest features" isseparator="1"/>
+				<MarkerCategory name="arek0" DisplayName="like five times over:" isseparator="1"/>
+				<MarkerCategory name="arek1" DisplayName="Areki.5906"/>
+			</MarkerCategory>
+
 			<MarkerCategory name="orig" DisplayName="The Original Pioneers">
 				<MarkerCategory name="orig" DisplayName="Who developed the base routing that I" isseparator="1"/>
 				<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:" isseparator="1"/>
@@ -687,7 +693,6 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 			<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors">
 				<MarkerCategory name="maptester0" DisplayName="Alatar.7364" isseparator="1"/>
 				<MarkerCategory name="maptester1" DisplayName="Ank.9537" isseparator="1"/>
-				<MarkerCategory name="maptester30" DisplayName="Areki.5906" isseparator="1"/>
 				<MarkerCategory name="maptester25" DisplayName="bird.6987" isseparator="1"/>
 				<MarkerCategory name="maptester2" DisplayName="Blood.5607" isseparator="1"/>
 				<MarkerCategory name="maptester3" DisplayName="choco.5918" isseparator="1"/>
