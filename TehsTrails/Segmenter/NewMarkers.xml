@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!--========= Trail Highlight Markers for VB =========-->
+  <POI MapID="1052" xpos="717.1465" ypos="264.5551" zpos="42.46322" type="tt.hot.mt.th.m" GUID="gRlHKRBiJkCF6dojR+Edxg==" script-trigger="Teh_HighlightTrailSegment(L0GWaQh+2kuy/sY1gWjjvg==)" />
+  <POI MapID="1052" xpos="449.5401" ypos="365.7782" zpos="251.2252" type="tt.hot.mt.th.m" GUID="DjouFa+hZkyCuzu7Sy+yMQ==" script-trigger="Teh_HighlightTrailSegment(K5JaiXEBvUS2hfiU8kai4g==)" />
+  <POI MapID="1052" xpos="-271.826" ypos="377.0629" zpos="-174.2053" type="tt.hot.mt.th.m" GUID="ci683Lw2x0CdMQ2zBajZ9A==" script-trigger="Teh_HighlightTrailSegment(DFOVq1ocvUuGVwBClSV3Uw==)" />
+  <POI MapID="1052" xpos="91.45401" ypos="341.7758" zpos="-272.9719" type="tt.hot.mt.th.m" GUID="HLMtHJgkUUaA0WbSiTnQbg==" script-trigger="Teh_HighlightTrailSegment(gc2bNWUV9kW/b4mtkWfZYg==)" />
+  <POI MapID="1052" xpos="-680.9695" ypos="422.2627" zpos="-2.028823" type="tt.hot.mt.th.m" GUID="054LkPkJRUeEu6bRJoej2g==" script-trigger="Teh_HighlightTrailSegment(ZWHYfp0UlUmdf8DYCY5Ssw==)" />
+  <POI MapID="1052" xpos="-230.4201" ypos="500.9352" zpos="311.9482" type="tt.hot.mt.th.m" GUID="cAMcvDn3U06K6BscnGgojg==" script-trigger="Teh_HighlightTrailSegment(+yGtsjRRAEW1yuuAWytaTg==)" />
+  <POI MapID="1052" xpos="-723.4528" ypos="309.6183" zpos="315.8206" type="tt.hot.mt.th.m" GUID="jUCJgjd/vkKlwHH9wel1Ow==" script-trigger="Teh_HighlightTrailSegment(PcB8DQOzV0W7gKMadlvtHA==)" />
+  <!--========= Highlight Trail Segments for VB =========-->
+  <Trail type="tt.hot.mt.th.t1" GUID="9g/TAuXF80Gr5syyJ1L3Vw==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-0.trl" />
+  <Trail type="tt.hot.mt.th.t" GUID="L0GWaQh+2kuy/sY1gWjjvg==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-1.trl" />
+  <Trail type="tt.hot.mt.th.t" GUID="K5JaiXEBvUS2hfiU8kai4g==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-2.trl" />
+  <Trail type="tt.hot.mt.th.t" GUID="DFOVq1ocvUuGVwBClSV3Uw==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-3.trl" />
+  <Trail type="tt.hot.mt.th.t" GUID="gc2bNWUV9kW/b4mtkWfZYg==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-4.trl" />
+  <Trail type="tt.hot.mt.th.t" GUID="ZWHYfp0UlUmdf8DYCY5Ssw==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-5.trl" />
+  <Trail type="tt.hot.mt.th.t" GUID="+yGtsjRRAEW1yuuAWytaTg==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-6.trl" />
+  <Trail type="tt.hot.mt.th.t" GUID="PcB8DQOzV0W7gKMadlvtHA==" trailData="Data\TehsTrails\HoTMCTrails\VB\VB-Segment-7.trl" />
+</Root>
